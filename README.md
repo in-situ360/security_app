@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# My App
 
-TODO: Document your project here
+A web application built with React, TypeScript, and Tailwind CSS.
