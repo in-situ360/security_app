@@ -1,0 +1,24 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 class="header-title">{{ 'conectar.Conecta con' | translate }} {{ user?.name }} {{ user?.surname1 }} </h5><!--{{ user?.representativeName }}-->
+</ion-header>
+
+<ion-content>
+  <p class="textInfo">{{ 'conectar.Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.' | translate }}</p>
+
+  <textarea style="background-color: #FFFFFF;" rows="6" id="areaText" placeholder="{{ 'conectar.Escribe aquí...' | translate }}" [(ngModel)]="contenidoTextarea"
+    (input)="onTextareaInput()" maxlength="20000"></textarea>
+
+  <div class="relativeContainer">
+    <p class="textLong">{{ contenidoTextarea.length }}/30.000</p>
+  </div>
+
+  <p class="textInfo">{{ 'conectar.El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra' | translate }} <span [routerLink]="['/rgpd']" style="color:#F42EB2">{{ 'conectar.política de privacidad' | translate }}</span>.</p>
+
+ <!-- <p id="lastP" class="textInfo">{{ '* Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.' | translate }}</p>-->
+
+  <div id="divFooter">
+    <ion-button (click)="enviarSolicitud()" id="btnConect">{{ 'conectar.Conectar' | translate }}</ion-button>
+  </div>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

@@ -1,0 +1,1167 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "भाषा चयन",
+      "Seleccionar idioma": "भाषा चुनें",
+      "Selecciona el idioma que quieres que se muestre en la app": "ऐप में दिखाने के लिए भाषा चुनें",
+      "Aceptar y continuar": "स्वीकार करें और जारी रखें",
+      "Selecciona un idioma": "भाषा चुनें",
+      "Inglés": "अंग्रेज़ी",
+      "Español": "स्पेनिश",
+      "Francés": "फ़्रेंच",
+      "Alemán": "जर्मन",
+      "Italiano": "इतालवी",
+      "Portugués": "पुर्तगाली",
+      "Ruso": "रूसी",
+      "Chino(Simplificado)": "सरलीकृत चीनी",
+      "Chino(Tradicional)": "परंपरागत चीनी",
+      "Japonés": "जापानी",
+      "Coreano": "कोरियाई",
+      "Árabe": "अरबी",
+      "Hindi": "हिंदी",
+      "Bengalí": "बंगाली",
+      "Holandés": "डच",
+      "Sueco": "स्वीडिश",
+      "Noruego": "नॉर्वेजियन",
+      "Finlandés": "फिनिश",
+      "Danés": "डेनिश",
+      "Polaco": "पोलिश",
+      "Turco": "तुर्की",
+      "Griego": "यूनानी",
+      "Checo": "चेक",
+      "Hebreo": "हिब्रू",
+      "Húngaro": "हंगेरियन",
+      "Vietnamita": "वियतनामी",
+      "Indonesio": "इंडोनेशियाई",
+      "Tailandés": "थाई",
+      "Catalán": "कैटलन",
+      "Romanés": "रोमेनियन",
+      "Ucraniano": "यूक्रेनी",
+      "Serbio": "सर्बियाई",
+      "Croata": "क्रोएशियाई",
+      "Eslovaco": "स्लोवाक",
+      "Letón": "लातवियाई",
+      "Estonio": "एस्टोनियाई"
+    },
+  
+    "cover-page": {
+      "Registro": "पंजीकरण",
+      "Iniciar sesión": "लॉगिन करें"
+    },
+  
+    "login": {
+      "Iniciar sesión": "लॉगिन करें",
+      "Usuario": "उपयोगकर्ता",
+      "Contraseña": "पासवर्ड",
+      "He olvidado mi contraseña": "मैं अपना पासवर्ड भूल गया हूँ",
+      "Entrar": "प्रवेश करें",
+      "Entrar como invitado": "अतिथि के रूप में प्रवेश करें",
+      "¿Aún no tienes una cuenta?": "क्या आपके पास अभी तक खाता नहीं है?",
+      "Regístrate": "रजिस्टर करें",
+      "Entrando": "प्रवेश कर रहे हैं...",
+      "Usuario o contraseña incorrectos": "गलत उपयोगकर्ता नाम या पासवर्ड",
+      "El usuario ya se encuentra registrado": "उपयोगकर्ता पहले से ही पंजीकृत है",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "यह खाता अस्थायी रूप से अवरुद्ध है, अधिक जानकारी के लिए व्यवस्थापक से संपर्क करें",
+      "Error del servidor, inténtelo más tarde": "सर्वर त्रुटि, कृपया बाद में प्रयास करें",
+      "Error desconocido, inténtelo más tarde": "अज्ञात त्रुटि, कृपया बाद में प्रयास करें"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "पासवर्ड पुनर्प्राप्त करें",
+      "¿Has olvidado tu contraseña?": "क्या आप अपना पासवर्ड भूल गए हैं?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "अपना ईमेल दर्ज करें और हम आपको एक नया पासवर्ड भेजेंगे",
+      "Email": "ईमेल",
+      "Enviar": "भेजें",
+      "¡Se ha enviado el email correctamente!": "ईमेल सफलतापूर्वक भेजा गया!",
+      "Error al enviar el email": "ईमेल भेजने में त्रुटि"
+    },
+  
+    "register": {
+      "Registro": "पंजीकरण",
+      "¿Cómo deseas acceder a la app?": "आप ऐप में कैसे प्रवेश करना चाहते हैं?",
+      "Personal": "व्यक्तिगत",
+      "Empresa": "कंपनी",
+      "Nombre": "नाम",
+      "Nombre de representante": "प्रतिनिधि का नाम",
+      "Apellido 1": "पहला उपनाम",
+      "Apellido 2": "दूसरा उपनाम",
+      "Email": "ईमेल",
+      "Contraseña": "पासवर्ड",
+      "Repetir Contraseña": "पासवर्ड पुनः दर्ज करें",
+      "He leído y acepto": "मैंने पढ़ा और स्वीकार किया",
+      "la Política de Privacidad": "गोपनीयता नीति",
+      "los Términos y Condiciones de Venta": "बिक्री की शर्तें और नीतियां",
+      "Registrarme": "रजिस्टर करें",
+      "¿Ya estás registrado?": "क्या पहले से ही पंजीकृत हैं?",
+      "Accede aquí": "यहां प्रवेश करें",
+      "El email es obligatorio": "ईमेल आवश्यक है",
+      "El email no es válido": "अमान्य ईमेल",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "ईमेल का मान्य एक्सटेंशन होना चाहिए (.com, .org, .net, .edu)",
+      "La contraseña es obligatoria": "पासवर्ड आवश्यक है",
+      "La contraseña debe tener al menos 8 caracteres": "पासवर्ड में कम से कम 8 अक्षर होने चाहिए",
+      "Las contraseñas no coinciden": "पासवर्ड मेल नहीं खाते",
+      "Registrando usuario": "उपयोगकर्ता पंजीकरण हो रहा है...",
+"Por favor, revisa los campos con errores antes de continuar": "कृपया जारी रखने से पहले त्रुटियों वाले फ़ील्ड की जाँच करें",
+      "El nombre es obligatorio": "नाम आवश्यक है",
+      "El nombre debe tener al menos 3 caracteres": "नाम में कम से कम 3 अक्षर होने चाहिए"
+        },
+
+
+    
+      
+      "¡Pago realizado!": "भुगतान सफल!",
+      "El pago de la suscripción se ha realizado correctamente": "सदस्यता का भुगतान सफलतापूर्वक हो गया है",
+    
+      "Sin opiniones": "कोई समीक्षा नहीं",
+      "opinión": "समीक्षा",
+      "opiniones": "समीक्षाएँ",
+      "Eliminar chat": "चैट हटाएँ",
+    
+      "Cancelar": "रद्द करें",
+      "Advertencia": "चेतावनी",
+      "¿Estás seguro de eliminar el chat?": "क्या आप वाकई चैट हटाना चाहते हैं?",
+      "Aceptar": "स्वीकार करें",
+      "Chat borrado con éxito": "चैट सफलतापूर्वक हटाई गई",
+      "No se pudo borrar el chat": "चैट हटाने में असमर्थ",
+      "Contenido de": "की सामग्री",
+      "Sin seleccionar": "चयनित नहीं",
+      "1 archivo seleccionado": "1 फ़ाइल चयनित",
+      " archivos seleccionados": "फ़ाइलें चयनित",
+      "Archivos eliminados": "फ़ाइलें हटा दी गईं",
+      "No se pudieron borrar los archivos": "फ़ाइलों को हटाया नहीं जा सका",
+      "Suscripción necesaria": "सदस्यता आवश्यक",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "अन्य उपयोगकर्ताओं की समीक्षाएँ देखने के लिए प्लान I से उच्च सदस्यता प्राप्त करें",
+      "Activos": "सक्रिय",
+      "Finalizados": "समाप्त",
+      "Mis proyectos": "मेरे प्रोजेक्ट",
+      "Colaboraciones": "सहयोग",
+      "Subir sin editar": "बिना संपादित किए अपलोड करें",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "फ़ाइल अनुमत अधिकतम आकार (2.5MB) से बड़ी है।",
+    
+    
+  
+    "finish-profile": {
+      "Seleccione al menos una categoría": "कृपया कम से कम एक श्रेणी चुनें",
+"La profesión es obligatoria": "पेशा आवश्यक है",
+"La ubicación es obligatoria": "स्थान आवश्यक है",
+      "COMPLETAR PERFIL": "प्रोफ़ाइल पूरा करें",
+      "No mostrar mi perfil en el buscador": "खोज में मेरी प्रोफ़ाइल न दिखाएं",
+      "Nombre": "नाम",
+      "Apellido 1": "पहला उपनाम",
+      "Apellido 2": "दूसरा उपनाम",
+      "Fecha de nacimiento": "जन्मतिथि",
+      "Este detalle no se mostrará de forma pública": "यह जानकारी सार्वजनिक रूप से प्रदर्शित नहीं होगी",
+      "Género": "लिंग",
+      "Seleccione una opción": "एक विकल्प चुनें",
+      "Hombre": "पुरुष",
+      "Mujer": "महिला",
+      "Otro": "अन्य",
+      "Profesión": "पेशा",
+      "Categoría de trabajo": "कार्य श्रेणी",
+      "Salario": "वेतन",
+      "Selecciona un rango de salario": "वेतन सीमा चुनें",
+      "Tags": "टैग",
+      "Escribe las palabras clave para describir tu empleo": "अपनी नौकरी का वर्णन करने के लिए कीवर्ड लिखें",
+      "Descripción": "विवरण",
+      "Guardar cambios": "परिवर्तन सहेजें",
+      "Él": "वह (पुरुष)",
+      "Ella": "वह (महिला)",
+      "Elle": "वे/उनका",
+      "Añade tus pronombres": "अपने सर्वनाम जोड़ें",
+      "Introduzca el pronombre con el que se identifique": "वह सर्वनाम दर्ज करें जिससे आप पहचानते हैं",
+      "Usuario actualizado correctamente": "उपयोगकर्ता सफलतापूर्वक अपडेट किया गया"
+    },
+    
+        "settings": {
+          "CONFIGURACIÓN": "सेटिंग्स",
+          "Configurar mi cuenta": "मेरा खाता कॉन्फ़िगर करें",
+          "Mis métodos de pago": "मेरे भुगतान विधियाँ",
+          "Destacar mi perfil": "मेरी प्रोफ़ाइल को हाइलाइट करें",
+          "Mi suscripción": "मेरी सदस्यता",
+          "Mis anuncios": "मेरे विज्ञापन",
+          "Estadísticas": "आंकड़े",
+          "Usuarios bloqueados": "ब्लॉक किए गए उपयोगकर्ता",
+          "Idioma de la app": "ऐप की भाषा",
+          "Contacta con nosotros": "हमसे संपर्क करें",
+          "FAQ": "सामान्य प्रश्न",
+          "Política de Privacidad": "गोपनीयता नीति",
+          "Términos y Condiciones de venta": "बिक्री की शर्तें और नीतियां",
+          "Cerrar sesión": "सत्र समाप्त करें",
+          "Eliminar cuenta": "खाता हटाएं",
+          "¿Estás seguro de querer cerrar sesión?": "क्या आप सत्र समाप्त करना चाहते हैं?",
+          "Aceptar": "स्वीकार करें",
+          "Cancelar": "रद्द करें",
+          "Advertencia": "चेतावनी",
+          "¿Estás seguro de querer eliminar tu cuenta?": "क्या आप अपना खाता हटाने के लिए सुनिश्चित हैं?",
+          "Cuenta eliminada satisfactoriamente": "खाता सफलतापूर्वक हटाया गया",
+          "Hubo problemas para borrar la cuenta de usuario": "उपयोगकर्ता खाता हटाने में समस्या आई"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "मेरा खाता सेट करें",
+          "Nombre de usuario": "उपयोगकर्ता नाम",
+          "Email": "ईमेल",
+          "Contraseña": "पासवर्ड",
+          "Repetir contraseña": "पासवर्ड दोहराएं",
+          "Guardar cambios": "परिवर्तन सहेजें",
+          "Error obteniendo el usuario": "उपयोगकर्ता प्राप्त करने में त्रुटि",
+          "Cuenta de usuario actualizada": "उपयोगकर्ता खाता अपडेट किया गया",
+          "El nombre es obligatorio": "नाम आवश्यक है",
+          "El nombre debe tener al menos 3 caracteres": "नाम में कम से कम 3 अक्षर होने चाहिए",
+          "El email es obligatorio": "ईमेल आवश्यक है",
+          "El email no es válido": "ईमेल अमान्य है",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "ईमेल का मान्य एक्सटेंशन होना चाहिए (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "डोमेन की अनुमति नहीं है या इसमें अमान्य वर्ण हैं",
+          "La contraseña es obligatoria": "पासवर्ड आवश्यक है",
+          "La contraseña debe tener al menos 8 caracteres": "पासवर्ड में कम से कम 8 अक्षर होने चाहिए",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "पासवर्ड में एक बड़ा अक्षर, एक संख्या और एक विशेष वर्ण होना चाहिए",
+          "Las contraseñas no coinciden": "पासवर्ड मेल नहीं खाते"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "बिक्री की शर्तें और नीतियां"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "गोपनीयता नीति"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "हमसे संपर्क करें",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "क्या आपके पास कोई प्रश्न या सुझाव है?",
+          "¡Estamos deseando escucharte!": "हम आपको सुनने के लिए उत्सुक हैं!",
+          "Nombre": "नाम",
+          "Apellidos": "उपनाम",
+          "Email": "ईमेल",
+          "Categoría": "श्रेणी",
+          "Atención al cliente": "ग्राहक सेवा",
+          "Soporte": "समर्थन",
+          "Solicitud": "अनुरोध",
+          "Enviar solicitud": "अनुरोध भेजें",
+          "Solicitud de contacto creada con éxito": "संपर्क अनुरोध सफलतापूर्वक बनाया गया",
+          "Hubo un problema al enviar la solicitud de contacto": "संपर्क अनुरोध भेजने में समस्या आई",
+          "Rellene todos los campos para enviar la solicitud de contacto": "संपर्क अनुरोध भेजने के लिए सभी फ़ील्ड भरें",
+          "Escribe aquí...": "यहां लिखें...",
+          "Adquiera plan válido": "मान्य योजना प्राप्त करें",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Insitu टीम से संपर्क करने के लिए PlanS या Plan360 प्राप्त करें"
+        },
+      
+        "faq": {
+          "FAQ": "सामान्य प्रश्न",
+          "Ir a la página ": "पृष्ठ पर जाएं"
+        },
+      
+        "ban-users": {
+          "USUARIOS BLOQUEADOS": "ब्लॉक किए गए उपयोगकर्ता",
+          "No se pudo obtener el listado de usuarios bloqueados": "ब्लॉक किए गए उपयोगकर्ताओं की सूची प्राप्त नहीं हो सकी",
+          "¿Desea desbloquear a este usuario?": "क्या आप इस उपयोगकर्ता को अनब्लॉक करना चाहते हैं?",
+          "Cancelar": "रद्द करें",
+          "Desbloquear": "अनब्लॉक करें",
+          "Usuario desbloqueado": "उपयोगकर्ता अनब्लॉक किया गया",
+          "El usuario ya no se encuentra bloqueado": "उपयोगकर्ता अब ब्लॉक नहीं है",
+          "Respuesta desconocida": "अज्ञात उत्तर"
+        },
+        
+            "suscription-detail": {
+              "Características": "विशेषताएँ",
+              "Plan I": "योजना I",
+              "al mes": "प्रति माह",
+              "Plan S": "योजना S",
+              "Plan 360": "योजना 360",
+              "Búsqueda ilimitada": "असीमित खोज",
+              "Completa tu perfil": "अपनी प्रोफ़ाइल पूरी करें",
+              "Obtén reseñas verificadas": "प्रमाणित समीक्षाएं प्राप्त करें",
+              "Forma parte de proyecto": "परियोजना का हिस्सा बनें",
+              "Incluido lo relativo al plan I": "योजना I से संबंधित शामिल",
+              "Contacta con profesionales": "पेशेवरों से संपर्क करें",
+              "Filtros de búsqueda Premium": "प्रीमियम खोज फ़िल्टर",
+              "Visualiza todos los perfiles": "सभी प्रोफाइल देखें",
+              "Aumenta tu visibilidad": "अपनी दृश्यता बढ़ाएं",
+              "Métricas avanzadas": "उन्नत मीट्रिक्स",
+              "Incluido lo relativo al plan S": "योजना S से संबंधित शामिल",
+              "Crear y administrar proyectos": "परियोजनाएँ बनाएं और प्रबंधित करें",
+              "Gestiona poderes a tu equipo": "अपनी टीम को शक्तियाँ दें",
+              "Almacenamiento ilimitado de proyectos": "परियोजनाओं का असीमित भंडारण",
+              "Creación de chat grupales": "समूह चैट निर्माण",
+              "Calendario compartido": "साझा कैलेंडर"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "कार्य",
+              "No se pudo obtener los trabajos": "कार्य प्राप्त नहीं किए जा सके",
+              "¿Desea eliminar la imagen?": "क्या आप छवि हटाना चाहते हैं?",
+              "No": "नहीं",
+              "Sí": "हाँ",
+              "Hubo un problema al borrar": "हटाने में समस्या हुई",
+              "¿Desea ajustar la imagen antes de que sea subida?": "क्या आप छवि को अपलोड करने से पहले समायोजित करना चाहते हैं?",
+              "Subir imagen": "छवि अपलोड करें",
+              "No se pudo crear el trabajo": "कार्य बनाया नहीं जा सका",
+              "Ajustar imagen": "छवि समायोजित करें",
+              "Cancelar Subida": "अपलोड रद्द करें"
+            },
+          
+            "languages": {
+              "IDIOMAS": "भाषाएँ",
+              "Idiomas": "भाषाएँ",
+              "Añadir otro idioma": "अन्य भाषा जोड़ें",
+              "Añadir otro lenguaje": "अन्य भाषा जोड़ें",
+              "Guardar cambios": "परिवर्तन सहेजें",
+              "No se pudo obtener los idiomas": "भाषाएँ प्राप्त नहीं की जा सकीं"
+            },
+          
+            "locations": {
+              "UBICACIONES": "स्थान",
+              "Tu ubicación": "आपका स्थान",
+              "Buscar dirección": "पता खोजें",
+              "Ubicaciones donde puedes trabajar": "वे स्थान जहाँ आप काम कर सकते हैं",
+              "Ubicación": "स्थान",
+              "Añadir otra ubicación": "अन्य स्थान जोड़ें",
+              "Guardar cambios": "परिवर्तन सहेजें",
+              "No se pudo obtener las ubicaciones": "स्थान प्राप्त नहीं किए जा सके"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "टैग प्राप्त नहीं किए जा सके",
+              "TAGS": "टैग्स"
+            },
+          
+            "my-profile": {
+              "Trabajos": "कार्य",
+              "Ubicaciones": "स्थान",
+              "Idiomas": "भाषाएँ",
+              "Redes sociales": "सोशल मीडिया",
+              "Editar": "संपादित करें",
+              "Tu ubicación": "आपका स्थान",
+              "Sin ubicación actual": "कोई वर्तमान स्थान नहीं",
+              "Ubicaciones donde puede trabajar": "वे स्थान जहाँ आप काम कर सकते हैं",
+              "Trabajos de": "कार्य",
+              "Sin opiniones": "कोई राय नहीं",
+              "opiniones": "राय",
+              "Sin Suscripción": "कोई सदस्यता नहीं",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "पूरी ऐप का उपयोग करने और इसका पूरा लाभ उठाने के लिए सदस्यता लें",
+              "Error obteniendo el usuario": "उपयोगकर्ता प्राप्त करने में त्रुटि",
+              "No se pudieron obtener los trabajos": "कार्य प्राप्त नहीं किए जा सके",
+              "No se pudieron obtener las ubicaciones": "स्थान प्राप्त नहीं किए जा सके",
+              "No se pudieron obtener los idiomas": "भाषाएँ प्राप्त नहीं की जा सकीं",
+              "No se pudieron obtener las etiquetas": "टैग प्राप्त नहीं किए जा सके",
+              "No se pudieron obtener las redes": "नेटवर्क प्राप्त नहीं किए जा सके"
+            },
+          
+            "home": {
+              "Descubre nuestro top": "हमारे टॉप खोजें",
+              "Los mejores profesionales muestran sus anuncios": "सर्वश्रेष्ठ पेशेवर अपने विज्ञापन दिखाते हैं",
+              "Logan descriptivo de anuncio especial": "विशेष विज्ञापन के लिए वर्णनात्मक नारा",
+              "Contacta con el éxito": "सफलता से संपर्क करें",
+              "Descubre los usuarios que harán realidad tu proyecto": "उन उपयोगकर्ताओं की खोज करें जो आपके प्रोजेक्ट को साकार करेंगे"
+            },
+          
+            "notifications": {
+              "Notificaciones": "सूचनाएँ",
+              "Pulsa aquí para conocer más": "अधिक जानने के लिए यहाँ दबाएँ",
+              "No se pudo obtener las notificaciones": "सूचनाएँ प्राप्त नहीं की जा सकीं",
+              "No se pudo obtener los datos del usuario": "उपयोगकर्ता डेटा प्राप्त नहीं किया जा सका",
+              "No se pudo obtener las carpetas del proyecto": "परियोजना फ़ोल्डर प्राप्त नहीं किए जा सके"
+            },
+          
+            "notifications-settings": {
+              "CONFIGURACIÓN DE NOTIFICACIONES": "सूचना सेटिंग्स",
+              "Valoraciones recibidas": "प्राप्त रेटिंग्स",
+              "Solicitudes de chat": "चैट अनुरोध",
+              "Solicitud de chat aceptada": "चैट अनुरोध स्वीकृत",
+              "Solicitudes de proyecto": "परियोजना अनुरोध",
+              "Nuevas carpetas en el proyecto": "परियोजना में नए फ़ोल्डर",
+              "Chats de proyecto": "परियोजना चैट",
+              "Fecha previa al fin del proyecto": "परियोजना समाप्ति की पूर्व तिथि",
+              "Fecha de fin del proyecto": "परियोजना समाप्ति तिथि",
+              "No se pudo obtener los datos del usuario": "उपयोगकर्ता डेटा प्राप्त नहीं किया जा सका",
+              "No se pudo actualizar los permisos del usuario": "उपयोगकर्ता अनुमतियाँ अपडेट नहीं की जा सकीं"
+            },
+            
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "आप क्या रिपोर्ट करना चाहते हैं?",
+                  "Reportar mensajes": "संदेशों की रिपोर्ट करें",
+                  "Desnudos o actividad sexual": "नग्नता या यौन गतिविधि",
+                  "Lenguaje o símbolos que incitan al odio": "घृणास्पद भाषा या प्रतीक",
+                  "Estafa o fraude": "धोखाधड़ी या घोटाला",
+                  "Violencia u organizaciones peligrosas": "हिंसा या खतरनाक संगठन",
+                  "Venta de bienes ilegales o regulados": "अवैध या विनियमित वस्तुओं की बिक्री",
+                  "Bullying o acoso": "बदमाशी या उत्पीड़न",
+                  "Infracción de la propiedad intelectual": "बौद्धिक संपत्ति का उल्लंघन",
+                  "Suicidio o autolesiones": "आत्महत्या या आत्म-क्षति",
+                  "Spam": "स्पैम",
+                  "El problema no aparece en la lista": "समस्या सूची में नहीं है",
+                  "Usuario o contraseña incorrectos": "उपयोगकर्ता नाम या पासवर्ड गलत है",
+                  "El usuario ya se encuentra registrado": "उपयोगकर्ता पहले से ही पंजीकृत है",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "यह खाता अस्थायी रूप से अवरुद्ध है, अधिक जानकारी के लिए व्यवस्थापकों से संपर्क करें",
+                  "Error del servidor, inténtelo más tarde": "सर्वर त्रुटि, बाद में पुनः प्रयास करें",
+                  "Error desconocido, inténtelo más tarde": "अज्ञात त्रुटि, बाद में पुनः प्रयास करें",
+                  "Enviar reporte": "रिपोर्ट भेजें",
+                  "No se pudo reportar al usuario": "उपयोगकर्ता की रिपोर्ट नहीं की जा सकी",
+                  "Usuario reportado": "उपयोगकर्ता की रिपोर्ट की गई",
+                  "Debe seleccionar un motivo de reporte": "आपको रिपोर्ट का कारण चुनना होगा"
+                },
+              
+                
+              
+                "workspace": {
+                  "Colaboraciones": "सहयोग",
+                  "Mis proyectos": "मेरी परियोजनाएँ",
+                  "Estado del proyecto": "परियोजना की स्थिति",
+                  "Seleccione": "चुनें",
+                  "Todos": "सभी",
+                  "Activos": "सक्रिय",
+                  "Finalizados": "समाप्त",
+                  "participantes": "भागीदार",
+                  "No se pudo obtener las colaboraciones de proyecto": "परियोजना सहयोग प्राप्त नहीं किए जा सके",
+                  "No se pudo obtener el listado de proyectos": "परियोजना सूची प्राप्त नहीं की जा सकी"
+                },
+              
+                "modal-filt-text": {
+                  "Filtro de nombre": "नाम फ़िल्टर करें",
+                  "Introduzca el nombre del proyecto": "परियोजना का नाम दर्ज करें",
+                  "Nombre de proyecto": "परियोजना का नाम",
+                  "Continuar": "जारी रखें"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "नई परियोजना बनाएँ",
+                  "Añadir imagen": "छवि जोड़ें",
+                  "Nombre": "नाम",
+                  "Nombre Proyecto": "परियोजना का नाम",
+                  "Descripción del proyecto": "परियोजना का विवरण",
+                  "Escribe aquí...": "यहाँ लिखें...",
+                  "Key Code": "कुंजी कोड",
+                  "Introduzca clave": "कुंजी दर्ज करें",
+                  "Fecha de finalización": "समाप्ति तिथि",
+                  "Podrá ser editada desde el apartado de Configuración": "इसे सेटिंग अनुभाग से संपादित किया जा सकता है",
+                  "Crear Proyecto": "परियोजना बनाएं",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "समाप्ति तिथि वर्तमान तिथि के बाद होनी चाहिए",
+                  "Ya tienes un proyecto con ese nombre": "इस नाम से पहले से ही एक परियोजना मौजूद है",
+                  "Proyecto creado con éxito": "परियोजना सफलतापूर्वक बनाई गई",
+                  "Sin Suscripción válida": "कोई मान्य सदस्यता नहीं",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "परियोजनाएँ बनाने और प्रबंधित करने के लिए प्लान 360 प्राप्त करें"
+                },
+              
+                "detail-proyect": {
+                  "Creado por": "द्वारा निर्मित",
+                  "Carpetas": "फोल्डर्स",
+                  "participantes": "भागीदार",
+                  "Ver todas": "सभी देखें",
+                  "Chats": "चैट्स",
+                  "Ver todos": "सभी देखें",
+                  "No se obtuvo las carpetas del proyecto": "परियोजना के फ़ोल्डर प्राप्त नहीं किए गए",
+                  "Sin Suscripción": "कोई सदस्यता नहीं",
+                  "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "उन परियोजनाओं के साथ इंटरैक्ट करने के लिए सदस्यता लें जिनमें आप सहयोग करते हैं"
+                },
+              
+                "new-folder": {
+                  "NUEVA CARPETA": "नया फ़ोल्डर",
+                  "Añadir imagen de portada": "कवर छवि जोड़ें",
+                  "Nombre de la carpeta": "फ़ोल्डर का नाम",
+                  "Nombre Carpeta": "फ़ोल्डर नाम",
+                  "Aceptar y continuar": "स्वीकार करें और जारी रखें",
+                  "Carpeta creada con éxito": "फ़ोल्डर सफलतापूर्वक बनाया गया",
+                  "Se alcanzó el máximo de subidas permitidas": "अनुमत अपलोड की अधिकतम सीमा तक पहुँचा गया",
+                  "Conetenido multimedia eliminado": "मल्टीमीडिया सामग्री हटाई गई",
+                  "No se pudo eliminar el contenido": "सामग्री को हटाया नहीं जा सका",
+                  "Nuevo contenido subido correctamente": "नई सामग्री सफलतापूर्वक अपलोड की गई",
+                  "Máximo alcanzado": "अधिकतम सीमा तक पहुँचा गया",
+                  "Hazte con el plan 360 para subir contenido de forma ilimitada": "असीमित सामग्री अपलोड करने के लिए प्लान 360 प्राप्त करें"
+                },
+                
+                    "edit-project": {
+                      "EDITAR PROYECTO": "परियोजना संपादित करें",
+                      "Añadir imagen": "छवि जोड़ें",
+                      "Nombre": "नाम",
+                      "Nombre Proyecto": "परियोजना का नाम",
+                      "Descripción del proyecto": "परियोजना का विवरण",
+                      "Escribe aquí...": "यहाँ लिखें...",
+                      "Key Code": "कुंजी कोड",
+                      "Introduzca clave": "कुंजी दर्ज करें",
+                      "Fecha de finalización": "समाप्ति तिथि",
+                      "Podrá ser editada desde el apartado de Configuración": "इसे सेटिंग अनुभाग से संपादित किया जा सकता है",
+                      "Actualizar": "अपडेट करें",
+                      "Editar usuarios": "उपयोगकर्ताओं को संपादित करें",
+                      "No se obtuvieron las carpetas del proyecto": "परियोजना फ़ोल्डर प्राप्त नहीं किए गए",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "समाप्ति तिथि वर्तमान तिथि के बाद होनी चाहिए",
+                      "Proyecto actualizado": "परियोजना अपडेट की गई",
+                      "Proyecto indicado ya no existe": "निर्दिष्ट परियोजना अब मौजूद नहीं है",
+                      "Solo el creador del proyecto puede borrarlo": "केवल परियोजना निर्माता ही इसे हटा सकता है",
+                      "Proyecto eliminado": "परियोजना हटा दी गई",
+                      "Eliminar proyecto": "परियोजना हटाएं",
+                      "¿Estás seguro de querer eliminar el proyecto?": "क्या आप वाकई परियोजना हटाना चाहते हैं?",
+                      "Cancelar": "रद्द करें",
+                      "Aceptar": "स्वीकार करें",
+                      "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "परियोजनाएँ बनाने और प्रबंधित करने के लिए प्लान 360 प्राप्त करें"
+                    },
+                  
+                    "edit-participants": {
+                      "MODIFICAR PARTICIPANTES": "प्रतिभागियों को संपादित करें",
+                      "Participantes del proyecto": "परियोजना के प्रतिभागी",
+                      "Creador": "निर्माता",
+                      "Pendiente": "लंबित",
+                      "Aceptar y continuar": "स्वीकार करें और जारी रखें",
+                      "Buscar": "खोजें",
+                      "No se obtuvieron los paticipantes": "प्रतिभागी प्राप्त नहीं किए गए",
+                      "No se pudo obtener más usuarios": "अधिक उपयोगकर्ता प्राप्त नहीं किए जा सके",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "चयनित उपयोगकर्ता पहले से ही प्रतिभागियों की सूची में है",
+                      "Sin Categorías": "कोई श्रेणियाँ नहीं",
+                      "Usuarios asociados al proyecto": "परियोजना से जुड़े उपयोगकर्ता",
+                      "El proyecto indicado ya no existe": "निर्दिष्ट परियोजना अब मौजूद नहीं है",
+                      "No se puedieron asignar los participantes": "प्रतिभागियों को असाइन नहीं किया जा सका",
+                      "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "परियोजनाएँ बनाने और प्रबंधित करने के लिए प्लान 360 प्राप्त करें"
+                    },
+                  
+                    "add-participants": {
+                      "AGREGAR PARTICIPANTES": "प्रतिभागी जोड़ें",
+                      "Participantes del proyecto": "परियोजना के प्रतिभागी",
+                      "Administrador": "प्रशासक",
+                      "Pendiente": "लंबित",
+                      "Buscar": "खोजें",
+                      "Aceptar y continuar": "स्वीकार करें और जारी रखें",
+                      "Tú": "आप",
+                      "No se pudo obtener más usuarios": "अधिक उपयोगकर्ता प्राप्त नहीं किए जा सके",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "चयनित उपयोगकर्ता पहले से ही प्रतिभागियों की सूची में है",
+                      "Sin Categorías": "कोई श्रेणियाँ नहीं",
+                      "Usuarios asociados al proyecto": "परियोजना से जुड़े उपयोगकर्ता",
+                      "El proyecto indicado ya no existe": "निर्दिष्ट परियोजना अब मौजूद नहीं है",
+                      "No se pudieron asignar los participantes": "प्रतिभागियों को असाइन नहीं किया जा सका"
+                    },
+                  
+                    "grant-permissions": {
+                      "PERMISOS DEL PROYECTO": "परियोजना की अनुमतियाँ",
+                      "Administradores actuales": "वर्तमान प्रशासक",
+                      "Tú": "आप",
+                      "Administrador": "प्रशासक",
+                      "Pendiente": "लंबित",
+                      "Selecciona al usuario al que desees otorgar el rol de administrador": "उस उपयोगकर्ता को चुनें जिसे आप प्रशासक भूमिका देना चाहते हैं",
+                      "Aceptar y continuar": "स्वीकार करें और जारी रखें",
+                      "No se obtuvieron los participantes": "प्रतिभागी प्राप्त नहीं किए गए",
+                      "Sin Categorías": "कोई श्रेणियाँ नहीं",
+                      "El usuario seleccionado ya está añadido al listado": "चयनित उपयोगकर्ता पहले से ही सूची में जोड़ा गया है",
+                      "Permisos asociados": "संबंधित अनुमतियाँ",
+                      "El proyecto indicado ya no existe": "निर्दिष्ट परियोजना अब मौजूद नहीं है",
+                      "No se puedieron asignar los permisos": "अनुमतियाँ असाइन नहीं की जा सकीं",
+                      "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                      "Hazte con el plan 360 para gestionar permisos a los usuarios": "उपयोगकर्ताओं को अनुमतियाँ प्रबंधित करने के लिए प्लान 360 प्राप्त करें"
+                    },
+                  
+                    "add-proyect": {
+                      "quiere añadirte al proyecto": "{{name}} आपको परियोजना में जोड़ना चाहता है",
+                      "¿Deseas unirte al Workspace?": "क्या आप कार्यक्षेत्र से जुड़ना चाहते हैं?",
+                      "Aceptar": "स्वीकार करें",
+                      "Rechazar": "अस्वीकार करें",
+                      "Proyecto rechazado con éxito": "परियोजना सफलतापूर्वक अस्वीकार की गई",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "परियोजना अब आपके खाते से जुड़ी नहीं है",
+                      "No se pudo rechazar el proyecto": "परियोजना अस्वीकार नहीं की जा सकी",
+                      "Sin proyecto": "कोई परियोजना नहीं",
+                      "Sin Categorías": "कोई श्रेणियाँ नहीं",
+                      "¡Proyecto aceptado!": "परियोजना स्वीकृत!",
+                      "El proyecto ya no existe": "परियोजना अब मौजूद नहीं है",
+                      "'El KeyCode introducido no es correcto'": "दर्ज किया गया कुंजी कोड सही नहीं है",
+                      "No se pudo verificar el usuario en el proyecto": "परियोजना में उपयोगकर्ता को सत्यापित नहीं किया जा सका",
+                      "Sin Suscripción": "कोई सदस्यता नहीं",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "परियोजनाओं को स्वीकार या अस्वीकार करने के लिए सदस्यता लें"
+                    },
+                    
+                        "modal-keycode": {
+                          "Key code": "कुंजी कोड",
+                          "Añade el código de acceso proporcionado por el administrador": "प्रशासक द्वारा प्रदान किया गया एक्सेस कोड जोड़ें",
+                          "Continuar": "जारी रखें",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": "परियोजनाओं को स्वीकार या अस्वीकार करने के लिए सदस्यता लें",
+                          "¡Proyecto aceptado!": "परियोजना स्वीकृत!",
+                          "El proyecto ya no se encuentra asociado a su cuenta": "परियोजना अब आपके खाते से जुड़ी नहीं है",
+                          "El proyecto ya no existe": "परियोजना अब मौजूद नहीं है",
+                          "El KeyCode introducino no es correcto": "दर्ज किया गया कुंजी कोड सही नहीं है",
+                          "No se pudo verificar usuario en el proyecto": "परियोजना में उपयोगकर्ता को सत्यापित नहीं किया जा सका",
+                          "Introduzca una clave para continuar": "जारी रखने के लिए एक कुंजी दर्ज करें"
+                        },
+                      
+                        "folders": {
+                          "CARPETAS": "फोल्डर्स",
+                          "No se obtuvieron las carpetas del proyecto": "परियोजना के फोल्डर्स प्राप्त नहीं किए गए"
+                        },
+                      
+                        "folder-content": {
+                          "No se obtuvo las carpetas del proyecto": "परियोजना के फोल्डर्स प्राप्त नहीं किए गए",
+                          "Nuevo contenido subido correctamente": "नया सामग्री सफलतापूर्वक अपलोड किया गया",
+                          "No se pudo obtener las carpetas del proyecto": "परियोजना के फोल्डर्स प्राप्त नहीं किए जा सके",
+                          "Máximo alcanzado": "अधिकतम सीमा तक पहुँचा",
+                          "Hazte con el plan 360 para subir contenido de forma ilimitada": "असीमित सामग्री अपलोड करने के लिए प्लान 360 प्राप्त करें"
+                        },
+                      
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "मल्टीमीडिया सामग्री पर वापस जाएं"
+                        },
+                      
+                        "my-suscription": {
+                          "Mi suscripción": "मेरी सदस्यता",
+                          "Ver características": "विशेषताएँ देखें",
+                          "Planes": "योजनाएँ",
+                          "Pago mensual": "मासिक भुगतान",
+                          "Pago anual (Descuento del 15%)": "वार्षिक भुगतान (15% छूट)",
+                          "al mes": "महीने में",
+                          "al año": "साल में",
+                          "Free": "नि:शुल्क",
+                          "Buscador avanzado": "उन्नत खोज",
+                          "Complete Workspace": "पूर्ण कार्यक्षेत्र",
+                          "Tu plan actual": "आपकी वर्तमान योजना",
+                          "¡Suscripción cambiada!": "सदस्यता बदली गई!",
+                          "Suscripción cambiada correctamente": "सदस्यता सफलतापूर्वक बदली गई",
+                          "Continuar a la app": "ऐप पर जारी रखें",
+                          "Comprar un proyecto": "एक परियोजना खरीदें",
+                          "No se obtuvieron suscripciones": "कोई सदस्यता प्राप्त नहीं हुई",
+                          "Obtener plan ": "योजना प्राप्त करें ",
+                          "Cambiar a plan ": "योजना बदलें ",
+                          "Cargando...": "लोड हो रहा है...",
+                          "Hubo un problema para cambiar": "बदलने में समस्या हुई"
+                        },
+                      
+                        "project-checkout": {
+                          "CHECKOUT": "चेकआउट",
+                          "Compra de": "की खरीद",
+                          "1 proyecto": "1 परियोजना",
+                          "Crédito o débito": "क्रेडिट या डेबिट",
+                          "Paypal": "पेपैल",
+                          "Apple Pay": "एप्पल पे",
+                          "He leído y acepto ": "मैंने पढ़ा और स्वीकार किया ",
+                          "los Términos y Condiciones de Venta": "बिक्री की शर्तें और नीतियाँ",
+                          "¡Pago realizado!": "भुगतान सफल!",
+                          "La compra de un proyecto se ha realizado correctamente": "एक परियोजना की खरीद सफलतापूर्वक पूरी हुई",
+                          "Continuar a la app": "ऐप पर जारी रखें",
+                          "Total": "कुल",
+                          "Continuar": "जारी रखें",
+                          "Cargando...": "लोड हो रहा है...",
+                          "Pago cancelado por el usuario.": "उपयोगकर्ता द्वारा भुगतान रद्द किया गया।",
+                          "Ocurrió un error durante la transacción de pago": "भुगतान लेन-देन के दौरान एक त्रुटि हुई",
+                          "No se pudo realizar el pago.": "भुगतान नहीं किया जा सका।",
+                          "Pago cancelado.": "भुगतान रद्द किया गया।",
+                          "Pago completado.": "भुगतान पूरा हुआ।"
+                        },
+                      
+                        "suscription-checkout": {
+                          "CHECKOUT": "चेकआउट",
+                          "Pago del ": "का भुगतान ",
+                          "Crédito o débito": "क्रेडिट या डेबिट",
+                          "Paypal": "पेपैल",
+                          "Apple Pay": "एप्पल पे",
+                          "He leído y acepto ": "मैंने पढ़ा और स्वीकार किया ",
+                          "los Términos y Condiciones de Venta": "बिक्री की शर्तें और नीतियाँ",
+                          "¡Pago realizado!": "भुगतान सफल!",
+                          "El pago de la suscripción se ha realizado correctamente": "सदस्यता का भुगतान सफलतापूर्वक पूरा हुआ",
+                          "Continuar a la app": "ऐप पर जारी रखें",
+                          "Total": "कुल",
+                          "Continuar": "जारी रखें",
+                          "Cargando...": "लोड हो रहा है...",
+                          "Método de pago agregado correctamente.": "भुगतान विधि सफलतापूर्वक जोड़ी गई।",
+                          "Ingreso de método de pago cancelado.": "भुगतान विधि प्रविष्टि रद्द कर दी गई।",
+                          "Pago completado correctamente.": "भुगतान सफलतापूर्वक पूरा हुआ।",
+                          "Pago cancelado por el usuario.": "उपयोगकर्ता द्वारा भुगतान रद्द किया गया।",
+                          "Error durante el proceso de pago.": "भुगतान प्रक्रिया के दौरान त्रुटि।",
+                          "Ocurrió un error durante el proceso de suscripción.": "सदस्यता प्रक्रिया के दौरान एक त्रुटि हुई।",
+                          "Error al procesar la suscripción.": "सदस्यता प्रक्रिया में त्रुटि।",
+                          "Error al configurar el pago con Apple Pay.": "एप्पल पे के साथ भुगतान सेट करने में त्रुटि।",
+                          "No se pudo realizar el pago con Apple Pay.": "एप्पल पे के साथ भुगतान नहीं किया जा सका।",
+                          "Ocurrió un error durante el proceso de pago con Apple Pay.": "एप्पल पे के साथ भुगतान प्रक्रिया के दौरान एक त्रुटि हुई।"
+                        },
+                      
+                        "conectar": {
+                          "Conecta con": "संपर्क करें",
+                          "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "आपने इस उपयोगकर्ता से जुड़ने का अनुरोध किया है। एक संदेश लिखें कि आप इस परियोजना पर साथ काम क्यों करना चाहते हैं।",
+                          "Escribe aquí...": "यहाँ लिखें...",
+                          "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "जिस उपयोगकर्ता से आपने संपर्क किया है, उसे आपकी अनुरोध का जवाब देने के लिए 24 घंटे का समय मिलेगा। 24 घंटे के बाद, अनुरोध स्वचालित रूप से अस्वीकार कर दिया जाएगा। इस अनुरोध को भेजकर, आप सहमत होते हैं कि हम आपकी सार्वजनिक जानकारी हमारी",
+                          "política de privacidad": "गोपनीयता नीति",
+                          "Conectar": "संपर्क करें",
+                          "Ya hay una solicitud para ese usuario": "उस उपयोगकर्ता के लिए पहले से ही एक अनुरोध मौजूद है",
+                          "Solicitud creada con éxito": "अनुरोध सफलतापूर्वक बनाया गया",
+                          "Resultado desconocido": "अज्ञात परिणाम",
+                          "Hubo un problema al enviar la solicitud": "अनुरोध भेजने में समस्या हुई",
+                          "El mensaje no puede estar vacio": "संदेश खाली नहीं हो सकता"
+                        },
+                        
+                            "user-search": {
+                              "Buscar": "खोजें",
+                              "Ordenar": "क्रमबद्ध करें",
+                              "No hay resultados": "कोई परिणाम नहीं मिला",
+                              "conectar": "कनेक्ट करें",
+                              "Sin oficio": "कोई पेशा नहीं",
+                              "Sin opiniones": "कोई समीक्षा नहीं",
+                              "opiniones": "समीक्षाएं",
+                              "Sin ubicación actual": "कोई वर्तमान स्थान नहीं",
+                              "FOTOGRAFÍA": "फोटोग्राफी",
+                              "CINE / VIDEO": "सिनेमा / वीडियो",
+                              "MÚSICA": "संगीत",
+                              "TEATRO": "थिएटर",
+                              "EVENTOS": "इवेंट्स",
+                              "TV": "टीवी",
+                              "OTROS": "अन्य",
+                              "FILTROS": "फिल्टर",
+                              "Restablecer": "रीसेट करें",
+                              "Tu ubicación": "आपका स्थान",
+                              "Buscar dirección": "पता खोजें",
+                              "Categorías": "श्रेणियाँ",
+                              "EVENTOS Y FIESTAS": "इवेंट्स और पार्टियां",
+                              "SIN CATEGORÍA": "कोई श्रेणी नहीं",
+                              "Etiquetas": "टैग्स",
+                              "Escribe palabras clave para filtrar resultados": "परिणामों को फ़िल्टर करने के लिए कीवर्ड लिखें",
+                              "Escribe aquí...": "यहाँ लिखें...",
+                              "Rango de precio": "मूल्य सीमा",
+                              "Selecciona un rango de precio para filtrar resultados": "परिणामों को फ़िल्टर करने के लिए मूल्य सीमा चुनें",
+                              "Rango": "सीमा",
+                              "Mínimo": "न्यूनतम",
+                              "día": "दिन",
+                              "Máximo": "अधिकतम",
+                              "Mejor valorados": "सर्वश्रेष्ठ रेटिंग प्राप्त",
+                              "Más valorados": "अधिक रेटिंग प्राप्त",
+                              "Precio ascendente": "मूल्य बढ़ता हुआ",
+                              "Precio descendente": "मूल्य घटता हुआ",
+                              "No se pudo obtener listado de usuarios": "उपयोगकर्ता सूची प्राप्त नहीं हो सकी",
+                              "No se pudo obtener el contador de categorías": "श्रेणियों की संख्या प्राप्त नहीं हो सकी",
+                              "Sin tags": "कोई टैग नहीं",
+                              "Ya hay una solicitud enviada pendiente de aceptar": "पहले से ही स्वीकृति की प्रतीक्षा में एक अनुरोध भेजा गया है",
+                              "Resultado desconocido": "अज्ञात परिणाम",
+                              "No se pudo comprobar la existencia de la solicitud": "अनुरोध की उपस्थिति की पुष्टि नहीं की जा सकी",
+                              "Ya hay un Tag con ese valor": "उस मान के साथ पहले से ही एक टैग मौजूद है",
+                              "El campo está vacío, no se puede crear un Tag": "फील्ड खाली है, टैग नहीं बनाया जा सकता",
+                              "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "उपयोगकर्ताओं से संपर्क करने और पहुंचने के लिए प्रारंभिक या 360 योजना लें"
+                            },
+                          
+                            
+                          
+                            "Usuario o contraseña incorrectos": "उपयोगकर्ता नाम या पासवर्ड गलत है",
+                            "El usuario ya se encuentra registrado": "उपयोगकर्ता पहले से पंजीकृत है",
+                            "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "यह खाता अस्थायी रूप से अवरुद्ध है, अधिक जानकारी के लिए व्यवस्थापकों से संपर्क करें।",
+                            "Error del servidor, inténtelo más tarde": "सर्वर त्रुटि, कृपया बाद में पुनः प्रयास करें",
+                            "Error desconocido, inténtelo más tarde": "अज्ञात त्रुटि, कृपया बाद में पुनः प्रयास करें",
+                          
+                            "codeErrors": {
+                              "Usuario o contraseña incorrectos": "उपयोगकर्ता नाम या पासवर्ड गलत है",
+                              "El usuario ya se encuentra registrado": "उपयोगकर्ता पहले से पंजीकृत है",
+                              "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "यह खाता अस्थायी रूप से अवरुद्ध है, अधिक जानकारी के लिए व्यवस्थापकों से संपर्क करें।",
+                              "Error del servidor, inténtelo más tarde": "सर्वर त्रुटि, कृपया बाद में पुनः प्रयास करें",
+                              "Error desconocido, inténtelo más tarde": "अज्ञात त्रुटि, कृपया बाद में पुनः प्रयास करें"
+                            },
+                            
+                                "buscador": {
+                                  "BUSCADOR": "खोज",
+                                  "Buscar": "खोजें",
+                                  "Conectar": "कनेक्ट करें",
+                                  "No hay resultados": "कोई परिणाम नहीं मिला",
+                                  "Descubre nuestro top": "हमारे शीर्ष खोजें",
+                                  "Los mejores profesionales muestran sus anuncios": "सर्वश्रेष्ठ पेशेवर अपने विज्ञापन दिखाते हैं",
+                                  "Contacta con el éxito": "सफलता से संपर्क करें",
+                                  "Descubre los usuarios que haran realidad tu proyecto": "उन उपयोगकर्ताओं को खोजें जो आपकी परियोजना को साकार करेंगे",
+                                  "Ordenar": "क्रमबद्ध करें",
+                                  "conectar": "कनेक्ट करें",
+                                  "Sin oficio": "कोई पेशा नहीं",
+                                  "Sin opiniones": "कोई समीक्षा नहीं",
+                                  "opiniones": "समीक्षाएं",
+                                  "Sin ubicación actual": "कोई वर्तमान स्थान नहीं",
+                                  "FOTOGRAFÍA": "फोटोग्राफी",
+                                  "CINE / VIDEO": "सिनेमा / वीडियो",
+                                  "FILM / VÍDEO": "फिल्म / वीडियो",
+                                  "MÚSICA": "संगीत",
+                                  "TEATRO": "थिएटर",
+                                  "EVENTOS": "इवेंट्स",
+                                  "TV": "टीवी",
+                                  "OTROS": "अन्य",
+                                  "FILTROS": "फिल्टर",
+                                  "Restablecer": "रीसेट करें",
+                                  "Tu ubicación": "आपका स्थान",
+                                  "Buscar dirección": "पता खोजें",
+                                  "Categorías": "श्रेणियाँ",
+                                  "EVENTOS Y FIESTAS": "इवेंट्स और पार्टियां",
+                                  "SIN CATEGORÍA": "कोई श्रेणी नहीं",
+                                  "Etiquetas": "टैग्स",
+                                  "Escribe palabras clave para filtrar resultados": "परिणामों को फ़िल्टर करने के लिए कीवर्ड लिखें",
+                                  "Escribe aquí...": "यहाँ लिखें...",
+                                  "Rango de precio": "मूल्य सीमा",
+                                  "Selecciona un rango de precio para filtrar resultados": "परिणामों को फ़िल्टर करने के लिए मूल्य सीमा चुनें",
+                                  "Rango": "सीमा",
+                                  "Mínimo": "न्यूनतम",
+                                  "día": "दिन",
+                                  "Máximo": "अधिकतम",
+                                  "Mejor valorados": "सर्वश्रेष्ठ रेटिंग प्राप्त",
+                                  "Más valorados": "अधिक रेटिंग प्राप्त",
+                                  "Precio ascendente": "मूल्य बढ़ता हुआ",
+                                  "Precio descendente": "मूल्य घटता हुआ",
+                                  "No se pudo obtener listado de usuarios": "उपयोगकर्ता सूची प्राप्त नहीं हो सकी",
+                                  "No se pudo obtener el contador de categorías": "श्रेणियों की संख्या प्राप्त नहीं हो सकी",
+                                  "Sin tags": "कोई टैग नहीं",
+                                  "Ya hay una solicitud enviada pendiente de aceptar": "पहले से ही स्वीकृति की प्रतीक्षा में एक अनुरोध भेजा गया है",
+                                  "Resultado desconocido": "अज्ञात परिणाम",
+                                  "No se pudo comprobar la existencia de la solicitud": "अनुरोध की उपस्थिति की पुष्टि नहीं की जा सकी",
+                                  "Ya hay un Tag con ese valor": "उस मान के साथ पहले से ही एक टैग मौजूद है",
+                                  "El campo está vacío, no se puede crear un Tag": "फील्ड खाली है, टैग नहीं बनाया जा सकता",
+                                  "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "उपयोगकर्ताओं से संपर्क करने और पहुंचने के लिए प्रारंभिक या 360 योजना लें",
+                                  "Texto descriptivo del anuncio especial": "विशेष विज्ञापन का वर्णनात्मक पाठ"
+                                },
+                              
+                                "chats": {
+                                  "Cargando chats...": "चैट लोड हो रही है...",
+                                  "Buscar": "खोजें",
+                                  "Chats": "चैट",
+                                  "Solicitudes": "अनुरोध",
+                                  "Aceptar": "स्वीकार करें",
+                                  "Rechazar": "अस्वीकार करें",
+                                  ": ha enviado un PDF": ": ने एक PDF भेजा है",
+                                  "Tú: has enviado un PDF": "आप: आपने एक PDF भेजा है",
+                                  ": ha enviado un AUDIO": ": ने एक ऑडियो भेजा है",
+                                  "Tú: has enviado un AUDIO": "आप: आपने एक ऑडियो भेजा है",
+                                  ": ha enviado una imagen": ": ने एक छवि भेजी है",
+                                  "Tú: has enviado una imagen": "आप: आपने एक छवि भेजी है",
+                                  "Sin mensajes aún": "अभी तक कोई संदेश नहीं",
+                                  "No se pueden obtener los chats": "चैट प्राप्त नहीं कर सकते",
+                                  "Borrar chat": "चैट हटाएं",
+                                  "¿Quieres borrar el chat ' + chat.nombre + ' ?": "क्या आप ' + chat.nombre + ' चैट हटाना चाहते हैं?",
+                                  "Cancelar": "रद्द करें",
+                                  "Borrando chat": "चैट हटाया जा रहा है",
+                                  "No se ha podido borrar el chat": "चैट हटाया नहीं जा सका",
+                                  "No se pudieron obtener las solicitudes": "अनुरोध प्राप्त नहीं किए जा सके",
+                                  "Solicitud eliminada exitósamente": "अनुरोध सफलतापूर्वक हटा दिया गया",
+                                  "Resultado desconocido": "अज्ञात परिणाम",
+                                  "No se pudo eliminar la solicitud": "अनुरोध हटाया नहीं जा सका",
+                                  "Solicitud aceptada exitósamente": "अनुरोध सफलतापूर्वक स्वीकार किया गया",
+                                  "La solicitud ya no es valida": "अनुरोध अब मान्य नहीं है",
+                                  "No se pudo aceptar la solicitud": "अनुरोध स्वीकार नहीं किया जा सका",
+                                  "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: ने एक PDF भेजा है",
+                                  "ha enviado un AUDIO": "{{name}}: ने एक ऑडियो भेजा है",
+                                  "ha enviado una imagen": "{{name}}: ने एक छवि भेजी है",
+                                  "Tú: {{mensaje}}": "आप: {{mensaje}}",
+                                  "No se pueden obtener los mensajes": "संदेश प्राप्त नहीं किए जा सकते",
+                                  "No se ha podido enviar el mensaje": "संदेश भेजा नहीं जा सका",
+                                  "Cargando mensajes...": "संदेश लोड हो रहे हैं...",
+                                  "Grabación finalizada": "रिकॉर्डिंग समाप्त",
+                                  "Pulse aquí para enviar": "भेजने के लिए यहां दबाएं",
+                                  "No se puede obtener el archivo": "फ़ाइल प्राप्त नहीं कर सकते"
+                                },
+                              
+                                "add-participants-to-group": {
+                                  "AGREGAR MIEMBROS AL GRUPO DE CHAT": "चैट समूह में सदस्य जोड़ें",
+                                  "Nombre del grupo": "समूह का नाम",
+                                  "Escribe aquí...": "यहाँ लिखें...",
+                                  "Miembros del grupo": "समूह के सदस्य",
+                                  "Tú": "आप",
+                                  "Crear grupo": "समूह बनाएँ",
+                                  "No se obtuvieron los participantes": "प्रतिभागियों को प्राप्त नहीं किया जा सका",
+                                  "El usuario seleccionado ya está añadido al listado de participantes": "चयनित उपयोगकर्ता पहले से ही प्रतिभागियों की सूची में जोड़ा गया है",
+                                  "Sin Categorías": "कोई श्रेणियाँ नहीं",
+                                  "Introduzca un nombre para el grupo de chat": "चैट समूह के लिए एक नाम दर्ज करें",
+                                  "¡Grupo de chat creado!": "चैट समूह बनाया गया!",
+                                  "No se pudo crear el grupo": "समूह नहीं बनाया जा सका",
+                                  "Debe añadir al menos un miembro al grupo de chat": "आपको कम से कम एक सदस्य समूह में जोड़ना होगा",
+                                  "Sin Suscripción válida": "कोई वैध सदस्यता नहीं",
+                                  "Hazte con el plan 360 para crear y administrar proyectos": "परियोजनाएँ बनाने और प्रबंधित करने के लिए 360 योजना प्राप्त करें"
+                                },
+                                
+                                    "app-chat-header": {
+                                      "Conectado": "कनेक्टेड",
+                                      "¿Desea bloquear a este usuario?": "क्या आप इस उपयोगकर्ता को ब्लॉक करना चाहते हैं?",
+                                      "Cancelar": "रद्द करें",
+                                      "Bloquear": "ब्लॉक करें",
+                                      "Usuario bloqueado": "उपयोगकर्ता ब्लॉक किया गया",
+                                      "El usuario ya se encuentra bloqueado": "उपयोगकर्ता पहले से ही ब्लॉक है",
+                                      "Respuesta desconocida": "अज्ञात प्रतिक्रिया"
+                                    },
+                                  
+                                    "app-chat-footer": {
+                                      "Escribe aquí...": "यहाँ लिखें...",
+                                      "Grabación finalizada": "रिकॉर्डिंग समाप्त",
+                                      "Pulse aquí para enviar": "भेजने के लिए यहाँ दबाएँ",
+                                      "Se está realizando una grabación de audio": "एक ऑडियो रिकॉर्डिंग हो रही है",
+                                      "Hay un archivo de audio pendiente para enviar": "भेजने के लिए एक ऑडियो फ़ाइल लंबित है",
+                                      "Solo se permiten archivos .pdf": "केवल .pdf फ़ाइलें अनुमत हैं",
+                                      "Ya hay una grabación en proceso": "पहले से ही एक रिकॉर्डिंग प्रक्रिया में है"
+                                    },
+                                  
+                                    "app-pgchat-footer": {
+                                      "Grabación finalizada": "रिकॉर्डिंग समाप्त",
+                                      "Pulse aquí para enviar": "भेजने के लिए यहाँ दबाएँ",
+                                      "Se está realizando una grabación de audio": "एक ऑडियो रिकॉर्डिंग हो रही है",
+                                      "Hay un archivo de audio pendiente para enviar": "भेजने के लिए एक ऑडियो फ़ाइल लंबित है",
+                                      "Solo se permiten archivos .pdf": "केवल .pdf फ़ाइलें अनुमत हैं",
+                                      "Ya hay una grabación en proceso": "पहले से ही एक रिकॉर्डिंग प्रक्रिया में है"
+                                    },
+                                  
+                                    "app-pnchat-footer": {
+                                      "Grabación finalizada": "रिकॉर्डिंग समाप्त",
+                                      "Pulse aquí para enviar": "भेजने के लिए यहाँ दबाएँ",
+                                      "Se está realizando una grabación de audio": "एक ऑडियो रिकॉर्डिंग हो रही है",
+                                      "Hay un archivo de audio pendiente para enviar": "भेजने के लिए एक ऑडियो फ़ाइल लंबित है",
+                                      "Solo se permiten archivos .pdf": "केवल .pdf फ़ाइलें अनुमत हैं",
+                                      "Ya hay una grabación en proceso": "पहले से ही एक रिकॉर्डिंग प्रक्रिया में है"
+                                    },
+                                  
+                                    "app-chat-group": {
+                                      "mensajes nuevos": "नए संदेश"
+                                    },
+                                  
+                                    "app-pnchat-header": {
+                                      "Conectado": "कनेक्टेड"
+                                    },
+                                  
+                                    "pnchats": {
+                                      "CHATS": "चैट",
+                                      "TODOS": "सभी",
+                                      "Grupos": "समूह",
+                                      "Solicitudes": "अनुरोध",
+                                      "Aceptar": "स्वीकार करें",
+                                      "Rechazar": "अस्वीकार करें",
+                                      ": ha enviado un PDF": ": ने एक PDF भेजा है",
+                                      "Tú: has enviado un PDF": "आप: आपने एक PDF भेजा है",
+                                      ": ha enviado un AUDIO": ": ने एक ऑडियो भेजा है",
+                                      "Tú: has enviado un AUDIO": "आप: आपने एक ऑडियो भेजा है",
+                                      ": ha enviado una imagen": ": ने एक छवि भेजी है",
+                                      "Tú: has enviado una imagen": "आप: आपने एक छवि भेजी है",
+                                      "Sin mensajes aún": "अभी तक कोई संदेश नहीं",
+                                      "No se pueden obtener los chats": "चैट प्राप्त नहीं कर सकते",
+                                      "Borrar chat": "चैट हटाएँ",
+                                      "¿Quieres borrar el chat ' + chat.nombre + ' ?": "क्या आप ' + chat.nombre + ' चैट हटाना चाहते हैं?",
+                                      "Cancelar": "रद्द करें",
+                                      "Borrando chat": "चैट हटाई जा रही है",
+                                      "No se ha podido borrar el chat": "चैट हटाया नहीं जा सका",
+                                      "No se pudieron obtener las solicitudes": "अनुरोध प्राप्त नहीं किए जा सके",
+                                      "Solicitud eliminada exitósamente": "अनुरोध सफलतापूर्वक हटाया गया",
+                                      "Resultado desconocido": "अज्ञात परिणाम",
+                                      "No se pudo eliminar la solicitud": "अनुरोध हटाया नहीं जा सका",
+                                      "Solicitud aceptada exitósamente": "अनुरोध सफलतापूर्वक स्वीकार किया गया",
+                                      "La solicitud ya no es valida": "अनुरोध अब मान्य नहीं है",
+                                      "No se pudo aceptar la solicitud": "अनुरोध स्वीकार नहीं किया जा सका",
+                                      "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: ने एक PDF भेजा है",
+                                      "ha enviado un AUDIO": "{{name}}: ने एक ऑडियो भेजा है",
+                                      "ha enviado una imagen": "{{name}}: ने एक छवि भेजी है",
+                                      "Tú: {{mensaje}}": "आप: {{mensaje}}",
+                                      "No se pueden obtener los mensajes": "संदेश प्राप्त नहीं किए जा सकते",
+                                      "No se ha podido enviar el mensaje": "संदेश भेजा नहीं जा सका",
+                                      "Cargando mensajes...": "संदेश लोड हो रहे हैं...",
+                                      "Grabación finalizada": "रिकॉर्डिंग समाप्त",
+                                      "Pulse aquí para enviar": "भेजने के लिए यहाँ दबाएँ",
+                                      "No se puede obtener el archivo": "फ़ाइल प्राप्त नहीं कर सकते"
+                                    },
+                                  
+                                    "interior-chat": {
+                                      "Cargando mensajes...": "संदेश लोड हो रहे हैं...",
+                                      "No se pueden obtener los mensajes": "संदेश प्राप्त नहीं किए जा सकते",
+                                      "No se ha podido enviar el mensaje": "संदेश भेजा नहीं जा सका"
+                                    },
+                                  
+                                    "interior-pgchat": {
+                                      "No se ha podido enviar el mensaje": "संदेश भेजा नहीं जा सका",
+                                      "No se pueden obtener los mensajes": "संदेश प्राप्त नहीं किए जा सकते",
+                                      "Cargando mensajes...": "संदेश लोड हो रहे हैं..."
+                                    },
+                                  
+                                    "interior-pnchat": {
+                                      "No se ha podido enviar el mensaje": "संदेश भेजा नहीं जा सका",
+                                      "No se pueden obtener los mensajes": "संदेश प्राप्त नहीं किए जा सकते",
+                                      "Cargando mensajes...": "संदेश लोड हो रहे हैं..."
+                                    },
+                                  
+                                    "select-useroptions-modal": {
+                                      "Bloquear usuario": "उपयोगकर्ता को ब्लॉक करें",
+                                      "Reportar usuario": "उपयोगकर्ता की रिपोर्ट करें"
+                                    },
+
+                                    
+                                      "add-remove-users-modal": {
+                                        "Listado actualizado": "सूची अपडेट की गई",
+                                        "No se pudo actualizar el listado": "सूची को अपडेट नहीं किया जा सका",
+                                        "Añadir al grupo": "समूह में जोड़ें",
+                                        "Quitar del grupo": "समूह से निकालें",
+                                        "SACAR USUARIOS DEL GRUPO": "उपयोगकर्ताओं को समूह से हटाएँ",
+                                        "METER USUARIOS EN GRUPO": "उपयोगकर्ताओं को समूह में जोड़ें",
+                                        "Usuarios para sacar": "निकालने के लिए उपयोगकर्ता",
+                                        "Usuarios para meter": "जोड़ने के लिए उपयोगकर्ता"
+                                      },
+                                    
+                                      "detail-project": {
+                                        "DETALLES DEL PROYECTO": "परियोजना का विवरण",
+                                        "Creador/a del proyecto": "परियोजना का निर्माता",
+                                        "Fecha de finalización": "समाप्ति तिथि",
+                                        "Participantes": "प्रतिभागी",
+                                        "No se obtuvo las carpetas del proyecto": "परियोजना फ़ोल्डर प्राप्त नहीं किए जा सके"
+                                      },
+                                    
+                                      "social-networks": {
+                                        "Nombre": "नाम",
+                                        "Añade un link": "एक लिंक जोड़ें",
+                                        "Guardar cambios": "परिवर्तन सहेजें",
+                                        "REDES SOCIALES": "सामाजिक नेटवर्क"
+                                      },
+                                    
+                                      "Ver planes": "योजनाएँ देखें",
+                                      "other-user": {
+                                        "Sin opiniones": "कोई समीक्षा नहीं",
+                                        "opiniones": "समीक्षाएँ",
+                                        "Quitar Favorito": "पसंदीदा से हटाएं",
+                                        "Chatear": "चैट करें",
+                                        "Conectar": "कनेक्ट करें",
+                                        "Trabajos": "कार्य",
+                                        "Ubicaciones": "स्थान",
+                                        "Idiomas": "भाषाएँ",
+                                        "Redes sociales": "सामाजिक नेटवर्क",
+                                        "Ubicación de este usuario": "इस उपयोगकर्ता का स्थान",
+                                        "Sin ubicación actual": "कोई वर्तमान स्थान नहीं",
+                                        "Ubicaciones donde puede trabajar": "वे स्थान जहाँ वह काम कर सकता है",
+                                        "Trabajos de": "के कार्य",
+                                        "Guardar": "सहेजें",
+                                        "Añadir a Favoritos": "पसंदीदा में जोड़ें",
+                                        "Usuario Favorito": "पसंदीदा उपयोगकर्ता",
+                                        "En Favorito": "पसंदीदा में",
+                                        "En favoritos": "पसंदीदा में",
+                                        "No se pudo obtener los datos del usuario": "उपयोगकर्ता डेटा प्राप्त नहीं किया जा सका",
+                                        "Ya hay una solicitud enviada pendiente de aceptar": "पहले से ही एक अनुरोध स्वीकृति के लिए लंबित है",
+                                        "Resultado desconocido": "अज्ञात परिणाम",
+                                        "No se pudo comprobar la existencia de la solicitud": "अनुरोध की उपलब्धता सत्यापित नहीं की जा सकी",
+                                        "No se pudieron obtener los trabajos": "कार्य प्राप्त नहीं किए जा सके",
+                                        "No se pudieron obtener las ubicaciones": "स्थान प्राप्त नहीं किए जा सके",
+                                        "No se pudieron obtener los idiomas": "भाषाएँ प्राप्त नहीं की जा सकीं",
+                                        "No se pudieron obtener las redes": "नेटवर्क प्राप्त नहीं किए जा सके",
+                                        "¿Desea bloquear a este usuario?": "क्या आप इस उपयोगकर्ता को ब्लॉक करना चाहते हैं?",
+                                        "cancelar": "रद्द करें",
+                                        "bloquear": "ब्लॉक करें",
+                                        "Usuario bloqueado": "उपयोगकर्ता ब्लॉक किया गया",
+                                        "El usuario ya se encuentra bloqueado": "उपयोगकर्ता पहले से ही ब्लॉक है",
+                                        "Respuesta desconocida": "अज्ञात प्रतिक्रिया"
+                                      },
+                                    
+                                      "add-rating": {
+                                        "AÑADE UNA VALORACIÓN": "एक रेटिंग जोड़ें",
+                                        "¿Cómo valorarías a ": "आप कैसे मूल्यांकन करेंगे ",
+                                        "Tu valoración ayuda a otros usuarios": "आपकी रेटिंग अन्य उपयोगकर्ताओं की मदद करती है",
+                                        "¿Quieres añadir aglún comentario?": "क्या आप कोई टिप्पणी जोड़ना चाहते हैं?",
+                                        "Escribe aquí...": "यहाँ लिखें...",
+                                        "No se pudo obtener los datos del usuario": "उपयोगकर्ता डेटा प्राप्त नहीं किया जा सका",
+                                        "Introduzca un comentario en la valoración": "कृपया रेटिंग में एक टिप्पणी दर्ज करें",
+                                        "¡Valoracion enviada!": "रेटिंग भेजी गई!",
+                                        "Publica": "प्रकाशित करें",
+                                        "Gracias por poner tu comentario a ": "अपनी टिप्पणी छोड़ने के लिए धन्यवाद "
+                                      },
+                                    
+                                      "user-ratings": {
+                                        "VALORACIONES A ": "की रेटिंग ",
+                                        "Más recientes": "नवीनतम",
+                                        "Menos recientes": "पुरानी",
+                                        "Puntuación": "स्कोर",
+                                        "Perfil verificado": "सत्यापित प्रोफ़ाइल",
+                                        "Reportar comentario": "टिप्पणी की रिपोर्ट करें",
+                                        "Añadir valoración": "रेटिंग जोड़ें",
+                                        "Sin oficio": "कोई पेशा नहीं",
+                                        "Sin Suscripción": "कोई सदस्यता नहीं",
+                                        "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+                                        "अपनी और अन्य उपयोगकर्ताओं की रेटिंग देखने के लिए सदस्यता लें",
+                                        "Más altas": "उच्चतम",
+                                        "Más bajas": "निम्नतम"
+                                      },
+                                    
+                                      "select-chatoptions-modal": {
+                                        "Añadir usuarios": "उपयोगकर्ता जोड़ें",
+                                        "Quitar usuarios": "उपयोगकर्ता हटाएँ",
+                                        "Pronombres": "सर्वनाम"
+                                      },
+                                    
+                                      "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "हम जल्द ही इस अनुभाग को सक्रिय करेंगे ताकि आप इसकी सामग्री का आनंद ले सकें",
+                                      
+                                        "Fotografía": "फोटोग्राफी",
+                                        "Film/vídeo": "फिल्म/वीडियो",
+                                        "Cine/vídeo": "सिनेमा/वीडियो",
+                                        "Música": "संगीत",
+                                        "Eventos": "कार्यक्रम",
+                                        "Teatro": "थिएटर",
+                                        "Otros": "अन्य",
+                                        "Sin categoría": "कोई श्रेणी नहीं",
+                                      
+                                        "El idioma ya se encuentra en el listado": "भाषा पहले से सूची में मौजूद है",
+                                        "Relación": "संबंध",
+                                        "precio": "मूल्य",
+                                        "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "उपयोगकर्ता की सभी जानकारी प्राप्त करने और संपर्क करने के लिए, Plan S या Plan 360 की सदस्यता लें।",
+                                      
+                                        "my-ads": {
+                                          "Mis anuncios": "मेरे विज्ञापन",
+                                          "Tipo de anuncio": "विज्ञापन का प्रकार",
+                                          "Duración": "अवधि",
+                                          "mes": "महीना",
+                                          "meses": "महीने",
+                                          "día": "दिन",
+                                          "dias": "दिनों",
+                                          "Anuncio borrado con éxito": "विज्ञापन सफलतापूर्वक हटाया गया",
+                                          "Vídeo": "वीडियो",
+                                          "Imagen": "छवि",
+                                          "Ver anuncio": "विज्ञापन देखें",
+                                          "Ver perfil del creador": "निर्माता की प्रोफ़ाइल देखें",
+                                          " y ": " और "
+                                        },
+                                      
+                                        "upload-advertisement": {
+                                          "SUBIR ANUNCIO": "विज्ञापन अपलोड करें",
+                                          "Quiero publicitar mi perfil": "मैं अपनी प्रोफ़ाइल का प्रचार करना चाहता हूँ",
+                                          "Público objetivo": "लक्षित दर्शक",
+                                          "Rango de edad": "आयु सीमा",
+                                          "Rango seleccionado": "चयनित सीमा",
+                                          "años": "वर्ष",
+                                          "Género": "लिंग",
+                                          "Hombre": "पुरुष",
+                                          "Mujer": "महिला",
+                                          "Otro": "अन्य",
+                                          "Localización": "स्थान",
+                                          "Buscar dirección": "पता खोजें",
+                                          "Rango por kilómetros": "किलोमीटर में सीमा",
+                                          "Rango seleccionado: hasta": "चयनित सीमा: तक",
+                                          "Kilómetros": "किलोमीटर",
+                                          "Intereses": "रुचियाँ",
+                                          "Pago del anuncio": "विज्ञापन भुगतान",
+                                          "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "विज्ञापन दिखाने या क्लिक के लिए आप कितना भुगतान करना चाहते हैं, वह चुनें। आपके द्वारा तय मूल्य के आधार पर हम बताएंगे कि आपका विज्ञापन कितने समय तक दिखेगा।",
+                                          "Precio por clics": "प्रति क्लिक मूल्य",
+                                          "Impresiones": "प्रदर्शन",
+                                          "Cantidad seleccionada:": "चयनित मात्रा:",
+                                          "impresiones": "प्रदर्शन",
+                                          "Duración": "अवधि",
+                                          "días": "दिन",
+                                          "Confirmar y proceder al pago": "पुष्टि करें और भुगतान करें",
+                                          "Seleccionar imagen": "छवि चुनें",
+                                          "Selecciona video": "वीडियो चुनें"
+                                        },
+                                      
+                                        "El proyecto ha finalizado, no puede realizar modificaciones": "परियोजना समाप्त हो गई है, आप कोई बदलाव नहीं कर सकते",
+                                        "USUARIOS FAVORITOS": "पसंदीदा उपयोगकर्ता",
+                                        "CHAT": "चैट",
+                                        "No tiene permiso para acceder al contenido de esta carpeta": "आपको इस फ़ोल्डर की सामग्री तक पहुँचने की अनुमति नहीं है",
+                                        "Chat creado con éxito": "चैट सफलतापूर्वक बनाई गई",
+                                        "Crear chat": "चैट बनाएं",
+                                        "Nuevo Chat": "नई चैट",
+                                      
+                                        "Permisos de carpeta": "फ़ोल्डर अनुमतियाँ",
+                                        "Sin permisos": "कोई अनुमति नहीं",
+                                        "Solo lectura": "केवल पढ़ने के लिए",
+                                        "Modificar contenido": "सामग्री संपादित करें",
+                                        "No se pudo obtener más usuarios": "अधिक उपयोगकर्ताओं को प्राप्त नहीं किया जा सका",
+                                        "Introduzca el nuevo lenguaje": "नई भाषा दर्ज करें"
+                                      }
+                                      
+                                    
+                                  
+                                  
+                              
+                              
+                          
+                            
+                          
+                          
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+
+  
+  

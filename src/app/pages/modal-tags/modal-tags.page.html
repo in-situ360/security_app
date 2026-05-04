@@ -1,0 +1,13 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="closeModal()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="closeModal()" class="header-title">TAGS</h5>
+ 
+
+</ion-header>
+
+<ion-content>
+  
+  <div *ngFor="let ul of userLabels" class="etiqueta">{{ul?.value}}</div>
+  
+
+</ion-content>

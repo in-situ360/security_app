@@ -1,0 +1,327 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+#header{
+    background-color:#E5E5E5;
+   // box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#iconLeft{
+    margin-top:0px; 
+    margin-bottom: 20px; 
+    height: 45px; 
+    width: 83px; 
+    margin-left: 15px;
+}
+
+#iconRight{
+
+  margin-top: 1px;
+  margin-bottom: 20px;
+  padding: 7px;
+  height: 23px;
+  width: 23px;
+  float: right;
+  margin-right: 15px;
+  background-color: black;
+  border-radius: 25px;
+
+}
+
+#divButtonsBar{
+
+  width: 100%;
+  background-color: #26262C;
+  height: 73px;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+#divSearchBar{
+
+  width: 100%;
+  background-color: #26262C;
+  height: 71px;
+  padding-top: 6px;
+  padding-bottom: 10px;
+
+}
+
+ion-searchbar {
+    background-color:#26262C;
+    --border-radius: 23px; 
+   
+  }
+
+
+.btnsHeader{
+  color: #fff;
+  width:140px;
+  height: 36px;
+  margin-left: 4px;
+  margin-right: 4px;
+  --background: #6F6F6F;
+  font-size: 12px;
+  //--padding-start: 24px;
+  //--padding-end: 24px;
+  overflow: hidden; /* Oculta el texto que se desborda */
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  text-overflow: ellipsis;
+}
+
+#divSelectBar{
+
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 73px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#divSelect {
+    width: 80%;
+    border: 1px solid #7A7B88;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    //padding: 3px;
+    padding: 1px 3px 1px 19px;
+   // padding-left: 19px;
+    gap: 10px; /* Space between p and ion-select */
+    
+  }
+
+  #divSelect p {
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins', sans-serif; /* Example font family */
+    color: #62646E; /* Example text color */
+    font-size: 12px;
+  }
+
+  #divSelect ion-select {
+    flex-grow: 1; /* Make ion-select take up remaining space */
+    font-size: 15px;
+    color:#2A2A32
+
+  }
+  
+  ion-content{
+
+    margin-top: -26px !important;
+    padding-top:20px;
+    --background: none;
+    background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+
+    --padding-start: 15px;
+    --padding-end: 15px;
+  }
+
+
+  #iconAddProject{
+
+    position: fixed;
+    bottom: 6pt;
+    right: 6pt;
+    width: 83px;
+    height: 83px;
+    z-index: 99999;
+
+  }
+
+
+
+  #mainDiv {
+    /*width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 9px;
+    //width: 100%;
+    border: 1px solid #7A7B88;
+    border-radius: 100px;
+    padding: 6px;
+    padding-right: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    background-color: white;*/
+
+
+
+
+    width: 100%;
+    height: 97px;
+    /* margin-top: 15px; */
+    /* margin-bottom: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 8px; */
+    /* margin-right: 0px; */
+    border: 1px solid #7A7B88;
+    border-radius: 100px;
+    padding: 6px;
+    padding-right: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+
+  .clicked {
+    border-color: red;
+  }
+
+  .roundedImage {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .middleContent {
+    flex-grow: 1;
+    margin: 0 15px; /* Space between image and icon */
+  }
+
+  .middleContent p {
+    margin: 5px 0; /* Space between paragraphs */
+  }
+
+  #pTitle{
+
+    font-family: 'Poppins SemiBold';
+    font-size: 12pt;
+  }
+
+  .pSubTitle{
+
+    font-family: 'Poppins Regular';
+    font-size: 10pt;
+    margin-bottom: 4px !important;
+  }
+
+  .middleContent .bottomContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .middleContent .bottomContent ion-icon {
+    margin-right: 5px; /* Space between icon and paragraph */
+  }
+
+  .middleContent .bottomContent p {
+    margin: 0;
+  }
+  
+  .rightIcon {
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  
+  
+.overlay {
+  position: fixed; /* Fija la posición en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+  height: 100vh; /* Ocupa todo el alto de la pantalla */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+  z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+  pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+}
+
+
+.opcSeleccionada{
+  --background: #F42EB2 !important;
+  p{
+    color: white;
+  }
+  ion-icon{
+    color:white;
+  }
+}
+
+/* Mantener diseño de las tarjetas dentro del sliding */
+.project-item {
+  --padding-start: 0;
+  background: transparent !important;
+}
+
+.project-sliding {
+  background: transparent;
+  margin: 15px 9px; /* respeta tu separación */
+}
+
+// /* Reutilizamos tu #mainDiv como tarjeta, sin cambios visuales */
+// .project-card {
+//   //width: 100%;
+// }
+
+// /* Opcional: ancho máximo de opciones al deslizar (como en notificaciones) */
+// ion-item-sliding {
+//   //--max-option-width: 120px;
+  
+// }
+
+@media (min-width: 769px) {
+  
+  #iconLeft {
+    margin-top: 12px !important;
+    margin-bottom: 11px !important;
+    height: 45px !important;
+    width: 83px !important;
+    margin-left: 15px !important;
+  }
+
+  #iconRight {
+    margin-top: 16px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #iconChat {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+    background-color: black;
+    border-radius: 25px;
+    position: relative;
+    right: auto;
+  }
+
+}

@@ -1,0 +1,25 @@
+<ion-header no-border="no-border" >
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 10px 15px;">
+    <ion-buttons slot="start">
+      <!-- Icono de retroceso -->
+      <ion-icon src="assets/icons/arrowBack.svg" (click)="goBack()" style="margin-left: 0;margin-right: 13px;"></ion-icon>
+      
+      <!-- Avatar del chat -->
+      <ion-avatar (click)="goToOtherUser()" style="margin-left: 8px;">
+        <img src="{{avatar}}">
+      </ion-avatar>
+    </ion-buttons>
+
+    <ion-title >
+      <p (click)="goToOtherUser()" class="chatName">{{ chatName }}</p>
+     <!-- <p class="lastMessage">{{textConect}}</p>-->
+       
+      <!-- Último mensaje {{ lastMessage | date:'h:mm a' }}-->
+    </ion-title>
+
+    <ion-buttons (click)="abrirModalOpcionesUsuario()" slot="end">
+      <!-- Icono de ajustes del chat -->
+      <ion-icon src="assets/icons/ajustes-chat.svg" style="width: 34px; height: 34px;"></ion-icon>
+    </ion-buttons>
+  </div>
+</ion-header>

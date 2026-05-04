@@ -1,0 +1,253 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  .hiddenTitle{
+    visibility: hidden;
+    }
+
+    .visibleTitle{
+        visibility: visible;
+    }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+ /* #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+   // text-align: center;
+   // flex-grow: 1;
+   // margin-left: -45px;
+  }*/
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 19px;
+    margin-right: 7px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+
+
+
+ion-content {
+  --overflow: hidden;
+    
+}
+
+
+
+.text {
+    color: #2B4647;
+    font-family: 'Poppins Regular';
+}
+
+.btn {
+    text-transform: initial;
+    color: white;
+    margin: 0 auto;
+   
+    width: 100%;
+    font-family: 'Poppins Regular';
+    border-radius: 5px;
+    //margin-left: 20px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    
+
+}
+
+.acceder {
+    margin-left: 10px;
+    font-family: raleway;
+}
+
+.irRegistro {
+    display: flex;
+
+    color: white;
+    font-family: raleway;
+    //margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.ios-style-iconoEsquinaCover{
+    
+    top: 65px;
+
+}
+.android-style-iconoEsquinaCover{
+    top: 28pt;
+    
+
+}
+
+
+
+.optionText{
+    font-family: DMSansRegular;
+    
+}
+
+
+
+
+
+
+#divSelectBar{
+
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 73px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#divSelect {
+    width: 90%;
+    border: 1px solid #F42EB2;
+    margin: 0 auto;
+    margin-top:0px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    //padding: 3px;
+    padding: 5px 3px 5px 19px;
+   // padding-left: 19px;
+    //gap: 10px; /* Space between p and ion-select */
+    
+  }
+
+  #divSelect p {
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins', sans-serif; /* Example font family */
+    color: #62646E; /* Example text color */
+    font-size: 12px;
+  }
+
+  #divSelect ion-select {
+    flex-grow: 1; /* Make ion-select take up remaining space */
+    font-size: 15px;
+    color:#2A2A32
+
+  }
+  
+
+  #pTitle{
+    margin-top:70px;
+    font-family: 'LeagueSpartan Medium';
+    //font-family: 'Poppins Medium';
+    color: #2E2D2E;
+    font-size: 24px;
+   
+    display: flex;
+    justify-content: center;
+ 
+  }
+
+  #subTitle{
+    
+   
+
+
+
+
+    color:#2A2A32;
+    font-family: 'Poppins Regular';
+    width:250px;
+    justify-content: center;
+    margin:0 auto;
+    margin-bottom:20px;
+    text-align: center;
+    font-size:11pt;
+ 
+  }
+
+  // Media Queries - Solo para Web (ancho > 768px)
+  @media (min-width: 769px) {
+    // Contenedor del botón
+    div[style*="padding-left"] {
+      display: flex !important;
+      justify-content: center !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .btn {
+      width: 60%;
+      height: 45px;
+      font-size: 16px;
+      margin: 20px 0 200px 0;
+    }
+
+    #pTitle {
+      font-size: 32px;
+      margin-top: 100px;
+    }
+
+    #subTitle {
+      width: 400px;
+      font-size: 14px;
+    }
+
+    #divSelectBar {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #divSelect {
+      width: 60%;
+    }
+  }

@@ -1,0 +1,44 @@
+<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>DESTACAR MI PERFIL</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="maintxt">
+    <ion-label>Así se mostrará tu perfil destacado al resto de usuarios</ion-label>
+  </div>
+  <div class="contenido">
+    <div class="avatar">
+      <ion-avatar>
+        <img alt="" src="assets/imgs/foto-perfil-usuario.png" />
+      </ion-avatar>
+      <ion-fab>
+        <ion-fab-button>
+          <ion-icon src="assets/icon/destacar-mi-perfil.svg"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </div>
+    <form>
+      <p>Keywords</p>
+      <p class="p2">Escribe palabras clave para destacar en las listas</p>
+      <ion-item>
+        <ion-input placeholder="Escribe aquí…"></ion-input>
+      </ion-item>
+      <div class="cloudtags">
+        <ion-chip class="tagged"><label>fotografia experimental</label> <ion-icon name="close-outline"></ion-icon> </ion-chip>
+        <ion-chip class="tagged"><label>photography</label> <ion-icon name="close-outline"></ion-icon> </ion-chip>
+      </div>
+      <p>Precio del perfil destacado *</p>
+      <p class="p2">Selecciona el precio que deseas pagar para saber durante cuánto tiempo tu perfil se visualizará como destacado</p>
+      <ion-range (ionChange)="onIonChange($event)" [value]="24"></ion-range>
+      <p class="p2">Precio seleccionado: <b>{{ lastEmittedValue }} €</b><p>
+      <p class="p2">Se mostrará durante: <b>2 semanas</b></p>
+      <ion-button mode="md">Confirmar y proceder al pago</ion-button>
+    </form>
+  </div>
+
+</ion-content>

@@ -1,0 +1,15 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="closeModal()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5  (click)="closeModal()" class="header-title">{{ 'Factura Nº' | translate }} {{title}}</h5>
+   <img (click)="downloadPdf(id)" src="assets/icons/billingDownload.svg" class="dotmenu">
+</ion-header>
+
+<ion-content>
+  <pdf-viewer (click)="cambiarZoom()" id="thePdf" 
+    [src]="obtainPDF"
+    [render-text]="true"
+    [original-size]="false"
+    [zoom]="zoom"
+    style="">
+  </pdf-viewer>
+</ion-content>

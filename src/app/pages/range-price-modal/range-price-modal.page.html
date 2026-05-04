@@ -1,0 +1,15 @@
+<ion-header>
+  <p style="font-size: 21px;margin-top:15px;margin-bottom:15px;">{{ 'Filtro de Salario' | translate }}</p>
+      <p  class="p2">{{ 'Selecciona un rango de salario' | translate }}</p>
+      <ion-range  [value]="rangePrice" min="100" max="2000" (ionChange)="onIonChange($event)"></ion-range><!--[value]="rangeValue.upper"-->
+      <p >{{ 'Precio seleccionado:' | translate }} <b>{{ rangePrice }} €/{{ 'día' | translate }}</b></p>
+      <p  style="margin-left:50px;display: flex; align-items: center;width:100%;">{{ 'Se mostrará como:' | translate }} <b><span style="margin-left:5px;" id="spanEur">€</span><span *ngIf="rangePrice>=400" id="spanEur">€</span><span *ngIf="rangePrice>=800" id="spanEur">€</span><span *ngIf="rangePrice>1500" id="spanEur">€</span></b> <!--<ion-icon (click)="abrirModalInfo()" id="iconInfo" id="width: 17px;
+        height: 17px;" src="assets/icon/interrogacion.svg"></ion-icon>--></p>
+
+        <div class="button-container">
+          <ion-button style="width:90%; --background:#F42EB2;" (click)="dismissModal()">{{ 'Aplicar' | translate }}</ion-button>
+          <ion-button style="width:90%;" (click)="resetear()">{{ 'Resetear' | translate }} </ion-button>
+        </div>
+
+</ion-header>
+

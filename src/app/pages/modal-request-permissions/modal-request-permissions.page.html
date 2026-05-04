@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-icon id="iconLogo" src="assets/icons/estrella-valoracion-blanca.svg"></ion-icon>
+  <ion-icon (click)="dismiss()"id="iconCancelar" src="assets/icons/Cancelar-modal.svg"></ion-icon>
+
+</ion-header>
+
+<ion-content>
+
+  <p id="pTitle">{{ 'Permisos requeridos' | translate }}</p><!-- (click)="dismiss()"-->
+  <p id="pDesc">{{ 'Se requieren permisos de cámara, localización, notificaciones y audio para el uso de la aplicación' | translate }}</p>
+  <ion-button id="buttonSub" (click)="dismiss()">{{ 'Aceptar permisos' | translate }}</ion-button>
+
+  
+
+  
+</ion-content>

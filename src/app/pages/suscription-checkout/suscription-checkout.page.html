@@ -1,0 +1,80 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'CHECKOUT' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="tittle">
+    <p>{{'Pago del ' | translate }}</p>
+    <p class="product">{{suscriptionSelected?.name}}</p>
+  </div>
+  <ion-radio-group (ionChange)="onRadioGroupChange($event)">
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="credit"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{'Crédito o débito' | translate }}</ion-label>
+      <ion-icon src="assets/icon/visa.svg"></ion-icon>
+      <ion-icon src="assets/icon/mastercard.svg"></ion-icon>
+    </ion-item>
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="paypal"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{'Paypal' | translate }}</ion-label>
+      <ion-icon src="assets/icon/paypal.svg"></ion-icon>
+    </ion-item>
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="apple"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{'Apple Pay' | translate }}</ion-label>
+      <ion-icon src="assets/icon/apple-pay.svg" style="color:#000000"></ion-icon>
+    </ion-item>
+  </ion-radio-group>
+  
+  <div class="checkbox">
+    <div class="check">
+      <ion-checkbox [(ngModel)]="isTermsAccepted"></ion-checkbox>
+    </div>
+    <div class="label">
+      <ion-label>
+        {{'He leído y acepto ' | translate }}<a [routerLink]="['/tyc']" (click)="$event.stopPropagation()" style="color:#2E2D2E">{{'los Términos y Condiciones de Venta' | translate }}</a>
+      </ion-label>
+    </div>
+  </div>
+
+  <div class="checkbox">
+    <div class="check">
+      <ion-checkbox [(ngModel)]="usingBillingData" (ionChange)="onBillingDataCheckboxChange()"></ion-checkbox>
+    </div>
+    <div class="label">
+      <ion-label>{{'Usar datos de facturación' | translate }}
+      </ion-label>
+    </div>
+  </div>
+
+  <div class="totalpay">
+    <p style="font-family: 'Poppins Regular'; font-size: 18px; color:#0A162E;text-align: center; ">{{'Total' | translate }}</p>
+    <p style="font-family: 'Poppins SemiBold'; font-size: 27px; color:#0A162E; margin-top:-23px; text-align: center;">{{suscriptionSelected?.countrySub ? suscriptionSelected?.countrySub?.price : suscriptionSelected?.price}} {{currencySymbol(suscriptionSelected?.countrySub?.country)}}</p>
+  </div>
+
+  <div class="custom-footer" >
+    <ion-button class="custom-button" (click)="pagar()" [disabled]="!selectedPaymentMethod || !isTermsAccepted || !billingDataExist || !usingBillingData" mode="md" id="confirm-payment" expand="block">{{'Continuar' | translate }}</ion-button>
+  </div>
+
+  <ion-modal id="payment-confirmation" #modal [isOpen]="isModalOpen" (willDismiss)="activame(modal)">
+    <ng-template>
+      <div class="wrapper">
+        <ion-icon src="assets/icon/comprobar.svg"></ion-icon>
+        <h1>{{'¡Pago realizado!' | translate }}</h1>
+        <ion-label>{{'El pago de la suscripción se ha realizado correctamente' | translate }}</ion-label>
+        <ion-button mode="md" (click)="setOpen(false)">{{'Continuar a la app' | translate }}</ion-button>
+      </div>
+    </ng-template>
+  </ion-modal>
+</ion-content>
+
+<!--<ion-footer>
+  <div class="finishpayment">
+    <div class="totalpay">
+      <p style="font-family: 'Poppins Regular'; font-size: 13px; color:#0A162E;">{{'Total' | translate }}</p>
+      <p style="font-family: 'Poppins SemiBold'; font-size: 16px; color:#0A162E; margin-top:-15px;">{{suscriptionSelected?.countrySub ? suscriptionSelected?.countrySub?.price : suscriptionSelected?.price}} {{currencySymbol(suscriptionSelected?.countrySub?.country)}}</p>
+    </div>
+    <ion-button (click)="pagar()" [disabled]="!selectedPaymentMethod || !isTermsAccepted" mode="md" id="confirm-payment" expand="block">{{'Continuar' | translate }}</ion-button>
+  </div>
+</ion-footer>-->

@@ -1,0 +1,112 @@
+ion-header{
+    height:35px;
+   
+    display:flex;
+    align-items: center !important;
+}
+
+#titulo{
+    position:absolute;
+    top:18px;
+    color:#2A2A32;
+    font-family: 'LeagueSpartan Medium';
+    font-size:22pt;
+    margin-top:0px;
+    padding-top:0px;
+    left:20px;
+}
+
+#iconLogo{
+    
+    height: 20px;
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+   
+}
+
+#subTitulo{
+
+    color:#2A2A32;
+    font-family: 'Poppins Regular';
+    width:100%;
+    margin:0 auto;
+    margin-left:20px;
+    margin-top:20px;
+    text-align: left;
+    font-size:13pt;
+}
+
+
+.checkbox {
+    color:#2E2D2E;
+    font-family: 'Poppins Regular';
+    font-size: 14px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 12px;
+    .check{
+        align-items: center;
+        display: flex;
+        margin-left: -3px;
+        ion-checkbox{
+            height: 18px;
+            width: 18px;
+            --border-width: 1px;
+            --border-color: #F42EB2;
+            --border-radius: 0px !important;
+        }
+    }
+    .label{
+        margin-left: 7px;
+    }
+}
+
+#pTitle{
+
+    color:#2A2A32;
+    font-family: 'LeagueSpartan Medium';
+    width:100%;
+    text-align: center;
+    font-size:22pt;
+}
+
+#pDesc{
+
+    color:#2A2A32;
+    font-family: 'Poppins Regular';
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    font-size:10pt;
+}
+
+#input{
+    
+    border:1px solid #F42EB2;
+    border-radius:25px;
+    width:80%;
+    margin:0 auto;
+    margin-top:20px;
+    text-align: center;
+    --padding-top: 13px;
+    --padding-bottom: 13px;
+}
+
+#buttonContinue{
+    font-family: 'Poppins Medium';
+    width:90%;
+    --border-radius: 25pt !important;
+    --background: #F42EB2!important;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:28px;
+}
+
+
+ion-header::after {
+  background: none !important;
+  box-shadow: none !important;
+  display: none !important;
+}

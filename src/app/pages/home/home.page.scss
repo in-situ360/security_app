@@ -1,0 +1,492 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+.ios-style-icons{
+    top: 77px !important;
+}
+
+#header {
+  background-color: #E5E5E5;
+  box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.icon-container {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.notification-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.red-dot {
+  position: absolute;
+  top: -4px;
+  right: -39px;
+  width: 8px;
+  height: 8px;
+  background-color: #F42EB2;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+
+.notification-badge {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+  min-width: 16px;
+  height: 16px;
+  background-color: #F42EB2;
+  color: white;
+  font-size: 10px;
+  font-family: "Poppins Medium";
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+#iconChat {
+  padding: 7px;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border-radius: 25px;
+  position: absolute;
+}
+
+#iconLeft{
+    margin-top:0px; 
+    margin-bottom: 11px;
+    height: 45px; 
+    width: 83px; 
+    margin-left: 15px;
+}
+
+#iconRight{
+
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 7px;
+  height: 25px;
+  width: 25px;
+  float: right;
+  //margin-right: 15px;
+  background-color:black;
+  border-radius:25px;
+
+}
+
+
+
+
+#iconChat{
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+    float: right;
+    margin-right: 15px;
+    background-color:black;
+    border-radius:25px;
+    position: absolute;
+    right: 37px;
+    
+
+  
+  }
+
+  .iconChat-ios{
+
+    
+    position: absolute;
+    right: 37px;
+    top: 69px !important;
+
+  
+  }
+
+ion-content {
+    --background: #FFFFFF40;
+    --padding-start: 15px;
+    --padding-end: 15px;
+    background: url(../../../assets/imgs/fondoGris.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+
+    
+
+}
+
+#titulo{
+
+    margin-bottom:2px;
+    padding-bottom:2px;
+    font-size:12pt;
+    font-family: 'Poppins Bold';
+    color:#26262C;
+
+}
+
+#subTitulo{
+
+    margin-top:0px !important;
+    margin-bottom: 0 !important;
+    font-size:10pt;
+    font-family: 'Poppins Medium';
+    color:#26262C
+}
+
+#divImagenesContenedor{
+
+    width: 100%; 
+    display: flex; 
+    align-items: stretch;
+}
+
+#div1{
+
+    width: 35%; 
+    display: flex; 
+    flex-direction: column;
+}
+
+#img1{
+    width: 100%; 
+    height:115px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover
+}
+
+#img2{
+    width: 100%;
+    height:115px;
+    border-radius: 10px;
+    flex-grow: 1;
+    object-fit: cover
+}
+
+
+
+#div2{
+    width: 65%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+#img3{
+    width: 93%; 
+    margin-left: 7%; 
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover
+}
+
+
+#divAnuncioContenedor{
+    margin-top:10px;
+    width: 100%; 
+    
+    
+}
+
+#img4{
+
+    width:100%;
+   
+
+}
+
+#imgContainer {
+    width: 100%;            /* El contenedor ocupa todo el ancho disponible */
+    height: 140px;           /* Altura fija de 60px */
+    display: flex;          /* Centrar la imagen */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;    /* Centrado vertical */
+    overflow: hidden;       /* Evita que la imagen sobresalga */
+  }
+
+  #enlaceBanner{
+    width: 100%;            /* El contenedor ocupa todo el ancho disponible */
+    height: 140px;           /* Altura fija de 60px */
+    display: flex;          /* Centrar la imagen */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center;    /* Centrado vertical */
+    overflow: hidden;     
+  }
+  
+  #img4 {
+    width: 100%;            /* Ocupar todo el ancho del contenedor */
+    height: 100%;   
+    margin-bottom: 0px;
+    padding-bottom: 0px;        /* Ocupar toda la altura del contenedor */
+    object-fit: cover;      /* La imagen se ajusta sin deformarse, recortándose si es necesario */
+  }
+  
+
+#divTituloAnuncio{
+    margin-top: -3px;
+    padding-top: 0px;
+    width:100%;
+    //height:60px;
+   // background-color:#ff93a5;
+    text-align:center;
+    --background: none;
+    background: url(../../../assets/imgs/fondorosa.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    
+
+}
+
+#textoDescriptivoAnuncio{
+    color:white;
+    width: 70%; 
+    margin: 0 auto; 
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-family: 'Poppins Medium';
+    font-size:12pt;
+}
+
+
+
+
+.boxes {
+    //background-color: lightblue;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 140px;
+    height: 120px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    display: flex;
+    border-radius: 12px;
+}
+
+
+
+#image {
+
+    z-index: 1;
+    width: 140px;
+    min-width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+    flex-direction: column;
+    border-radius: 12px;
+    //filter: brightness(43%);
+    background:#F42EB2;
+}
+
+.description {
+    color: #131533;
+    font-size: 9pt;
+    font-family: "Poppins SemiBold";
+    bottom: -9px;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 99999;
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: #E5E5E5;
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 0px 0px 12px 12px;
+  
+}
+
+
+.subDescription{
+
+    color: #d0c7c7;
+    font-size: 9pt;
+    font-family: 'Poppins Regular';
+
+    top: 54px;
+    position: absolute;
+    left: 0px;
+    right: 0;
+
+
+    z-index: 99999;
+
+}
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 99999999999;
+    pointer-events: auto;
+  }
+
+
+.red-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #F42EB2;
+  border-radius: 50%;
+  margin-left: 4px;
+  position: relative;
+  bottom: 5px;
+}
+
+@media (min-width: 769px) {
+  #iconLeft {
+    margin-top: 12px; 
+    margin-bottom: 11px;
+    height: 45px;
+    width: 83px;
+    margin-left: 15px;
+  }
+  
+  .icon-container {
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #iconChat {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+    background-color: black;
+    border-radius: 25px;
+    position: relative;
+    right: auto;
+  }
+
+  #iconRight {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 7px;
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 25px;
+  }
+
+  .notification-icon {
+    position: relative;
+    display: inline-block;
+  }
+
+  #divImagenesContenedor {
+    width: 65%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: stretch;
+  }
+
+  #div1 {
+    width: 100%;
+    display: contents;
+  }
+
+  #img1,
+  #img2,
+  #img3 {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  #div2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // Agrandar los ion-slides para web
+  ion-slides {
+    margin-top: 20px;
+  }
+
+  .boxes {
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+    margin-right: 15px;
+  }
+
+  #image {
+    width: 220px;
+    height: 220px;
+    min-width: 220px;
+  }
+
+  .description {
+     width: 220px;
+     font-size: 12pt;
+     bottom: -12px;
+  }
+
+  #imgContainer {
+    width: 100%;   
+    height: 475px !important;   
+    display: flex;        
+    justify-content: center; 
+    align-items: center;  
+    overflow: hidden;      
+  }
+
+  #enlaceBanner {
+    width: 100%;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+}

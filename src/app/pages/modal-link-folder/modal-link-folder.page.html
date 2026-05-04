@@ -1,0 +1,27 @@
+<ion-content>
+  <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          <ion-icon (click)="closeModal()" id="iconFilter" src="assets/icons/arrowBack.svg"></ion-icon><span style="margin-left:5px;"> {{ 'AÑADIR LINK' | translate }}</span>
+        </span>
+       <!-- <a (click)="closeModal()" id="textoDerecha">{{ 'Cerrar' | translate }}</a>-->
+      </p>
+  <form id="form" *ngIf="form" [formGroup]="form">
+
+    <ion-label>{{ 'Título' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="name" clearInput type="text" placeholder="{{ 'Título de link' | translate }}"></ion-input>
+      <ion-icon id="icon1" class="iconItem" src="assets/icons/tag-alt.svg"></ion-icon>
+    </ion-list>
+
+    <ion-label>{{ 'URL' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="url" clearInput type="text" placeholder="{{ 'URL de link' | translate }}"></ion-input>
+      <ion-icon id="icon1" class="iconItem" src="assets/icons/link-tabsPink.svg"></ion-icon>
+    </ion-list>
+
+    <ion-button style="margin-top:10px;" expand="block" id="botonSub" type="submit" [disabled]="!form.valid" (click)="submitForm()">{{ 'languaje-select.Aceptar y continuar' | translate }}</ion-button>
+    
+  </form>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

@@ -1,0 +1,129 @@
+
+<app-loading [text]="'Cargando chats...' | translate" [color]="'primary'" *ngIf="isLoading"></app-loading>
+<ion-header (click)="onContentClick($event)" id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div *ngIf="isInvited" class="overlay"></div>
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBackWhite.svg"></ion-icon>
+    <h5 class="header-title">{{ 'pnchats.CHATS' | translate }}</h5>
+  </div>
+  <div id="divSearchBar">
+
+    <ion-searchbar mode="md"  enterkeyhint="search" (keydown)="onEnterPress($event)" (ionClear)="onSearchClear()" placeholder="{{'chats.Buscar' | translate }}" [(ngModel)]="filtroChat" ></ion-searchbar><!--(ngModelChange)="aplicarFiltro()"-->
+
+  </div>
+  <ion-segment [swipeGesture]="false" [(ngModel)]="selectedSegment" value="Trabajos" mode="md">
+      
+      <ion-segment-button (click)="showOptionPage(1)" value="Chats">
+          <ion-label class="labelSegment">{{'CHAT' | translate }}<span *ngIf="newIndChat" class="red-dot"></span></ion-label>
+          
+      </ion-segment-button>
+      <ion-segment-button (click)="showOptionPage(2)" value="Grupo">
+          <ion-label class="labelSegment">{{'pnchats.Grupos' | translate }}<span *ngIf="newGroupChat" class="red-dot"></span></ion-label>
+          
+      </ion-segment-button>
+      
+  </ion-segment>
+</ion-header>
+<ion-content (click)="onContentClick($event)" *ngIf="!isLoading">
+  <div *ngIf="isInvited" class="overlay"></div>
+  <div id="divChats" *ngIf="divOption==1"  style="padding-right: 25px;
+    padding-left: 7px;">
+
+
+    <ion-item-sliding #slidingItem  style="background: #F42EB2; border-radius: 37pt; height: 75px; margin-top:20px; border: 0px solid transparent;" 
+    *ngFor="let chat of filtChats"
+    class="project-sliding"><!--margin-left: 20px;-->
+    <ion-item   lines="none" detail="false" class="project-item" style="margin-top:0px;--padding-start:0; --inner-padding-start:0;
+         --padding-end:0;   --inner-padding-end:0;
+         background: transparent !important; border-radius: 37pt;">
+   
+
+   
+    <app-chat-group style="width: 100%;"
+    (click)="goPNChat(chat?.id,chat?.otherUser?.theuser?.name,chat?.ultimo_mensaje,chat?.otherUser?.theuser?.avatar,chat?.otherUser?.theuser?.phone,chat?.otherUser?.theuser?.id)"
+    [showOptions]="false"
+     [icon]="chat?.avatar"
+     [title]="chat?.otherUser?.theuser?.name"
+     [subtitle]="chat?.descripcion"
+     [lastMessage]="chat?.ultimo_mensaje"
+     [newMessages]="chat?.mensajes_nuevos"
+     [slidingOptionsSide]="'end'"
+     [slidingOptionsColor]="'primary'"
+     [slidingOptionsIcon]="'trash'"
+   >
+   <!--goToInteriorC(chat?.id,chat?.otherUser?.theuser?.name,chat?.ultimo_mensaje,chat?.avatar,chat?.otherUser?.theuser?.phone,chat?.otherUser?.theuser?.id-->
+   </app-chat-group><!-- *ngFor="let chat of filtChats"-->
+
+
+   </ion-item>
+
+
+   
+
+    <!-- Swipe derecha: Eliminar -->
+    <ion-item-options style="height: 73px;     border: 4px solid transparent;" side="end" (ionSwipe)="FullSwipeDelete(chat, slidingItem)"><!--(ionSwipe)="onProject"-->
+      <ion-item-option expandable style="background:#F42EB2; color:#fff;" (click)="delete(chat, slidingItem)"><!---->
+        <ion-icon src="assets/icon/trash-alt.svg" style="width:22px;height:22px;margin-right:6px;"></ion-icon>
+        {{ 'Eliminar' | translate }}
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+      
+
+
+  </div>
+
+
+  <div id="divChats" *ngIf="divOption==2"  style="padding-right: 25px;
+    padding-left: 7px;">
+
+
+ <ion-item-sliding #slidingItem  style="background: #F42EB2; border-radius: 37pt; height: 75px; margin-top:20px; border: 0px solid transparent;" 
+    *ngFor="let pgchat of pgfiltChats"
+    class="project-sliding"><!--margin-left: 20px;-->
+    <ion-item   lines="none" detail="false" class="project-item" style="margin-top:0px;--padding-start:0; --inner-padding-start:0;
+         --padding-end:0;   --inner-padding-end:0;
+         background: transparent !important; border-radius: 37pt;">
+
+   
+    <app-chat-group style="width: 100%;"
+    (click)="goPGChat(pgchat?.id,pgchat?.nombre,pgchat?.ultimo_mensaje,pgchat?.urlImagen,pgchat?.otherUser?.theuser?.phone,pgchat?.otherUser?.theuser?.id)"
+     [showOptions]="true"
+     [icon]="pgchat?.urlImagen"
+     [title]="pgchat?.nombre"
+     [subtitle]="pgchat?.descripcion"
+     [lastMessage]="pgchat?.ultimo_mensaje"
+     [newMessages]="pgchat?.mensajes_nuevos"
+     [slidingOptionsSide]="'end'"
+     [slidingOptionsColor]="'primary'"
+     [slidingOptionsIcon]="'trash'"
+     [chatId]="pgchat?.id"
+     (ajusteClick)="onAjusteClicked($event)"
+   >
+   <!--goToInteriorC(chat?.id,chat?.otherUser?.theuser?.name,chat?.ultimo_mensaje,chat?.avatar,chat?.otherUser?.theuser?.phone,chat?.otherUser?.theuser?.id-->
+   </app-chat-group>
+
+      </ion-item>
+
+
+   <!-- Swipe derecha: Eliminar -->
+    <ion-item-options style="height: 73px;     border: 4px solid transparent;" side="end" (ionSwipe)="FullSwipeDelete2(pgchat, slidingItem)"><!--(ionSwipe)="onProject"-->
+      <ion-item-option expandable style="background:#F42EB2; color:#fff;" (click)="delete2(pgchat, slidingItem)"><!---->
+        <ion-icon src="assets/icon/trash-alt.svg" style="width:22px;height:22px;margin-right:6px;"></ion-icon>
+        {{ 'Eliminar' | translate }}
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+      
+
+
+  </div>
+  <!-- Item chat -->
+
+
+  <ion-icon *ngIf="divOption==2" id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="goNewProjectGroup()"></ion-icon>
+  <ion-icon *ngIf="divOption==1" id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="abrirModalCreateChat()"></ion-icon>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

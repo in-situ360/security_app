@@ -1,0 +1,63 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div [ngClass]="{'hiddenTitle': !show, 'visibleTitle': show}" class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'add-rating.AÑADE UNA VALORACIÓN' | translate }}</h5>
+  </div>
+</ion-header>
+<ion-content>
+  <div class="contenido">
+    <div style="position:relative;" class="avatar">
+      <ion-avatar>
+        <img id="imgAvatar" alt="" [src]="user?.avatar" />
+      </ion-avatar>
+    </div>
+  </div>
+  <p style="padding-left:16%; padding-right:16%; font-size:17px; text-align:center; font-family: 'Poppins SemiBold'; width:100%; color:#110F0F; margin-top: 0px;
+    margin-bottom: 10px;">{{'add-rating.¿Cómo valorarías a ' | translate }}<span style="color:#F42EB2;">{{user?.name}}</span>?</p>
+
+  <p style="margin-top: 3px;padding-left:8%; padding-right:8%; font-size:17px; text-align:center; font-family: 'Poppins Regular'; width:100%; color:#7A7B88; ">{{'add-rating.Tu valoración ayuda a otros usuarios' | translate }}</p>
+  <div style="height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 26px;">
+    <ion-icon style="width:50px; height:50px; margin-left:2px;"
+    *ngFor="let star of stars; let i = index" 
+    [src]="getStarColor(i)" 
+    
+    (click)="onStarClick(i)"
+    class="star-icon">
+  </ion-icon>
+    
+  </div>
+  <div style="margin-top: 10px; padding-left: 16%;
+    padding-right: 16%;;">
+    <ion-range class="custom-range"
+    mode="md"
+    min="0"
+    max="5"
+    step="0.5"
+    [(ngModel)]="rating"
+    pin="true"
+    [snaps]="true"
+    [ticks]="true"
+    [pinFormatter]="formatLabel">
+    </ion-range>
+  </div>
+
+  <p style="margin-top: 3px;padding-left:8%; padding-right:8%; font-size:17px; text-align:center; font-family: 'Poppins Medium'; width:100%; color:#2A2A32; ">{{'add-rating.¿Quieres añadir aglún comentario?' | translate }}</p>
+
+  <ion-item style="margin-left:18px;margin-right:18px;margin-top:14px;">
+    <ion-textarea (keydown)="onEnterPress($event)" autocapitalize="on" placeholder="{{'add-rating.Escribe aquí...' | translate }}" [(ngModel)]="contenidoTextarea" [ngModelOptions]="{standalone: true}" (input)="onTextareaInput()" rows="8" [autoGrow]="true"></ion-textarea>
+  </ion-item>
+
+ 
+  <div id="divFooter">
+    <ion-button (click)="sendRating()" id="btnFooter">{{'add-rating.Publica' | translate }}</ion-button>
+  </div>
+  
+
+
+</ion-content>
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

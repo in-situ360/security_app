@@ -1,0 +1,28 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'edit-participants.MODIFICAR PARTICIPANTES' | translate }}</h5>
+    <ion-icon id="iconRight" (click)="abrirModalFollow()"  src="assets/icons/emptyHeart2.svg"></ion-icon>
+  </div>
+
+  <div id="divSearchBar">
+    <ion-searchbar mode="md" placeholder="{{ 'edit-participants.Buscar' | translate }}" [(ngModel)]="searchText" (ionChange)="onSearchChange($event)" (ionClear)="onSearchClear()"></ion-searchbar>
+  </div>
+</ion-header>
+
+<ion-content>
+
+  <div *ngFor="let participant of participantsSelected" (click)="selectEmp(participant)" id="mainDiv" >
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle">{{ participant?.proffesion }}</p>
+    </div>
+    <ion-icon (click)="removeUserSelected(participant); $event.stopPropagation()" class="rightIcon" src="assets/icons/eliminar-usuario.svg"></ion-icon>
+    
+  </div>
+
+  <ion-icon *ngIf="fromDetailProject" id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="goParticipantsPages()"></ion-icon>
+
+  
+</ion-content>

@@ -1,0 +1,125 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+
+ion-header{
+    background:#E5E5E5;
+    //padding-bottom:20px;
+    padding-bottom:0px;
+}
+
+
+
+#componentFooter{
+
+    background-color:#26262C;
+
+}
+
+
+ion-content{
+
+    //BACKGROUND-CHAT.png
+    --background: none;
+    background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+   // width: 90%;
+    //background-color:red;
+    margin: 0 auto !important;
+
+}
+
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0;
+
+  .custom-progress {
+    --progress-bar-height: 16px; // Grosor de la barra
+    width: 90%; // Puedes ajustar el ancho según quieras
+  }
+
+  .progress-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+// Separador de fecha
+.date-separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 15px 0;
+  gap: 10px;
+  position: relative;
+
+  .date-label {
+    font-size: 12px;
+    font-family: 'Poppins Medium';
+    color: #666;
+    background-color: rgba(229, 229, 229, 0.8);
+    padding: 4px 12px;
+    border-radius: 12px;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  ion-content {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  #componentFooter {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+
+  ion-header {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  ::ng-deep .message {
+    max-width: 50% !important;
+    overflow: hidden !important;
+    display: block !important;
+  }
+
+  ::ng-deep .message img {
+    max-width: 450px !important;
+    max-height: 400px !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: cover !important;
+    border-radius: 8px !important;
+  }
+
+  ::ng-deep .item-left {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  ::ng-deep .item-right {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+  
+}

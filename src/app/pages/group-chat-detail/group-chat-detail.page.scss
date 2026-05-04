@@ -1,0 +1,143 @@
+ion-header {
+    z-index: 1;
+}
+ion-toolbar {
+    margin-top: -15px;
+}
+
+.asistente-icono {
+    width: 35px;
+    position: relative;
+    top: 15px;
+}
+.chatbutton {
+    --background: #F42EB2;
+    color: white;
+    --border-radius: 100% !important;
+}
+.asistente-header {
+    display: flex;
+    text-transform: none;
+    flex-direction: column;
+    margin-left: 45px;
+    margin-top: -25px;
+    ion-title {
+        font-size: 13px;
+        margin-bottom: -13px;
+    }
+    p {
+        color:#7A7B88;
+        font-size: 11px;
+        font-family: "Poppins Regular";
+    }
+    
+}
+
+ion-content {
+    --background: url(../../../assets/imgs/BACKGROUND-MI-PERFIL.png) no-repeat center center / cover;
+}
+
+.chat2 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.chat {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+    .chat-bubble2,
+    .chat-bubble {
+        box-shadow: 0 3px 10px #716F6F65;
+        width: max-content;
+        max-width: 300px;
+        min-height: 56px;
+        align-items: center;
+        display: flex;
+        margin-bottom: 3%;
+    }
+    .chat-date {
+        border-radius: 50pt;
+        background: white;
+        width: fit-content;
+        height: 30px;
+        align-items: center;
+        display: flex;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        box-shadow: 0 3px 10px #716F6F65;
+        ion-label {
+            color: black;
+            font-family: "Poppins Regular";
+            font-size: 12px;
+        }
+    }
+    .chat-bubble {
+        border-radius: 50pt 50pt 50pt 0pt;
+        background: #F42EB2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .chat-bubble2 {
+        border-radius: 50pt 50pt 0pt 50pt;
+        background: #212127;
+    }
+    .name {
+        font-size: 11px;
+    }
+    ion-label {
+        font-family: "Poppins Medium";
+        font-size: 14px;
+        color:white;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: end;
+    }
+    .hour,
+    .hour2 {
+        font-size: 11px;
+        color: #2A2A32;
+        margin-top: -2%;
+    }
+    .hour2 {
+        margin-left: 92%;
+    }
+    .hour {
+        margin-left: 15%;
+    }
+}
+
+ion-footer {
+    background: #212127;
+}
+ion-item::part(native) {
+    --border-radius: 26pt;
+}
+ion-item{
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14px !important;
+    --background: #5A5A5F;
+    color: #FFF;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    ion-icon {
+        color: #fff;
+        font-size: 18px;
+        border-radius: 100%;
+        border: 6px solid #F42EB2;
+        background: #F42EB2;
+    }
+}
+
+.chat-member {
+    display: flex;
+    align-items: end;
+    img {
+        width: 53px;
+        height: 53px;
+        margin-bottom: 10px;
+    }
+}

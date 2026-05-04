@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17.681" height="17.681" viewBox="0 0 17.681 17.681">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_46777" data-name="Trazado 46777" d="M0,0H17.681V17.681H0Z" transform="translate(16 816.249)" fill="#2a2a32"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_1" data-name="Enmascarar grupo 1" transform="translate(-16 -816.249)" clip-path="url(#clip-path)">
+    <g id="image_plus" data-name="image plus" transform="translate(16 816.249)">
+      <path id="Trazado_46778" data-name="Trazado 46778" d="M14,7.367a.739.739,0,0,0-.737.737v2.49L12.171,9.5a2.054,2.054,0,0,0-2.9,0l-.516.523L6.933,8.192a2.054,2.054,0,0,0-2.9,0l-1.09,1.1V5.157a.739.739,0,0,1,.737-.737H9.577a.737.737,0,1,0,0-1.473H3.684a2.212,2.212,0,0,0-2.21,2.21v9a2.053,2.053,0,0,0,2.048,2.048h9.165a2.135,2.135,0,0,0,.589-.088h0a2.02,2.02,0,0,0,1.473-1.952V8.1A.736.736,0,0,0,14,7.367ZM3.684,14.735A.739.739,0,0,1,2.947,14v-2.63L5.076,9.239a.571.571,0,0,1,.81,0l5.5,5.5ZM13.261,14a.734.734,0,0,1-.133.4L9.8,11.051l.523-.516a.569.569,0,0,1,.81,0l2.129,2.144Zm2.21-11.051h-.737V2.21a.737.737,0,0,0-1.473,0v.737h-.737a.737.737,0,1,0,0,1.473h.737v.737a.737.737,0,0,0,1.473,0V4.42h.737a.737.737,0,1,0,0-1.473Z" fill="#2a2a32"/>
+      <path id="Trazado_46779" data-name="Trazado 46779" d="M0,0H17.681V17.681H0Z" fill="none"/>
+    </g>
+  </g>
+</svg>

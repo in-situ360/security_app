@@ -1,0 +1,19 @@
+<!--<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>mis anuncios</ion-title>
+  </ion-toolbar>
+</ion-header>routerLink="/upload-advertisement"-->
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'my-ads.Mis anuncios' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  
+ <advertisement-item *ngFor="let advertisement of advertisements" [advertisement]="advertisement" (advertisementClicked)="openSelectOptions($event)" (deleteClicked)="deleteItem($event)"></advertisement-item>
+ <ion-icon  id="iconAdd" src="assets/icons/nuevo-proyecto.svg" (click)="goNewAdvertisement()"></ion-icon>
+
+</ion-content>

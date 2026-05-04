@@ -1,0 +1,271 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconBack" src="assets/icons/arrowBack.svg"></ion-icon>
+  <ion-icon id="iconLeft" src="assets/icons/logotipo-3.svg"></ion-icon>
+  <ion-icon id="iconRight" (click)="goFollows()" src="assets/icons/emptyHeart.svg"></ion-icon>
+
+  <div id="divSearchBar" ><!-- [ngClass]="{ 'new-height': !filter_allow }"*ngIf="searchbar_allow"-->
+    <ion-searchbar mode="md" placeholder="{{ 'buscador2.Buscar' | translate }}" [(ngModel)]="searchText"  (keydown)="onEnterPress($event)" autocapitalize="words" (ionInput)="onSearchInput($event)" (ionChange)="onSearchChange($event)" (ionClear)="onSearchClear()" [debounce]="250"  enterkeyhint="search" (keydown)="onEnterPress($event)"></ion-searchbar><!--(ionChange)="onSearchChange($event)"-->
+    <ion-icon id="iconModalWeb" [ngClass]="{'android-icon-modal-style': isAndroid, 'ios-icon-modal-style': isIOS}" (click)="abrirModalDetalles()" src="assets/icons/filtros.svg"></ion-icon>
+    <div id="orderButtonWeb" (click)="abrirModalOrden()" class="inner-div">
+      <p>{{ 'buscador2.Ordenar' | translate }}</p>
+      <ion-icon src="assets/icons/ordenar.svg"></ion-icon>
+    </div>
+  </div>
+
+  <div id="threeDivContainer">
+    <ion-icon id="iconModalApp" [ngClass]="{'android-icon-modal-style': isAndroid, 'ios-icon-modal-style': isIOS}" (click)="abrirModalDetalles()" src="assets/icons/filtros.svg"></ion-icon>
+    <div (click)="abrirModalOrden()" class="inner-div">
+      <p>{{ 'buscador2.Ordenar' | translate }}</p>
+      <ion-icon src="assets/icons/ordenar.svg"></ion-icon>
+    </div>
+    
+    
+  </div>
+  
+</ion-header>
+
+<ion-content>
+  <div (click)="selectEmp(user)" *ngFor="let user of availableUsers" id="divContainerRating">
+    <div id="rating">
+      <div id="left">
+        <img id="image" [src]="user?.avatar" alt="Imagen redondeada">
+      </div>
+      <div id="right">
+        <div id="top-texts">
+          <p id="text1">{{ getAbbreviatedName(user) }}</p><!--{{ user?.representativeName }}-->
+         <!-- <ion-button (click)="conectUser(user); $event.stopPropagation()" id="text2">{{ 'buscador2.Conectar' | translate }}</ion-button>-->
+          <ion-icon id="iconHeart" [src]="user?.hasFollow ? 'assets/icons/fullHeart.svg' : 'assets/icons/emptyHeart.svg'"  (click)="follow(user); $event.stopPropagation()"></ion-icon><!---->
+        </div>
+        <div id="bottom-text">
+          <p id="text3">{{ user?.proffesion ? user.proffesion : ('buscador2.Sin oficio' | translate) }}</p>
+        </div>
+        <div style="width:100%; height:20px; display: flex; align-items: center;">
+          <ion-icon  id="iconValue"
+            *ngFor="let star of stars; let i = index" 
+            [src]="getStarColor(i,user?.averageRating)" 
+            
+            class="star-icon">
+          </ion-icon><!--[ngStyle]="{ 'filter': isActive(i,user?.averageRating) ? 'none' : 'grayscale(100%)' }" -->
+          <span id="txtVal">{{ user?.countRatings === 0 
+            ? ('Sin opiniones' | translate) 
+            : (user?.countRatings + ' ' + (user?.countRatings === 1 
+                ? ('opinión' | translate) 
+                : ('opiniones' | translate))) }}
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <p id="pDescript">{{ user?.description }}</p>
+
+    <div id="iconTextContainer">
+      <ion-icon src="assets/icons/location-point.svg" id="infoIcon"></ion-icon>
+      <p id="infoText" *ngIf="user?.transActualLoc==null">{{ user?.actuallocation?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+         <p id="infoText" *ngIf="user?.transActualLoc!=null">{{ user?.transActualLoc?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+
+    </div>
+    <div id="iconTextContainer">
+      <ion-icon name="information-circle-outline" id="infoIcon"></ion-icon>
+      <p id="infoText">{{ getUserLabels(user) }}</p>
+    </div>
+    <p id="pReport" *ngIf="user?.price != null">
+      <span style="margin-left:2px;" id="spanEur">€</span>
+      <span *ngIf="user?.price >= 400" id="spanEur">€</span>
+      <span *ngIf="user?.price >= 800" id="spanEur">€</span>
+      <span *ngIf="user?.price > 1500" id="spanEur">€</span>
+    </p>
+  </div>
+
+  <ion-infinite-scroll (ionInfinite)="onIonInfiniteJobs($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+  <ion-modal class="ion-text-center" id="example-modal" #modalDetalles [isOpen]="isModalDetalles" (willDismiss)="cerrarModalDetalles(modalDetalles)" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          <ion-icon (click)="cerrarModalDetalles(modalDetalles)" id="iconFilter" src="assets/icons/arrowBack.svg"></ion-icon> {{ 'buscador2.FILTROS' | translate }}
+        </span>
+        <a (click)="resetFormDetalles()" id="textoDerecha">{{ 'buscador2.Restablecer' | translate }}</a>
+      </p>
+
+      <ion-content class="wrapper">
+        <form *ngIf="form" [formGroup]="formDetalles"><!--(ngSubmit)="submitForm()"-->
+          <p id="Title">{{ 'buscador2.Tu ubicación' | translate }}</p>
+          <ion-item>
+            <ion-label>
+              <ion-icon src="assets/icon/pin.svg"></ion-icon>
+            </ion-label>
+           <!-- <ion-input formControlName="locationValue" placeholder="{{ 'Ubicación' | translate }}"></ion-input>-->
+            <input formControlName="locationValue" style=" border:0px;background-color:white;" id="searchTextField"  type="text" placeholder="{{'buscador2.Buscar dirección' | translate }}" (input)="onInputLocation($event)"><!---->
+          </ion-item>
+
+          <p id="Title">{{ 'buscador2.Categorías' | translate }}</p>
+          <ion-item (ionChange)="onCategoryChange(1, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.FOTOGRAFÍA' | translate }}</p>
+                <p class="pCategoryNumber">({{fotografiaCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isFotografiaSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(2, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.FILM / VÍDEO' | translate }}</p>
+                <p class="pCategoryNumber">({{filmVideoCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isFilmVideoSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(3, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.TV' | translate }}</p>
+                <p class="pCategoryNumber">({{tvCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isTvSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(4, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.MÚSICA' | translate }}</p>
+                <p class="pCategoryNumber">({{musicaCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isMusicaSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(5, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.EVENTOS Y FIESTAS' | translate }}</p>
+                <p class="pCategoryNumber">({{eventoFiestaCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isEventoSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(6, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.TEATRO' | translate }}</p>
+                <p class="pCategoryNumber">({{teatroCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isTeatroSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(7, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.OTROS' | translate }}</p>
+                <p class="pCategoryNumber">({{otrosCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isOtrosSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <ion-item (ionChange)="onCategoryChange(8, $event)" class="no-border-item">
+            <ion-label>
+              <div class="horizontal-container">
+                <p class="pCategory">{{ 'buscador2.SIN CATEGORÍA' | translate }}</p>
+                <p class="pCategoryNumber">({{sinCategoriaCount}})</p>
+              </div>
+            </ion-label>
+            <ion-checkbox formControlName="isSinCategoriaSelected" slot="end" class="modalcheck" mode="md"></ion-checkbox>
+          </ion-item>
+
+          <p id="Title">{{ 'buscador2.Etiquetas' | translate }}</p>
+          <p class="p2">{{ 'buscador2.Escribe palabras clave para filtrar resultados' | translate }}</p>
+          <ion-item id="tag">
+            <ion-input formControlName="tagInputValue" placeholder="{{ 'buscador2.Escribe aquí...' | translate }}"></ion-input>
+            <ion-icon (click)="createTag()" id="iconAddTags" src="assets/icons/add-tag-2.svg"></ion-icon>
+          </ion-item>
+          <div class="cloudtags">
+            <ion-chip *ngFor="let tag of tags" (click)="deleteTag(tag)" class="tagged">
+              <label>{{tag}}</label> <ion-icon name="trash-outline"></ion-icon>
+            </ion-chip>
+          </div>
+
+          <p id="Title">{{ 'buscador2.Rango de precio' | translate }}</p>
+          <p class="p2">{{ 'buscador2.Selecciona un rango de precio para filtrar resultados' | translate }}</p>
+          <ion-range [value]="form.get('rangePriceValues')?.value" dualKnobs="true" min="0" max="2001" (ionChange)="onIonChange($event)">
+            <ion-label style="font-weight: bold !important;" slot="start"><span style="margin-left: 2px; margin-right: 9px;" id="spanEur">€</span></ion-label>
+            <ion-label style="font-weight: bold !important; margin-right: -11px;" slot="end"><span style="margin-left:2px;" id="spanEur">€</span><span style="margin-left:2px;" id="spanEur">€</span><span style="margin-left:2px;" id="spanEur">€</span><span style="margin-left:2px;" id="spanEur">€</span></ion-label>
+          </ion-range>
+          <p style="display: flex; align-items: center;">{{ 'buscador2.Rango' | translate }}: <b><span style="margin-left:5px;" id="spanEur">€</span><span *ngIf="rangePriceMinMax.lower >= 400" id="spanEur">€</span><span *ngIf="rangePriceMinMax.lower >= 800" id="spanEur">€</span><span *ngIf="rangePriceMinMax.lower > 1500" id="spanEur">€</span></b> - <b><span style="margin-left:5px;" id="spanEur">€</span><span *ngIf="rangePriceMinMax.upper >= 400" id="spanEur">€</span><span *ngIf="rangePriceMinMax.upper >= 800" id="spanEur">€</span><span *ngIf="rangePriceMinMax.upper > 1500" id="spanEur">€</span></b> <ion-icon (click)="abrirModalInfo()" id="iconInfo" src="assets/icon/interrogacion.svg"></ion-icon></p>
+          <p style="width:100%; text-align: left;">{{ 'buscador2.Mínimo' | translate }}: <b>{{ rangePriceMinMax.lower }} €/{{ 'buscador2.día' | translate }}</b></p>
+          <p *ngIf="rangePriceMinMax.upper <= 2000"  style="width:100%; text-align: left;">{{ 'buscador2.Máximo' | translate }}: <b>{{ rangePriceMinMax.upper }} €/{{ 'buscador2.día' | translate }}</b></p>
+          <p *ngIf="rangePriceMinMax.upper > 2000" style="width:100%; text-align: left;">{{ 'buscador2.Máximo' | translate }}: <b>>2000 €/{{ 'buscador2.día' | translate }}</b></p>
+        </form>
+        <div id="divFooter">
+          <ion-button id="modalButtonBuscar" (click)="aplicarModalDetalles(modalDetalles)">{{ 'buscador2.Buscar' | translate }}</ion-button>
+        </div>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+
+  <ion-modal style="--height: 530px;" class="ion-text-center" id="example-modal" #modalOrden [isOpen]="isModalOrden" (willDismiss)="cerrarModalOrden(modalOrden)" [initialBreakpoint]="1" [breakpoints]="[0, 1]"><!---->
+    <ng-template>
+      <p style="margin-top:20px !important;" id="title-modal-profile"><span id="textoIzquierda">{{ 'buscador2.Ordenar' | translate }}</span><a  id="textoDerecha"  ></a></p><!--(click)="resetOrderForm()"--><!--Restablecer-->
+  
+      <div class="wrapper">  
+        <form style="margin-bottom: 100px;" *ngIf="form" [formGroup]="formOrden" ><!--(ngSubmit)="submitForm()"-->
+        <ion-list>
+            
+            <ion-item (ionChange)="onCheckboxChange('bestValued')"  lines="none" class="modalItem" style="">
+              <ion-label class="modalLabel" style="">
+                <h2>{{'buscador2.Mejor valorados' | translate }}</h2>
+                
+              </ion-label>
+              <ion-checkbox formControlName="bestValued" class="modalcheck2" style="" mode="md" label-placement="stacked" alignment="start" ></ion-checkbox><!---->
+
+            </ion-item>
+  
+            <ion-item (ionChange)="onCheckboxChange('mostValued')" class="modalItem" style="">
+              <ion-label class="modalLabel" style="">
+                <h2>{{'buscador2.Más valorados' | translate }}</h2>
+                
+              </ion-label>
+              <ion-checkbox  formControlName="mostValued" class="modalcheck2" style="" mode="md" label-placement="stacked" alignment="start" ></ion-checkbox><!---->
+
+            </ion-item>
+          
+        
+            <ion-item (ionChange)="onCheckboxChange('cheapFirst')" class="modalItem" style="">
+              <ion-label class="modalLabel" style="">
+                <h2>{{'buscador2.Precio ascendente' | translate }}</h2>
+                
+              </ion-label>
+              <ion-checkbox class="modalcheck2" formControlName="cheapFirst" style="" mode="md" label-placement="stacked" alignment="start" ></ion-checkbox><!---->
+
+            </ion-item>
+  
+            <ion-item (ionChange)="onCheckboxChange('expensiveFirst')" class="modalItem" style="">
+              <ion-label class="modalLabel" style="">
+                <h2>{{'buscador2.Precio descendente' | translate }}</h2>
+                
+              </ion-label>
+              <ion-checkbox formControlName="expensiveFirst" class="modalcheck2" style="" mode="md" label-placement="stacked" alignment="start" ></ion-checkbox><!--formControlName="latestUploads"-->
+
+            </ion-item>
+          
+        </ion-list>
+      </form>
+  
+        
+        <ion-button id="modalButtonBuscar" (click)="aplicarModalOrden(modalOrden)" style="">{{'buscador2.Buscar' | translate }}</ion-button>
+
+        
+      </div>
+    </ng-template>
+  </ion-modal>
+</ion-content>
+

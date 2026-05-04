@@ -1,0 +1,51 @@
+<!--<ion-item-sliding>-->
+  <!--  <ion-item [routerLink]="redirection">-->
+    
+
+    <div id="divChat" [routerLink]="redirection">
+      <!-- Imagen del chat -->
+     <!--<div class="avatar">
+        <img [src]="icon || 'assets/imgs/portada-carpeta.png'" alt="Chat Icon">
+      </div>-->
+
+      <ion-avatar class="avatar">
+        <ion-img [src]="icon || 'assets/imgs/imgDefectoChat.png'" alt="Avatar"></ion-img>
+      </ion-avatar>
+    
+      <!-- Titulo y subtitulo -->
+      <ion-label class="content">
+        <h2 class="title">{{title}}</h2>
+        <p *ngIf="newMessages==0" id="pText"  class="subtitle">{{subtitle}}</p>
+        <div style="position: relative;">
+          <p *ngIf="newMessages>0"style="color:#F42EB2; " class="subtitle">({{newMessages}}) {{textMenNue}}</p>
+          <p style="position: absolute; right: 0; top: 50%; transform: translateY(-50%);" class="mensajes" >
+            <ion-badge *ngIf="newMessages > 0" color="primary">{{newMessages}}</ion-badge>
+          </p>
+        </div>
+        
+      </ion-label>
+      <ion-icon *ngIf="showOptions" id="iconAjus" src="assets/icons/ajustes2.svg" (click)="onAjusteClick($event)"></ion-icon>
+      
+    
+      <!-- Último mensaje y mensajes por ver -->
+      <ion-label class="right">
+        <p class="hora">{{lastMessage | date:'h:mm a'}}</p>
+        
+      </ion-label>
+    </div>
+
+
+
+    
+    
+    
+ <!-- </ion-item>-->
+
+  <!-- SlidingOptions -->
+  <!--<ion-item-options [side]="slidingOptionsSide">
+    <ion-item-option [color]="slidingOptionsColor">
+      <ion-icon [name]="slidingOptionsIcon"></ion-icon>
+    </ion-item-option>
+  </ion-item-options>
+
+</ion-item-sliding>-->

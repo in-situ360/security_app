@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Insitu360</string>
+    <string name="title_activity_main">Insitu360</string>
+    <string name="package_name">com.xerintel.insitu3601</string>
+    <string name="custom_url_scheme">com.xerintel.insitu3601</string>
+    <string name="facebook_app_id">748077676570420</string>
+    <string name="fb_login_protocol_scheme">fb748077676570420</string>
+    <string name="facebook_client_token">748077676570420</string>
+    <string name="server_client_id">690561641551-s6d61q3orbup7hoi4v50bc83qk476mje.apps.googleusercontent.com</string>
+
+</resources>

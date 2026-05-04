@@ -1,0 +1,50 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'edit-participants.AÑADIR PARTICIPANTES' | translate }}</h5>
+    <ion-icon id="iconRight" (click)="abrirModalFollow()"  src="assets/icons/emptyHeart2.svg"></ion-icon>
+  </div>
+
+  <div *ngIf="allowed==true" id="divHeader">
+    <p id="pPartici">{{ 'edit-participants.Participantes del proyecto' | translate }} ({{ participantsSelected.length + 1 }})</p>
+    <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+      <ion-slide class="boxes" aria-hidden="true">
+        <img id="image" [src]="creator?.avatar"  />
+        <p class="description">{{ creator?.name }}</p>
+        <p style="color:#F42EB2" class="subDescription">{{ 'edit-participants.Creador' | translate }}</p>
+      </ion-slide>
+      <ion-slide *ngFor="let useSelect of participantsSelected" class="boxes" aria-hidden="true">
+        <img id="image" [src]="useSelect?.avatar" alt="image" />
+        <ion-icon (click)="removeUserSelected(useSelect)" class="iconDelete" src="assets/icons/eliminar-usuario.svg"></ion-icon>
+        <p class="description">{{ useSelect?.name }} {{ useSelect?.surname1 }}</p>
+        <p class="subDescription">{{ 'edit-participants.Pendiente' | translate }}</p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+
+  <div *ngIf="allowed==true" id="divSearchBar">
+    <ion-searchbar mode="md" placeholder="{{ 'edit-participants.Buscar' | translate }}" [(ngModel)]="searchText" (ionChange)="onSearchChange($event)"></ion-searchbar>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!allowed" class="overlay"></div>
+  <div *ngFor="let participant of participants" id="mainDiv" (click)="selectParticipant(participant)" onclick="changeBorderColor()">
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle">{{ getUserLabels(participant) }}</p>
+    </div>
+    <ion-icon *ngIf="isUserSelected(participant)" class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+    <ion-icon *ngIf="!isUserSelected(participant)" class="rightIcon" src="assets/icons/add-usuario.svg"></ion-icon>
+  </div>
+
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+</ion-content>
+
+<ion-footer>
+  <ion-button [disabled]="!allowed" (click)="submit()" id="buttonFooter">{{ 'edit-participants.Aceptar y continuar' | translate }}</ion-button>
+</ion-footer>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

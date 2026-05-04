@@ -1,0 +1,122 @@
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 20px !important;
+}
+
+#header {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 20px;
+  background-color: #e5e5e5; /* Ajusta según sea necesario */
+}
+
+/* #iconLeft {
+    height: 15px;
+    width: 13px;
+  }*/
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+#iconLeft {
+  height: 12px;
+  width: 10px;
+  //margin-left: 15px;
+  margin-right: 10px;
+}
+
+.header-title {
+  font-family: "Poppins Medium";
+  color: #2e2d2e;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+  //margin-left: -30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+ion-content {
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+  width: 100vw;
+  height: 100vh;
+}
+
+.billings {
+  height: 78px;
+  border-radius: 43pt;
+  background: #ffffff;
+  box-shadow: 0 6px 8px #00000029;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .billing-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: -7%;
+    //para cuando exceda el tamaño
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 45vw;
+    min-width: 45vw;
+  }
+  ion-icon {
+    //height: 90%;
+    filter: grayscale(100%);
+  }
+  .name {
+    font-family: "Poppins Medium";
+    font-size: 14px;
+    color: #2a2a32;
+    width: 100%; /* Adjust as necessary to keep texts separated */
+    text-align: left;
+    overflow: hidden; /* Oculta el texto que se desborda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis;
+  }
+  .rol {
+    font-family: "Poppins Medium";
+    font-size: 11px;
+    color: #7a7b88;
+  }
+  .dotmenu {
+    // margin-right: -11%;
+    background: #f42eb2 !important;
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+    padding: 13px;
+    z-index: 99999;
+  }
+}
+
+.roundedImage {
+  width: 22px;
+  height: 22px;
+  padding: 11px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #2a2a32;
+  margin-left: -3%;
+}

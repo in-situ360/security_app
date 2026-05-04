@@ -1,0 +1,92 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'settings.CONFIGURACIÓN' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <ion-item detail="false" routerLink="/profile-settings">
+      <ion-icon class="main-icon" src="assets/icon/user-rosa.svg" slot="start" style="color:#F42EB2"></ion-icon>
+      <ion-label>{{ 'settings.Configurar mi cuenta' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" (click)="goSelectLanguaje()"> <!--routerLink="/languaje-select"-->
+      <ion-icon class="main-icon" src="assets/icon/language.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Idioma de la app' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+   <!--<ion-item detail="false" (click)="abrirModalInvitado()"> 
+      <ion-icon class="main-icon" src="assets/icon/card.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Mis métodos de pago' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>-->
+    <ion-item detail="false" (click)="goBillingData()"> 
+      <ion-icon class="main-icon" src="assets/icons/filesearchalt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'Mis datos de facturación' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" (click)="goMyBillings()"> 
+      <ion-icon class="main-icon" src="assets/icons/filealt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'Mis facturas' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <!--routerLink="/highlight-profile"-->
+   <!--<ion-item detail="false" (click)="abrirModalInvitado()">
+      <ion-icon class="main-icon" src="assets/icon/user-square.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Destacar mi perfil' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>-->
+    <ion-item detail="false" routerLink="/my-suscription" *ngIf="showSub"><!--routerLink="/my-suscription"-->
+      <ion-icon class="main-icon" src="assets/icon/check-square.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Mi suscripción' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+<!--routerLink="/my-ads"    (click)="abrirModalInvitado()"-->
+<!--routerLink="/stats"-->
+    <!--<ion-item detail="false" (click)="abrirModalInvitado()">
+      <ion-icon class="main-icon" src="assets/icon/play.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Mis anuncios' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" (click)="abrirModalInvitado()">
+      <ion-icon class="main-icon" src="assets/icon/cheese.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Estadísticas' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>-->
+    <ion-item detail="false" routerLink="/ban-users">
+      <ion-icon class="main-icon" src="assets/icon/block-chat.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Usuarios bloqueados' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item (click)="goToContactUs()" detail="false">
+      <ion-icon class="main-icon" src="assets/icon/shopping-bag.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Contacta con nosotros' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" routerLink="/faq">
+      <ion-icon class="main-icon" src="assets/icon/interrogacion.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.FAQ' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" routerLink="/rgpd">
+      <ion-icon class="main-icon" src="assets/icon/lock-open-alt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Política de Privacidad' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" routerLink="/tyc">
+      <ion-icon class="main-icon" src="assets/icon/file-lock-alt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Términos y Condiciones de venta' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item detail="false" (click)="mostrarAlertaCerrarSesion()">
+      <ion-icon class="main-icon" src="assets/icon/sign-out-alt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Cerrar sesión' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+    <ion-item (click)="mostrarAdvertencia()" detail="false">
+      <ion-icon class="main-icon" src="assets/icon/trash-alt.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'settings.Eliminar cuenta' | translate }}</ion-label>
+      <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+    </ion-item>
+  </ion-list>
+</ion-content>

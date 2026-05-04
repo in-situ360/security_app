@@ -1,0 +1,145 @@
+ion-title {
+    text-align: center;
+}
+ion-button {
+    width: 90%;
+    margin-left: 5%;
+}
+.buyproject{
+    --background:#F42EB2;
+}
+
+.planactual {
+    color:#6F6F6F;
+    font-size: 11px;
+    font-family: "Poppins SemiBold";
+    margin-left:5%;
+}
+.planes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+    ion-button{
+        --background:#F42EB2;
+        font-size: 8px;
+        height: 23px;
+        width: 125px;
+        margin-top: 10px;
+    }
+    p {
+        font-family: "LeagueSpartan SemiBold";
+        font-size: 26px;
+        color:#2E2D2E;
+    }
+}
+ion-radio-group {
+    font-family: "Poppins Regular";
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+    ion-radio {
+        width: 15px;
+        height: 15px;
+    }
+    ion-label {
+        margin-left: 5px;
+    }
+    ion-radio::part(container) {
+        border:  1px solid #F42EB2;
+    }
+}
+.p360 {
+    border:1px solid #F42EB2;
+}
+
+ion-grid {
+    border:1px solid #62646E;
+    border-radius: 10pt;
+    width: 90%;
+    height: 160px;
+    display: flex;
+    margin-bottom: 3%;
+    .plan360,
+    .plan {
+        background: #62646E;
+        border-radius: 0 42pt 42pt 0;
+        color: #fff;
+        font-family: "Poppins SemiBold";
+        font-size: 11px;
+        width: 82px;
+        height: 35px;
+        justify-content: left;
+        align-items: center;
+        display: flex;
+        margin-left: -10px;
+        margin-bottom: 15%;
+        margin-top: 10px;
+        label {
+            margin-left: 10px;
+        }
+    }
+    .plan360{
+        background: #F42EB2!important;
+    }
+    .currency{
+        font-size: 9px;
+        font-family: "Poppins Medium";
+        margin-top: -5px;
+    }
+    .price{
+        font-size: 22px;
+        font-family: "Poppins SemiBold";
+        margin-top: -11px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .price2{
+        font-size: 11px;
+        font-family: "Poppins SemiBold";
+        margin-bottom: 5%;
+    }
+    .plantype{
+        font-family: "Poppins Medium";
+        font-size: 12px;
+        color: #6F6F6F;
+    }
+    .beneficios2,
+    .beneficios3,
+    .beneficios{
+        color:#2E2D2E;
+        font-family: "Poppins Regular";
+        font-size: 9px;
+        margin-top: 8%;
+        margin-left: -30px;
+        ion-icon {
+            color:#F42EB2;
+            font-size: 14px;
+            margin-right: 8px;
+        }
+        ion-row{
+            margin-bottom: 10px;
+            margin-right: -15px;
+            ion-label{
+                margin-top:1px;
+            }
+        }
+    }
+    .beneficios2{
+        margin-top: 4%!important;
+        ion-row{
+            margin-bottom: 6px!important;
+        }
+    }
+    .beneficios3{
+        margin-top: 0%!important;
+        ion-row{
+            margin-bottom: 6px!important;
+        }
+    }
+}

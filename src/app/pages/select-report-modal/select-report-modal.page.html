@@ -1,0 +1,124 @@
+<ion-header>
+  <p id="titulo">{{ 'select-report-modal.Reportar mensajes' | translate }}</p>
+  <ion-icon (click)="closeModal()" id="iconLogo" src="assets/icons/x.svg"></ion-icon>
+</ion-header>
+
+<ion-content>
+  <p id="subTitulo">{{ 'select-report-modal.Indica que quieres reportar' | translate }}</p>
+  <form [formGroup]="form">
+
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="desnudos_o_actividad_sexual" (ionChange)="onCheckboxChange('desnudos_o_actividad_sexual')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Desnudos o actividad sexual' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="lenguaje_o_simbolos_que_incitan_al_odio" (ionChange)="onCheckboxChange('lenguaje_o_simbolos_que_incitan_al_odio')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Lenguaje o símbolos que incitan al odio' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="estafa_o_fraude" (ionChange)="onCheckboxChange('estafa_o_fraude')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Estafa o fraude' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="violencia_u_organizaciones_peligrosas" (ionChange)="onCheckboxChange('violencia_u_organizaciones_peligrosas')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Violencia u organizaciones peligrosas' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="venta_de_bienes_ilegales_o_regulados" (ionChange)="onCheckboxChange('venta_de_bienes_ilegales_o_regulados')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Venta de bienes ilegales o regulados' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="bullying_o_acoso" (ionChange)="onCheckboxChange('bullying_o_acoso')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Bullying o acoso' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="infraccion_de_la_propiedad_intelectual" (ionChange)="onCheckboxChange('infraccion_de_la_propiedad_intelectual')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Infracción de la propiedad intelectual' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="suicidio_o_autolesiones" (ionChange)="onCheckboxChange('suicidio_o_autolesiones')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Suicidio o autolesiones' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="spam" (ionChange)="onCheckboxChange('spam')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.Spam' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox formControlName="el_problema_no_aparece_en_la_lista" (ionChange)="onCheckboxChange('el_problema_no_aparece_en_la_lista')"></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          {{ 'select-report-modal.El problema no aparece en la lista' | translate }}
+        </ion-label>
+      </div>
+    </div>
+  
+    <ion-button (click)="submitForm()" id="buttonContinue">
+      {{ 'select-report-modal.Enviar reporte' | translate }}
+    </ion-button>
+  </form>
+</ion-content>

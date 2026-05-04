@@ -1,0 +1,21 @@
+<ion-content class="splash-container">
+
+  <!-- Video de fondo -->
+  <!--<video (ended)="onVideoEnd()" autoplay muted playsinline preload="auto" class="splash-video">
+    <source src="assets/videos/Gift_inicio.mp4" type="video/mp4">
+    
+  </video>-->
+
+  <video #splashVideo (canplaythrough)="showVideo()" (ended)="onVideoEnd()" autoplay muted playsinline preload="auto" class="splash-video hidden-video">
+    <source src="assets/videos/Gift_inicio.mp4" type="video/mp4">
+  </video>
+
+
+  <!--<video #splashVideo (canplaythrough)="enableAudio()" (ended)="onVideoEnd()" autoplay muted playsinline preload="auto" class="splash-video hidden-video">
+    <source src="assets/videos/Gift_inicio.mp4" type="video/mp4">
+  </video>-->
+
+  
+ 
+
+</ion-content>

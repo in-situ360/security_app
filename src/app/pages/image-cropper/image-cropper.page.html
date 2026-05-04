@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon id="iconLeft" (click)="dismiss2()" src="assets/icons/arrowBack.svg"></ion-icon>
+      <!--<ion-button style="    --color: white;
+    --background: #F42EB2;" (click)="dismiss2()">{{ 'Atras' | translate }}</ion-button>-->
+    </ion-buttons>
+    <ion-title>{{ 'Editar la imagen' | translate }}</ion-title>
+    <ion-buttons slot="end">
+      <ion-button style="    --color: white;
+    --background: #F42EB2;" (click)="saveCroppedImage()">{{ 'Guardar' | translate }}</ion-button>
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!--<input type="file" (change)="fileChangeEvent($event)" />-->
+
+  <!--<div class="button-container">
+    <ion-button class="omite-button" style="--color: white; --background: #F42EB2;" (click)="uploadOriginalImage()">
+      {{ 'Subir sin editar' | translate }}
+    </ion-button>
+  </div>-->
+  <div class="image-cropper-container">
+    <image-cropper
+      [imageBase64]="imagenDeBase64"
+      [imageChangedEvent]="imageChangedEvent"
+      [maintainAspectRatio]="true"
+      [aspectRatio]="1"
+      format="png"
+      (imageCropped)="imageCropped($event)"
+      (imageLoaded)="imageLoaded($event)"
+      (cropperReady)="cropperReady()"
+      (loadImageFailed)="loadImageFailed()"
+    ></image-cropper>
+  </div>
+
+
+  
+
+
+
+<!--<h4>Resultado:</h4>
+<img [src]="croppedImage" />-->
+</ion-content>

@@ -1,0 +1,1498 @@
+.image-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdf-image, .image-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 7px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.image-image {
+  object-fit: cover;
+  background: none;
+}
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 10px !important;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #212126;
+}
+
+#iconLeft {
+  height: 16px;
+  width: 16px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+#rightContainer {
+  display: flex;
+  align-items: center;
+}
+
+#divHeader {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+#pHeader {
+  font-family: "Poppins Medium";
+  color: #26262c;
+  margin: 0;
+}
+
+#iconRight2 {
+  height: 37px;
+  width: 37px;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.image-container {
+  width: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  position: relative;
+}
+
+#imgProfile {
+  width: 80%;
+  max-width: 115px;
+  max-height: 115px;
+  height: auto;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+}
+
+#editIcon {
+  position: absolute;
+  /*top: 71px;
+    right: 12px;
+    width: 38px;
+    height: 38px;*/
+  top: 74px;
+  right: 12px;
+  width: 35px;
+  height: 35px;
+}
+
+.text-container {
+  width: 65%;
+}
+
+#pName {
+  margin: 10px 0;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+  color: #2a2a32;
+}
+
+#p1 {
+  color: #7a7b88;
+  font-family: "Poppins Medium";
+  font-size: 10pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#p2 {
+  color: #2a2a32;
+  font-family: "Poppins Medium";
+  font-size: 11pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#iconValue {
+  margin-right: 2px;
+}
+
+#txtVal {
+  color: #f42eb2;
+  text-decoration: underline;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+#titleAboutme {
+  color: #7a7b88;
+  font-size: 12pt;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#descripAboutme {
+  color: #7a7b88;
+  font-size: 11pt;
+  font-family: "Poppins Regular";
+  margin-top: 6px;
+  margin-bottom: 9px;
+  padding-bottom: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+#iconLoc {
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top: 3px;
+  width: 16px;
+  min-width: 16px;
+}
+
+#pLoc {
+  margin: 0;
+  font-family: "Poppins Regular";
+  color: #7a7b88;
+}
+
+#divEtiquetas {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  height: 90px;
+}
+
+.etiqueta {
+  display: inline-block;
+  color: white;
+  background-color: #8a8a9a;
+  font-family: "Poppins Regular";
+  font-size: 10pt;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 6px;
+
+  /* Añadimos estas propiedades para truncar el texto */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 160px;
+}
+
+#iconVer {
+  width: 24px;
+  height: 24px;
+}
+
+.etiquetaDestacado {
+  display: inline-block;
+  color: white;
+  background-color: #f42eb2;
+  font-family: "Poppins Regular";
+  font-size: 10pt;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  padding-right: 10px;
+  margin-right: 6px;
+  margin-left: 15px;
+}
+
+#iconNext {
+  background-color: #f42eb2;
+  border-radius: 25px;
+  /*padding: 8px;
+    position: relative;
+    top: 12px;*/
+
+  padding: 6px;
+  position: relative;
+  //top: 9px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.opcButtons {
+  --background: #8a8a9a;
+  color: white;
+  border-radius: 15px;
+  width: 45%;
+}
+
+#opcButton1 {
+  --background: #3f4255;
+}
+#opcButton2 {
+  --background: #f42eb2;
+}
+
+.opcIcons {
+  margin-right: 5px;
+}
+
+#iconChat {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+#iconSave {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+ion-segment {
+  /* elimina el margen negativo si te pisa contenido */
+  margin-top: -21px !important;
+  margin-bottom: 25px !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: #212127;
+
+  /* Reparte cada hijo a partes iguales */
+  display: flex;
+}
+
+ion-segment-button {
+  flex: 1 1 0; /* << mismo ancho */
+  min-width: 0; /* previene overflow por iconos/texto */
+  margin: 0 !important;
+  font-family: "Poppins Medium";
+  font-size: 7pt;
+  --background: #212127;
+  --color: #7f7f92;
+  --color-checked: #fefefe;
+  --indicator-color: #fefefe !important;
+}
+
+#divWorks {
+  margin-top: -26px !important;
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  //background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+}
+
+.backgroundWithImage {
+  // background: url(../../../assets/imgs/BACKGROUND-CHAT.png) !important;
+  margin-top: -26px !important;
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+}
+
+#divWorksBackground {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 0;
+  margin-top: -26px;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  width: 100vw;
+}
+
+/*
+ion-grid{
+
+   
+    width: 100vw;
+    height: 100vh;
+  
+    margin: 0 auto !important;
+    padding-top:10px;
+    ion-col{
+        width:50%;
+        max-width: 50%;
+
+        ion-card {
+
+
+          
+          justify-content: center; 
+          align-items: center;
+
+            width:90%;
+            max-width: 155px;
+            min-width: 155px;
+            margin:0 auto;
+            height:155px; 
+   
+            margin-bottom:0pt;
+            padding-left: 0px;
+            padding-right: 0px;
+
+  
+            img{
+                width:220px; 
+                height:220px;
+                z-index:1;
+              //  object-fit: contain;
+                
+            }
+        }
+    }
+    
+  
+}*/
+/*
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-auto-rows: 10px;
+  gap: 10px; 
+  padding: 10px;
+}
+
+.job-grid div {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+
+.job-grid .tall {
+  grid-row: span 30;
+  height: auto;
+}
+
+.job-grid .short {
+  grid-row: span 15;
+  height: auto;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}*/
+
+//CASI BIEN
+/*
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 0px; 
+  padding: 10px;
+}
+
+.job-grid div {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}*/
+
+//PERFE
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+ .ioncardJob {
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px;
+    margin: 0px;
+ }
+
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.pdf-image {
+  object-fit: contain;
+  background: #fff;
+  padding: 12px;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 180px;
+  max-height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 180px;
+  max-height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+
+#divUbi {
+  margin-top: -26px !important;
+  padding-top: 20px;
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+  width: 100vw;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 50%;
+}
+
+#ubiTitles {
+  color: #2a2a32;
+  font-family: "Poppins SemiBold";
+  font-size: 13pt;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ubiContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.ubiContainer ion-icon {
+  margin-right: 10px;
+  background-color: #f42eb2;
+  border-radius: 20px;
+  padding: 8px;
+  --color: #f0f0f0;
+}
+
+.locMaybe {
+  margin-right: 10px;
+  background-color: #7f7f92 !important;
+  border-radius: 20px;
+  padding: 8px;
+  --color: #f0f0f0;
+  min-width: 13px;
+}
+
+.ubiContainer p {
+  margin: 0;
+  font-family: "Poppins SemiBold";
+  color: #2a2a32;
+}
+
+#divLang {
+  margin-top: -26px !important;
+  padding-top: 20px;
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+  width: 100vw;
+      height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 50%;
+}
+
+#langTitles {
+  color: #2a2a32;
+  font-family: "Poppins SemiBold";
+  font-size: 13pt;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+
+.langContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 25px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.langContainer ion-icon {
+  margin-right: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.langContainer p {
+  margin: 0;
+  font-family: "Poppins SemiBold";
+  color: #2a2a32;
+}
+
+#divRed {
+  margin-top: -26px !important;
+  padding-top: 20px;
+  --background: none;
+  background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -99;
+  width: 100vw;
+      height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 50%;
+}
+
+#redTitles {
+  color: #2a2a32;
+  font-family: "Poppins SemiBold";
+  font-size: 13pt;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+}
+
+.redContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #f0f0f0;
+  padding: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.redContainer ion-icon {
+  margin-right: 10px;
+  border-radius: 26px;
+  width: 46px;
+  height: 46px;
+}
+
+.redContainer p {
+  margin: 0;
+  font-family: "Poppins SemiBold";
+  color: #2a2a32;
+}
+
+.iconNextRed {
+  width: 15px !important;
+  height: 15px !important;
+  background-color: #f42eb2;
+  border-radius: 25px !important;
+  padding: 10px;
+  margin-left: auto;
+}
+
+.divEditsSects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.pEditSects {
+  margin: 0;
+  //margin-left:10px;
+  color: #2a2a32;
+  font-family: "Poppins SemiBold";
+  font-size: 13pt;
+}
+
+.buttonEdiSect {
+  --background: #f42eb2;
+  border: none;
+  padding: 0;
+  height: 28px;
+  margin-right: 0px !important;
+  font-size: 10px;
+}
+
+#pLink {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 62vw;
+}
+
+//-----------MODAL-------------
+
+#textoIzquierda {
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  padding-right: 10px;
+  width: 200px;
+  color: #313a51;
+  font-family: "Poppins Medium";
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+#textoDerecha {
+  //text-decoration: underline;
+  color: #f42eb2;
+  float: right;
+  margin-right: 16px;
+  //padding-right: 10px;
+  width: 93px;
+  font-size: 15px;
+  font-family: "Poppins Medium";
+}
+
+form {
+  /* margin-left:12px;
+      margin-right:12px;*/
+
+  ion-item::part(native) {
+    --border-radius: 10pt;
+  }
+
+  #tag::part(native) {
+    --border-radius: 4pt;
+  }
+}
+
+#Title {
+  font-family: "Poppins Medium";
+  text-align: left;
+  font-size: 18px;
+  border-top: 1px solid grey;
+  padding-top: 12px;
+}
+
+#iconAddTags {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+}
+
+ion-modal#example-modal {
+  --height: 36%;
+
+  //--background: #3B3B3B;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal {
+  #spanEur {
+    margin-right: 3px;
+  }
+
+  ion-chip {
+    font-family: "Poppins Medium";
+    justify-content: center;
+    label {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+  .selected {
+    --background: #f42eb2;
+    --color: #ffffff;
+  }
+  .tagged {
+    --background: #62646e;
+    --color: white;
+    font-family: "Poppins Regular" !important;
+    ion-icon {
+      color: white;
+      font-size: 14px;
+      margin-left: -4px;
+      margin-right: 5px;
+    }
+  }
+
+  ion-content {
+    --background: white !important;
+  }
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+.horizontal-container {
+  display: flex;
+  //justify-content: space-between; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+}
+
+.horizontal-container p {
+  margin: 0;
+  padding-right: 10px; /* Espaciado opcional entre los párrafos */
+}
+
+.pCategory {
+  font-family: "Poppins Regular" !important;
+  color: #2a2a32;
+}
+.pCategoryNumber {
+  font-family: "Poppins Regular" !important;
+  color: #7a7b88;
+}
+
+.p2 {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-bottom: 6px;
+  text-align: left;
+  font-family: "Poppins Regular";
+}
+
+#divFooter {
+  border-top: 1px solid gray;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#modalButton {
+  width: 100%;
+  //margin-left: 10%;
+  // margin-right: 10%;
+  margin-bottom: 13px;
+  margin-top: 10px;
+  --background: #26262c;
+
+  font-size: 16px;
+  text-transform: none;
+}
+
+.cloudtags {
+  display: flex;
+  justify-content: left;
+}
+
+#iconInfo {
+  margin-left: 4px;
+}
+
+.modalItem {
+  --ripple-color: #ff0000 !important;
+  margin-bottom: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #c8c7cc !important;
+  border-radius: 30px;
+  --border-color: transparent !important;
+
+  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background-activated: none;
+  --background-focused: none;
+  --background-hover: none;
+  --background-activated-opacity: 0.12;
+  --background-focused-opacity: 0.15;
+  --background-hover-opacity: 0.04;
+}
+
+ion-item.modalItem {
+  --ripple-color: #ff0000 !important; /* Cambia el sombreado al color rojo */
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+ion-item.modalItem:focus-within {
+  /* Establece un borde sólido de color gris */
+
+  --border-color: transparent !important; /* Cambia la propiedad CSS de Ionic para el color del borde */
+}
+
+.modalcheck2 {
+  --border-radius: 50%; /* Hace el checkbox circular */
+  --size: 24px; /* Tamaño del círculo */
+  --background: #ffffff; /* Color de fondo */
+  --border-width: 2px; /* Grosor del borde */
+  --border-color: #c8c7cc; /* Color del borde */
+  --checkmark-color: #ffffff; /* Color del ícono de check */
+}
+
+#modalButton1 {
+  width: 100%;
+  width: 95%;
+  margin: auto;
+  --background: #26262c !important;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+#modalButtonBuscar {
+  width: 100%;
+  width: 95%;
+  margin: auto;
+  --background: #f42eb2 !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05, 1.05);
+  ion-card {
+    img {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.swiper-slide {
+  transition: 400ms all ease-in-out;
+}
+
+.modcard {
+  width: 100%;
+  height: 160px;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.modalImage {
+  object-fit: cover;
+  width: 100%;
+  height: 197px;
+  transform: scale(1.1, 1.1) rotate(1deg);
+  transition: 600ms all ease-in-out;
+}
+
+#title-modal-profile {
+  color: #7a7b88;
+  font-size: 12pt;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 29px;
+  //padding-left: 15px;
+  padding-right: 15px;
+}
+
+//PERFE
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+.ioncardJob {
+  min-width: 167px;
+  // min-height: 167px;
+  min-height: 184px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05, 1.05);
+  ion-card {
+    img {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.swiper-slide {
+  transition: 400ms all ease-in-out;
+}
+
+.modcard {
+  width: 100%;
+  height: 160px;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.modalImage {
+  object-fit: cover;
+  width: 100%;
+  height: 197px;
+  transform: scale(1.1, 1.1) rotate(1deg);
+  transition: 600ms all ease-in-out;
+}
+
+#title-modal-profile {
+  color: #7a7b88;
+  font-size: 12pt;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 29px;
+  //padding-left: 15px;
+  padding-right: 15px;
+}
+
+//mod
+
+ion-modal#example-modal {
+  --height: 36%;
+
+  //--background: #3B3B3B;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal {
+  #spanEur {
+    margin-right: 3px;
+  }
+
+  ion-chip {
+    font-family: "Poppins Medium";
+    justify-content: center;
+    label {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+  .selected {
+    --background: #f42eb2;
+    --color: #ffffff;
+  }
+  .tagged {
+    --background: #62646e;
+    --color: white;
+    font-family: "Poppins Regular" !important;
+    ion-icon {
+      color: white;
+      font-size: 14px;
+      margin-left: -4px;
+      margin-right: 5px;
+    }
+  }
+
+  ion-content {
+    --background: white !important;
+  }
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+.horizontal-container {
+  display: flex;
+  //justify-content: space-between; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+}
+
+.horizontal-container p {
+  margin: 0;
+  padding-right: 10px; /* Espaciado opcional entre los párrafos */
+}
+
+/*.job-grid[_ngcontent-erg-c182] div.no-flex[_ngcontent-erg-c182] {
+  display: block !important;
+}*/
+.job-grid div.no-flex {
+//  display: block !important;
+}
+
+/*.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  object-fit: cover; 
+  border-radius: 7px;
+  }*/
+
+.video-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Puede ser un color semitransparente si lo deseas */
+  z-index: 2;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0;
+
+  .custom-progress {
+    --progress-bar-height: 16px; // Grosor de la barra
+    width: 90%; // Puedes ajustar el ancho según quieras
+  }
+
+  .progress-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+//---
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+.ioncardJob {
+  min-width: 167px;
+  //min-height: 167px;
+  min-height: 184px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  overflow: hidden; // para que no sobresalga el contenido
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // igual que las imágenes
+    border-radius: 7px;
+  }
+}
+
+.video-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2;
+}
+
+#divInternoCategoria {
+  border-radius: 7px;
+  //background: rgba(23, 70, 176, 0.5);
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdf-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    /*min-height: 150px;
+    min-width: 150px;*/
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .pdf-name {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    font-family: "Poppins Medium";
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    border-radius: 4px;
+    bottom: 21px;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.8);
+  }
+}
+
+@media (min-width: 769px) {
+
+  #header {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #editIcon {
+  position: absolute;
+        top: 120px;
+        right: -19px;
+        width: 35px;
+        height: 35px;
+}
+
+  ion-avatar#imgProfile {
+    max-width: 150px !important;
+    max-height: 150px !important;
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: 0% !important;
+  }
+
+  ion-avatar#imgProfile img {
+    min-width: 150px !important;
+    min-height: 150px !important;
+    object-fit: cover !important;
+  }
+
+  .image-container {
+    margin-left: 9% !important;
+    width: 10% !important;
+  }
+
+  .text-container {
+    margin-left: 2% !important;
+  }
+
+  #descripAboutme,
+  #titleAboutme {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .categoryp {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-left: 0 !important;
+        color: #7a7b88;
+        font-size: 11pt;
+        font-family: Poppins Regular;
+        margin-top: 6px;
+        margin-bottom: 9px;
+        padding-bottom: 0;
+        margin-top: 10px !important;
+  }
+
+  .p1 {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 0 !important;
+  }
+
+  #divEtiquetas {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #divUbi,
+  #divLang,
+  #divRed,
+  #divWorksBackground {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+  }
+
+  #divWorks {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  #divWorks .divEditsSects {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 !important;
+  }
+
+  .job-grid {
+    gap: 8px;
+    padding: 10px 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ioncardJob {
+    min-width: unset;
+    min-height: unset;
+    max-width: unset;
+    max-height: unset;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+
+  .job-grid div {
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
+  }
+
+  .job-image, .image-image {
+    min-width: unset;
+    min-height: unset;
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pdf-image {
+    min-width: unset;
+    min-height: unset;
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+    height: 100%;
+  }
+
+  #divWorksBackground {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    margin-top: -26px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+  }
+
+  img[src*="Rectangulobanner"] {
+    width: 120vw !important;
+    margin: 0 !important;
+    margin-left: -15% !important;
+    margin-right: -15% !important;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+    max-width: none !important;
+    padding: 0 !important;
+    display: block !important;
+    height: auto !important;
+    max-height: 66px !important;
+    object-fit: cover !important;
+    transform: scaleX(1.3) !important;
+    transform-origin: center !important;
+  }
+
+}

@@ -1,0 +1,40 @@
+<ion-header>
+  <div class="logo ion-text-center">
+    <img src="assets/imgs/logotipo-2.svg" alt="">
+  </div>
+</ion-header>
+
+<ion-content > 
+  <div id="divBackgroundBlack"></div> 
+  <div class="form-wrapper" text-center>
+    <form *ngIf="form" [formGroup]="form" (ngSubmit)="submitForm()">
+      <p class="title ion-text-center">{{ 'login.Iniciar sesión' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon id="iconMail" src="assets/icon/email.svg"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" formControlName="email" type="email" placeholder="{{ 'login.Usuario' | translate }}"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          <ion-icon id="iconPass" src="assets/icon/password.svg"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" [type]="password_type" formControlName="password" placeholder="{{ 'login.Contraseña' | translate }}" class="placeholder-asterisk"></ion-input>
+        <ion-icon name="eye" item-right (click)="togglePasswordMode()"></ion-icon> 
+      </ion-item>
+      <p class="forgetpsw ion-text-center" (click)="goToForgotPage()">{{ 'login.He olvidado mi contraseña' | translate }}</p>
+      <ion-button mode="md" expand="block" type="submit" [disabled]="!form.valid">{{ 'login.Entrar' | translate }}</ion-button>
+    </form>
+    <div class="footer-section">
+      <p id="pFooter" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+        {{ 'login.¿Aún no tienes una cuenta?' | translate }} 
+        <span class="newaccountlink" (click)="goToRegisterPage()">{{ 'login.Regístrate' | translate }}</span>
+      </p>
+      <img src="assets/imgs/kit-digital-oscuro.png" alt="KIT Digital" class="footer-kit-image">
+    </div>
+  </div>
+
+  
+  
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

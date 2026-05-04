@@ -1,0 +1,144 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'my-jobs.TRABAJOS' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+
+  <div *ngFor="let file of uploadProgressList" class="upload-container">
+    <div class="progress-label">{{ file.name }}</div>
+    <ion-progress-bar [value]="file.progress / 100" class="custom-progress"
+      [color]="file.completed ? 'success' : 'primary'"></ion-progress-bar>
+    <div class="progress-text">
+      {{ file.completed ? '✅ Completado' : (file.progress + '%') }}
+    </div>
+  </div>
+
+
+  <!-- <div class="job-grid">
+    <div *ngFor="let job of jobs; let i = index" [ngClass]="{'tall': i % 2 === 0, 'short': i % 2 !== 0}">
+      <ion-card class="ioncardJob">
+        <img [src]="job?.theimage" alt="Job image" class="job-image" >
+        <div (click)="abrirModalCarrusel(i)" id="divInternoCategoria">
+          <ion-icon (click)="mostrarAlertaBorrado(job.id); $event.stopPropagation()" id="iconDelete" style="z-index:999999;" src="assets/icons/trash.svg"></ion-icon>
+        </div>
+      </ion-card>
+    </div>
+    <ion-infinite-scroll (ionInfinite)="onIonInfiniteJobs($event)">
+      <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </div>-->
+
+
+
+
+  <div class="job-grid">
+    <div *ngFor="let multimedia of multimedias; let i = index"
+      [ngClass]="{'tall': i % 2 === 0, 'short': i % 2 !== 0,'no-flex': multimedia.thetype === 'video'}">
+      <ion-card class="ioncardJob">
+
+
+        <!-- Imagen PDF -->
+        <div *ngIf="multimedia.thetype === 'PDF'" class="pdf-container">
+
+          <img class="job-image" *ngIf="multimedia.thetype === 'PDF'" src="assets/imgs/imagenPDFHorizontal.png"
+            alt="PDF thumbnail">
+          <p class="pdf-name" *ngIf="multimedia.thetype === 'PDF'">{{ getFileName(multimedia.thevalue) }}</p>
+        </div>
+        <!-- Imagen normal -->
+        <img class="job-image" *ngIf="multimedia.thetype === 'imagen'" [src]="multimedia.thevalue"
+          alt="image description">
+
+        <!-- <img [src]="multimedia?.theimage" alt="Job image" class="job-image" >-->
+
+        <div class="video-container" *ngIf="multimedia.thetype==='video'">
+          <video *ngIf="multimedia.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls
+            controlsList="nodownload">
+            <source [src]="multimedia?.thevalue">Your browser does not support the video tag.
+          </video>
+          <div class="video-overlay"></div> <!-- Capa para bloquear interacción -->
+        </div>
+
+        <div (click)="abrirModal(multimedia)" id="divInternoCategoria"><!--abrirModalCarrusel(i)-->
+          <!--<ion-icon (click)="mostrarAlertaBorrado(multimedia.id); $event.stopPropagation()" id="iconDelete" style="z-index:999999;" src="assets/icons/trash.svg"></ion-icon>-->
+        </div>
+      </ion-card>
+    </div>
+    <ion-infinite-scroll (ionInfinite)="onIonInfiniteJobs($event)">
+      <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </div>
+
+
+
+  <ion-icon id="iconAddProject" src="assets/icons/nuevo-proyecto.svg"
+    (click)="uploadMedia()"></ion-icon><!--(click)="adjuntarImagen()"-->
+
+
+
+
+
+  <ion-modal class="ion-text-center" id="example-modal" #modal [isOpen]="isModalOpen2" (willDismiss)="cerrar(modal)"
+    [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          {{ 'my-profile.Trabajos' | translate }}
+        </span>
+        <!--<a  id="textoDerecha">{{ 'Restablecer' | translate }}</a>-->
+      </p>
+
+      <ion-content class="wrapper">
+        <ion-slides [options]="option" class="ion-margin-top" (ionSlideReachEnd)="onSlideEnd()">
+          <ion-slide *ngFor="let multimedia of multimedias;">
+            <ion-card class="modcard" style="">
+              <img *ngIf="multimedia.thetype === 'imagen'" class="modalImage" style="" [src]="multimedia?.thevalue"
+                (click)="abrirModalMultimedia1(multimedia.thevalue, multimedia.thetype, multimedia.id)">
+              <img style="max-height: 111% !important;" *ngIf="multimedia.thetype === 'PDF'"
+                src="assets/imgs/imagenPDFHorizontal.png"
+                (click)="abrirModalMultimedia(multimedia.thevalue, multimedia.thetype, multimedia.id,multimedia)">
+              <video *ngIf="multimedia.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls
+                controlsList="nodownload">
+                <source [src]="multimedia?.thevalue">Your browser does not support the video tag.
+              </video>
+            </ion-card>
+          </ion-slide>
+
+        </ion-slides>
+
+
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+
+  <!--  <ion-modal class="ion-text-center" id="example-modal" #modal [isOpen]="isModalOpen2" (willDismiss)="cerrar(modal)" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          {{ 'my-profile.Trabajos' | translate }}
+        </span>
+       
+      </p>
+
+      <ion-content class="wrapper">
+        <ion-slides [options]="option" class="ion-margin-top" (ionSlideReachEnd)="onSlideEnd()">
+          <ion-slide *ngFor="let job of jobs;">
+            <ion-card class="modcard" style="">
+              <img class="modalImage" style=""[src]="job?.theimage">
+            </ion-card>
+          </ion-slide>
+          
+        </ion-slides>
+
+          
+      </ion-content>
+    </ng-template>
+  </ion-modal>-->
+
+
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

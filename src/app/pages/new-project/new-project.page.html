@@ -1,0 +1,61 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'new-project.CREAR NUEVO PROYECTO' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+
+  <!-- Avatar Section -->
+  <ion-avatar (click)="openAllImageCropper()">
+    <img [src]="rutaImagen">
+  </ion-avatar>
+
+  <ion-button id="buttonImage" (click)="adjuntarImagen()">{{ 'new-project.Añadir imagen' | translate }}</ion-button>
+
+  <!-- Form Section -->
+  <form id="form" *ngIf="form" [formGroup]="form">
+
+    <!-- Project Name -->
+    <ion-label>{{ 'new-project.Nombre' | translate }}*</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="name" clearInput type="text" placeholder="{{ 'new-project.Nombre Proyecto' | translate }}"></ion-input>
+      <ion-icon id="icon1" class="iconItem" src="assets/icons/nombre-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <!-- Project Description -->
+    <ion-label>{{ 'new-project.Descripción del proyecto' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="description" clearInput type="text" placeholder="{{ 'new-project.Escribe aquí...' | translate }}"></ion-input>
+      <ion-icon id="icon2" class="iconItem" src="assets/icons/director-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <!-- Key Code Toggle -->
+    <div class="flex-container">
+      <ion-label>{{ 'new-project.Key Code' | translate }}</ion-label>
+      <ion-toggle color="primary" slot="end" mode="ios" (ionChange)="toggleKeyCode($event)"></ion-toggle>
+    </div>
+
+    <!-- Key Code Input (Shown when toggle is activated) -->
+    <ion-list *ngIf="showKeyCode" class="global__list">
+      <ion-input formControlName="keyCode" clearInput type="text" placeholder="{{ 'new-project.Introduzca clave' | translate }}" maxlength="5"></ion-input>
+      <ion-icon class="iconItem" src="assets/icons/key-code.svg"></ion-icon>
+    </ion-list>
+
+    <!-- Project End Date -->
+    <p id="pEndDate" class="txtFecha">{{ 'new-project.Fecha de finalización' | translate }}*</p>
+    <p id="dateEnd" class="txtFecha">{{ 'new-project.Podrá ser editada desde el apartado de Configuración' | translate }}</p>
+
+    <ion-list class="global__list">
+      <ion-input clearInput type="date" placeholder="{{ 'new-project.Fecha de finalización' | translate }}" formControlName="dateEnd"></ion-input>
+      <ion-icon class="iconItem" src="assets/icons/fecha-final-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <!-- Submit Button -->
+    <ion-button expand="block" type="submit" [disabled]="!form.valid" (click)="submitForm()">{{ 'new-project.Crear Proyecto' | translate }}</ion-button>
+
+  </form>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

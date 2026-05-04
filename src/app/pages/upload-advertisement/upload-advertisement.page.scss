@@ -1,0 +1,511 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 10px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    left:0px;
+    right:0px;
+    width:100%;
+    text-align: center;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+ion-content {
+    --background: #FFFFFF; 
+    --padding-start: 15px;
+    --padding-end: 15px;
+}
+
+form{
+
+  margin-top:20px;
+}
+
+#imgAdver{
+
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+  border-radius:11px;
+  border: 3px dashed #F42EB2;
+  animation: blink-border 1s infinite alternate;
+}
+
+ion-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width:100%;
+  margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+ion-range{
+
+  
+  margin-top: -10px;
+  margin-bottom: -8px;
+  
+}
+
+#listItemGender{
+  margin-bottom: 12px;
+}
+
+
+ion-checkbox {
+  width: 20px;
+  height: 20px;
+  --background-checked: #F42EB2;
+  //--background:#F42EB2;
+  --border-color:#F42EB2;
+}
+
+#labelCheckbox{
+  font-size: 14px;
+  color: #2E2D2E !important;
+
+}
+
+
+ion-label {
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #2E2D2E !important;
+}
+
+#formTtitle{
+
+  font-size: 14px;
+  font-family: 'Poppins Medium';
+  color: #2E2D2E;
+}
+
+#spanTitle{
+
+  color:#F42EB2 !important;
+
+}
+
+#formRangeTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+#formRangeTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88;
+
+}
+
+#formRangeSelected{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #2A2A32;
+
+}
+
+#spanTitle{
+
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+}
+
+#formGenderTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88;
+
+}
+
+
+ion-radio{
+  float: left;
+}
+
+ion-item {
+  --background-activated: transparent;    
+}  
+
+.custom-radio {
+  --color:#F42EB2;
+  //margin-top: -6px;
+}
+/*
+.radioText{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #2E2D2E;
+  margin-left:6px;
+}*/
+
+.radioItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px; /* Espaciado entre opciones */
+}
+
+.radioText {
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #2E2D2E;
+  margin-left: 6px;
+}
+
+#formLocTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+/*
+#rangeBar{
+  margin-top: -36px !important;
+  --pin-background:#727272!important;
+  --pin-color:white;
+  --bar-background-active:#727272!important;
+
+  
+  --bar-background:#727272!important;
+}
+
+input[type='range'] {    
+  width: 100%;
+  height: 5px;
+  overflow: hidden;    
+  //--webkit-appearance: none;
+  background-color: #727272;
+ 
+}*/
+
+
+global {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.global__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+}
+
+#listItemCheck{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ion-label {
+  font-size: 16px;
+  font-family: 'Poppins Regular';
+  color: #F42EB2;
+  --margin-start:4px;
+}
+
+ion-input,
+ion-textarea {
+  border: solid 1px #9da6b6;
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-family: 'Poppins Regular' !important;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  --padding-start: 40px;
+  border-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ion-input:focus-within,
+ion-textarea:focus-within {
+  border: solid 2px #F42EB2;
+}
+
+.global__list:focus-within .iconItem {
+  color: #F42EB2;
+}
+
+.iconItem {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  color: #9da6b6 !important; /* Default color */
+}
+
+
+
+
+
+#formKMTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+
+
+#spanKMTitle{
+
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+}
+
+#formInterestTitle{
+
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+
+
+#divEtiquetas{
+
+  padding-left:15px; 
+  padding-right:15px;
+  width:100%; 
+  height:90px; 
+  //background-color:red;
+}
+
+.etiqueta{
+
+  display: inline-block;
+    color: #2A2A32;
+    background-color: white;
+    font-family: Poppins Regular;
+    font-size: 10pt;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 6px 15px;
+    margin-right: 6px;
+    border: 1px solid #E5E5E5;
+}
+
+
+#formAnunTitle{
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+}
+
+#spanAnun{
+  color: #F42EB2;
+
+}
+
+#pPayment{
+  font-family: 'Poppins Regular'; 
+  color:#7A7B88 !important;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  .optionclick {
+      font-family: "Poppins Regular";
+      font-size: 13px;
+      color:#7A7B88;
+      margin-right:10px;
+  }
+}
+
+
+#divPrice{
+
+  width:100%;
+  height:116px;
+  --background: none;
+    background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+
+#pPrice{
+  color:#FFFFFF;
+  font-family: 'Poppins SemiBold';
+  font-size: 35pt;
+  margin-top: 18px;
+  
+}
+
+#titleOp{
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+}
+
+#titleTime{
+
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+}
+
+#titleDay{
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+}
+
+
+
+
+#formOpTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+
+
+#spanOpTitle{
+
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+}
+
+
+#formDayTitle{
+  font-size: 14px;
+  font-family: 'Poppins Regular';
+  color: #7A7B88 !important;
+
+}
+
+
+
+#spanDayTitle{
+
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+}
+
+#spanRangeTitle{
+
+  font-family: 'Poppins Medium';
+  color: #2A2A32;
+
+
+}
+
+#buttonSub{
+  margin-top: 31px;
+  display:flex;
+  --background: #26262c;
+}
+
+
+
+
+
+
+
+ion-chip{
+  font-family: "Poppins Medium";
+  justify-content: center;
+  label {
+      margin-left: 12px;
+      margin-right: 12px;
+  }
+}
+.selected {
+  --background: #F42EB2;
+  --color:#FFFFFF;
+}
+
+
+#searchTextField {
+  border: solid 1px #9da6b6;
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  font-family: 'Poppins Regular' !important;
+  --padding-top: 16px;
+  --padding-bottom: 16px;
+  --padding-start: 40px;
+  border-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 34px;
+}
+
+#searchTextField:focus {
+  border:1px solid #F42EB2 !important;
+}
+/*
+#searchTextField {
+  margin-top:-1px;
+  font-size: 16px;
+  width: 90%;
+  border: 0px;
+  outline: none; 
+}*/
+
+.hide-header {
+  visibility: hidden; /* Esto oculta el ion-header pero mantiene su espacio */
+  height: 0; /* Opcional: ajusta la altura a 0 para liberar espacio si es necesario */
+}

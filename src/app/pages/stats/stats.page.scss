@@ -1,0 +1,105 @@
+.contenido {
+    width: 90%;
+    margin-left: 5%;
+    p {
+        font-family: "Poppins Medium";
+        font-size: 12px;
+    }
+}
+.selector {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ion-item {
+    width: 170px;
+    font-size: 13px;
+    ion-icon {
+        width: 12px;
+        margin-right: 13px;
+    }
+}
+ion-item::part(native) {
+    --border-radius: 10pt;
+    --min-height: 36px;
+    height: 36px;
+}
+ion-toggle {
+    scale: 60%;
+    width: 57px;
+    margin-right: -5%;
+    --background:#7A7B88;
+}
+.options {
+    display: flex;
+    align-items: center;
+    .optionclick {
+        font-family: "Poppins Regular";
+        font-size: 13px;
+        color:#7A7B88;
+    }
+}
+.views {
+    background: url(../../../assets/imgs/fondo-views.png) no-repeat center center / cover;
+    width: 112%;
+    margin-left: -6%;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    ion-label {
+        font-family: "Poppins SemiBold";
+        text-shadow: 0 0 5px #585867;
+        color:#FFFFFF;
+    }
+    .title {
+        font-size: 51px;
+        margin-bottom: -15px;
+        
+    }
+    .title2 {
+        font-size: 19px;
+    }
+}
+
+.graficos {
+    font-family: "Poppins Medium";
+    font-size: 16px;
+    color: #2A2A32;
+}
+.locations,
+.interest {
+    font-family: "Poppins SemiBold";
+    font-size: 12px;
+    color: #2A2A32;
+
+}
+.genero {
+    background: url(../../../assets/imgs/demografico-grafico.png) no-repeat center center / cover;
+    height: 210px;
+    width: 112%;
+    margin-left: -6%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.locations-bar {
+    background: url(../../../assets/imgs/localizacion-grafico.png) no-repeat center center / cover;
+    height: 220px;
+    width: 109%;
+    margin-left: -3%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.interest-bar {
+    background: url(../../../assets/imgs/intereses-grafico.png) no-repeat center center / cover;
+    height: 245px;
+    width: 115%;
+    margin-left: -4%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}

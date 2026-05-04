@@ -1,0 +1,60 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+
+ion-header{
+    background:#E5E5E5;
+    //padding-bottom:20px;
+    padding-bottom:0px;
+}
+
+
+
+#componentFooter{
+
+    background-color:#26262C;
+
+}
+
+
+ion-content{
+
+    //BACKGROUND-CHAT.png
+    --background: none;
+    background: url(../../../assets/imgs/BACKGROUND-CHAT.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+   // width: 90%;
+    //background-color:red;
+    margin: 0 auto !important;
+
+}
+
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px 0;
+
+  .custom-progress {
+    --progress-bar-height: 16px; // Grosor de la barra
+    width: 90%; // Puedes ajustar el ancho según quieras
+  }
+
+  .progress-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,124 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div *ngIf="isInvited" class="overlay"></div>
+  <ion-icon id="iconLeft" src="assets/icons/logotipo-3.svg"></ion-icon>
+  <ion-icon (click)="openHiddenSelect()" id="iconRight" src="assets/icons/filtros.svg"></ion-icon>
+
+  <!--<div id="divButtonsBar">
+    <ion-button [ngClass]="{'opcSeleccionada': !opc}" (click)="selectOPC(false)" class="btnsHeader">{{ 'workspace.Colaboraciones' | translate }}</ion-button>
+    <ion-button [ngClass]="{'opcSeleccionada': opc}" (click)="selectOPC(true)" class="btnsHeader">{{ 'workspace.Mis proyectos' | translate }}</ion-button>
+  </div>-->
+
+  <div id="divSearchBar" class="custom-search-icon">
+    <ion-searchbar enterkeyhint="search" autocapitalize="words" id="buscador1" mode="md" placeholder="{{ 'user-search.Buscar' | translate }}" (keydown)="onEnterPress($event)"  (ionClear)="onSearchClear()" [(ngModel)]="filtText"><!--(ionInput)="onSearchInput($event)" (ionChange)="onSearchChange($event)"-->
+     </ion-searchbar>
+  </div>
+
+  <ion-select value="1" #hiddenSelect interface="popover" (ionChange)="onSelectChange($event)"
+    style="opacity: 0; height: 0; width: 0; position: absolute; pointer-events: none;">
+    <ion-select-option value="1">{{ 'Activos' | translate }}</ion-select-option>
+    <ion-select-option value="2">{{ 'Finalizados' | translate }}</ion-select-option>
+    <ion-select-option value="3">{{ 'Mis proyectos' | translate }}</ion-select-option>
+    <ion-select-option value="4">{{ 'Colaboraciones' | translate }}</ion-select-option>
+    
+  </ion-select>
+
+  <!--<div id="divSelectBar">
+    <div id="divSelect">
+      <p>{{ 'workspace.Estado del proyecto' | translate }}</p>
+      <ion-select placeholder="{{ 'workspace.Seleccione' | translate }}" (ionChange)="onSelectChange($event)">
+        <ion-select-option value="0">{{ 'workspace.Todos' | translate }}</ion-select-option>
+        <ion-select-option value="1">{{ 'workspace.Activos' | translate }}</ion-select-option>
+        <ion-select-option value="2">{{ 'workspace.Finalizados' | translate }}</ion-select-option>
+      </ion-select>
+    </div>
+  </div>-->
+</ion-header>
+<!--
+<ion-content>
+  <div *ngIf="isInvited" class="overlay"></div>
+
+  <div *ngFor="let project of projects" id="mainDiv" (click)="selectProject(project)">
+    <img class="roundedImage" [src]="project?.projectimage || 'assets/imgs/imagenDefectoProyecto.png'" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{project?.name_project}}</p>
+      <div class="bottomContent">
+        <ion-icon src="assets/icons/participantes-rosa.svg"></ion-icon>
+        <p class="pSubTitle">{{ getVerifiedUsersCount(project)+1 }} {{ 'workspace.participantes' | translate }}</p>
+      </div>
+      <div class="bottomContent">
+        <ion-icon src="assets/icons/fecha-rosa.svg"></ion-icon>
+        <p class="pSubTitle">{{ formatEndDate(project.end_date) }}</p>
+      </div>
+    </div>
+    <ion-icon class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+  </div>
+
+  <ion-icon id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="obtainUserSub()"></ion-icon>
+
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>-->
+
+
+<ion-content>
+  <div *ngIf="isInvited" class="overlay"></div>
+
+  <ion-item-sliding 
+  style="background: #F42EB2; border-radius: 37pt;
+  height: 97px; margin-top:20px; border: 0px solid transparent;"
+    
+    *ngFor="let project of projects"
+    class="project-sliding"
+  >
+    <ion-item lines="none" detail="false" class="project-item" style="margin-top:-1px;--padding-start:0; --inner-padding-start:0;
+         --padding-end:0;   --inner-padding-end:0;
+         background: transparent !important; border-radius: 37pt;">
+      <div id="mainDiv" class="project-card" (click)="selectProject(project)">
+        <img class="roundedImage" [src]="project?.projectimage || 'assets/imgs/imagenDefectoProyecto.png'" alt="Profile Image">
+
+        <div class="middleContent">
+          <p id="pTitle">{{project?.name_project}}</p>
+
+          <div class="bottomContent">
+            <ion-icon src="assets/icons/participantes-rosa.svg"></ion-icon>
+            <p class="pSubTitle">{{ getVerifiedUsersCount(project)+1 }} {{ 'workspace.participantes' | translate }}</p>
+          </div>
+
+          <div class="bottomContent">
+            <ion-icon src="assets/icons/fecha-rosa.svg"></ion-icon>
+            <p class="pSubTitle">{{ formatEndDate(project.end_date) }}</p>
+          </div>
+        </div>
+
+        <ion-icon class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+      </div>
+    </ion-item>
+
+
+   
+
+    <!-- Swipe derecha: Eliminar -->
+    <ion-item-options style="height: 99px;     border: 4px solid transparent;" side="end" (ionSwipe)="onProjectFullSwipeDelete(project)">
+      <ion-item-option expandable (click)="deleteProject(project)" style="background:#F42EB2; color:#fff;">
+        <ion-icon src="assets/icon/trash-alt.svg" style="width:22px;height:22px;margin-right:6px;"></ion-icon>
+        {{ 'Eliminar' | translate }}
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  
+
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+  <ion-icon id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="obtainUserSub()"></ion-icon>
+</ion-content>
+
+
+
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

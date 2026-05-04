@@ -1,0 +1,35 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="closeModal()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 *ngIf="fromJobs == null && fromProfile == null && mediaType !== null && mediaType === 'imagen' && mediaArchive !== null" (click)="closeModal()" class="header-title">{{ 'modal-multimedia.Volver a contenido multimedia' | translate }} </h5>
+  <h5 *ngIf="fromJobs == null && fromProfile == null && mediaType !== null && mediaType === 'PDF' && mediaArchive !== null" (click)="closeModal()" class="header-title">{{theName}}</h5>
+  <!--<ion-icon [ngClass]="{'android-style-lupa': isAndroid, 'ios-style-lupa': isIOS}" *ngIf="mediaType !== null && mediaType === 'PDF'" id="iconoEsquinaDerechaModal1" (click)="cambiarZoom()"  src="assets/icons/iconLupa.svg" color="primary"></ion-icon>-->
+  <h5 *ngIf="fromJobs != null && fromProfile == null && mediaType !== null && mediaType === 'imagen' && mediaArchive !== null" (click)="closeModal()" class="header-title">{{ 'Volver a perfil' | translate }} </h5>
+  <h5 *ngIf="fromJobs != null && fromProfile == null && mediaType !== null && mediaType === 'PDF' && mediaArchive !== null" (click)="closeModal()" class="header-title">{{ 'Volver a perfil' | translate }}</h5>
+
+  <ion-icon *ngIf="canEdit != null" id="iconRight" [ngClass]="{'android-style-icon': isAndroid, 'ios-style-icon': isIOS}" style=""(click)="abrirModalOpciones(); $event.stopPropagation()"  src="assets/icons/editar-perfil.svg"></ion-icon>
+
+</ion-header>
+
+<ion-content>
+  <pinch-zoom *ngIf="mediaType !== null && mediaType === 'imagen' && mediaArchive !== null" 
+  [minScale]="0" [disablePan]="false" [limit-zoom]="10" [draggableImage]="true"
+   [limitPan]="false" [disableZoomControl]="'disable'" [transition-duration]="50" [overflow]="'visible'" [minPanScale]="0" #pinch style="height: 100%; background-color: transparent !important;"
+  >
+  <img  [src]="mediaArchive"  alt="" id="imgCategoria" style=" ">
+  </pinch-zoom>
+  
+  <pdf-viewer (click)="cambiarZoom()" *ngIf="mediaType !== null && mediaType === 'PDF' && mediaArchive !== null"  [src]="mediaArchive"  id="thePdf" 
+    [src]="obtainPDF"
+    [render-text]="true"
+    [original-size]="false"
+    [zoom]="zoom"
+    style="">
+  </pdf-viewer>
+
+  
+
+  <video *ngIf="mediaType !== null && mediaType === 'video'" id="videoTrailer" width="100%" height="100%" controls controlsList="nodownload">
+    <source [src]="mediaArchive">Your browser does not support the video tag.
+  </video><!--src="https://in-situ360.com/storage/user-post-videos/0321202513373867dd5d92cfd52.mp4#t=0.001"-->
+
+</ion-content>

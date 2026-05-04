@@ -1,0 +1,114 @@
+ion-content{
+    .contenido {
+        width: 100%;
+        justify-items: center;
+        display: inline-grid;
+    }
+
+    ion-button{
+        text-transform: none;
+        width: 100%;
+    }
+    form {
+        width: 90%;
+    }
+    ion-item::part(native) {
+        --border-radius: 10pt;
+    }
+    ion-item{
+        font-size: 14px!important;
+    }
+    .apellidos{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -15px !important;
+        ion-item{
+            width: 48%;
+        }
+    }
+    ion-avatar {
+        width: 130px;
+        height: auto;
+        margin-top: 5px;
+        margin-bottom: 4%;
+    }
+    p {
+        margin-bottom: 1%;
+        color: #62646E;
+        font-size: 14px;
+    }
+    .p2 {
+        font-size: 12px;
+        margin-top: -3px;
+        margin-bottom: 6px;
+    }
+    .checkbox {
+        color:#2E2D2E;
+        font-family: 'Poppins Regular';
+        font-size: 12px;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        .check{
+            align-items: center;
+            display: flex;
+            margin-left: -3px;
+            ion-checkbox{
+                height: 18px;
+                width: 18px;
+                --border-width: 1px;
+                --border-color: #F42EB2;
+            }
+        }
+        .label{
+            margin-left: 7px;
+        }
+    }
+
+    ion-fab {
+        margin-left: 26% !important;
+        top: 13% !important;
+        width: 57px !important;
+    }
+    .avatar {
+        display: flex;
+        justify-content: center;
+    }
+    ion-chip{
+        font-family: "Poppins Medium";
+        justify-content: center;
+        label {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+    .selected {
+        --background: #F42EB2;
+        --color:#FFFFFF;
+    }
+    .tagged {
+        --background: #62646E;
+        --color: white;
+        font-family: "Poppins Regular"!important;
+        ion-icon {
+            color:white;
+            font-size: 14px;
+            margin-left: -4px;
+            margin-right: 5px;
+        }
+    }
+    ion-range{
+        margin-bottom: -5%;
+    }
+}
+
+ion-footer {
+    font-size: 13px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8%;
+    z-index: -1;
+    ion-button {
+        width: 90%;
+    }
+}

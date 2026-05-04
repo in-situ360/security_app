@@ -1,0 +1,59 @@
+ion-content{
+    --background: url(../../../assets/imgs/PATALLA_CARGA_.png) no-repeat center center / cover;
+    --overflow: hidden;
+    .cover {
+        position: absolute;
+        bottom: 7%;
+        left: 10%;
+        right: 10%;
+    }
+    .Login {
+        width: 100%;
+        --background: #F42EB2!important;
+    }
+    .Registro {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+
+.android-style-content{
+    top: -20px !important;
+}
+
+.android-style-buttons{
+    bottom: 20px !important;
+}
+
+// Media Queries - Solo para Web (ancho > 768px)
+@media (min-width: 769px) {
+    ion-content {
+        --background: url(../../../assets/imgs/coverpage-w.png) no-repeat center / cover !important;
+        --overflow: hidden !important;
+        background-size: cover !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .cover {
+        position: absolute !important;
+        bottom: 12% !important;
+        left: 20% !important;
+        right: 20% !important;
+        width: auto !important;
+    }
+
+    .Registro {
+        width: 100% !important;
+        margin-bottom: 20px !important;
+        height: 50px !important;
+        font-size: 15px !important;
+    }
+
+    .Login {
+        width: 100% !important;
+        --background: #F42EB2 !important;
+        height: 50px !important;
+        font-size: 15px !important;
+    }
+}

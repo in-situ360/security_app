@@ -1,0 +1,265 @@
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 10px !important;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0 20px;
+  padding-top: 40px;
+  background-color: #E5E5E5;
+}
+
+#iconLeft {
+  height: 12px;
+  width: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  z-index:999999;
+}
+
+.header-title {
+  font-family: 'Poppins Medium';
+  text-transform: uppercase;
+  color: #2E2D2E;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 8px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 240px;
+  text-overflow: ellipsis;
+}
+
+.header-title-shorter{
+   text-transform: uppercase;
+  max-width: 173px !important;
+  margin-left:30px !important;
+}
+
+#iconRight2 {
+  color:#F42EB2;;
+  height: 29px;
+  width: 29px;
+  margin-top:-4px;
+  z-index:999999;
+  right: 13px;
+  position: absolute;
+}
+
+#iconRight3 {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  padding: 6px;
+  position: absolute;
+  right: 8px;
+  margin-top: 0px;
+}
+
+.cancel-text {
+  position: absolute;
+  right: 55px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Poppins Medium";
+  color: #F42EB2;
+  cursor: pointer;
+  background: transparent;
+  padding: 4px;
+  line-height: 1;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+ion-content{
+  --background: #eeeeee;
+}
+
+//-------------------------------------------------------------------------------
+
+/* GRID MULTIMEDIA */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  padding: 12px;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Cada ítem en el grid */
+.media-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Parte cuadrada del ítem */
+.media-square {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e6e2;
+}
+
+/* Multimedia interna */
+.media-square img,
+.media-square video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+
+.media-square .link-img {
+    width: 50px;
+    height: 50px;
+}
+
+.media-square .pdf-img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Icono de check (selección múltiple) */
+.check-icon {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  padding: 4px;
+  z-index: 10;
+}
+
+/* VIDEO */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2;
+}
+
+video::-webkit-media-controls-enclosure {
+  overflow: hidden !important;
+}
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+/* TEXTO debajo del ítem (ej: nombre de archivo) */
+.media-caption {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+  color: #25252C;
+  font-family: "Poppins Medium";
+  word-break: break-word;
+  padding: 0 4px;
+  max-width: 100%;
+}
+
+.media-caption2 {
+  font-size: 11px;
+  text-align: center;
+  margin-top: -4px;
+  color: #4242424d;
+  font-family: "Poppins Medium";
+  word-break: break-word;
+  padding: 0 4px;
+  max-width: 100%;
+}
+
+//-------------------------------------------------------------------------------
+
+/* Overlay para prevenir selección */
+.no-select-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+
+/* Botón flotante para añadir */
+#iconAddProject{
+  position: fixed;
+  bottom: 6pt;
+  right: 6pt;
+  width: 85px;
+  height: 85px;
+}
+
+/* Overlay general */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99999999999;
+  pointer-events: auto;
+}
+
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+  
+    .custom-progress {
+      --progress-bar-height: 16px; // Grosor de la barra
+      width: 90%; // Puedes ajustar el ancho según quieras
+    }
+  
+    .progress-text {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+  }

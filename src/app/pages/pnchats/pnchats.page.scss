@@ -1,0 +1,311 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom: 4px;
+    background-color: #26262C; /* Adjust as necessary */
+
+  }
+
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: white;
+    font-family: 'Poppins SemiBold';
+    margin: 0;
+    font-size: 14px;
+    width:100%;
+    text-align: center;
+    position:absolute;
+    z-index:-1;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+  #divSearchBar{
+
+    width: 100%;
+  background-color: #26262C;
+  height: 89px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+
+ion-searchbar {
+    background-color:#26262C;
+    --border-radius: 23px; 
+   
+  }
+
+
+  ion-segment {
+   // margin-top: 15px !important;
+   // margin-bottom: 25px !important;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #212127;
+}
+
+ion-segment-button {
+    font-family: 'Poppins Medium';
+    font-size: 8pt;
+    //padding: 0.7rem;
+    margin: 0;
+    --background:#212127;
+    --color: #7F7F92;
+    //--background-checked: linear-gradient(to right, #2d2e87, #0083CB)!important;
+    --color-checked: #FEFEFE;
+    --indicator-color: #FEFEFE !important;
+    /* this solution */
+
+
+    // --indicator-box-shadow: transparent!important;
+    //--indicator-color : transparent!important; /* this solution */
+
+    display: flex; /* Asegura que el contenido esté alineado horizontalmente */
+    align-items: center;
+}
+
+
+ion-list{
+
+    --background: none;
+}
+
+
+#divChats{
+
+    --background: none;
+    background: url(../../../assets/imgs/BACKGROUND-BANDEJA-ENTRADA.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+   // width: 90%;
+    //background-color:red;
+    margin: 0 auto !important;
+   
+   padding-top: 1px !important;
+
+}
+
+
+
+#iconAddProject{
+
+  position: fixed;
+  bottom: 6pt;
+  right: 6pt;
+  width: 83px;
+  height: 83px;
+  z-index:99999;
+
+  }
+
+
+.overlay {
+  position: fixed; /* Fija la posición en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+  height: 100vh; /* Ocupa todo el alto de la pantalla */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+  z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+  pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+}
+
+
+
+
+
+
+
+//-------------SOLICITUDES-------------------
+
+#divChat {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  margin: 15px;
+ padding:4px;
+  // padding: 10px 15px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#divChat .avatar {
+  //margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#divChat .avatar img {
+  border-radius: 50%;
+  /*width: 65px;
+  height: 65px;*/
+  width: 77px;
+  height: 77px;
+}
+
+#divChat ion-label.content {
+  flex: 1;
+  width: 60%//77px;
+}
+
+#divChat .title {
+  font-size: 14px;
+    color: var(--ion-color-primary);
+    margin: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 4px;
+    color: #2A2A32;
+    font-family: "Poppins SemiBold";
+    overflow: hidden;        /* Oculta el texto que sobrepasa el contenedor */
+    white-space: nowrap;     /* Impide que el texto se divida en varias líneas */
+    text-overflow: ellipsis; // Añade "..."
+}
+
+#divChat .subtitle {
+  font-size: 12px;
+  color: #7A7B88;
+  margin: 0;
+  font-family: 'Poppins Regular';
+}
+
+#pSubtitle{
+  padding-left: 4px;
+  width: 70%;
+  overflow: hidden;        /* Oculta el texto que sobrepasa el contenedor */
+  white-space: nowrap;     /* Impide que el texto se divida en varias líneas */
+  text-overflow: ellipsis;
+}
+
+#divChat ion-label.right {
+  text-align: right;
+    max-width: 58px;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+
+#divChat .hora {
+  font-size: 10px;
+  color: #383838;
+}
+
+#divChat .mensajes {
+  padding-left: 3vw;
+}
+
+#divChat .mensajes ion-badge {
+  font-size: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+#divChat .buttons{
+
+  font-family: "Poppins Medium";
+    font-size: 12px;
+    --border-radius: 29pt;
+    --background: #393939;
+    height: 29px;
+    width: 89px;
+    margin-right: 4px;
+    --box-shadow: none !important;
+    text-transform: none;
+}
+
+#buttonAceptar{
+
+  --background: #F42EB2!important;
+
+}
+
+
+.red-dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #F42EB2;
+  border-radius: 50%;
+  margin-left: 4px;
+  position: relative;
+ 
+    bottom: 5px;
+}
+
+
+
+
+
+
+
+
+  /* Mantener diseño de las tarjetas dentro del sliding */
+.project-item {
+  --padding-start: 0;
+  background: transparent !important;
+}
+
+.project-sliding {
+  background: transparent;
+  margin: 15px 9px; /* respeta tu separación */
+}
+
+/* Reutilizamos tu #mainDiv como tarjeta, sin cambios visuales */
+.project-card {
+  //width: 100%;
+}
+
+/* Opcional: ancho máximo de opciones al deslizar (como en notificaciones) */
+ion-item-sliding {
+  //--max-option-width: 120px;
+  
+}
+
+@media (min-width: 769px) {
+  #divSearchBar {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+
+  #divChats {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
+}

@@ -1,0 +1,53 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'contact-us.CONTACTA CON NOSOTROS' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="pre-contenido">
+    <ion-icon class="main-icon" src="assets/icon/logotipo-3.svg"></ion-icon>
+    <ion-label class="contact-title">{{ 'contact-us.¿Tienes alguna duda? ¿Alguna propuesta?' | translate }}<br>{{ 'contact-us.¡Estamos deseando escucharte!' | translate }}</ion-label>
+  </div>
+  <div class="contenido">
+    <form>
+      <p>{{ 'contact-us.Nombre' | translate }}</p>
+      <ion-item>
+        <ion-icon src="assets/icon/user-rosa.svg" slot="start"></ion-icon>
+        <ion-input [(ngModel)]="name" [ngModelOptions]="{standalone: true}" placeholder=""></ion-input>
+      </ion-item>
+      <p>{{ 'contact-us.Apellidos' | translate }}</p>
+      <div class="apellidos">
+        <ion-item>
+          <ion-icon src="assets/icon/user-rosa.svg" slot="start"></ion-icon>
+          <ion-input [(ngModel)]="surname" [ngModelOptions]="{standalone: true}" type="text" placeholder=""></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-icon src="assets/icon/user-rosa.svg" slot="start"></ion-icon>
+          <ion-input [(ngModel)]="surname2" [ngModelOptions]="{standalone: true}" type="text" placeholder=""></ion-input>
+        </ion-item>
+      </div>
+      <p>{{ 'contact-us.Email' | translate }}</p>
+      <ion-item>
+        <ion-icon name="mail-outline" slot="start"></ion-icon>
+        <ion-input [(ngModel)]="email" [ngModelOptions]="{standalone: true}" placeholder=""></ion-input>
+      </ion-item>
+      <p>{{ 'contact-us.Categoría' | translate }}</p>
+      <ion-item>
+        <ion-icon name="grid-outline" slot="start"></ion-icon>
+        <ion-select [(ngModel)]="valorSeleccionado" [ngModelOptions]="{standalone: true}" (ionChange)="onSelectChange($event)">
+          <ion-select-option value="soporte">{{ 'contact-us.Soporte' | translate }}</ion-select-option>
+          <ion-select-option value="atencliente">{{ 'contact-us.Atención al cliente' | translate }}</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <p>{{ 'contact-us.Solicitud' | translate }}</p>
+      <ion-item>
+        <ion-icon src="assets/icon/comment-alt-message.svg" slot="start"></ion-icon>
+        <ion-textarea placeholder="{{ 'contact-us.Escribe aquí...' | translate }}" [(ngModel)]="contenidoTextarea" [ngModelOptions]="{standalone: true}" (input)="onTextareaInput()" [autoGrow]="true"></ion-textarea>
+      </ion-item>
+    </form>
+  </div>
+
+  <ion-button (click)="enviarSolicitud()">{{ 'contact-us.Enviar solicitud' | translate }}</ion-button>
+</ion-content>
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

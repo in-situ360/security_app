@@ -1,0 +1,75 @@
+#textoIzquierda {
+      float: left;
+    text-align: left;
+    margin-left: 15px;
+    padding-right: 10px;
+    width: 200px;
+   color:#2A2A32;
+    font-family: "Poppins Medium";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+      }
+      
+      #textoDerecha {
+      //text-decoration: underline;
+      color:#F42EB2;
+      float: right;
+      margin-right: 16px;
+      //padding-right: 10px;
+      width: 115px;
+      text-align: right;
+      font-size:15px;
+      font-family: 'Poppins Medium';
+      }
+
+
+      
+
+ion-list {
+   padding-top: 16px;
+  width: 100% !important;
+}
+ion-item {
+    --border-style: none none solid none;
+    margin-bottom: 0%!important;
+}
+ion-item.item-has-value {
+    border: 1px;
+    --border-color: #CCCDD3;
+    ion-icon {
+        color:#CCCDD3;
+    }
+}
+ion-item:focus-within {
+    border: 1px;
+    --border-color: #a9aaad;
+    ion-icon {
+        color:#CCCDD3;
+    }
+}
+
+ion-label {
+    font-family: 'Poppins Regular' !important;
+    font-size: 13px!important;
+    color:#2A2A32!important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-icon{
+  width: 17px;
+  height: 17px;
+}
+
+.iconItem{
+  width: 21px;
+  height: 21px;
+
+}
+
+#linkIcon{
+  color:#2E2D2E;
+}
+  

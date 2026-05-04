@@ -1,0 +1,54 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'locations.UBICACIONES' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div class="locations">
+    <form [formGroup]="form">
+      <p>{{ 'locations.Tu ubicación' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/pin.svg"></ion-icon>
+          <input style="background-color:white; border:0px;;" id="searchTextField" formControlName="actual" type="text" placeholder="{{ 'locations.Buscar dirección' | translate }}" (input)="onInputLocation($event)">
+
+        </ion-label>
+       <!--<ion-input [(ngModel)]="actual" placeholder="{{ 'Ubicación actual' | translate }}" [ngModelOptions]="{standalone: true}"></ion-input>-->
+
+      </ion-item>
+      
+
+    
+      <div class="locationwork">
+        <p>{{ 'locations.Ubicaciones donde puedes trabajar' | translate }}</p>
+      </div>
+      
+      <!-- Muestra un ion-item por cada elemento en el array others -->
+      <ion-item *ngFor="let location of othersloc; let i = index;">
+        <ion-label>
+          <ion-icon src="assets/icon/pin.svg"></ion-icon>
+          <input
+          id="otherLocation-{{i}}"
+          class="otherLocations"
+          [value]="othersloc[i]"
+          placeholder="{{ 'locations.Ubicación' | translate }} {{i + 1}}"
+          (input)="onInputOtherLocation($event, i)"
+        >
+        </ion-label>
+        
+      </ion-item>
+      
+      <ion-button (click)="addLocation()" class="addlocation" mode="md">
+        <ion-icon name="add-outline" slot="start"></ion-icon>
+        {{ 'locations.Añadir otra ubicación' | translate }}
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-button mode="md" (click)="updateLocations()">{{ 'locations.Guardar cambios' | translate }}</ion-button>
+</ion-footer>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

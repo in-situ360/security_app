@@ -1,0 +1,7 @@
+{
+  "name": "Insitu360",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,11 @@
+<ion-header class="hide-header">
+  <ion-select
+  #selectRef
+  interface="action-sheet"
+  (ionCancel)="onSelectCancel()"
+  placeholder="Selecciona una red"
+  (ionChange)="onSelectChange($event)">
+  <ion-select-option value=1>{{ 'Editar imagen de chat' | translate }}</ion-select-option>
+  <!--<ion-select-option value=2>{{ 'Eliminar chat' | translate }}</ion-select-option>-->
+</ion-select>
+</ion-header>

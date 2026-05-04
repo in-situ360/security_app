@@ -1,0 +1,71 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" routerLink="/detail-proyect" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{'user-ratings.VALORACIONES A ' | translate }}{{name}}</h5>
+  </div>
+  <div class="header-bottom">
+    <div class="scroll-wrapper">
+    <ion-button id="btn1" [disabled]="!hasSub && userSub<2 && !theSame" (click)="toggleButton($event)" class="opcButtons">{{'user-ratings.Más recientes' | translate }}</ion-button>
+    <ion-button id="btn2" [disabled]="!hasSub && userSub<2 && !theSame" (click)="toggleButton($event)" class="opcButtons">{{'user-ratings.Menos recientes' | translate }}</ion-button>
+    <ion-button id="btn3" [disabled]="!hasSub && userSub<2 && !theSame" (click)="toggleButton($event)" class="opcButtons">{{'user-ratings.Más altas' | translate }}</ion-button>
+    <ion-button id="btn4" [disabled]="!hasSub && userSub<2 && !theSame" (click)="toggleButton($event)" class="opcButtons">{{'user-ratings.Más bajas' | translate }}</ion-button>
+    <!--<ion-button id="btn3" [disabled]="!hasSub" (click)="toggleButton($event)" class="opcButtons">{{'user-ratings.Puntuación' | translate }}</ion-button>-->
+    </div>
+  </div>
+</ion-header>
+
+<ion-content>
+<div *ngIf="!hasSub && userSub<2 && !theSame" class="overlay"></div>
+<div id="divContainerRating" *ngFor="let rating of ratings">
+  <div id="rating">
+    <div id="left">
+      <img id="image" (click)="goToOtherUser(rating?.uservalored?.id)" [src]="rating?.uservalored?.avatar" alt="Rounded Image">
+    </div>
+    <div id="right">
+      <div id="top-texts">
+        <p (click)="goToOtherUser(rating?.uservalored?.id)"  id="text1">{{rating?.uservalored?.name}} {{rating?.uservalored?.surname1}} </p><!--{{rating?.uservalored?.representativeName
+        }}-->
+        <p id="text2">{{ formatEndDate(rating?.created_at) }}</p><!---->
+      </div>
+      <div id="bottom-text">
+        <!--<p id="text3">{{rating?.uservalored?.proffesion || ('user-ratings.Sin oficio' | translate)}} ·{{'user-ratings.Perfil verificado' | translate }}</p>-->
+        <p id="text3">
+          {{
+            rating?.trasnProffesion && rating?.trasnProffesion.trim() !== '' 
+              ? rating.trasnProffesion 
+              : (rating?.uservalored?.proffesion || ('user-ratings.Sin oficio' | translate))
+          }} · {{ 'user-ratings.Perfil verificado' | translate }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div style="width:100%; height:20px;display: flex; align-items: center;">
+    <!--<ion-icon id="iconValue" src="assets/icons/estrella-valoracion.svg"></ion-icon>
+    <ion-icon id="iconValue" src="assets/icons/estrella-valoracion.svg"></ion-icon>
+    <ion-icon id="iconValue" src="assets/icons/estrella-valoracion.svg"></ion-icon>
+    <ion-icon id="iconValue" src="assets/icons/estrella-valoracion.svg"></ion-icon>
+    <ion-icon id="iconValue" src="assets/icons/estrella-valoracion.svg"></ion-icon>-->
+    <ion-icon  id="iconValue"
+          *ngFor="let star of stars; let i = index" 
+          [src]="getStarColor(i,rating?.punctuation)" 
+          [ngStyle]="{ 'filter': isActive(i,rating?.punctuation) ? 'none' : 'grayscale(100%)' }" 
+          class="star-icon">
+        </ion-icon>
+    <span  id="txtVal"></span>
+  </div>
+  <p id="pDescript">{{rating?.comment}}</p>
+  <p id="pReport" (click)="abrirModalReporte(rating?.user_id)">{{'user-ratings.Reportar comentario' | translate }}</p>
+</div>
+<ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+  <ion-infinite-scroll-content></ion-infinite-scroll-content>
+</ion-infinite-scroll>
+<div *ngIf="showAddRating" id="divFooter">
+  <ion-button id="btnFooter" (click)="addRating()">{{'user-ratings.Añadir valoración' | translate }}</ion-button>
+</div>
+
+
+
+</ion-content>
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

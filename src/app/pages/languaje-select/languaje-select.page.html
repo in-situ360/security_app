@@ -1,0 +1,45 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div [ngClass]="{'hiddenTitle': !show, 'visibleTitle': show}" class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'languaje-select.SELECCIÓN DE IDIOMA' | translate }}</h5>
+  </div>
+</ion-header>
+<ion-content>
+
+
+  <div style="width:100%; ">
+
+
+    <p id="pTitle">{{ 'languaje-select.Seleccionar idioma' | translate }}</p>
+
+    <p id="subTitle">{{ 'languaje-select.Selecciona el idioma que quieres que se muestre en la app' | translate }}</p>
+  
+    <div id="divSelectBar">
+      <div id="divSelect">
+        
+       <ion-select 
+        placeholder="{{ 'languaje-select.Selecciona un idioma' | translate }}" 
+        (ionChange)="Language($event)" 
+        [value]="selectedLanguage">
+
+        <ion-select-option *ngFor="let lang of sortedLanguages" [value]="lang.code">
+          {{ lang.label }}
+        </ion-select-option>
+
+      </ion-select>
+      
+      </div>
+    </div>
+    
+
+    
+    <div style="width:100%; padding-left:20px;padding-right:20px;">
+      <ion-button (click)="continue()" class="btn" fill="clear">{{ 'languaje-select.Aceptar y continuar' | translate }}</ion-button>
+    </div>
+   
+
+  </div>
+</ion-content>
+
+
+

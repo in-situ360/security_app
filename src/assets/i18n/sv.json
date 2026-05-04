@@ -1,0 +1,1275 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "SPRÅKVAL",
+      "Seleccionar idioma": "Välj språk",
+      "Selecciona el idioma que quieres que se muestre en la app": "Välj vilket språk du vill visa i appen",
+      "Aceptar y continuar": "Acceptera och fortsätt",
+      "Selecciona un idioma": "Välj ett språk",
+      "Inglés": "Engelska",
+      "Español": "Spanska",
+      "Francés": "Franska",
+      "Alemán": "Tyska",
+      "Italiano": "Italienska",
+      "Portugués": "Portugisiska",
+      "Ruso": "Ryska",
+      "Chino(Simplificado)": "Kinesiska (Förenklad)",
+      "Chino(Tradicional)": "Kinesiska (Traditionell)",
+      "Japonés": "Japanska",
+      "Coreano": "Koreanska",
+      "Árabe": "Arabiska",
+      "Hindi": "Hindi",
+      "Bengalí": "Bengali",
+      "Holandés": "Holländska",
+      "Sueco": "Svenska",
+      "Noruego": "Norska",
+      "Finlandés": "Finska",
+      "Danés": "Danska",
+      "Polaco": "Polska",
+      "Turco": "Turkiska",
+      "Griego": "Grekiska",
+      "Checo": "Tjeckiska",
+      "Hebreo": "Hebreiska",
+      "Húngaro": "Ungerska",
+      "Vietnamita": "Vietnamesiska",
+      "Indonesio": "Indonesiska",
+      "Tailandés": "Thailändska",
+      "Catalán": "Katalanska",
+      "Romanés": "Rumänska",
+      "Ucraniano": "Ukrainska",
+      "Serbio": "Serbiska",
+      "Croata": "Kroatiska",
+      "Eslovaco": "Slovakiska",
+      "Letón": "Lettiska",
+      "Estonio": "Estniska"
+    },
+  
+    "cover-page": {
+      "Registro": "Registrering",
+      "Iniciar sesión": "Logga in"
+    },
+  
+    "login": {
+      "Iniciar sesión": "Logga in",
+      "Usuario": "Användarnamn",
+      "Contraseña": "Lösenord",
+      "He olvidado mi contraseña": "Jag har glömt mitt lösenord",
+      "Entrar": "Logga in",
+      "Entrar como invitado": "Logga in som gäst",
+      "¿Aún no tienes una cuenta?": "Har du ännu inget konto?",
+      "Regístrate": "Registrera dig",
+      "Entrando": "Loggar in...",
+      "Usuario o contraseña incorrectos": "Fel användarnamn eller lösenord",
+      "El usuario ya se encuentra registrado": "Användaren är redan registrerad",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Detta konto är tillfälligt blockerat, kontakta administratörerna för mer information",
+      "Error del servidor, inténtelo más tarde": "Serverfel, försök igen senare",
+      "Error desconocido, inténtelo más tarde": "Okänt fel, försök igen senare"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "ÅTERSTÄLL LÖSENORD",
+      "¿Has olvidado tu contraseña?": "Har du glömt ditt lösenord?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "Ange din e-postadress så skickar vi ett nytt lösenord till dig.",
+      "Email": "E-post",
+      "Enviar": "Skicka",
+      "¡Se ha enviado el email correctamente!": "E-postmeddelandet har skickats korrekt!",
+      "Error al enviar el email": "Fel vid skickande av e-post"
+    },
+  
+    "register": {
+      "Registro": "Registrering",
+      "¿Cómo deseas acceder a la app?": "Hur vill du få åtkomst till appen?",
+      "Personal": "Personligt",
+      "Empresa": "Företag",
+      "Nombre": "Namn",
+      "Nombre de representante": "Representantens namn",
+      "Apellido 1": "Efternamn 1",
+      "Apellido 2": "Efternamn 2",
+      "Email": "E-post",
+      "Contraseña": "Lösenord",
+      "Repetir Contraseña": "Upprepa lösenord",
+      "He leído y acepto": "Jag har läst och accepterar",
+      "la Política de Privacidad": "Sekretesspolicyn",
+      "los Términos y Condiciones de Venta": "Villkoren och försäljningsvillkoren",
+      "Registrarme": "Registrera mig",
+      "¿Ya estás registrado?": "Redan registrerad?",
+      "Accede aquí": "Logga in här",
+      "El email es obligatorio": "E-post är obligatoriskt",
+      "El email no es válido": "Ogiltig e-postadress",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "E-postadressen måste ha en giltig domän (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Domänen är inte tillåten eller innehåller ogiltiga tecken i följd",
+      "La contraseña es obligatoria": "Lösenordet är obligatoriskt",
+      "La contraseña debe tener al menos 8 caracteres": "Lösenordet måste vara minst 8 tecken långt",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Lösenordet måste innehålla en versal, en siffra och ett specialtecken",
+      "Las contraseñas no coinciden": "Lösenorden matchar inte",
+      "Registrando usuario": "Registrerar användare...",
+      "Nombre Empresa": "Företagsnamn",
+"Por favor, revisa los campos con errores antes de continuar": "Vänligen kontrollera fälten med fel innan du fortsätter",
+      "El nombre es obligatorio": "Namnet är obligatoriskt",
+      "El nombre debe tener al menos 3 caracteres": "Namnet måste ha minst 3 tecken"
+        },
+
+    
+      
+      "¡Pago realizado!": "Betalning genomförd!",
+      "El pago de la suscripción se ha realizado correctamente": "Prenumerationsbetalningen har genomförts framgångsrikt",
+    
+      "Sin opiniones": "Inga recensioner",
+      "opinión": "recension",
+      "opiniones": "recensioner",
+      "Eliminar chat": "Ta bort chatt",
+    
+      "Cancelar": "Avbryt",
+      "Advertencia": "Varning",
+      "¿Estás seguro de eliminar el chat?": "Är du säker på att du vill ta bort chatten?",
+      "Aceptar": "Acceptera",
+      "Chat borrado con éxito": "Chatten har raderats framgångsrikt",
+      "No se pudo borrar el chat": "Chatten kunde inte raderas",
+      "Contenido de": "Innehåll av",
+      "Sin seleccionar": "Ej valt",
+      "1 archivo seleccionado": "1 fil vald",
+      " archivos seleccionados": " filer valda",
+      "Archivos eliminados": "Filer raderade",
+      "No se pudieron borrar los archivos": "Filerna kunde inte raderas",
+      "Suscripción necesaria": "Prenumeration krävs",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "Skaffa en högre prenumeration än Plan I för att se andra användares omdömen",
+      "Activos": "Aktiva",
+      "Finalizados": "Avslutade",
+      "Mis proyectos": "Mina projekt",
+      "Colaboraciones": "Samarbeten",
+      "Subir sin editar": "Ladda upp utan att redigera",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "Filen överskrider den maximalt tillåtna storleken (2,5 MB).",
+    
+    
+    
+        "finish-profile": {
+          "Seleccione al menos una categoría": "Välj minst en kategori",
+"La profesión es obligatoria": "Yrke är obligatoriskt",
+"La ubicación es obligatoria": "Plats är obligatorisk",
+          "COMPLETAR PERFIL": "KOMPLETTERA PROFIL",
+          "No mostrar mi perfil en el buscador": "Visa inte min profil i sökningen",
+          "Nombre": "Namn",
+          "Apellido 1": "Efternamn 1",
+          "Apellido 2": "Efternamn 2",
+          "Nombre de representante": "Representantens namn",
+          "Fecha de nacimiento": "Födelsedatum",
+          "Este detalle no se mostrará de forma pública": "Denna information visas inte offentligt",
+          "Género": "Kön",
+          "Seleccione una opción": "Välj ett alternativ",
+          "Hombre": "Man",
+          "Mujer": "Kvinna",
+          "Otro": "Annat",
+          "Profesión": "Yrke",
+          "Escribe aquí…": "Skriv här…",
+          "Categoría de trabajo": "Arbetskategori",
+          "Salario": "Lön",
+          "Selecciona un rango de salario": "Välj ett lönespann",
+          "Precio seleccionado:": "Valt pris:",
+          "Se mostrará como:": "Visas som:",
+          "Tags": "Taggar",
+          "Escribe las palabras clave para describir tu empleo": "Skriv in nyckelord för att beskriva ditt arbete",
+          "Descripción": "Beskrivning",
+          "Guardar cambios": "Spara ändringar",
+          "Escribe aquí": "Skriv här",
+          "Escribe aquí...": "Skriv här...",
+          "día": "dag",
+          "Él": "Han",
+          "Ella": "Hon",
+          "Elle": "Hen",
+          "Añade tus pronombres": "Lägg till dina pronomen",
+          "Introduzca el pronombre con el que se identifique": "Ange det pronomen du identifierar dig med",
+          "El nombre es obligatorio": "Namn är obligatoriskt",
+          "El apellido 1 es obligatorio": "Efternamn 1 är obligatoriskt",
+          "Introduzca una fecha válida": "Ange ett giltigt datum",
+          "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "Om du väljer att lägga till pronomen måste du ange minst ett pronomen",
+          "Debes seleccionar un género": "Du måste välja ett kön",
+          "Error obteniendo el usuario": "Fel vid hämtning av användare",
+          "Usuario actualizado correctamente": "Användare uppdaterad korrekt",
+          "Ya hay un Tag con ese valor": "Det finns redan en tagg med det värdet",
+          "El campo está vacío, no se puede crear un Tag": "Fältet är tomt, en tagg kan inte skapas",
+          "Por favor, revisa los campos con errores antes de continuar": "Vänligen granska fälten med fel innan du fortsätter",
+          "Ya hay un Pronombre con ese valor": "Det finns redan ett pronomen med det värdet",
+          "El campo está vacío, no se puede crear un Pronombre": "Fältet är tomt, ett pronomen kan inte skapas"
+        },
+      
+        "settings": {
+          "CONFIGURACIÓN": "INSTÄLLNINGAR",
+          "Configurar mi cuenta": "Konfigurera mitt konto",
+          "Mis métodos de pago": "Mina betalningsmetoder",
+          "Destacar mi perfil": "Markera min profil",
+          "Mi suscripción": "Min prenumeration",
+          "Mis anuncios": "Mina annonser",
+          "Estadísticas": "Statistik",
+          "Usuarios bloqueados": "Blockerade användare",
+          "Idioma de la app": "Appens språk",
+          "Contacta con nosotros": "Kontakta oss",
+          "FAQ": "FAQ",
+          "Política de Privacidad": "Integritetspolicy",
+          "Términos y Condiciones de venta": "Försäljningsvillkor",
+          "Cerrar sesión": "Logga ut",
+          "Eliminar cuenta": "Ta bort konto",
+          "¿Estás seguro de querer cerrar sesión?": "Är du säker på att du vill logga ut?",
+          "Aceptar": "Acceptera",
+          "Cancelar": "Avbryt",
+          "Advertencia": "Varning",
+          "¿Estás seguro de querer eliminar tu cuenta?": "Är du säker på att du vill ta bort ditt konto?",
+          "Cuenta eliminada satisfactoriamente": "Kontot har tagits bort framgångsrikt",
+          "Hubo problemas para borrar la cuenta de usuario": "Det uppstod problem med att ta bort användarkontot"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "KONFIGURERA MITT KONTO",
+          "Nombre de usuario": "Användarnamn",
+          "Email": "E-post",
+          "Contraseña": "Lösenord",
+          "Repetir contraseña": "Upprepa lösenord",
+          "Guardar cambios": "Spara ändringar",
+          "Error obteniendo el usuario": "Fel vid hämtning av användare",
+          "Cuenta de usuario actualizada": "Användarkonto uppdaterat",
+          "El nombre es obligatorio": "Namn är obligatoriskt",
+          "El nombre debe tener al menos 3 caracteres": "Namnet måste innehålla minst 3 tecken",
+          "El email es obligatorio": "E-post är obligatoriskt",
+          "El email no es válido": "Ogiltig e-postadress",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "E-postadressen måste ha en giltig domän (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Domänen är inte tillåten eller innehåller ogiltiga tecken i följd",
+          "La contraseña es obligatoria": "Lösenord är obligatoriskt",
+          "La contraseña debe tener al menos 8 caracteres": "Lösenordet måste vara minst 8 tecken långt",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Lösenordet måste innehålla en versal, en siffra och ett specialtecken",
+          "Las contraseñas no coinciden": "Lösenorden matchar inte"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "FÖRSÄLJNINGSVILLKOR"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "INTEGRITETSPOLICY"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "KONTAKTA OSS",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "Har du några frågor? Något förslag?",
+          "¡Estamos deseando escucharte!": "Vi ser fram emot att höra från dig!",
+          "Nombre": "Namn",
+          "Apellidos": "Efternamn",
+          "Email": "E-post",
+          "Categoría": "Kategori",
+          "Atención al cliente": "Kundtjänst",
+          "Soporte": "Support",
+          "Solicitud": "Förfrågan",
+          "Enviar solicitud": "Skicka förfrågan",
+          "Solicitud de contacto creada con éxito": "Kontaktförfrågan skapades framgångsrikt",
+          "Hubo un problema al enviar la solicitud de contacto": "Det uppstod ett problem vid skickandet av kontaktförfrågan",
+          "Rellene todos los campos para enviar la solicitud de contacto": "Fyll i alla fält för att skicka kontaktförfrågan",
+          "Escribe aquí...": "Skriv här...",
+          "Adquiera plan válido": "Skaffa en giltig plan",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Skaffa PlanS eller Plan360 för att kunna kontakta Insitu-teamet"
+        },
+      
+        "faq": {
+          "FAQ": "FAQ",
+          "Ir a la página ": "Gå till sidan "
+        },
+      
+        "ban-users": {
+          "USUARIOS BLOQUEADOS": "BLOCKERADE ANVÄNDARE",
+          "No se pudo obtener el listado de usuarios bloqueados": "Det gick inte att hämta listan över blockerade användare",
+          "¿Desea desbloquear a este usuario?": "Vill du avblockera den här användaren?",
+          "Cancelar": "Avbryt",
+          "Desbloquear": "Avblockera",
+          "Usuario desbloqueado": "Användare avblockerad",
+          "El usuario ya no se encuentra bloqueado": "Användaren är inte längre blockerad",
+          "Respuesta desconocida": "Okänt svar"
+        },
+        
+            "suscription-detail": {
+              "Características": "Funktioner",
+              "Plan I": "Plan I",
+              "al mes": "per månad",
+              "Plan S": "Plan S",
+              "Plan 360": "Plan 360",
+              "Búsqueda ilimitada": "Obegränsad sökning",
+              "Completa tu perfil": "Slutför din profil",
+              "Obtén reseñas verificadas": "Få verifierade recensioner",
+              "Forma parte de proyecto": "Bli en del av ett projekt",
+              "Incluido lo relativo al plan I": "Inkluderat det som gäller för Plan I",
+              "Contacta con profesionales": "Kontakta proffs",
+              "Filtros de búsqueda Premium": "Premium sökfilter",
+              "Visualiza todos los perfiles": "Visa alla profiler",
+              "Aumenta tu visibilidad": "Öka din synlighet",
+              "Métricas avanzadas": "Avancerad statistik",
+              "Incluido lo relativo al plan S": "Inkluderat det som gäller för Plan S",
+              "Crear y administrar proyectos": "Skapa och hantera projekt",
+              "Gestiona poderes a tu equipo": "Hantera behörigheter för ditt team",
+              "Almacenamiento ilimitado de proyectos": "Obegränsat projektlagring",
+              "Creación de chat grupales": "Skapa gruppchattar",
+              "Calendario compartido": "Delad kalender"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "JOBB",
+              "No se pudo obtener los trabajos": "Det gick inte att hämta jobben",
+              "¿Desea eliminar la imagen?": "Vill du ta bort bilden?",
+              "No": "Nej",
+              "Sí": "Ja",
+              "Hubo un problema al borrar": "Ett fel uppstod vid borttagning",
+              "¿Desea ajustar la imagen antes de que sea subida?": "Vill du justera bilden innan den laddas upp?",
+              "Subir imagen": "Ladda upp bild",
+              "No se pudo crear el trabajo": "Det gick inte att skapa jobbet",
+              "Ajustar imagen": "Justera bild",
+              "Cancelar Subida": "Avbryt uppladdning"
+            },
+          
+            "languages": {
+              "IDIOMAS": "SPRÅK",
+              "Idiomas": "Språk",
+              "Añadir otro idioma": "Lägg till ett annat språk",
+              "Añadir otro lenguaje": "Lägg till ett annat språk",
+              "Guardar cambios": "Spara ändringar",
+              "No se pudo obtener los idiomas": "Det gick inte att hämta språken"
+            },
+          
+            "locations": {
+              "UBICACIONES": "PLATSER",
+              "Tu ubicación": "Din plats",
+              "Buscar dirección": "Sök adress",
+              "Ubicaciones donde puedes trabajar": "Platser där du kan arbeta",
+              "Ubicación": "Plats",
+              "Añadir otra ubicación": "Lägg till en annan plats",
+              "Guardar cambios": "Spara ändringar",
+              "No se pudo obtener las ubicaciones": "Det gick inte att hämta platserna"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "Det gick inte att hämta taggarna",
+              "TAGS": "TAGGAR"
+            },
+          
+            "my-profile": {
+              "Trabajos": "Jobb",
+              "Ubicaciones": "Platser",
+              "Idiomas": "Språk",
+              "Redes sociales": "Sociala nätverk",
+              "Editar": "Redigera",
+              "Tu ubicación": "Din plats",
+              "Sin ubicación actual": "Ingen aktuell plats",
+              "Ubicaciones donde puede trabajar": "Platser där de kan arbeta",
+              "Trabajos de": "Jobb av",
+              "Sin opiniones": "Inga recensioner",
+              "opiniones": " recensioner",
+              "Sin Suscripción": "Ingen prenumeration",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": 
+              "Skaffa en prenumeration för att använda appen fullt ut och få ut det bästa av den",
+              "Error obteniendo el usuario": "Fel vid hämtning av användaren",
+              "No se pudieron obtener los trabajos": "Det gick inte att hämta jobben",
+              "No se pudieron obtener las ubicaciones": "Det gick inte att hämta platserna",
+              "No se pudieron obtener los idiomas": "Det gick inte att hämta språken",
+              "No se pudieron obtener las etiquetas": "Det gick inte att hämta taggarna",
+              "No se pudieron obtener las redes": "Det gick inte att hämta nätverken"
+            },
+            
+                "home": {
+                  "Descubre nuestro top": "Upptäck vår topplista",
+                  "Los mejores profesionales muestran sus anuncios": "De bästa yrkespersonerna visar sina annonser",
+                  "Logan descriptivo de anuncio especial": "Slogan för specialannonsering",
+                  "Contacta con el éxito": "Kontakta framgången",
+                  "Descubre los usuarios que harán realidad tu proyecto": "Upptäck användare som kan förverkliga ditt projekt"
+                },
+              
+                "notifications": {
+                  "Notificaciones": "Aviseringar",
+                  "Pulsa aquí para conocer más": "Tryck här för att läsa mer",
+                  "No se pudo obtener las notificaciones": "Det gick inte att hämta aviseringarna",
+                  "No se pudo obtener los datos del usuario": "Det gick inte att hämta användardata",
+                  "No se pudo obtener las carpetas del proyecto": "Det gick inte att hämta projektmapparna"
+                },
+              
+                "notifications-settings": {
+                  "CONFIGURACIÓN DE NOTIFICACIONES": "AVISERINGSINSTÄLLNINGAR",
+                  "Valoraciones recibidas": "Mottagna betyg",
+                  "Solicitudes de chat": "Chattförfrågningar",
+                  "Solicitud de chat aceptada": "Chattförfrågan accepterad",
+                  "Solicitudes de proyecto": "Projektförfrågningar",
+                  "Nuevas carpetas en el proyecto": "Nya mappar i projektet",
+                  "Chats de proyecto": "Projektchattar",
+                  "Fecha previa al fin del proyecto": "Datum före projektets slut",
+                  "Fecha de fin del proyecto": "Projektets slutdatum",
+                  "No se pudo obtener los datos del usuario": "Det gick inte att hämta användardata",
+                  "No se pudo actualizar los permisos del usuario": "Det gick inte att uppdatera användarbehörigheter"
+                },
+              
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "Ange vad du vill rapportera",
+                  "Reportar mensajes": "Rapportera meddelanden",
+                  "Desnudos o actividad sexual": "Nakenhet eller sexuellt innehåll",
+                  "Lenguaje o símbolos que incitan al odio": "Hatiskt språk eller symboler",
+                  "Estafa o fraude": "Bedrägeri eller bluff",
+                  "Violencia u organizaciones peligrosas": "Våld eller farliga organisationer",
+                  "Venta de bienes ilegales o regulados": "Försäljning av olagliga eller reglerade varor",
+                  "Bullying o acoso": "Mobbning eller trakasserier",
+                  "Infracción de la propiedad intelectual": "Intrång i immateriella rättigheter",
+                  "Suicidio o autolesiones": "Självmord eller självskada",
+                  "Spam": "Spam",
+                  "El problema no aparece en la lista": "Problemet finns inte på listan",
+                  "Usuario o contraseña incorrectos": "Fel användarnamn eller lösenord",
+                  "El usuario ya se encuentra registrado": "Användaren är redan registrerad",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": 
+                  "Detta konto är tillfälligt blockerat, kontakta administratörerna för mer information",
+                  "Error del servidor, inténtelo más tarde": "Serverfel, försök igen senare",
+                  "Error desconocido, inténtelo más tarde": "Okänt fel, försök igen senare",
+                  "Enviar reporte": "Skicka rapport",
+                  "No se pudo reportar al usuario": "Det gick inte att rapportera användaren",
+                  "Usuario reportado": "Användare rapporterad",
+                  "Debe seleccionar un motivo de reporte": "Du måste välja en orsak till rapporteringen"
+                },
+              
+                
+                
+                    "workspace": {
+                      "Colaboraciones": "Samarbeten",
+                      "Mis proyectos": "Mina projekt",
+                      "Estado del proyecto": "Projektstatus",
+                      "Seleccione": "Välj",
+                      "Todos": "Alla",
+                      "Activos": "Aktiva",
+                      "Finalizados": "Avslutade",
+                      "participantes": "deltagare",
+                      "No se pudo obtener las colaboraciones de proyecto": "Det gick inte att hämta projektsamarbeten",
+                      "No se pudo obtener el listado de proyectos": "Det gick inte att hämta projektlistan"
+                    },
+                  
+                    "modal-filt-text": {
+                      "Filtro de nombre": "Namnfilter",
+                      "Introduzca el nombre del proyecto": "Ange projektnamn",
+                      "Nombre de proyecto": "Projektnamn",
+                      "Continuar": "Fortsätt"
+                    },
+                  
+                    "new-project": {
+                      "CREAR NUEVO PROYECTO": "SKAPA NYTT PROJEKT",
+                      "Añadir imagen": "Lägg till bild",
+                      "Nombre": "Namn",
+                      "Nombre Proyecto": "Projektnamn",
+                      "Descripción del proyecto": "Projektbeskrivning",
+                      "Escribe aquí...": "Skriv här...",
+                      "Key Code": "Nyckelkod",
+                      "Introduzca clave": "Ange kod",
+                      "Fecha de finalización": "Slutdatum",
+                      "Podrá ser editada desde el apartado de Configuración": "Kan redigeras i Inställningar",
+                      "Crear Proyecto": "Skapa projekt",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "Slutdatumet måste vara efter dagens datum",
+                      "Ya tienes un proyecto con ese nombre": "Du har redan ett projekt med det namnet",
+                      "Proyecto creado con éxito": "Projektet har skapats framgångsrikt",
+                      "Sin Suscripción válida": "Ingen giltig prenumeration",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "Skaffa plan 360 för att skapa och hantera projekt"
+                    },
+                  
+                    "detail-proyect": {
+                      "Creado por": "Skapat av",
+                      "Carpetas": "Mappar",
+                      "participantes": "deltagare",
+                      "Ver todas": "Visa alla",
+                      "Chats": "Chattar",
+                      "Ver todos": "Visa alla",
+                      "No se obtuvo las carpetas del proyecto": "Det gick inte att hämta projektmapparna",
+                      "Sin Suscripción": "Ingen prenumeration",
+                      "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": 
+                      "Skaffa en prenumeration för att interagera med projekt där du samarbetar"
+                    },
+                  
+                    "new-folder": {
+                      "NUEVA CARPETA": "NY MAPP",
+                      "Añadir imagen de portada": "Lägg till omslagsbild",
+                      "Nombre de la carpeta": "Mappnamn",
+                      "Nombre Carpeta": "Mappnamn",
+                      "Aceptar y continuar": "Acceptera och fortsätt",
+                      "Carpeta creada con éxito": "Mappen har skapats framgångsrikt",
+                      "Se alcanzó el máximo de subidas permitidas": "Maximalt antal uppladdningar uppnått",
+                      "Conetenido multimedia eliminado": "Multimediainnehåll borttaget",
+                      "No se pudo eliminar el contenido": "Det gick inte att ta bort innehållet",
+                      "Nuevo contenido subido correctamente": "Nytt innehåll har laddats upp framgångsrikt",
+                      "Máximo alcanzado": "Maxgräns uppnådd",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": 
+                      "Skaffa plan 360 för obegränsad uppladdning av innehåll"
+                    },
+                  
+                    "edit-project": {
+                      "EDITAR PROYECTO": "REDIGERA PROJEKT",
+                      "Añadir imagen": "Lägg till bild",
+                      "Nombre": "Namn",
+                      "Nombre Proyecto": "Projektnamn",
+                      "Descripción del proyecto": "Projektbeskrivning",
+                      "Escribe aquí...": "Skriv här...",
+                      "Key Code": "Nyckelkod",
+                      "Introduzca clave": "Ange kod",
+                      "Fecha de finalización": "Slutdatum",
+                      "Podrá ser editada desde el apartado de Configuración": "Kan redigeras i Inställningar",
+                      "Actualizar": "Uppdatera",
+                      "Editar usuarios": "Redigera användare",
+                      "No se obtuvieron las carpetas del proyecto": "Det gick inte att hämta projektmapparna",
+                      "La fecha de finalización debe ser posterior a la fecha actual": 
+                      "Slutdatumet måste vara efter dagens datum",
+                      "Proyecto actualizado": "Projekt uppdaterat",
+                      "Proyecto indicado ya no existe": "Projektet finns inte längre",
+                      "Solo el creador del proyecto puede borrarlo": "Endast projektets skapare kan ta bort det",
+                      "Proyecto eliminado": "Projekt borttaget",
+                      "Eliminar proyecto": "Ta bort projekt",
+                      "¿Estás seguro de querer eliminar el proyecto?": "Är du säker på att du vill ta bort projektet?",
+                      "Cancelar": "Avbryt",
+                      "Aceptar": "Acceptera",
+                      "Sin Suscripción válida": "Ingen giltig prenumeration",
+                      "Hazte con el plan 360 para crear y administrar proyectos": 
+                      "Skaffa plan 360 för att skapa och hantera projekt"
+                    },
+                    
+                        "edit-participants": {
+                          "MODIFICAR PARTICIPANTES": "REDIGERA DELTAGARE",
+                          "Participantes del proyecto": "Projektets deltagare",
+                          "Creador": "Skapare",
+                          "Pendiente": "Väntande",
+                          "Aceptar y continuar": "Acceptera och fortsätt",
+                          "Buscar": "Sök",
+                          "No se obtuvieron los paticipantes": "Det gick inte att hämta deltagarna",
+                          "No se pudo obtener más usuarios": "Det gick inte att hämta fler användare",
+                          "El usuario seleccionado ya está añadido al listado de participantes": 
+                            "Den valda användaren är redan tillagd i deltagarlistan",
+                          "Sin Categorías": "Inga kategorier",
+                          "Usuarios asociados al proyecto": "Användare kopplade till projektet",
+                          "El proyecto indicado ya no existe": "Det angivna projektet finns inte längre",
+                          "No se puedieron asignar los participantes": "Det gick inte att tilldela deltagarna",
+                          "Sin Suscripción válida": "Ingen giltig prenumeration",
+                          "Hazte con el plan 360 para crear y administrar proyectos": 
+                            "Skaffa plan 360 för att skapa och hantera projekt"
+                        },
+                      
+                        "add-participants": {
+                          "AGREGAR PARTICIPANTES": "LÄGG TILL DELTAGARE",
+                          "Participantes del proyecto": "Projektets deltagare",
+                          "Administrador": "Administratör",
+                          "Pendiente": "Väntande",
+                          "Buscar": "Sök",
+                          "Aceptar y continuar": "Acceptera och fortsätt",
+                          "Tú": "Du",
+                          "No se pudo obtener más usuarios": "Det gick inte att hämta fler användare",
+                          "El usuario seleccionado ya está añadido al listado de participantes": 
+                            "Den valda användaren är redan tillagd i deltagarlistan",
+                          "Sin Categorías": "Inga kategorier",
+                          "Usuarios asociados al proyecto": "Användare kopplade till projektet",
+                          "El proyecto indicado ya no existe": "Det angivna projektet finns inte längre",
+                          "No se pudieron asignar los participantes": "Det gick inte att tilldela deltagarna"
+                        },
+                      
+                        "grant-permissions": {
+                          "PERMISOS DEL PROYECTO": "PROJEKTTILLSTÅND",
+                          "Administradores actuales": "Nuvarande administratörer",
+                          "Tú": "Du",
+                          "Administrador": "Administratör",
+                          "Pendiente": "Väntande",
+                          "Selecciona al usuario al que desees otorgar el rol de administrador": 
+                            "Välj användaren som du vill ge administratörsrollen",
+                          "Aceptar y continuar": "Acceptera och fortsätt",
+                          "No se obtuvieron los participantes": "Det gick inte att hämta deltagarna",
+                          "Sin Categorías": "Inga kategorier",
+                          "El usuario seleccionado ya está añadido al listado": 
+                            "Den valda användaren är redan tillagd i listan",
+                          "Permisos asociados": "Tilldelade behörigheter",
+                          "El proyecto indicado ya no existe": "Det angivna projektet finns inte längre",
+                          "No se puedieron asignar los permisos": "Det gick inte att tilldela behörigheterna",
+                          "Sin Suscripción válida": "Ingen giltig prenumeration",
+                          "Hazte con el plan 360 para gestionar permisos a los usuarios": 
+                            "Skaffa plan 360 för att hantera användarbehörigheter"
+                        },
+                      
+                        "add-proyect": {
+                          "quiere añadirte al proyecto": "{{name}} vill lägga till dig i projektet",
+                          "¿Deseas unirte al Workspace?": "Vill du gå med i Workspace?",
+                          "Aceptar": "Acceptera",
+                          "Rechazar": "Avvisa",
+                          "Proyecto rechazado con éxito": "Projektet avvisades framgångsrikt",
+                          "El proyecto ya no se encuentra asociado a su cuenta": 
+                            "Projektet är inte längre kopplat till ditt konto",
+                          "No se pudo rechazar el proyecto": "Det gick inte att avvisa projektet",
+                          "Sin proyecto": "Inget projekt",
+                          "Sin Categorías": "Inga kategorier",
+                          "¡Proyecto aceptado!": "Projektet har accepterats!",
+                          "El proyecto ya no existe": "Projektet finns inte längre",
+                          "'El KeyCode introducido no es correcto'": "Den angivna nyckelkoden är inte korrekt",
+                          "No se pudo verificar el usuario en el proyecto": "Det gick inte att verifiera användaren i projektet",
+                          "Sin Suscripción": "Ingen prenumeration",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": 
+                            "Skaffa en prenumeration för att kunna acceptera och avvisa projekt"
+                        },
+                      
+                        "modal-keycode": {
+                          "Key code": "Nyckelkod",
+                          "Añade el código de acceso proporcionado por el administrador": 
+                            "Lägg till åtkomstkoden som administratören tillhandahåller",
+                          "Continuar": "Fortsätt",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": 
+                            "Skaffa en prenumeration för att kunna acceptera och avvisa projekt",
+                          "¡Proyecto aceptado!": "Projektet har accepterats!",
+                          "El proyecto ya no se encuentra asociado a su cuenta": 
+                            "Projektet är inte längre kopplat till ditt konto",
+                          "El proyecto ya no existe": "Projektet finns inte längre",
+                          "El KeyCode introducino no es correcto": "Den angivna nyckelkoden är inte korrekt",
+                          "No se pudo verificar usuario en el proyecto": "Det gick inte att verifiera användaren i projektet",
+                          "Introduzca una clave para continuar": "Ange en kod för att fortsätta"
+                        },
+                      
+                        "folders": {
+                          "CARPETAS": "MAPPAR",
+                          "No se obtuvieron las carpetas del proyecto": "Det gick inte att hämta projektmapparna"
+                        },
+                      
+                        "folder-content": {
+                          "No se obtuvo las carpetas del proyecto": "Det gick inte att hämta projektmapparna",
+                          "Nuevo contenido subido correctamente": "Nytt innehåll har laddats upp framgångsrikt",
+                          "No se pudo obtener las carpetas del proyecto": "Det gick inte att hämta projektmapparna",
+                          "Máximo alcanzado": "Maxgräns uppnådd",
+                          "Hazte con el plan 360 para subir contenido de forma ilimitada": 
+                            "Skaffa plan 360 för obegränsad uppladdning av innehåll"
+                        },
+                      
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "Tillbaka till multimedia"
+                        },
+                        "my-suscription": {
+    "Mi suscripción": "Min prenumeration",
+    "Ver características": "Visa funktioner",
+    "Planes": "Planer",
+    "Pago mensual": "Månadsbetalning",
+    "Pago anual (Descuento del 15%)": "Årsbetalning (15% rabatt)",
+    "al mes": "per månad",
+    "al año": "per år",
+    "Free": "Gratis",
+    "Buscador avanzado": "Avancerad sökning",
+    "Complete Workspace": "Fullständigt arbetsutrymme",
+    "Tu plan actual": "Din nuvarande plan",
+    "¡Suscripción cambiada!": "Prenumeration ändrad!",
+    "Suscripción cambiada correctamente": "Prenumeration ändrad framgångsrikt",
+    "Continuar a la app": "Fortsätt till appen",
+    "Comprar un proyecto": "Köp ett projekt",
+    "No se obtuvieron suscripciones": "Det gick inte att hämta prenumerationer",
+    "Obtener plan ": "Skaffa plan ",
+    "Cambiar a plan ": "Byt till plan ",
+    "Cargando...": "Laddar...",
+    "Hubo un problema para cambiar": "Det uppstod ett problem vid ändring"
+  },
+
+  "project-checkout": {
+    "CHECKOUT": "KASSA",
+    "Compra de": "Köp av",
+    "1 proyecto": "1 projekt",
+    "Crédito o débito": "Kredit- eller betalkort",
+    "Paypal": "Paypal",
+    "Apple Pay": "Apple Pay",
+    "He leído y acepto ": "Jag har läst och godkänner ",
+    "los Términos y Condiciones de Venta": "försäljningsvillkoren",
+    "¡Pago realizado!": "Betalning genomförd!",
+    "La compra de un proyecto se ha realizado correctamente": "Projektköpet har slutförts framgångsrikt",
+    "Continuar a la app": "Fortsätt till appen",
+    "Total": "Totalt",
+    "Continuar": "Fortsätt",
+    "Cargando...": "Laddar...",
+    "Pago cancelado por el usuario.": "Betalningen avbröts av användaren.",
+    "Ocurrió un error durante la transacción de pago": "Ett fel uppstod under betalningstransaktionen",
+    "No se pudo realizar el pago.": "Betalningen kunde inte genomföras.",
+    "Pago cancelado.": "Betalning avbruten.",
+    "Pago completado.": "Betalning slutförd."
+  },
+
+  "suscription-checkout": {
+    "CHECKOUT": "KASSA",
+    "Pago del ": "Betalning för ",
+    "Crédito o débito": "Kredit- eller betalkort",
+    "Paypal": "Paypal",
+    "Apple Pay": "Apple Pay",
+    "He leído y acepto ": "Jag har läst och godkänner ",
+    "los Términos y Condiciones de Venta": "försäljningsvillkoren",
+    "¡Pago realizado!": "Betalning genomförd!",
+    "El pago de la suscripción se ha realizado correctamente": "Prenumerationsbetalningen har slutförts framgångsrikt",
+    "Continuar a la app": "Fortsätt till appen",
+    "Total": "Totalt",
+    "Continuar": "Fortsätt",
+    "Cargando...": "Laddar...",
+    "Método de pago agregado correctamente.": "Betalningsmetod tillagd framgångsrikt.",
+    "Ingreso de método de pago cancelado.": "Läggning av betalningsmetod avbruten.",
+    "Pago completado correctamente.": "Betalning genomförd framgångsrikt.",
+    "Pago cancelado por el usuario.": "Betalningen avbröts av användaren.",
+    "Error durante el proceso de pago.": "Fel uppstod under betalningsprocessen.",
+    "Ocurrió un error durante el proceso de suscripción.": "Ett fel uppstod under prenumerationsprocessen.",
+    "Error al procesar la suscripción.": "Fel vid hantering av prenumerationen.",
+    "Error al configurar el pago con Apple Pay.": "Fel vid konfiguration av betalning med Apple Pay.",
+    "No se pudo realizar el pago con Apple Pay.": "Det gick inte att genomföra betalningen med Apple Pay.",
+    "Ocurrió un error durante el proceso de pago con Apple Pay.": "Ett fel uppstod under betalningsprocessen med Apple Pay."
+  },
+
+  "conectar": {
+    "Conecta con": "Anslut med",
+    "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": 
+      "Du har begärt att ansluta med denna användare. Skriv ett meddelande som förklarar varför du vill arbeta tillsammans i ett projekt.",
+    "Escribe aquí...": "Skriv här...",
+    "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": 
+      "Den användare du har kontaktat har upp till 24 timmar på sig att svara på din förfrågan. Efter 24 timmar kommer förfrågan att avvisas automatiskt. Genom att skicka denna förfrågan godkänner du att vi delar din offentliga information enligt vår",
+    "política de privacidad": "integritetspolicy",
+    "Conectar": "Anslut",
+    "Ya hay una solicitud para ese usuario": "Det finns redan en förfrågan för denna användare",
+    "Solicitud creada con éxito": "Förfrågan skapad framgångsrikt",
+    "Resultado desconocido": "Okänt resultat",
+    "Hubo un problema al enviar la solicitud": "Ett problem uppstod vid sändning av förfrågan",
+    "El mensaje no puede estar vacio": "Meddelandet kan inte vara tomt"
+  },
+  "user-search": {
+    "Buscar": "Sök",
+    "Ordenar": "Sortera",
+    "No hay resultados": "Inga resultat",
+    "conectar": "anslut",
+    "Sin oficio": "Inget yrke",
+    "Sin opiniones": "Inga omdömen",
+    "opiniones": "omdömen",
+    "Sin ubicación actual": "Ingen aktuell plats",
+    "FOTOGRAFÍA": "FOTOGRAFI",
+    "CINE / VIDEO": "FILM / VIDEO",
+    "MÚSICA": "MUSIK",
+    "TEATRO": "TEATER",
+    "EVENTOS": "EVENEMANG",
+    "TV": "TV",
+    "OTROS": "ÖVRIGT",
+    "FILTROS": "FILTER",
+    "Restablecer": "Återställ",
+    "Tu ubicación": "Din plats",
+    "Buscar dirección": "Sök adress",
+    "Categorías": "Kategorier",
+    "EVENTOS Y FIESTAS": "EVENEMANG OCH FESTER",
+    "SIN CATEGORÍA": "INGEN KATEGORI",
+    "Etiquetas": "Taggar",
+    "Escribe palabras clave para filtrar resultados": "Skriv nyckelord för att filtrera resultat",
+    "Escribe aquí...": "Skriv här...",
+    "Rango de precio": "Prisklass",
+    "Selecciona un rango de precio para filtrar resultados": "Välj en prisklass för att filtrera resultat",
+    "Rango": "Intervall",
+    "Mínimo": "Minsta",
+    "día": "dag",
+    "Máximo": "Högsta",
+    "Mejor valorados": "Bäst betygsatta",
+    "Más valorados": "Mest betygsatta",
+    "Precio ascendente": "Stigande pris",
+    "Precio descendente": "Fallande pris",
+    "No se pudo obtener listado de usuarios": "Det gick inte att hämta listan över användare",
+    "No se pudo obtener el contador de categorías": "Det gick inte att hämta kategoriräknaren",
+    "Sin tags": "Inga taggar",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Det finns redan en skickad begäran som väntar på godkännande",
+    "Resultado desconocido": "Okänt resultat",
+    "No se pudo comprobar la existencia de la solicitud": "Det gick inte att verifiera om begäran existerar",
+    "Ya hay un Tag con ese valor": "Det finns redan en tagg med det värdet",
+    "El campo está vacío, no se puede crear un Tag": "Fältet är tomt, en tagg kan inte skapas",
+    "Sin Suscripción válida": "Ingen giltig prenumeration",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Skaffa Startplanen eller Plan 360 för att få tillgång och kontakta användare"
+  },
+
+  
+
+  "Usuario o contraseña incorrectos": "Felaktigt användarnamn eller lösenord",
+  "El usuario ya se encuentra registrado": "Användaren är redan registrerad",
+  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Detta konto är tillfälligt blockerat, kontakta administratörerna för mer information.",
+  "Error del servidor, inténtelo más tarde": "Serverfel, försök igen senare",
+  "Error desconocido, inténtelo más tarde": "Okänt fel, försök igen senare",
+
+  "codeErrors": {
+    "Usuario o contraseña incorrectos": "Felaktigt användarnamn eller lösenord",
+    "El usuario ya se encuentra registrado": "Användaren är redan registrerad",
+    "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Detta konto är tillfälligt blockerat, kontakta administratörerna för mer information.",
+    "Error del servidor, inténtelo más tarde": "Serverfel, försök igen senare",
+    "Error desconocido, inténtelo más tarde": "Okänt fel, försök igen senare"
+  },
+
+
+  "buscador": {
+    "BUSCADOR": "SÖKMOTOR",
+    "Buscar": "Sök",
+    "Conectar": "Anslut",
+    "No hay resultados": "Inga resultat",
+    "Descubre nuestro top": "Upptäck vår topplista",
+    "Los mejores profesionales muestran sus anuncios": "De bästa yrkesverksamma visar sina annonser",
+    "Contacta con el éxito": "Kontakta framgången",
+    "Descubre los usuarios que harán realidad tu proyecto": "Upptäck användare som kan förverkliga ditt projekt",
+    "Ordenar": "Sortera",
+    "conectar": "anslut",
+    "Sin oficio": "Inget yrke",
+    "Sin opiniones": "Inga omdömen",
+    "opiniones": "omdömen",
+    "Sin ubicación actual": "Ingen aktuell plats",
+    "FOTOGRAFÍA": "FOTOGRAFI",
+    "CINE / VIDEO": "FILM / VIDEO",
+    "FILM / VÍDEO": "FILM / VIDEO",
+    "MÚSICA": "MUSIK",
+    "TEATRO": "TEATER",
+    "EVENTOS": "EVENEMANG",
+    "TV": "TV",
+    "OTROS": "ÖVRIGT",
+    "FILTROS": "FILTER",
+    "Restablecer": "Återställ",
+    "Tu ubicación": "Din plats",
+    "Buscar dirección": "Sök adress",
+    "Categorías": "Kategorier",
+    "EVENTOS Y FIESTAS": "EVENEMANG OCH FESTER",
+    "SIN CATEGORÍA": "INGEN KATEGORI",
+    "Etiquetas": "Taggar",
+    "Escribe palabras clave para filtrar resultados": "Skriv nyckelord för att filtrera resultat",
+    "Escribe aquí...": "Skriv här...",
+    "Rango de precio": "Prisklass",
+    "Selecciona un rango de precio para filtrar resultados": "Välj en prisklass för att filtrera resultat",
+    "Rango": "Intervall",
+    "Mínimo": "Minsta",
+    "día": "dag",
+    "Máximo": "Högsta",
+    "Mejor valorados": "Bäst betygsatta",
+    "Más valorados": "Mest betygsatta",
+    "Precio ascendente": "Stigande pris",
+    "Precio descendente": "Fallande pris",
+    "No se pudo obtener listado de usuarios": "Det gick inte att hämta listan över användare",
+    "No se pudo obtener el contador de categorías": "Det gick inte att hämta kategoriräknaren",
+    "Sin tags": "Inga taggar",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Det finns redan en skickad begäran som väntar på godkännande",
+    "Resultado desconocido": "Okänt resultat",
+    "No se pudo comprobar la existencia de la solicitud": "Det gick inte att verifiera om begäran existerar",
+    "Ya hay un Tag con ese valor": "Det finns redan en tagg med det värdet",
+    "El campo está vacío, no se puede crear un Tag": "Fältet är tomt, en tagg kan inte skapas",
+    "Sin Suscripción válida": "Ingen giltig prenumeration",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Skaffa Startplanen eller Plan 360 för att få tillgång och kontakta användare",
+    "Texto descriptivo del anuncio especial": "Beskrivande text om specialannonsen"
+  },
+  
+    "buscador2": {
+      "BUSCADOR": "SÖKARE",
+      "Buscar": "Sök",
+      "Conectar": "Anslut",
+      "No hay resultados": "Inga resultat",
+      "Descubre nuestro top": "Upptäck vår topp",
+      "Los mejores profesionales muestran sus anuncios": "De bästa yrkesverksamma visar sina annonser",
+      "Contacta con el éxito": "Kontakta framgång",
+      "Descubre los usuarios que haran realidad tu proyecto": "Upptäck användare som förverkligar ditt projekt",
+      "Ordenar": "Sortera",
+      "conectar": "anslut",
+      "Sin oficio": "Utan yrke",
+      "Sin opiniones": "Inga recensioner",
+      "opiniones": "recensioner",
+      "Sin ubicación actual": "Ingen aktuell plats",
+      "FOTOGRAFÍA": "FOTOGRAFI",
+      "CINE / VIDEO": "FILM / VIDEO",
+      "FILM / VÍDEO": "FILM / VIDEO",
+      "MÚSICA": "MUSIK",
+      "TEATRO": "TEATER",
+      "EVENTOS": "EVENEMANG",
+      "TV": "TV",
+      "OTROS": "ÖVRIGA",
+      "FILTROS": "FILTER",
+      "Restablecer": "Återställ",
+      "Tu ubicación": "Din plats",
+      "Buscar dirección": "Sök adress",
+      "Categorías": "Kategorier",
+      "EVENTOS Y FIESTAS": "EVENEMANG OCH FESTER",
+      "SIN CATEGORÍA": "INGEN KATEGORI",
+      "Etiquetas": "Taggar",
+      "Escribe palabras clave para filtrar resultados": "Skriv nyckelord för att filtrera resultat",
+      "Escribe aquí...": "Skriv här...",
+      "Rango de precio": "Prisklass",
+      "Selecciona un rango de precio para filtrar resultados": "Välj en prisklass för att filtrera resultat",
+      "Rango": "Intervall",
+      "Mínimo": "Minimum",
+      "día": "dag",
+      "Máximo": "Maximum",
+      "Mejor valorados": "Högst betyg",
+      "Más valorados": "Mest betygsatta",
+      "Precio ascendente": "Pris stigande",
+      "Precio descendente": "Pris fallande",
+      "No se pudo obtener listado de usuarios": "Kunde inte hämta användarlistan",
+      "No se pudo obtener el contador de categorías": "Kunde inte hämta kategoriantalet",
+      "Sin tags": "Inga taggar",
+      "Ya hay una solicitud enviada pendiente de aceptar": "Det finns redan en skickad begäran som väntar på godkännande",
+      "Resultado desconocido": "Okänt resultat",
+      "No se pudo comprobar la existencia de la solicitud": "Kunde inte verifiera att begäran finns",
+      "Ya hay un Tag con ese valor": "Det finns redan en tagg med det värdet",
+      "El campo está vacío, no se puede crear un Tag": "Fältet är tomt, det går inte att skapa en tagg",
+      "Sin Suscripción válida": "Ingen giltig prenumeration",
+      "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Skaffa Grundplanen eller Plan 360 för att få tillgång och kontakta användare",
+      "Texto descriptivo del anuncio especial": "Beskrivande text för specialannons"
+    },
+  
+    "chats": {
+      "Cargando chats...": "Laddar chattar...",
+      "Buscar": "Sök",
+      "Chats": "Chattar",
+      "Solicitudes": "Förfrågningar",
+      "Aceptar": "Acceptera",
+      "Rechazar": "Avvisa",
+      ": ha enviado un PDF": ": har skickat en PDF",
+      "Tú: has enviado un PDF": "Du: har skickat en PDF",
+      ": ha enviado un AUDIO": ": har skickat ett LJUD",
+      "Tú: has enviado un AUDIO": "Du: har skickat ett LJUD",
+      ": ha enviado una imagen": ": har skickat en bild",
+      "Tú: has enviado una imagen": "Du: har skickat en bild",
+      "Sin mensajes aún": "Inga meddelanden ännu",
+      "No se pueden obtener los chats": "Chattar kan inte hämtas",
+      "Borrar chat": "Radera chatt",
+      "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Vill du radera chatten ' + chat.nombre + ' ?",
+      "Cancelar": "Avbryt",
+      "Borrando chat": "Raderar chatt",
+      "No se ha podido borrar el chat": "Det gick inte att radera chatten",
+      "No se pudieron obtener las solicitudes": "Kunde inte hämta förfrågningarna",
+      "Solicitud eliminada exitósamente": "Förfrågan har tagits bort framgångsrikt",
+      "Resultado desconocido": "Okänt resultat",
+      "No se pudo eliminar la solicitud": "Det gick inte att ta bort förfrågan",
+      "Solicitud aceptada exitósamente": "Förfrågan har godkänts framgångsrikt",
+      "La solicitud ya no es valida": "Förfrågan är inte längre giltig",
+      "No se pudo aceptar la solicitud": "Det gick inte att acceptera förfrågan",
+      "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: har skickat en PDF",
+      "ha enviado un AUDIO": "{{name}}: har skickat ett LJUD",
+      "ha enviado una imagen": "{{name}}: har skickat en bild",
+      "Tú: {{mensaje}}": "Du: {{mensaje}}",
+      "No se pueden obtener los mensajes": "Meddelanden kan inte hämtas",
+      "No se ha podido enviar el mensaje": "Det gick inte att skicka meddelandet",
+      "Cargando mensajes...": "Laddar meddelanden...",
+      "Grabación finalizada": "Inspelning avslutad",
+      "Pulse aquí para enviar": "Tryck här för att skicka",
+      "No se puede obtener el archivo": "Filen kan inte hämtas"
+    },
+
+    
+        "FOTOGRAFÍA": "FOTOGRAFI",
+        "FILM / VÍDEO": "FILM / VIDEO",
+        "CINE / VIDEO": "BIOGRAF / VIDEO",
+        "TV": "TV",
+        "MÚSICA": "MUSIK",
+        "EVENTOS Y FIESTAS": "EVENEMANG OCH FESTER",
+        "TEATRO": "TEATER",
+        "OTROS": "ÖVRIGA",
+        "SIN CATEGORÍA": "INGEN KATEGORI",
+      
+      
+  
+    "add-participants-to-group": {
+      "AGREGAR MIEMBROS AL GRUPO DE CHAT": "LÄGG TILL MEDLEMMAR I CHATGRUPPEN",
+      "Nombre del grupo": "Gruppnamn",
+      "Escribe aquí...": "Skriv här...",
+      "Miembros del grupo": "Gruppmedlemmar",
+      "Tú": "Du",
+      "Crear grupo": "Skapa grupp",
+      "No se obtuvieron los participantes": "Det gick inte att hämta deltagarna",
+      "El usuario seleccionado ya está añadido al listado de participantes": "Den valda användaren är redan tillagd i deltagarlistan",
+      "Sin Categorías": "Inga kategorier",
+      "Introduzca un nombre para el grupo de chat": "Ange ett namn för chatgruppen",
+      "¡Grupo de chat creado!": "Chatgruppen har skapats!",
+      "No se pudo crear el grupo": "Det gick inte att skapa gruppen",
+      "Debe añadir al menos un miembro al grupo de chat": "Du måste lägga till minst en medlem i chatgruppen",
+      "Sin Suscripción válida": "Ingen giltig prenumeration",
+      "Hazte con el plan 360 para crear y administrar proyectos": "Skaffa Plan 360 för att skapa och hantera projekt"
+    },
+    
+        "app-chat-header": {
+          "Conectado": "Ansluten",
+          "¿Desea bloquear a este usuario?": "Vill du blockera den här användaren?",
+          "Cancelar": "Avbryt",
+          "Bloquear": "Blockera",
+          "Usuario bloqueado": "Användare blockerad",
+          "El usuario ya se encuentra bloqueado": "Användaren är redan blockerad",
+          "Respuesta desconocida": "Okänt svar"
+        },
+      
+        "app-chat-footer": {
+          "Escribe aquí...": "Skriv här...",
+          "Grabación finalizada": "Inspelning avslutad",
+          "Pulse aquí para enviar": "Tryck här för att skicka",
+          "Se está realizando una grabación de audio": "En ljudinspelning pågår",
+          "Hay un archivo de audio pendiente para enviar": "Det finns en ljudfil som väntar på att skickas",
+          "Solo se permiten archivos .pdf": "Endast .pdf-filer tillåts",
+          "Ya hay una grabación en proceso": "Det finns redan en inspelning i gång"
+        },
+      
+        "app-pgchat-footer": {
+          "Grabación finalizada": "Inspelning avslutad",
+          "Pulse aquí para enviar": "Tryck här för att skicka",
+          "Se está realizando una grabación de audio": "En ljudinspelning pågår",
+          "Hay un archivo de audio pendiente para enviar": "Det finns en ljudfil som väntar på att skickas",
+          "Solo se permiten archivos .pdf": "Endast .pdf-filer tillåts",
+          "Ya hay una grabación en proceso": "Det finns redan en inspelning i gång"
+        },
+      
+        "app-pnchat-footer": {
+          "Grabación finalizada": "Inspelning avslutad",
+          "Pulse aquí para enviar": "Tryck här för att skicka",
+          "Se está realizando una grabación de audio": "En ljudinspelning pågår",
+          "Hay un archivo de audio pendiente para enviar": "Det finns en ljudfil som väntar på att skickas",
+          "Solo se permiten archivos .pdf": "Endast .pdf-filer tillåts",
+          "Ya hay una grabación en proceso": "Det finns redan en inspelning i gång"
+        },
+      
+        "app-chat-group": {
+          "mensajes nuevos": "nya meddelanden"
+        },
+      
+        "app-pnchat-header": {
+          "Conectado": "Ansluten"
+        },
+      
+        "pnchats": {
+          "CHATS": "CHATTAR",
+          "TODOS": "ALLA",
+          "Grupos": "Grupper",
+          "Solicitudes": "Förfrågningar",
+          "Aceptar": "Acceptera",
+          "Rechazar": "Avvisa",
+          ": ha enviado un PDF": ": har skickat en PDF",
+          "Tú: has enviado un PDF": "Du: har skickat en PDF",
+          ": ha enviado un AUDIO": ": har skickat ett LJUD",
+          "Tú: has enviado un AUDIO": "Du: har skickat ett LJUD",
+          ": ha enviado una imagen": ": har skickat en bild",
+          "Tú: has enviado una imagen": "Du: har skickat en bild",
+          "Sin mensajes aún": "Inga meddelanden än",
+          "No se pueden obtener los chats": "Det går inte att hämta chattar",
+          "Borrar chat": "Ta bort chatt",
+          "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Vill du ta bort chatten ' + chat.nombre + '?",
+          "Cancelar": "Avbryt",
+          "Borrando chat": "Tar bort chatt",
+          "No se ha podido borrar el chat": "Det gick inte att ta bort chatten",
+          "No se pudieron obtener las solicitudes": "Det gick inte att hämta förfrågningar",
+          "Solicitud eliminada exitósamente": "Förfrågan har tagits bort",
+          "Resultado desconocido": "Okänt resultat",
+          "No se pudo eliminar la solicitud": "Det gick inte att ta bort förfrågan",
+          "Solicitud aceptada exitósamente": "Förfrågan accepterad",
+          "La solicitud ya no es valida": "Förfrågan är inte längre giltig",
+          "No se pudo aceptar la solicitud": "Det gick inte att acceptera förfrågan",
+          "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: har skickat en PDF",
+          "ha enviado un AUDIO": "{{name}}: har skickat ett LJUD",
+          "ha enviado una imagen": "{{name}}: har skickat en bild",
+          "Tú: {{mensaje}}": "Du: {{mensaje}}",
+          "No se pueden obtener los mensajes": "Det går inte att hämta meddelanden",
+          "No se ha podido enviar el mensaje": "Det gick inte att skicka meddelandet",
+          "Cargando mensajes...": "Laddar meddelanden...",
+          "Grabación finalizada": "Inspelning avslutad",
+          "Pulse aquí para enviar": "Tryck här för att skicka",
+          "No se puede obtener el archivo": "Det går inte att hämta filen"
+        },
+      
+        "interior-chat": {
+          "Cargando mensajes...": "Laddar meddelanden...",
+          "No se pueden obtener los mensajes": "Det går inte att hämta meddelanden",
+          "No se ha podido enviar el mensaje": "Det gick inte att skicka meddelandet"
+        },
+      
+        "interior-pgchat": {
+          "No se ha podido enviar el mensaje": "Det gick inte att skicka meddelandet",
+          "No se pueden obtener los mensajes": "Det går inte att hämta meddelanden",
+          "Cargando mensajes...": "Laddar meddelanden..."
+        },
+      
+        "interior-pnchat": {
+          "No se ha podido enviar el mensaje": "Det gick inte att skicka meddelandet",
+          "No se pueden obtener los mensajes": "Det går inte att hämta meddelanden",
+          "Cargando mensajes...": "Laddar meddelanden..."
+        },
+      
+        "select-useroptions-modal": {
+          "Bloquear usuario": "Blockera användare",
+          "Reportar usuario": "Rapportera användare"
+        },
+
+
+
+        
+          "add-remove-users-modal": {
+            "Listado actualizado": "Lista uppdaterad",
+            "No se pudo actualizar el listado": "Kunde inte uppdatera listan",
+            "Añadir al grupo": "Lägg till i grupp",
+            "Quitar del grupo": "Ta bort från grupp",
+            "SACAR USUARIOS DEL GRUPO": "TA BORT ANVÄNDARE FRÅN GRUPPEN",
+            "METER USUARIOS EN GRUPO": "LÄGG TILL ANVÄNDARE I GRUPPEN",
+            "Usuarios para sacar": "Användare att ta bort",
+            "Usuarios para meter": "Användare att lägga till"
+          },
+        
+          "detail-project": {
+            "DETALLES DEL PROYECTO": "PROJEKTDETALJER",
+            "Creador/a del proyecto": "Projektets skapare",
+            "Fecha de finalización": "Slutdatum",
+            "Participantes": "Deltagare",
+            "No se obtuvo las carpetas del proyecto": "Kunde inte hämta projektmapparna"
+          },
+        
+          "social-networks": {
+            "Nombre": "Namn",
+            "Añade un link": "Lägg till en länk",
+            "Guardar cambios": "Spara ändringar",
+            "REDES SOCIALES": "SOCIALA NÄTVERK"
+          },
+        
+          "Ver planes": "Visa planer",
+          "other-user": {
+            "Sin opiniones": "Inga recensioner",
+            "opiniones": "recensioner",
+            "Quitar Favorito": "Ta bort från favoriter",
+            "Chatear": "Chatta",
+            "Conectar": "Anslut",
+            "Trabajos": "Jobb",
+            "Ubicaciones": "Platser",
+            "Idiomas": "Språk",
+            "Redes sociales": "Sociala nätverk",
+            "Ubicación de este usuario": "Denna användares plats",
+            "Sin ubicación actual": "Ingen aktuell plats",
+            "Ubicaciones donde puede trabajar": "Platser där användaren kan arbeta",
+            "Trabajos de": "Jobb av",
+            "Guardar": "Spara",
+            "Añadir a Favoritos": "Lägg till i favoriter",
+            "Usuario Favorito": "Favoritanvändare",
+            "En Favorito": "I favoriter",
+            "En favoritos": "I favoriter",
+            "No se pudo obtener los datos del usuario": "Kunde inte hämta användardata",
+            "Ya hay una solicitud enviada pendiente de aceptar": "Det finns redan en skickad förfrågan som väntar på godkännande",
+            "Resultado desconocido": "Okänt resultat",
+            "No se pudo comprobar la existencia de la solicitud": "Kunde inte verifiera förfrågans existens",
+            "No se pudieron obtener los trabajos": "Kunde inte hämta jobben",
+            "No se pudieron obtener las ubicaciones": "Kunde inte hämta platserna",
+            "No se pudieron obtener los idiomas": "Kunde inte hämta språken",
+            "No se pudieron obtener las redes": "Kunde inte hämta nätverken",
+            "¿Desea bloquear a este usuario?": "Vill du blockera denna användare?",
+            "cancelar": "avbryt",
+            "bloquear": "blockera",
+            "Usuario bloqueado": "Användare blockerad",
+            "El usuario ya se encuentra bloqueado": "Användaren är redan blockerad",
+            "Respuesta desconocida": "Okänt svar"
+          },
+        
+          "add-rating": {
+            "AÑADE UNA VALORACIÓN": "LÄGG TILL EN RECENSION",
+            "¿Cómo valorarías a ": "Hur skulle du betygsätta ",
+            "Tu valoración ayuda a otros usuarios": "Ditt betyg hjälper andra användare",
+            "¿Quieres añadir aglún comentario?": "Vill du lägga till en kommentar?",
+            "Escribe aquí...": "Skriv här...",
+            "No se pudo obtener los datos del usuario": "Kunde inte hämta användardata",
+            "Introduzca un comentario en la valoración": "Ange en kommentar i recensionen",
+            "¡Valoracion enviada!": "Recension skickad!",
+            "Publica": "Publicera",
+            "Gracias por poner tu comentario a ": "Tack för att du lämnade din kommentar till "
+          },
+        
+          "user-ratings": {
+            "VALORACIONES A ": "BETYG PÅ ",
+            "Más recientes": "Senaste",
+            "Menos recientes": "Äldsta",
+            "Puntuación": "Poäng",
+            "Perfil verificado": "Verifierad profil",
+            "Reportar comentario": "Rapportera kommentar",
+            "Añadir valoración": "Lägg till betyg",
+            "Sin oficio": "Ingen yrkestitel",
+            "Sin Suscripción": "Ingen prenumeration",
+            "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+            "Skaffa en prenumeration för att se dina betyg och andras",
+            "Más altas": "Högsta",
+            "Más bajas": "Lägsta"
+          },
+        
+          "select-chatoptions-modal": {
+            "Añadir usuarios": "Lägg till användare",
+            "Quitar usuarios": "Ta bort användare",
+            "Pronombres": "Pronomen"
+          },
+        
+          "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "Vi kommer snart att aktivera den här sektionen så att du kan njuta av innehållet",
+          
+            "Fotografía": "Fotografi",
+            "Film/vídeo": "Film/video",
+            "Cine/vídeo": "Bio/video",
+            "Música": "Musik",
+            "Eventos": "Evenemang",
+            "Teatro": "Teater",
+            "Otros": "Annat",
+            "Sin categoría": "Ingen kategori",
+          
+            "El idioma ya se encuentra en el listado": "Språket finns redan i listan",
+            "Relación": "Relation",
+            "precio": "pris",
+            "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "För att få tillgång till all användarinformation och kontakta dem, prenumerera på Plan S eller Plan 360.",
+          
+            "my-ads": {
+              "Mis anuncios": "Mina annonser",
+              "Tipo de anuncio": "Annonskategori",
+              "Duración": "Varaktighet",
+              "mes": "månad",
+              "meses": "månader",
+              "día": "dag",
+              "dias": "dagar",
+              "Anuncio borrado con éxito": "Annonsen har raderats",
+              "Vídeo": "Video",
+              "Imagen": "Bild",
+              "Ver anuncio": "Visa annons",
+              "Ver perfil del creador": "Visa skapares profil",
+              " y ": " och "
+            },
+          
+            "upload-advertisement": {
+              "SUBIR ANUNCIO": "LADDA UPP ANNONS",
+              "Quiero publicitar mi perfil": "Jag vill marknadsföra min profil",
+              "Público objetivo": "Målgrupp",
+              "Rango de edad": "Åldersintervall",
+              "Rango seleccionado": "Valt intervall",
+              "años": "år",
+              "Género": "Kön",
+              "Hombre": "Man",
+              "Mujer": "Kvinna",
+              "Otro": "Annat",
+              "Localización": "Plats",
+              "Buscar dirección": "Sök adress",
+              "Rango por kilómetros": "Radie i kilometer",
+              "Rango seleccionado: hasta": "Valt intervall: upp till",
+              "Kilómetros": "Kilometer",
+              "Intereses": "Intressen",
+              "Pago del anuncio": "Annonsbetalning",
+              "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "Välj det pris du vill betala per visning eller klick. Beroende på det angivna priset visar vi hur länge din annons kommer att visas.",
+              "Precio por clics": "Pris per klick",
+              "Impresiones": "Visningar",
+              "Cantidad seleccionada:": "Vald mängd:",
+              "impresiones": "visningar",
+              "Duración": "Varaktighet",
+              "días": "dagar",
+              "Confirmar y proceder al pago": "Bekräfta och fortsätt till betalning",
+              "Seleccionar imagen": "Välj bild",
+              "Selecciona video": "Välj video"
+            },
+          
+            "El proyecto ha finalizado, no puede realizar modificaciones": "Projektet har avslutats, inga ändringar kan göras",
+            "USUARIOS FAVORITOS": "FAVORITANVÄNDARE",
+            "CHAT": "CHATT",
+            "No tiene permiso para acceder al contenido de esta carpeta": "Du har inte behörighet att komma åt innehållet i denna mapp",
+            "Chat creado con éxito": "Chatt skapad framgångsrikt",
+            "Crear chat": "Skapa chatt",
+            "Nuevo Chat": "Ny chatt",
+          
+            "Permisos de carpeta": "Mappbehörigheter",
+            "Sin permisos": "Inga behörigheter",
+            "Solo lectura": "Endast läsning",
+            "Modificar contenido": "Redigera innehåll",
+            "No se pudo obtener más usuarios": "Det gick inte att hämta fler användare",
+            "Introduzca el nuevo lenguaje": "Ange det nya språket"
+          }
+          
+        
+
+
+      
+      
+  
+  
+
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+  
+  

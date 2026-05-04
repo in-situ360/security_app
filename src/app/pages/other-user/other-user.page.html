@@ -1,0 +1,316 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon id="iconLeft" (click)="goBack()" src="assets/icons/arrowBack.svg"></ion-icon>
+  
+  <!--<h5 class="header-title">{{user?.name}} {{user?.surname1}} {{user?.representativeName}}</h5>-->
+  <ion-icon id="iconRight" (click)="abrirModalOpcionesUsuario()" src="assets/icons/ajustes.svg"></ion-icon>
+</ion-header>
+
+<ion-content *ngIf="showContent">
+  <div class="container">
+    <div class="image-container">
+      <img id="imgProfile" [src]="user?.avatar" alt="Imagen usuario">
+    </div>
+    <div class="text-container">
+      <p id="pName">{{user?.name}} <span>{{user?.surname1}}</span></p>
+      <p id="pName" style="margin-top:-5px;">
+        <span>{{user?.surname2}}</span> <!--<span>{{user?.representativeName}}</span>-->
+      </p>
+      <p *ngIf="user?.proffesion != null" id="p1">{{user?.proffesion}}</p>
+      <p *ngIf="user?.price != null" id="p2">
+        <span style="margin-left:2px;" id="spanEur">€</span>
+        <span *ngIf="user?.price >= 400" id="spanEur">€</span>
+        <span *ngIf="user?.price >= 800" id="spanEur">€</span>
+        <span *ngIf="user?.price > 1500" id="spanEur">€</span>
+      </p>
+
+      <div *ngIf="user!=null" style="width:100%; height:20px; display: flex; align-items: center;">
+        <ion-icon  id="iconValue"
+          *ngFor="let star of stars; let i = index" 
+          [src]="getStarColor(i)" 
+          
+          class="star-icon">
+        </ion-icon><!--[ngStyle]="{ 'filter': isActive(i) ? 'none' : 'grayscale(100%)' }" -->
+        
+        
+        <span (click)="goUserRatings(user?.id, user?.name)" id="txtVal">{{ user?.countRatings === 0 
+          ? ('Sin opiniones' | translate) 
+          : (user?.countRatings + ' ' + (user?.countRatings === 1 
+              ? ('opinión' | translate) 
+              : ('opiniones' | translate))) }}</span>
+      </div>
+    </div>
+  </div>
+
+  <p style="margin-left:15px;margin-top:5px;" *ngIf="user?.allmycategories != null" id="p1" class="categoryp">{{categoriesString}}</p>
+  <p *ngIf="user?.description != null" id="descripAboutme">{{user?.description}}</p>
+
+  <!--<div *ngIf="user?.actuallocation != null" class="location-container">
+    <ion-icon id="iconLoc" src="assets/icons/locationpoint.svg"></ion-icon>
+    <p id="pLoc"*ngIf="actuallocation != null">{{actuallocation?.value}}</p>
+  </div>-->
+
+  <div *ngIf="userLabels && userLabels.length > 0" id="divEtiquetas">
+    <div *ngFor="let ul of userLabels" class="etiqueta" [ngClass]="{'etiqueta-android': isAndroid}">{{ul?.value}}</div>
+    <ion-icon *ngIf="userLabels && userLabels.length > 3" id="iconNext" src="assets/icons/IconNext.svg" (click)="goUserTags()"></ion-icon>
+  </div>
+
+  <div class="button-container" [ngClass]="{'tags-extra-style': (userLabels && userLabels.length > 3)}">
+    <ion-button style="font-size: 10px !important;" (click)="follow()" id="opcButton0" class="opcButtons" [ngStyle]="{'--background': (user?.hasFollow && user?.hasRequest != 'NOT EXIST') ? '#F42EB2' : '#3F4255'}"><!--style="font-size: 10px !important;"-->
+     <!-- <ion-icon id="iconSave" class="opcIcons" src="assets/icons/MdiLightHeart.svg"></ion-icon>{{followOPC}}-->
+
+      <ion-icon 
+        id="iconSave" 
+        class="opcIcons"   
+        src="assets/icons/MdiLightHeart.svg" 
+        *ngIf="!user?.hasFollow">
+      </ion-icon>
+      <ion-icon 
+        id="iconSave" 
+        class="opcIcons" 
+        src="assets/icons/BxsHeartWhite.svg" 
+        *ngIf="user?.hasFollow">
+      </ion-icon>{{followOPC}}
+      
+    </ion-button>
+
+    <ion-button style="font-size: 10px !important;" *ngIf="user?.hasRequest == 'NOT EXIST' && user?.hasChat != null && !user?.hasWaiting" (click)="goChat()" id="opcButton1" class="opcButtons" ><!--style="font-size: 10px !important;" android-->
+      <ion-icon id="iconChat" class="opcIcons" src="assets/icons/estrella-blanca.svg"></ion-icon>{{ 'other-user.Chatear' | translate }}
+    </ion-button>
+
+    <ion-button style="font-size: 10px !important;" *ngIf="user?.hasChat == null && !user?.hasWaiting" (click)="goConectar(user)" id="opcButton2" class="opcButtons"><!-- style="font-size: 10px !important;" andoird-->
+      <ion-icon id="iconChat" class="opcIcons" src="assets/icons/estrella-blanca.svg"></ion-icon>{{ 'other-user.Conectar' | translate }}
+    </ion-button>
+
+    <ion-button style="font-size: 10px !important;" *ngIf="user?.hasWaiting == true" (click)="goConectar(user)" id="opcButton2" class="opcButtons"><!-- style="font-size: 10px !important;" andoird-->
+      <ion-icon id="iconChat" class="opcIcons" src="assets/icons/estrella-blanca.svg"></ion-icon>{{ 'chats.Espera' | translate }}
+    </ion-button>
+  </div>
+
+  <ion-segment [swipeGesture]="false" value="Ubicaciones" mode="md">
+    <ion-segment-button (click)="showOptionPage(2)" value="Ubicaciones">
+      <ion-icon src="assets/icons/locationpoint-tabs.svg"></ion-icon>
+     <!-- <ion-label class="labelSegment">{{ 'other-user.Ubicaciones' | translate }}</ion-label>-->
+    </ion-segment-button>
+    <ion-segment-button (click)="showOptionPage(3)" value="Idiomas">
+      <!--<ion-label class="labelSegment">{{ 'other-user.Idiomas' | translate }}</ion-label>-->
+      <ion-icon style="width: 19px;" src="assets/icon/language.svg"></ion-icon>
+    </ion-segment-button>
+    <ion-segment-button (click)="showOptionPage(4)" value="Redes sociales">
+      <ion-icon src="assets/icons/link-tabs2.svg"></ion-icon>
+      <!--<ion-label class="labelSegment">{{ 'other-user.Redes sociales' | translate }}</ion-label>-->
+    </ion-segment-button>
+    <ion-segment-button (click)="showOptionPage(1)" value="Trabajos">
+      <ion-icon src="assets/icons/card-travel-tabs.svg"></ion-icon>
+      <!--<ion-label class="labelSegment">{{ 'other-user.Trabajos' | translate }}</ion-label>-->
+    </ion-segment-button>
+    <!--<ion-segment-button (click)="showOptionPage(5)" value="Enlace">
+      <ion-icon style="width: 18px; height: 18px;" src="assets/icons/open-external-link-icon.svg"></ion-icon>
+    </ion-segment-button>-->
+  </ion-segment>
+ 
+
+  <div  id="divWorksBackground" *ngIf="divOption == 1 && jobs.length<4 && jobs!=null" class="job-grid">
+
+  </div>
+  <div  id="divWorksBackground" *ngIf="jobs==null" class="job-grid">
+
+    
+
+  </div>
+  <!--<div id="divWorks" [ngClass]="{'backgroundWithImage': jobs?.length>=4}" *ngIf="divOption == 1" class="job-grid">
+    
+    
+
+    
+    <div *ngFor="let multimedia of multimedias; let i = index" [ngClass]="{'tall': i % 2 === 0, 'short': i % 2 !== 0,'no-flex': multimedia.thetype === 'video'}">
+        <ion-card class="ioncardJob">
+
+
+          <img class="job-image" *ngIf="multimedia.thetype === 'PDF'" src="assets/imgs/imagenPDFHorizontal.png" alt="PDF thumbnail">
+          <img class="job-image" *ngIf="multimedia.thetype === 'imagen'" [src]="multimedia.thevalue" alt="image description" >
+
+
+        <div class="video-container" *ngIf="multimedia.thetype==='video'">
+            <video *ngIf="multimedia.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls controlsList="nodownload">
+              <source [src]="multimedia?.thevalue">Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div> 
+        </div>
+
+          <div (click)="abrirModalMedia(multimedia)" id="divInternoCategoria">
+          </div>
+        </ion-card>
+      </div>
+      <ion-infinite-scroll (ionInfinite)="onIonInfiniteJobs($event)">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+    
+  </div>-->
+
+
+
+  <div id="divWorksBackground" *ngIf="divOption == 1 && jobs.length<4 && jobs!=null" class="job-grid">
+
+     
+  </div>
+  <div id="divWorksBackground" *ngIf="jobs==null" class="job-grid">
+     
+
+  </div>
+
+  <div id="divWorks" [ngClass]="{'backgroundWithImage': jobs?.length>=4}" *ngIf="divOption == 1">
+
+     <div class="divEditsSects">
+
+      <p style="z-index:9999; margin-left: 15px;" class="pEditSects">{{ 'my-profile.Trabajos' | translate }}</p><!--z-index: 1008; margin-left:15px;-->
+      
+
+    </div>
+
+    <div class="job-grid" style="justify-content: center;  align-items: center">
+      <div *ngFor="let multimedia of multimedias; let i = index"
+        [ngClass]="{'tall': i % 2 === 0, 'short': i % 2 !== 0,'no-flex': multimedia.thetype === 'video'}">
+        <ion-card class="ioncardJob">
+
+
+          <!-- Imagen PDF -->
+          <div *ngIf="multimedia.thetype === 'PDF'" class="pdf-container">
+              <img class="job-image pdf-image" *ngIf="multimedia.thetype === 'PDF'" src="assets/imgs/imagenPDFHorizontal.png"
+                alt="PDF thumbnail">
+              <p class="pdf-name" *ngIf="multimedia.thetype === 'PDF'">{{ getFileName(multimedia.thevalue) }}</p>
+          </div>
+
+          <!-- Imagen normal -->
+            <img class="job-image image-image" *ngIf="multimedia.thetype === 'imagen'" [src]="multimedia.thevalue"
+              alt="image description">
+
+          <!-- <img [src]="multimedia?.theimage" alt="Job image" class="job-image" >-->
+
+          <!--  <p class="pdf-name">{{ getFileName(multimedia.thevalue) }}</p> -->
+          <div class="video-container" *ngIf="multimedia.thetype==='video'">
+            <video *ngIf="multimedia.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls
+              controlsList="nodownload">
+              <source [src]="multimedia?.thevalue">Your browser does not support the video tag.
+            </video>
+            <div class="video-overlay"></div> <!-- Capa para bloquear interacción -->
+          </div>
+
+          <div (click)="abrirModalMedia(multimedia)" id="divInternoCategoria"><!--(click)="abrirModalCarrusel(i)"-->
+          </div>
+        </ion-card>
+      </div>
+      <ion-infinite-scroll (ionInfinite)="onIonInfiniteJobs($event)">
+        <ion-infinite-scroll-content></ion-infinite-scroll-content>
+      </ion-infinite-scroll>
+    </div>
+  </div>
+  
+
+
+  <div id="divUbi" *ngIf="divOption == 2">
+    <div class="divEditsSects" style="margin-top:0px;padding-top:0px;">
+      <p class="pEditSects" style="margin-left:0px;">{{ 'other-user.Ubicación de este usuario' | translate }}</p>
+    </div>
+    <div class="ubiContainer">
+      <ion-icon style="min-width: 16px;" src="assets/icons/locationpoint2.svg"></ion-icon>
+      <p *ngIf="user?.actuallocation != null">{{actuallocation?.value}}</p>
+      <p *ngIf="user?.actuallocation == null">{{ 'other-user.Sin ubicación actual' | translate }}</p>
+    </div>
+
+    <p id="ubiTitles">{{ 'other-user.Ubicaciones donde puede trabajar' | translate }}</p>
+    <div class="ubiContainer" *ngFor="let l of locations">
+      <ion-icon class="locMaybe" src="assets/icons/locationpoint2.svg"></ion-icon>
+      <p>{{l?.value}}</p>
+    </div>
+  </div>
+
+  <div id="divLang" *ngIf="divOption == 3">
+    <div class="divEditsSects" style="margin-top:0px;padding-top:0px;">
+      <p class="pEditSects" style="margin-left:0px;">{{ 'other-user.Idiomas' | translate }}</p>
+    </div>
+    <div class="langContainer" *ngFor="let la of languajes">
+      <ion-icon src="assets/icons/idiomas.svg"></ion-icon>
+      <p>{{la?.value}}</p>
+    </div>
+  </div>
+
+  <div id="divRed" *ngIf="divOption == 4">
+    <div class="divEditsSects" style="margin-top:0px;padding-top:0px;">
+      <p class="pEditSects" style="margin-left:0px;">{{ 'Enlaces' | translate }}</p>
+    </div>
+    <div (click)="redirectToSocial(us?.value)" *ngFor="let us of userSocials" class="redContainer">
+      <ion-icon *ngIf="us?.type_network == 1" src="assets/icons/iconos-redes-insitu/instagram.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 2" src="assets/icons/iconos-redes-insitu/x.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 3" src="assets/icons/iconos-redes-insitu/facebook.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 4" src="assets/icons/iconos-redes-insitu/youtube.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 5" src="assets/icons/iconos-redes-insitu/vimeo.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 6" src="assets/icons/iconos-redes-insitu/soundcloud.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 7" src="assets/icons/iconos-redes-insitu/linkdin.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 8" src="assets/icons/iconos-redes-insitu/pinterest.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 9" src="assets/icons/iconos-redes-insitu/tiktok.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 11" src="assets/icons/iconos-redes-insitu/behance.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 12" src="assets/icons/iconos-redes-insitu/spotify.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 13" src="assets/icons/iconos-redes-insitu/dribbble.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 14" src="assets/icons/link-tabsPink.svg"></ion-icon>
+     <!-- <ion-icon *ngIf="us?.type_network == 1" src="assets/icons/instagram.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 2" src="assets/icons/twitter-x.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 3" src="assets/icons/facebook_logo.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 4" src="assets/icons/youTube_circular.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 5" src="assets/icons/vimeo.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 6" src="assets/icons/soundcloud.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 7" src="assets/icons/linkedin.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 8" src="assets/icons/pinterest.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 9" src="assets/icons/tiktok.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 11" src="assets/icons/behance.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 12" src="assets/icons/spotify.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 13" src="assets/icons/dribbble.svg"></ion-icon>
+      <ion-icon *ngIf="us?.type_network == 14" src="assets/icons/link-tabsPink.svg"></ion-icon>-->
+      <p id="pLink">{{us?.name}}</p>
+      <ion-icon class="iconNextRed" src="assets/icons/IconNext.svg"></ion-icon>
+    </div>
+  </div>
+
+
+  <!--<div id="divRed" *ngIf="divOption == 5">
+    <div class="divEditsSects" style="margin-top:0px;padding-top:0px;">
+      <p class="pEditSects" style="margin-left:0px;">{{ 'Enlaces web' | translate }}</p>
+    </div>
+    <div (click)="redirectToWeb(wL?.route)" *ngFor="let wL of webLinks" class="redContainer">
+      <ion-icon src="assets/icons/open-external-link-icon.svg"></ion-icon>
+      <p id="pLink">{{wL?.value}}</p>
+      <ion-icon class="iconNextRed" src="assets/icons/IconNext.svg"></ion-icon>
+    </div>
+  </div>-->
+
+
+  <ion-modal class="ion-text-center" id="example-modal" #modal [isOpen]="isModalOpen2" (willDismiss)="cerrar(modal)" [initialBreakpoint]="1" [breakpoints]="[0, 1]">
+    <ng-template>
+      <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          {{ 'other-user.Trabajos de' | translate }} {{user?.name}}
+        </span>
+        <!--<a  id="textoDerecha">{{ 'Restablecer' | translate }}</a>-->
+      </p>
+
+      <ion-content class="wrapper">
+        <ion-slides [options]="option" class="ion-margin-top" (ionSlideReachEnd)="onSlideEnd()">
+            <ion-slide *ngFor="let multimedia of multimedias;">
+              <ion-card class="modcard" style="">
+                <img *ngIf="multimedia.thetype === 'imagen'" class="modalImage" style="" [src]="multimedia?.thevalue" (click)="abrirModalMultimedia1(multimedia.thevalue, multimedia.thetype, multimedia.id)">
+                <img style="max-height: 111% !important;" *ngIf="multimedia.thetype === 'PDF'" src="assets/imgs/imagenPDFHorizontal.png" (click)="abrirModalMultimedia(multimedia.thevalue, multimedia.thetype, multimedia.id,multimedia)">
+                <video *ngIf="multimedia.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls controlsList="nodownload">
+                  <source [src]="multimedia?.thevalue">Your browser does not support the video tag.
+                </video>
+              </ion-card>
+            </ion-slide>
+          
+        </ion-slides>
+
+          
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

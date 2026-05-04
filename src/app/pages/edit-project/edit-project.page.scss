@@ -1,0 +1,274 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+    z-index: 99999;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+    color: #2E2D2E;
+     text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+  }
+
+  #iconRight2 {
+    color: white;
+    height: 18px;
+    width: 18px;
+    margin-top: -4px;
+    padding: 6px;
+    z-index: 99999;
+    position: absolute;
+    right: 15px;
+    border-radius: 30px;
+    padding: 6px;
+    background: #F42EB2;
+  }
+
+  .iconRight2android {
+    color: white;
+    height: 18px;
+    width: 18px;
+    margin-top:-4px;
+    border-radius: 30px;
+    padding: 6px;
+    z-index: 99999;
+    position: absolute;
+    right: 15px; /* Ajusta la distancia del icono respecto al borde derecho */
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+  ion-content {
+    --background: #FFFFFF; 
+    --padding-start: 15px;
+    --padding-end: 15px;
+}
+
+ion-avatar{
+    width: 125px;
+    height: 125px;
+    margin:0 auto;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonSub{
+  --background:#F42EB2;
+}
+
+
+#buttonImage{
+    font-family: 'Poppins Medium';
+    color:#FFFFFF;
+    --background:#F42EB2;
+    display:flex;
+    margin:0 auto;
+    //margin-top:20px;
+    width:132px;
+    font-size: 9pt;
+    height: 39px;
+    margin-top: 19px;
+}
+
+#form{
+
+    margin-top:20px;
+}
+/*
+.labelItem{
+
+    font-family: 'Poppins Regular';
+   
+}
+
+ion-item{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins Regular';
+    border-radius: 5px;
+   
+
+}
+
+.iconItem{
+   
+    width: 18px;
+   
+}
+
+ion-input{
+    --background: transparent;
+    --padding-start:10px !important;
+    
+}*/
+
+.global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .global__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    padding-top: 0px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  ion-label {
+    font-size: 14px;
+    font-family: 'Poppins Regular';
+    color: #313a51;
+    --margin-start:4px;
+  }
+  
+  ion-input,
+  ion-textarea {
+    border: solid 1px #9da6b6;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-family: 'Poppins Regular' !important;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --padding-start: 34px;
+    border-radius: 9px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  ion-input:focus-within,
+  ion-textarea:focus-within {
+    border: solid 2px #F42EB2;
+  }
+  
+  .global__list:focus-within .iconItem {
+    color: #F42EB2;
+  }
+  
+  .iconItem {
+    position: absolute;
+    left: 10px;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    color: #9da6b6; /* Default color */
+  }
+
+  #icon1{
+    top: 31px !important;
+  }
+
+  #icon2{
+    top: 32px !important;
+  }
+  
+
+  .txtFecha{
+    font-family: 'Poppins Regular';
+    color:#62646E;
+
+  }
+
+  #dateEnd{
+
+    margin-bottom: 2px;
+    font-size: 13px;
+    margin-top: -7px;
+  }
+
+  ion-button{
+    margin-top:20px;
+    font-family: 'Poppins Medium';
+    font-size: 10pt;
+    height:50px;
+  }
+
+  
+ #deleteButton {
+  --background:red;
+  }
+
+
+
+  #pEndDate{
+    font-size: 14px;
+    font-family: 'Poppins Regular';
+    color: #313a51;
+    margin-bottom: 1px;
+  }
+
+  .overlay {
+    position: fixed; /* Fija la posición en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+    z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+    pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+  }
+
+  @media (min-width: 768px) {
+    ion-content {
+      --padding-start: 10%;
+      --padding-end: 10%;
+    }
+
+    #iconRight2 {
+    color: #fff;
+    height: 23px;
+    width: 23px;
+    margin-top: 10px;
+  }
+  }

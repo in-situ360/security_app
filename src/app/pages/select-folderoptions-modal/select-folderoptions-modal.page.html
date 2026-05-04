@@ -1,0 +1,12 @@
+<ion-header class="hide-header">
+  <ion-select
+  #selectRef
+  interface="action-sheet"
+  (ionCancel)="onSelectCancel()"
+  placeholder="Selecciona una red"
+  (ionChange)="onSelectChange($event)">
+  <ion-select-option value=1>{{ 'Editar carpeta' | translate }}</ion-select-option>
+  
+  <ion-select-option value=2>{{ 'Modificar permisos de carpeta' | translate }}</ion-select-option>
+</ion-select>
+</ion-header>

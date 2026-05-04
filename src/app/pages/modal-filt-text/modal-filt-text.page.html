@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-icon id="iconLogo" src="assets/icons/estrella-valoracion-blanca.svg"></ion-icon>
+  <ion-icon (click)="closeModal()"id="iconCancelar" src="assets/icons/Cancelar-modal.svg"></ion-icon>
+</ion-header>
+
+<ion-content>
+
+  
+  <p id="pDesc">{{ 'Introduzca el nuevo lenguaje' | translate }}</p>
+
+  <ion-input autocapitalize="sentences" [(ngModel)]="filtText" id="input" placeholder=""></ion-input>
+
+  <ion-button (click)="sendFiltName()" id="buttonContinue">{{ 'modal-filt-text.Continuar' | translate }}</ion-button>
+
+</ion-content>

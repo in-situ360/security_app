@@ -1,0 +1,299 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+.mainheader {
+    background: #E5E5E5;
+    color:#2D2D2F;
+    text-transform: uppercase;
+    height: 13%;
+    z-index: 0;
+    ion-toolbar {
+        --background: transparent;
+        top: 50%;
+        ion-title {
+            font-family: 'Poppins Medium';
+            margin-left: -10%;
+            font-size: 15px;
+        }
+    }
+}
+
+ion-button {
+    font-family: 'Poppins Medium';
+    font-size: 15px;
+    --border-radius: 29pt;
+    --background: #393939;
+    height: 52px;
+    --box-shadow: none!important;
+    text-transform: none;
+}
+ion-content p,
+ion-item {
+    font-family: 'Poppins Regular';
+    margin-bottom:5%;
+    --min-height: 45px;
+}
+
+ion-item::part(native) {
+    --highlight-background: #F42EB2;
+    --border-width: 1px;
+    --show-full-highlight: 0;
+    --full-highlight-height: 0;
+    --border-bottom-color: none;
+}
+//Para que ion-item se quede coloreado al tener valor (conflicto)
+/*ion-item.item-has-value {
+    border: 1px;
+    --border-color: #F42EB2;
+    ion-icon {
+        color:#F42EB2;
+    }
+}*/
+
+ion-item:focus-within {
+    border: 1px;
+    --border-color: #F42EB2;
+    ion-icon {
+        color:#F42EB2;
+    }
+}
+ion-item:not(:focus-within) {
+    ion-icon {
+        color:#62646E;
+    }
+}
+
+
+.reportModal {
+  position: absolute;
+  --width: 356px !important;
+  --height: 592px !important;
+  --border-radius: 10px !important;
+  
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+  
+
+}
+
+.keyCodeModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 392px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+.filtModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 392px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+  .messageModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 392px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+
+  .listParticipantsModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 592px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+
+
+  .custom-button-class {
+    font-family: 'Poppins Regular';
+    
+  }
+
+
+  .InvitadoMensajeModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 342px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+
+  ion-modal.EditFolderModal {
+  --width: 100vw;
+  --border-radius: 10px 10px 0 0;
+  --box-shadow: none;
+
+  align-items: flex-end; // 🔥 esto lo empuja al fondo
+}
+
+
+ion-modal.EditFolderModal::part(backdrop) {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+  .RatingModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 292px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+  .MultimediaModal {
+    position: absolute;
+    margin: auto;
+    font-family: 'Poppins Regular';
+  }
+
+
+  .RangePriceModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 346px !important;
+    --border-radius: 10px !important;
+    font-family: 'Poppins Regular';
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+  .SelectModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 0px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    
+  
+  }
+
+
+  .InfoModal {
+    position: absolute;
+    --width: 326px !important;
+    --height: 252px !important;
+    --border-radius: 10px !important;
+    
+    margin: auto;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0);
+    overflow: hidden;
+  
+  }
+
+
+  .custom-button-class {
+    font-family: 'Poppins Medium';
+    
+  }
+
+  
+
+  ion-searchbar#nombreGrupo {
+    --padding-start: 0px; /* Elimina el padding inicial para centrar correctamente */
+    --padding-end: 0px;
+    text-align: center; /* Alinea el texto en el centro */
+  }
+  
+  ion-searchbar#nombreGrupo .searchbar-search-icon {
+    display: none !important;
+  }
+
+  /*ion-searchbar#buscador1 .searchbar-search-icon {
+    display: none !important;
+  }*/
+
+ion-loading .loading-wrapper.sc-ion-loading-ios {
+  display: block; // o inline-block, según lo que busques
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ion-loading .loading-wrapper.sc-ion-loading-md {
+  display: block !important; // Elimina flexbox
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 auto;
+  text-align: center;
+}
+  

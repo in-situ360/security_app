@@ -1,0 +1,84 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'MIS DATOS DE FACTURACIÓN' | translate }}</h5>
+</ion-header>
+
+
+<ion-content>
+  <div class="contenido">
+    <form [formGroup]="form">
+      <p>{{ 'NOMBRE COMPLETO' | translate }}</p>
+      <ion-item>
+        
+        <ion-input formControlName="name" placeholder="{{ 'Nombre' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('name')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('name')?.errors?.['required']">{{ 'El nombre es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('name')?.errors?.['minlength']">{{ 'El nombre debe tener al menos 3 caracteres' | translate }}</small>
+      </div>
+
+      <p>{{ 'Email' | translate }}</p>
+      <ion-item>
+        
+        <ion-input formControlName="email" placeholder="{{ 'Email' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('email')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('email')?.errors?.['required']">{{ 'El email es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['email']">{{ 'El email no es válido' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['invalidEmailExtension']">{{ 'El email debe tener una extensión válida (.com, .org, .net, .edu)' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['advancedEmail']">{{ 'El dominio no está permitido o contiene caracteres consecutivos no válidos' | translate }}</small>
+      </div>
+
+      <p>{{ 'DNI/NIF/VAT' | translate }}</p>
+      <ion-item>
+       
+        <ion-input formControlName="entity_identification" placeholder="{{ 'DNI/NIF/VAT' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('entity_identification')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('entity_identification')?.errors?.['required']">{{ 'El email es obligatorio' | translate }}</small>
+      </div>
+
+      <p>{{ 'DIRECCIÓN DE FACTURACIÓN' | translate }}</p>
+      <ion-item class="itemMargin">
+       
+       <!-- <ion-input formControlName="address" placeholder="{{ 'Dirección' | translate }}"></ion-input>-->
+        <input style="background-color:white; border:0px;;" id="searchTextField" formControlName="address" type="text" placeholder="{{ 'Dirección' | translate }}" (input)="onInputLocation($event)">
+      </ion-item>
+      <div *ngIf="form.get('address')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('address')?.errors?.['required']">{{ 'La dirección es obligatoria' | translate }}</small>
+      </div>
+
+      <!--<p>{{ 'CIUDAD' | translate }}</p>-->
+      <ion-item class="itemMargin">
+       
+        <ion-input formControlName="city" placeholder="{{ 'Ciudad' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('city')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('city')?.errors?.['required']">{{ 'La ciudad es obligatoria' | translate }}</small>
+      </div>
+
+     <!-- <p>{{ 'PROVINCIA' | translate }}</p>-->
+      <ion-item class="itemMargin">
+        
+        <ion-input formControlName="province" placeholder="{{ 'Provincia' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('province')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('province')?.errors?.['required']">{{ 'La provincia es obligatoria' | translate }}</small>
+      </div>
+
+     <!-- <p>{{ 'CÓDIGO POSTAL' | translate }}</p>-->
+      <ion-item class="itemMargin">
+        
+        <ion-input formControlName="zip_code" placeholder="{{ 'Código Postal' | translate }}"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('zip_code')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('zip_code')?.errors?.['required']">{{ 'El código postal es obligatorio' | translate }}</small>
+      </div>
+
+      <ion-button (click)="validateAndSubmit()">
+        {{ 'profile-settings.Guardar cambios' | translate }}
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

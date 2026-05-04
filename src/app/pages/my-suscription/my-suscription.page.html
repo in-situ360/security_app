@@ -1,0 +1,164 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'my-suscription.Mi suscripción' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+<div class="planes">
+  <p>{{ 'Planes' | translate }}</p>
+  <!--<ion-button routerLink="/suscription-detail">
+    <label>{{ 'my-suscription.Ver características' | translate }}</label>
+    <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+  </ion-button>-->
+</div>
+  <ion-radio-group value="mensual" (ionChange)="onRadioChange($event)">
+    <div>
+      <ion-radio slot="start" value="mensual"></ion-radio>
+      <ion-label>{{ 'my-suscription.Pago mensual' | translate }}</ion-label>
+    </div>
+    <div>
+      <ion-radio slot="start" value="anual"></ion-radio>
+      <ion-label>{{ 'my-suscription.Pago anual (Descuento del 15%)' | translate }}</ion-label>
+    </div>
+  </ion-radio-group>
+
+  <!--<ion-label *ngIf="actualSuscription!=null" class="planactual">{{ 'my-suscription.Tu plan actual' | translate }}</ion-label>-->
+
+  <!--<ion-grid *ngIf="shouldShowActualPlan()" [ngClass]="{'selected': suscriptionSelected==null,'selectedBlack': suscriptionSelected!=null}" >
+    <ion-col>
+      <div  [ngClass]="{'theplan360': suscriptionSelected==null, 'planBlack': suscriptionSelected!=null}" >
+        <label>{{actualSuscription?.name}}</label>
+      </div>
+      <ion-row>
+        <label class="currency">€</label>
+        <label class="price"> {{actualSuscription?.price}}</label> <label class="price2">/
+          <span *ngIf="actualSuscription?.sub_type==1">{{ 'my-suscription.al mes' | translate }}</span>
+          <span *ngIf="actualSuscription?.sub_type==2">{{ 'my-suscription.al año' | translate }}</span>
+        </label>
+      </ion-row>
+      <label *ngIf="actualSuscription?.id==1 || actualSuscription?.id==4" [ngClass]="{'plantypeRose': suscriptionSelected==null, 'plantypeBlack': suscriptionSelected!=null}">{{ 'my-suscription.Free' | translate }}</label>
+      <label *ngIf="actualSuscription?.id==2 || actualSuscription?.id==5" [ngClass]="{'plantypeRose': suscriptionSelected==null, 'plantypeBlack': suscriptionSelected!=null}">{{ 'my-suscription.Buscador avanzado' | translate }}</label>
+      <label *ngIf="actualSuscription?.id==3 || actualSuscription?.id==6" [ngClass]="{'plantypeRose': suscriptionSelected==null, 'plantypeBlack': suscriptionSelected!=null}">{{ 'my-suscription.Complete Workspace' | translate }}</label>
+    </ion-col>
+    <ion-col class="beneficios">
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text1}}</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text2}}</label>
+      </ion-row>
+      <ion-row *ngIf="actualSuscription?.text3">
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text3}}</label>
+      </ion-row>
+      <ion-row *ngIf="actualSuscription?.text4">
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text4}}</label>
+      </ion-row>
+      <ion-row *ngIf="actualSuscription?.text5">
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text5}}</label>
+      </ion-row>
+      <ion-row *ngIf="actualSuscription?.text6">
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label class="ellipsis-label">{{actualSuscription?.text6}}</label>
+      </ion-row>
+      
+    </ion-col>
+  </ion-grid>-->
+
+
+
+
+
+  <ion-grid 
+  *ngFor="let suscription of suscriptions"
+  [ngClass]="{
+    'selected': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null),
+    'selectedBlack': selectSuscriptionBlack(suscription) && suscriptionSelected!=null
+  }"
+  (click)="selectSuscription(suscription)">
+  
+  <ion-col>
+    <div style="background: #62646E;
+    border-radius: 0 42pt 42pt 0;
+    color: #fff;
+    font-family: 'Poppins SemiBold';
+    font-size: 11px;
+    width: 82px;
+    height: 35px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    margin-left: -10px;
+    margin-bottom: 15%;
+    margin-top: 10px;" [ngClass]="{'theplan360': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plan': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription),'planBlack':selectSuscriptionBlack(suscription) && suscriptionSelected!=null}"><!--class="plan"-->
+      <label style="margin-left: 10px;">{{suscription?.name}}</label>
+    </div>
+    <ion-row>
+      <label class="currency">{{currencySymbol(suscription?.countrySub?.country)}}</label>
+      
+      <!--<label class="price">{{suscription?.price}}</label>-->
+      <label class="price">{{ suscription?.countrySub ? suscription?.countrySub?.price : suscription?.price }}</label>
+      <label class="price2">/
+        <span *ngIf="suscription?.sub_type==1">{{ 'my-suscription.al mes' | translate }}</span>
+        <span *ngIf="suscription?.sub_type==2">{{ 'my-suscription.al año' | translate }}</span>
+      </label>
+    </ion-row><!---->
+    <!--<label *ngIf="suscription?.id==1 || suscription?.id==4" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription)}">{{ 'my-suscription.Free' | translate }}</label>
+    <label *ngIf="suscription?.id==2 || suscription?.id==5" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription)}">{{ 'my-suscription.Buscador avanzado' | translate }}</label>
+    <label *ngIf="suscription?.id==3 || suscription?.id==6" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription)}">{{ 'my-suscription.Complete Workspace' | translate }}</label>-->
+    
+    <label *ngIf="suscription?.id==1 || suscription?.id==4" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription), 'plantypeBlack': selectSuscriptionBlack(suscription) && suscriptionSelected!=null}">{{ 'my-suscription.Free' | translate }}</label>
+    <label *ngIf="suscription?.id==2 || suscription?.id==5" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription), 'plantypeBlack': selectSuscriptionBlack(suscription) && suscriptionSelected!=null}">{{ 'my-suscription.Buscador avanzado' | translate }}</label>
+    <label *ngIf="suscription?.id==3 || suscription?.id==6" [ngClass]="{'plantypeRose': selectedSuscriptionId === suscription.id || (isActualSuscription(suscription) && suscriptionSelected==null), 'plantype': selectedSuscriptionId !== suscription.id && !isActualSuscription(suscription), 'plantypeBlack': selectSuscriptionBlack(suscription) && suscriptionSelected!=null}">{{ 'my-suscription.Complete Workspace' | translate }}</label>
+  </ion-col>
+
+  <ion-col class="beneficios">
+    <ion-row>
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text1}}</label>
+    </ion-row>
+    <ion-row *ngIf="suscription.text2">
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text2}}</label>
+    </ion-row>
+    <ion-row *ngIf="suscription.text3">
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text3}}</label>
+    </ion-row>
+    <ion-row *ngIf="suscription.text4">
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text4}}</label>
+    </ion-row>
+    <ion-row *ngIf="suscription.text5">
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text5}}</label>
+    </ion-row>
+    <ion-row *ngIf="suscription.text6">
+      <ion-icon name="checkmark-outline"></ion-icon>
+      <label class="ellipsis-label">{{suscription?.text6}}</label>
+    </ion-row>
+  </ion-col>
+</ion-grid>
+
+
+
+<ion-modal id="payment-confirmation" #modal [isOpen]="isModalOpen" (willDismiss)="activame(modal)">
+  <ng-template>
+    <div class="wrapper">
+      <ion-icon src="assets/icon/comprobar.svg"></ion-icon>
+      <h1>{{ 'my-suscription.¡Suscripción cambiada!' | translate }}</h1>
+      <ion-label>{{ 'my-suscription.Suscripción cambiada correctamente' | translate }}</ion-label>
+      <ion-button mode="md" (click)="setOpen(false)">{{ 'my-suscription.Continuar a la app' | translate }}</ion-button>
+    </div>
+  </ng-template>
+</ion-modal>
+  
+ 
+  
+  <ion-button *ngIf="suscriptionSelected!=null" (click)="goToSuscriptionCheckout()">{{buttonText}}</ion-button>
+  <!--<ion-button class="buyproject" routerLink="/project-checkout">{{ 'my-suscription.Comprar un proyecto' | translate }}</ion-button>-->
+</ion-content>

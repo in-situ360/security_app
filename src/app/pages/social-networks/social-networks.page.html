@@ -1,0 +1,58 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{'Enlaces' | translate }}</h5>
+  </div>
+</ion-header>
+<ion-content>
+  <div class="locations">
+    <form [formGroup]="form">
+      <!--<p>Redes Sociales</p>-->
+      <div class="divProfileNetwortk" *ngFor="let network of displayNetworks; let i = index">
+      <ion-item >
+        <ion-button id="buttonIcon" (click)="changeNetworkType(i, $event)">
+          <!--<ion-icon [src]="getIconPath(network.type_network)" style="cursor: pointer;"></ion-icon>-->
+          <img [src]="getIconPath(network.type_network)" style="cursor: pointer;"/>
+        </ion-button>
+        
+        <!-- El valor del input solo se asigna directamente cuando se escribe -->
+        <ion-input 
+          [placeholder]="textLink" 
+          [value]="network.value || ''" 
+          (ionInput)="updateNetworkValue(i, $event)"
+          (click)="toggleAdditionalInput(i)">
+        </ion-input>
+
+
+        
+
+
+      </ion-item>
+
+
+      <ion-item class="nameItem" ><!--*ngIf="network.isAdditionalInputVisible"-->
+        <ion-input 
+          
+          [placeholder]="placeholderName" 
+          [value]="network.additionalValue || ''"
+          (ionInput)="updateAdditionalInput(i, $event)"><!--*ngIf="network.isAdditionalInputVisible"-->
+        </ion-input>
+
+
+      </ion-item>
+
+      <div *ngIf="network.errorMessage" class="error-message">
+        {{ network.errorMessage }}
+      </div>
+    </div>
+
+
+
+    </form>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-button (click)="submitForm()" mode="md">{{'social-networks.Guardar cambios' | translate }}</ion-button>
+</ion-footer>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

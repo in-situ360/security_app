@@ -1,0 +1,110 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 19px;
+    background-color: #E5E5E5; /* Ajusta según sea necesario */
+  }
+
+  
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-right: 23px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    //margin-left: -35px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+
+
+
+
+ion-content{
+    --background: #F4F4F4;
+    .main-icon {
+        font-size: 95px;
+    }
+    .pre-contenido,
+    .contenido {
+        width: 100%;
+        justify-items: center;
+        display: inline-grid;
+    }
+    .contenido {
+        border-radius: 25pt 25pt 0 0;
+        background: white;
+        ion-icon {
+            font-size: 15px;
+            margin-right: 10px;
+        }
+    }
+    .contact-title {
+        font-family: "Poppins Medium";
+        color: #2E2D2E;
+        font-size: 14px;
+        text-align: center;
+        margin-top: -15px;
+        margin-bottom: 5%;
+    }
+    form {
+        width: 90%;
+    }
+    ion-item::part(native) {
+        --border-radius: 10pt;
+    }
+    ion-item{
+        font-size: 14px!important;
+    }
+    .apellidos{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -15px !important;
+        ion-item{
+            width: 48%;
+        }
+    }
+    p {
+        margin-bottom: 1%;
+        color: #62646E;
+        font-size: 14px;
+    }
+    ion-textarea {
+        margin-bottom: 10%;
+    }
+}
+
+    ion-button {
+        width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+        --background:#26262C;
+    }

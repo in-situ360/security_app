@@ -1,0 +1,90 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+
+ion-title {
+    text-align: center;
+}
+ion-item {
+    --border-style: none none solid none;
+    margin-bottom: 0%!important;
+}
+ion-toggle {
+    scale: 60%;
+    width: 80px;
+    margin-right: -5%;
+    --background:#7A7B88;
+}
+ion-item.item-has-value {
+    border: 1px;
+    --border-color: #CCCDD3;
+    ion-icon {
+        color:#CCCDD3;
+    }
+}
+ion-item:focus-within {
+    border: 1px;
+    --border-color: #CCCDD3;
+    ion-icon {
+        color:#CCCDD3;
+    }
+}
+
+ion-label {
+    font-family: "Poppins Regular"!important;
+    font-size: 13px!important;
+    color:#2A2A32!important;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+@media (min-width: 768px) {
+    ion-toggle, ion-item {
+        padding-inline-start: 8%;
+        padding-inline-end: 8%;
+    }
+}

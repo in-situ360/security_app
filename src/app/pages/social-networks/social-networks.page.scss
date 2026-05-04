@@ -1,0 +1,126 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 19px;
+    margin-right: 7px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+ion-item::part(native) {
+    --border-radius: 10pt;
+}
+.locations {
+    width: 100%;
+    justify-items: center;
+    display: inline-grid;
+    margin-top: 5%;
+    p {
+        font-family: "Poppins Regular";
+        font-size: 12px;
+        margin-bottom: 2%;
+        color: #62646E;
+    }
+}
+
+form {
+    width: 90%;
+}
+ion-item {
+    --min-height: 40px;
+    margin-bottom: 3%;
+}
+
+ion-input {
+    font-family: "Poppins Regular";
+    font-size: 14px;
+}
+.addlocation {
+    --background:#F42EB2;
+    font-family: "Poppins Regular";
+    font-size: 12px;
+    --border-radius: 10pt;
+    height: 40px;
+    margin-top: 0%;
+}
+
+ion-footer {
+    z-index: -1;
+    height: 15%;
+    ion-button{
+        width: 90%;
+        --background: #26262C;
+        margin-left:5%;
+    }
+}
+
+#buttonIcon{
+
+  font-size: 15px;
+    /* --border-radius: 29pt; */
+    --background: white;
+    --background-activated:white;
+    --background-focused:white;
+    height: 31px;
+    width: 31px;
+    margin-left: -5px;
+    --box-shadow: none !important;
+}
+
+
+.divProfileNetwortk{
+  margin-bottom:30px;
+}
+
+.nameItem:not(:focus-within) {
+  //--border-color: #F42EB2;  /* Color para el borde cuando el item no tiene el foco */
+}
+
+
+.error-message {
+  color: red;
+  font-family: "Poppins Regular";
+  font-size: 13px;
+  margin: 4px 16px;
+  white-space: pre-line; /* Respeta los \n y hace salto de línea */
+  line-height: 1.4;      /* Mejora legibilidad */
+}

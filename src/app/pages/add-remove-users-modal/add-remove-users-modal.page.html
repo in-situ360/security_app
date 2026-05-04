@@ -1,0 +1,51 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{opcTitle | translate }}</h5>
+  </div>
+
+  
+
+  <div *ngIf="allowed==true" id="divHeader">
+    <p id="pPartici">{{ opcTitleParticipants | translate }} ({{participantsSelected.length}})</p>
+    <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+      <ion-slide *ngFor="let useSelect of participantsSelected" class="boxes" aria-hidden="true">
+        <img id="image" [src]="useSelect?.avatar" alt="image" />
+        <ion-icon (click)="removeUserSelected(useSelect)" class="iconDelete" src="assets/icons/eliminar-usuario.svg"></ion-icon>
+        <p class="description">{{ useSelect?.name }} {{ useSelect?.surname1 }}</p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!allowed" class="overlay"></div>
+  <div *ngFor="let participant of participants" id="mainDiv" (click)="selectParticipant(participant)" onclick="changeBorderColor()">
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle">{{ getUserLabels(participant) }}</p>
+    </div>
+    <ion-icon *ngIf="isUserSelected(participant)" class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+    <ion-icon *ngIf="!isUserSelected(participant)" class="rightIcon" src="assets/icons/add-usuario.svg"></ion-icon>
+  </div>
+
+  <div style="width: 100%; height:64px;"></div>
+
+
+  <div class="custom-footer">
+    <ion-button class="custom-button" *ngIf="opc==1" [disabled]="!allowed || participantsSelected.length == 0" (click)="addUsersToChat()" id="buttonFooter">{{ 'add-remove-users-modal.Añadir al grupo' | translate }}</ion-button>
+    <ion-button class="custom-button" *ngIf="opc==2" [disabled]="!allowed || participantsSelected.length == 0" (click)="removeUsersOfChat()" id="buttonFooter">{{ 'add-remove-users-modal.Quitar del grupo' | translate }}</ion-button>
+   
+
+  </div>
+
+
+</ion-content>
+<!--
+<ion-footer>
+  <ion-button *ngIf="opc==1" [disabled]="!allowed || participantsSelected.length == 0" (click)="addUsersToChat()" id="buttonFooter">{{ 'add-remove-users-modal.Añadir al grupo' | translate }}</ion-button>
+  <ion-button *ngIf="opc==2" [disabled]="!allowed || participantsSelected.length == 0" (click)="removeUsersOfChat()" id="buttonFooter">{{ 'add-remove-users-modal.Quitar del grupo' | translate }}</ion-button>
+</ion-footer>-->
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

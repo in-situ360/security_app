@@ -1,0 +1,35 @@
+.image-cropper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top:-50px;
+  }
+
+
+
+  button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente (si se usa en toda la pantalla) */
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .omite-button {
+    --color: white;
+    --background: #F42EB2;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: calc(100% - 35px); /* Hace que el botón ocupe todo el ancho, con márgenes de 15px a los lados */
+     margin-left: 15px;  /* Establece margen a la izquierda */
+     margin-right: 15px;
+  }
+
+
+
+  #iconLeft {
+    height: 15px;
+    width: 13px;
+  }

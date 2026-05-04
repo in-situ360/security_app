@@ -1,0 +1,415 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+   // font-family: 'Poppins Medium';
+    color: #2E2D2E;
+    font-family: 'Poppins SemiBold';
+    margin: 0;
+     text-transform: uppercase;
+    
+
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    font-size: 14px;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  #iconRight2 {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 15px; /* Ajusta la distancia del icono respecto al borde derecho */
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribuye los elementos */
+    width: 100%; /* Asegura que ocupe el 100% del ancho del contenedor */
+    
+  }
+
+
+  ion-content {
+    --background: #eeeeee; 
+    --padding-start: 15px;
+    --padding-end: 15px;
+}
+
+
+#container {
+    width: 100%;
+    height: 222px;
+    position: relative;
+    border: 1px solid #000; /* Adjust border color as needed */
+    border-radius: 10px; /* Adjust border radius as needed */
+    overflow: hidden; /* Ensure the image does not overflow the div */
+    margin-top: 13px;
+  }
+
+  #container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire div */
+  }
+
+  #text-overlay {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: white;
+    background-color: #F42EB2; /* Semi-transparent background for text */
+    //width:260px;
+    padding: 10px;
+    padding-right: 31px;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .info {
+    display: flex;
+    //justify-content: space-between;
+    align-items: center;
+
+    
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .info .avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  .info .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+
+
+  #divDate {
+    position: absolute;
+    top: 131px;
+    left: 0px;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+   
+  }
+
+
+  #dateIcon{
+
+    margin-right: 5px; /* Space between icon and text */
+    width: 12px;
+  }
+
+  #pDate{
+    font-family: 'Poppins Medium';
+    margin-top:0px;
+    padding-top:6px;
+    font-size: 13px;
+    color:white;
+  }
+
+
+
+  #divMembers {
+    position: absolute;
+    top: 153px;
+    left: 0px;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+   
+  }
+
+
+  #memberIcon{
+
+    margin-right: 5px; /* Space between icon and text */
+    width: 14px;
+  }
+
+  #pMember{
+    font-family: 'Poppins Medium';
+    margin-top:0px;
+    padding-top:6px;
+    color:white;
+    font-size: 13px;
+  }
+
+  #divMemberImgs {
+    position: absolute;
+    top: 173px;
+    left: 0px;
+    color: white;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between images */
+    padding: 10px; /* Optional padding around the div */
+  }
+
+
+  .imgMembers{
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: cover !important;
+    margin-right: 0px;
+
+  }
+
+
+
+  //---------
+
+
+  #containerDir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   // background-color: #f8f8f8; /* Optional background color */
+    //border: 1px solid #ddd; /* Optional border */
+   // border-radius: 5px; /* Optional border radius */
+  }
+
+  #containerDir p {
+    font-size:14pt;
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins SemiBold'; /* Example font family */
+    color: #333; /* Example text color */
+  }
+
+  #containerDir button {
+    display: flex;
+    align-items: center;
+    background-color: #F42EB2; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 25px; /* Button border radius */
+    font-family: 'Poppins Medium';
+    cursor: pointer; /* Cursor pointer on hover */
+    font-size:10px;
+  }
+
+  #containerDir button ion-icon {
+    margin-left: 5px; /* Space between text and icon */
+  }
+
+
+
+
+
+
+
+  #divImagenesContenedor{
+
+    width: 100%; 
+    display: flex; 
+    align-items: stretch;
+}
+
+#div1{
+
+    width: 35%; 
+    display: flex; 
+    flex-direction: column;
+}
+
+#img1{
+    width: 100%; 
+    height:115px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover
+}
+
+#img2{
+    width: 100%;
+    height:115px;
+    border-radius: 10px;
+    flex-grow: 1;
+    object-fit: cover
+}
+
+
+
+#div2{
+    width: 65%; 
+    display: flex;
+    align-items: center;
+    
+}
+
+#img3{
+    width: 93%; 
+    margin-left: 7%; 
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover
+}
+
+
+
+
+#containerDir2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   // background-color: #f8f8f8; /* Optional background color */
+    //border: 1px solid #ddd; /* Optional border */
+   // border-radius: 5px; /* Optional border radius */
+  }
+
+  #containerDir2 p {
+    font-size:14pt;
+    margin: 0; /* Remove default margin */
+    font-family: 'Poppins SemiBold'; /* Example font family */
+    color: #333; /* Example text color */
+  }
+
+  #containerDir2 button {
+    display: flex;
+    align-items: center;
+    background-color: #F42EB2; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Button padding */
+    border-radius: 25px; /* Button border radius */
+    font-family: 'Poppins Medium';
+    cursor: pointer; /* Cursor pointer on hover */
+    font-size:10px;
+  }
+
+  #containerDir2 button ion-icon {
+    margin-left: 5px; /* Space between text and icon */
+  }
+
+
+  .boxes {
+    //background-color: lightblue;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 115px;
+    height: 115px;
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    display: flex;
+    border-radius: 12px;
+}
+
+
+
+#image {
+
+    z-index: 1;
+    width: 115px;
+    min-width: 115px;
+    height: 115px;
+    object-fit: cover;
+    object-position: center;
+    flex-direction: column;
+    border-radius: 12px;
+    //filter: brightness(43%);
+}
+
+
+
+.overlay {
+  position: fixed; /* Fija la posición en la pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ocupa todo el ancho de la pantalla */
+  height: 100vh; /* Ocupa todo el alto de la pantalla */
+  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+  z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+  pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+}
+
+
+
+
+ion-item {
+    --border-style: none none solid none;
+    --background: #F42EB2;
+    border-radius: 8px;
+    margin-bottom: 12px !important;
+    margin-top: 22px;
+}
+ion-item.item-has-value {
+    
+}
+
+
+ion-label {
+  font-family: "Poppins Medium" !important;
+  font-size: 15px !important;
+  color: #FFFFFF !important;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+ 
+}
+
+.main-icon {
+  color: #FFFFFF;
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+}
+
+
+.chevron-forw{
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin-right: -2px;
+}

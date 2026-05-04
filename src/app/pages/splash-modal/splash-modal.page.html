@@ -1,0 +1,5 @@
+<ion-content class="splash-container">
+  <video #splashVideo (canplaythrough)="showVideo()" (ended)="onVideoEnd()" autoplay muted playsinline preload="auto" class="splash-video hidden-video">
+    <source src="assets/videos/Gift_inicio.mp4" type="video/mp4">
+  </video>
+</ion-content>

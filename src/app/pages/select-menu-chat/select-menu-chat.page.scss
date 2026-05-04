@@ -1,0 +1,4 @@
+.hide-header {
+    visibility: hidden; /* Esto oculta el ion-header pero mantiene su espacio */
+    height: 0; /* Opcional: ajusta la altura a 0 para liberar espacio si es necesario */
+  }

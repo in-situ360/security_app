@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.269" height="31.268" viewBox="0 0 31.269 31.268">
+  <defs>
+    <filter id="Trazado_21532" x="0" y="0" width="31.269" height="31.268" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#bb0888" flood-opacity="0.8" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Trazado_21532-2" data-name="Trazado 21532" d="M55.634,39A15.634,15.634,0,1,0,71.269,54.634,15.647,15.647,0,0,0,55.634,39Zm2.422,22.094H53.212V48.175h4.844Z" transform="translate(-40 -39)" fill="#ed07ac"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Trazado_21532)">
+      <path id="Trazado_21532-3" data-name="Trazado 21532" d="M55.634,39A15.634,15.634,0,1,0,71.269,54.634,15.647,15.647,0,0,0,55.634,39Zm2.422,22.094H53.212V48.175h4.844Z" transform="translate(-40 -39)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

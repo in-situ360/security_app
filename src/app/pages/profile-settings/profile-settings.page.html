@@ -1,0 +1,65 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'profile-settings.CONFIGURAR MI CUENTA' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="contenido">
+    <form [formGroup]="form">
+      <p>{{ 'profile-settings.Nombre de usuario' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/user-rosa.svg"></ion-icon>
+        </ion-label>
+        <ion-input formControlName="name" placeholder=""></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('name')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('name')?.errors?.['required']">{{ 'profile-settings.El nombre es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('name')?.errors?.['minlength']">{{ 'profile-settings.El nombre debe tener al menos 3 caracteres' | translate }}</small>
+      </div>
+
+      <p>{{ 'profile-settings.Email' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/email.svg"></ion-icon>
+        </ion-label>
+        <ion-input formControlName="email" placeholder=""></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('email')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('email')?.errors?.['required']">{{ 'profile-settings.El email es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['email']">{{ 'profile-settings.El email no es válido' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['invalidEmailExtension']">{{ 'profile-settings.El email debe tener una extensión válida (.com, .org, .net, .edu)' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['advancedEmail']">{{ 'profile-settings.El dominio no está permitido o contiene caracteres consecutivos no válidos' | translate }}</small>
+      </div>
+
+      <p>{{ 'profile-settings.Contraseña' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/lock-open-alt.svg"></ion-icon>
+        </ion-label>
+        <ion-input formControlName="password" placeholder=""></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('password')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('password')?.errors?.['required']">{{ 'profile-settings.La contraseña es obligatoria' | translate }}</small>
+        <small *ngIf="form.get('password')?.errors?.['minlength']">{{ 'profile-settings.La contraseña debe tener al menos 8 caracteres' | translate }}</small>
+        <small *ngIf="form.get('password')?.errors?.['strongPassword']">{{ 'profile-settings.La contraseña debe incluir una mayúscula, un número y un carácter especial' | translate }}</small>
+      </div>
+
+      <p>{{ 'profile-settings.Repetir contraseña' | translate }}</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/lock-open-alt.svg"></ion-icon>
+        </ion-label>
+        <ion-input formControlName="password_confirmation" placeholder=""></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('password_confirmation')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('password_confirmation')">{{ 'profile-settings.Las contraseñas no coinciden' | translate }}</small>
+      </div>
+
+      <ion-button (click)="validateAndSubmit()">
+        {{ 'profile-settings.Guardar cambios' | translate }}
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

@@ -1,0 +1,238 @@
+/*ion-item{
+    .title{
+        font-size: 16px;
+        font-weight: bold;
+        color:var(--ion-color-primary);
+    }
+    .subtitle{
+        font-size: 12px;
+        color:#383838;
+    }
+    .hora{
+        font-size: 10px;
+        color:#383838;
+    }
+}
+
+.mensajes{
+    padding-left: 3vw;
+    ion-badge{
+        font-size: 10px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding-top: 4px;
+        padding-left: 3px;
+    }
+}
+.right{
+    max-width: 13vw;
+}*/
+
+
+
+
+
+
+
+
+
+/*
+#divChat {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  #divChat ion-avatar.avatar {
+    margin-right: 10px;
+  }
+  
+  #divChat ion-avatar.avatar img {
+    border-radius: 15px;;
+    width:60px;
+    height:60px;
+  }
+  
+  #divChat ion-label.content {
+    flex: 1;
+  }
+  
+  #divChat .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--ion-color-primary);
+    margin: 0;
+  }
+  
+  #divChat .subtitle {
+    font-size: 12px;
+    color: #383838;
+    margin: 0;
+  }
+  
+  #divChat ion-label.right {
+    text-align: right;
+    max-width: 13vw;
+  }
+  
+  #divChat .hora {
+    font-size: 10px;
+    color: #383838;
+  }
+  
+  #divChat .mensajes {
+    padding-left: 3vw;
+  }
+  
+  #divChat .mensajes ion-badge {
+    font-size: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top: 4px;
+    padding-left: 3px;
+  }
+  */
+
+
+
+
+  #divChat {
+    /*
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 15px;
+   padding:4px;
+    // padding: 10px 15px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);*/
+
+
+
+
+
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    /* height: 110px; */
+    /* margin: 15px; */
+    padding: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+
+
+
+  }
+  
+  #divChat .avatar {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #divChat .avatar img {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+  }
+  
+  #divChat ion-label.content {
+    flex: 1;
+  }
+  
+  #divChat .title {
+    /*font-size: 16px;
+    //font-weight: bold;
+    color: var(--ion-color-primary);
+    margin: 0;
+    margin-top: -12px;
+    margin-bottom: 6px;
+    color:#2A2A32;
+    font-family: 'Poppins SemiBold';*/
+
+
+
+    font-size: 16px;
+    color: var(--ion-color-primary);
+    margin: 0;
+    /* margin-top: -12px; */
+    margin-bottom: 6px;
+    color: #2A2A32;
+    font-family: "Poppins SemiBold";
+  }
+  
+  #divChat .subtitle {
+    font-size: 12px;
+    color: #7A7B88;
+    margin: 0;
+    font-family: 'Poppins Regular';
+  }
+  
+  #divChat ion-label.right {
+    text-align: right;
+    max-width: 55px;
+    margin-right: 21px;
+    margin-top: -40px;
+  }
+  
+  #divChat .hora {
+    font-size: 10px;
+    color: #383838;
+  }
+  
+  #divChat .mensajes {
+    padding-left: 3vw;
+  }
+  
+  #divChat .mensajes ion-badge {
+    font-size: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  #pText{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 45vw;
+  }
+
+  #iconAjus{
+    width: 34px;
+    height: 33px;
+    position: absolute;
+    margin-top: 3px;
+    right: 34px;
+    transform: rotate(90deg);
+  }
+
+
+  ion-avatar.avatar{
+  width: 65px;
+  height: 65px;
+  object-fit: cover; object-position: center;
+}
+
+ion-avatar .img, ion-img, ion-avatar img {
+  width: 100%; height: 100%;
+  object-fit: cover; object-position: center;
+}
+

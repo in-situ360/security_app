@@ -1,0 +1,141 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+  #header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 19px;
+    background-color: #E5E5E5; /* Ajusta según sea necesario */
+  }
+
+ /* #iconLeft {
+    height: 15px;
+    width: 13px;
+  }*/
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+  }
+
+  
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    //margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    position:absolute;
+    left:0px;
+    right:0px;
+  }
+
+
+
+
+.planes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.planS,
+.planI {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #6F6F6F;
+    color:#CCCCCC;
+    border-radius: 10pt;
+    height: 85px;
+    width: 120px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+/*
+.planS {
+    background: #F42EB2;
+    color: #FFFFFF;
+}*/
+
+.selected-plan {
+    background: #F42EB2 !important;
+    color: #FFFFFF !important;
+    border: 2px solid #C2168B;
+    box-shadow: 0 4px 15px rgba(244, 46, 178, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.planname {
+    font-family: "Poppins Regular";
+    font-size: 15px;
+}
+
+.planprice {
+    display: flex;
+    margin-top: 11%;
+}
+
+.currency {
+    font-size: 8px;
+    font-family: "Poppins Medium";
+    margin-top: -5px;
+}
+
+.price {
+    font-size: 18px;
+    font-family: "Poppins SemiBold";
+    margin-top: -11px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.price2 {
+    font-size: 9px;
+    font-family: "Poppins SemiBold";
+    margin-bottom: 5%;
+}
+
+.beneficios {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Poppins Regular";
+    font-size: 13px;
+    margin-bottom: 5%;
+}
+
+.options ion-icon {
+    color: #f42eb2;
+    font-size: 25px;
+    min-width: 25px;
+    margin-left: 46px;
+}

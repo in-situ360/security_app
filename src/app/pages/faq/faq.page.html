@@ -1,0 +1,24 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{'faq.FAQ' | translate }}</h5>
+    <ion-icon (click)="goVirtualAssistant()" id="iconRight2" src="assets/icon/asistente.svg"></ion-icon>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let item of faqItems; let i = index">
+    <ion-item detail="false" button (click)="toggleAnswer(i)">
+      <ion-label>{{ item.question }}</ion-label>
+      <ion-icon [name]="selectedQuestion === i ? 'chevron-up' : 'chevron-down'" slot="end"></ion-icon>
+    </ion-item>
+    <div *ngIf="selectedQuestion === i" class="answer">
+      <p>{{ item.answer }}</p>
+      
+      <!-- Mostrar hasta tres enlaces si existen rutas -->
+      <ng-container *ngFor="let route of routeMap[item.id]; let j = index">
+        <a *ngIf="route" (click)="goPage(route)">{{'faq.Ir a la página ' | translate }}{{ j + 1 }}</a>
+      </ng-container>
+    </div>
+  </div>
+</ion-content>

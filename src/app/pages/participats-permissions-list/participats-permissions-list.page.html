@@ -1,0 +1,28 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'Permisos de carpeta' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div  id="mainDiv" *ngFor="let participant of participants; let i = index" ><!--(click)="selectParticipant(participant)" -->
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle"><span *ngIf="participant.permission==1">{{ 'Sin permisos' | translate }}</span><span *ngIf="participant.permission==2">{{ 'Solo lectura' | translate }}</span><span *ngIf="participant.permission==3">{{ 'Modificar contenido' | translate }}</span></p>
+    </div>
+    <ion-icon (click)="openPermissionSelect(i)" class="rightIcon" src="assets/icons/ajustes-chat.svg"></ion-icon>
+    <ion-select 
+      interface="alert"
+      [(ngModel)]="participant.permission"
+      (ionChange)="onPermissionChange($event, participant)"
+      #permissionSelect{{i}}
+      style="display: none;">
+      <ion-select-option [value]="1">{{ 'Sin permisos' | translate }}</ion-select-option>
+      <ion-select-option [value]="2">{{ 'Solo lectura' | translate }}</ion-select-option>
+      <ion-select-option [value]="3">{{ 'Modificar contenido' | translate }}</ion-select-option>
+    </ion-select>
+  </div>
+
+</ion-content>

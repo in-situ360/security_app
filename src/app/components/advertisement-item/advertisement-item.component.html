@@ -1,0 +1,17 @@
+
+<ion-card class="modcard" style="">
+  <p id="pType">{{'my-ads.Tipo de anuncio' | translate }}: <b *ngIf="advertisement.thetype === 'imagen'" style="font-family: 'Poppins SemiBold';">{{'my-ads.Imagen' | translate }}</b><b *ngIf="advertisement.thetype === 'video'" style="font-family: 'Poppins SemiBold';">{{'my-ads.Vídeo' | translate }}</b></p>
+  <p id="pTime">{{'Duración' | translate }}: <b>{{ getDurationString(advertisement.duration) }}</b></p>
+  <ion-icon (click)="sendDeleteOrder()" id="iconDelete" src="assets/icon/trash-alt.svg"></ion-icon>
+  <img *ngIf="advertisement.thetype === 'imagen'" class="modalImage" style="" [src]="advertisement?.thevalue" (click)="selectAdvertisement()"><!--(click)="abrirModalMultimedia1(advertisement.thevalue, advertisement.thetype, advertisement.id)"-->
+  <div class="video-wrapper" *ngIf="advertisement.thetype === 'video'" (click)="selectAdvertisement()">
+    <video id="videoTrailer" width="100%" height="100%" playsinline>
+      <source src="https://in-situ360.com/storage/user-post-videos/0321202513373867dd5d92cfd52.mp4#t=0.001">Your browser does not support the video tag.
+    </video>
+    <div class="video-overlay"></div>
+  </div>
+  <!--<video (click)="selectAdvertisement()" *ngIf="advertisement.thetype==='video'" id="videoTrailer" width="100%" height="100%" controls controlsList="nodownload">
+    <source src="https://in-situ360.com/storage/user-post-videos/0321202513373867dd5d92cfd52.mp4#t=0.001">Your browser does not support the video tag.
+  </video>--><!--[src]="advertisement?.thevalue"-->
+  
+</ion-card>

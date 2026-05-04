@@ -1,0 +1,61 @@
+#spanEur{
+
+    margin-right:3px;
+}
+
+
+ion-chip{
+    font-family: "Poppins Medium";
+    justify-content: center;
+    label {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+.selected {
+    --background: #F42EB2;
+    --color:#FFFFFF;
+}
+.tagged {
+    --background: #62646E;
+    --color: white;
+    font-family: "Poppins Regular"!important;
+    ion-icon {
+        color:white;
+        font-size: 14px;
+        margin-left: -4px;
+        margin-right: 5px;
+    }
+}
+ion-range{
+    margin-bottom: -5%;
+}
+
+p {
+    margin-bottom: 1%;
+    color: #62646E;
+    font-size: 14px;
+    width:100%;
+    text-align:center;
+    font-family: 'Poppins Regular';
+}
+.p2 {
+    font-size: 12px;
+    margin-top: -3px;
+    margin-bottom: 6px;
+    width:100%;
+    text-align:center;
+    font-family: 'Poppins Regular';
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Apilar los botones verticalmente */
+    align-items: center; /* Centrar los botones horizontalmente */
+    width: 100%; /* Asegurarse de que el contenedor ocupe todo el ancho */
+    font-family: 'Poppins Regular';
+  }
+  
+  ion-button {
+    margin-top: 10px; /* Añadir espacio entre los botones */
+  }

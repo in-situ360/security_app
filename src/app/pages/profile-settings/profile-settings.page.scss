@@ -1,0 +1,120 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 19px;
+    background-color: #E5E5E5; /* Ajusta según sea necesario */
+  }
+
+  /*#iconLeft {
+    height: 15px;
+    width: 13px;
+  }*/
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+  }
+
+ /* .header-title {
+    font-family: 'Poppins Medium';
+    flex: 1;
+    color:#2E2D2E;
+    text-align: left;
+   
+    margin: 0;
+    font-size: 18px;
+    margin-top:-1px;
+    text-align: center;
+    flex-grow: 1;
+    margin-left: -45px;
+
+  }*/
+
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    //margin-left: -25px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+ion-content{
+    .contenido {
+        width: 100%;
+        justify-items: center;
+        display: inline-grid;
+    }
+
+    ion-button{
+        text-transform: none;
+        width: 100%;
+        margin-top: 10%;
+    }
+    form {
+        width: 90%;
+    }
+    ion-item::part(native) {
+        --border-radius: 10pt;
+    }
+    ion-item{
+        font-size: 14px!important;
+        --min-height: 40px;
+        margin-bottom: -5px;
+    }
+    p {
+        margin-bottom: 1%;
+        color: #62646E;
+        font-size: 14px;
+    }
+}
+
+
+.placeholder-asterisk::placeholder {
+  position: relative;
+  font-family: Arial, sans-serif;
+ 
+  top: -2px; /* Simula que el asterisco esté más arriba */
+  font-size: 12px; /* Opcional: Ajusta el tamaño del asterisco */
+}
+
+
+.error-message {
+  color: #d9534f;
+  font-size: 12px;
+  margin-top: -5px;
+  padding-left: 5px;
+  margin-top:12px;
+  margin-bottom:8px;
+}
+
+.error-message small {
+  display: block;
+  line-height: 1.2;
+  font-size:13px;
+}

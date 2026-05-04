@@ -1,0 +1,102 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{'detail-project.DETALLES DEL PROYECTO' | translate}}</h5>
+    
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="(theProject && theProject?.miSub==null) || (theProject && theProject?.isCreator!=true && theProject?.isProjectActive!=true)" class="overlay"></div>
+  <div id="container">
+    <img [src]="theProject?.projectimage|| 'assets/imgs/imagenDefectoProyecto.png'" alt="Cover Image">  
+    <div id="text-overlay">
+      <div style="margin-bottom: 0px;" class="info">
+        <p style="font-size: 16pt;">{{theProject?.name_project}}</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div id="divContainerRating" (click)="selectUser(theProject?.creator?.id)">
+    <div id="iconTextContainer">
+      <ion-icon src="assets/icons/director-proyecto.svg" id="infoTitleIcon"></ion-icon>
+      <p id="infoText" >{{ 'detail-project.Creador/a del proyecto' | translate }}</p>
+    </div>
+    <div id="rating">
+      <div id="left">
+        <img id="image" [src]="theProject?.creator?.avatar" alt="Imagen redondeada">
+      </div>
+      <div id="right">
+        <div id="top-texts">
+          <p id="text1">{{ theProject?.creator?.name }} {{ theProject?.creator?.surname1 }} </p><!--{{ theProject?.creator?.representativeName }}-->
+         <!-- <ion-button (click)="conectUser(user); $event.stopPropagation()" id="text2">{{ 'buscador2.Conectar' | translate }}</ion-button>-->
+          
+        </div>
+        <div id="bottom-text">
+          <p id="text3">{{ theProject?.creator?.proffesion ? theProject?.creator?.proffesion : ('buscador2.Sin oficio' | translate) }}</p>
+        </div>
+        <div style="width:100%; height:20px; display: flex; align-items: center;">
+          <ion-icon  id="iconValue"
+            *ngFor="let star of stars; let i = index" 
+            [src]="getStarColor(i,theProject?.creator?.averageRating)" 
+            
+            class="star-icon">
+          </ion-icon><!--[ngStyle]="{ 'filter': isActive(i,user?.averageRating) ? 'none' : 'grayscale(100%)' }" -->
+          <span id="txtVal">{{ theProject?.creator?.countRatings === 0 ? ('buscador2.Sin opiniones' | translate) : (theProject?.creator?.countRatings + ' ' + ('buscador2.opiniones' | translate)) }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!--<p id="pDescript">{{ theProject?.creator?.description }}</p>-->
+
+    <div id="iconTextContainer">
+      <ion-icon src="assets/icons/location-point.svg" id="infoIcon"></ion-icon>
+      <p id="infoText" *ngIf="theProject?.creator?.transActualLoc==null">{{ theProject?.creator?.actuallocation?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+      <p id="infoText" *ngIf="theProject?.creator?.transActualLoc!=null">{{ theProject?.creator?.transActualLoc?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+
+    </div>
+    <div id="iconTextContainer">
+      <ion-icon src="assets/icons/tag-alt.svg" name="information-circle-outline" id="infoIcon"></ion-icon>
+      <p id="infoText">{{ getUserLabels(theProject?.creator) }}</p>
+    </div>
+    <p id="pReport" *ngIf="theProject?.creator?.price != null">
+      <span style="margin-left:2px;" id="spanEur">€</span>
+      <span *ngIf="theProject?.creator?.price >= 400" id="spanEur">€</span>
+      <span *ngIf="theProject?.creator?.price >= 800" id="spanEur">€</span>
+      <span *ngIf="theProject?.creator?.price > 1500" id="spanEur">€</span>
+    </p>
+  </div>
+
+
+
+
+  <div id="divDate">
+    <ion-icon id="dateIcon" src="assets/icons/calendario-proyecto-gris.svg"></ion-icon>
+    <p id="labelDate">{{ 'detail-project.Fecha de finalización' | translate }}</p>
+    <p id="pDate">{{ formatEndDate(theProject?.end_date) }}</p>
+  </div>
+
+  <div id="divContainMembers" (click)="goEditParticipantsList()"><!--goParticipantsPages()-->
+    <div id="divMembers">
+      <ion-icon id="memberIcon" src="assets/icons/participantes-gris.svg"></ion-icon>
+      <p id="pMember">{{ 'detail-project.Participantes' | translate }} ({{countVerifiedUsers+1}}) </p>
+    </div>
+
+    <div id="divMemberImgs" >
+      <img class="imgMembers" [src]="theProject?.creator?.avatar" alt="Member 1">
+      <img *ngIf="theProject?.verifiedUsers[0]" class="imgMembers" [src]="theProject?.verifiedUsers[0]?.avatar" alt="Member 1">
+      <img *ngIf="theProject?.verifiedUsers[1]" class="imgMembers" [src]="theProject?.verifiedUsers[1]?.avatar" alt="Member 2">
+      <img *ngIf="theProject?.verifiedUsers[2]" class="imgMembers" [src]="theProject?.verifiedUsers[2]?.avatar" alt="Member 3">
+      <img *ngIf="theProject?.verifiedUsers[3]" class="imgMembers" [src]="theProject?.verifiedUsers[3]?.avatar" alt="Member 4">
+      <img *ngIf="theProject?.verifiedUsers[4]" class="imgMembers" [src]="theProject?.verifiedUsers[4]?.avatar" alt="Member 5">
+      <!-- <img class="imgMembers" src="assets/imgs/more.png" alt="More members"> -->
+      <ion-icon  class="iconNextRed" src="assets/icons/IconNext.svg"></ion-icon>
+    </div>
+  </div>
+
+  
+
+</ion-content>

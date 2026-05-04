@@ -1,0 +1,70 @@
+<ion-footer id="footer" class="ion-text-center">
+  <img class="imagen" [src]="message?.imagen" *ngIf="message?.imagen">
+  <img class="imagen" [src]="pdfImagen" *ngIf="pdfImagen">
+  <ion-icon class="close" name="close-circle" *ngIf="message?.imagen || pdfImagen" (click)="deleteImage()"></ion-icon>
+
+  <!--
+  <div *ngIf="mostrarAudio" id="timer">
+    <p id="pTimer">{{ displayTemporizador }}</p>
+    <div style="margin-left:57px;" horizontal="center">
+      
+      <ion-button class="buttonsAudio" *ngIf="grabando && !audioBase64" (click)="pausarGrabacion()">
+        <ion-icon name="pause"></ion-icon>
+      </ion-button>
+
+      
+      <ion-button class="buttonsAudio" *ngIf="pausado && !audioBase64" (click)="reanudarGrabacion()">
+        <ion-icon name="play"></ion-icon>
+      </ion-button>
+
+      
+      <ion-button class="buttonsAudio" *ngIf="(grabando || pausado) && !audioBase64" (click)="detenerGrabacion()">
+        <ion-icon name="square"></ion-icon>
+      </ion-button>
+    </div>
+  </div>--><!--eliminarGrabacion-->
+
+  <div *ngIf="mostrarAudio || audioBase64 || !ocultarAudio" id="audio-container">
+    <!-- Temporizador en la esquina superior derecha -->
+    <p id="audio-timer">{{ displayTemporizador }}</p>
+  
+    <div id="audio-controls">
+      <!-- Botón de eliminar -->
+      <ion-icon name="trash-outline" id="delete-icon" (click)="eliminarGrabacion()"></ion-icon>
+  
+      <!-- Botón de pausar/reanudar -->
+     
+        <ion-icon id="pause-red-btn" *ngIf="grabando  " (click)="detenerGrabacion()" name="pause"></ion-icon>
+        <ion-icon id="pause-play-btn" *ngIf="!grabando" name="play" (click)="reiniciarGrabacion()"></ion-icon>
+        
+  
+      
+        <ion-icon id="pause-play-btn" *ngIf="pausado && !audioBase64" (click)="reanudarGrabacion()" name="play"></ion-icon>
+     
+  
+      <!-- Botón de enviar -->
+      <ion-icon id="iconAudioSend" name="send" (click)="enviarAudio()" ></ion-icon>
+      
+    </div>
+  </div>
+  
+
+  <!-- Mensaje de grabación terminada -->
+  <ion-card *ngIf="false">
+    <ion-card-header>{{ audioFinishedMessage }}</ion-card-header>
+    <ion-card-content (click)="enviarAudio()">
+      {{ tapToSendMessage }}
+    </ion-card-content>
+  </ion-card>
+  <ion-icon (click)="eliminarGrabacion()" *ngIf="false" id="audioClose" class="close" name="close-circle"></ion-icon>
+
+  <div *ngIf="!mostrarAudio && !audioBase64 && ocultarAudio" class="input-container">
+    <ion-icon class="archive" src="assets/icons/add-tag-1.svg" slot="end" (click)="adjuntarArchivo()"></ion-icon>
+    <ion-icon class="camera" src="assets/icons/add-image-chat.svg" slot="end" (click)="addImage()"></ion-icon>
+    <ion-input autocapitalize="sentences" [disabled]="isDisabled" style="background:#5A5A5F;" type="text" [placeholder]="placeholder2" [(ngModel)]="message.texto"></ion-input>  
+    <ion-icon class="send" name="mic" slot="end" (click)="iniciarGrabacion()"></ion-icon>
+    <ion-icon *ngIf="!audioBase64" class="send" name="send" slot="end" (click)="onSendText()"></ion-icon>
+    <ion-icon *ngIf="audioBase64" class="send" name="send" slot="end" (click)="enviarAudio()"></ion-icon>
+  </div>
+  <input type="file" #fileInput style="display: none;" (change)="procesarArchivo($event)">
+</ion-footer>

@@ -1,0 +1,23 @@
+<ion-content>
+  <p id="title-modal-profile">
+        <span id="textoIzquierda">
+          <ion-icon (click)="closeModal()" id="iconFilter" src="assets/icons/arrowBack.svg"></ion-icon><span style="margin-left:5px;"> {{ 'EDITAR CARPETA' | translate }}</span>
+        </span>
+        <!--<a (click)="closeModal()" id="textoDerecha">{{ 'Cerrar' | translate }}</a>-->
+      </p>
+  <form id="form" *ngIf="form" [formGroup]="form">
+
+    <ion-label>{{ 'new-folder.Nombre de la carpeta' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="name" clearInput type="text" placeholder="{{ 'new-folder.Nombre de la carpeta' | translate }}"></ion-input>
+      <ion-icon id="icon1" class="iconItem" src="assets/icons/nombre-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <ion-button style="margin-top:10px;" expand="block" id="botonSub" type="submit" [disabled]="!form.valid" (click)="submitForm()">{{ 'edit-participants.Aceptar y continuar' | translate }}</ion-button>
+   <div (click)="mostrarAlertaBorrado()" class="parent-class"> <p id="pDelete">{{ 'Eliminar carpeta' | translate }}</p></div><!--deleteFolder()-->
+    
+  </form>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

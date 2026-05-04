@@ -1,0 +1,646 @@
+/* --- DISEÑO MULTIMEDIA UNIFICADO --- */
+.image-image {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  justify-content: center;
+//  align-items: center;
+}
+.pdf-image, .image-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 7px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.image-image {
+  object-fit: cover;
+  background: none;
+}
+/* --- FIN DISEÑO MULTIMEDIA UNIFICADO --- */
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 20px !important;
+}
+
+#header {
+  display: flex;
+  flex-direction: column; /* Ensures the second div is below the first */
+  align-items: flex-start; /* Aligns items to the start of the container */
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  background-color: #e5e5e5; /* Adjust as necessary */
+}
+
+#iconLeft {
+  height: 12px;
+  width: 10px;
+  margin-left: 19px;
+  margin-right: 7px;
+}
+
+.header-title {
+  font-family: "Poppins Medium";
+   text-transform: uppercase;
+  color: #2e2d2e;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+ion-grid {
+  width: 93%;
+  //background-color:red;
+  margin: 0 auto !important;
+  ion-col {
+    width: 50%;
+    max-width: 50%;
+
+    //max-width: 144px;
+    ion-card {
+      justify-content: center; /* Centra horizontalmente */
+    //  align-items: center;
+
+      width: 90%;
+      max-width: 155px;
+      min-width: 155px;
+      margin: 0 auto;
+      height: 155px;
+
+      margin-bottom: 0pt;
+      padding-left: 0px;
+      padding-right: 0px;
+
+      img {
+        width: 220px;
+        height: 220px;
+        z-index: 1;
+        //  object-fit: contain;
+      }
+    }
+  }
+}
+
+#iconDelete {
+  display: flex;
+  background-color: #9494b1;
+  border-radius: 24px;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  width: 16px;
+  height: 16px;
+  padding: 7px;
+}
+
+#divInternoCategoria {
+  border-radius: 7px;
+  //background: rgba(23, 70, 176, 0.5);
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+//  align-items: center;
+  justify-content: center;
+}
+
+#iconAddProject {
+  position: fixed;
+  bottom: 6pt;
+  right: 6pt;
+  width: 85px;
+  height: 85px;
+}
+
+.customItem {
+  display: none !important;
+}
+
+//--------
+
+//PERFE
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+.ioncardJob {
+  min-width: 167px;
+  //min-height: 167px;
+  min-height: 167px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: anchor-center;
+}
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 187px;
+    min-height: 187px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05, 1.05);
+  ion-card {
+    img {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.swiper-slide {
+  transition: 400ms all ease-in-out;
+}
+
+.modcard {
+  width: 100%;
+  height: 160px;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.modalImage {
+  object-fit: cover;
+  width: 100%;
+  height: 197px;
+  transform: scale(1.1, 1.1) rotate(1deg);
+  transition: 600ms all ease-in-out;
+}
+
+#title-modal-profile {
+  color: #7a7b88;
+  font-size: 12pt;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 29px;
+  //padding-left: 15px;
+  padding-right: 15px;
+}
+
+//mod
+
+ion-modal#example-modal {
+  --height: 36%;
+
+  //--background: #3B3B3B;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal {
+  #spanEur {
+    margin-right: 3px;
+  }
+
+  ion-chip {
+    font-family: "Poppins Medium";
+    justify-content: center;
+    label {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+  .selected {
+    --background: #f42eb2;
+    --color: #ffffff;
+  }
+  .tagged {
+    --background: #62646e;
+    --color: white;
+    font-family: "Poppins Regular" !important;
+    ion-icon {
+      color: white;
+      font-size: 14px;
+      margin-left: -4px;
+      margin-right: 5px;
+    }
+  }
+
+  ion-content {
+    --background: white !important;
+  }
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+.horizontal-container {
+  display: flex;
+  //justify-content: space-between; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+}
+
+.horizontal-container p {
+  margin: 0;
+  padding-right: 10px; /* Espaciado opcional entre los párrafos */
+}
+
+//PERFE
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+.ioncardJob {
+  min-width: 167px;
+  // min-height: 167px;
+  //min-height: 184px;
+  min-height: 167px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.05, 1.05);
+  ion-card {
+    img {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.swiper-slide {
+  transition: 400ms all ease-in-out;
+}
+
+.modcard {
+  width: 100%;
+  height: 160px;
+  box-shadow: none;
+  border-radius: 12px;
+}
+.modalImage {
+  object-fit: cover;
+  width: 100%;
+  height: 197px;
+  transform: scale(1.1, 1.1) rotate(1deg);
+  transition: 600ms all ease-in-out;
+}
+
+#title-modal-profile {
+  color: #7a7b88;
+  font-size: 12pt;
+  font-family: "Poppins SemiBold";
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 29px;
+  //padding-left: 15px;
+  padding-right: 15px;
+}
+
+//mod
+
+ion-modal#example-modal {
+  --height: 36%;
+
+  //--background: #3B3B3B;
+  --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+}
+
+ion-modal {
+  #spanEur {
+    margin-right: 3px;
+  }
+
+  ion-chip {
+    font-family: "Poppins Medium";
+    justify-content: center;
+    label {
+      margin-left: 12px;
+      margin-right: 12px;
+    }
+  }
+  .selected {
+    --background: #f42eb2;
+    --color: #ffffff;
+  }
+  .tagged {
+    --background: #62646e;
+    --color: white;
+    font-family: "Poppins Regular" !important;
+    ion-icon {
+      color: white;
+      font-size: 14px;
+      margin-left: -4px;
+      margin-right: 5px;
+    }
+  }
+
+  ion-content {
+    --background: white !important;
+  }
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+.horizontal-container {
+  display: flex;
+  //justify-content: space-between; /* Espacio entre los elementos */
+  width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+}
+
+.horizontal-container p {
+  margin: 0;
+  padding-right: 10px; /* Espaciado opcional entre los párrafos */
+}
+
+/*.job-grid[_ngcontent-erg-c182] div.no-flex[_ngcontent-erg-c182] {
+  display: block !important;
+}*/
+.job-grid div.no-flex {
+//  display: block !important;
+}
+
+/*.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+  object-fit: cover; 
+  border-radius: 7px;
+  }*/
+
+.video-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Puede ser un color semitransparente si lo deseas */
+  z-index: 2;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  margin: 16px 0;
+
+  .custom-progress {
+    --progress-bar-height: 16px; // Grosor de la barra
+    width: 90%; // Puedes ajustar el ancho según quieras
+  }
+
+  .progress-text {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+//---
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  //padding: 10px;
+}
+
+.ioncardJob {
+  min-width: 167px;
+  //min-height: 167px;
+  min-height: 184px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+@media (min-width: 769px) {
+  .job-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .ioncardJob {
+    min-width: 83.5px;
+    min-height: 92px;
+  }
+
+  .job-grid div {
+    aspect-ratio: 1 / 1;
+  }
+
+  .job-image {
+    min-width: 100px;
+    min-height: 100px;
+  }
+}
+
+.job-grid div {
+  display: flex;
+  position: relative;
+  border-radius: 7px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.job-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  overflow: hidden; // para que no sobresalga el contenido
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; // igual que las imágenes
+    border-radius: 7px;
+  }
+}
+
+.video-overlay {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 2;
+}
+
+#divInternoCategoria {
+  border-radius: 7px;
+  //background: rgba(23, 70, 176, 0.5);
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  justify-content: center;
+}
+
+.pdf-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    /*min-height: 150px;
+    min-width: 150px;*/
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .pdf-name {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    font-family: "Poppins Medium";
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    border-radius: 4px;
+    bottom: 21px;
+    padding: 3px;
+    background-color: rgba(128, 128, 128, 0.8);
+  }
+}
+
+

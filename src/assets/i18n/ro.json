@@ -1,0 +1,1187 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "SELECTAREA LIMBII",
+      "Seleccionar idioma": "Selectează limba",
+      "Selecciona el idioma que quieres que se muestre en la app": "Selectează limba pe care vrei să o afișeze aplicația",
+      "Aceptar y continuar": "Acceptă și continuă",
+      "Selecciona un idioma": "Selectează o limbă",
+      "Inglés": "Engleză",
+      "Español": "Spaniolă",
+      "Francés": "Franceză",
+      "Alemán": "Germană",
+      "Italiano": "Italiană",
+      "Portugués": "Portugheză",
+      "Ruso": "Rusă",
+      "Chino(Simplificado)": "Chineză (Simplificată)",
+      "Chino(Tradicional)": "Chineză (Tradițională)",
+      "Japonés": "Japoneză",
+      "Coreano": "Coreeană",
+      "Árabe": "Arabă",
+      "Hindi": "Hindi",
+      "Bengalí": "Bengaleză",
+      "Holandés": "Olandeză",
+      "Sueco": "Suedeză",
+      "Noruego": "Norvegiană",
+      "Finlandés": "Finlandeză",
+      "Danés": "Daneză",
+      "Polaco": "Poloneză",
+      "Turco": "Turcă",
+      "Griego": "Greacă",
+      "Checo": "Cehă",
+      "Hebreo": "Ebraică",
+      "Húngaro": "Maghiară",
+      "Vietnamita": "Vietnameză",
+      "Indonesio": "Indoneziană",
+      "Tailandés": "Thailandeză",
+      "Catalán": "Catalană",
+      "Romanés": "Română",
+      "Ucraniano": "Ucraineană",
+      "Serbio": "Sârbă",
+      "Croata": "Croată",
+      "Eslovaco": "Slovacă",
+      "Letón": "Letonă",
+      "Estonio": "Estoniană"
+    },
+  
+    "cover-page": {
+      "Registro": "Înregistrare",
+      "Iniciar sesión": "Autentificare"
+    },
+  
+    "login": {
+      "Iniciar sesión": "Autentificare",
+      "Usuario": "Utilizator",
+      "Contraseña": "Parolă",
+      "He olvidado mi contraseña": "Am uitat parola",
+      "Entrar": "Intră",
+      "Entrar como invitado": "Intră ca invitat",
+      "¿Aún no tienes una cuenta?": "Nu ai un cont?",
+      "Regístrate": "Înregistrează-te",
+      "Entrando": "Se autentifică...",
+      "Usuario o contraseña incorrectos": "Utilizator sau parolă incorecte",
+      "El usuario ya se encuentra registrado": "Utilizatorul este deja înregistrat",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Acest cont este temporar blocat, contactați administratorii pentru mai multe informații",
+      "Error del servidor, inténtelo más tarde": "Eroare de server, încercați mai târziu",
+      "Error desconocido, inténtelo más tarde": "Eroare necunoscută, încercați mai târziu"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "RECUPERARE PAROLĂ",
+      "¿Has olvidado tu contraseña?": "Ai uitat parola?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "Adaugă adresa de e-mail și îți vom trimite o nouă parolă",
+      "Email": "Email",
+      "Enviar": "Trimite",
+      "¡Se ha enviado el email correctamente!": "Email-ul a fost trimis cu succes!",
+      "Error al enviar el email": "Eroare la trimiterea email-ului"
+    },
+  
+    "register": {
+      "Registro": "Înregistrare",
+      "¿Cómo deseas acceder a la app?": "Cum dorești să accesezi aplicația?",
+      "Personal": "Personal",
+      "Empresa": "Companie",
+      "Nombre": "Nume",
+      "Nombre de representante": "Numele reprezentantului",
+      "Apellido 1": "Prenume 1",
+      "Apellido 2": "Prenume 2",
+      "Email": "Email",
+      "Contraseña": "Parolă",
+      "Repetir Contraseña": "Repetă parola",
+      "He leído y acepto": "Am citit și accept",
+      "la Política de Privacidad": "Politica de confidențialitate",
+      "los Términos y Condiciones de Venta": "Termenii și condițiile de vânzare",
+      "Registrarme": "Înregistrează-mă",
+      "¿Ya estás registrado?": "Ești deja înregistrat?",
+      "Accede aquí": "Accesează aici",
+      "El email es obligatorio": "Email-ul este obligatoriu",
+      "El email no es válido": "Email-ul nu este valid",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Email-ul trebuie să aibă o extensie validă (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Domeniul nu este permis sau conține caractere consecutive nevalide",
+      "La contraseña es obligatoria": "Parola este obligatorie",
+      "La contraseña debe tener al menos 8 caracteres": "Parola trebuie să aibă cel puțin 8 caractere",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Parola trebuie să includă o literă mare, un număr și un caracter special",
+      "Las contraseñas no coinciden": "Parolele nu coincid",
+      "Registrando usuario": "Înregistrare utilizator...",
+      "Nombre Empresa": "Nume companie",
+"Por favor, revisa los campos con errores antes de continuar": "Te rog, verifică câmpurile cu erori înainte de a continua",
+      "El nombre es obligatorio": "Numele este obligatoriu",
+      "El nombre debe tener al menos 3 caracteres": "Numele trebuie să aibă cel puțin 3 caractere"
+        },
+
+    
+      
+      "¡Pago realizado!": "Plata efectuată!",
+      "El pago de la suscripción se ha realizado correctamente": "Plata abonamentului a fost efectuată cu succes",
+    
+      "Sin opiniones": "Fără opinii",
+      "opinión": "opinie",
+      "opiniones": "opinii",
+      "Eliminar chat": "Șterge chatul",
+    
+      "Cancelar": "Anulează",
+      "Advertencia": "Avertizare",
+      "¿Estás seguro de eliminar el chat?": "Ești sigur că vrei să ștergi chatul?",
+      "Aceptar": "Acceptă",
+      "Chat borrado con éxito": "Chat șters cu succes",
+      "No se pudo borrar el chat": "Nu s-a putut șterge chatul",
+      "Contenido de": "Conținut de",
+      "Sin seleccionar": "Neselectat",
+      "1 archivo seleccionado": "1 fișier selectat",
+      " archivos seleccionados": " fișiere selectate",
+      "Archivos eliminados": "Fișiere șterse",
+      "No se pudieron borrar los archivos": "Fișierele nu au putut fi șterse",
+      "Suscripción necesaria": "Abonament necesar",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "Obține un abonament superior Planului I pentru a putea vedea evaluările altor utilizatori",
+      "Activos": "Active",
+      "Finalizados": "Finalizate",
+      "Mis proyectos": "Proiectele mele",
+      "Colaboraciones": "Colaborări",
+      "Subir sin editar": "Încarcă fără editare",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "Fișierul depășește dimensiunea maximă permisă (2.5MB).",
+    
+    
+    
+        "finish-profile": {
+          "Seleccione al menos una categoría": "Selectați cel puțin o categorie",
+        "La profesión es obligatoria": "Profesia este obligatorie",
+        "La ubicación es obligatoria": "Locația este obligatorie",
+          "COMPLETAR PERFIL": "COMPLETARE PROFIL",
+          "No mostrar mi perfil en el buscador": "Nu afișa profilul meu în căutare",
+          "Nombre": "Nume",
+          "Apellido 1": "Prenume 1",
+          "Apellido 2": "Prenume 2",
+          "Nombre de representante": "Numele reprezentantului",
+          "Fecha de nacimiento": "Data nașterii",
+          "Este detalle no se mostrará de forma pública": "Acest detaliu nu va fi afișat public",
+          "Género": "Gen",
+          "Seleccione una opción": "Selectează o opțiune",
+          "Hombre": "Bărbat",
+          "Mujer": "Femeie",
+          "Otro": "Altul",
+          "Profesión": "Profesie",
+          "Escribe aquí…": "Scrie aici…",
+          "Categoría de trabajo": "Categorie de muncă",
+          "Salario": "Salariu",
+          "Selecciona un rango de salario": "Selectează un interval de salariu",
+          "Precio seleccionado:": "Preț selectat:",
+          "Se mostrará como:": "Va fi afișat ca:",
+          "Tags": "Etichete",
+          "Escribe las palabras clave para describir tu empleo": "Scrie cuvintele cheie pentru a descrie locul tău de muncă",
+          "Descripción": "Descriere",
+          "Guardar cambios": "Salvează modificările",
+          "Escribe aquí": "Scrie aici",
+          "Escribe aquí...": "Scrie aici...",
+          "día": "zi",
+          "Él": "El",
+          "Ella": "Ea",
+          "Elle": "Ei",
+          "Añade tus pronombres": "Adaugă pronumele tău",
+          "Introduzca el pronombre con el que se identifique": "Introdu pronumele cu care te identifici",
+          "El nombre es obligatorio": "Numele este obligatoriu",
+          "El apellido 1 es obligatorio": "Prenumele 1 este obligatoriu",
+          "Introduzca una fecha válida": "Introduceți o dată validă",
+          "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "Dacă selectezi 'Adaugă pronumele tău', trebuie să introduci cel puțin un pronume",
+          "Debes seleccionar un género": "Trebuie să selectezi un gen",
+          "Error obteniendo el usuario": "Eroare la obținerea utilizatorului",
+          "Usuario actualizado correctamente": "Utilizator actualizat cu succes",
+          "Ya hay un Tag con ese valor": "Există deja o etichetă cu această valoare",
+          "El campo está vacío, no se puede crear un Tag": "Câmpul este gol, nu se poate crea o etichetă",
+          "Por favor, revisa los campos con errores antes de continuar": "Te rugăm să verifici câmpurile cu erori înainte de a continua",
+          "Ya hay un Pronombre con ese valor": "Există deja un pronume cu această valoare",
+          "El campo está vacío, no se puede crear un Pronombre": "Câmpul este gol, nu se poate crea un pronume"
+        },
+      
+        "settings": {
+          "CONFIGURACIÓN": "SETĂRI",
+          "Configurar mi cuenta": "Configurează contul meu",
+          "Mis métodos de pago": "Metodele mele de plată",
+          "Destacar mi perfil": "Evidențiază profilul meu",
+          "Mi suscripción": "Abonamentul meu",
+          "Mis anuncios": "Anunțurile mele",
+          "Estadísticas": "Statistici",
+          "Usuarios bloqueados": "Utilizatori blocați",
+          "Idioma de la app": "Limba aplicației",
+          "Contacta con nosotros": "Contactează-ne",
+          "FAQ": "Întrebări frecvente",
+          "Política de Privacidad": "Politica de confidențialitate",
+          "Términos y Condiciones de venta": "Termeni și condiții de vânzare",
+          "Cerrar sesión": "Deconectare",
+          "Eliminar cuenta": "Șterge contul",
+          "¿Estás seguro de querer cerrar sesión?": "Ești sigur că vrei să te deconectezi?",
+          "Aceptar": "Acceptă",
+          "Cancelar": "Anulează",
+          "Advertencia": "Avertisment",
+          "¿Estás seguro de querer eliminar tu cuenta?": "Ești sigur că vrei să îți ștergi contul?",
+          "Cuenta eliminada satisfactoriamente": "Cont șters cu succes",
+          "Hubo problemas para borrar la cuenta de usuario": "Au fost probleme la ștergerea contului de utilizator"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "CONFIGURARE CONT",
+          "Nombre de usuario": "Nume utilizator",
+          "Email": "Email",
+          "Contraseña": "Parolă",
+          "Repetir contraseña": "Repetă parola",
+          "Guardar cambios": "Salvează modificările",
+          "Error obteniendo el usuario": "Eroare la obținerea utilizatorului",
+          "Cuenta de usuario actualizada": "Cont actualizat cu succes",
+          "El nombre es obligatorio": "Numele este obligatoriu",
+          "El nombre debe tener al menos 3 caracteres": "Numele trebuie să aibă cel puțin 3 caractere",
+          "El email es obligatorio": "Email-ul este obligatoriu",
+          "El email no es válido": "Email-ul nu este valid",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Email-ul trebuie să aibă o extensie validă (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Domeniul nu este permis sau conține caractere consecutive nevalide",
+          "La contraseña es obligatoria": "Parola este obligatorie",
+          "La contraseña debe tener al menos 8 caracteres": "Parola trebuie să aibă cel puțin 8 caractere",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Parola trebuie să includă o literă mare, un număr și un caracter special",
+          "Las contraseñas no coinciden": "Parolele nu coincid"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "TERMENI ȘI CONDIȚII DE VÂNZARE"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "POLITICA DE CONFIDENȚIALITATE"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "CONTACTEAZĂ-NE",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "Ai vreo întrebare? O propunere?",
+          "¡Estamos deseando escucharte!": "Așteptăm cu nerăbdare să te ascultăm!",
+          "Nombre": "Nume",
+          "Apellidos": "Prenume",
+          "Email": "Email",
+          "Categoría": "Categorie",
+          "Atención al cliente": "Serviciu clienți",
+          "Soporte": "Suport",
+          "Solicitud": "Cerere",
+          "Enviar solicitud": "Trimite cererea",
+          "Solicitud de contacto creada con éxito": "Cererea de contact a fost creată cu succes",
+          "Hubo un problema al enviar la solicitud de contacto": "A apărut o problemă la trimiterea cererii de contact",
+          "Rellene todos los campos para enviar la solicitud de contacto": "Completează toate câmpurile pentru a trimite cererea de contact",
+          "Escribe aquí...": "Scrie aici...",
+          "Adquiera plan válido": "Achiziționează un plan valid",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Achiziționează PlanS sau Plan360 pentru a putea contacta echipa Insitu"
+        },
+        
+            "faq": {
+              "FAQ": "FAQ",
+              "Ir a la página ": "Mergi la pagina "
+            },
+          
+            "ban-users": {
+              "USUARIOS BLOQUEADOS": "UTILIZATORI BLOCAȚI",
+              "No se pudo obtener el listado de usuarios bloqueados": "Nu s-a putut obține lista utilizatorilor blocați",
+              "¿Desea desbloquear a este usuario?": "Doriți să deblocați acest utilizator?",
+              "Cancelar": "Anulează",
+              "Desbloquear": "Deblochează",
+              "Usuario desbloqueado": "Utilizator deblocat",
+              "El usuario ya no se encuentra bloqueado": "Utilizatorul nu mai este blocat",
+              "Respuesta desconocida": "Răspuns necunoscut"
+            },
+          
+            "suscription-detail": {
+              "Características": "Caracteristici",
+              "Plan I": "Plan I",
+              "al mes": "pe lună",
+              "Plan S": "Plan S",
+              "Plan 360": "Plan 360",
+              "Búsqueda ilimitada": "Căutare nelimitată",
+              "Completa tu perfil": "Completează-ți profilul",
+              "Obtén reseñas verificadas": "Obține recenzii verificate",
+              "Forma parte de proyecto": "Fă parte dintr-un proiect",
+              "Incluido lo relativo al plan I": "Inclus în planul I",
+              "Contacta con profesionales": "Contactează profesioniști",
+              "Filtros de búsqueda Premium": "Filtre de căutare Premium",
+              "Visualiza todos los perfiles": "Vizualizează toate profilurile",
+              "Aumenta tu visibilidad": "Crește-ți vizibilitatea",
+              "Métricas avanzadas": "Metrice avansate",
+              "Incluido lo relativo al plan S": "Inclus în planul S",
+              "Crear y administrar proyectos": "Creează și administrează proiecte",
+              "Gestiona poderes a tu equipo": "Gestionează permisiunile echipei tale",
+              "Almacenamiento ilimitado de proyectos": "Stocare nelimitată pentru proiecte",
+              "Creación de chat grupales": "Crearea de chat-uri de grup",
+              "Calendario compartido": "Calendar partajat"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "LOCURI DE MUNCĂ",
+              "No se pudo obtener los trabajos": "Nu s-au putut obține locurile de muncă",
+              "¿Desea eliminar la imagen?": "Doriți să ștergeți imaginea?",
+              "No": "Nu",
+              "Sí": "Da",
+              "Hubo un problema al borrar": "A apărut o problemă la ștergere",
+              "¿Desea ajustar la imagen antes de que sea subida?": "Doriți să ajustați imaginea înainte de a o încărca?",
+              "Subir imagen": "Încarcă imagine",
+              "No se pudo crear el trabajo": "Nu s-a putut crea locul de muncă",
+              "Ajustar imagen": "Ajustează imaginea",
+              "Cancelar Subida": "Anulează încărcarea"
+            },
+          
+            "languages": {
+              "IDIOMAS": "LIMBI",
+              "Idiomas": "Limbi",
+              "Añadir otro idioma": "Adaugă altă limbă",
+              "Añadir otro lenguaje": "Adaugă altă limbă",
+              "Guardar cambios": "Salvează modificările",
+              "No se pudo obtener los idiomas": "Nu s-au putut obține limbile"
+            },
+          
+            "locations": {
+              "UBICACIONES": "LOCAȚII",
+              "Tu ubicación": "Locația ta",
+              "Buscar dirección": "Caută adresă",
+              "Ubicaciones donde puedes trabajar": "Locații unde poți lucra",
+              "Ubicación": "Locație",
+              "Añadir otra ubicación": "Adaugă altă locație",
+              "Guardar cambios": "Salvează modificările",
+              "No se pudo obtener las ubicaciones": "Nu s-au putut obține locațiile"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "Nu s-au putut obține etichetele",
+              "TAGS": "ETICHETE"
+            },
+          
+            "my-profile": {
+              "Trabajos": "Locuri de muncă",
+              "Ubicaciones": "Locații",
+              "Idiomas": "Limbi",
+              "Redes sociales": "Rețele sociale",
+              "Editar": "Editează",
+              "Tu ubicación": "Locația ta",
+              "Sin ubicación actual": "Fără locație actuală",
+              "Ubicaciones donde puede trabajar": "Locații unde poate lucra",
+              "Trabajos de": "Locuri de muncă ale",
+              "Sin opiniones": "Fără recenzii",
+              "opiniones": "recenzii",
+              "Sin Suscripción": "Fără abonament",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "Obține un abonament pentru a folosi aplicația complet și a beneficia la maximum de ea",
+              "Error obteniendo el usuario": "Eroare la obținerea utilizatorului",
+              "No se pudieron obtener los trabajos": "Nu s-au putut obține locurile de muncă",
+              "No se pudieron obtener las ubicaciones": "Nu s-au putut obține locațiile",
+              "No se pudieron obtener los idiomas": "Nu s-au putut obține limbile",
+              "No se pudieron obtener las etiquetas": "Nu s-au putut obține etichetele",
+              "No se pudieron obtener las redes": "Nu s-au putut obține rețelele sociale"
+            },
+            
+                "home": {
+                  "Descubre nuestro top": "Descoperă topul nostru",
+                  "Los mejores profesionales muestran sus anuncios": "Cei mai buni profesioniști își prezintă anunțurile",
+                  "Logan descriptivo de anuncio especial": "Slogan descriptiv pentru anunț special",
+                  "Contacta con el éxito": "Conectează-te cu succesul",
+                  "Descubre los usuarios que harán realidad tu proyecto": "Descoperă utilizatorii care îți vor transforma proiectul în realitate"
+                },
+              
+                "notifications": {
+                  "Notificaciones": "Notificări",
+                  "Pulsa aquí para conocer más": "Apasă aici pentru a afla mai multe",
+                  "No se pudo obtener las notificaciones": "Nu s-au putut obține notificările",
+                  "No se pudo obtener los datos del usuario": "Nu s-au putut obține datele utilizatorului",
+                  "No se pudo obtener las carpetas del proyecto": "Nu s-au putut obține dosarele proiectului"
+                },
+              
+                "notifications-settings": {
+                  "CONFIGURACIÓN DE NOTIFICACIONES": "CONFIGURARE NOTIFICĂRI",
+                  "Valoraciones recibidas": "Recenzii primite",
+                  "Solicitudes de chat": "Cereri de chat",
+                  "Solicitud de chat aceptada": "Cerere de chat acceptată",
+                  "Solicitudes de proyecto": "Cereri de proiect",
+                  "Nuevas carpetas en el proyecto": "Dosare noi în proiect",
+                  "Chats de proyecto": "Chat-uri de proiect",
+                  "Fecha previa al fin del proyecto": "Dată premergătoare încheierii proiectului",
+                  "Fecha de fin del proyecto": "Dată de finalizare a proiectului",
+                  "No se pudo obtener los datos del usuario": "Nu s-au putut obține datele utilizatorului",
+                  "No se pudo actualizar los permisos del usuario": "Nu s-au putut actualiza permisiunile utilizatorului"
+                },
+              
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "Indică ce dorești să raportezi",
+                  "Reportar mensajes": "Raportează mesaje",
+                  "Desnudos o actividad sexual": "Nuditate sau activitate sexuală",
+                  "Lenguaje o símbolos que incitan al odio": "Limbaj sau simboluri care incită la ură",
+                  "Estafa o fraude": "Înșelătorie sau fraudă",
+                  "Violencia u organizaciones peligrosas": "Violență sau organizații periculoase",
+                  "Venta de bienes ilegales o regulados": "Vânzarea de bunuri ilegale sau reglementate",
+                  "Bullying o acoso": "Hărțuire sau intimidare",
+                  "Infracción de la propiedad intelectual": "Încălcarea drepturilor de proprietate intelectuală",
+                  "Suicidio o autolesiones": "Sinucidere sau auto-vătămare",
+                  "Spam": "Spam",
+                  "El problema no aparece en la lista": "Problema nu apare în listă",
+                  "Usuario o contraseña incorrectos": "Utilizator sau parolă incorecte",
+                  "El usuario ya se encuentra registrado": "Utilizatorul este deja înregistrat",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Acest cont este temporar blocat, consultați administratorii pentru mai multe informații",
+                  "Error del servidor, inténtelo más tarde": "Eroare de server, încercați mai târziu",
+                  "Error desconocido, inténtelo más tarde": "Eroare necunoscută, încercați mai târziu",
+                  "Enviar reporte": "Trimite raport",
+                  "No se pudo reportar al usuario": "Nu s-a putut raporta utilizatorul",
+                  "Usuario reportado": "Utilizator raportat",
+                  "Debe seleccionar un motivo de reporte": "Trebuie să selectezi un motiv pentru raportare"
+                },
+              
+                
+              
+                "workspace": {
+                  "Colaboraciones": "Colaborări",
+                  "Mis proyectos": "Proiectele mele",
+                  "Estado del proyecto": "Starea proiectului",
+                  "Seleccione": "Selectează",
+                  "Todos": "Toate",
+                  "Activos": "Active",
+                  "Finalizados": "Finalizate",
+                  "participantes": "participanți",
+                  "No se pudo obtener las colaboraciones de proyecto": "Nu s-au putut obține colaborările proiectului",
+                  "No se pudo obtener el listado de proyectos": "Nu s-a putut obține lista proiectelor"
+                },
+              
+                "modal-filt-text": {
+                  "Filtro de nombre": "Filtru de nume",
+                  "Introduzca el nombre del proyecto": "Introduceți numele proiectului",
+                  "Nombre de proyecto": "Numele proiectului",
+                  "Continuar": "Continuă"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "CREEAZĂ UN NOU PROIECT",
+                  "Añadir imagen": "Adaugă imagine",
+                  "Nombre": "Nume",
+                  "Nombre Proyecto": "Nume Proiect",
+                  "Descripción del proyecto": "Descrierea proiectului",
+                  "Escribe aquí...": "Scrie aici...",
+                  "Key Code": "Cod Cheie",
+                  "Introduzca clave": "Introduceți codul",
+                  "Fecha de finalización": "Data finalizării",
+                  "Podrá ser editada desde el apartado de Configuración": "Poate fi editată din secțiunea de Configurare",
+                  "Crear Proyecto": "Creează Proiect",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "Data de finalizare trebuie să fie ulterioară datei actuale",
+                  "Ya tienes un proyecto con ese nombre": "Ai deja un proiect cu acest nume",
+                  "Proyecto creado con éxito": "Proiect creat cu succes",
+                  "Sin Suscripción válida": "Fără abonament valid",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "Obține planul 360 pentru a crea și administra proiecte"
+                },
+                
+                    "detail-proyect": {
+                      "Creado por": "Creat de",
+                      "Carpetas": "Dosare",
+                      "participantes": "participanți",
+                      "Ver todas": "Vezi toate",
+                      "Chats": "Chat-uri",
+                      "Ver todos": "Vezi toate",
+                      "No se obtuvo las carpetas del proyecto": "Nu s-au obținut dosarele proiectului",
+                      "Sin Suscripción": "Fără abonament",
+                      "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "Obține un abonament pentru a interacționa cu proiectele la care colaborezi"
+                    },
+                  
+                    "new-folder": {
+                      "NUEVA CARPETA": "DOSAR NOU",
+                      "Añadir imagen de portada": "Adaugă imagine de copertă",
+                      "Nombre de la carpeta": "Numele dosarului",
+                      "Nombre Carpeta": "Nume Dosar",
+                      "Aceptar y continuar": "Acceptă și continuă",
+                      "Carpeta creada con éxito": "Dosar creat cu succes",
+                      "Se alcanzó el máximo de subidas permitidas": "S-a atins limita maximă de încărcări permise",
+                      "Conetenido multimedia eliminado": "Conținut multimedia eliminat",
+                      "No se pudo eliminar el contenido": "Nu s-a putut elimina conținutul",
+                      "Nuevo contenido subido correctamente": "Conținut nou încărcat cu succes",
+                      "Máximo alcanzado": "Limită maximă atinsă",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": "Obține planul 360 pentru a încărca conținut nelimitat"
+                    },
+                  
+                    "edit-project": {
+                      "EDITAR PROYECTO": "EDITARE PROIECT",
+                      "Añadir imagen": "Adaugă imagine",
+                      "Nombre": "Nume",
+                      "Nombre Proyecto": "Nume Proiect",
+                      "Descripción del proyecto": "Descrierea proiectului",
+                      "Escribe aquí...": "Scrie aici...",
+                      "Key Code": "Cod Cheie",
+                      "Introduzca clave": "Introduceți codul",
+                      "Fecha de finalización": "Data finalizării",
+                      "Podrá ser editada desde el apartado de Configuración": "Poate fi editată din secțiunea de Configurare",
+                      "Actualizar": "Actualizează",
+                      "Editar usuarios": "Editează utilizatori",
+                      "No se obtuvieron las carpetas del proyecto": "Nu s-au obținut dosarele proiectului",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "Data finalizării trebuie să fie ulterioară datei actuale",
+                      "Proyecto actualizado": "Proiect actualizat",
+                      "Proyecto indicado ya no existe": "Proiectul indicat nu mai există",
+                      "Solo el creador del proyecto puede borrarlo": "Doar creatorul proiectului îl poate șterge",
+                      "Proyecto eliminado": "Proiect șters",
+                      "Eliminar proyecto": "Ștergere proiect",
+                      "¿Estás seguro de querer eliminar el proyecto?": "Ești sigur că vrei să ștergi proiectul?",
+                      "Cancelar": "Anulează",
+                      "Aceptar": "Acceptă",
+                      "Sin Suscripción válida": "Fără abonament valid",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "Obține planul 360 pentru a crea și administra proiecte"
+                    },
+                  
+                    "edit-participants": {
+                      "MODIFICAR PARTICIPANTES": "MODIFICARE PARTICIPANȚI",
+                      "Participantes del proyecto": "Participanți ai proiectului",
+                      "Creador": "Creator",
+                      "Pendiente": "În așteptare",
+                      "Aceptar y continuar": "Acceptă și continuă",
+                      "Buscar": "Caută",
+                      "No se obtuvieron los paticipantes": "Nu s-au obținut participanții",
+                      "No se pudo obtener más usuarios": "Nu s-au putut obține mai mulți utilizatori",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "Utilizatorul selectat este deja adăugat în lista participanților",
+                      "Sin Categorías": "Fără categorii",
+                      "Usuarios asociados al proyecto": "Utilizatori asociați proiectului",
+                      "El proyecto indicado ya no existe": "Proiectul indicat nu mai există",
+                      "No se puedieron asignar los participantes": "Nu s-au putut atribui participanții",
+                      "Sin Suscripción válida": "Fără abonament valid",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "Obține planul 360 pentru a crea și administra proiecte"
+                    },
+                  
+                    "add-participants": {
+                      "AGREGAR PARTICIPANTES": "ADAUGĂ PARTICIPANȚI",
+                      "Participantes del proyecto": "Participanți ai proiectului",
+                      "Administrador": "Administrator",
+                      "Pendiente": "În așteptare",
+                      "Buscar": "Caută",
+                      "Aceptar y continuar": "Acceptă și continuă",
+                      "Tú": "Tu",
+                      "No se pudo obtener más usuarios": "Nu s-au putut obține mai mulți utilizatori",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "Utilizatorul selectat este deja adăugat în lista participanților",
+                      "Sin Categorías": "Fără categorii",
+                      "Usuarios asociados al proyecto": "Utilizatori asociați proiectului",
+                      "El proyecto indicado ya no existe": "Proiectul indicat nu mai există",
+                      "No se pudieron asignar los participantes": "Nu s-au putut atribui participanții"
+                    },
+                    
+                        "grant-permissions": {
+                          "PERMISOS DEL PROYECTO": "PERMISIUNI ALE PROIECTULUI",
+                          "Administradores actuales": "Administratori actuali",
+                          "Tú": "Tu",
+                          "Administrador": "Administrator",
+                          "Pendiente": "În așteptare",
+                          "Selecciona al usuario al que desees otorgar el rol de administrador": "Selectează utilizatorul căruia dorești să îi acorzi rolul de administrator",
+                          "Aceptar y continuar": "Acceptă și continuă",
+                          "No se obtuvieron los participantes": "Nu s-au obținut participanții",
+                          "Sin Categorías": "Fără categorii",
+                          "El usuario seleccionado ya está añadido al listado": "Utilizatorul selectat este deja adăugat în listă",
+                          "Permisos asociados": "Permisiuni asociate",
+                          "El proyecto indicado ya no existe": "Proiectul indicat nu mai există",
+                          "No se puedieron asignar los permisos": "Nu s-au putut atribui permisiunile",
+                          "Sin Suscripción válida": "Fără abonament valid",
+                          "Hazte con el plan 360 para gestionar permisos a los usuarios": "Obține planul 360 pentru a gestiona permisiunile utilizatorilor"
+                        },
+                      
+                        "add-proyect": {
+                          "quiere añadirte al proyecto": "{{name}} vrea să te adauge în proiect",
+                          "¿Deseas unirte al Workspace?": "Vrei să te alături la Workspace?",
+                          "Aceptar": "Acceptă",
+                          "Rechazar": "Respinge",
+                          "Proyecto rechazado con éxito": "Proiect respins cu succes",
+                          "El proyecto ya no se encuentra asociado a su cuenta": "Proiectul nu mai este asociat contului tău",
+                          "No se pudo rechazar el proyecto": "Nu s-a putut respinge proiectul",
+                          "Sin proyecto": "Fără proiect",
+                          "Sin Categorías": "Fără categorii",
+                          "¡Proyecto aceptado!": "Proiect acceptat!",
+                          "El proyecto ya no existe": "Proiectul nu mai există",
+                          "'El KeyCode introducido no es correcto'": "'Codul cheie introdus nu este corect'",
+                          "No se pudo verificar el usuario en el proyecto": "Nu s-a putut verifica utilizatorul în proiect",
+                          "Sin Suscripción": "Fără abonament",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Achiziționează un abonament pentru a putea accepta și respinge proiecte"
+                        },
+                      
+                        "modal-keycode": {
+                          "Key code": "Cod cheie",
+                          "Añade el código de acceso proporcionado por el administrador": "Adaugă codul de acces furnizat de administrator",
+                          "Continuar": "Continuă",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Achiziționează un abonament pentru a putea accepta și respinge proiecte",
+                          "¡Proyecto aceptado!": "Proiect acceptat!",
+                          "El proyecto ya no se encuentra asociado a su cuenta": "Proiectul nu mai este asociat contului tău",
+                          "El proyecto ya no existe": "Proiectul nu mai există",
+                          "El KeyCode introducino no es correcto": "Codul cheie introdus nu este corect",
+                          "No se pudo verificar usuario en el proyecto": "Nu s-a putut verifica utilizatorul în proiect",
+                          "Introduzca una clave para continuar": "Introduceți un cod pentru a continua"
+                        },
+                      
+                        "folders": {
+                          "CARPETAS": "DOSARE",
+                          "No se obtuvieron las carpetas del proyecto": "Nu s-au obținut dosarele proiectului"
+                        },
+                      
+                        "folder-content": {
+                          "No se obtuvo las carpetas del proyecto": "Nu s-au obținut dosarele proiectului",
+                          "Nuevo contenido subido correctamente": "Conținut nou încărcat cu succes",
+                          "No se pudo obtener las carpetas del proyecto": "Nu s-au putut obține dosarele proiectului",
+                          "Máximo alcanzado": "Limită maximă atinsă",
+                          "Hazte con el plan 360 para subir contenido de forma ilimitada": "Obține planul 360 pentru a încărca conținut nelimitat"
+                        },
+                      
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "Înapoi la conținutul multimedia"
+                        },
+                        
+                            "my-suscription": {
+                              "Mi suscripción": "Abonamentul meu",
+                              "Ver características": "Vezi caracteristicile",
+                              "Planes": "Planuri",
+                              "Pago mensual": "Plată lunară",
+                              "Pago anual (Descuento del 15%)": "Plată anuală (Reducere de 15%)",
+                              "al mes": "pe lună",
+                              "al año": "pe an",
+                              "Free": "Gratuit",
+                              "Buscador avanzado": "Căutare avansată",
+                              "Complete Workspace": "Workspace complet",
+                              "Tu plan actual": "Planul tău actual",
+                              "¡Suscripción cambiada!": "Abonament schimbat!",
+                              "Suscripción cambiada correctamente": "Abonament schimbat cu succes",
+                              "Continuar a la app": "Continuă în aplicație",
+                              "Comprar un proyecto": "Cumpără un proiect",
+                              "No se obtuvieron suscripciones": "Nu s-au obținut abonamente",
+                              "Obtener plan ": "Obține plan ",
+                              "Cambiar a plan ": "Schimbă la plan ",
+                              "Cargando...": "Se încarcă...",
+                              "Hubo un problema para cambiar": "A apărut o problemă la schimbare"
+                            },
+                          
+                            "project-checkout": {
+                              "CHECKOUT": "FINALIZARE PLATĂ",
+                              "Compra de": "Cumpărare de",
+                              "1 proyecto": "1 proiect",
+                              "Crédito o débito": "Credit sau debit",
+                              "Paypal": "Paypal",
+                              "Apple Pay": "Apple Pay",
+                              "He leído y acepto ": "Am citit și accept ",
+                              "los Términos y Condiciones de Venta": "Termenii și Condițiile de Vânzare",
+                              "¡Pago realizado!": "Plată efectuată!",
+                              "La compra de un proyecto se ha realizado correctamente": "Cumpărarea proiectului a fost realizată cu succes",
+                              "Continuar a la app": "Continuă în aplicație",
+                              "Total": "Total",
+                              "Continuar": "Continuă",
+                              "Cargando...": "Se încarcă...",
+                              "Pago cancelado por el usuario.": "Plata anulată de utilizator.",
+                              "Ocurrió un error durante la transacción de pago": "A apărut o eroare în timpul tranzacției de plată",
+                              "No se pudo realizar el pago.": "Nu s-a putut efectua plata.",
+                              "Pago cancelado.": "Plată anulată.",
+                              "Pago completado.": "Plată finalizată."
+                            },
+                          
+                            "suscription-checkout": {
+                              "CHECKOUT": "FINALIZARE PLATĂ",
+                              "Pago del ": "Plată pentru ",
+                              "Crédito o débito": "Credit sau debit",
+                              "Paypal": "Paypal",
+                              "Apple Pay": "Apple Pay",
+                              "He leído y acepto ": "Am citit și accept ",
+                              "los Términos y Condiciones de Venta": "Termenii și Condițiile de Vânzare",
+                              "¡Pago realizado!": "Plată efectuată!",
+                              "El pago de la suscripción se ha realizado correctamente": "Plata abonamentului a fost realizată cu succes",
+                              "Continuar a la app": "Continuă în aplicație",
+                              "Total": "Total",
+                              "Continuar": "Continuă",
+                              "Cargando...": "Se încarcă...",
+                              "Método de pago agregado correctamente.": "Metoda de plată adăugată cu succes.",
+                              "Ingreso de método de pago cancelado.": "Adăugarea metodei de plată anulată.",
+                              "Pago completado correctamente.": "Plată finalizată cu succes.",
+                              "Pago cancelado por el usuario.": "Plata anulată de utilizator.",
+                              "Error durante el proceso de pago.": "Eroare în timpul procesului de plată.",
+                              "Ocurrió un error durante el proceso de suscripción.": "A apărut o eroare în timpul procesului de abonare.",
+                              "Error al procesar la suscripción.": "Eroare la procesarea abonamentului.",
+                              "Error al configurar el pago con Apple Pay.": "Eroare la configurarea plății cu Apple Pay.",
+                              "No se pudo realizar el pago con Apple Pay.": "Nu s-a putut efectua plata cu Apple Pay.",
+                              "Ocurrió un error durante el proceso de pago con Apple Pay.": "A apărut o eroare în timpul plății cu Apple Pay."
+                            },
+                          
+                            "conectar": {
+                              "Conecta con": "Conectează-te cu",
+                              "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "Ai solicitat să te conectezi cu acest utilizator. Scrie un mesaj explicând de ce ai dori să lucrați împreună la un proiect.",
+                              "Escribe aquí...": "Scrie aici...",
+                              "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "Utilizatorul contactat va avea până la 24 de ore pentru a răspunde cererii tale. După expirarea acestui timp, cererea va fi respinsă automat. Prin trimiterea acestei solicitări, accepți să împărtășim informațiile tale publice în conformitate cu",
+                              "política de privacidad": "politica noastră de confidențialitate",
+                              "Conectar": "Conectează-te",
+                              "Ya hay una solicitud para ese usuario": "Există deja o cerere pentru acest utilizator",
+                              "Solicitud creada con éxito": "Solicitare creată cu succes",
+                              "Resultado desconocido": "Rezultat necunoscut",
+                              "Hubo un problema al enviar la solicitud": "A apărut o problemă la trimiterea solicitării",
+                              "El mensaje no puede estar vacio": "Mesajul nu poate fi gol"
+                            },
+                            
+                                "user-search": {
+                                  "Buscar": "Căutare",
+                                  "Ordenar": "Sortare",
+                                  "No hay resultados": "Nu există rezultate",
+                                  "conectar": "conectare",
+                                  "Sin oficio": "Fără ocupație",
+                                  "Sin opiniones": "Fără recenzii",
+                                  "opiniones": "recenzii",
+                                  "Sin ubicación actual": "Fără locație actuală",
+                                  "FOTOGRAFÍA": "FOTOGRAFIE",
+                                  "CINE / VIDEO": "CINEMATOGRAFIE / VIDEO",
+                                  "MÚSICA": "MUZICĂ",
+                                  "TEATRO": "TEATRU",
+                                  "EVENTOS": "EVENIMENTE",
+                                  "TV": "TELEVIZIUNE",
+                                  "OTROS": "ALTELE",
+                                  "FILTROS": "FILTRE",
+                                  "Restablecer": "Resetați",
+                                  "Tu ubicación": "Locația ta",
+                                  "Buscar dirección": "Căutare adresă",
+                                  "Categorías": "Categorii",
+                                  "EVENTOS Y FIESTAS": "EVENIMENTE ȘI PETRECERI",
+                                  "SIN CATEGORÍA": "FĂRĂ CATEGORIE",
+                                  "Etiquetas": "Etichete",
+                                  "Escribe palabras clave para filtrar resultados": "Introduceți cuvinte cheie pentru a filtra rezultatele",
+                                  "Escribe aquí...": "Scrie aici...",
+                                  "Rango de precio": "Gama de preț",
+                                  "Selecciona un rango de precio para filtrar resultados": "Selectați o gamă de preț pentru a filtra rezultatele",
+                                  "Rango": "Interval",
+                                  "Mínimo": "Minim",
+                                  "día": "zi",
+                                  "Máximo": "Maxim",
+                                  "Mejor valorados": "Cel mai bine evaluați",
+                                  "Más valorados": "Mai evaluați",
+                                  "Precio ascendente": "Preț ascendent",
+                                  "Precio descendente": "Preț descendent",
+                                  "No se pudo obtener listado de usuarios": "Nu s-a putut obține lista de utilizatori",
+                                  "No se pudo obtener el contador de categorías": "Nu s-a putut obține contorul de categorii",
+                                  "Sin tags": "Fără etichete",
+                                  "Ya hay una solicitud enviada pendiente de aceptar": "Există deja o cerere trimisă în așteptare",
+                                  "Resultado desconocido": "Rezultat necunoscut",
+                                  "No se pudo comprobar la existencia de la solicitud": "Nu s-a putut verifica existența cererii",
+                                  "Ya hay un Tag con ese valor": "Există deja o etichetă cu această valoare",
+                                  "El campo está vacío, no se puede crear un Tag": "Câmpul este gol, nu se poate crea o etichetă",
+                                  "Sin Suscripción válida": "Fără abonament valid",
+                                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Obțineți planul Inițial sau planul 360 pentru a accesa și contacta utilizatorii"
+                                },
+                              
+                                
+                              
+                                "Usuario o contraseña incorrectos": "Utilizator sau parolă incorectă",
+                                "El usuario ya se encuentra registrado": "Utilizatorul este deja înregistrat",
+                                "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.": "Acest cont este temporar blocat, consultați administratorii pentru mai multe informații.",
+                                "Error del servidor, inténtelo más tarde": "Eroare de server, încercați mai târziu",
+                                "Error desconocido, inténtelo más tarde": "Eroare necunoscută, încercați mai târziu",
+                              
+                                "codeErrors": {
+                                  "Usuario o contraseña incorrectos": "Utilizator sau parolă incorectă",
+                                  "El usuario ya se encuentra registrado": "Utilizatorul este deja înregistrat",
+                                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.": "Acest cont este temporar blocat, consultați administratorii pentru mai multe informații.",
+                                  "Error del servidor, inténtelo más tarde": "Eroare de server, încercați mai târziu",
+                                  "Error desconocido, inténtelo más tarde": "Eroare necunoscută, încercați mai târziu"
+                                },
+                                "buscador": {
+    "BUSCADOR": "CĂUTARE",
+    "Buscar": "Căutare",
+    "Conectar": "Conectare",
+    "No hay resultados": "Nu există rezultate",
+    "Descubre nuestro top": "Descoperă topul nostru",
+    "Los mejores profesionales muestran sus anuncios": "Cei mai buni profesioniști își prezintă anunțurile",
+    "Contacta con el éxito": "Conectează-te cu succesul",
+    "Descubre los usuarios que haran realidad tu proyecto": "Descoperă utilizatorii care îți vor transforma proiectul în realitate",
+    "Ordenar": "Sortare",
+    "conectar": "conectare",
+    "Sin oficio": "Fără ocupație",
+    "Sin opiniones": "Fără recenzii",
+    "opiniones": "recenzii",
+    "Sin ubicación actual": "Fără locație actuală",
+    "FOTOGRAFÍA": "FOTOGRAFIE",
+    "CINE / VIDEO": "CINEMATOGRAFIE / VIDEO",
+    "FILM / VÍDEO": "FILM / VIDEO",
+    "MÚSICA": "MUZICĂ",
+    "TEATRO": "TEATRU",
+    "EVENTOS": "EVENIMENTE",
+    "TV": "TELEVIZIUNE",
+    "OTROS": "ALTELE",
+    "FILTROS": "FILTRE",
+    "Restablecer": "Resetează",
+    "Tu ubicación": "Locația ta",
+    "Buscar dirección": "Caută adresă",
+    "Categorías": "Categorii",
+    "EVENTOS Y FIESTAS": "EVENIMENTE ȘI PETRECERI",
+    "SIN CATEGORÍA": "FĂRĂ CATEGORIE",
+    "Etiquetas": "Etichete",
+    "Escribe palabras clave para filtrar resultados": "Introdu cuvinte cheie pentru a filtra rezultatele",
+    "Escribe aquí...": "Scrie aici...",
+    "Rango de precio": "Interval de preț",
+    "Selecciona un rango de precio para filtrar resultados": "Selectează un interval de preț pentru a filtra rezultatele",
+    "Rango": "Interval",
+    "Mínimo": "Minim",
+    "día": "zi",
+    "Máximo": "Maxim",
+    "Mejor valorados": "Cel mai bine evaluați",
+    "Más valorados": "Cei mai evaluați",
+    "Precio ascendente": "Preț ascendent",
+    "Precio descendente": "Preț descendent",
+    "No se pudo obtener listado de usuarios": "Nu s-a putut obține lista utilizatorilor",
+    "No se pudo obtener el contador de categorías": "Nu s-a putut obține contorul de categorii",
+    "Sin tags": "Fără etichete",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Există deja o cerere trimisă în așteptare",
+    "Resultado desconocido": "Rezultat necunoscut",
+    "No se pudo comprobar la existencia de la solicitud": "Nu s-a putut verifica existența cererii",
+    "Ya hay un Tag con ese valor": "Există deja o etichetă cu această valoare",
+    "El campo está vacío, no se puede crear un Tag": "Câmpul este gol, nu se poate crea o etichetă",
+    "Sin Suscripción válida": "Fără abonament valid",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Obține planul Inițial sau planul 360 pentru a accesa și contacta utilizatorii",
+    "Texto descriptivo del anuncio especial": "Text descriptiv al anunțului special"
+},
+"buscador2": {
+    "BUSCADOR": "CĂUTARE",
+    "Buscar": "Căutare",
+    "Conectar": "Conectare",
+    "No hay resultados": "Nu există rezultate",
+    "Descubre nuestro top": "Descoperă topul nostru",
+    "Los mejores profesionales muestran sus anuncios": "Cei mai buni profesioniști își prezintă anunțurile",
+    "Contacta con el éxito": "Conectează-te cu succesul",
+    "Descubre los usuarios que haran realidad tu proyecto": "Descoperă utilizatorii care îți vor transforma proiectul în realitate",
+    "Ordenar": "Sortare",
+    "conectar": "conectare",
+    "Sin oficio": "Fără ocupație",
+    "Sin opiniones": "Fără recenzii",
+    "opiniones": "recenzii",
+    "Sin ubicación actual": "Fără locație actuală",
+    "FOTOGRAFÍA": "FOTOGRAFIE",
+    "CINE / VIDEO": "CINEMATOGRAFIE / VIDEO",
+    "FILM / VÍDEO": "FILM / VIDEO",
+    "MÚSICA": "MUZICĂ",
+    "TEATRO": "TEATRU",
+    "EVENTOS": "EVENIMENTE",
+    "TV": "TELEVIZIUNE",
+    "OTROS": "ALTELE",
+    "FILTROS": "FILTRE",
+    "Restablecer": "Resetează",
+    "Tu ubicación": "Locația ta",
+    "Buscar dirección": "Caută adresă",
+    "Categorías": "Categorii",
+    "EVENTOS Y FIESTAS": "EVENIMENTE ȘI PETRECERI",
+    "SIN CATEGORÍA": "FĂRĂ CATEGORIE",
+    "Etiquetas": "Etichete",
+    "Escribe palabras clave para filtrar resultados": "Introdu cuvinte cheie pentru a filtra rezultatele",
+    "Escribe aquí...": "Scrie aici...",
+    "Rango de precio": "Interval de preț",
+    "Selecciona un rango de precio para filtrar resultados": "Selectează un interval de preț pentru a filtra rezultatele",
+    "Rango": "Interval",
+    "Mínimo": "Minim",
+    "día": "zi",
+    "Máximo": "Maxim",
+    "Mejor valorados": "Cel mai bine evaluați",
+    "Más valorados": "Cei mai evaluați",
+    "Precio ascendente": "Preț ascendent",
+    "Precio descendente": "Preț descendent",
+    "No se pudo obtener listado de usuarios": "Nu s-a putut obține lista utilizatorilor",
+    "No se pudo obtener el contador de categorías": "Nu s-a putut obține contorul de categorii",
+    "Sin tags": "Fără etichete",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Există deja o cerere trimisă în așteptare",
+    "Resultado desconocido": "Rezultat necunoscut",
+    "No se pudo comprobar la existencia de la solicitud": "Nu s-a putut verifica existența cererii",
+    "Ya hay un Tag con ese valor": "Există deja o etichetă cu această valoare",
+    "El campo está vacío, no se puede crear un Tag": "Câmpul este gol, nu se poate crea o etichetă",
+    "Sin Suscripción válida": "Fără abonament valid",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Obține planul Inițial sau planul 360 pentru a accesa și contacta utilizatorii",
+    "Texto descriptivo del anuncio especial": "Text descriptiv al anunțului special"
+},
+"chats": {
+    "Cargando chats...": "Se încarcă chat-urile...",
+    "Buscar": "Căutare",
+    "Chats": "Chat-uri",
+    "Solicitudes": "Solicitări",
+    "Aceptar": "Acceptă",
+    "Rechazar": "Respinge",
+    ": ha enviado un PDF": ": a trimis un PDF",
+    "Tú: has enviado un PDF": "Tu: ai trimis un PDF",
+    ": ha enviado un AUDIO": ": a trimis un AUDIO",
+    "Tú: has enviado un AUDIO": "Tu: ai trimis un AUDIO",
+    ": ha enviado una imagen": ": a trimis o imagine",
+    "Tú: has enviado una imagen": "Tu: ai trimis o imagine",
+    "Sin mensajes aún": "Fără mesaje încă",
+    "No se pueden obtener los chats": "Nu se pot obține chat-urile",
+    "Borrar chat": "Șterge chat-ul",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Vrei să ștergi chat-ul ' + chat.nombre + ' ?",
+    "Cancelar": "Anulează",
+    "Borrando chat": "Se șterge chat-ul",
+    "No se ha podido borrar el chat": "Nu s-a putut șterge chat-ul",
+    "No se pudieron obtener las solicitudes": "Nu s-au putut obține solicitările",
+    "Solicitud eliminada exitósamente": "Solicitare eliminată cu succes",
+    "Resultado desconocido": "Rezultat necunoscut",
+    "No se pudo eliminar la solicitud": "Nu s-a putut elimina solicitarea",
+    "Solicitud aceptada exitósamente": "Solicitare acceptată cu succes",
+    "La solicitud ya no es valida": "Solicitarea nu mai este validă",
+    "No se pudo aceptar la solicitud": "Nu s-a putut accepta solicitarea",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: a trimis un PDF",
+    "ha enviado un AUDIO": "{{name}}: a trimis un AUDIO",
+    "ha enviado una imagen": "{{name}}: a trimis o imagine",
+    "Tú: {{mensaje}}": "Tu: {{mensaje}}",
+    "No se pueden obtener los mensajes": "Nu se pot obține mesajele",
+    "No se ha podido enviar el mensaje": "Nu s-a putut trimite mesajul",
+    "Cargando mensajes...": "Se încarcă mesajele...",
+    "Grabación finalizada": "Înregistrare finalizată",
+    "Pulse aquí para enviar": "Apasă aici pentru a trimite",
+    "No se puede obtener el archivo": "Nu se poate obține fișierul"
+},
+
+"FOTOGRAFÍA": "FOTOGRAFIE",
+"FILM / VÍDEO": "FILM / VIDEO",
+"CINE / VIDEO": "CINEMATOGRAFIE / VIDEO",
+"TV": "TELEVIZIUNE",
+"MÚSICA": "MUZICĂ",
+"EVENTOS Y FIESTAS": "EVENIMENTE ȘI PETRECERI",
+"TEATRO": "TEATRU",
+"OTROS": "ALTELE",
+"SIN CATEGORÍA": "FĂRĂ CATEGORIE",
+
+"add-participants-to-group": {
+    "AGREGAR MIEMBROS AL GRUPO DE CHAT": "ADAUGĂ MEMBRII ÎN GRUPUL DE CHAT",
+    "Nombre del grupo": "Numele grupului",
+    "Escribe aquí...": "Scrie aici...",
+    "Miembros del grupo": "Membrii grupului",
+    "Tú": "Tu",
+    "Crear grupo": "Creează grup",
+    "No se obtuvieron los participantes": "Nu s-au putut obține participanții",
+    "El usuario seleccionado ya está añadido al listado de participantes": "Utilizatorul selectat este deja adăugat în lista participanților",
+    "Sin Categorías": "Fără categorii",
+    "Introduzca un nombre para el grupo de chat": "Introduceți un nume pentru grupul de chat",
+    "¡Grupo de chat creado!": "Grup de chat creat!",
+    "No se pudo crear el grupo": "Nu s-a putut crea grupul",
+    "Debe añadir al menos un miembro al grupo de chat": "Trebuie să adăugați cel puțin un membru în grupul de chat",
+    "Sin Suscripción válida": "Fără abonament valid",
+    "Hazte con el plan 360 para crear y administrar proyectos": "Obține planul 360 pentru a crea și administra proiecte"
+},
+
+"app-chat-header": {
+    "Conectado": "Conectat",
+    "¿Desea bloquear a este usuario?": "Doriți să blocați acest utilizator?",
+    "Cancelar": "Anulează",
+    "Bloquear": "Blochează",
+    "Usuario bloqueado": "Utilizator blocat",
+    "El usuario ya se encuentra bloqueado": "Utilizatorul este deja blocat",
+    "Respuesta desconocida": "Răspuns necunoscut"
+},
+
+"app-chat-footer": {
+    "Escribe aquí...": "Scrie aici...",
+    "Grabación finalizada": "Înregistrare finalizată",
+    "Pulse aquí para enviar": "Apasă aici pentru a trimite",
+    "Se está realizando una grabación de audio": "Se efectuează o înregistrare audio",
+    "Hay un archivo de audio pendiente para enviar": "Există un fișier audio în așteptare pentru a fi trimis",
+    "Solo se permiten archivos .pdf": "Sunt permise doar fișiere .pdf",
+    "Ya hay una grabación en proceso": "Există deja o înregistrare în desfășurare"
+},
+"app-pgchat-footer": {
+    "Grabación finalizada": "Înregistrare finalizată",
+    "Pulse aquí para enviar": "Apăsați aici pentru a trimite",
+    "Se está realizando una grabación de audio": "Se realizează o înregistrare audio",
+    "Hay un archivo de audio pendiente para enviar": "Există un fișier audio în așteptare pentru a fi trimis",
+    "Solo se permiten archivos .pdf": "Sunt permise doar fișiere .pdf",
+    "Ya hay una grabación en proceso": "Există deja o înregistrare în desfășurare"
+},
+
+"app-pnchat-footer": {
+    "Grabación finalizada": "Înregistrare finalizată",
+    "Pulse aquí para enviar": "Apăsați aici pentru a trimite",
+    "Se está realizando una grabación de audio": "Se realizează o înregistrare audio",
+    "Hay un archivo de audio pendiente para enviar": "Există un fișier audio în așteptare pentru a fi trimis",
+    "Solo se permiten archivos .pdf": "Sunt permise doar fișiere .pdf",
+    "Ya hay una grabación en proceso": "Există deja o înregistrare în desfășurare"
+},
+
+"app-chat-group": {
+    "mensajes nuevos": "mesaje noi"
+},
+
+"app-pnchat-header": {
+    "Conectado": "Conectat"
+},
+
+"pnchats": {
+    "CHATS": "CHAT-URI",
+    "TODOS": "TOATE",
+    "Grupos": "Grupuri",
+    "Solicitudes": "Solicitări",
+    "Aceptar": "Acceptă",
+    "Rechazar": "Respinge",
+    ": ha enviado un PDF": ": a trimis un PDF",
+    "Tú: has enviado un PDF": "Tu: ai trimis un PDF",
+    ": ha enviado un AUDIO": ": a trimis un AUDIO",
+    "Tú: has enviado un AUDIO": "Tu: ai trimis un AUDIO",
+    ": ha enviado una imagen": ": a trimis o imagine",
+    "Tú: has enviado una imagen": "Tu: ai trimis o imagine",
+    "Sin mensajes aún": "Fără mesaje încă",
+    "No se pueden obtener los chats": "Nu se pot obține chat-urile",
+    "Borrar chat": "Șterge chat-ul",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Vrei să ștergi chat-ul ' + chat.nombre + ' ?",
+    "Cancelar": "Anulează",
+    "Borrando chat": "Se șterge chat-ul",
+    "No se ha podido borrar el chat": "Nu s-a putut șterge chat-ul",
+    "No se pudieron obtener las solicitudes": "Nu s-au putut obține solicitările",
+    "Solicitud eliminada exitósamente": "Solicitare eliminată cu succes",
+    "Resultado desconocido": "Rezultat necunoscut",
+    "No se pudo eliminar la solicitud": "Nu s-a putut elimina solicitarea",
+    "Solicitud aceptada exitósamente": "Solicitare acceptată cu succes",
+    "La solicitud ya no es valida": "Solicitarea nu mai este validă",
+    "No se pudo aceptar la solicitud": "Nu s-a putut accepta solicitarea",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: a trimis un PDF",
+    "ha enviado un AUDIO": "{{name}}: a trimis un AUDIO",
+    "ha enviado una imagen": "{{name}}: a trimis o imagine",
+    "Tú: {{mensaje}}": "Tu: {{mensaje}}",
+    "No se pueden obtener los mensajes": "Nu se pot obține mesajele",
+    "No se ha podido enviar el mensaje": "Nu s-a putut trimite mesajul",
+    "Cargando mensajes...": "Se încarcă mesajele...",
+    "Grabación finalizada": "Înregistrare finalizată",
+    "Pulse aquí para enviar": "Apăsați aici pentru a trimite",
+    "No se puede obtener el archivo": "Nu se poate obține fișierul"
+},
+
+"interior-chat": {
+    "Cargando mensajes...": "Se încarcă mesajele...",
+    "No se pueden obtener los mensajes": "Nu se pot obține mesajele",
+    "No se ha podido enviar el mensaje": "Nu s-a putut trimite mesajul"
+},
+
+"interior-pgchat": {
+    "No se ha podido enviar el mensaje": "Nu s-a putut trimite mesajul",
+    "No se pueden obtener los mensajes": "Nu se pot obține mesajele",
+    "Cargando mensajes...": "Se încarcă mesajele..."
+},
+
+"interior-pnchat": {
+    "No se ha podido enviar el mensaje": "Nu s-a putut trimite mesajul",
+    "No se pueden obtener los mensajes": "Nu se pot obține mesajele",
+    "Cargando mensajes...": "Se încarcă mesajele..."
+},
+
+"select-useroptions-modal": {
+    "Bloquear usuario": "Blochează utilizatorul",
+    "Reportar usuario": "Raportează utilizatorul"
+},
+
+
+  "add-remove-users-modal": {
+    "Listado actualizado": "Lista actualizată",
+    "No se pudo actualizar el listado": "Nu s-a putut actualiza lista",
+    "Añadir al grupo": "Adaugă în grup",
+    "Quitar del grupo": "Elimină din grup",
+    "SACAR USUARIOS DEL GRUPO": "ELIMINĂ UTILIZATORII DIN GRUP",
+    "METER USUARIOS EN GRUPO": "ADAUGĂ UTILIZATORII ÎN GRUP",
+    "Usuarios para sacar": "Utilizatori de eliminat",
+    "Usuarios para meter": "Utilizatori de adăugat"
+  },
+
+  "detail-project": {
+    "DETALLES DEL PROYECTO": "DETALIILE PROIECTULUI",
+    "Creador/a del proyecto": "Creatorul proiectului",
+    "Fecha de finalización": "Data finalizării",
+    "Participantes": "Participanți",
+    "No se obtuvo las carpetas del proyecto": "Nu s-au putut obține folderele proiectului"
+  },
+
+  "social-networks": {
+    "Nombre": "Nume",
+    "Añade un link": "Adaugă un link",
+    "Guardar cambios": "Salvează modificările",
+    "REDES SOCIALES": "REȚELE SOCIALE"
+  },
+
+  "Ver planes": "Vezi planuri",
+  "other-user": {
+    "Sin opiniones": "Fără recenzii",
+    "Quitar Favorito": "Elimină din favorite",
+    "opiniones": "recenzii",
+    "Chatear": "Chat",
+    "Conectar": "Conectează-te",
+    "Trabajos": "Locuri de muncă",
+    "Ubicaciones": "Locații",
+    "Idiomas": "Limbi",
+    "Redes sociales": "Rețele sociale",
+    "Ubicación de este usuario": "Locația acestui utilizator",
+    "Sin ubicación actual": "Fără locație actuală",
+    "Ubicaciones donde puede trabajar": "Locații unde poate lucra",
+    "Trabajos de": "Lucrările lui/ei",
+    "Guardar": "Salvează",
+    "Añadir a Favoritos": "Adaugă la favorite",
+    "Usuario Favorito": "Utilizator favorit",
+    "En Favorito": "În favorite",
+    "En favoritos": "În favorite",
+    "No se pudo obtener los datos del usuario": "Nu s-au putut obține datele utilizatorului",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Există deja o cerere trimisă în așteptarea aprobării",
+    "Resultado desconocido": "Rezultat necunoscut",
+    "No se pudo comprobar la existencia de la solicitud": "Nu s-a putut verifica existența cererii",
+    "No se pudieron obtener los trabajos": "Nu s-au putut obține locurile de muncă",
+    "No se pudieron obtener las ubicaciones": "Nu s-au putut obține locațiile",
+    "No se pudieron obtener los idiomas": "Nu s-au putut obține limbile",
+    "No se pudieron obtener las redes": "Nu s-au putut obține rețelele sociale",
+    "¿Desea bloquear a este usuario?": "Doriți să blocați acest utilizator?",
+    "cancelar": "anulează",
+    "bloquear": "blochează",
+    "Usuario bloqueado": "Utilizator blocat",
+    "El usuario ya se encuentra bloqueado": "Utilizatorul este deja blocat",
+    "Respuesta desconocida": "Răspuns necunoscut"
+  },
+
+  "add-rating": {
+    "AÑADE UNA VALORACIÓN": "ADAUGĂ O EVALUARE",
+    "¿Cómo valorarías a ": "Cum ai evalua pe ",
+    "Tu valoración ayuda a otros usuarios": "Evaluarea ta ajută alți utilizatori",
+    "¿Quieres añadir aglún comentario?": "Dorești să adaugi un comentariu?",
+    "Escribe aquí...": "Scrie aici...",
+    "No se pudo obtener los datos del usuario": "Nu s-au putut obține datele utilizatorului",
+    "Introduzca un comentario en la valoración": "Introduceți un comentariu în evaluare",
+    "¡Valoracion enviada!": "Evaluare trimisă!",
+    "Publica": "Publică",
+    "Gracias por poner tu comentario a ": "Mulțumim pentru comentariul tău despre "
+  },
+
+  "user-ratings": {
+    "VALORACIONES A ": "EVALUĂRI PENTRU ",
+    "Más recientes": "Cele mai recente",
+    "Menos recientes": "Cele mai vechi",
+    "Puntuación": "Scor",
+    "Perfil verificado": "Profil verificat",
+    "Reportar comentario": "Raportează comentariul",
+    "Añadir valoración": "Adaugă evaluare",
+    "Sin oficio": "Fără ocupație",
+    "Sin Suscripción": "Fără abonament",
+    "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+    "Abonează-te pentru a vedea evaluările tale și ale altor utilizatori",
+    "Más altas": "Cele mai mari",
+    "Más bajas": "Cele mai mici"
+  },
+
+  "select-chatoptions-modal": {
+    "Añadir usuarios": "Adaugă utilizatori",
+    "Quitar usuarios": "Elimină utilizatori",
+    "Pronombres": "Pronume"
+  },
+
+  "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "În curând vom activa această secțiune pentru ca să te poți bucura de conținutul său",
+    "Fotografía": "Fotografie",
+    "Film/vídeo": "Film/video",
+    "Cine/vídeo": "Cinema/video",
+    "Música": "Muzică",
+    "Eventos": "Evenimente",
+    "Teatro": "Teatru",
+    "Otros": "Altele",
+    "Sin categoría": "Fără categorie",
+    "Enviar valoración": "Trimite recenzia",
+    "Introduzca el nuevo lenguaje": "Introduceți noua limbă"
+
+}
+
+
+
+
+                              
+                              
+                          
+                          
+                      
+                      
+
+                  
+                  
+              
+              
+          
+          
+
+
+
+
+
+
+      
+      

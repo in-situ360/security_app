@@ -1,0 +1,382 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 10px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    //padding-bottom:20px;
+    padding-bottom: 0px !important;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  #divHeader{
+      width: 100%;
+      background-color:white;
+      padding-bottom:15px;
+    }
+
+
+  #pPartici{
+    color: #2A2A32;
+    font-family: "Poppins SemiBold";
+    margin-left: 15px;
+    font-size: 11pt;
+  }
+
+
+  .boxes {
+   // background-color: lightblue;
+   background-image: none;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 106px;
+   height: 150px;
+   position: relative;
+   margin-top: -39px;
+   margin-bottom: 4px;
+   margin-right: 8px;
+   display: flex;
+   border-radius: 12px;
+}
+
+
+
+#image {
+
+  z-index: 1;
+  width: 70px;
+  min-width: 70px;
+  height: 70px;
+  object-fit: cover;
+  flex-direction: column;
+  border-radius: 45px;
+  filter: brightness(43%);
+}
+
+.iconDelete {
+   
+
+    top: 79px;
+    position: absolute;
+    display: flex;
+    /* left: 0; */
+    /* right: 0; */
+    z-index: 99999;
+    width: 33px;
+    height: 38px;
+}
+
+.description {
+  color: #26262c;
+  font-size: 11pt;
+  font-family: Poppins Medium;
+  top: 99px;
+  position: absolute;
+  left: 0px;
+  right: 0;
+  z-index: 99999;
+  overflow: hidden; /* Oculta el texto que se desborda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis;
+}
+
+
+.subDescription{
+
+    color: #62646E;
+    font-size: 10pt;
+    font-family: Poppins Regular;
+    top: 121px;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    z-index: 99999;
+
+    overflow: hidden; /* Oculta el texto que se desborda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divSearchBar{
+
+  width: 100%;
+  background-color: white;
+  height: 89px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+ion-searchbar {
+    background-color:#F42EB2;
+    --border-radius: 23px; 
+    --icon-display: none !important;
+    --search-icon-display: none !important;
+   
+}
+
+ion-searchbar::part(icon) {
+    display: none !important;
+  }
+
+  
+  ion-searchbar {
+    .searchbar-search-icon {
+      display: none !important;
+    }
+  }
+
+#titleName{
+    font-family: "Poppins Medium";
+    font-size: 14px;
+    color: white;
+    margin-left: 17px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ion-content{
+
+    --background: none;
+    background: url(../../../assets/imgs/fondoGris.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -99;
+    width: 100vw;
+    height: 100vh;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+#mainDiv {
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:15px;
+    margin-right:15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //width: 100%;
+    //border: 1px solid #7A7B88;
+    background-color:white;
+    border-radius: 100px;
+    padding: 4px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); /* Sombra que se extiende hacia arriba y hacia abajo */
+}
+  .clicked {
+    border-color: red;
+  }
+
+  .roundedImage {
+    width: 65px; /* Adjust size as needed */
+    height: 65px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .middleContent {
+    flex-grow: 1;
+    margin: 0 15px; /* Space between image and icon */
+  }
+
+  .middleContent p {
+    margin: 5px 0; /* Space between paragraphs */
+  }
+
+  #pTitle{
+
+    font-family: 'Poppins SemiBold';
+    font-size: 11pt;
+    overflow: hidden; /* Oculta el texto que se desborda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis;
+    color:#F42EB2 !important;
+  }
+
+  .pSubTitle{
+    color:#7A7B88;
+    font-family: 'Poppins Regular';
+    font-size: 8pt;
+    overflow: hidden; /* Oculta el texto que se desborda */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis;
+    max-width: 160px;
+  }
+
+
+  .rightIcon {
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+  }
+
+
+
+
+
+
+
+
+ion-footer{
+ 
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Ajusta los valores según sea necesario */
+
+    
+}
+
+#buttonFooter{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:15px !important;
+    --background: #F42EB2;
+}
+
+#pTitle{
+  font-size: 14px;
+    font-family: 'Poppins Regular';
+    color: #313a51;
+    --margin-start:4px;
+}
+
+
+.global__list:focus-within .iconItem {
+  color: #F42EB2;
+}
+
+.global {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.global__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+  padding-top: 0px;
+}
+
+
+ion-input {
+    border: solid 1px #9da6b6;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-family: 'Poppins Regular' !important;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --padding-start: 34px;
+    border-radius: 9px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  ion-input:focus-within,
+  ion-textarea:focus-within {
+    border: solid 2px #F42EB2;
+  }
+  
+  .global__list:focus-within .iconItem {
+    color: #F42EB2;
+  }
+
+
+  .iconItem {
+    position: absolute;
+    left: 10px;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    color: #9da6b6; /* Default color */
+  }
+
+  .overlay {
+    position: fixed; /* Fija la posición en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+    z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+    pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+  }
+
+
+  .custom-footer {
+    --background: transparent;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    /* Eliminando el padding predeterminado */
+  }
+  
+  .custom-button {
+    width: calc(100% - 35px); /* Hace que el botón ocupe todo el ancho, con márgenes de 15px a los lados */
+   // margin-left: 15px;  /* Establece margen a la izquierda */
+    margin-right: 15px; /* Establece margen a la derecha */
+  }

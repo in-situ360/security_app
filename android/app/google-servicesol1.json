@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "690561641551",
+    "firebase_url": "https://app-in-situ360-default-rtdb.firebaseio.com",
+    "project_id": "app-in-situ360",
+    "storage_bucket": "app-in-situ360.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690561641551:android:67df01991c55f5cb944e3a",
+        "android_client_info": {
+          "package_name": "com.xerintel.insitu3601"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690561641551-djk6ftajtrv4svcsljutjb4kn4nqf4db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xerintel.insitu3601",
+            "certificate_hash": "9b2e3eeb81a85256a6b681cf708523b1c2f8ec13"
+          }
+        },
+        {
+          "client_id": "690561641551-nb03qu48ulmkvd7krr116n9otd9d0155.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xerintel.insitu3601",
+            "certificate_hash": "9565218c210d61035794092a26775e8ec95cc171"
+          }
+        },
+        {
+          "client_id": "690561641551-s6d61q3orbup7hoi4v50bc83qk476mje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT15HZ8ohIXJHaedmpmXi879pv8TMD7a8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690561641551-s6d61q3orbup7hoi4v50bc83qk476mje.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "690561641551-l7oef7nu4i97q02mguqssq63q2bd6fim.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.xerintel.insitu3601"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

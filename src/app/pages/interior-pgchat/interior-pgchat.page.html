@@ -1,0 +1,51 @@
+<ion-header [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <app-app-pgchat-header
+  [chatName]="chatName" 
+  [lastMessage]="lastMessage"
+  [avatar]="avatar"
+  [chat_id]="chat_id"
+  
+  >
+  <ion-back-button></ion-back-button>
+</app-app-pgchat-header>
+<div *ngIf="pdfUploadProgress.name" class="upload-container">
+  <div class="progress-label">{{ pdfUploadProgress.name }}</div>
+  <ion-progress-bar
+    [value]="pdfUploadProgress.progress / 100"
+    class="custom-progress"
+    [color]="pdfUploadProgress.completed ? 'success' : 'primary'">
+  </ion-progress-bar>
+  <div class="progress-text">
+    {{ pdfUploadProgress.completed ? '✅ Completado' : (pdfUploadProgress.progress + '%') }}
+  </div>
+</div>
+</ion-header>
+<ion-content #content  scrollEvents="true" (ionScroll)="onScroll($event)">
+
+  <app-loading [text]="loadingMessage" [color]="'dark'" *ngIf="isLoading"></app-loading>
+  
+  <app-app-pgchat-item *ngFor="let message of messages; let i = index" 
+    [icon]="message?.avatar" 
+    [text]="message?.texto"
+    [image]="message?.imagen" 
+    [archive]="message?.urlarchive" 
+    [pdfbase64]="message?.pdfbase64"  
+    [pdfdata]="message?.pdfdata" 
+    [date]="message?.created_at"
+    [urlarchiveaudio]="message?.urlarchiveaudio"
+    [audiobase64]="message?.audiobase64"
+    [id]="message?.id"
+    (longPress)="onLongPress($event)"
+   >
+  </app-app-pgchat-item>
+  
+  
+  
+</ion-content>
+<app-chat-footer id="componentFooter" 
+  [placeholder]="'Escribe tu mensaje...'"
+  (sendText)="sendMessage($event)">
+</app-chat-footer>
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

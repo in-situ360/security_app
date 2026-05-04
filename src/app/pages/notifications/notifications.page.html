@@ -1,0 +1,77 @@
+<!--<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Notificaciones</ion-title>
+    <ion-buttons (click)="goNotificationSettings()" slot="end">
+      <ion-button slot="icononly" routerLink="/notifications-settings">
+        <ion-icon src="assets/icon/ajustes-perfil.svg"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>-->
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon id="iconLeft" (click)="goBack()" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'notifications.Notificaciones' | translate }}</h5>
+  <ion-icon id="iconRight" (click)="goNotificationSettings()" src="assets/icon/ajustes-perfil.svg"></ion-icon>
+
+  <div class="notif-bottom-bar">
+  <button class="mark-all-btn" (click)="markAllRead()">
+    {{ 'Marcar todo como leído' | translate }}
+  </button>
+
+  <div class="right-group">
+    <span class="only-unread-label">
+      {{ 'Mostrar sólo no leídas' | translate }}
+    </span>
+    <ion-toggle
+      mode="ios"
+      color="primary"
+      [checked]="showOnlyUnread"
+      (ionChange)="toggleOnlyUnread($event)">
+    </ion-toggle>
+  </div>
+</div>
+
+</ion-header>
+<ion-content style="padding-left:10px; padding-right:10px;">
+  <ion-item-sliding [ngClass]="notification.read ? 'sliding-read' : 'sliding-unread'" style="background: #F42EB2; border-radius: 15pt; margin: 5% 5% 0 0; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.368627451);" *ngFor="let notification of notifications">
+    <ion-item lines="none" class="item-wrapper" detail="false" style="--padding-start: 0px;background: white; margin-bottom: 0px;" ><!---->
+      <div 
+        [ngClass]="notification.read ? 'readnotification' : 'newnotification'" 
+        id="mainDiv" 
+        (click)="selectNotification(notification)"
+      >
+        <p style="white-space: pre-line;">{{notification?.title}}</p>
+        <p style="white-space: pre-line;">{{notification?.description}}</p>
+        <p><b>{{ 'notifications.Pulsa aquí para conocer más' | translate }}</b></p>
+        <p class="notification-date">{{formatEndDate(notification?.created_at) }}</p>
+      </div>
+    </ion-item>
+
+    <ion-item-options side="end" (ionSwipe)="onFullSwipe(notification)">
+      <ion-item-option style="width: 83px; background-color: #F42EB2; color: white;" (click)="deleteNotification(notification)">
+        <ion-icon style="width:60px; height: 25px;" src="assets/icon/trash-alt.svg"></ion-icon>
+      </ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+
+ <!-- <div class="readnotification">
+    <p>¡Has recibido una valoración de un usuario! <b>Pulsa aquí para conocer más.</b></p>
+  </div>
+  <div class="readnotification">
+    <p>¡Has recibido una valoración de un usuario! <b>Pulsa aquí para conocer más.</b></p>
+  </div>
+  <div class="readnotification">
+    <p>Te recordamos que faltan 2 días para que finalice el proyecto <b>#405940.</b></p>
+  </div>-->
+  
+  
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

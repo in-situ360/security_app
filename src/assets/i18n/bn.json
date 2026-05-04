@@ -1,0 +1,1255 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "ভাষা নির্বাচন",
+      "Seleccionar idioma": "ভাষা নির্বাচন করুন",
+      "Selecciona el idioma que quieres que se muestre en la app": "অ্যাপে প্রদর্শনের জন্য ভাষা নির্বাচন করুন",
+      "Aceptar y continuar": "গ্রহণ করুন এবং চালিয়ে যান",
+      "Selecciona un idioma": "একটি ভাষা নির্বাচন করুন",
+      "Inglés": "ইংরেজি",
+      "Español": "স্প্যানিশ",
+      "Francés": "ফরাসি",
+      "Alemán": "জার্মান",
+      "Italiano": "ইতালিয়ান",
+      "Portugués": "পর্তুগিজ",
+      "Ruso": "রুশ",
+      "Chino(Simplificado)": "চীনা (সরলীকৃত)",
+      "Chino(Tradicional)": "চীনা (প্রথাগত)",
+      "Japonés": "জাপানি",
+      "Coreano": "কোরিয়ান",
+      "Árabe": "আরবি",
+      "Hindi": "হিন্দি",
+      "Bengalí": "বাংলা",
+      "Holandés": "ডাচ",
+      "Sueco": "সুইডিশ",
+      "Noruego": "নরওয়েজিয়ান",
+      "Finlandés": "ফিনিশ",
+      "Danés": "ড্যানিশ",
+      "Polaco": "পোলিশ",
+      "Turco": "তুর্কি",
+      "Griego": "গ্রিক",
+      "Checo": "চেক",
+      "Hebreo": "হিব্রু",
+      "Húngaro": "হাঙ্গেরিয়ান",
+      "Vietnamita": "ভিয়েতনামি",
+      "Indonesio": "ইন্দোনেশিয়ান",
+      "Tailandés": "থাই",
+      "Catalán": "কাতালান",
+      "Romanés": "রোমানিয়ান",
+      "Ucraniano": "ইউক্রেনীয়",
+      "Serbio": "সার্বিয়ান",
+      "Croata": "ক্রোয়েশিয়ান",
+      "Eslovaco": "স্লোভাক",
+      "Letón": "লাতভিয়ান",
+      "Estonio": "এস্তোনিয়ান"
+    },
+  
+    "cover-page": {
+      "Registro": "নিবন্ধন",
+      "Iniciar sesión": "প্রবেশ করুন"
+    },
+  
+    "login": {
+      "Iniciar sesión": "প্রবেশ করুন",
+      "Usuario": "ব্যবহারকারী",
+      "Contraseña": "পাসওয়ার্ড",
+      "He olvidado mi contraseña": "আমি আমার পাসওয়ার্ড ভুলে গেছি",
+      "Entrar": "প্রবেশ করুন",
+      "Entrar como invitado": "অতিথি হিসাবে প্রবেশ করুন",
+      "¿Aún no tienes una cuenta?": "আপনার এখনও একটি অ্যাকাউন্ট নেই?",
+      "Regístrate": "নিবন্ধন করুন",
+      "Entrando": "প্রবেশ করা হচ্ছে...",
+      "Usuario o contraseña incorrectos": "ব্যবহারকারী বা পাসওয়ার্ড ভুল",
+      "El usuario ya se encuentra registrado": "ব্যবহারকারী ইতিমধ্যে নিবন্ধিত",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "এই অ্যাকাউন্টটি অস্থায়ীভাবে ব্লক করা হয়েছে, আরও তথ্যের জন্য প্রশাসকদের সাথে যোগাযোগ করুন",
+      "Error del servidor, inténtelo más tarde": "সার্ভার ত্রুটি, পরে চেষ্টা করুন",
+      "Error desconocido, inténtelo más tarde": "অজানা ত্রুটি, পরে চেষ্টা করুন"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "পাসওয়ার্ড পুনরুদ্ধার করুন",
+      "¿Has olvidado tu contraseña?": "আপনি কি আপনার পাসওয়ার্ড ভুলে গেছেন?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "আপনার ইমেল যোগ করুন এবং আমরা আপনাকে একটি নতুন প্রবেশের চাবি পাঠাবো।",
+      "Email": "ইমেল",
+      "Enviar": "পাঠান",
+      "¡Se ha enviado el email correctamente!": "ইমেল সফলভাবে পাঠানো হয়েছে!",
+      "Error al enviar el email": "ইমেল পাঠাতে ত্রুটি"
+    },
+  
+    "register": {
+      "Registro": "নিবন্ধন",
+      "¿Cómo deseas acceder a la app?": "আপনি কীভাবে অ্যাপে প্রবেশ করতে চান?",
+      "Personal": "ব্যক্তিগত",
+      "Empresa": "প্রতিষ্ঠান",
+      "Nombre": "নাম",
+      "Nombre de representante": "প্রতিনিধির নাম",
+      "Apellido 1": "প্রথম উপাধি",
+      "Apellido 2": "দ্বিতীয় উপাধি",
+      "Email": "ইমেল",
+      "Contraseña": "পাসওয়ার্ড",
+      "Repetir Contraseña": "পাসওয়ার্ড পুনরাবৃত্তি করুন",
+      "He leído y acepto": "আমি পড়েছি এবং গ্রহণ করেছি",
+      "la Política de Privacidad": "গোপনীয়তা নীতি",
+      "los Términos y Condiciones de Venta": "বিক্রির শর্তাবলী",
+      "Registrarme": "নিবন্ধন করুন",
+      "¿Ya estás registrado?": "আপনি কি ইতিমধ্যে নিবন্ধিত?",
+      "Accede aquí": "এখানে প্রবেশ করুন",
+      "El email es obligatorio": "ইমেল আবশ্যক",
+      "El email no es válido": "ইমেল বৈধ নয়",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "ইমেলের একটি বৈধ এক্সটেনশন থাকা উচিত (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "ডোমেন অনুমোদিত নয় বা এটি অবৈধ অক্ষর রয়েছে",
+      "La contraseña es obligatoria": "পাসওয়ার্ড আবশ্যক",
+      "La contraseña debe tener al menos 8 caracteres": "পাসওয়ার্ড কমপক্ষে ৮ অক্ষরের হতে হবে",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "পাসওয়ার্ডে অবশ্যই একটি বড় হাতের অক্ষর, একটি সংখ্যা এবং একটি বিশেষ অক্ষর থাকতে হবে",
+      "Las contraseñas no coinciden": "পাসওয়ার্ডগুলি মিলছে না",
+      "Registrando usuario": "ব্যবহারকারী নিবন্ধিত হচ্ছে...",
+"Por favor, revisa los campos con errores antes de continuar": "অনুগ্রহ করে চালিয়ে যাওয়ার আগে ত্রুটিযুক্ত ক্ষেত্রগুলি পর্যালোচনা করুন",
+      "El nombre es obligatorio": "নাম অবশ্যই দিতে হবে",
+      "El nombre debe tener al menos 3 caracteres": "নামের অন্তত ৩টি অক্ষর থাকতে হবে"    },
+
+
+    
+      
+    
+      "¡Pago realizado!": "অর্থপ্রদান সফল হয়েছে!",
+      "El pago de la suscripción se ha realizado correctamente": "সদস্যতার অর্থপ্রদান সফলভাবে সম্পন্ন হয়েছে",
+    
+      "Sin opiniones": "কোনো মতামত নেই",
+      "opinión": "মতামত",
+      "opiniones": "মতামতসমূহ",
+      "Eliminar chat": "চ্যাট মুছুন",
+    
+      "Cancelar": "বাতিল করুন",
+      "Advertencia": "সতর্কতা",
+      "¿Estás seguro de eliminar el chat?": "আপনি কি নিশ্চিত যে চ্যাট মুছে ফেলতে চান?",
+      "Aceptar": "গ্রহণ করুন",
+      "Chat borrado con éxito": "চ্যাট সফলভাবে মুছে ফেলা হয়েছে",
+      "No se pudo borrar el chat": "চ্যাট মুছতে ব্যর্থ হয়েছে",
+      "Contenido de": "এর বিষয়বস্তু",
+      "Sin seleccionar": "কিছু নির্বাচন করা হয়নি",
+      "1 archivo seleccionado": "১টি ফাইল নির্বাচন করা হয়েছে",
+      " archivos seleccionados": "টি ফাইল নির্বাচন করা হয়েছে",
+      "Archivos eliminados": "ফাইলগুলি মুছে ফেলা হয়েছে",
+      "No se pudieron borrar los archivos": "ফাইলগুলি মুছতে ব্যর্থ হয়েছে",
+      "Suscripción necesaria": "সদস্যতা প্রয়োজন",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "অন্যান্য ব্যবহারকারীদের মূল্যায়ন দেখতে হলে প্ল্যান I-এর চেয়ে উচ্চতর সদস্যতা নিন",
+      "Activos": "সক্রিয়",
+      "Finalizados": "সমাপ্ত",
+      "Mis proyectos": "আমার প্রকল্প",
+      "Colaboraciones": "সহযোগিতা",
+      "Subir sin editar": "সম্পাদনা ছাড়াই আপলোড করুন",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "ফাইল অনুমোদিত সর্বোচ্চ আকার (২.৫MB) অতিক্রম করেছে।",
+    
+    
+    
+        "finish-profile": {
+          "Seleccione al menos una categoría": "কমপক্ষে একটি বিভাগ নির্বাচন করুন",
+"La profesión es obligatoria": "পেশা আবশ্যক",
+"La ubicación es obligatoria": "অবস্থান আবশ্যক",
+          "COMPLETAR PERFIL": "প্রোফাইল সম্পূর্ণ করুন",
+          "No mostrar mi perfil en el buscador": "আমার প্রোফাইল অনুসন্ধানে দেখাবেন না",
+          "Nombre": "নাম",
+          "Apellido 1": "প্রথম উপাধি",
+          "Apellido 2": "দ্বিতীয় উপাধি",
+          "Nombre de representante": "প্রতিনিধির নাম",
+          "Fecha de nacimiento": "জন্ম তারিখ",
+          "Este detalle no se mostrará de forma pública": "এই বিবরণটি সর্বজনীনভাবে প্রদর্শিত হবে না",
+          "Género": "লিঙ্গ",
+          "Seleccione una opción": "একটি বিকল্প নির্বাচন করুন",
+          "Hombre": "পুরুষ",
+          "Mujer": "মহিলা",
+          "Otro": "অন্যান্য",
+          "Profesión": "পেশা",
+          "Escribe aquí…": "এখানে লিখুন…",
+          "Categoría de trabajo": "কাজের বিভাগ",
+          "Salario": "বেতন",
+          "Selecciona un rango de salario": "বেতনের সীমা নির্বাচন করুন",
+          "Precio seleccionado:": "নির্বাচিত মূল্য:",
+          "Se mostrará como:": "এটি প্রদর্শিত হবে:",
+          "Tags": "ট্যাগ",
+          "Escribe las palabras clave para describir tu empleo": "আপনার কাজ বর্ণনা করতে কীওয়ার্ড লিখুন",
+          "Descripción": "বর্ণনা",
+          "Guardar cambios": "পরিবর্তন সংরক্ষণ করুন",
+          "Escribe aquí": "এখানে লিখুন",
+          "Escribe aquí...": "এখানে লিখুন...",
+          "día": "দিন",
+          "Él": "তিনি",
+          "Ella": "তিনি (নারী)",
+          "Elle": "তারা",
+          "Añade tus pronombres": "আপনার সর্বনাম যোগ করুন",
+          "Introduzca el pronombre con el que se identifique": "আপনার পরিচয় নিশ্চিত করতে সর্বনাম লিখুন",
+          "El nombre es obligatorio": "নাম আবশ্যক",
+          "El apellido 1 es obligatorio": "প্রথম উপাধি আবশ্যক",
+          "Introduzca una fecha válida": "একটি বৈধ তারিখ লিখুন",
+          "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "যদি আপনি সর্বনাম যোগ করেন, তবে অন্তত একটি সর্বনাম লিখতে হবে",
+          "Debes seleccionar un género": "আপনাকে একটি লিঙ্গ নির্বাচন করতে হবে",
+          "Error obteniendo el usuario": "ব্যবহারকারী তথ্য লোড করতে ত্রুটি",
+          "Usuario actualizado correctamente": "ব্যবহারকারী সফলভাবে আপডেট হয়েছে",
+          "Ya hay un Tag con ese valor": "এই মানের সাথে একটি ট্যাগ ইতিমধ্যে আছে",
+          "El campo está vacío, no se puede crear un Tag": "ঘরটি খালি, একটি ট্যাগ তৈরি করা সম্ভব নয়",
+          "Por favor, revisa los campos con errores antes de continuar": "চালিয়ে যাওয়ার আগে ত্রুটিযুক্ত ঘরগুলি পর্যালোচনা করুন",
+          "Ya hay un Pronombre con ese valor": "এই মানের সাথে একটি সর্বনাম ইতিমধ্যে আছে",
+          "El campo está vacío, no se puede crear un Pronombre": "ঘরটি খালি, একটি সর্বনাম তৈরি করা সম্ভব নয়"
+        },
+      
+        "settings": {
+          "CONFIGURACIÓN": "কনফিগারেশন",
+          "Configurar mi cuenta": "আমার অ্যাকাউন্ট কনফিগার করুন",
+          "Mis métodos de pago": "আমার অর্থপ্রদানের পদ্ধতি",
+          "Destacar mi perfil": "আমার প্রোফাইল হাইলাইট করুন",
+          "Mi suscripción": "আমার সাবস্ক্রিপশন",
+          "Mis anuncios": "আমার বিজ্ঞাপন",
+          "Estadísticas": "পরিসংখ্যান",
+          "Usuarios bloqueados": "ব্লক করা ব্যবহারকারীরা",
+          "Idioma de la app": "অ্যাপের ভাষা",
+          "Contacta con nosotros": "আমাদের সাথে যোগাযোগ করুন",
+          "FAQ": "প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী",
+          "Política de Privacidad": "গোপনীয়তা নীতি",
+          "Términos y Condiciones de venta": "বিক্রির শর্তাবলী",
+          "Cerrar sesión": "লগ আউট",
+          "Eliminar cuenta": "অ্যাকাউন্ট মুছে ফেলুন",
+          "¿Estás seguro de querer cerrar sesión?": "আপনি কি লগ আউট করতে নিশ্চিত?",
+          "Aceptar": "গ্রহণ করুন",
+          "Cancelar": "বাতিল করুন",
+          "Advertencia": "সতর্কতা",
+          "¿Estás seguro de querer eliminar tu cuenta?": "আপনি কি আপনার অ্যাকাউন্ট মুছে ফেলতে নিশ্চিত?",
+          "Cuenta eliminada satisfactoriamente": "অ্যাকাউন্ট সফলভাবে মুছে ফেলা হয়েছে",
+          "Hubo problemas para borrar la cuenta de usuario": "ব্যবহারকারীর অ্যাকাউন্ট মুছে ফেলতে সমস্যা হয়েছে"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "আমার অ্যাকাউন্ট কনফিগার করুন",
+          "Nombre de usuario": "ব্যবহারকারীর নাম",
+          "Email": "ইমেল",
+          "Contraseña": "পাসওয়ার্ড",
+          "Repetir contraseña": "পাসওয়ার্ড পুনরাবৃত্তি করুন",
+          "Guardar cambios": "পরিবর্তন সংরক্ষণ করুন",
+          "Error obteniendo el usuario": "ব্যবহারকারী তথ্য লোড করতে ত্রুটি",
+          "Cuenta de usuario actualizada": "ব্যবহারকারীর অ্যাকাউন্ট আপডেট হয়েছে",
+          "El nombre es obligatorio": "নাম আবশ্যক",
+          "El nombre debe tener al menos 3 caracteres": "নামের অন্তত ৩ টি অক্ষর থাকা আবশ্যক",
+          "El email es obligatorio": "ইমেল আবশ্যক",
+          "El email no es válido": "ইমেল বৈধ নয়",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "ইমেলের একটি বৈধ এক্সটেনশন থাকতে হবে (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "ডোমেন অনুমোদিত নয় বা এটি অবৈধ অক্ষর রয়েছে",
+          "La contraseña es obligatoria": "পাসওয়ার্ড আবশ্যক",
+          "La contraseña debe tener al menos 8 caracteres": "পাসওয়ার্ড কমপক্ষে ৮ অক্ষরের হতে হবে",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "পাসওয়ার্ডে অবশ্যই একটি বড় হাতের অক্ষর, একটি সংখ্যা এবং একটি বিশেষ অক্ষর থাকতে হবে",
+          "Las contraseñas no coinciden": "পাসওয়ার্ডগুলি মিলছে না"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "বিক্রির শর্তাবলী"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "গোপনীয়তা নীতি"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "আমাদের সাথে যোগাযোগ করুন",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "আপনার কি কোনো প্রশ্ন আছে? কোনো পরামর্শ?",
+          "¡Estamos deseando escucharte!": "আমরা আপনার কথা শুনতে আগ্রহী!",
+          "Nombre": "নাম",
+          "Apellidos": "উপাধি",
+          "Email": "ইমেল",
+          "Categoría": "বিভাগ",
+          "Atención al cliente": "গ্রাহক সেবা",
+          "Soporte": "সমর্থন",
+          "Solicitud": "অনুরোধ",
+          "Enviar solicitud": "অনুরোধ পাঠান",
+          "Solicitud de contacto creada con éxito": "যোগাযোগ অনুরোধ সফলভাবে তৈরি হয়েছে",
+          "Hubo un problema al enviar la solicitud de contacto": "যোগাযোগ অনুরোধ পাঠাতে সমস্যা হয়েছে",
+          "Rellene todos los campos para enviar la solicitud de contacto": "যোগাযোগ অনুরোধ পাঠানোর জন্য সমস্ত ঘর পূরণ করুন",
+          "Escribe aquí...": "এখানে লিখুন...",
+          "Adquiera plan válido": "একটি বৈধ পরিকল্পনা গ্রহণ করুন",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Insitu টিমের সাথে যোগাযোগ করতে PlanS বা Plan360 গ্রহণ করুন"
+        },
+        
+            "faq": {
+              "FAQ": "প্রশ্ন ও উত্তর",
+              "Ir a la página ": "পৃষ্ঠা দেখুন "
+            },
+          
+            "ban-users": {
+              "USUARIOS BLOQUEADOS": "ব্লক করা ব্যবহারকারীরা",
+              "No se pudo obtener el listado de usuarios bloqueados": "ব্লক করা ব্যবহারকারীদের তালিকা পাওয়া যায়নি",
+              "¿Desea desbloquear a este usuario?": "আপনি কি এই ব্যবহারকারীর ব্লক খুলতে চান?",
+              "Cancelar": "বাতিল করুন",
+              "Desbloquear": "ব্লক খুলুন",
+              "Usuario desbloqueado": "ব্যবহারকারী ব্লক মুক্ত হয়েছে",
+              "El usuario ya no se encuentra bloqueado": "ব্যবহারকারী আর ব্লক করা নেই",
+              "Respuesta desconocida": "অজানা প্রতিক্রিয়া"
+            },
+          
+            "suscription-detail": {
+              "Características": "বৈশিষ্ট্য",
+              "Plan I": "পরিকল্পনা I",
+              "al mes": "প্রতি মাসে",
+              "Plan S": "পরিকল্পনা S",
+              "Plan 360": "পরিকল্পনা 360",
+              "Búsqueda ilimitada": "অসীম অনুসন্ধান",
+              "Completa tu perfil": "আপনার প্রোফাইল সম্পূর্ণ করুন",
+              "Obtén reseñas verificadas": "যাচাইকৃত পর্যালোচনা পান",
+              "Forma parte de proyecto": "প্রকল্পের অংশ হন",
+              "Incluido lo relativo al plan I": "পরিকল্পনা I এর অন্তর্ভুক্ত",
+              "Contacta con profesionales": "পেশাদারদের সাথে যোগাযোগ করুন",
+              "Filtros de búsqueda Premium": "প্রিমিয়াম অনুসন্ধান ফিল্টার",
+              "Visualiza todos los perfiles": "সমস্ত প্রোফাইল দেখুন",
+              "Aumenta tu visibilidad": "আপনার দৃশ্যমানতা বাড়ান",
+              "Métricas avanzadas": "উন্নত মেট্রিক্স",
+              "Incluido lo relativo al plan S": "পরিকল্পনা S এর অন্তর্ভুক্ত",
+              "Crear y administrar proyectos": "প্রকল্প তৈরি ও পরিচালনা করুন",
+              "Gestiona poderes a tu equipo": "আপনার দলের ক্ষমতা পরিচালনা করুন",
+              "Almacenamiento ilimitado de proyectos": "অসীম প্রকল্প সংরক্ষণ",
+              "Creación de chat grupales": "গ্রুপ চ্যাট তৈরি করুন",
+              "Calendario compartido": "শেয়ার করা ক্যালেন্ডার"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "কাজ",
+              "No se pudo obtener los trabajos": "কাজের তথ্য পাওয়া যায়নি",
+              "¿Desea eliminar la imagen?": "আপনি কি ছবিটি মুছতে চান?",
+              "No": "না",
+              "Sí": "হ্যাঁ",
+              "Hubo un problema al borrar": "মুছতে সমস্যা হয়েছে",
+              "¿Desea ajustar la imagen antes de que sea subida?": "আপনি কি আপলোড করার আগে ছবিটি সামঞ্জস্য করতে চান?",
+              "Subir imagen": "ছবি আপলোড করুন",
+              "No se pudo crear el trabajo": "কাজ তৈরি করা যায়নি",
+              "Ajustar imagen": "ছবি সামঞ্জস্য করুন",
+              "Cancelar Subida": "আপলোড বাতিল করুন"
+            },
+          
+            "languages": {
+              "IDIOMAS": "ভাষা",
+              "Idiomas": "ভাষা",
+              "Añadir otro idioma": "অন্য ভাষা যোগ করুন",
+              "Añadir otro lenguaje": "অন্য ভাষা যোগ করুন",
+              "Guardar cambios": "পরিবর্তন সংরক্ষণ করুন",
+              "No se pudo obtener los idiomas": "ভাষার তথ্য পাওয়া যায়নি"
+            },
+          
+            "locations": {
+              "UBICACIONES": "অবস্থান",
+              "Tu ubicación": "আপনার অবস্থান",
+              "Buscar dirección": "ঠিকানা অনুসন্ধান করুন",
+              "Ubicaciones donde puedes trabajar": "যে অবস্থানে আপনি কাজ করতে পারেন",
+              "Ubicación": "অবস্থান",
+              "Añadir otra ubicación": "অন্য একটি অবস্থান যোগ করুন",
+              "Guardar cambios": "পরিবর্তন সংরক্ষণ করুন",
+              "No se pudo obtener las ubicaciones": "অবস্থানের তথ্য পাওয়া যায়নি"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "ট্যাগের তথ্য পাওয়া যায়নি",
+              "TAGS": "ট্যাগসমূহ"
+            },
+          
+            "my-profile": {
+              "Trabajos": "কাজ",
+              "Ubicaciones": "অবস্থান",
+              "Idiomas": "ভাষা",
+              "Redes sociales": "সোশ্যাল মিডিয়া",
+              "Editar": "সম্পাদনা করুন",
+              "Tu ubicación": "আপনার অবস্থান",
+              "Sin ubicación actual": "বর্তমানে কোনো অবস্থান নেই",
+              "Ubicaciones donde puede trabajar": "যে অবস্থানে তিনি কাজ করতে পারেন",
+              "Trabajos de": "এর কাজ",
+              "Sin opiniones": "কোনও পর্যালোচনা নেই",
+              "opiniones": "পর্যালোচনা",
+              "Sin Suscripción": "কোনও সাবস্ক্রিপশন নেই",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "সম্পূর্ণ অ্যাপ ব্যবহারের জন্য একটি সাবস্ক্রিপশন নিন এবং সর্বোচ্চ সুবিধা নিন",
+              "Error obteniendo el usuario": "ব্যবহারকারী তথ্য লোড করতে সমস্যা হয়েছে",
+              "No se pudieron obtener los trabajos": "কাজের তথ্য পাওয়া যায়নি",
+              "No se pudieron obtener las ubicaciones": "অবস্থানের তথ্য পাওয়া যায়নি",
+              "No se pudieron obtener los idiomas": "ভাষার তথ্য পাওয়া যায়নি",
+              "No se pudieron obtener las etiquetas": "ট্যাগের তথ্য পাওয়া যায়নি",
+              "No se pudieron obtener las redes": "সোশ্যাল মিডিয়ার তথ্য পাওয়া যায়নি"
+            },
+          
+            "home": {
+              "Descubre nuestro top": "আমাদের সেরা আবিষ্কার করুন",
+              "Los mejores profesionales muestran sus anuncios": "সেরা পেশাদাররা তাদের বিজ্ঞাপন প্রদর্শন করেন",
+              "Logan descriptivo de anuncio especial": "বিশেষ বিজ্ঞাপনের বিবরণী লোগান",
+              "Contacta con el éxito": "সফলতার সাথে যোগাযোগ করুন",
+              "Descubre los usuarios que harán realidad tu proyecto": "যে ব্যবহারকারীরা আপনার প্রকল্প বাস্তবায়ন করবে তাদের আবিষ্কার করুন"
+            },
+          
+            "notifications": {
+              "Notificaciones": "বিজ্ঞপ্তি",
+              "Pulsa aquí para conocer más": "আরও জানতে এখানে ক্লিক করুন",
+              "No se pudo obtener las notificaciones": "বিজ্ঞপ্তির তথ্য পাওয়া যায়নি",
+              "No se pudo obtener los datos del usuario": "ব্যবহারকারীর তথ্য পাওয়া যায়নি",
+              "No se pudo obtener las carpetas del proyecto": "প্রকল্পের ফোল্ডারের তথ্য পাওয়া যায়নি"
+            },
+            
+                "notifications-settings": {
+                  "CONFIGURACIÓN DE NOTIFICACIONES": "বিজ্ঞপ্তির কনফিগারেশন",
+                  "Valoraciones recibidas": "গৃহীত মূল্যায়ন",
+                  "Solicitudes de chat": "চ্যাট অনুরোধ",
+                  "Solicitud de chat aceptada": "চ্যাট অনুরোধ গৃহীত হয়েছে",
+                  "Solicitudes de proyecto": "প্রকল্প অনুরোধ",
+                  "Nuevas carpetas en el proyecto": "প্রকল্পে নতুন ফোল্ডার",
+                  "Chats de proyecto": "প্রকল্প চ্যাট",
+                  "Fecha previa al fin del proyecto": "প্রকল্প শেষ হওয়ার পূর্ববর্তী তারিখ",
+                  "Fecha de fin del proyecto": "প্রকল্পের শেষ তারিখ",
+                  "No se pudo obtener los datos del usuario": "ব্যবহারকারীর তথ্য লোড করা যায়নি",
+                  "No se pudo actualizar los permisos del usuario": "ব্যবহারকারীর অনুমতি আপডেট করা যায়নি"
+                },
+              
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "আপনি কী রিপোর্ট করতে চান তা জানান",
+                  "Reportar mensajes": "বার্তা রিপোর্ট করুন",
+                  "Desnudos o actividad sexual": "নগ্নতা বা যৌন কার্যকলাপ",
+                  "Lenguaje o símbolos que incitan al odio": "ঘৃণার ভাষা বা প্রতীক",
+                  "Estafa o fraude": "প্রতারণা বা জালিয়াতি",
+                  "Violencia u organizaciones peligrosas": "হিংসা বা বিপজ্জনক সংস্থা",
+                  "Venta de bienes ilegales o regulados": "অবৈধ বা নিয়ন্ত্রিত পণ্য বিক্রয়",
+                  "Bullying o acoso": "বুলি বা হয়রানি",
+                  "Infracción de la propiedad intelectual": "বুদ্ধিবৃত্তিক সম্পত্তির লঙ্ঘন",
+                  "Suicidio o autolesiones": "আত্মহত্যা বা আত্ম-ক্ষতি",
+                  "Spam": "স্প্যাম",
+                  "El problema no aparece en la lista": "সমস্যাটি তালিকায় নেই",
+                  "Usuario o contraseña incorrectos": "ব্যবহারকারী নাম বা পাসওয়ার্ড ভুল",
+                  "El usuario ya se encuentra registrado": "ব্যবহারকারী ইতিমধ্যে নিবন্ধিত",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "এই অ্যাকাউন্টটি সাময়িকভাবে ব্লক করা হয়েছে, আরও তথ্যের জন্য প্রশাসকের সাথে যোগাযোগ করুন",
+                  "Error del servidor, inténtelo más tarde": "সার্ভার ত্রুটি, পরে আবার চেষ্টা করুন",
+                  "Error desconocido, inténtelo más tarde": "অজানা ত্রুটি, পরে আবার চেষ্টা করুন",
+                  "Enviar reporte": "রিপোর্ট পাঠান",
+                  "No se pudo reportar al usuario": "ব্যবহারকারীকে রিপোর্ট করা যায়নি",
+                  "Usuario reportado": "ব্যবহারকারী রিপোর্ট হয়েছে",
+                  "Debe seleccionar un motivo de reporte": "একটি রিপোর্টের কারণ নির্বাচন করতে হবে"
+                },
+              
+                
+              
+                "workspace": {
+                  "Colaboraciones": "সহযোগিতা",
+                  "Mis proyectos": "আমার প্রকল্প",
+                  "Estado del proyecto": "প্রকল্পের অবস্থা",
+                  "Seleccione": "নির্বাচন করুন",
+                  "Todos": "সব",
+                  "Activos": "সক্রিয়",
+                  "Finalizados": "সমাপ্ত",
+                  "participantes": "অংশগ্রহণকারী",
+                  "No se pudo obtener las colaboraciones de proyecto": "প্রকল্পের সহযোগিতা লোড করা যায়নি",
+                  "No se pudo obtener el listado de proyectos": "প্রকল্পের তালিকা লোড করা যায়নি"
+                },
+              
+                "modal-filt-text": {
+                  "Filtro de nombre": "নামের ফিল্টার",
+                  "Introduzca el nombre del proyecto": "প্রকল্পের নাম লিখুন",
+                  "Nombre de proyecto": "প্রকল্পের নাম",
+                  "Continuar": "চালিয়ে যান"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "নতুন প্রকল্প তৈরি করুন",
+                  "Añadir imagen": "ছবি যোগ করুন",
+                  "Nombre": "নাম",
+                  "Nombre Proyecto": "প্রকল্পের নাম",
+                  "Descripción del proyecto": "প্রকল্পের বিবরণ",
+                  "Escribe aquí...": "এখানে লিখুন...",
+                  "Key Code": "কী কোড",
+                  "Introduzca clave": "কী কোড লিখুন",
+                  "Fecha de finalización": "শেষ হওয়ার তারিখ",
+                  "Podrá ser editada desde el apartado de Configuración": "এটি কনফিগারেশন বিভাগ থেকে সম্পাদনা করা যাবে",
+                  "Crear Proyecto": "প্রকল্প তৈরি করুন",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "শেষ হওয়ার তারিখ অবশ্যই বর্তমান তারিখের পর হতে হবে",
+                  "Ya tienes un proyecto con ese nombre": "এই নামে আপনার একটি প্রকল্প ইতিমধ্যেই রয়েছে",
+                  "Proyecto creado con éxito": "প্রকল্প সফলভাবে তৈরি হয়েছে",
+                  "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "প্রকল্প তৈরি ও পরিচালনার জন্য প্ল্যান ৩৬০ নিন"
+                },
+              
+                "detail-proyect": {
+                  "Creado por": "তৈরি করেছেন",
+                  "Carpetas": "ফোল্ডার",
+                  "participantes": "অংশগ্রহণকারী",
+                  "Ver todas": "সব দেখুন",
+                  "Chats": "চ্যাট",
+                  "Ver todos": "সব দেখুন",
+                  "No se obtuvo las carpetas del proyecto": "প্রকল্পের ফোল্ডার পাওয়া যায়নি",
+                  "Sin Suscripción": "সাবস্ক্রিপশন নেই",
+                  "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "আপনার অংশগ্রহণকৃত প্রকল্পগুলোর সাথে সংযোগ করতে একটি সাবস্ক্রিপশন নিন"
+                },
+                
+                    "new-folder": {
+                      "NUEVA CARPETA": "নতুন ফোল্ডার",
+                      "Añadir imagen de portada": "কভার চিত্র যোগ করুন",
+                      "Nombre de la carpeta": "ফোল্ডারের নাম",
+                      "Nombre Carpeta": "ফোল্ডারের নাম",
+                      "Aceptar y continuar": "গ্রহণ করুন এবং চালিয়ে যান",
+                      "Carpeta creada con éxito": "ফোল্ডার সফলভাবে তৈরি হয়েছে",
+                      "Se alcanzó el máximo de subidas permitidas": "আপলোডের সর্বোচ্চ সীমা অতিক্রম হয়েছে",
+                      "Conetenido multimedia eliminado": "মাল্টিমিডিয়া সামগ্রী মোছা হয়েছে",
+                      "No se pudo eliminar el contenido": "সামগ্রী মোছা যায়নি",
+                      "Nuevo contenido subido correctamente": "নতুন সামগ্রী সফলভাবে আপলোড হয়েছে",
+                      "Máximo alcanzado": "সর্বোচ্চ সীমা অতিক্রম হয়েছে",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": "সীমাহীন আপলোডের জন্য প্ল্যান ৩৬০ গ্রহণ করুন"
+                    },
+                  
+                    "edit-project": {
+                      "EDITAR PROYECTO": "প্রকল্প সম্পাদনা করুন",
+                      "Añadir imagen": "ছবি যোগ করুন",
+                      "Nombre": "নাম",
+                      "Nombre Proyecto": "প্রকল্পের নাম",
+                      "Descripción del proyecto": "প্রকল্পের বিবরণ",
+                      "Escribe aquí...": "এখানে লিখুন...",
+                      "Key Code": "কী কোড",
+                      "Introduzca clave": "কী কোড লিখুন",
+                      "Fecha de finalización": "শেষ হওয়ার তারিখ",
+                      "Podrá ser editada desde el apartado de Configuración": "এটি কনফিগারেশন থেকে সম্পাদনা করা যাবে",
+                      "Actualizar": "আপডেট করুন",
+                      "Editar usuarios": "ব্যবহারকারী সম্পাদনা করুন",
+                      "No se obtuvieron las carpetas del proyecto": "প্রকল্পের ফোল্ডার পাওয়া যায়নি",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "শেষ হওয়ার তারিখ অবশ্যই বর্তমান তারিখের পর হতে হবে",
+                      "Proyecto actualizado": "প্রকল্প আপডেট হয়েছে",
+                      "Proyecto indicado ya no existe": "নির্দিষ্ট প্রকল্পটি আর বিদ্যমান নেই",
+                      "Solo el creador del proyecto puede borrarlo": "শুধুমাত্র প্রকল্প নির্মাতা এটি মুছতে পারেন",
+                      "Proyecto eliminado": "প্রকল্প মোছা হয়েছে",
+                      "Eliminar proyecto": "প্রকল্প মোছা",
+                      "¿Estás seguro de querer eliminar el proyecto?": "আপনি কি প্রকল্পটি মুছতে চান?",
+                      "Cancelar": "বাতিল করুন",
+                      "Aceptar": "গ্রহণ করুন",
+                      "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "প্রকল্প তৈরি ও পরিচালনার জন্য প্ল্যান ৩৬০ নিন"
+                    },
+                  
+                    "edit-participants": {
+                      "MODIFICAR PARTICIPANTES": "অংশগ্রহণকারী পরিবর্তন করুন",
+                      "Participantes del proyecto": "প্রকল্পের অংশগ্রহণকারী",
+                      "Creador": "সৃষ্টিকর্তা",
+                      "Pendiente": "অপেক্ষমাণ",
+                      "Aceptar y continuar": "গ্রহণ করুন এবং চালিয়ে যান",
+                      "Buscar": "অনুসন্ধান করুন",
+                      "No se obtuvieron los paticipantes": "অংশগ্রহণকারীদের তালিকা লোড করা যায়নি",
+                      "No se pudo obtener más usuarios": "আরও ব্যবহারকারী পাওয়া যায়নি",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "নির্বাচিত ব্যবহারকারী ইতিমধ্যেই অংশগ্রহণকারীদের তালিকায় রয়েছে",
+                      "Sin Categorías": "কোনো বিভাগ নেই",
+                      "Usuarios asociados al proyecto": "প্রকল্পের সাথে যুক্ত ব্যবহারকারীরা",
+                      "El proyecto indicado ya no existe": "নির্দিষ্ট প্রকল্পটি বিদ্যমান নেই",
+                      "No se puedieron asignar los participantes": "অংশগ্রহণকারী যুক্ত করা যায়নি",
+                      "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "প্রকল্প তৈরি ও পরিচালনার জন্য প্ল্যান ৩৬০ নিন"
+                    },
+                  
+                    "add-participants": {
+                      "AGREGAR PARTICIPANTES": "অংশগ্রহণকারী যোগ করুন",
+                      "Participantes del proyecto": "প্রকল্পের অংশগ্রহণকারী",
+                      "Administrador": "অ্যাডমিন",
+                      "Pendiente": "অপেক্ষমাণ",
+                      "Buscar": "অনুসন্ধান করুন",
+                      "Aceptar y continuar": "গ্রহণ করুন এবং চালিয়ে যান",
+                      "Tú": "আপনি",
+                      "No se pudo obtener más usuarios": "আরও ব্যবহারকারী পাওয়া যায়নি",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "নির্বাচিত ব্যবহারকারী ইতিমধ্যেই অংশগ্রহণকারীদের তালিকায় রয়েছে",
+                      "Sin Categorías": "কোনো বিভাগ নেই",
+                      "Usuarios asociados al proyecto": "প্রকল্পের সাথে যুক্ত ব্যবহারকারীরা",
+                      "El proyecto indicado ya no existe": "নির্দিষ্ট প্রকল্পটি বিদ্যমান নেই",
+                      "No se pudieron asignar los participantes": "অংশগ্রহণকারী যুক্ত করা যায়নি"
+                    },
+                  
+                    "grant-permissions": {
+                      "PERMISOS DEL PROYECTO": "প্রকল্পের অনুমতি",
+                      "Administradores actuales": "বর্তমান অ্যাডমিনগণ",
+                      "Tú": "আপনি",
+                      "Administrador": "অ্যাডমিন",
+                      "Pendiente": "অপেক্ষমাণ",
+                      "Selecciona al usuario al que desees otorgar el rol de administrador": "অ্যাডমিন ভূমিকা দিতে চান এমন ব্যবহারকারী নির্বাচন করুন",
+                      "Aceptar y continuar": "গ্রহণ করুন এবং চালিয়ে যান",
+                      "No se obtuvieron los participantes": "অংশগ্রহণকারীদের তালিকা লোড করা যায়নি",
+                      "Sin Categorías": "কোনো বিভাগ নেই",
+                      "El usuario seleccionado ya está añadido al listado": "নির্বাচিত ব্যবহারকারী ইতিমধ্যেই তালিকায় রয়েছে",
+                      "Permisos asociados": "সংশ্লিষ্ট অনুমতি",
+                      "El proyecto indicado ya no existe": "নির্দিষ্ট প্রকল্পটি বিদ্যমান নেই",
+                      "No se puedieron asignar los permisos": "অনুমতি দেওয়া যায়নি",
+                      "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                      "Hazte con el plan 360 para gestionar permisos a los usuarios": "ব্যবহারকারীদের অনুমতি পরিচালনার জন্য প্ল্যান ৩৬০ নিন"
+                    },
+                  
+                    "add-proyect": {
+                      "quiere añadirte al proyecto": "{{name}} আপনাকে প্রকল্পে যোগ করতে চান",
+                      "¿Deseas unirte al Workspace?": "আপনি কি ওয়ার্কস্পেসে যোগ দিতে চান?",
+                      "Aceptar": "গ্রহণ করুন",
+                      "Rechazar": "প্রত্যাখ্যান করুন",
+                      "Proyecto rechazado con éxito": "প্রকল্প সফলভাবে প্রত্যাখ্যান করা হয়েছে",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "প্রকল্পটি আর আপনার অ্যাকাউন্টের সাথে যুক্ত নেই",
+                      "No se pudo rechazar el proyecto": "প্রকল্প প্রত্যাখ্যান করা যায়নি",
+                      "Sin proyecto": "কোনো প্রকল্প নেই",
+                      "Sin Categorías": "কোনো বিভাগ নেই",
+                      "¡Proyecto aceptado!": "প্রকল্প গৃহীত হয়েছে!",
+                      "El proyecto ya no existe": "প্রকল্পটি বিদ্যমান নেই",
+                      "'El KeyCode introducido no es correcto'": "প্রদত্ত কী কোডটি সঠিক নয়",
+                      "No se pudo verificar el usuario en el proyecto": "প্রকল্পে ব্যবহারকারী যাচাই করা যায়নি",
+                      "Sin Suscripción": "সাবস্ক্রিপশন নেই",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "প্রকল্প গ্রহণ ও প্রত্যাখ্যান করতে সাবস্ক্রিপশন নিন"
+                    },
+                  
+                    "modal-keycode": {
+                      "Key code": "কী কোড",
+                      "Añade el código de acceso proporcionado por el administrador": "অ্যাডমিন দ্বারা প্রদত্ত অ্যাক্সেস কোড যোগ করুন",
+                      "Continuar": "চালিয়ে যান",
+                      "¡Proyecto aceptado!": "প্রকল্প গৃহীত হয়েছে!",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "প্রকল্পটি আর আপনার অ্যাকাউন্টের সাথে যুক্ত নেই",
+                      "El proyecto ya no existe": "প্রকল্পটি বিদ্যমান নেই",
+                      "El KeyCode introducido no es correcto": "প্রদত্ত কী কোডটি সঠিক নয়",
+                      "No se pudo verificar usuario en el proyecto": "প্রকল্পে ব্যবহারকারী যাচাই করা যায়নি",
+                      "Introduzca una clave para continuar": "চালিয়ে যেতে একটি কী কোড লিখুন"
+                    },
+                    
+                        "folders": {
+                          "CARPETAS": "ফোল্ডার",
+                          "No se obtuvieron las carpetas del proyecto": "প্রকল্পের ফোল্ডার পাওয়া যায়নি"
+                        },
+                      
+                        "folder-content": {
+                          "No se obtuvo las carpetas del proyecto": "প্রকল্পের ফোল্ডার পাওয়া যায়নি",
+                          "Nuevo contenido subido correctamente": "নতুন বিষয়বস্তু সফলভাবে আপলোড হয়েছে",
+                          "No se pudo obtener las carpetas del proyecto": "প্রকল্পের ফোল্ডার পাওয়া যায়নি",
+                          "Máximo alcanzado": "সর্বোচ্চ সীমা পৌঁছেছে",
+                          "Hazte con el plan 360 para subir contenido de forma ilimitada": "সীমাহীন বিষয়বস্তু আপলোড করতে প্ল্যান ৩৬০ নিন"
+                        },
+                      
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "মাল্টিমিডিয়া সামগ্রীতে ফিরে যান"
+                        },
+                      
+                        "my-suscription": {
+                          "Mi suscripción": "আমার সাবস্ক্রিপশন",
+                          "Ver características": "বৈশিষ্ট্য দেখুন",
+                          "Planes": "প্ল্যান",
+                          "Pago mensual": "মাসিক পেমেন্ট",
+                          "Pago anual (Descuento del 15%)": "বার্ষিক পেমেন্ট (১৫% ছাড়)",
+                          "al mes": "মাসে",
+                          "al año": "বছরে",
+                          "Free": "ফ্রি",
+                          "Buscador avanzado": "উন্নত অনুসন্ধান",
+                          "Complete Workspace": "সম্পূর্ণ কর্মক্ষেত্র",
+                          "Tu plan actual": "আপনার বর্তমান প্ল্যান",
+                          "¡Suscripción cambiada!": "সাবস্ক্রিপশন পরিবর্তন হয়েছে!",
+                          "Suscripción cambiada correctamente": "সাবস্ক্রিপশন সফলভাবে পরিবর্তিত হয়েছে",
+                          "Continuar a la app": "অ্যাপে চালিয়ে যান",
+                          "Comprar un proyecto": "একটি প্রকল্প কিনুন",
+                          "No se obtuvieron suscripciones": "সাবস্ক্রিপশন পাওয়া যায়নি",
+                          "Obtener plan ": "প্ল্যান নিন ",
+                          "Cambiar a plan ": "প্ল্যান পরিবর্তন করুন ",
+                          "Cargando...": "লোড হচ্ছে...",
+                          "Hubo un problema para cambiar": "পরিবর্তনের সময় সমস্যা হয়েছে"
+                        },
+                      
+                        "project-checkout": {
+                          "CHECKOUT": "চেকআউট",
+                          "Compra de": "ক্রয়",
+                          "1 proyecto": "১টি প্রকল্প",
+                          "Crédito o débito": "ক্রেডিট বা ডেবিট",
+                          "Paypal": "পেপাল",
+                          "Apple Pay": "অ্যাপল পে",
+                          "He leído y acepto ": "আমি পড়েছি এবং সম্মত",
+                          "los Términos y Condiciones de Venta": "বিক্রয়ের শর্তাবলী",
+                          "¡Pago realizado!": "পেমেন্ট সফল!",
+                          "La compra de un proyecto se ha realizado correctamente": "একটি প্রকল্প সফলভাবে কেনা হয়েছে",
+                          "Continuar a la app": "অ্যাপে চালিয়ে যান",
+                          "Total": "মোট",
+                          "Continuar": "চালিয়ে যান",
+                          "Cargando...": "লোড হচ্ছে...",
+                          "Pago cancelado por el usuario.": "ব্যবহারকারী পেমেন্ট বাতিল করেছেন।",
+                          "Ocurrió un error durante la transacción de pago": "পেমেন্ট লেনদেনের সময় একটি সমস্যা হয়েছে",
+                          "No se pudo realizar el pago.": "পেমেন্ট সম্পন্ন করা যায়নি।",
+                          "Pago cancelado.": "পেমেন্ট বাতিল হয়েছে।",
+                          "Pago completado.": "পেমেন্ট সম্পন্ন হয়েছে।"
+                        },
+                      
+                        "suscription-checkout": {
+                          "CHECKOUT": "চেকআউট",
+                          "Pago del ": "পরিশোধ ",
+                          "Crédito o débito": "ক্রেডিট বা ডেবিট",
+                          "Paypal": "পেপাল",
+                          "Apple Pay": "অ্যাপল পে",
+                          "He leído y acepto ": "আমি পড়েছি এবং সম্মত",
+                          "los Términos y Condiciones de Venta": "বিক্রয়ের শর্তাবলী",
+                          "¡Pago realizado!": "পেমেন্ট সফল!",
+                          "El pago de la suscripción se ha realizado correctamente": "সাবস্ক্রিপশনের পেমেন্ট সফল হয়েছে",
+                          "Continuar a la app": "অ্যাপে চালিয়ে যান",
+                          "Total": "মোট",
+                          "Continuar": "চালিয়ে যান",
+                          "Cargando...": "লোড হচ্ছে...",
+                          "Método de pago agregado correctamente.": "পেমেন্ট পদ্ধতি সফলভাবে যোগ করা হয়েছে।",
+                          "Ingreso de método de pago cancelado.": "পেমেন্ট পদ্ধতি সংযোজন বাতিল হয়েছে।",
+                          "Pago completado correctamente.": "পেমেন্ট সফলভাবে সম্পন্ন হয়েছে।",
+                          "Pago cancelado por el usuario.": "ব্যবহারকারী পেমেন্ট বাতিল করেছেন।",
+                          "Error durante el proceso de pago.": "পেমেন্ট প্রক্রিয়ার সময় সমস্যা হয়েছে।",
+                          "Ocurrió un error durante el proceso de suscripción.": "সাবস্ক্রিপশন প্রক্রিয়ার সময় একটি সমস্যা হয়েছে।",
+                          "Error al procesar la suscripción.": "সাবস্ক্রিপশন প্রক্রিয়াকরণে সমস্যা হয়েছে।",
+                          "Error al configurar el pago con Apple Pay.": "অ্যাপল পে কনফিগার করার সময় সমস্যা হয়েছে।",
+                          "No se pudo realizar el pago con Apple Pay.": "অ্যাপল পে ব্যবহার করে পেমেন্ট করা যায়নি।",
+                          "Ocurrió un error durante el proceso de pago con Apple Pay.": "অ্যাপল পে দিয়ে পেমেন্ট প্রক্রিয়ার সময় সমস্যা হয়েছে।"
+                        },
+                      
+                        "conectar": {
+                          "Conecta con": "সংযুক্ত হন",
+                          "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "আপনি এই ব্যবহারকারীর সাথে সংযোগের অনুরোধ করেছেন। ব্যাখ্যা করুন কেন আপনি একসাথে প্রকল্পে কাজ করতে চান।",
+                          "Escribe aquí...": "এখানে লিখুন...",
+                          "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "আপনার সংযোগ অনুরোধের জন্য ব্যবহারকারীর ২৪ ঘণ্টা সময় থাকবে। ২৪ ঘণ্টার মধ্যে সাড়া না দিলে অনুরোধ স্বয়ংক্রিয়ভাবে বাতিল হয়ে যাবে। এই অনুরোধ পাঠিয়ে আপনি সম্মত হচ্ছেন যে আমরা আমাদের",
+                          "política de privacidad": "গোপনীয়তা নীতির অধীনে আপনার পাবলিক তথ্য শেয়ার করবো",
+                          "Conectar": "সংযুক্ত করুন",
+                          "Ya hay una solicitud para ese usuario": "এই ব্যবহারকারীর জন্য ইতিমধ্যে একটি অনুরোধ পাঠানো হয়েছে",
+                          "Solicitud creada con éxito": "অনুরোধ সফলভাবে তৈরি হয়েছে",
+                          "Resultado desconocido": "অজানা ফলাফল",
+                          "Hubo un problema al enviar la solicitud": "অনুরোধ পাঠানোর সময় সমস্যা হয়েছে",
+                          "El mensaje no puede estar vacio": "বার্তা খালি থাকতে পারবে না"
+                        },
+                        
+                            "user-search": {
+                              "Buscar": "অনুসন্ধান",
+                              "Ordenar": "বিন্যাস",
+                              "No hay resultados": "কোন ফলাফল নেই",
+                              "conectar": "সংযুক্ত করুন",
+                              "Sin oficio": "কোনো পেশা নেই",
+                              "Sin opiniones": "কোনো মতামত নেই",
+                              "opiniones": "মতামত",
+                              "Sin ubicación actual": "বর্তমান অবস্থান নেই",
+                              "FOTOGRAFÍA": "ফটোগ্রাফি",
+                              "CINE / VIDEO": "সিনেমা / ভিডিও",
+                              "MÚSICA": "সঙ্গীত",
+                              "TEATRO": "থিয়েটার",
+                              "EVENTOS": "ইভেন্ট",
+                              "TV": "টিভি",
+                              "OTROS": "অন্যান্য",
+                              "FILTROS": "ফিল্টার",
+                              "Restablecer": "পুনরায় সেট করুন",
+                              "Tu ubicación": "আপনার অবস্থান",
+                              "Buscar dirección": "ঠিকানা অনুসন্ধান",
+                              "Categorías": "বিভাগসমূহ",
+                              "EVENTOS Y FIESTAS": "ইভেন্ট ও উৎসব",
+                              "SIN CATEGORÍA": "বিভাগহীন",
+                              "Etiquetas": "ট্যাগসমূহ",
+                              "Escribe palabras clave para filtrar resultados": "ফলাফল ফিল্টার করতে কীওয়ার্ড লিখুন",
+                              "Escribe aquí...": "এখানে লিখুন...",
+                              "Rango de precio": "মূল্য পরিসীমা",
+                              "Selecciona un rango de precio para filtrar resultados": "ফলাফল ফিল্টার করতে মূল্য পরিসীমা নির্বাচন করুন",
+                              "Rango": "পরিসীমা",
+                              "Mínimo": "সর্বনিম্ন",
+                              "día": "দিন",
+                              "Máximo": "সর্বোচ্চ",
+                              "Mejor valorados": "সেরা রেটিংপ্রাপ্ত",
+                              "Más valorados": "সবচেয়ে বেশি রেটিংপ্রাপ্ত",
+                              "Precio ascendente": "মূল্য ঊর্ধ্বগামী",
+                              "Precio descendente": "মূল্য নিম্নগামী",
+                              "No se pudo obtener listado de usuarios": "ব্যবহারকারীর তালিকা পাওয়া যায়নি",
+                              "No se pudo obtener el contador de categorías": "বিভাগের গণনা পাওয়া যায়নি",
+                              "Sin tags": "কোনো ট্যাগ নেই",
+                              "Ya hay una solicitud enviada pendiente de aceptar": "ইতিমধ্যে পাঠানো অনুরোধ অনুমোদনের অপেক্ষায় আছে",
+                              "Resultado desconocido": "অজানা ফলাফল",
+                              "No se pudo comprobar la existencia de la solicitud": "অনুরোধের অস্তিত্ব যাচাই করা যায়নি",
+                              "Ya hay un Tag con ese valor": "এই মান সহ ইতিমধ্যে একটি ট্যাগ আছে",
+                              "El campo está vacío, no se puede crear un Tag": "ফাঁকা ক্ষেত্র, একটি ট্যাগ তৈরি করা সম্ভব নয়",
+                              "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "ব্যবহারকারীদের সাথে সংযোগ করতে প্রাথমিক বা ৩৬০ প্ল্যান নিন"
+                            },
+                          
+                            
+                          
+                            "codeErrors": {
+                              "Usuario o contraseña incorrectos": "ব্যবহারকারী বা পাসওয়ার্ড ভুল",
+                              "El usuario ya se encuentra registrado": "ব্যবহারকারী ইতিমধ্যে নিবন্ধিত",
+                              "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.": "এই অ্যাকাউন্টটি সাময়িকভাবে ব্লক করা হয়েছে, আরও তথ্যের জন্য প্রশাসকের সাথে যোগাযোগ করুন।",
+                              "Error del servidor, inténtelo más tarde": "সার্ভার ত্রুটি, পরে আবার চেষ্টা করুন",
+                              "Error desconocido, inténtelo más tarde": "অজানা ত্রুটি, পরে আবার চেষ্টা করুন"
+                            },
+                            
+                                "buscador": {
+                                  "BUSCADOR": "অনুসন্ধান",
+                                  "Buscar": "অনুসন্ধান করুন",
+                                  "Conectar": "সংযোগ করুন",
+                                  "No hay resultados": "কোন ফলাফল নেই",
+                                  "Descubre nuestro top": "আমাদের সেরা তালিকা আবিষ্কার করুন",
+                                  "Los mejores profesionales muestran sus anuncios": "সেরা পেশাদাররা তাদের বিজ্ঞাপন প্রদর্শন করেন",
+                                  "Contacta con el éxito": "সফলতার সাথে যোগাযোগ করুন",
+                                  "Descubre los usuarios que haran realidad tu proyecto": "আপনার প্রকল্পকে বাস্তবে রূপ দেবে এমন ব্যবহারকারীদের আবিষ্কার করুন",
+                                  "Ordenar": "বিন্যাস",
+                                  "conectar": "সংযোগ করুন",
+                                  "Sin oficio": "কোনো পেশা নেই",
+                                  "Sin opiniones": "কোনো মতামত নেই",
+                                  "opiniones": "মতামত",
+                                  "Sin ubicación actual": "বর্তমান অবস্থান নেই",
+                                  "FOTOGRAFÍA": "ফটোগ্রাফি",
+                                  "CINE / VIDEO": "সিনেমা / ভিডিও",
+                                  "FILM / VÍDEO": "ফিল্ম / ভিডিও",
+                                  "MÚSICA": "সঙ্গীত",
+                                  "TEATRO": "থিয়েটার",
+                                  "EVENTOS": "ইভেন্ট",
+                                  "TV": "টিভি",
+                                  "OTROS": "অন্যান্য",
+                                  "FILTROS": "ফিল্টার",
+                                  "Restablecer": "পুনরায় সেট করুন",
+                                  "Tu ubicación": "আপনার অবস্থান",
+                                  "Buscar dirección": "ঠিকানা অনুসন্ধান করুন",
+                                  "Categorías": "বিভাগসমূহ",
+                                  "EVENTOS Y FIESTAS": "ইভেন্ট ও উৎসব",
+                                  "SIN CATEGORÍA": "বিভাগহীন",
+                                  "Etiquetas": "ট্যাগসমূহ",
+                                  "Escribe palabras clave para filtrar resultados": "ফলাফল ফিল্টার করতে কীওয়ার্ড লিখুন",
+                                  "Escribe aquí...": "এখানে লিখুন...",
+                                  "Rango de precio": "মূল্য পরিসীমা",
+                                  "Selecciona un rango de precio para filtrar resultados": "ফলাফল ফিল্টার করতে মূল্য পরিসীমা নির্বাচন করুন",
+                                  "Rango": "পরিসীমা",
+                                  "Mínimo": "সর্বনিম্ন",
+                                  "día": "দিন",
+                                  "Máximo": "সর্বোচ্চ",
+                                  "Mejor valorados": "সেরা রেটিংপ্রাপ্ত",
+                                  "Más valorados": "সবচেয়ে বেশি রেটিংপ্রাপ্ত",
+                                  "Precio ascendente": "মূল্য ঊর্ধ্বগামী",
+                                  "Precio descendente": "মূল্য নিম্নগামী",
+                                  "No se pudo obtener listado de usuarios": "ব্যবহারকারীর তালিকা পাওয়া যায়নি",
+                                  "No se pudo obtener el contador de categorías": "বিভাগের গণনা পাওয়া যায়নি",
+                                  "Sin tags": "কোনো ট্যাগ নেই",
+                                  "Ya hay una solicitud enviada pendiente de aceptar": "ইতিমধ্যে পাঠানো অনুরোধ অনুমোদনের অপেক্ষায় আছে",
+                                  "Resultado desconocido": "অজানা ফলাফল",
+                                  "No se pudo comprobar la existencia de la solicitud": "অনুরোধের অস্তিত্ব যাচাই করা যায়নি",
+                                  "Ya hay un Tag con ese valor": "এই মান সহ ইতিমধ্যে একটি ট্যাগ আছে",
+                                  "El campo está vacío, no se puede crear un Tag": "ফাঁকা ক্ষেত্র, একটি ট্যাগ তৈরি করা সম্ভব নয়",
+                                  "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "ব্যবহারকারীদের সাথে সংযোগ করতে প্রাথমিক বা ৩৬০ প্ল্যান নিন",
+                                  "Texto descriptivo del anuncio especial": "বিশেষ বিজ্ঞাপনের বিবরণ"
+                                },
+                                
+                                    "buscador2": {
+                                      "BUSCADOR": "অনুসন্ধান",
+                                      "Buscar": "অনুসন্ধান করুন",
+                                      "Conectar": "সংযোগ করুন",
+                                      "No hay resultados": "কোন ফলাফল নেই",
+                                      "Descubre nuestro top": "আমাদের সেরা তালিকা আবিষ্কার করুন",
+                                      "Los mejores profesionales muestran sus anuncios": "সেরা পেশাদাররা তাদের বিজ্ঞাপন প্রদর্শন করেন",
+                                      "Contacta con el éxito": "সফলতার সাথে যোগাযোগ করুন",
+                                      "Descubre los usuarios que haran realidad tu proyecto": "আপনার প্রকল্পকে বাস্তবে রূপ দেবে এমন ব্যবহারকারীদের আবিষ্কার করুন",
+                                      "Ordenar": "বিন্যাস",
+                                      "conectar": "সংযোগ করুন",
+                                      "Sin oficio": "কোনো পেশা নেই",
+                                      "Sin opiniones": "কোনো মতামত নেই",
+                                      "opiniones": "মতামত",
+                                      "Sin ubicación actual": "বর্তমান অবস্থান নেই",
+                                      "FOTOGRAFÍA": "ফটোগ্রাফি",
+                                      "CINE / VIDEO": "সিনেমা / ভিডিও",
+                                      "FILM / VÍDEO": "ফিল্ম / ভিডিও",
+                                      "MÚSICA": "সঙ্গীত",
+                                      "TEATRO": "থিয়েটার",
+                                      "EVENTOS": "ইভেন্ট",
+                                      "TV": "টিভি",
+                                      "OTROS": "অন্যান্য",
+                                      "FILTROS": "ফিল্টার",
+                                      "Restablecer": "পুনরায় সেট করুন",
+                                      "Tu ubicación": "আপনার অবস্থান",
+                                      "Buscar dirección": "ঠিকানা অনুসন্ধান করুন",
+                                      "Categorías": "বিভাগসমূহ",
+                                      "EVENTOS Y FIESTAS": "ইভেন্ট ও উৎসব",
+                                      "SIN CATEGORÍA": "বিভাগহীন",
+                                      "Etiquetas": "ট্যাগসমূহ",
+                                      "Escribe palabras clave para filtrar resultados": "ফলাফল ফিল্টার করতে কীওয়ার্ড লিখুন",
+                                      "Escribe aquí...": "এখানে লিখুন...",
+                                      "Rango de precio": "মূল্য পরিসীমা",
+                                      "Selecciona un rango de precio para filtrar resultados": "ফলাফল ফিল্টার করতে মূল্য পরিসীমা নির্বাচন করুন",
+                                      "Rango": "পরিসীমা",
+                                      "Mínimo": "সর্বনিম্ন",
+                                      "día": "দিন",
+                                      "Máximo": "সর্বোচ্চ",
+                                      "Mejor valorados": "সেরা রেটিংপ্রাপ্ত",
+                                      "Más valorados": "সবচেয়ে বেশি রেটিংপ্রাপ্ত",
+                                      "Precio ascendente": "মূল্য ঊর্ধ্বগামী",
+                                      "Precio descendente": "মূল্য নিম্নগামী",
+                                      "No se pudo obtener listado de usuarios": "ব্যবহারকারীর তালিকা পাওয়া যায়নি",
+                                      "No se pudo obtener el contador de categorías": "বিভাগের গণনা পাওয়া যায়নি",
+                                      "Sin tags": "কোনো ট্যাগ নেই",
+                                      "Ya hay una solicitud enviada pendiente de aceptar": "ইতিমধ্যে পাঠানো অনুরোধ অনুমোদনের অপেক্ষায় আছে",
+                                      "Resultado desconocido": "অজানা ফলাফল",
+                                      "No se pudo comprobar la existencia de la solicitud": "অনুরোধের অস্তিত্ব যাচাই করা যায়নি",
+                                      "Ya hay un Tag con ese valor": "এই মান সহ ইতিমধ্যে একটি ট্যাগ আছে",
+                                      "El campo está vacío, no se puede crear un Tag": "ফাঁকা ক্ষেত্র, একটি ট্যাগ তৈরি করা সম্ভব নয়",
+                                      "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                                      "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "ব্যবহারকারীদের সাথে সংযোগ করতে প্রাথমিক বা ৩৬০ প্ল্যান নিন",
+                                      "Texto descriptivo del anuncio especial": "বিশেষ বিজ্ঞাপনের বিবরণ"
+                                    },
+                                  
+                                  
+                              
+                                "chats": {
+                                  "Cargando chats...": "চ্যাট লোড হচ্ছে...",
+                                  "Buscar": "অনুসন্ধান করুন",
+                                  "Chats": "চ্যাট",
+                                  "Solicitudes": "অনুরোধসমূহ",
+                                  "Aceptar": "গ্রহণ করুন",
+                                  "Rechazar": "প্রত্যাখ্যান করুন",
+                                  ": ha enviado un PDF": ": একটি PDF পাঠিয়েছে",
+                                  "Tú: has enviado un PDF": "আপনি: একটি PDF পাঠিয়েছেন",
+                                  ": ha enviado un AUDIO": ": একটি অডিও পাঠিয়েছে",
+                                  "Tú: has enviado un AUDIO": "আপনি: একটি অডিও পাঠিয়েছেন",
+                                  ": ha enviado una imagen": ": একটি ছবি পাঠিয়েছে",
+                                  "Tú: has enviado una imagen": "আপনি: একটি ছবি পাঠিয়েছেন",
+                                  "Sin mensajes aún": "এখনো কোনো বার্তা নেই",
+                                  "No se pueden obtener los chats": "চ্যাট লোড করা যায়নি",
+                                  "Borrar chat": "চ্যাট মুছুন",
+                                  "¿Quieres borrar el chat ' + chat.nombre + ' ?": "আপনি কি চ্যাট '{{chat.nombre}}' মুছতে চান?",
+                                  "Cancelar": "বাতিল করুন",
+                                  "Borrando chat": "চ্যাট মুছে ফেলা হচ্ছে",
+                                  "No se ha podido borrar el chat": "চ্যাট মুছে ফেলা যায়নি",
+                                  "No se pudieron obtener las solicitudes": "অনুরোধসমূহ লোড করা যায়নি",
+                                  "Solicitud eliminada exitósamente": "অনুরোধ সফলভাবে মুছে ফেলা হয়েছে",
+                                  "Resultado desconocido": "অজানা ফলাফল",
+                                  "No se pudo eliminar la solicitud": "অনুরোধ মুছতে ব্যর্থ হয়েছে",
+                                  "Solicitud aceptada exitósamente": "অনুরোধ সফলভাবে গৃহীত হয়েছে",
+                                  "La solicitud ya no es valida": "অনুরোধটি আর বৈধ নয়",
+                                  "No se pudo aceptar la solicitud": "অনুরোধ গ্রহণ করা যায়নি",
+                                  "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: একটি PDF পাঠিয়েছেন",
+                                  "ha enviado un AUDIO": "{{name}}: একটি অডিও পাঠিয়েছেন",
+                                  "ha enviado una imagen": "{{name}}: একটি ছবি পাঠিয়েছেন",
+                                  "Tú: {{mensaje}}": "আপনি: {{mensaje}}",
+                                  "No se pueden obtener los mensajes": "বার্তাগুলি লোড করা যায়নি",
+                                  "No se ha podido enviar el mensaje": "বার্তা পাঠানো যায়নি",
+                                  "Cargando mensajes...": "বার্তা লোড হচ্ছে...",
+                                  "Grabación finalizada": "রেকর্ডিং শেষ হয়েছে",
+                                  "Pulse aquí para enviar": "পাঠানোর জন্য এখানে চাপ দিন",
+                                  "No se puede obtener el archivo": "ফাইল লোড করা যায়নি"
+                                },
+                                
+                                    "FOTOGRAFÍA": "ফটোগ্রাফি",
+                                    "FILM / VÍDEO": "ফিল্ম / ভিডিও",
+                                    "CINE / VIDEO": "সিনেমা / ভিডিও",
+                                    "TV": "টিভি",
+                                    "MÚSICA": "সঙ্গীত",
+                                    "EVENTOS Y FIESTAS": "ইভেন্ট ও উৎসব",
+                                    "TEATRO": "থিয়েটার",
+                                    "OTROS": "অন্যান্য",
+                                    "SIN CATEGORÍA": "বিভাগহীন",
+                                  
+                                    "add-participants-to-group": {
+                                      "AGREGAR MIEMBROS AL GRUPO DE CHAT": "চ্যাট গ্রুপে সদস্য যোগ করুন",
+                                      "Nombre del grupo": "গ্রুপের নাম",
+                                      "Escribe aquí...": "এখানে লিখুন...",
+                                      "Miembros del grupo": "গ্রুপ সদস্য",
+                                      "Tú": "আপনি",
+                                      "Crear grupo": "গ্রুপ তৈরি করুন",
+                                      "No se obtuvieron los participantes": "সদস্যদের তথ্য পাওয়া যায়নি",
+                                      "El usuario seleccionado ya está añadido al listado de participantes": "নির্বাচিত ব্যবহারকারী ইতিমধ্যে সদস্য তালিকায় রয়েছে",
+                                      "Sin Categorías": "কোনো বিভাগ নেই",
+                                      "Introduzca un nombre para el grupo de chat": "চ্যাট গ্রুপের জন্য একটি নাম লিখুন",
+                                      "¡Grupo de chat creado!": "চ্যাট গ্রুপ তৈরি হয়েছে!",
+                                      "No se pudo crear el grupo": "গ্রুপ তৈরি করা সম্ভব হয়নি",
+                                      "Debe añadir al menos un miembro al grupo de chat": "চ্যাট গ্রুপে অন্তত একজন সদস্য যোগ করুন",
+                                      "Sin Suscripción válida": "বৈধ সাবস্ক্রিপশন নেই",
+                                      "Hazte con el plan 360 para crear y administrar proyectos": "প্রকল্প তৈরি ও পরিচালনার জন্য প্ল্যান ৩৬০ নিন"
+                                    },
+                                    
+                                        "app-chat-header": {
+                                          "Conectado": "সংযুক্ত",
+                                          "¿Desea bloquear a este usuario?": "আপনি কি এই ব্যবহারকারীকে ব্লক করতে চান?",
+                                          "Cancelar": "বাতিল",
+                                          "Bloquear": "ব্লক করুন",
+                                          "Usuario bloqueado": "ব্যবহারকারী ব্লক করা হয়েছে",
+                                          "El usuario ya se encuentra bloqueado": "ব্যবহারকারী ইতিমধ্যে ব্লক করা হয়েছে",
+                                          "Respuesta desconocida": "অজানা প্রতিক্রিয়া"
+                                        },
+                                      
+                                        "app-chat-footer": {
+                                          "Escribe aquí...": "এখানে লিখুন...",
+                                          "Grabación finalizada": "রেকর্ডিং শেষ হয়েছে",
+                                          "Pulse aquí para enviar": "প্রেরণের জন্য এখানে ক্লিক করুন",
+                                          "Se está realizando una grabación de audio": "একটি অডিও রেকর্ডিং চলছে",
+                                          "Hay un archivo de audio pendiente para enviar": "একটি অডিও ফাইল পাঠানোর জন্য অপেক্ষমান",
+                                          "Solo se permiten archivos .pdf": "শুধুমাত্র .pdf ফাইল অনুমোদিত",
+                                          "Ya hay una grabación en proceso": "ইতিমধ্যে একটি রেকর্ডিং প্রক্রিয়াধীন রয়েছে"
+                                        },
+                                      
+                                        "app-pgchat-footer": {
+                                          "Grabación finalizada": "রেকর্ডিং শেষ হয়েছে",
+                                          "Pulse aquí para enviar": "প্রেরণের জন্য এখানে ক্লিক করুন",
+                                          "Se está realizando una grabación de audio": "একটি অডিও রেকর্ডিং চলছে",
+                                          "Hay un archivo de audio pendiente para enviar": "একটি অডিও ফাইল পাঠানোর জন্য অপেক্ষমান",
+                                          "Solo se permiten archivos .pdf": "শুধুমাত্র .pdf ফাইল অনুমোদিত",
+                                          "Ya hay una grabación en proceso": "ইতিমধ্যে একটি রেকর্ডিং প্রক্রিয়াধীন রয়েছে"
+                                        },
+                                      
+                                        "app-pnchat-footer": {
+                                          "Grabación finalizada": "রেকর্ডিং শেষ হয়েছে",
+                                          "Pulse aquí para enviar": "প্রেরণের জন্য এখানে ক্লিক করুন",
+                                          "Se está realizando una grabación de audio": "একটি অডিও রেকর্ডিং চলছে",
+                                          "Hay un archivo de audio pendiente para enviar": "একটি অডিও ফাইল পাঠানোর জন্য অপেক্ষমান",
+                                          "Solo se permiten archivos .pdf": "শুধুমাত্র .pdf ফাইল অনুমোদিত",
+                                          "Ya hay una grabación en proceso": "ইতিমধ্যে একটি রেকর্ডিং প্রক্রিয়াধীন রয়েছে"
+                                        },
+                                      
+                                        "app-chat-group": {
+                                          "mensajes nuevos": "নতুন বার্তা"
+                                        },
+                                      
+                                        "app-pnchat-header": {
+                                          "Conectado": "সংযুক্ত"
+                                        },
+                                      
+                                        "pnchats": {
+                                          "CHATS": "চ্যাট",
+                                          "TODOS": "সব",
+                                          "Grupos": "গ্রুপ",
+                                          "Solicitudes": "অনুরোধ",
+                                          "Aceptar": "গ্রহণ করুন",
+                                          "Rechazar": "প্রত্যাখ্যান করুন",
+                                          ": ha enviado un PDF": ": একটি PDF পাঠিয়েছে",
+                                          "Tú: has enviado un PDF": "আপনি: একটি PDF পাঠিয়েছেন",
+                                          ": ha enviado un AUDIO": ": একটি অডিও পাঠিয়েছে",
+                                          "Tú: has enviado un AUDIO": "আপনি: একটি অডিও পাঠিয়েছেন",
+                                          ": ha enviado una imagen": ": একটি ছবি পাঠিয়েছে",
+                                          "Tú: has enviado una imagen": "আপনি: একটি ছবি পাঠিয়েছেন",
+                                          "Sin mensajes aún": "এখনও কোনো বার্তা নেই",
+                                          "No se pueden obtener los chats": "চ্যাট লোড করা সম্ভব নয়",
+                                          "Borrar chat": "চ্যাট মুছুন",
+                                          "¿Quieres borrar el chat ' + chat.nombre + ' ?": "আপনি কি চ্যাট ' + chat.nombre + ' মুছতে চান?",
+                                          "Cancelar": "বাতিল",
+                                          "Borrando chat": "চ্যাট মুছছে...",
+                                          "No se ha podido borrar el chat": "চ্যাট মুছতে ব্যর্থ হয়েছে",
+                                          "No se pudieron obtener las solicitudes": "অনুরোধগুলি পাওয়া যায়নি",
+                                          "Solicitud eliminada exitósamente": "অনুরোধ সফলভাবে মুছে ফেলা হয়েছে",
+                                          "Resultado desconocido": "অজানা ফলাফল",
+                                          "No se pudo eliminar la solicitud": "অনুরোধ মুছে ফেলা সম্ভব হয়নি",
+                                          "Solicitud aceptada exitósamente": "অনুরোধ সফলভাবে গ্রহণ করা হয়েছে",
+                                          "La solicitud ya no es valida": "অনুরোধটি আর বৈধ নয়",
+                                          "No se pudo aceptar la solicitud": "অনুরোধ গ্রহণ করা সম্ভব হয়নি",
+                                          "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: একটি PDF পাঠিয়েছে",
+                                          "ha enviado un AUDIO": "{{name}}: একটি অডিও পাঠিয়েছে",
+                                          "ha enviado una imagen": "{{name}}: একটি ছবি পাঠিয়েছে",
+                                          "Tú: {{mensaje}}": "আপনি: {{mensaje}}",
+                                          "No se pueden obtener los mensajes": "বার্তা লোড করা সম্ভব নয়",
+                                          "No se ha podido enviar el mensaje": "বার্তা পাঠানো সম্ভব হয়নি",
+                                          "Cargando mensajes...": "বার্তা লোড হচ্ছে...",
+                                          "Grabación finalizada": "রেকর্ডিং শেষ হয়েছে",
+                                          "Pulse aquí para enviar": "প্রেরণের জন্য এখানে ক্লিক করুন",
+                                          "No se puede obtener el archivo": "ফাইল লোড করা সম্ভব নয়"
+                                        },
+                                      
+                                        "interior-chat": {
+                                          "Cargando mensajes...": "বার্তা লোড হচ্ছে...",
+                                          "No se pueden obtener los mensajes": "বার্তা লোড করা সম্ভব নয়",
+                                          "No se ha podido enviar el mensaje": "বার্তা পাঠানো সম্ভব হয়নি"
+                                        },
+                                      
+                                        "interior-pgchat": {
+                                          "No se ha podido enviar el mensaje": "বার্তা পাঠানো সম্ভব হয়নি",
+                                          "No se pueden obtener los mensajes": "বার্তা লোড করা সম্ভব নয়",
+                                          "Cargando mensajes...": "বার্তা লোড হচ্ছে..."
+                                        },
+                                      
+                                        "interior-pnchat": {
+                                          "No se ha podido enviar el mensaje": "বার্তা পাঠানো সম্ভব হয়নি",
+                                          "No se pueden obtener los mensajes": "বার্তা লোড করা সম্ভব নয়",
+                                          "Cargando mensajes...": "বার্তা লোড হচ্ছে..."
+                                        },
+                                      
+                                        "select-useroptions-modal": {
+                                          "Bloquear usuario": "ব্যবহারকারী ব্লক করুন",
+                                          "Reportar usuario": "ব্যবহারকারী রিপোর্ট করুন"
+                                        },
+
+                                        
+                                          "add-remove-users-modal": {
+                                            "Listado actualizado": "তালিকা আপডেট হয়েছে",
+                                            "No se pudo actualizar el listado": "তালিকা আপডেট করা যায়নি",
+                                            "Añadir al grupo": "গ্রুপে যোগ করুন",
+                                            "Quitar del grupo": "গ্রুপ থেকে সরান",
+                                            "SACAR USUARIOS DEL GRUPO": "গ্রুপ থেকে ব্যবহারকারী সরান",
+                                            "METER USUARIOS EN GRUPO": "গ্রুপে ব্যবহারকারী যোগ করুন",
+                                            "Usuarios para sacar": "সরানোর জন্য ব্যবহারকারী",
+                                            "Usuarios para meter": "যোগ করার জন্য ব্যবহারকারী"
+                                          },
+                                        
+                                          "detail-project": {
+                                            "DETALLES DEL PROYECTO": "প্রকল্পের বিশদ",
+                                            "Creador/a del proyecto": "প্রকল্পের নির্মাতা",
+                                            "Fecha de finalización": "সমাপ্তির তারিখ",
+                                            "Participantes": "অংশগ্রহণকারীরা",
+                                            "No se obtuvo las carpetas del proyecto": "প্রকল্পের ফোল্ডারগুলি পাওয়া যায়নি"
+                                          },
+                                        
+                                          "social-networks": {
+                                            "Nombre": "নাম",
+                                            "Añade un link": "একটি লিঙ্ক যোগ করুন",
+                                            "Guardar cambios": "পরিবর্তন সংরক্ষণ করুন",
+                                            "REDES SOCIALES": "সামাজিক নেটওয়ার্ক"
+                                          },
+                                        
+                                          "Ver planes": "পরিকল্পনা দেখুন",
+                                          "other-user": {
+                                            "Sin opiniones": "কোন মতামত নেই",
+                                            "opiniones": "মতামত",
+                                            "Quitar Favorito": "প্রিয় থেকে সরান",
+                                            "Chatear": "চ্যাট করুন",
+                                            "Conectar": "সংযোগ করুন",
+                                            "Trabajos": "কাজ",
+                                            "Ubicaciones": "অবস্থান",
+                                            "Idiomas": "ভাষা",
+                                            "Redes sociales": "সামাজিক নেটওয়ার্ক",
+                                            "Ubicación de este usuario": "এই ব্যবহারকারীর অবস্থান",
+                                            "Sin ubicación actual": "কোন বর্তমান অবস্থান নেই",
+                                            "Ubicaciones donde puede trabajar": "যেসব স্থানে তিনি কাজ করতে পারেন",
+                                            "Trabajos de": "কাজের বিস্তারিত",
+                                            "Guardar": "সংরক্ষণ করুন",
+                                            "Añadir a Favoritos": "পছন্দের তালিকায় যোগ করুন",
+                                            "Usuario Favorito": "প্রিয় ব্যবহারকারী",
+                                            "En Favorito": "প্রিয়তে",
+                                            "En favoritos": "প্রিয়তে",
+                                            "No se pudo obtener los datos del usuario": "ব্যবহারকারীর তথ্য পাওয়া যায়নি",
+                                            "Ya hay una solicitud enviada pendiente de aceptar": "ইতিমধ্যে একটি অনুরোধ পাঠানো হয়েছে যা গৃহীত হওয়ার অপেক্ষায় রয়েছে",
+                                            "Resultado desconocido": "অজানা ফলাফল",
+                                            "No se pudo comprobar la existencia de la solicitud": "অনুরোধের অস্তিত্ব যাচাই করা যায়নি",
+                                            "No se pudieron obtener los trabajos": "কাজের তথ্য পাওয়া যায়নি",
+                                            "No se pudieron obtener las ubicaciones": "অবস্থানের তথ্য পাওয়া যায়নি",
+                                            "No se pudieron obtener los idiomas": "ভাষার তথ্য পাওয়া যায়নি",
+                                            "No se pudieron obtener las redes": "নেটওয়ার্কের তথ্য পাওয়া যায়নি",
+                                            "¿Desea bloquear a este usuario?": "আপনি কি এই ব্যবহারকারীকে ব্লক করতে চান?",
+                                            "cancelar": "বাতিল করুন",
+                                            "bloquear": "ব্লক করুন",
+                                            "Usuario bloqueado": "ব্যবহারকারী ব্লক করা হয়েছে",
+                                            "El usuario ya se encuentra bloqueado": "ব্যবহারকারী ইতিমধ্যেই ব্লক করা হয়েছে",
+                                            "Respuesta desconocida": "অজানা প্রতিক্রিয়া"
+                                          },
+                                        
+                                          "add-rating": {
+                                            "AÑADE UNA VALORACIÓN": "একটি রেটিং যোগ করুন",
+                                            "¿Cómo valorarías a ": "আপনি কিভাবে মূল্যায়ন করবেন ",
+                                            "Tu valoración ayuda a otros usuarios": "আপনার রেটিং অন্যান্য ব্যবহারকারীদের সহায়তা করবে",
+                                            "¿Quieres añadir aglún comentario?": "আপনি কি কোনো মন্তব্য যোগ করতে চান?",
+                                            "Escribe aquí...": "এখানে লিখুন...",
+                                            "No se pudo obtener los datos del usuario": "ব্যবহারকারীর তথ্য পাওয়া যায়নি",
+                                            "Introduzca un comentario en la valoración": "অনুগ্রহ করে রেটিংয়ে একটি মন্তব্য লিখুন",
+                                            "¡Valoracion enviada!": "রেটিং পাঠানো হয়েছে!",
+                                            "Publica": "প্রকাশ করুন",
+                                            "Gracias por poner tu comentario a ": "আপনার মন্তব্যের জন্য ধন্যবাদ "
+                                          },
+                                        
+                                          "user-ratings": {
+                                            "VALORACIONES A ": "এর রেটিং ",
+                                            "Más recientes": "সর্বশেষ",
+                                            "Menos recientes": "পুরনো",
+                                            "Puntuación": "স্কোর",
+                                            "Perfil verificado": "যাচাই করা প্রোফাইল",
+                                            "Reportar comentario": "মন্তব্য রিপোর্ট করুন",
+                                            "Añadir valoración": "রেটিং যোগ করুন",
+                                            "Sin oficio": "কোন পেশা নেই",
+                                            "Sin Suscripción": "কোন সদস্যতা নেই",
+                                            "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+                                            "আপনার এবং অন্যান্য ব্যবহারকারীদের রেটিং দেখতে সাবস্ক্রাইব করুন",
+                                            "Más altas": "সর্বোচ্চ",
+                                            "Más bajas": "সর্বনিম্ন"
+                                          },
+                                        
+                                          "select-chatoptions-modal": {
+                                            "Añadir usuarios": "ব্যবহারকারী যোগ করুন",
+                                            "Quitar usuarios": "ব্যবহারকারী সরান",
+                                            "Pronombres": "সর্বনাম"
+                                          },
+                                        
+                                          "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "আমরা শীঘ্রই এই বিভাগটি সক্রিয় করব যাতে আপনি এর সামগ্রী উপভোগ করতে পারেন",
+                                          
+                                            "Fotografía": "ফটোগ্রাফি",
+                                            "Film/vídeo": "ফিল্ম/ভিডিও",
+                                            "Cine/vídeo": "সিনেমা/ভিডিও",
+                                            "Música": "সঙ্গীত",
+                                            "Eventos": "ইভেন্ট",
+                                            "Teatro": "থিয়েটার",
+                                            "Otros": "অন্যান্য",
+                                            "Sin categoría": "বিভাগবিহীন",
+                                          
+                                            "El idioma ya se encuentra en el listado": "ভাষাটি ইতিমধ্যেই তালিকায় রয়েছে",
+                                            "Relación": "সম্পর্ক",
+                                            "precio": "মূল্য",
+                                            "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "ব্যবহারকারীর সমস্ত তথ্য অ্যাক্সেস করতে এবং যোগাযোগ করতে Plan S অথবা Plan 360 সাবস্ক্রাইব করুন।",
+                                          
+                                            "my-ads": {
+                                              "Mis anuncios": "আমার বিজ্ঞাপন",
+                                              "Tipo de anuncio": "বিজ্ঞাপনের ধরণ",
+                                              "Duración": "সময়কাল",
+                                              "mes": "মাস",
+                                              "meses": "মাস",
+                                              "día": "দিন",
+                                              "dias": "দিন",
+                                              "Anuncio borrado con éxito": "বিজ্ঞাপন সফলভাবে মুছে ফেলা হয়েছে",
+                                              "Vídeo": "ভিডিও",
+                                              "Imagen": "ছবি",
+                                              "Ver anuncio": "বিজ্ঞাপন দেখুন",
+                                              "Ver perfil del creador": "স্রষ্টার প্রোফাইল দেখুন",
+                                              " y ": " এবং "
+                                            },
+                                          
+                                            "upload-advertisement": {
+                                              "SUBIR ANUNCIO": "বিজ্ঞাপন আপলোড করুন",
+                                              "Quiero publicitar mi perfil": "আমি আমার প্রোফাইল প্রচার করতে চাই",
+                                              "Público objetivo": "টার্গেট দর্শক",
+                                              "Rango de edad": "বয়স সীমা",
+                                              "Rango seleccionado": "নির্বাচিত সীমা",
+                                              "años": "বছর",
+                                              "Género": "লিঙ্গ",
+                                              "Hombre": "পুরুষ",
+                                              "Mujer": "মহিলা",
+                                              "Otro": "অন্যান্য",
+                                              "Localización": "অবস্থান",
+                                              "Buscar dirección": "ঠিকানা অনুসন্ধান করুন",
+                                              "Rango por kilómetros": "কিলোমিটারে সীমা",
+                                              "Rango seleccionado: hasta": "নির্বাচিত সীমা: সর্বোচ্চ",
+                                              "Kilómetros": "কিলোমিটার",
+                                              "Intereses": "আগ্রহ",
+                                              "Pago del anuncio": "বিজ্ঞাপনের অর্থপ্রদান",
+                                              "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "আপনি ইমপ্রেশন বা ক্লিকের জন্য যে মূল্য দিতে চান তা নির্ধারণ করুন। আপনি যে মূল্য নির্ধারণ করবেন, তার উপর ভিত্তি করে আমরা আপনাকে দেখাব বিজ্ঞাপন কতক্ষণ প্রদর্শিত হবে।",
+                                              "Precio por clics": "প্রতি ক্লিকের মূল্য",
+                                              "Impresiones": "প্রদর্শন",
+                                              "Cantidad seleccionada:": "নির্বাচিত পরিমাণ:",
+                                              "impresiones": "প্রদর্শন",
+                                              "Duración": "সময়কাল",
+                                              "días": "দিন",
+                                              "Confirmar y proceder al pago": "নিশ্চিত করুন এবং অর্থপ্রদান করুন",
+                                              "Seleccionar imagen": "ছবি নির্বাচন করুন",
+                                              "Selecciona video": "ভিডিও নির্বাচন করুন"
+                                            },
+                                          
+                                            "El proyecto ha finalizado, no puede realizar modificaciones": "প্রকল্প শেষ হয়েছে, আপনি আর কোনো পরিবর্তন করতে পারবেন না",
+                                            "USUARIOS FAVORITOS": "প্রিয় ব্যবহারকারীরা",
+                                            "CHAT": "চ্যাট",
+                                            "No tiene permiso para acceder al contenido de esta carpeta": "এই ফোল্ডারের বিষয়বস্তু অ্যাক্সেস করার জন্য আপনার অনুমতি নেই",
+                                            "Chat creado con éxito": "চ্যাট সফলভাবে তৈরি হয়েছে",
+                                            "Crear chat": "চ্যাট তৈরি করুন",
+                                            "Nuevo Chat": "নতুন চ্যাট",
+                                          
+                                            "Permisos de carpeta": "ফোল্ডার অনুমতি",
+                                            "Sin permisos": "কোনো অনুমতি নেই",
+                                            "Solo lectura": "শুধু পড়ার অনুমতি",
+                                            "Modificar contenido": "বিষয়বস্তু সম্পাদনা করুন",
+                                            "No se pudo obtener más usuarios": "আরও ব্যবহারকারী আনা যায়নি",
+                                            "Introduzca el nuevo lenguaje": "নতুন ভাষা লিখুন"
+                                          }
+                                          
+                                        
+
+
+                                      
+                                      
+                                  
+                                    
+                                  
+                              
+                              
+                            
+                          
+                            
+                          
+                          
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+  
+    
+  
+  

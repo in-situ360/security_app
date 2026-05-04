@@ -1,0 +1,1256 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "اختيار اللغة",
+      "Seleccionar idioma": "اختر اللغة",
+      "Selecciona el idioma que quieres que se muestre en la app": "اختر اللغة التي تريد عرضها في التطبيق",
+      "Aceptar y continuar": "قبول والمتابعة",
+      "Selecciona un idioma": "اختر لغة",
+      "Inglés": "الإنجليزية",
+      "Español": "الإسبانية",
+      "Francés": "الفرنسية",
+      "Alemán": "الألمانية",
+      "Italiano": "الإيطالية",
+      "Portugués": "البرتغالية",
+      "Ruso": "الروسية",
+      "Chino(Simplificado)": "الصينية (المبسطة)",
+      "Chino(Tradicional)": "الصينية (التقليدية)",
+      "Japonés": "اليابانية",
+      "Coreano": "الكورية",
+      "Árabe": "العربية",
+      "Hindi": "الهندية",
+      "Bengalí": "البنغالية",
+      "Holandés": "الهولندية",
+      "Sueco": "السويدية",
+      "Noruego": "النرويجية",
+      "Finlandés": "الفنلندية",
+      "Danés": "الدانماركية",
+      "Polaco": "البولندية",
+      "Turco": "التركية",
+      "Griego": "اليونانية",
+      "Checo": "التشيكية",
+      "Hebreo": "العبرية",
+      "Húngaro": "الهنغارية",
+      "Vietnamita": "الفيتنامية",
+      "Indonesio": "الإندونيسية",
+      "Tailandés": "التايلاندية",
+      "Catalán": "الكتالونية",
+      "Romanés": "الرومانية",
+      "Ucraniano": "الأوكرانية",
+      "Serbio": "الصربية",
+      "Croata": "الكرواتية",
+      "Eslovaco": "السلوفاكية",
+      "Letón": "اللاتفية",
+      "Estonio": "الإستونية"
+    },
+  
+    "cover-page": {
+      "Registro": "التسجيل",
+      "Iniciar sesión": "تسجيل الدخول"
+    },
+  
+    "login": {
+      "Iniciar sesión": "تسجيل الدخول",
+      "Usuario": "المستخدم",
+      "Contraseña": "كلمة المرور",
+      "He olvidado mi contraseña": "لقد نسيت كلمة المرور",
+      "Entrar": "دخول",
+      "Entrar como invitado": "الدخول كضيف",
+      "¿Aún no tienes una cuenta?": "ليس لديك حساب بعد؟",
+      "Regístrate": "سجل الآن",
+      "Entrando": "جارٍ الدخول...",
+      "Usuario o contraseña incorrectos": "اسم المستخدم أو كلمة المرور غير صحيحة",
+      "El usuario ya se encuentra registrado": "المستخدم مسجل بالفعل",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "تم حظر هذا الحساب مؤقتًا، يرجى الاتصال بالإدارة لمزيد من المعلومات",
+      "Error del servidor, inténtelo más tarde": "خطأ في الخادم، يرجى المحاولة لاحقًا",
+      "Error desconocido, inténtelo más tarde": "خطأ غير معروف، يرجى المحاولة لاحقًا"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "استعادة كلمة المرور",
+      "¿Has olvidado tu contraseña?": "هل نسيت كلمة المرور؟",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "أدخل بريدك الإلكتروني وسنرسل لك كلمة مرور جديدة.",
+      "Email": "البريد الإلكتروني",
+      "Enviar": "إرسال",
+      "¡Se ha enviado el email correctamente!": "تم إرسال البريد الإلكتروني بنجاح!",
+      "Error al enviar el email": "خطأ في إرسال البريد الإلكتروني"
+    },
+  
+    "register": {
+      "Registro": "التسجيل",
+      "¿Cómo deseas acceder a la app?": "كيف تريد الوصول إلى التطبيق؟",
+      "Personal": "شخصي",
+      "Empresa": "شركة",
+      "Nombre": "الاسم",
+      "Nombre de representante": "اسم الممثل",
+      "Apellido 1": "الاسم الأخير 1",
+      "Apellido 2": "الاسم الأخير 2",
+      "Email": "البريد الإلكتروني",
+      "Contraseña": "كلمة المرور",
+      "Repetir Contraseña": "تأكيد كلمة المرور",
+      "He leído y acepto": "قرأت وأوافق على",
+      "la Política de Privacidad": "سياسة الخصوصية",
+      "los Términos y Condiciones de Venta": "الشروط والأحكام للبيع",
+      "Registrarme": "سجل الآن",
+      "¿Ya estás registrado?": "هل لديك حساب بالفعل؟",
+      "Accede aquí": "سجل الدخول هنا",
+      "El email es obligatorio": "البريد الإلكتروني مطلوب",
+      "El email no es válido": "البريد الإلكتروني غير صالح",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "يجب أن يحتوي البريد الإلكتروني على امتداد صالح (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "النطاق غير مسموح به أو يحتوي على أحرف متتالية غير صالحة",
+      "La contraseña es obligatoria": "كلمة المرور مطلوبة",
+      "La contraseña debe tener al menos 8 caracteres": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "يجب أن تحتوي كلمة المرور على حرف كبير ورقم ورمز خاص",
+      "Las contraseñas no coinciden": "كلمات المرور غير متطابقة",
+      "Registrando usuario": "جارٍ تسجيل المستخدم...",
+      "Nombre Empresa": "اسم الشركة",
+"Por favor, revisa los campos con errores antes de continuar": "يرجى مراجعة الحقول التي تحتوي على أخطاء قبل المتابعة",
+      "El nombre es obligatorio": "الاسم مطلوب",
+      "El nombre debe tener al menos 3 caracteres": "يجب أن يحتوي الاسم على 3 أحرف على الأقل"
+        },
+
+
+    
+      
+      "¡Pago realizado!": "تم الدفع!",
+      "El pago de la suscripción se ha realizado correctamente": "تم الدفع للاشتراك بنجاح",
+    
+      "Sin opiniones": "لا توجد آراء",
+      "opinión": "رأي",
+      "opiniones": "آراء",
+      "Eliminar chat": "حذف الدردشة",
+    
+      "Cancelar": "إلغاء",
+      "Advertencia": "تحذير",
+      "¿Estás seguro de eliminar el chat?": "هل أنت متأكد من حذف الدردشة؟",
+      "Aceptar": "موافقة",
+      "Chat borrado con éxito": "تم حذف الدردشة بنجاح",
+      "No se pudo borrar el chat": "تعذر حذف الدردشة",
+      "Contenido de": "محتوى",
+      "Sin seleccionar": "غير محدد",
+      "1 archivo seleccionado": "تم تحديد ملف واحد",
+      " archivos seleccionados": "ملفات محددة",
+      "Archivos eliminados": "تم حذف الملفات",
+      "No se pudieron borrar los archivos": "تعذر حذف الملفات",
+      "Suscripción necesaria": "الاشتراك مطلوب",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "احصل على اشتراك أعلى من الخطة I لعرض تقييمات المستخدمين الآخرين",
+      "Activos": "نشط",
+      "Finalizados": "منتهي",
+      "Mis proyectos": "مشاريعي",
+      "Colaboraciones": "التعاون",
+      "Subir sin editar": "تحميل دون تعديل",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "يتجاوز الملف الحد الأقصى المسموح به (2.5 ميغابايت).",
+    
+    
+
+
+
+
+
+    
+        "finish-profile": {
+          "Seleccione al menos una categoría": "يرجى اختيار فئة واحدة على الأقل",
+"La profesión es obligatoria": "المهنة مطلوبة",
+"La ubicación es obligatoria": "الموقع مطلوب",
+          "COMPLETAR PERFIL": "إكمال الملف الشخصي",
+          "No mostrar mi perfil en el buscador": "عدم عرض ملفي الشخصي في البحث",
+          "Nombre": "الاسم",
+          "Apellido 1": "اللقب الأول",
+          "Apellido 2": "اللقب الثاني",
+          "Nombre de representante": "اسم الممثل",
+          "Fecha de nacimiento": "تاريخ الميلاد",
+          "Este detalle no se mostrará de forma pública": "لن يتم عرض هذا التفصيل للعامة",
+          "Género": "الجنس",
+          "Seleccione una opción": "اختر خيارًا",
+          "Hombre": "ذكر",
+          "Mujer": "أنثى",
+          "Otro": "آخر",
+          "Profesión": "المهنة",
+          "Escribe aquí…": "اكتب هنا…",
+          "Categoría de trabajo": "فئة العمل",
+          "Salario": "الراتب",
+          "Selecciona un rango de salario": "اختر نطاق الراتب",
+          "Precio seleccionado:": "السعر المحدد:",
+          "Se mostrará como:": "سيتم عرضه كـ:",
+          "Tags": "الوسوم",
+          "Escribe las palabras clave para describir tu empleo": "اكتب الكلمات الرئيسية لوصف عملك",
+          "Descripción": "الوصف",
+          "Guardar cambios": "حفظ التغييرات",
+          "Escribe aquí": "اكتب هنا",
+          "Escribe aquí...": "اكتب هنا...",
+          "día": "يوم",
+          "Él": "هو",
+          "Ella": "هي",
+          "Elle": "هم",
+          "Añade tus pronombres": "أضف ضمائرك",
+          "Introduzca el pronombre con el que se identifique": "أدخل الضمير الذي تعرف به نفسك",
+          "El nombre es obligatorio": "الاسم مطلوب",
+          "El apellido 1 es obligatorio": "اللقب الأول مطلوب",
+          "Introduzca una fecha válida": "أدخل تاريخًا صالحًا",
+          "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "إذا اخترت إضافة ضمائرك، يجب إدخال ضمير واحد على الأقل",
+          "Debes seleccionar un género": "يجب عليك تحديد الجنس",
+          "Error obteniendo el usuario": "خطأ في جلب بيانات المستخدم",
+          "Usuario actualizado correctamente": "تم تحديث المستخدم بنجاح",
+          "Ya hay un Tag con ese valor": "هناك وسم بهذا القيمة بالفعل",
+          "El campo está vacío, no se puede crear un Tag": "الحقل فارغ، لا يمكن إنشاء وسم",
+          "Por favor, revisa los campos con errores antes de continuar": "يرجى مراجعة الحقول التي تحتوي على أخطاء قبل المتابعة",
+          "Ya hay un Pronombre con ese valor": "هناك ضمير بهذه القيمة بالفعل",
+          "El campo está vacío, no se puede crear un Pronombre": "الحقل فارغ، لا يمكن إنشاء ضمير"
+        },
+      
+        "settings": {
+          "CONFIGURACIÓN": "الإعدادات",
+          "Configurar mi cuenta": "إعداد حسابي",
+          "Mis métodos de pago": "طرق الدفع الخاصة بي",
+          "Destacar mi perfil": "تمييز ملفي الشخصي",
+          "Mi suscripción": "اشتراكي",
+          "Mis anuncios": "إعلاناتي",
+          "Estadísticas": "الإحصائيات",
+          "Usuarios bloqueados": "المستخدمون المحظورون",
+          "Idioma de la app": "لغة التطبيق",
+          "Contacta con nosotros": "اتصل بنا",
+          "FAQ": "الأسئلة الشائعة",
+          "Política de Privacidad": "سياسة الخصوصية",
+          "Términos y Condiciones de venta": "الشروط والأحكام للبيع",
+          "Cerrar sesión": "تسجيل الخروج",
+          "Eliminar cuenta": "حذف الحساب",
+          "¿Estás seguro de querer cerrar sesión?": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+          "Aceptar": "قبول",
+          "Cancelar": "إلغاء",
+          "Advertencia": "تحذير",
+          "¿Estás seguro de querer eliminar tu cuenta?": "هل أنت متأكد أنك تريد حذف حسابك؟",
+          "Cuenta eliminada satisfactoriamente": "تم حذف الحساب بنجاح",
+          "Hubo problemas para borrar la cuenta de usuario": "حدثت مشكلات أثناء حذف حساب المستخدم"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "إعداد حسابي",
+          "Nombre de usuario": "اسم المستخدم",
+          "Email": "البريد الإلكتروني",
+          "Contraseña": "كلمة المرور",
+          "Repetir contraseña": "إعادة إدخال كلمة المرور",
+          "Guardar cambios": "حفظ التغييرات",
+          "Error obteniendo el usuario": "خطأ في جلب بيانات المستخدم",
+          "Cuenta de usuario actualizada": "تم تحديث الحساب بنجاح",
+          "El nombre es obligatorio": "الاسم مطلوب",
+          "El nombre debe tener al menos 3 caracteres": "يجب أن يحتوي الاسم على 3 أحرف على الأقل",
+          "El email es obligatorio": "البريد الإلكتروني مطلوب",
+          "El email no es válido": "البريد الإلكتروني غير صالح",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "يجب أن يكون للبريد الإلكتروني امتداد صالح (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "النطاق غير مسموح به أو يحتوي على أحرف متتالية غير صالحة",
+          "La contraseña es obligatoria": "كلمة المرور مطلوبة",
+          "La contraseña debe tener al menos 8 caracteres": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "يجب أن تحتوي كلمة المرور على حرف كبير ورقم ورمز خاص",
+          "Las contraseñas no coinciden": "كلمات المرور غير متطابقة"
+        },
+        
+            "tyc": {
+              "TÉRMINOS Y CONDICIONES DE VENTA": "الشروط والأحكام للبيع"
+            },
+          
+            "rgpd": {
+              "POLÍTICA DE PRIVACIDAD": "سياسة الخصوصية"
+            },
+          
+            "contact-us": {
+              "CONTACTA CON NOSOTROS": "اتصل بنا",
+              "¿Tienes alguna duda? ¿Alguna propuesta?": "هل لديك أي استفسار؟ أي اقتراح؟",
+              "¡Estamos deseando escucharte!": "نحن متحمسون لسماعك!",
+              "Nombre": "الاسم",
+              "Apellidos": "اللقب",
+              "Email": "البريد الإلكتروني",
+              "Categoría": "الفئة",
+              "Atención al cliente": "خدمة العملاء",
+              "Soporte": "الدعم الفني",
+              "Solicitud": "طلب",
+              "Enviar solicitud": "إرسال الطلب",
+              "Solicitud de contacto creada con éxito": "تم إنشاء طلب الاتصال بنجاح",
+              "Hubo un problema al enviar la solicitud de contacto": "حدثت مشكلة أثناء إرسال طلب الاتصال",
+              "Rellene todos los campos para enviar la solicitud de contacto": "يرجى ملء جميع الحقول لإرسال طلب الاتصال",
+              "Escribe aquí...": "اكتب هنا...",
+              "Adquiera plan válido": "احصل على خطة صالحة",
+              "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "احصل على خطة PlanS أو Plan360 للتواصل مع فريق Insitu"
+            },
+          
+            "faq": {
+              "FAQ": "الأسئلة الشائعة",
+              "Ir a la página ": "انتقل إلى الصفحة "
+            },
+          
+            "ban-users": {
+              "USUARIOS BLOQUEADOS": "المستخدمون المحظورون",
+              "No se pudo obtener el listado de usuarios bloqueados": "تعذر الحصول على قائمة المستخدمين المحظورين",
+              "¿Desea desbloquear a este usuario?": "هل ترغب في إلغاء حظر هذا المستخدم؟",
+              "Cancelar": "إلغاء",
+              "Desbloquear": "إلغاء الحظر",
+              "Usuario desbloqueado": "تم إلغاء حظر المستخدم",
+              "El usuario ya no se encuentra bloqueado": "لم يعد المستخدم محظورًا",
+              "Respuesta desconocida": "استجابة غير معروفة"
+            },
+          
+            "suscription-detail": {
+              "Características": "الميزات",
+              "Plan I": "الخطة I",
+              "al mes": "شهريًا",
+              "Plan S": "الخطة S",
+              "Plan 360": "الخطة 360",
+              "Búsqueda ilimitada": "بحث غير محدود",
+              "Completa tu perfil": "أكمل ملفك الشخصي",
+              "Obtén reseñas verificadas": "احصل على مراجعات موثوقة",
+              "Forma parte de proyecto": "كن جزءًا من المشروع",
+              "Incluido lo relativo al plan I": "يتضمن ما يتعلق بالخطة I",
+              "Contacta con profesionales": "تواصل مع المحترفين",
+              "Filtros de búsqueda Premium": "فلاتر بحث متميزة",
+              "Visualiza todos los perfiles": "عرض جميع الملفات الشخصية",
+              "Aumenta tu visibilidad": "زيادة مدى رؤيتك",
+              "Métricas avanzadas": "إحصائيات متقدمة",
+              "Incluido lo relativo al plan S": "يتضمن ما يتعلق بالخطة S",
+              "Crear y administrar proyectos": "إنشاء وإدارة المشاريع",
+              "Gestiona poderes a tu equipo": "إدارة الصلاحيات لفريقك",
+              "Almacenamiento ilimitado de proyectos": "تخزين غير محدود للمشاريع",
+              "Creación de chat grupales": "إنشاء محادثات جماعية",
+              "Calendario compartido": "تقويم مشترك"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "الأعمال",
+              "No se pudo obtener los trabajos": "تعذر الحصول على الأعمال",
+              "¿Desea eliminar la imagen?": "هل ترغب في حذف الصورة؟",
+              "No": "لا",
+              "Sí": "نعم",
+              "Hubo un problema al borrar": "حدثت مشكلة أثناء الحذف",
+              "¿Desea ajustar la imagen antes de que sea subida?": "هل ترغب في تعديل الصورة قبل رفعها؟",
+              "Subir imagen": "رفع صورة",
+              "No se pudo crear el trabajo": "تعذر إنشاء العمل",
+              "Ajustar imagen": "تعديل الصورة",
+              "Cancelar Subida": "إلغاء الرفع"
+            },
+            
+                "languages": {
+                  "IDIOMAS": "اللغات",
+                  "Idiomas": "اللغات",
+                  "Añadir otro idioma": "إضافة لغة أخرى",
+                  "Añadir otro lenguaje": "إضافة لغة أخرى",
+                  "Guardar cambios": "حفظ التغييرات",
+                  "No se pudo obtener los idiomas": "تعذر الحصول على اللغات"
+                },
+              
+                "locations": {
+                  "UBICACIONES": "المواقع",
+                  "Tu ubicación": "موقعك",
+                  "Buscar dirección": "البحث عن عنوان",
+                  "Ubicaciones donde puedes trabajar": "المواقع التي يمكنك العمل فيها",
+                  "Ubicación": "الموقع",
+                  "Añadir otra ubicación": "إضافة موقع آخر",
+                  "Guardar cambios": "حفظ التغييرات",
+                  "No se pudo obtener las ubicaciones": "تعذر الحصول على المواقع"
+                },
+              
+                "usersetags": {
+                  "No se pudo obtener los tags": "تعذر الحصول على الوسوم",
+                  "TAGS": "الوسوم"
+                },
+              
+                "my-profile": {
+                  "Trabajos": "الأعمال",
+                  "Ubicaciones": "المواقع",
+                  "Idiomas": "اللغات",
+                  "Redes sociales": "وسائل التواصل الاجتماعي",
+                  "Editar": "تعديل",
+                  "Tu ubicación": "موقعك",
+                  "Sin ubicación actual": "لا يوجد موقع حالي",
+                  "Ubicaciones donde puede trabajar": "المواقع التي يمكنه العمل فيها",
+                  "Trabajos de": "أعمال",
+                  "Sin opiniones": "بدون آراء",
+                  "opiniones": "آراء",
+                  "Sin Suscripción": "بدون اشتراك",
+                  "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "اشترك للاستفادة الكاملة من التطبيق وتحقيق أفضل استفادة",
+                  "Error obteniendo el usuario": "خطأ في الحصول على بيانات المستخدم",
+                  "No se pudieron obtener los trabajos": "تعذر الحصول على الأعمال",
+                  "No se pudieron obtener las ubicaciones": "تعذر الحصول على المواقع",
+                  "No se pudieron obtener los idiomas": "تعذر الحصول على اللغات",
+                  "No se pudieron obtener las etiquetas": "تعذر الحصول على الوسوم",
+                  "No se pudieron obtener las redes": "تعذر الحصول على وسائل التواصل الاجتماعي"
+                },
+              
+                "home": {
+                  "Descubre nuestro top": "اكتشف الأفضل لدينا",
+                  "Los mejores profesionales muestran sus anuncios": "يعرض أفضل المحترفين إعلاناتهم",
+                  "Logan descriptivo de anuncio especial": "شعار وصفي للإعلان المميز",
+                  "Contacta con el éxito": "تواصل مع النجاح",
+                  "Descubre los usuarios que harán realidad tu proyecto": "اكتشف المستخدمين الذين سيحققون مشروعك"
+                },
+              
+                "notifications": {
+                  "Notificaciones": "الإشعارات",
+                  "Pulsa aquí para conocer más": "اضغط هنا لمعرفة المزيد",
+                  "No se pudo obtener las notificaciones": "تعذر الحصول على الإشعارات",
+                  "No se pudo obtener los datos del usuario": "تعذر الحصول على بيانات المستخدم",
+                  "No se pudo obtener las carpetas del proyecto": "تعذر الحصول على مجلدات المشروع"
+                },
+              
+                "notifications-settings": {
+                  "CONFIGURACIÓN DE NOTIFICACIONES": "إعدادات الإشعارات",
+                  "Valoraciones recibidas": "التقييمات المستلمة",
+                  "Solicitudes de chat": "طلبات الدردشة",
+                  "Solicitud de chat aceptada": "تم قبول طلب الدردشة",
+                  "Solicitudes de proyecto": "طلبات المشاريع",
+                  "Nuevas carpetas en el proyecto": "مجلدات جديدة في المشروع",
+                  "Chats de proyecto": "محادثات المشروع",
+                  "Fecha previa al fin del proyecto": "تاريخ قبل انتهاء المشروع",
+                  "Fecha de fin del proyecto": "تاريخ انتهاء المشروع",
+                  "No se pudo obtener los datos del usuario": "تعذر الحصول على بيانات المستخدم",
+                  "No se pudo actualizar los permisos del usuario": "تعذر تحديث أذونات المستخدم"
+                },
+              
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "حدد ما تريد الإبلاغ عنه",
+                  "Reportar mensajes": "الإبلاغ عن الرسائل",
+                  "Desnudos o actividad sexual": "العري أو النشاط الجنسي",
+                  "Lenguaje o símbolos que incitan al odio": "لغة أو رموز تحرض على الكراهية",
+                  "Estafa o fraude": "احتيال أو نصب",
+                  "Violencia u organizaciones peligrosas": "العنف أو المنظمات الخطيرة",
+                  "Venta de bienes ilegales o regulados": "بيع سلع غير قانونية أو خاضعة للتنظيم",
+                  "Bullying o acoso": "التنمر أو المضايقة",
+                  "Infracción de la propiedad intelectual": "انتهاك حقوق الملكية الفكرية",
+                  "Suicidio o autolesiones": "الانتحار أو إيذاء النفس",
+                  "Spam": "رسائل غير مرغوب فيها",
+                  "El problema no aparece en la lista": "المشكلة غير مدرجة في القائمة",
+                  "Usuario o contraseña incorrectos": "اسم المستخدم أو كلمة المرور غير صحيحة",
+                  "El usuario ya se encuentra registrado": "المستخدم مسجل بالفعل",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "تم حظر هذا الحساب مؤقتًا، يرجى التواصل مع الإدارة لمزيد من المعلومات",
+                  "Error del servidor, inténtelo más tarde": "خطأ في الخادم، يرجى المحاولة لاحقًا",
+                  "Error desconocido, inténtelo más tarde": "خطأ غير معروف، يرجى المحاولة لاحقًا",
+                  "Enviar reporte": "إرسال الإبلاغ",
+                  "No se pudo reportar al usuario": "تعذر الإبلاغ عن المستخدم",
+                  "Usuario reportado": "تم الإبلاغ عن المستخدم",
+                  "Debe seleccionar un motivo de reporte": "يجب تحديد سبب للإبلاغ"
+                },
+              
+                
+                "workspace": {
+    "Colaboraciones": "التعاون",
+    "Mis proyectos": "مشاريعي",
+    "Estado del proyecto": "حالة المشروع",
+    "Seleccione": "اختر",
+    "Todos": "الكل",
+    "Activos": "نشط",
+    "Finalizados": "منتهي",
+    "participantes": "المشاركون",
+    "No se pudo obtener las colaboraciones de proyecto": "تعذر الحصول على تعاون المشروع",
+    "No se pudo obtener el listado de proyectos": "تعذر الحصول على قائمة المشاريع"
+  },
+
+  "modal-filt-text": {
+    "Filtro de nombre": "تصفية حسب الاسم",
+    "Introduzca el nombre del proyecto": "أدخل اسم المشروع",
+    "Nombre de proyecto": "اسم المشروع",
+    "Continuar": "متابعة"
+  },
+
+  "new-project": {
+    "CREAR NUEVO PROYECTO": "إنشاء مشروع جديد",
+    "Añadir imagen": "إضافة صورة",
+    "Nombre": "الاسم",
+    "Nombre Proyecto": "اسم المشروع",
+    "Descripción del proyecto": "وصف المشروع",
+    "Escribe aquí...": "اكتب هنا...",
+    "Key Code": "رمز المفتاح",
+    "Introduzca clave": "أدخل المفتاح",
+    "Fecha de finalización": "تاريخ الانتهاء",
+    "Podrá ser editada desde el apartado de Configuración": "يمكن تعديلها من قسم الإعدادات",
+    "Crear Proyecto": "إنشاء المشروع",
+    "La fecha de finalización debe ser posterior a la fecha actual": "يجب أن يكون تاريخ الانتهاء بعد التاريخ الحالي",
+    "Ya tienes un proyecto con ese nombre": "لديك بالفعل مشروع بنفس الاسم",
+    "Proyecto creado con éxito": "تم إنشاء المشروع بنجاح",
+    "Sin Suscripción válida": "بدون اشتراك صالح",
+    "Hazte con el plan 360 para crear y administrar proyectos": "احصل على الخطة 360 لإنشاء وإدارة المشاريع"
+  },
+  
+    "detail-proyect": {
+      "Creado por": "تم إنشاؤه بواسطة",
+      "Carpetas": "المجلدات",
+      "participantes": "المشاركون",
+      "Ver todas": "عرض الكل",
+      "Chats": "الدردشات",
+      "Ver todos": "عرض الجميع",
+      "No se obtuvo las carpetas del proyecto": "لم يتم الحصول على مجلدات المشروع",
+      "Sin Suscripción": "بدون اشتراك",
+      "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "احصل على اشتراك للتفاعل مع المشاريع التي تتعاون فيها"
+    },
+  
+    "new-folder": {
+      "NUEVA CARPETA": "مجلد جديد",
+      "Añadir imagen de portada": "إضافة صورة غلاف",
+      "Nombre de la carpeta": "اسم المجلد",
+      "Nombre Carpeta": "اسم المجلد",
+      "Aceptar y continuar": "قبول ومتابعة",
+      "Carpeta creada con éxito": "تم إنشاء المجلد بنجاح",
+      "Se alcanzó el máximo de subidas permitidas": "تم الوصول إلى الحد الأقصى من التحميلات المسموح بها",
+      "Conetenido multimedia eliminado": "تم حذف المحتوى المتعدد الوسائط",
+      "No se pudo eliminar el contenido": "تعذر حذف المحتوى",
+      "Nuevo contenido subido correctamente": "تم تحميل المحتوى الجديد بنجاح",
+      "Máximo alcanzado": "تم الوصول إلى الحد الأقصى",
+      "Hazte con el plan 360 para subir contenido de forma ilimitada": "احصل على الخطة 360 لتحميل المحتوى بشكل غير محدود"
+    },
+  
+    "edit-project": {
+      "EDITAR PROYECTO": "تحرير المشروع",
+      "Añadir imagen": "إضافة صورة",
+      "Nombre": "الاسم",
+      "Nombre Proyecto": "اسم المشروع",
+      "Descripción del proyecto": "وصف المشروع",
+      "Escribe aquí...": "اكتب هنا...",
+      "Key Code": "رمز المفتاح",
+      "Introduzca clave": "أدخل المفتاح",
+      "Fecha de finalización": "تاريخ الانتهاء",
+      "Podrá ser editada desde el apartado de Configuración": "يمكن تعديلها من قسم الإعدادات",
+      "Actualizar": "تحديث",
+      "Editar usuarios": "تعديل المستخدمين",
+      "No se obtuvieron las carpetas del proyecto": "لم يتم الحصول على مجلدات المشروع",
+      "La fecha de finalización debe ser posterior a la fecha actual": "يجب أن يكون تاريخ الانتهاء بعد التاريخ الحالي",
+      "Proyecto actualizado": "تم تحديث المشروع",
+      "Proyecto indicado ya no existe": "المشروع المحدد لم يعد موجودًا",
+      "Solo el creador del proyecto puede borrarlo": "فقط منشئ المشروع يمكنه حذفه",
+      "Proyecto eliminado": "تم حذف المشروع",
+      "Eliminar proyecto": "حذف المشروع",
+      "¿Estás seguro de querer eliminar el proyecto?": "هل أنت متأكد من أنك تريد حذف المشروع؟",
+      "Cancelar": "إلغاء",
+      "Aceptar": "قبول",
+      "Sin Suscripción válida": "بدون اشتراك صالح",
+      "Hazte con el plan 360 para crear y administrar proyectos": "احصل على الخطة 360 لإنشاء وإدارة المشاريع"
+    },
+  
+    "edit-participants": {
+      "MODIFICAR PARTICIPANTES": "تعديل المشاركين",
+      "Participantes del proyecto": "مشاركو المشروع",
+      "Creador": "المنشئ",
+      "Pendiente": "قيد الانتظار",
+      "Aceptar y continuar": "قبول ومتابعة",
+      "Buscar": "بحث",
+      "No se obtuvieron los paticipantes": "لم يتم الحصول على المشاركين",
+      "No se pudo obtener más usuarios": "تعذر الحصول على مزيد من المستخدمين",
+      "El usuario seleccionado ya está añadido al listado de participantes": "المستخدم المحدد مضاف بالفعل إلى قائمة المشاركين",
+      "Sin Categorías": "بدون فئات",
+      "Usuarios asociados al proyecto": "المستخدمون المرتبطون بالمشروع",
+      "El proyecto indicado ya no existe": "المشروع المحدد لم يعد موجودًا",
+      "No se puedieron asignar los participantes": "تعذر تعيين المشاركين",
+      "Sin Suscripción válida": "بدون اشتراك صالح",
+      "Hazte con el plan 360 para crear y administrar proyectos": "احصل على الخطة 360 لإنشاء وإدارة المشاريع"
+    },
+  
+    "add-participants": {
+      "AGREGAR PARTICIPANTES": "إضافة مشاركين",
+      "Participantes del proyecto": "مشاركو المشروع",
+      "Administrador": "المسؤول",
+      "Pendiente": "قيد الانتظار",
+      "Buscar": "بحث",
+      "Aceptar y continuar": "قبول ومتابعة",
+      "Tú": "أنت",
+      "No se pudo obtener más usuarios": "تعذر الحصول على مزيد من المستخدمين",
+      "El usuario seleccionado ya está añadido al listado de participantes": "المستخدم المحدد مضاف بالفعل إلى قائمة المشاركين",
+      "Sin Categorías": "بدون فئات",
+      "Usuarios asociados al proyecto": "المستخدمون المرتبطون بالمشروع",
+      "El proyecto indicado ya no existe": "المشروع المحدد لم يعد موجودًا",
+      "No se pudieron asignar los participantes": "تعذر تعيين المشاركين"
+    },
+  
+    "grant-permissions": {
+      "PERMISOS DEL PROYECTO": "أذونات المشروع",
+      "Administradores actuales": "المسؤولون الحاليون",
+      "Tú": "أنت",
+      "Administrador": "المسؤول",
+      "Pendiente": "قيد الانتظار",
+      "Selecciona al usuario al que desees otorgar el rol de administrador": "حدد المستخدم الذي ترغب في منحه دور المسؤول",
+      "Aceptar y continuar": "قبول ومتابعة",
+      "No se obtuvieron los participantes": "لم يتم الحصول على المشاركين",
+      "Sin Categorías": "بدون فئات",
+      "El usuario seleccionado ya está añadido al listado": "المستخدم المحدد مضاف بالفعل إلى القائمة",
+      "Permisos asociados": "الأذونات المرتبطة",
+      "El proyecto indicado ya no existe": "المشروع المحدد لم يعد موجودًا",
+      "No se puedieron asignar los permisos": "تعذر تعيين الأذونات",
+      "Sin Suscripción válida": "بدون اشتراك صالح",
+      "Hazte con el plan 360 para gestionar permisos a los usuarios": "احصل على الخطة 360 لإدارة أذونات المستخدمين"
+    },
+  
+    "add-proyect": {
+      "quiere añadirte al proyecto": "{{name}} يريد إضافتك إلى المشروع",
+      "¿Deseas unirte al Workspace?": "هل ترغب في الانضمام إلى مساحة العمل؟",
+      "Aceptar": "قبول",
+      "Rechazar": "رفض",
+      "Proyecto rechazado con éxito": "تم رفض المشروع بنجاح",
+      "El proyecto ya no se encuentra asociado a su cuenta": "لم يعد المشروع مرتبطًا بحسابك",
+      "No se pudo rechazar el proyecto": "تعذر رفض المشروع",
+      "Sin proyecto": "بدون مشروع",
+      "Sin Categorías": "بدون فئات",
+      "¡Proyecto aceptado!": "تم قبول المشروع!",
+      "El proyecto ya no existe": "المشروع لم يعد موجودًا",
+      "El KeyCode introducido no es correcto": "رمز المفتاح الذي تم إدخاله غير صحيح",
+      "No se pudo verificar el usuario en el proyecto": "تعذر التحقق من المستخدم في المشروع",
+      "Sin Suscripción": "بدون اشتراك",
+      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "احصل على اشتراك لقبول ورفض المشاريع"
+    },
+
+        "modal-keycode": {
+          "Key code": "رمز المفتاح",
+          "Añade el código de acceso proporcionado por el administrador": "أضف رمز الوصول الذي يوفره المسؤول",
+          "Continuar": "متابعة",
+          "Adquiera una suscripción para poder aceptar y rechazar proyectos": "اشترك للحصول على إمكانية قبول ورفض المشاريع",
+          "¡Proyecto aceptado!": "تم قبول المشروع!",
+          "El proyecto ya no se encuentra asociado a su cuenta": "لم يعد المشروع مرتبطًا بحسابك",
+          "El proyecto ya no existe": "المشروع لم يعد موجودًا",
+          "El KeyCode introducino no es correcto": "رمز المفتاح الذي تم إدخاله غير صحيح",
+          "No se pudo verificar usuario en el proyecto": "تعذر التحقق من المستخدم في المشروع",
+          "Introduzca una clave para continuar": "أدخل مفتاحًا للمتابعة"
+        },
+      
+        "folders": {
+          "CARPETAS": "المجلدات",
+          "No se obtuvieron las carpetas del proyecto": "تعذر الحصول على مجلدات المشروع"
+        },
+      
+        "folder-content": {
+          "No se obtuvo las carpetas del proyecto": "تعذر الحصول على مجلدات المشروع",
+          "Nuevo contenido subido correctamente": "تم تحميل المحتوى الجديد بنجاح",
+          "No se pudo obtener las carpetas del proyecto": "تعذر الحصول على مجلدات المشروع",
+          "Máximo alcanzado": "تم الوصول إلى الحد الأقصى",
+          "Hazte con el plan 360 para subir contenido de forma ilimitada": "احصل على الخطة 360 لتحميل المحتوى بشكل غير محدود"
+        },
+      
+        "modal-multimedia": {
+          "Volver a contenido multimedia": "العودة إلى المحتوى المتعدد الوسائط"
+        },
+      
+        "my-suscription": {
+          "Mi suscripción": "اشتراكي",
+          "Ver características": "عرض الميزات",
+          "Planes": "الخطط",
+          "Pago mensual": "الدفع الشهري",
+          "Pago anual (Descuento del 15%)": "الدفع السنوي (خصم 15%)",
+          "al mes": "شهريًا",
+          "al año": "سنوياً",
+          "Free": "مجاني",
+          "Buscador avanzado": "محرك بحث متقدم",
+          "Complete Workspace": "مساحة عمل متكاملة",
+          "Tu plan actual": "خطة الاشتراك الحالية",
+          "¡Suscripción cambiada!": "تم تغيير الاشتراك!",
+          "Suscripción cambiada correctamente": "تم تغيير الاشتراك بنجاح",
+          "Continuar a la app": "المتابعة إلى التطبيق",
+          "Comprar un proyecto": "شراء مشروع",
+          "No se obtuvieron suscripciones": "تعذر الحصول على الاشتراكات",
+          "Obtener plan ": "الحصول على خطة ",
+          "Cambiar a plan ": "التغيير إلى خطة ",
+          "Cargando...": "جارٍ التحميل...",
+          "Hubo un problema para cambiar": "حدثت مشكلة أثناء التغيير"
+        },
+      
+        "project-checkout": {
+          "CHECKOUT": "إتمام الشراء",
+          "Compra de": "شراء",
+          "1 proyecto": "مشروع واحد",
+          "Crédito o débito": "بطاقة ائتمان أو خصم",
+          "Paypal": "باي بال",
+          "Apple Pay": "أبل باي",
+          "He leído y acepto ": "لقد قرأت وأوافق على ",
+          "los Términos y Condiciones de Venta": "الشروط والأحكام للبيع",
+          "¡Pago realizado!": "تمت عملية الدفع!",
+          "La compra de un proyecto se ha realizado correctamente": "تم شراء المشروع بنجاح",
+          "Continuar a la app": "المتابعة إلى التطبيق",
+          "Total": "الإجمالي",
+          "Continuar": "متابعة",
+          "Cargando...": "جارٍ التحميل...",
+          "Pago cancelado por el usuario.": "تم إلغاء الدفع من قبل المستخدم.",
+          "Ocurrió un error durante la transacción de pago": "حدث خطأ أثناء المعاملة المالية",
+          "No se pudo realizar el pago.": "تعذر إتمام الدفع.",
+          "Pago cancelado.": "تم إلغاء الدفع.",
+          "Pago completado.": "تم إتمام الدفع."
+        },
+      
+        "suscription-checkout": {
+          "CHECKOUT": "إتمام الشراء",
+          "Pago del ": "دفع ",
+          "Crédito o débito": "بطاقة ائتمان أو خصم",
+          "Paypal": "باي بال",
+          "Apple Pay": "أبل باي",
+          "He leído y acepto ": "لقد قرأت وأوافق على ",
+          "los Términos y Condiciones de Venta": "الشروط والأحكام للبيع",
+          "¡Pago realizado!": "تم الدفع!",
+          "El pago de la suscripción se ha realizado correctamente": "تم الدفع للاشتراك بنجاح",
+          "Continuar a la app": "المتابعة إلى التطبيق",
+          "Total": "الإجمالي",
+          "Continuar": "متابعة",
+          "Cargando...": "جارٍ التحميل...",
+          "Método de pago agregado correctamente.": "تمت إضافة طريقة الدفع بنجاح.",
+          "Ingreso de método de pago cancelado.": "تم إلغاء إدخال طريقة الدفع.",
+          "Pago completado correctamente.": "تم الدفع بنجاح.",
+          "Pago cancelado por el usuario.": "تم إلغاء الدفع من قبل المستخدم.",
+          "Error durante el proceso de pago.": "حدث خطأ أثناء عملية الدفع.",
+          "Ocurrió un error durante el proceso de suscripción.": "حدث خطأ أثناء عملية الاشتراك.",
+          "Error al procesar la suscripción.": "خطأ في معالجة الاشتراك.",
+          "Error al configurar el pago con Apple Pay.": "حدث خطأ أثناء إعداد الدفع باستخدام أبل باي.",
+          "No se pudo realizar el pago con Apple Pay.": "تعذر إتمام الدفع باستخدام أبل باي.",
+          "Ocurrió un error durante el proceso de pago con Apple Pay.": "حدث خطأ أثناء عملية الدفع باستخدام أبل باي."
+        },
+
+            "conectar": {
+              "Conecta con": "اتصل بـ",
+              "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "لقد طلبت الاتصال بهذا المستخدم. اكتب رسالة تشرح فيها سبب رغبتك في العمل معًا في مشروع.",
+              "Escribe aquí...": "اكتب هنا...",
+              "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "سيكون لدى المستخدم الذي تواصلت معه ما يصل إلى 24 ساعة للرد على طلبك. بمجرد مرور هذه المدة، سيتم رفض الطلب تلقائيًا. عند إرسال هذا الطلب، فإنك توافق على مشاركة معلوماتك العامة وفقًا لـ",
+              "política de privacidad": "سياسة الخصوصية",
+              "Conectar": "اتصل",
+              "Ya hay una solicitud para ese usuario": "يوجد بالفعل طلب لهذا المستخدم",
+              "Solicitud creada con éxito": "تم إنشاء الطلب بنجاح",
+              "Resultado desconocido": "نتيجة غير معروفة",
+              "Hubo un problema al enviar la solicitud": "حدثت مشكلة أثناء إرسال الطلب",
+              "El mensaje no puede estar vacio": "لا يمكن أن تكون الرسالة فارغة"
+            },
+          
+            "user-search": {
+              "Buscar": "بحث",
+              "Ordenar": "ترتيب",
+              "No hay resultados": "لا توجد نتائج",
+              "conectar": "اتصال",
+              "Sin oficio": "بدون وظيفة",
+              "Sin opiniones": "بدون آراء",
+              "opiniones": "آراء",
+              "Sin ubicación actual": "لا يوجد موقع حالي",
+              "FOTOGRAFÍA": "التصوير الفوتوغرافي",
+              "CINE / VIDEO": "السينما / الفيديو",
+              "MÚSICA": "الموسيقى",
+              "TEATRO": "المسرح",
+              "EVENTOS": "الفعاليات",
+              "TV": "التلفزيون",
+              "OTROS": "أخرى",
+              "FILTROS": "الفلاتر",
+              "Restablecer": "إعادة ضبط",
+              "Tu ubicación": "موقعك",
+              "Buscar dirección": "بحث عن عنوان",
+              "Categorías": "الفئات",
+              "EVENTOS Y FIESTAS": "الفعاليات والحفلات",
+              "SIN CATEGORÍA": "بدون فئة",
+              "Etiquetas": "الوسوم",
+              "Escribe palabras clave para filtrar resultados": "اكتب كلمات مفتاحية لتصفية النتائج",
+              "Escribe aquí...": "اكتب هنا...",
+              "Rango de precio": "نطاق السعر",
+              "Selecciona un rango de precio para filtrar resultados": "حدد نطاق سعر لتصفية النتائج",
+              "Rango": "النطاق",
+              "Mínimo": "الحد الأدنى",
+              "día": "اليوم",
+              "Máximo": "الحد الأقصى",
+              "Mejor valorados": "الأعلى تقييمًا",
+              "Más valorados": "الأكثر تقييمًا",
+              "Precio ascendente": "السعر تصاعديًا",
+              "Precio descendente": "السعر تنازليًا",
+              "No se pudo obtener listado de usuarios": "تعذر الحصول على قائمة المستخدمين",
+              "No se pudo obtener el contador de categorías": "تعذر الحصول على عداد الفئات",
+              "Sin tags": "بدون وسوم",
+              "Ya hay una solicitud enviada pendiente de aceptar": "يوجد طلب مرسل بالفعل في انتظار القبول",
+              "Resultado desconocido": "نتيجة غير معروفة",
+              "No se pudo comprobar la existencia de la solicitud": "تعذر التحقق من وجود الطلب",
+              "Ya hay un Tag con ese valor": "يوجد بالفعل وسم بهذا القيمة",
+              "El campo está vacío, no se puede crear un Tag": "الحقل فارغ، لا يمكن إنشاء وسم",
+              "Sin Suscripción válida": "بدون اشتراك صالح",
+              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "احصل على الخطة الأولية أو خطة 360 للوصول إلى المستخدمين والتواصل معهم"
+            },
+          
+           
+            
+                "Usuario o contraseña incorrectos": "اسم المستخدم أو كلمة المرور غير صحيحة",
+                "El usuario ya se encuentra registrado": "المستخدم مسجل بالفعل",
+                "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.": "تم حظر هذا الحساب مؤقتًا، يرجى الاتصال بالإدارة لمزيد من المعلومات.",
+                "Error del servidor, inténtelo más tarde": "خطأ في الخادم، يرجى المحاولة لاحقًا",
+                "Error desconocido, inténtelo más tarde": "خطأ غير معروف، يرجى المحاولة لاحقًا",
+              
+                "codeErrors": {
+                  "Usuario o contraseña incorrectos": "اسم المستخدم أو كلمة المرور غير صحيحة",
+                  "El usuario ya se encuentra registrado": "المستخدم مسجل بالفعل",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.": "تم حظر هذا الحساب مؤقتًا، يرجى الاتصال بالإدارة لمزيد من المعلومات.",
+                  "Error del servidor, inténtelo más tarde": "خطأ في الخادم، يرجى المحاولة لاحقًا",
+                  "Error desconocido, inténtelo más tarde": "خطأ غير معروف، يرجى المحاولة لاحقًا"
+                },
+              
+                "buscador": {
+                  "BUSCADOR": "محرك البحث",
+                  "Buscar": "بحث",
+                  "Conectar": "اتصال",
+                  "No hay resultados": "لا توجد نتائج",
+                  "Descubre nuestro top": "اكتشف أفضل ما لدينا",
+                  "Los mejores profesionales muestran sus anuncios": "أفضل المحترفين يعرضون إعلاناتهم",
+                  "Contacta con el éxito": "تواصل مع النجاح",
+                  "Descubre los usuarios que haran realidad tu proyecto": "اكتشف المستخدمين الذين سيحققون مشروعك",
+                  "Ordenar": "ترتيب",
+                  "conectar": "اتصال",
+                  "Sin oficio": "بدون وظيفة",
+                  "Sin opiniones": "بدون تقييمات",
+                  "opiniones": "تقييمات",
+                  "Sin ubicación actual": "لا يوجد موقع حالي",
+                  "FOTOGRAFÍA": "التصوير الفوتوغرافي",
+                  "CINE / VIDEO": "السينما / الفيديو",
+                  "FILM / VÍDEO": "الفيلم / الفيديو",
+                  "MÚSICA": "الموسيقى",
+                  "TEATRO": "المسرح",
+                  "EVENTOS": "الفعاليات",
+                  "TV": "التلفزيون",
+                  "OTROS": "أخرى",
+                  "FILTROS": "الفلاتر",
+                  "Restablecer": "إعادة ضبط",
+                  "Tu ubicación": "موقعك",
+                  "Buscar dirección": "البحث عن عنوان",
+                  "Categorías": "الفئات",
+                  "EVENTOS Y FIESTAS": "الفعاليات والحفلات",
+                  "SIN CATEGORÍA": "بدون فئة",
+                  "Etiquetas": "الوسوم",
+                  "Escribe palabras clave para filtrar resultados": "اكتب كلمات مفتاحية لتصفية النتائج",
+                  "Escribe aquí...": "اكتب هنا...",
+                  "Rango de precio": "نطاق السعر",
+                  "Selecciona un rango de precio para filtrar resultados": "حدد نطاق السعر لتصفية النتائج",
+                  "Rango": "النطاق",
+                  "Mínimo": "الحد الأدنى",
+                  "día": "اليوم",
+                  "Máximo": "الحد الأقصى",
+                  "Mejor valorados": "الأعلى تقييمًا",
+                  "Más valorados": "الأكثر تقييمًا",
+                  "Precio ascendente": "السعر تصاعديًا",
+                  "Precio descendente": "السعر تنازليًا",
+                  "No se pudo obtener listado de usuarios": "تعذر الحصول على قائمة المستخدمين",
+                  "No se pudo obtener el contador de categorías": "تعذر الحصول على عداد الفئات",
+                  "Sin tags": "بدون وسوم",
+                  "Ya hay una solicitud enviada pendiente de aceptar": "يوجد طلب مرسل بالفعل في انتظار القبول",
+                  "Resultado desconocido": "نتيجة غير معروفة",
+                  "No se pudo comprobar la existencia de la solicitud": "تعذر التحقق من وجود الطلب",
+                  "Ya hay un Tag con ese valor": "يوجد بالفعل وسم بهذه القيمة",
+                  "El campo está vacío, no se puede crear un Tag": "الحقل فارغ، لا يمكن إنشاء وسم",
+                  "Sin Suscripción válida": "بدون اشتراك صالح",
+                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "احصل على الخطة الأولية أو خطة 360 للوصول إلى المستخدمين والتواصل معهم",
+                  "Texto descriptivo del anuncio especial": "نص وصفي للإعلان الخاص"
+                },
+              
+                "buscador2": {
+                  "BUSCADOR": "محرك البحث",
+                  "Buscar": "بحث",
+                  "Conectar": "اتصال",
+                  "No hay resultados": "لا توجد نتائج",
+                  "Descubre nuestro top": "اكتشف أفضل ما لدينا",
+                  "Los mejores profesionales muestran sus anuncios": "أفضل المحترفين يعرضون إعلاناتهم",
+                  "Contacta con el éxito": "تواصل مع النجاح",
+                  "Descubre los usuarios que haran realidad tu proyecto": "اكتشف المستخدمين الذين سيحققون مشروعك",
+                  "Ordenar": "ترتيب",
+                  "conectar": "اتصال",
+                  "Sin oficio": "بدون وظيفة",
+                  "Sin opiniones": "بدون تقييمات",
+                  "opiniones": "تقييمات",
+                  "Sin ubicación actual": "لا يوجد موقع حالي",
+                  "FOTOGRAFÍA": "التصوير الفوتوغرافي",
+                  "CINE / VIDEO": "السينما / الفيديو",
+                  "FILM / VÍDEO": "الفيلم / الفيديو",
+                  "MÚSICA": "الموسيقى",
+                  "TEATRO": "المسرح",
+                  "EVENTOS": "الفعاليات",
+                  "TV": "التلفزيون",
+                  "OTROS": "أخرى",
+                  "FILTROS": "الفلاتر",
+                  "Restablecer": "إعادة ضبط",
+                  "Tu ubicación": "موقعك",
+                  "Buscar dirección": "البحث عن عنوان",
+                  "Categorías": "الفئات",
+                  "EVENTOS Y FIESTAS": "الفعاليات والحفلات",
+                  "SIN CATEGORÍA": "بدون فئة",
+                  "Etiquetas": "الوسوم",
+                  "Escribe palabras clave para filtrar resultados": "اكتب كلمات مفتاحية لتصفية النتائج",
+                  "Escribe aquí...": "اكتب هنا...",
+                  "Rango de precio": "نطاق السعر",
+                  "Selecciona un rango de precio para filtrar resultados": "حدد نطاق السعر لتصفية النتائج",
+                  "Rango": "النطاق",
+                  "Mínimo": "الحد الأدنى",
+                  "día": "اليوم",
+                  "Máximo": "الحد الأقصى",
+                  "Mejor valorados": "الأعلى تقييمًا",
+                  "Más valorados": "الأكثر تقييمًا",
+                  "Precio ascendente": "السعر تصاعديًا",
+                  "Precio descendente": "السعر تنازليًا",
+                  "No se pudo obtener listado de usuarios": "تعذر الحصول على قائمة المستخدمين",
+                  "No se pudo obtener el contador de categorías": "تعذر الحصول على عداد الفئات",
+                  "Sin tags": "بدون وسوم",
+                  "Ya hay una solicitud enviada pendiente de aceptar": "يوجد طلب مرسل بالفعل في انتظار القبول",
+                  "Resultado desconocido": "نتيجة غير معروفة",
+                  "No se pudo comprobar la existencia de la solicitud": "تعذر التحقق من وجود الطلب",
+                  "Ya hay un Tag con ese valor": "يوجد بالفعل وسم بهذه القيمة",
+                  "El campo está vacío, no se puede crear un Tag": "الحقل فارغ، لا يمكن إنشاء وسم",
+                  "Sin Suscripción válida": "بدون اشتراك صالح",
+                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "احصل على الخطة الأولية أو خطة 360 للوصول إلى المستخدمين والتواصل معهم",
+                  "Texto descriptivo del anuncio especial": "نص وصفي للإعلان الخاص"
+                },
+                "chats": {
+    "Cargando chats...": "جارٍ تحميل الدردشات...",
+    "Buscar": "بحث",
+    "Chats": "الدردشات",
+    "Solicitudes": "الطلبات",
+    "Aceptar": "قبول",
+    "Rechazar": "رفض",
+    ": ha enviado un PDF": ": أرسل ملف PDF",
+    "Tú: has enviado un PDF": "أنت: أرسلت ملف PDF",
+    ": ha enviado un AUDIO": ": أرسل ملف صوتي",
+    "Tú: has enviado un AUDIO": "أنت: أرسلت ملف صوتي",
+    ": ha enviado una imagen": ": أرسل صورة",
+    "Tú: has enviado una imagen": "أنت: أرسلت صورة",
+    "Sin mensajes aún": "لا توجد رسائل بعد",
+    "No se pueden obtener los chats": "تعذر الحصول على الدردشات",
+    "Borrar chat": "حذف الدردشة",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "هل تريد حذف الدردشة ' + chat.nombre + '؟",
+    "Cancelar": "إلغاء",
+    "Borrando chat": "جارٍ حذف الدردشة",
+    "No se ha podido borrar el chat": "تعذر حذف الدردشة",
+    "No se pudieron obtener las solicitudes": "تعذر الحصول على الطلبات",
+    "Solicitud eliminada exitósamente": "تم حذف الطلب بنجاح",
+    "Resultado desconocido": "نتيجة غير معروفة",
+    "No se pudo eliminar la solicitud": "تعذر حذف الطلب",
+    "Solicitud aceptada exitósamente": "تم قبول الطلب بنجاح",
+    "La solicitud ya no es valida": "الطلب لم يعد صالحًا",
+    "No se pudo aceptar la solicitud": "تعذر قبول الطلب",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: أرسل ملف PDF",
+    "ha enviado un AUDIO": "{{name}}: أرسل ملف صوتي",
+    "ha enviado una imagen": "{{name}}: أرسل صورة",
+    "Tú: {{mensaje}}": "أنت: {{mensaje}}",
+    "No se pueden obtener los mensajes": "تعذر الحصول على الرسائل",
+    "No se ha podido enviar el mensaje": "تعذر إرسال الرسالة",
+    "Cargando mensajes...": "جارٍ تحميل الرسائل...",
+    "Grabación finalizada": "تم إنهاء التسجيل",
+    "Pulse aquí para enviar": "اضغط هنا للإرسال",
+    "No se puede obtener el archivo": "تعذر الحصول على الملف"
+  },
+
+  "FOTOGRAFÍA": "التصوير الفوتوغرافي",
+  "FILM / VÍDEO": "الأفلام / الفيديو",
+  "CINE / VIDEO": "السينما / الفيديو",
+  "TV": "التلفزيون",
+  "MÚSICA": "الموسيقى",
+  "EVENTOS Y FIESTAS": "الفعاليات والحفلات",
+  "TEATRO": "المسرح",
+  "OTROS": "أخرى",
+  "SIN CATEGORÍA": "بدون فئة",
+
+  "add-participants-to-group": {
+    "AGREGAR MIEMBROS AL GRUPO DE CHAT": "إضافة أعضاء إلى مجموعة الدردشة",
+    "Nombre del grupo": "اسم المجموعة",
+    "Escribe aquí...": "اكتب هنا...",
+    "Miembros del grupo": "أعضاء المجموعة",
+    "Tú": "أنت",
+    "Crear grupo": "إنشاء مجموعة",
+    "No se obtuvieron los participantes": "تعذر الحصول على المشاركين",
+    "El usuario seleccionado ya está añadido al listado de participantes": "المستخدم المحدد مضاف بالفعل إلى قائمة المشاركين",
+    "Sin Categorías": "بدون فئات",
+    "Introduzca un nombre para el grupo de chat": "أدخل اسمًا لمجموعة الدردشة",
+    "¡Grupo de chat creado!": "تم إنشاء مجموعة الدردشة!",
+    "No se pudo crear el grupo": "تعذر إنشاء المجموعة",
+    "Debe añadir al menos un miembro al grupo de chat": "يجب إضافة عضو واحد على الأقل إلى مجموعة الدردشة",
+    "Sin Suscripción válida": "بدون اشتراك صالح",
+    "Hazte con el plan 360 para crear y administrar proyectos": "احصل على خطة 360 لإنشاء وإدارة المشاريع"
+  },
+  "app-chat-header": {
+    "Conectado": "متصل",
+    "¿Desea bloquear a este usuario?": "هل ترغب في حظر هذا المستخدم؟",
+    "Cancelar": "إلغاء",
+    "Bloquear": "حظر",
+    "Usuario bloqueado": "تم حظر المستخدم",
+    "El usuario ya se encuentra bloqueado": "المستخدم محظور بالفعل",
+    "Respuesta desconocida": "رد غير معروف"
+  },
+  "app-chat-footer": {
+    "Escribe aquí...": "اكتب هنا...",
+    "Grabación finalizada": "تم إنهاء التسجيل",
+    "Pulse aquí para enviar": "اضغط هنا للإرسال",
+    "Se está realizando una grabación de audio": "جارٍ تسجيل الصوت",
+    "Hay un archivo de audio pendiente para enviar": "يوجد ملف صوتي قيد الإرسال",
+    "Solo se permiten archivos .pdf": "يسمح فقط بملفات PDF",
+    "Ya hay una grabación en proceso": "يوجد تسجيل قيد التنفيذ"
+  },
+  
+    "app-pgchat-footer": {
+      "Grabación finalizada": "تم إنهاء التسجيل",
+      "Pulse aquí para enviar": "اضغط هنا للإرسال",
+      "Se está realizando una grabación de audio": "جارٍ تسجيل الصوت",
+      "Hay un archivo de audio pendiente para enviar": "يوجد ملف صوتي قيد الإرسال",
+      "Solo se permiten archivos .pdf": "يسمح فقط بملفات PDF",
+      "Ya hay una grabación en proceso": "يوجد تسجيل قيد التنفيذ"
+    },
+  
+    "app-pnchat-footer": {
+      "Grabación finalizada": "تم إنهاء التسجيل",
+      "Pulse aquí para enviar": "اضغط هنا للإرسال",
+      "Se está realizando una grabación de audio": "جارٍ تسجيل الصوت",
+      "Hay un archivo de audio pendiente para enviar": "يوجد ملف صوتي قيد الإرسال",
+      "Solo se permiten archivos .pdf": "يسمح فقط بملفات PDF",
+      "Ya hay una grabación en proceso": "يوجد تسجيل قيد التنفيذ"
+    },
+  
+    "app-chat-group": {
+      "mensajes nuevos": "رسائل جديدة"
+    },
+  
+    "app-pnchat-header": {
+      "Conectado": "متصل"
+    },
+  
+    "pnchats": {
+      "CHATS": "الدردشات",
+      "TODOS": "الكل",
+      "Grupos": "المجموعات",
+      "Solicitudes": "الطلبات",
+      "Aceptar": "قبول",
+      "Rechazar": "رفض",
+      ": ha enviado un PDF": ": أرسل ملف PDF",
+      "Tú: has enviado un PDF": "أنت: أرسلت ملف PDF",
+      ": ha enviado un AUDIO": ": أرسل ملف صوتي",
+      "Tú: has enviado un AUDIO": "أنت: أرسلت ملف صوتي",
+      ": ha enviado una imagen": ": أرسل صورة",
+      "Tú: has enviado una imagen": "أنت: أرسلت صورة",
+      "Sin mensajes aún": "لا توجد رسائل بعد",
+      "No se pueden obtener los chats": "تعذر الحصول على الدردشات",
+      "Borrar chat": "حذف الدردشة",
+      "¿Quieres borrar el chat ' + chat.nombre + ' ?": "هل تريد حذف الدردشة ' + chat.nombre + '؟",
+      "Cancelar": "إلغاء",
+      "Borrando chat": "جارٍ حذف الدردشة",
+      "No se ha podido borrar el chat": "تعذر حذف الدردشة",
+      "No se pudieron obtener las solicitudes": "تعذر الحصول على الطلبات",
+      "Solicitud eliminada exitósamente": "تم حذف الطلب بنجاح",
+      "Resultado desconocido": "نتيجة غير معروفة",
+      "No se pudo eliminar la solicitud": "تعذر حذف الطلب",
+      "Solicitud aceptada exitósamente": "تم قبول الطلب بنجاح",
+      "La solicitud ya no es valida": "الطلب لم يعد صالحًا",
+      "No se pudo aceptar la solicitud": "تعذر قبول الطلب",
+      "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: أرسل ملف PDF",
+      "ha enviado un AUDIO": "{{name}}: أرسل ملف صوتي",
+      "ha enviado una imagen": "{{name}}: أرسل صورة",
+      "Tú: {{mensaje}}": "أنت: {{mensaje}}",
+      "No se pueden obtener los mensajes": "تعذر الحصول على الرسائل",
+      "No se ha podido enviar el mensaje": "تعذر إرسال الرسالة",
+      "Cargando mensajes...": "جارٍ تحميل الرسائل...",
+      "Grabación finalizada": "تم إنهاء التسجيل",
+      "Pulse aquí para enviar": "اضغط هنا للإرسال",
+      "No se puede obtener el archivo": "تعذر الحصول على الملف"
+    },
+  
+    "interior-chat": {
+      "Cargando mensajes...": "جارٍ تحميل الرسائل...",
+      "No se pueden obtener los mensajes": "تعذر الحصول على الرسائل",
+      "No se ha podido enviar el mensaje": "تعذر إرسال الرسالة"
+    },
+  
+    "interior-pgchat": {
+      "No se ha podido enviar el mensaje": "تعذر إرسال الرسالة",
+      "No se pueden obtener los mensajes": "تعذر الحصول على الرسائل",
+      "Cargando mensajes...": "جارٍ تحميل الرسائل..."
+    },
+  
+    "interior-pnchat": {
+      "No se ha podido enviar el mensaje": "تعذر إرسال الرسالة",
+      "No se pueden obtener los mensajes": "تعذر الحصول على الرسائل",
+      "Cargando mensajes...": "جارٍ تحميل الرسائل..."
+    },
+  
+    "select-useroptions-modal": {
+      "Bloquear usuario": "حظر المستخدم",
+      "Reportar usuario": "الإبلاغ عن المستخدم"
+    },
+
+    
+      "add-remove-users-modal": {
+        "Listado actualizado": "تم تحديث القائمة",
+        "No se pudo actualizar el listado": "تعذر تحديث القائمة",
+        "Añadir al grupo": "إضافة إلى المجموعة",
+        "Quitar del grupo": "إزالة من المجموعة",
+        "SACAR USUARIOS DEL GRUPO": "إزالة المستخدمين من المجموعة",
+        "METER USUARIOS EN GRUPO": "إضافة المستخدمين إلى المجموعة",
+        "Usuarios para sacar": "المستخدمون للإزالة",
+        "Usuarios para meter": "المستخدمون للإضافة"
+      },
+    
+      "detail-project": {
+        "DETALLES DEL PROYECTO": "تفاصيل المشروع",
+        "Creador/a del proyecto": "منشئ المشروع",
+        "Fecha de finalización": "تاريخ الانتهاء",
+        "Participantes": "المشاركون",
+        "No se obtuvo las carpetas del proyecto": "تعذر الحصول على مجلدات المشروع"
+      },
+    
+      "social-networks": {
+        "Nombre": "الاسم",
+        "Añade un link": "أضف رابطًا",
+        "Guardar cambios": "حفظ التغييرات",
+        "REDES SOCIALES": "الشبكات الاجتماعية"
+      },
+    
+      "Ver planes": "عرض الخطط",
+      "other-user": {
+        "Sin opiniones": "لا توجد تقييمات",
+        "opiniones": "تقييمات",
+        "Chatear": "دردشة",
+        "Conectar": "اتصال",
+        "Trabajos": "الوظائف",
+        "Ubicaciones": "المواقع",
+        "Quitar Favorito": "إزالة من المفضلة",
+        "Idiomas": "اللغات",
+        "Redes sociales": "الشبكات الاجتماعية",
+        "Ubicación de este usuario": "موقع هذا المستخدم",
+        "Sin ubicación actual": "لا يوجد موقع حالي",
+        "Ubicaciones donde puede trabajar": "المواقع التي يمكنه العمل بها",
+        "Trabajos de": "وظائف",
+        "Guardar": "حفظ",
+        "Añadir a Favoritos": "إضافة إلى المفضلة",
+        "Usuario Favorito": "مستخدم مفضل",
+        "En Favorito": "في المفضلة",
+        "En favoritos": "في المفضلة",
+        "No se pudo obtener los datos del usuario": "تعذر الحصول على بيانات المستخدم",
+        "Ya hay una solicitud enviada pendiente de aceptar": "يوجد طلب مرسل قيد الانتظار",
+        "Resultado desconocido": "نتيجة غير معروفة",
+        "No se pudo comprobar la existencia de la solicitud": "تعذر التحقق من وجود الطلب",
+        "No se pudieron obtener los trabajos": "تعذر الحصول على الوظائف",
+        "No se pudieron obtener las ubicaciones": "تعذر الحصول على المواقع",
+        "No se pudieron obtener los idiomas": "تعذر الحصول على اللغات",
+        "No se pudieron obtener las redes": "تعذر الحصول على الشبكات الاجتماعية",
+        "¿Desea bloquear a este usuario?": "هل ترغب في حظر هذا المستخدم؟",
+        "cancelar": "إلغاء",
+        "bloquear": "حظر",
+        "Usuario bloqueado": "تم حظر المستخدم",
+        "El usuario ya se encuentra bloqueado": "المستخدم محظور بالفعل",
+        "Respuesta desconocida": "استجابة غير معروفة"
+      },
+    
+      "add-rating": {
+        "AÑADE UNA VALORACIÓN": "أضف تقييمًا",
+        "¿Cómo valorarías a ": "كيف تقيم ",
+        "Tu valoración ayuda a otros usuarios": "تقييمك يساعد المستخدمين الآخرين",
+        "¿Quieres añadir aglún comentario?": "هل تريد إضافة تعليق؟",
+        "Escribe aquí...": "اكتب هنا...",
+        "No se pudo obtener los datos del usuario": "تعذر الحصول على بيانات المستخدم",
+        "Introduzca un comentario en la valoración": "يرجى إدخال تعليق في التقييم",
+        "¡Valoracion enviada!": "تم إرسال التقييم!",
+        "Publica": "نشر",
+        "Gracias por poner tu comentario a ": "شكرًا على ترك تعليقك لـ "
+      },
+    
+      "user-ratings": {
+        "VALORACIONES A ": "تقييمات ",
+        "Más recientes": "الأحدث",
+        "Menos recientes": "الأقدم",
+        "Puntuación": "التقييم",
+        "Perfil verificado": "الملف الشخصي موثّق",
+        "Reportar comentario": "الإبلاغ عن تعليق",
+        "Añadir valoración": "إضافة تقييم",
+        "Sin oficio": "بدون مهنة",
+        "Sin Suscripción": "بدون اشتراك",
+        "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+        "اشترك لرؤية تقييماتك وتقييمات المستخدمين الآخرين",
+        "Más altas": "الأعلى تقييمًا",
+        "Más bajas": "الأدنى تقييمًا"
+      },
+    
+      "select-chatoptions-modal": {
+        "Añadir usuarios": "إضافة مستخدمين",
+        "Quitar usuarios": "إزالة مستخدمين",
+        "Pronombres": "الضمائر"
+      },
+    
+      "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "سنقوم قريبًا بتفعيل هذا القسم حتى تتمكن من الاستمتاع بمحتواه",
+      
+        "Fotografía": "تصوير",
+        "Film/vídeo": "فيلم/فيديو",
+        "Cine/vídeo": "سينما/فيديو",
+        "Música": "موسيقى",
+        "Eventos": "فعاليات",
+        "Teatro": "مسرح",
+        "Otros": "أخرى",
+        "Sin categoría": "غير مصنف",
+      
+        "El idioma ya se encuentra en el listado": "اللغة موجودة بالفعل في القائمة",
+        "Relación": "علاقة",
+        "precio": "السعر",
+        "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "للوصول إلى جميع معلومات المستخدم والتواصل معه، اشترك في الخطة S أو الخطة 360.",
+      
+        "my-ads": {
+          "Mis anuncios": "إعلاناتي",
+          "Tipo de anuncio": "نوع الإعلان",
+          "Duración": "المدة",
+          "mes": "شهر",
+          "meses": "أشهر",
+          "día": "يوم",
+          "dias": "أيام",
+          "Anuncio borrado con éxito": "تم حذف الإعلان بنجاح",
+          "Vídeo": "فيديو",
+          "Imagen": "صورة",
+          "Ver anuncio": "عرض الإعلان",
+          "Ver perfil del creador": "عرض ملف المُنشئ",
+          " y ": " و "
+        },
+      
+        "upload-advertisement": {
+          "SUBIR ANUNCIO": "تحميل إعلان",
+          "Quiero publicitar mi perfil": "أرغب في الترويج لملفي الشخصي",
+          "Público objetivo": "الجمهور المستهدف",
+          "Rango de edad": "الفئة العمرية",
+          "Rango seleccionado": "النطاق المُحدد",
+          "años": "سنة",
+          "Género": "الجنس",
+          "Hombre": "ذكر",
+          "Mujer": "أنثى",
+          "Otro": "آخر",
+          "Localización": "الموقع",
+          "Buscar dirección": "ابحث عن عنوان",
+          "Rango por kilómetros": "النطاق بالكيلومترات",
+          "Rango seleccionado: hasta": "النطاق المُحدد: حتى",
+          "Kilómetros": "كيلومترات",
+          "Intereses": "الاهتمامات",
+          "Pago del anuncio": "دفع الإعلان",
+          "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "اختر السعر الذي تريد دفعه مقابل الظهور أو النقرات. بناءً على السعر الذي تحدده، سنعرض لك مدة ظهور إعلانك.",
+          "Precio por clics": "السعر لكل نقرة",
+          "Impresiones": "مرات الظهور",
+          "Cantidad seleccionada:": "الكمية المحددة:",
+          "impresiones": "مرات الظهور",
+          "Duración": "المدة",
+          "días": "أيام",
+          "Confirmar y proceder al pago": "تأكيد ومتابعة الدفع",
+          "Seleccionar imagen": "اختر صورة",
+          "Selecciona video": "اختر فيديو"
+        },
+      
+        "El proyecto ha finalizado, no puede realizar modificaciones": "انتهى المشروع، لا يمكن إجراء أي تعديلات",
+        "USUARIOS FAVORITOS": "المستخدمون المفضلون",
+        "CHAT": "الدردشة",
+        "No tiene permiso para acceder al contenido de esta carpeta": "ليس لديك إذن للوصول إلى محتوى هذا المجلد",
+        "Chat creado con éxito": "تم إنشاء الدردشة بنجاح",
+        "Crear chat": "إنشاء دردشة",
+        "Nuevo Chat": "دردشة جديدة",
+      
+        "Permisos de carpeta": "أذونات المجلد",
+        "Sin permisos": "بدون أذونات",
+        "Solo lectura": "للقراءة فقط",
+        "Modificar contenido": "تعديل المحتوى",
+        "No se pudo obtener más usuarios": "تعذر جلب المزيد من المستخدمين",
+        "Introduzca el nuevo lenguaje": "أدخل اللغة الجديدة"
+      }
+      
+    
+  
+  
+              
+              
+          
+          
+      
+      
+    
+  
+  
+              
+                
+              
+          
+          
+      
+      
+  
+    
+  
+  

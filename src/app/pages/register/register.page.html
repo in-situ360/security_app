@@ -1,0 +1,115 @@
+<ion-header>
+  <div class="logo ion-text-center">
+    <img src="assets/imgs/logotipo-2.svg" alt="">
+  </div>
+</ion-header>
+
+<ion-content>  
+  <div style="width:100%;height:30px;position:absolute;top:0px;background-color:#201f24"></div>
+  <div class="form-wrapper" text-center>
+    <form [formGroup]="form" (ngSubmit)="submitForm()">
+      <p class="title ion-text-center">{{ 'register.Registro' | translate }}</p>
+      <p class="subtitle ion-text-center">{{ 'register.¿Cómo deseas acceder a la app?' | translate }}</p>
+      <div class="typeaccess">
+        <ion-button [ngClass]="{'selected': typeUser === 'Personal'}" (click)="selectTypeUser('Personal')" class="typeUserButton" mode="md">{{ 'register.Personal' | translate }}</ion-button>
+        <ion-button [ngClass]="{'selected': typeUser === 'Empresa'}" (click)="selectTypeUser('Empresa')" class="typeUserButton" mode="md">{{ 'register.Empresa' | translate }}</ion-button>
+      </div>
+      <ion-item>
+        <ion-label>
+          <ion-icon class="iconInputs" [src]="ruta"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" autocapitalize="words" class="placeholder-asterisk" formControlName="name" type="text" [placeholder]="placeholderName"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('name')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('name')?.errors?.['required']">{{ 'register.El nombre es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('name')?.errors?.['minlength']">{{ 'register.El nombre debe tener al menos 3 caracteres' | translate }}</small>
+      </div>
+      <div *ngIf="typeUser=='Empresa'" class="apellidos">
+        <ion-item id="itemEmp">
+          <ion-label>
+            <ion-icon class="iconInputs" src="assets/icon/user-1.svg"></ion-icon>
+          </ion-label>
+          <ion-input (keydown)="onEnterPress($event)" autocapitalize="words" class="placeholder-asterisk" formControlName="representativeName" type="text" placeholder="{{ 'register.Nombre de representante' | translate }}*"></ion-input>
+        </ion-item>
+      </div>
+      <div *ngIf="typeUser=='Personal'" class="apellidos">
+        <ion-item>
+          <ion-label>
+            <ion-icon class="iconInputs" src="assets/icon/user-1.svg"></ion-icon>
+          </ion-label>
+          <ion-input (keydown)="onEnterPress($event)" autocapitalize="words" class="placeholder-asterisk" formControlName="surname1" type="text" placeholder="{{ 'register.Apellido 1' | translate }}*"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <ion-icon class="iconInputs" src="assets/icon/user-1.svg"></ion-icon>
+          </ion-label>
+          <ion-input (keydown)="onEnterPress($event)" autocapitalize="words" formControlName="surname2" type="text" placeholder="{{ 'register.Apellido 2' | translate }}"></ion-input>
+        </ion-item>
+        
+      </div>
+      <div *ngIf="typeUser=='Personal' && this.isSurname1Valid && submitted" class="error-message">
+        <small >{{ 'finish-profile.El apellido 1 es obligatorio' | translate }}</small>
+      </div>
+      <div *ngIf="typeUser=='Empresa' && this.isRepresentativeNameValid && submitted" class="error-message">
+        <small >{{ 'finish-profile.El nombre del representante es obligatorio' | translate }}</small>
+      </div>
+      
+      <ion-item>
+        <ion-label>
+          <ion-icon class="iconInputs" src="assets/icon/email.svg"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" class="placeholder-asterisk" formControlName="email" type="text" placeholder="{{ 'register.Email' | translate }}*"></ion-input>
+      </ion-item>
+      <div *ngIf="form.get('email')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('email')?.errors?.['required']">{{ 'register.El email es obligatorio' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['email']">{{ 'register.El email no es válido' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['invalidEmailExtension']">{{ 'register.El email debe tener una extensión válida (.com, .org, .net, .edu)' | translate }}</small>
+        <small *ngIf="form.get('email')?.errors?.['advancedEmail']">{{ 'register.El dominio no está permitido o contiene caracteres consecutivos no válidos' | translate }}</small>
+      </div>
+      
+      <ion-item>
+        <ion-label>
+          <ion-icon class="iconInputs" src="assets/icon/password.svg"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" class="iconInputs" class="placeholder-asterisk" [type]="password_type1" formControlName="password" placeholder="{{ 'register.Contraseña' | translate }}*"></ion-input>
+        <ion-icon name="eye" item-right (click)="togglePasswordMode(1)"></ion-icon> 
+      </ion-item>
+      <div *ngIf="form.get('password')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('password')?.errors?.['required']">{{ 'register.La contraseña es obligatoria' | translate }}</small>
+        <small *ngIf="form.get('password')?.errors?.['minlength']">{{ 'register.La contraseña debe tener al menos 8 caracteres' | translate }}</small>
+        <small *ngIf="form.get('password')?.errors?.['strongPassword']">{{ 'register.La contraseña debe incluir una mayúscula, un número y un carácter especial' | translate }}</small>
+      </div>
+      <ion-item>
+        <ion-label>
+          <ion-icon class="iconInputs" src="assets/icon/password.svg"></ion-icon>
+        </ion-label>
+        <ion-input (keydown)="onEnterPress($event)" class="placeholder-asterisk" [type]="password_type2" formControlName="password_confirmation" placeholder="{{ 'register.Repetir Contraseña' | translate }}*"></ion-input>
+        <ion-icon name="eye" item-right (click)="togglePasswordMode(2)"></ion-icon> 
+      </ion-item>
+      <div *ngIf="form.get('password_confirmation')?.invalid && submitted" class="error-message">
+        <small *ngIf="form.get('password_confirmation')">{{ 'register.Las contraseñas no coinciden' | translate }}</small>
+      </div>
+      <div class="checkbox">
+        <div class="check">
+          <ion-checkbox (click)="isSelected()"></ion-checkbox>
+        </div>
+        <div class="label">
+          <ion-label>
+            {{ 'register.He leído y acepto' | translate }} <a [routerLink]="['/rgpd']" (click)="$event.stopPropagation()" style="color:#2E2D2E">{{ 'register.la Política de Privacidad' | translate }}</a> y 
+            <a [routerLink]="['/tyc']" (click)="$event.stopPropagation()" style="color:#2E2D2E">{{ 'register.los Términos y Condiciones de Venta' | translate }}</a>
+          </ion-label>
+        </div>
+      </div>
+      <ion-button [disabled]="!isCheckSelected" type="button" mode="md" expand="block" (click)="validateAndSubmit()">{{ 'register.Registrarme' | translate }}</ion-button>
+
+    </form>
+    <div class="footer">
+      <div class="footer-text">
+        <p>{{ 'register.¿Ya estás registrado?' | translate }}</p>
+        <p (click)="goLogin()" class="newaccountlink">{{ 'register.Accede aquí' | translate }}</p>
+      </div>
+      <img src="assets/imgs/kit-digital-oscuro.png" alt="KIT Digital" class="footer-kit-image">
+    </div>
+  </div>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

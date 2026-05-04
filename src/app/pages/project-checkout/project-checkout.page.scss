@@ -1,0 +1,212 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+  #header {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #E5E5E5; /* Ajusta según sea necesario */
+  }
+
+ /* #iconLeft {
+    height: 15px;
+    width: 13px;
+  }*/
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+  }
+
+  
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    //margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+
+
+.tittle{
+    margin-left:5%;
+    display:flex;
+    p {
+    font-family: "LeagueSpartan SemiBold";
+    font-size: 24px;
+    color:#2E2D2E;
+    }
+    .product {
+        color: #F42EB2;
+        margin-left: 5px;
+    }
+}
+.paymethod {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    ion-icon {
+        font-size: 30px;
+        margin-left: 7px;
+    }
+}
+ion-item::part(native) {
+    --border-radius: 10pt;
+}
+.cardmethod {
+    width: 100%;
+    justify-items: center;
+    display: inline-grid;
+    p {
+        font-family: "Poppins Regular";
+        font-size: 12px;
+        margin-bottom: 1px;
+        color: #62646E;
+    }
+}
+
+form {
+    width: 90%;
+}
+.validationcard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px !important;
+    ion-item{
+        width: 48%;
+    }
+}
+.cardinfo{
+    display: flex;
+    margin-top: -5%;
+}
+ion-input {
+    font-family: "Poppins Regular";
+    font-size: 14px;
+}
+.checkbox {
+    color:#2E2D2E;
+    font-family: 'Poppins Medium';
+    font-size: 12px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    .check{
+        align-items: center;
+        display: flex;
+        margin-left: -3px;
+        ion-checkbox{
+            height: 19px;
+            width: 19px;
+            --border-radius: 0px !important;
+        }
+    }
+    .label{
+        margin-left: 7px;
+    }
+}
+
+ion-footer {
+    height: 10%;
+}
+.finishpayment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    ion-button {
+        width: 55%;
+        margin-top: 5%;
+    }
+    
+}
+
+ion-modal#payment-confirmation {
+    --width: 350px;
+    --min-width: 250px;
+    --height: fit-content;
+    --border-radius: 15pt;
+    --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+  }
+  ion-modal#payment-confirmation h1 {
+    margin: 20px 20px 10px 20px;
+    font-family: "LeagueSpartan Medium";
+    font-size: 30px;
+  }
+  ion-modal#payment-confirmation ion-label {
+    margin: 20px 20px 10px 20px;
+    font-family: "Poppins Regular";
+    font-size: 16px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+  ion-modal#payment-confirmation ion-icon {
+    margin-right: 6px;
+    width: 74px;
+    height: 74px;
+    padding: 4px 0;
+  }
+  ion-modal#payment-confirmation .wrapper {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ion-modal#payment-confirmation ion-button {
+    width: 285px;
+  }
+
+
+
+  .totalpay {
+    margin-top: 30px;
+  }
+
+  .custom-footer {
+    --background: transparent;
+    padding: 0;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .custom-button {
+    width: calc(100% - 35px); /* Hace que el botón ocupe todo el ancho, con márgenes de 15px a los lados */
+    margin-left: 15px;  /* Establece margen a la izquierda */
+    margin-right: 15px; /* Establece margen a la derecha */
+  }

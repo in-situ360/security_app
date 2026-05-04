@@ -1,0 +1,16 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'rgpd.POLÍTICA DE PRIVACIDAD' | translate }}</h5>
+</ion-header>
+<!--*ngIf="pdfRoute==''"-->
+<ion-content>
+  <div id="thePdf" [innerHTML]="markdownHTML"></div>
+ <!-- <pdf-viewer  id="thePdf" 
+    [src]="pdfRoute"
+    [render-text]="true"
+    [original-size]="false"
+    [zoom]="zoom"
+    style="">
+
+  </pdf-viewer>-->
+</ion-content>

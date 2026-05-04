@@ -1,0 +1,89 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'PROYECTO' | translate }}</h5>
+   <ion-icon *ngIf="theProject?.isCreator==true || (theProject?.isVerifiedUser==true && theProject?.isAdmin==true && theProject?.isProjectActive==true)" (click)="goEditPage()" id="iconRight2" src="assets/icons/ajustes-perfil.svg"></ion-icon>
+  </div>
+</ion-header>
+<ion-content>
+  <div *ngIf="theProject && theProject?.miSub!=3 && theProject?.miSub!=6" class="overlay"></div>
+  <div *ngIf="theProject?.isCreator!=true && theProject?.isProjectActive!=true" class="overlay"></div>
+  <div (click)="goDetailProject()" id="container">
+    <img [src]="theProject?.projectimage|| 'assets/imgs/imagenDefectoProyecto.png'" alt="Cover Image">
+    
+    <div id="text-overlay">
+      <div style="margin-bottom: 0px;" class="info">
+        <p style="font-size: 16pt;">{{theProject?.name_project}}</p>
+      </div>
+      
+      <div class="info">
+        <div class="avatar">
+          <img [src]="theProject?.creator?.avatar" alt="Avatar">
+        </div>
+        <p style="margin-left:5px;">{{ 'detail-proyect.Creado por' | translate }} {{theProject?.creator?.name}}</p>
+      </div>
+
+    </div>
+
+    <div id="divDate">
+      <ion-icon id="dateIcon" src="assets/icons/calendario-proyecto.svg"></ion-icon>
+      <p id="pDate">{{ formatEndDate(theProject?.end_date) }}</p>
+    </div>
+
+    <div id="divMembers">
+      <ion-icon id="memberIcon" src="assets/icons/participantes.svg"></ion-icon>
+      <p id="pMember">{{countVerifiedUsers+1}} {{ 'detail-proyect.participantes' | translate }}</p>
+    </div>
+
+    <div id="divMemberImgs">
+      <img class="imgMembers" [src]="theProject?.creator?.avatar" alt="Member 1">
+      <img *ngIf="theProject?.verifiedUsers[0]" class="imgMembers" [src]="theProject?.verifiedUsers[0]?.avatar" alt="Member 1">
+      <img *ngIf="theProject?.verifiedUsers[1]" class="imgMembers" [src]="theProject?.verifiedUsers[1]?.avatar" alt="Member 2">
+      <img *ngIf="theProject?.verifiedUsers[2]" class="imgMembers" [src]="theProject?.verifiedUsers[2]?.avatar" alt="Member 3">
+      <img *ngIf="theProject?.verifiedUsers[3]" class="imgMembers" [src]="theProject?.verifiedUsers[3]?.avatar" alt="Member 4">
+      <img class="imgMembers" src="assets/imgs/more.png" alt="More members">
+    </div>
+  </div>
+
+  <!--<div id="containerDir">
+    <p>{{ 'detail-proyect.Carpetas' | translate }}</p>
+    <button (click)="irACarpetas()">
+      {{ 'detail-proyect.Ver todas' | translate }}
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </button>
+  </div>
+
+  <div id="divImagenesContenedor">
+    <div id="div1">
+      <img id="img1" [src]="theProject?.folders[0]?.folderimage || 'assets/imgs/portada-carpeta.png'" alt="Image 1" (click)="goToFolder(0)">
+      <img id="img2" [src]="theProject?.folders[1]?.folderimage || 'assets/imgs/portada-carpeta.png'" alt="Image 2" (click)="goToFolder(1)">
+    </div>
+    <div id="div2">
+      <img id="img3" [src]="theProject?.folders[2]?.folderimage || 'assets/imgs/portada-carpeta.png'" alt="Image 3" (click)="goToFolder(2)">
+    </div>
+  </div>-->
+
+  <ion-item (click)="irACarpetas()" lines="none" detail="false" > <!--routerLink="/languaje-select"-->
+    <ion-icon class="main-icon" src="assets/icons/nombre-proyecto.svg" slot="start"></ion-icon>
+    <ion-label>{{ 'Archivos' | translate }}</ion-label>
+    <ion-icon class="chevron-forw" name="chevron-forward-outline" slot="end"></ion-icon>
+  </ion-item>
+
+
+
+
+  <div id="containerDir2">
+    <p>{{ 'detail-proyect.Chats' | translate }}</p>
+    <button (click)="goToProjectChats()">
+      {{ 'detail-proyect.Ver todos' | translate }}
+      <ion-icon name="arrow-forward-outline"></ion-icon>
+    </button>
+  </div>
+
+  <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+    <ion-slide (click)="goPNChat(chat?.id, chat?.otherUser?.theuser?.name, chat?.ultimo_mensaje, chat?.otherUser?.theuser?.avatar, chat?.otherUser?.theuser?.phone, chat?.otherUser?.theuser?.id)" *ngFor="let chat of chats" class="boxes" aria-hidden="true">
+      <img id="image" [src]="chat?.otherUser?.theuser?.avatar" alt="image" />
+    </ion-slide>
+  </ion-slides>
+
+</ion-content>

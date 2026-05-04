@@ -1,0 +1,137 @@
+<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'suscripción' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<div class="planes">
+  <p>Elige tu plan</p>
+  <ion-button routerLink="/suscription-detail">
+    <label>{{ 'Ver características' | translate }}</label>
+    <ion-icon slot="end" name="chevron-forward-outline"></ion-icon>
+  </ion-button>
+</div>
+  <ion-radio-group value="mensual">
+    <div>
+      <ion-radio slot="start" value="mensual"></ion-radio>
+      <ion-label>Pago mensual</ion-label>
+    </div>
+    <div>
+      <ion-radio slot="start" value="anual"></ion-radio>
+      <ion-label>Pago anual (Descuento del 15%)</ion-label>
+    </div>
+  </ion-radio-group>
+<!--tarjeta de modelo suscripción-->
+  <ion-grid>
+    <ion-col>
+      <div class="plan">
+        <label>Plan I</label>
+      </div>
+      <ion-row>
+        <label class="currency">€</label><label class="price"> 0 </label><label class="price2">/al mes</label>
+      </ion-row>
+      <label class="plantype">Free</label>
+    </ion-col>
+    <ion-col class="beneficios">
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>{{ 'Búsqueda ilimitada' | translate }}</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Completa tu perfil</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>{{ 'Obtén reseñas verificadas' | translate }}</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Forma parte de proyectos</label>
+      </ion-row>
+    </ion-col>
+  </ion-grid>
+  <ion-label class="planactual">Tu plan actual</ion-label>
+  <!--tarjeta de modelo suscripción-->
+  <ion-grid>
+    <ion-col>
+      <div class="plan">
+        <label>Plan S</label>
+      </div>
+      <ion-row>
+        <label class="currency">€</label><label class="price"> 6,99 </label><label class="price2">/al mes</label>
+      </ion-row>
+      <label class="plantype" Style="color:#F42EB2">Buscador avanzado</label>
+    </ion-col>
+    <ion-col class="beneficios2">
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Incluido todo lo relativo al Plan I</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Contacta con profesionales</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>{{ 'Filtros de Búsqueda Premium' | translate }}</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Visualiza todos los perfiles</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Aumenta tu visibilidad</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>{{ 'Métricas avanzadas' | translate }}</label>
+      </ion-row>
+    </ion-col>
+  </ion-grid>
+  <!--tarjeta de modelo suscripción-->
+  <ion-grid class="p360">
+    <ion-col>
+      <div class="plan360">
+        <label>Plan 360</label>
+      </div>
+      <ion-row>
+        <label class="currency">€</label><label class="price"> 69,99 </label><label class="price2">/al mes</label>
+      </ion-row>
+      <label class="plantype" style="color:#F42EB2">Complete Workspace</label>
+    </ion-col>
+    <ion-col class="beneficios3">
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Incluido todo lo relativo al Plan S</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Crea y administra proyectos</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Gestiona poderes a tu equipo</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Almacenamiento ilimitado de <br>documentos</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>{{ 'Creación de chats grupales y videollamadas' | translate }}</label>
+      </ion-row>
+      <ion-row>
+        <ion-icon name="checkmark-outline"></ion-icon>
+        <label>Calendario compartido</label>
+      </ion-row>
+    </ion-col>
+  </ion-grid>
+  <ion-button routerLink="/suscription-checkout">Cambiar al Plan 360</ion-button>
+  <ion-button class="buyproject" routerLink="/project-checkout">Comprar un proyecto</ion-button>
+</ion-content>

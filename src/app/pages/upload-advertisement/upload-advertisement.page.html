@@ -1,0 +1,199 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{'upload-advertisement.SUBIR ANUNCIO' | translate }}</h5>
+  </div>
+</ion-header>
+<ion-content>
+
+  <form class="global__form"[formGroup]="form" (ngSubmit)="submitForm()">
+
+
+    <img *ngIf="!avatar" id="imgAdver" [src]="rutaImagen" (click)="obtainImageVideo()">
+    <img *ngIf="avatar" id="imgAdver" alt="" [src]="avatar" />
+    <ion-list id="listItemCheck">
+      <ion-checkbox formControlName="featured" mode="md"></ion-checkbox>
+      <ion-label id="labelCheckbox">{{'upload-advertisement.Quiero publicitar mi perfil' | translate }}</ion-label>
+    </ion-list>
+
+    <ion-list>
+     <ion-label id="formTtitle">{{'upload-advertisement.Público objetivo' | translate }} <span id="spanTitle">*</span></ion-label>
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="formRangeTitle">{{'upload-advertisement.Rango de edad' | translate }} *</ion-label>
+    </ion-list>
+
+    
+
+
+    <ion-list>
+     <!-- <ion-range 
+      mode="md"  
+      id="rangeBar"  
+      [min]="3" 
+      [max]="200" 
+      [value]="5" 
+      [pin]="true" 
+      [ticks]="true" 
+      [snaps]="true" 
+       ></ion-range>-->
+
+      <ion-range 
+      min="18" max="40"
+      mode="md" 
+      aria-label="Dual Knobs Range" 
+      [dualKnobs]="true" 
+      [value]="form.get('rangeAgeValues')?.value"
+      (ionChange)="onIonChange($event)"
+      ></ion-range>
+
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="formRangeSelected">{{'upload-advertisement.Rango seleccionado' | translate }}:<span id="spanRangeTitle">{{ rangeAgeMinMax.lower }}-{{ rangeAgeMinMax.upper }} {{'upload-advertisement.años' | translate }}</span></ion-label>
+    </ion-list>
+
+    <ion-list id="listItemGender">
+      <ion-label id="formGenderTitle">{{'upload-advertisement.Género' | translate }} *</ion-label>
+    </ion-list>
+
+    <ion-list>
+      <!--<ion-radio-group value="genders">
+        <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="hombre"></ion-radio><span class="radioText">Hombre</span><br/><br/>
+        <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="mujer"></ion-radio><span class="radioText">Mujer</span><br/><br/>
+        <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="otro"></ion-radio><span class="radioText">Otro</span><br/><br/>
+      </ion-radio-group>-->
+      <ion-radio-group formControlName="gender">
+        <div class="radioItem">
+          <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="hombre"></ion-radio>
+          <span class="radioText">{{'upload-advertisement.Hombre' | translate }}</span>
+        </div>
+      
+        <div class="radioItem">
+          <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="mujer"></ion-radio>
+          <span class="radioText">{{'upload-advertisement.Mujer' | translate }}</span>
+        </div>
+      
+        <div class="radioItem">
+          <ion-radio class="custom-radio" mode="md" labelPlacement="end" value="otro"></ion-radio>
+          <span class="radioText">{{'upload-advertisement.Otro' | translate }}</span>
+        </div>
+      </ion-radio-group>
+      
+      
+      
+    </ion-list>
+
+
+    <ion-list>
+      <ion-label id="formLocTitle">{{'upload-advertisement.Localización' | translate }}</ion-label>
+    </ion-list>
+
+    <ion-list style="margin-top: 0px !important;
+    margin-bottom: 0px !important;" id="listItemLoc" class="global__list">
+      
+     <!-- <ion-input clearInput type="text" placeholder="Escribe aquí..."></ion-input>-->
+      <input style="background-color:white;" id="searchTextField" formControlName="location" type="text" placeholder="{{ 'locations.Buscar dirección' | translate }}" (input)="onInputLocation($event)">
+      <ion-icon class="iconItem" src="assets/icons/locationpoint3.svg"></ion-icon>
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="formKMTitle">{{'upload-advertisement.Rango por kilómetros' | translate }} *</ion-label>
+    </ion-list>
+
+    <ion-list>
+      
+ 
+       <ion-range formControlName="kms"
+       mode="md" 
+       aria-label="Dual Knobs Range" 
+       [min]="2"
+      [max]="10"
+      [value]="2"
+      (ionChange)="onIonChangeKms($event)"
+       ></ion-range>
+ 
+     </ion-list>
+
+     <ion-list>
+      <ion-label id="formKMTitle">{{'upload-advertisement.Rango seleccionado: hasta' | translate }} <span id="spanKMTitle">{{this.form.get('kms')?.value}} {{'upload-advertisement.Kilómetros' | translate }}</span></ion-label>
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="formInterestTitle">{{'upload-advertisement.Intereses' | translate }}</ion-label>
+    </ion-list>
+
+    <div *ngIf="show">
+
+      <!--<div class="etiqueta">fotografía experimental</div>
+      <div class="etiqueta">fotografía</div>
+      <div class="etiqueta">deportes</div>
+      <div class="etiqueta">conciertos</div>
+      <div class="etiqueta">ayudante de camara</div>
+      <div class="etiqueta">música</div>
+      <div class="etiqueta">instrumentos</div>
+      <div class="etiqueta">valoración</div>-->
+      <ion-chip *ngFor="let chip of chips; let i = index" [class.selected]="chip.selected" [outline]="!chip.selected" (click)="toggleSelection(i)">
+        <label>{{ chip.showLabel }}</label>
+      </ion-chip>
+
+    </div>
+
+    <ion-list>
+
+      <ion-label id="formAnunTitle">{{'upload-advertisement.Pago del anuncio' | translate }} <span id="spanAnun">*</span></ion-label>
+    </ion-list>
+
+    <p id="pPayment">{{'upload-advertisement.Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio' | translate }}</p>
+    
+    <div class="options">
+      <ion-label class="optionclick">{{'upload-advertisement.Precio por clics' | translate }}</ion-label>
+      <ion-toggle color="primary" formControlName="byClick" slot="end" mode="ios"></ion-toggle>
+    </div>
+
+    <div id="divPrice">
+
+      <p id="pPrice">{{form.get('price')?.value}} €</p>
+
+
+    </div>
+    <ion-list>
+
+      <ion-label id="titleOp">{{'upload-advertisement.Impresiones' | translate }}</ion-label>
+    </ion-list>
+      
+    <ion-list>
+
+      <ion-range formControlName="impressions"  (ionChange)="onImpressionsChange($event)"  [disabled]="disabledRange" [min]="18" [max]="200" mode="md" aria-label="Volume"></ion-range>
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="formOpTitle">{{'upload-advertisement.Cantidad seleccionada:' | translate }} <span id="spanOpTitle">{{form.get('impressions')?.value}} {{'upload-advertisement.impresiones' | translate }}</span></ion-label>
+    </ion-list>
+
+    <ion-list>
+      <ion-label id="titleDay">{{'upload-advertisement.Duración' | translate }}</ion-label>
+    </ion-list>
+
+    <ion-list>
+      <ion-range  (ionChange)="onDaysChange($event)" formControlName="days" [min]="18" [max]="200" mode="md" aria-label="Volume"></ion-range>
+    </ion-list>
+    <ion-list>
+      <ion-label id="formDayTitle">{{'upload-advertisement.Cantidad seleccionada:' | translate }} <span id="spanDayTitle">{{form.get('days')?.value}} {{'upload-advertisement.días' | translate }}</span></ion-label>
+    </ion-list>
+
+    <ion-button id="buttonSub" type="submit" >{{'upload-advertisement.Confirmar y proceder al pago' | translate }}</ion-button><!--[disabled]="!form.valid"-->
+  </form>
+
+  <ion-select
+  #selectRef
+  interface="action-sheet"
+  (ionCancel)="onSelectCancel()"
+  placeholder="Selecciona una red"
+  (ionChange)="onSelectChange($event)">
+    <ion-select-option value=1>{{'upload-advertisement.Seleccionar imagen' | translate }}</ion-select-option>
+    <ion-select-option value=2>{{'upload-advertisement.Selecciona video' | translate }}</ion-select-option>
+  </ion-select>
+
+</ion-content>

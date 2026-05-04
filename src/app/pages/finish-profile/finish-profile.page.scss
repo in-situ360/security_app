@@ -1,0 +1,336 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+     text-transform: uppercase;
+    color: #2E2D2E;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    //margin-left: -35px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+ion-content{
+    .contenido {
+        width: 100%;
+        justify-items: center;
+        display: inline-grid;
+    }
+
+    ion-button{
+        text-transform: none;
+        width: 100%;
+    }
+    form {
+        width: 90%;
+    }
+    ion-item::part(native) {
+        --border-radius: 10pt;
+    }
+    ion-item{
+        font-size: 14px!important;
+    }
+    .apellidos{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: -15px !important;
+        ion-item{
+            width: 48%;
+        }
+    }
+    ion-avatar {
+        width: 130px;
+        height: 130px;
+        //height: auto;
+        margin-top: 5px;
+        //margin-bottom: 4%;
+        margin-bottom: 20px;
+        object-fit: cover;
+    }
+
+    #imgAvatar{
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+
+    }
+
+    #pTitleImg{
+     
+      width: 90% !important;
+      text-align: left!important;
+
+    }
+
+    p {
+        margin-bottom: 1%;
+        color: #62646E;
+        font-size: 14px;
+    }
+    .p2 {
+        font-size: 12px;
+        margin-top: -3px;
+        margin-bottom: 6px;
+    }
+    .checkbox {
+        color:#2E2D2E;
+        font-family: 'Poppins Regular';
+        font-size: 12px;
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        .check{
+            align-items: center;
+            display: flex;
+            margin-left: -3px;
+            ion-checkbox{
+                height: 18px;
+                width: 18px;
+                --border-width: 1px;
+                --border-color: #F42EB2;
+            }
+        }
+        .label{
+            margin-left: 7px;
+        }
+    }
+
+    ion-fab {
+        margin-left: 58px !important;
+        top: 88px !important;
+        width: 57px !important;
+    }
+    .avatar {
+        display: flex;
+        justify-content: center;
+    }
+    ion-chip{
+        font-family: "Poppins Medium";
+        justify-content: center;
+        label {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+    }
+    .selected {
+        --background: #F42EB2;
+        --color:#FFFFFF;
+    }
+    .tagged {
+        --background: #62646E;
+        --color: white;
+        font-family: "Poppins Regular"!important;
+        ion-icon {
+            color:white;
+            font-size: 14px;
+            margin-left: -4px;
+            margin-right: 5px;
+        }
+    }
+    ion-range{
+        margin-bottom: -5%;
+    }
+}
+
+ion-footer {
+    font-size: 13px;
+    justify-content: center;
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    z-index: -1;
+    ion-button {
+        width: 90%;
+    }
+}
+
+#spanEur{
+
+    margin-right:3px;
+}
+
+
+#iconAddTags{
+
+    /*width:16px;
+    height:16px;
+    margin-right: 7px;*/
+
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+}
+
+
+.hiddenTitle{
+    visibility: hidden;
+}
+
+.visibleTitle{
+    visibility: visible;
+}
+
+#itemEmp{
+
+    width: 100%;
+  }
+
+  .apellidos-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .half-width {
+    flex: 1;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0 4px; /* Ajusta el margen según sea necesario */
+  }
+
+
+  #iconInfo{
+    margin-left:4px;
+  }
+
+
+  .placeholder-asterisk::placeholder {
+    position: relative;
+    font-family: Arial, sans-serif;
+   
+    top: -2px; /* Simula que el asterisco esté más arriba */
+    font-size: 12px; /* Opcional: Ajusta el tamaño del asterisco */
+  }
+
+
+  .error-message {
+    color: #d9534f;
+    font-size: 12px;
+    margin-top: -5px;
+    padding-left: 5px;
+    margin-bottom:8px;
+  }
+  
+  .error-message small {
+    display: block;
+    line-height: 1.2;
+    font-size:13px;
+  }
+
+
+  .placeholder-asterisk::placeholder {
+    position: relative;
+    font-family: Arial, sans-serif;
+   
+    top: -2px; /* Simula que el asterisco esté más arriba */
+    font-size: 12px; /* Opcional: Ajusta el tamaño del asterisco */
+  }
+
+
+
+
+  #searchTextField {
+    margin-top:-1px;
+    font-size: 16px;
+    width: 90%;
+    border: 0px; /* Sin borde */
+    outline: none; /* Elimina el contorno predeterminado */
+   }
+
+@media (min-width: 769px) {
+  ion-avatar {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  #imgAvatar {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  ion-fab {
+    margin-left: 68px !important;
+    top: 108px !important;
+  }
+
+  ion-item {
+    font-size: 16px !important;
+  }
+
+  .error-message {
+    font-size: 14px;
+  }
+
+  p {
+    margin-top: 23px;
+    margin-bottom: 8px;
+  }
+
+  .p2 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+
+  ion-footer {
+    margin: 10px !important;
+  }
+
+  ion-range {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding: 10px 0;
+  }
+  /* Aplica Poppins Regular a todos los textos dentro del media query */
+  *,
+  p,
+  .p2,
+  .error-message,
+  ion-item,
+  ion-label,
+  ion-input,
+  input,
+  label,
+  span,
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins Regular' !important;
+  }
+}
+
+
+   

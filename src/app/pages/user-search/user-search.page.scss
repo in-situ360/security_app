@@ -1,0 +1,837 @@
+.ios-style{
+    padding-top:75px !important;
+  }
+  
+  .android-style{
+    padding-top: 10px !important;
+  }
+
+#header{
+    background-color:#E5E5E5;
+   // box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#iconLeft{
+    margin-top:0px; 
+    margin-bottom: 11px;
+    height: 45px; 
+    width: 83px; 
+    margin-left: 15px;
+}
+
+#iconRight{
+
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 7px;
+  height: 25px;
+  width: 25px;
+  float: right;
+  margin-right: 15px;
+  background-color:black;
+  border-radius:25px;
+
+}
+
+
+.search-icon {
+  cursor: pointer;
+    font-size: 1.3em;
+    color: red;
+    padding-right: 8px;
+    margin-left: 16px;
+    position: absolute;
+    z-index: 99999;
+}
+
+.custom-searchbar ::part(search-icon) {
+  display: none !important;
+}
+
+/* Opción alternativa con más especificidad */
+.custom-searchbar .searchbar-search-icon,
+.custom-searchbar .sc-ion-searchbar-md-h .searchbar-search-icon {
+  display: none !important;
+}
+
+#iconChat{
+
+  margin-top: 1px;
+  margin-bottom: 20px;
+  padding: 9.5px;
+  padding-top: 11px;
+  padding-left: 10.5px;
+  padding-right: 10.5px;
+  height: 19px !important;
+  width: 19px !important;
+  float: right;
+  margin-right: 15px;
+  background-color:black;
+  border-radius:25px;
+
+}
+
+#divSearchBar{
+
+  width: 100%;
+  background-color: #26262C;
+  height: 63px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  position: relative;
+
+}
+
+ion-searchbar {
+    background-color:#26262C;
+    --border-radius: 23px;
+  }
+
+#iconModalWeb {
+  display: none;
+}
+
+#iconModalApp {
+  position: absolute;
+  right: 20px;
+  z-index: 999;
+  width: 24px;
+  height: 25px;
+}
+
+// Estilos para web - filtro a la derecha del search
+@media (min-width: 768px) {
+  #divSearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+  }
+
+  ion-searchbar {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  #iconModalWeb {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 25px;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  #iconModalApp {
+    display: none;
+  }
+
+  .ios-icon-modal-style {
+    position: static !important;
+  }
+
+  .android-icon-modal-style {
+    position: static !important;
+  }
+}
+
+#threeDivContainer {
+  display: flex;
+  justify-content: left; /* Space between the inner divs */
+  width: 100%; /* Make it take full width of the container */
+  padding: 15px; /* Add padding if needed */
+  height:60px;
+  background-color: #26262C;
+}
+
+.inner-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex: 1; */
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  margin-right: 5px;
+  font-size: 13px;
+}
+
+.inner-div p {
+  margin: 0; /* Remove margin from paragraphs */
+  color:#2E2D2E;
+}
+
+.inner-div ion-icon {
+  margin-left: 6px;
+  width: 12px;
+  height: 12px;
+  margin-right: 3px;
+}
+
+.ordenSeleccionado{
+  background-color: #F42EB2 !important;
+  p{
+    color: white;
+  }
+  ion-icon{
+    color:white;
+
+
+  }
+}
+
+
+ion-content {
+    --background: #FFFFFF40; 
+    --padding-start: 15px;
+    --padding-end: 15px;
+}
+
+
+.divImgCategory{
+
+    width: 100%; 
+    margin-top: 12px; 
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.categoryImg{
+
+    width: 100%;
+    height: 96px;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.textOverlay {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: white; /* Color del texto, puede ajustarse según el fondo de la imagen */
+    background-color: #F42EB2; /* Fondo semitransparente para mejor legibilidad */
+    padding: 7px 10px;
+    font-size: 13px;
+    width: auto;
+    font-family: 'Poppins SemiBold';
+    border-radius: 20px; /* Bordes completamente redondeados */
+  }
+
+
+  .list{
+    width: 100%;
+    margin-top:20px;
+    h2{
+      text-align:center;
+    }
+    p{
+      text-align:center;
+    }
+  
+  }
+  
+
+
+
+
+
+
+  //-----------
+
+
+
+#divContainerRating{
+  margin-top:10px;
+  margin-bottom: 10px;
+  background-color:white;
+  border-radius:15px;
+  padding:10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+}
+
+#rating {
+  margin-top:0px;
+     padding-top:0px;
+      margin-bottom: 0px;
+      //height: 200px;
+      //border-radius: 15px;
+     // background-color: white;
+      display: flex;
+    }
+
+    #left {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start; /* Align items to the top */
+      padding-top: 10px; /* Add padding if needed */
+    }
+
+    #image {
+      width: 100%; /* Adjust as necessary */
+      height: auto;
+      border-radius: 50%; /* Round image */
+    }
+
+    #right {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      //justify-content: space-between;
+      padding: 10px; /* Adjust as necessary */
+    }
+
+    #top-texts {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #text1 {
+      font-family: 'Poppins Medium';
+      color:#2A2A32;
+      margin: 0;
+      width: 68%; /* Adjust as necessary to keep texts separated */
+      text-align:left;
+      overflow: hidden; /* Oculta el texto que se desborda */
+      white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+      text-overflow: ellipsis;
+    }
+
+    #iconHeart{
+      margin: 0;
+      margin-right: -7px;
+      height: 28px;
+      width: 25px;
+
+    }
+
+    #text2 {
+      font-family: Poppins Regular;
+ 
+      margin: 0;
+      width: 77px;
+      font-size: 8pt;
+      text-align: right;
+      height: 22px;
+      color: white;
+      --background: #F42EB2;
+      overflow: hidden; /* Oculta el texto que se desborda */
+      white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+      text-overflow: ellipsis;
+    }
+
+    #text3{
+
+      font-family: 'Poppins Medium';
+      color:#2A2A32;
+      margin: 0;
+      margin-top: -1px;
+      margin-bottom: 2px;
+      font-size: 8pt;
+      color:#7A7B88;
+      text-align:left;
+      overflow: hidden; /* Oculta el texto que se desborda */
+      white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+      text-overflow: ellipsis;
+    }
+
+    #bottom-text {
+      margin: 0;
+    }
+
+
+    #iconValue{
+
+      margin-right:0px;
+      width:16px;
+      height:14px;
+    }
+
+    #txtVal{
+      font-size: 9px;
+      color:#7A7B88;
+      font-family: 'Poppins Regular';
+      margin-left:5px;
+    }
+
+    #pDescript{
+      color:#2A2A32;
+      font-family: 'Poppins Regular';
+      margin-bottom:1px;
+      padding-bottom:1px;
+      margin-top: 8px;
+      font-size: 11px;
+      text-align: left;
+      display: -webkit-box; /* Enables flex display for webkit */
+      -webkit-line-clamp: 3; /* Limits to 3 lines */
+      -webkit-box-orient: vertical; /* Sets the orientation to vertical */
+      overflow: hidden; /* Hides the overflowing text */
+      text-overflow: ellipsis; /* Adds ellipsis (...) to the text */
+    }
+
+
+
+    #iconTextContainer {
+      display: flex;
+      align-items: center; /* Vertically centers items */
+      margin-top: 3px;
+      margin-bottom: 0px;
+    }
+    
+    #infoIcon {
+      margin-right: 2px; /* Space between icon and text */
+      /* Remove or adjust margin-top if needed to ensure vertical centering */
+      margin-top: 0;
+    }
+    
+    #infoText {
+      font-family: 'Poppins Regular';
+      font-size: 12px;
+      color: #2a2a32;
+     // padding: 1px 0 0;
+      margin-top: 2px;
+     
+      text-align: left;
+      margin-bottom:3px;
+      overflow: hidden; /* Oculta el texto que se desborda */
+      white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+      text-overflow: ellipsis;
+    }
+    
+  
+    #pReport {
+      font-family: 'Poppins Medium';
+      color: #f42eb2;
+      margin-top: 6px;
+      padding-top: 0;
+      margin-bottom: 2px;
+      font-size: 11px;
+      text-align: left;
+    }
+  
+  
+  
+  
+  
+  
+    
+
+    #pReport{
+      font-family: Poppins Medium;
+      color: #7A7B88;
+      margin-top: 6px;
+      padding-top: 0;
+      margin-bottom: 2px;
+      font-size: 11px;
+    }
+
+
+
+
+
+
+
+
+
+
+    //-----------MODAL-------------
+
+    #textoIzquierda {
+      float: left;
+      text-align: left;
+      margin-left: 20px;
+      padding-right: 10px;
+      width: 200px;
+      color:#313A51;
+      font-family: 'Poppins Medium';
+      font-size:15px;
+      display: flex;
+      align-items: center;
+      margin-top: 3px;
+      }
+      
+      #textoDerecha {
+      //text-decoration: underline;
+      color:#F42EB2;
+      float: right;
+      margin-right: 16px;
+      //padding-right: 10px;
+      width: 115px;
+      text-align: right;
+      font-size:15px;
+      font-family: 'Poppins Medium';
+      }
+
+      form{
+       /* margin-left:12px;
+        margin-right:12px;*/
+        
+        ion-item::part(native) {
+          --border-radius: 10pt;
+        }
+
+        #tag::part(native) {
+          --border-radius: 4pt;
+        }
+      }
+
+      
+      #Title{
+        font-family: 'Poppins Medium';
+        text-align:left;
+        font-size: 18px;
+        border-top: 1px solid grey; padding-top: 12px;
+      }
+
+      #iconAddTags{
+
+        width: 19px;
+        height: 19px;
+        margin-right: 5px;
+    }
+      
+      
+      ion-modal#example-modal {
+      
+      --height: 80%;
+      
+      //--background: #3B3B3B;
+      --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+      }
+      
+      ion-modal{
+
+        #spanEur{
+          margin-right:3px;
+        }
+
+        ion-chip{
+          font-family: "Poppins Medium";
+          justify-content: center;
+          label {
+              margin-left: 12px;
+              margin-right: 12px;
+          }
+      }
+      .selected {
+          --background: #F42EB2;
+          --color:#FFFFFF;
+      }
+      .tagged {
+          --background: #62646E;
+          --color: white;
+          font-family: "Poppins Regular"!important;
+          ion-icon {
+              color:white;
+              font-size: 14px;
+              margin-left: -4px;
+              margin-right: 5px;
+          }
+      }
+      
+      ion-content{
+        --background: white !important;
+      
+      }
+      }
+
+      .no-border-item {
+        --border-width: 0;
+        --border-color: transparent;
+        --background: transparent;
+        --padding-start: 0px;
+        margin-bottom: 0px;
+      }
+
+    .horizontal-container {
+      display: flex;
+      //justify-content: space-between; /* Espacio entre los elementos */
+      width: 100%; /* Asegura que el contenedor ocupe todo el espacio disponible */
+  }
+  
+  .horizontal-container p {
+      margin: 0;
+      padding-right: 10px; /* Espaciado opcional entre los párrafos */
+  }
+
+  .pCategory{
+    font-family: 'Poppins Regular' !important;
+    color:#2A2A32;
+
+  }
+  .pCategoryNumber{
+    font-family: 'Poppins Regular' !important;
+    color:#7A7B88;
+
+  }
+
+  .p2 {
+    font-size: 12px;
+   margin-top: -3px;
+    margin-bottom: 6px;
+    text-align: left;
+    font-family: 'Poppins Regular';
+  }
+
+  
+
+
+  #divFooter{
+
+    border-top: 1px solid gray;
+    width:100%;
+    padding-top:20px;
+    height: 110px;
+    
+    
+
+  }
+
+  #modalButton{
+
+    width: 100%;
+    //margin-left: 10%;
+   // margin-right: 10%;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    --background:#26262C;
+
+    font-size: 16px;  
+    text-transform: none;
+    }
+
+.cloudtags{
+  display: flex;
+  justify-content: left;
+}
+
+
+#iconInfo{
+  margin-left:4px;
+}
+
+.modalItem{
+  --ripple-color: #ff0000 !important;
+  margin-bottom: 11px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #c8c7cc !important;
+  border-radius: 30px;
+  --border-color: transparent !important;
+
+  --background: var(--ion-item-background, var(--ion-background-color, #fff)); 
+     --background-activated: none; 
+     --background-focused: none; 
+    --background-hover: none;
+    --background-activated-opacity: .12;
+    --background-focused-opacity: .15;
+    --background-hover-opacity: .04;
+}
+
+ion-item.modalItem {
+  --ripple-color: #ff0000 !important; /* Cambia el sombreado al color rojo */
+}
+
+.no-border-item {
+  --border-width: 0;
+  --border-color: transparent;
+  --background: transparent;
+  --padding-start: 0px;
+  margin-bottom: 0px;
+}
+
+ion-item.modalItem:focus-within {
+    /* Establece un borde sólido de color gris */
+    
+  --border-color: transparent !important;   /* Cambia la propiedad CSS de Ionic para el color del borde */
+}
+
+
+.modalcheck2 {
+  --border-radius: 50%; /* Hace el checkbox circular */
+  --size: 24px; /* Tamaño del círculo */
+  --background: #ffffff; /* Color de fondo */
+  --border-width: 2px; /* Grosor del borde */
+  --border-color: #c8c7cc; /* Color del borde */
+  --checkmark-color: #ffffff; /* Color del ícono de check */
+}
+
+#modalButton1{
+
+  width: 100%;
+  width: 95%;
+  margin: auto;
+  --background:#26262C !important;
+  margin-bottom:20px;
+    font-size: 16px;  
+    text-transform: none;
+}
+
+
+#modalButtonBuscar{
+
+  width: 100%;
+  width: 95%;
+  margin: auto;
+  --background:#F42EB2 !important;
+  margin-top:20px;
+  margin-bottom:20px;
+    font-size: 16px;  
+    text-transform: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index:999;
+}
+
+
+
+ion-footer{
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+
+}
+
+#buttonFooter{
+
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+#iconFilter{
+  margin-right:10px;
+}
+
+
+#searchTextField {
+  margin-top:-1px;
+  font-size: 16px;
+  width: 90%;
+  border: 0px; /* Sin borde */
+  outline: none; /* Elimina el contorno predeterminado */
+}
+
+
+.new-height{
+  height:90px !important;
+}
+
+// Media Queries - Solo para Web (ancho > 768px)
+@media (min-width: 769px) {
+  .divImgCategory {
+    width: calc(50% - 10px);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    position: relative;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .divImgCategory:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .categoryImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .textOverlay {
+    position: absolute;
+        top: 23px;
+        left: 0;
+        margin-top: 0;
+        color: #fff;
+        background-color: #f42eb2;
+        padding: 15px;
+        font-size: 16px;
+        width: auto;
+        min-width: 250px;
+        font-family: Poppins SemiBold;
+        border-radius: 0 30px 30px 0;
+  }
+
+  .list {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  #divContainerRating {
+    max-width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  ion-content {
+    margin-top: 20px;
+  }
+
+  #iconModal {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-right: 15px;
+  }
+
+  .ios-icon-modal-style {
+    top: auto !important;
+  }
+
+  .android-icon-modal-style {
+    top: auto !important;
+  }
+
+  #threeDivContainer {
+    justify-content: center;
+    padding-top: 20px !important;
+    padding-bottom: 15px !important;
+    gap: 10px;
+  }
+
+  #iconLeft {
+    margin-top: 12px; 
+    margin-bottom: 11px;
+    height: 45px;
+    width: 83px;
+    margin-left: 15px;
+  }
+
+  .icon-container {
+    position: absolute;
+    top: 15px; 
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #iconChat {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 20px !important;
+    width: 20px !important;
+    background-color: black;
+    border-radius: 25px;
+    position: relative;
+    right: auto;
+  }
+
+}

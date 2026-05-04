@@ -1,0 +1,1253 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "ВЫБОР ЯЗЫКА",
+      "Seleccionar idioma": "Выбрать язык",
+      "Selecciona el idioma que quieres que se muestre en la app": "Выберите язык, который будет отображаться в приложении",
+      "Aceptar y continuar": "Принять и продолжить",
+      "Selecciona un idioma": "Выберите язык",
+      "Inglés": "Английский",
+      "Español": "Испанский",
+      "Francés": "Французский",
+      "Alemán": "Немецкий",
+      "Italiano": "Итальянский",
+      "Portugués": "Португальский",
+      "Ruso": "Русский",
+      "Chino(Simplificado)": "Китайский (упрощенный)",
+      "Chino(Tradicional)": "Китайский (традиционный)",
+      "Japonés": "Японский",
+      "Coreano": "Корейский",
+      "Árabe": "Арабский",
+      "Hindi": "Хинди",
+      "Bengalí": "Бенгальский",
+      "Holandés": "Голландский",
+      "Sueco": "Шведский",
+      "Noruego": "Норвежский",
+      "Finlandés": "Финский",
+      "Danés": "Датский",
+      "Polaco": "Польский",
+      "Turco": "Турецкий",
+      "Griego": "Греческий",
+      "Checo": "Чешский",
+      "Hebreo": "Иврит",
+      "Húngaro": "Венгерский",
+      "Vietnamita": "Вьетнамский",
+      "Indonesio": "Индонезийский",
+      "Tailandés": "Тайский",
+      "Catalán": "Каталонский",
+      "Romanés": "Румынский",
+      "Ucraniano": "Украинский",
+      "Serbio": "Сербский",
+      "Croata": "Хорватский",
+      "Eslovaco": "Словацкий",
+      "Letón": "Латышский",
+      "Estonio": "Эстонский"
+    },
+  
+    "cover-page": {
+      "Registro": "Регистрация",
+      "Iniciar sesión": "Войти"
+    },
+  
+    "login": {
+      "Iniciar sesión": "Войти",
+      "Usuario": "Пользователь",
+      "Contraseña": "Пароль",
+      "He olvidado mi contraseña": "Я забыл пароль",
+      "Entrar": "Войти",
+      "Entrar como invitado": "Войти как гость",
+      "¿Aún no tienes una cuenta?": "У вас еще нет аккаунта?",
+      "Regístrate": "Зарегистрироваться",
+      "Entrando": "Вход...",
+      "Usuario o contraseña incorrectos": "Неверное имя пользователя или пароль",
+      "El usuario ya se encuentra registrado": "Пользователь уже зарегистрирован",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Эта учетная запись временно заблокирована, обратитесь к администраторам для получения дополнительной информации",
+      "Error del servidor, inténtelo más tarde": "Ошибка сервера, попробуйте позже",
+      "Error desconocido, inténtelo más tarde": "Неизвестная ошибка, попробуйте позже"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "ВОССТАНОВЛЕНИЕ ПАРОЛЯ",
+      "¿Has olvidado tu contraseña?": "Вы забыли свой пароль?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "Введите свою электронную почту, и мы отправим вам новый пароль",
+      "Email": "Электронная почта",
+      "Enviar": "Отправить",
+      "¡Se ha enviado el email correctamente!": "Электронное письмо успешно отправлено!",
+      "Error al enviar el email": "Ошибка при отправке электронного письма"
+    },
+  
+    "register": {
+      "Registro": "Регистрация",
+      "¿Cómo deseas acceder a la app?": "Как вы хотите использовать приложение?",
+      "Personal": "Личный",
+      "Empresa": "Компания",
+      "Nombre": "Имя",
+      "Nombre de representante": "Имя представителя",
+      "Apellido 1": "Фамилия 1",
+      "Apellido 2": "Фамилия 2",
+      "Email": "Электронная почта",
+      "Contraseña": "Пароль",
+      "Repetir Contraseña": "Повторить пароль",
+      "He leído y acepto": "Я прочитал и принимаю",
+      "la Política de Privacidad": "Политику конфиденциальности",
+      "los Términos y Condiciones de Venta": "Условия и положения продажи",
+      "Registrarme": "Зарегистрироваться",
+      "¿Ya estás registrado?": "Уже зарегистрированы?",
+      "Accede aquí": "Войти здесь",
+      "El email es obligatorio": "Электронная почта обязательна",
+      "El email no es válido": "Неверный адрес электронной почты",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Электронная почта должна иметь допустимое расширение (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Домен недопустим или содержит недопустимые символы",
+      "La contraseña es obligatoria": "Пароль обязателен",
+      "La contraseña debe tener al menos 8 caracteres": "Пароль должен содержать не менее 8 символов",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Пароль должен содержать заглавную букву, цифру и специальный символ",
+      "Las contraseñas no coinciden": "Пароли не совпадают",
+      "Registrando usuario": "Регистрация пользователя...",
+      "Nombre Empresa": "Название компании",
+"Por favor, revisa los campos con errores antes de continuar": "Пожалуйста, проверьте поля с ошибками перед продолжением",
+      "El nombre es obligatorio": "Имя обязательно",
+      "El nombre debe tener al menos 3 caracteres": "Имя должно содержать не менее 3 символов"
+        },
+
+
+    
+      
+      "¡Pago realizado!": "Платеж выполнен!",
+      "El pago de la suscripción se ha realizado correctamente": "Оплата подписки успешно завершена",
+    
+      "Sin opiniones": "Без отзывов",
+      "opinión": "отзыв",
+      "opiniones": "отзывы",
+      "Eliminar chat": "Удалить чат",
+    
+      "Cancelar": "Отмена",
+      "Advertencia": "Предупреждение",
+      "¿Estás seguro de eliminar el chat?": "Вы уверены, что хотите удалить чат?",
+      "Aceptar": "Принять",
+      "Chat borrado con éxito": "Чат успешно удален",
+      "No se pudo borrar el chat": "Не удалось удалить чат",
+      "Contenido de": "Содержимое",
+      "Sin seleccionar": "Не выбрано",
+      "1 archivo seleccionado": "1 файл выбран",
+      " archivos seleccionados": " файлов выбрано",
+      "Archivos eliminados": "Файлы удалены",
+      "No se pudieron borrar los archivos": "Не удалось удалить файлы",
+      "Suscripción necesaria": "Требуется подписка",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "Оформите подписку выше, чем План I, чтобы видеть оценки других пользователей",
+      "Activos": "Активные",
+      "Finalizados": "Завершенные",
+      "Mis proyectos": "Мои проекты",
+      "Colaboraciones": "Сотрудничество",
+      "Subir sin editar": "Загрузить без редактирования",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "Файл превышает максимальный допустимый размер (2,5 МБ).",
+    
+    
+  
+    "finish-profile": {
+      "Seleccione al menos una categoría": "Пожалуйста, выберите хотя бы одну категорию",
+      "La profesión es obligatoria": "Профессия обязательна",
+      "La ubicación es obligatoria": "Местоположение обязательно",
+      "COMPLETAR PERFIL": "ЗАВЕРШЕНИЕ ПРОФИЛЯ",
+      "No mostrar mi perfil en el buscador": "Не показывать мой профиль в поиске",
+      "Nombre": "Имя",
+      "Apellido 1": "Фамилия 1",
+      "Apellido 2": "Фамилия 2",
+      "Nombre de representante": "Имя представителя",
+      "Fecha de nacimiento": "Дата рождения",
+      "Este detalle no se mostrará de forma pública": "Этот параметр не будет отображаться публично",
+      "Género": "Пол",
+      "Seleccione una opción": "Выберите вариант",
+      "Hombre": "Мужчина",
+      "Mujer": "Женщина",
+      "Otro": "Другой",
+      "Profesión": "Профессия",
+      "Escribe aquí…": "Введите здесь...",
+      "Categoría de trabajo": "Категория работы",
+      "Salario": "Зарплата",
+      "Selecciona un rango de salario": "Выберите диапазон зарплаты",
+      "Precio seleccionado:": "Выбранная цена:",
+      "Se mostrará como:": "Будет отображаться как:",
+      "Tags": "Теги",
+      "Escribe las palabras clave para describir tu empleo": "Введите ключевые слова для описания вашей работы",
+      "Descripción": "Описание",
+      "Guardar cambios": "Сохранить изменения",
+      "Escribe aquí": "Введите здесь",
+      "día": "день",
+      "Él": "Он",
+      "Ella": "Она",
+      "Elle": "Они",
+      "Añade tus pronombres": "Добавьте свои местоимения",
+      "Introduzca el pronombre con el que se identifique": "Введите местоимение, с которым вы себя идентифицируете",
+      "El nombre es obligatorio": "Имя обязательно",
+      "El apellido 1 es obligatorio": "Фамилия 1 обязательна",
+      "Introduzca una fecha válida": "Введите корректную дату",
+      "Debes seleccionar un género": "Вы должны выбрать пол",
+      "Error obteniendo el usuario": "Ошибка получения данных пользователя",
+      "Usuario actualizado correctamente": "Пользователь успешно обновлен",
+      "Ya hay un Tag con ese valor": "Этот тег уже существует",
+        "El campo está vacío, no se puede crear un Tag": "Поле пустое, невозможно создать тег",
+        "Por favor, revisa los campos con errores antes de continuar": "Пожалуйста, проверьте поля с ошибками перед продолжением",
+        "Ya hay un Pronombre con ese valor": "Это местоимение уже существует",
+        "El campo está vacío, no se puede crear un Pronombre": "Поле пустое, невозможно создать местоимение"
+    },
+      
+        "settings": {
+          "CONFIGURACIÓN": "НАСТРОЙКИ",
+          "Configurar mi cuenta": "Настроить мой аккаунт",
+          "Mis métodos de pago": "Мои способы оплаты",
+          "Destacar mi perfil": "Выделить мой профиль",
+          "Mi suscripción": "Моя подписка",
+          "Mis anuncios": "Мои объявления",
+          "Estadísticas": "Статистика",
+          "Usuarios bloqueados": "Заблокированные пользователи",
+          "Idioma de la app": "Язык приложения",
+          "Contacta con nosotros": "Свяжитесь с нами",
+          "FAQ": "Часто задаваемые вопросы",
+          "Política de Privacidad": "Политика конфиденциальности",
+          "Términos y Condiciones de venta": "Условия и положения продажи",
+          "Cerrar sesión": "Выйти из системы",
+          "Eliminar cuenta": "Удалить аккаунт",
+          "¿Estás seguro de querer cerrar sesión?": "Вы уверены, что хотите выйти?",
+          "Aceptar": "Принять",
+          "Cancelar": "Отмена",
+          "Advertencia": "Предупреждение",
+          "¿Estás seguro de querer eliminar tu cuenta?": "Вы уверены, что хотите удалить свою учетную запись?",
+          "Cuenta eliminada satisfactoriamente": "Аккаунт успешно удален",
+          "Hubo problemas para borrar la cuenta de usuario": "Возникли проблемы при удалении учетной записи"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "НАСТРОЙКИ МОЕГО АККАУНТА",
+          "Nombre de usuario": "Имя пользователя",
+          "Email": "Электронная почта",
+          "Contraseña": "Пароль",
+          "Repetir contraseña": "Повторите пароль",
+          "Guardar cambios": "Сохранить изменения",
+          "Error obteniendo el usuario": "Ошибка получения пользователя",
+          "Cuenta de usuario actualizada": "Учетная запись обновлена",
+          "El nombre es obligatorio": "Имя обязательно",
+          "El nombre debe tener al menos 3 caracteres": "Имя должно содержать минимум 3 символа",
+          "El email es obligatorio": "Электронная почта обязательна",
+          "El email no es válido": "Недействительный адрес электронной почты",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Электронная почта должна иметь допустимое расширение (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Домен недопустим или содержит недопустимые последовательности символов",
+          "La contraseña es obligatoria": "Пароль обязателен",
+          "La contraseña debe tener al menos 8 caracteres": "Пароль должен содержать не менее 8 символов",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Пароль должен содержать заглавную букву, цифру и специальный символ",
+          "Las contraseñas no coinciden": "Пароли не совпадают"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "УСЛОВИЯ И ПОЛОЖЕНИЯ ПРОДАЖИ"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "СВЯЖИТЕСЬ С НАМИ",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "У вас есть вопросы? Есть предложение?",
+          "¡Estamos deseando escucharte!": "Мы рады вас услышать!",
+          "Nombre": "Имя",
+          "Apellidos": "Фамилия",
+          "Email": "Электронная почта",
+          "Categoría": "Категория",
+          "Atención al cliente": "Обслуживание клиентов",
+          "Soporte": "Поддержка",
+          "Solicitud": "Запрос",
+          "Enviar solicitud": "Отправить запрос",
+          "Solicitud de contacto creada con éxito": "Запрос на контакт успешно создан",
+          "Hubo un problema al enviar la solicitud de contacto": "Произошла ошибка при отправке запроса на контакт",
+          "Rellene todos los campos para enviar la solicitud de contacto": "Заполните все поля, чтобы отправить запрос",
+          "Escribe aquí...": "Введите здесь...",
+          "Adquiera plan válido": "Оформите действующий план",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Оформите PlanS или Plan360, чтобы связаться с командой Insitu"
+        },
+      
+        "faq": {
+          "FAQ": "ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ",
+          "Ir a la página ": "Перейти на страницу"
+        },
+      
+        "ban-users": {
+          "USUARIOS BLOQUEADOS": "ЗАБЛОКИРОВАННЫЕ ПОЛЬЗОВАТЕЛИ",
+          "No se pudo obtener el listado de usuarios bloqueados": "Не удалось получить список заблокированных пользователей",
+          "¿Desea desbloquear a este usuario?": "Вы хотите разблокировать этого пользователя?",
+          "Cancelar": "Отмена",
+          "Desbloquear": "Разблокировать",
+          "Usuario desbloqueado": "Пользователь разблокирован",
+          "El usuario ya no se encuentra bloqueado": "Пользователь больше не заблокирован",
+          "Respuesta desconocida": "Неизвестный ответ"
+        },
+      
+        "suscription-detail": {
+          "Características": "Характеристики",
+          "Plan I": "План I",
+          "al mes": "в месяц",
+          "Plan S": "План S",
+          "Plan 360": "План 360",
+          "Búsqueda ilimitada": "Неограниченный поиск",
+          "Completa tu perfil": "Заполни свой профиль",
+          "Obtén reseñas verificadas": "Получите проверенные отзывы",
+          "Forma parte de proyecto": "Будьте частью проекта",
+          "Incluido lo relativo al plan I": "Включает преимущества плана I",
+          "Contacta con profesionales": "Свяжитесь с профессионалами",
+          "Filtros de búsqueda Premium": "Премиальные фильтры поиска",
+          "Visualiza todos los perfiles": "Просматривайте все профили",
+          "Aumenta tu visibilidad": "Увеличьте свою видимость",
+          "Métricas avanzadas": "Расширенная аналитика",
+          "Incluido lo relativo al plan S": "Включает преимущества плана S",
+          "Crear y administrar proyectos": "Создавайте и управляйте проектами",
+          "Gestiona poderes a tu equipo": "Делегируйте права своей команде",
+          "Almacenamiento ilimitado de proyectos": "Неограниченное хранилище проектов",
+          "Creación de chat grupales": "Создание групповых чатов",
+          "Calendario compartido": "Общий календарь"
+        },
+      
+        "my-jobs": {
+          "TRABAJOS": "РАБОТА",
+          "No se pudo obtener los trabajos": "Не удалось получить список работ",
+          "¿Desea eliminar la imagen?": "Хотите удалить изображение?",
+          "No": "Нет",
+          "Sí": "Да",
+          "Hubo un problema al borrar": "Произошла ошибка при удалении",
+          "¿Desea ajustar la imagen antes de que sea subida?": "Хотите отредактировать изображение перед загрузкой?",
+          "Subir imagen": "Загрузить изображение",
+          "No se pudo crear el trabajo": "Не удалось создать работу",
+          "Ajustar imagen": "Настроить изображение",
+          "Cancelar Subida": "Отменить загрузку"
+        },
+      
+        "languages": {
+          "IDIOMAS": "ЯЗЫКИ",
+          "Idiomas": "Языки",
+          "Añadir otro idioma": "Добавить другой язык",
+          "Añadir otro lenguaje": "Добавить другой язык",
+          "Guardar cambios": "Сохранить изменения",
+          "No se pudo obtener los idiomas": "Не удалось получить список языков"
+        },
+        
+            "locations": {
+              "UBICACIONES": "МЕСТОПОЛОЖЕНИЯ",
+              "Tu ubicación": "Ваше местоположение",
+              "Buscar dirección": "Поиск адреса",
+              "Ubicaciones donde puedes trabajar": "Места, где вы можете работать",
+              "Ubicación": "Местоположение",
+              "Añadir otra ubicación": "Добавить другое местоположение",
+              "Guardar cambios": "Сохранить изменения",
+              "No se pudo obtener las ubicaciones": "Не удалось получить местоположения"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "Не удалось получить теги",
+              "TAGS": "ТЕГИ"
+            },
+          
+            "my-profile": {
+              "Trabajos": "Работы",
+              "Ubicaciones": "Местоположения",
+              "Idiomas": "Языки",
+              "Redes sociales": "Социальные сети",
+              "Editar": "Редактировать",
+              "Tu ubicación": "Ваше местоположение",
+              "Sin ubicación actual": "Нет текущего местоположения",
+              "Ubicaciones donde puede trabajar": "Места, где можно работать",
+              "Trabajos de": "Работы",
+              "Sin opiniones": "Нет отзывов",
+              "opiniones": "отзывы",
+              "Sin Suscripción": "Без подписки",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "Оформите подписку, чтобы использовать приложение в полной мере",
+              "Error obteniendo el usuario": "Ошибка при получении пользователя",
+              "No se pudieron obtener los trabajos": "Не удалось получить работы",
+              "No se pudieron obtener las ubicaciones": "Не удалось получить местоположения",
+              "No se pudieron obtener los idiomas": "Не удалось получить языки",
+              "No se pudieron obtener las etiquetas": "Не удалось получить теги",
+              "No se pudieron obtener las redes": "Не удалось получить социальные сети"
+            },
+          
+            "home": {
+              "Descubre nuestro top": "Откройте наш топ",
+              "Los mejores profesionales muestran sus anuncios": "Лучшие профессионалы показывают свои объявления",
+              "Logan descriptivo de anuncio especial": "Описание специального объявления",
+              "Contacta con el éxito": "Свяжитесь с успехом",
+              "Descubre los usuarios que harán realidad tu proyecto": "Откройте пользователей, которые воплотят ваш проект в реальность"
+            },
+          
+            "notifications": {
+              "Notificaciones": "Уведомления",
+              "Pulsa aquí para conocer más": "Нажмите здесь, чтобы узнать больше",
+              "No se pudo obtener las notificaciones": "Не удалось получить уведомления",
+              "No se pudo obtener los datos del usuario": "Не удалось получить данные пользователя",
+              "No se pudo obtener las carpetas del proyecto": "Не удалось получить папки проекта"
+            },
+          
+            "notifications-settings": {
+              "CONFIGURACIÓN DE NOTIFICACIONES": "НАСТРОЙКИ УВЕДОМЛЕНИЙ",
+              "Valoraciones recibidas": "Полученные оценки",
+              "Solicitudes de chat": "Запросы на чат",
+              "Solicitud de chat aceptada": "Запрос на чат принят",
+              "Solicitudes de proyecto": "Запросы на проект",
+              "Nuevas carpetas en el proyecto": "Новые папки в проекте",
+              "Chats de proyecto": "Чаты проекта",
+              "Fecha previa al fin del proyecto": "Дата перед завершением проекта",
+              "Fecha de fin del proyecto": "Дата завершения проекта",
+              "No se pudo obtener los datos del usuario": "Не удалось получить данные пользователя",
+              "No se pudo actualizar los permisos del usuario": "Не удалось обновить разрешения пользователя"
+            },
+          
+            
+          
+            "select-report-modal": {
+              "Indica que quieres reportar": "Укажите, что хотите сообщить",
+              "Reportar mensajes": "Пожаловаться на сообщения",
+              "Desnudos o actividad sexual": "Нагота или сексуальная активность",
+              "Lenguaje o símbolos que incitan al odio": "Язык или символы, разжигающие ненависть",
+              "Estafa o fraude": "Мошенничество",
+              "Violencia u organizaciones peligrosas": "Насилие или опасные организации",
+              "Venta de bienes ilegales o regulados": "Продажа незаконных или регулируемых товаров",
+              "Bullying o acoso": "Буллинг или преследование",
+              "Infracción de la propiedad intelectual": "Нарушение интеллектуальной собственности",
+              "Suicidio o autolesiones": "Самоубийство или самоповреждение",
+              "Spam": "Спам",
+              "El problema no aparece en la lista": "Проблема не указана в списке",
+              "Usuario o contraseña incorrectos": "Неправильное имя пользователя или пароль",
+              "El usuario ya se encuentra registrado": "Пользователь уже зарегистрирован",
+              "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Этот аккаунт временно заблокирован, обратитесь к администраторам",
+              "Error del servidor, inténtelo más tarde": "Ошибка сервера, попробуйте позже",
+              "Error desconocido, inténtelo más tarde": "Неизвестная ошибка, попробуйте позже",
+              "Enviar reporte": "Отправить жалобу",
+              "No se pudo reportar al usuario": "Не удалось пожаловаться на пользователя",
+              "Usuario reportado": "Пользователь пожалован",
+              "Debe seleccionar un motivo de reporte": "Вы должны выбрать причину жалобы"
+            },
+          
+            
+          
+            "workspace": {
+              "Colaboraciones": "Сотрудничество",
+              "Mis proyectos": "Мои проекты",
+              "Estado del proyecto": "Статус проекта",
+              "Seleccione": "Выберите",
+              "Todos": "Все",
+              "Activos": "Активные",
+              "Finalizados": "Завершенные",
+              "participantes": "участники",
+              "No se pudo obtener las colaboraciones de proyecto": "Не удалось получить сотрудничество по проекту",
+              "No se pudo obtener el listado de proyectos": "Не удалось получить список проектов"
+            },
+            
+                "modal-filt-text": {
+                  "Filtro de nombre": "Фильтр по имени",
+                  "Introduzca el nombre del proyecto": "Введите название проекта",
+                  "Nombre de proyecto": "Название проекта",
+                  "Continuar": "Продолжить"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "СОЗДАТЬ НОВЫЙ ПРОЕКТ",
+                  "Añadir imagen": "Добавить изображение",
+                  "Nombre": "Имя",
+                  "Nombre Proyecto": "Название проекта",
+                  "Descripción del proyecto": "Описание проекта",
+                  "Escribe aquí...": "Напишите здесь...",
+                  "Key Code": "Ключевой код",
+                  "Introduzca clave": "Введите ключ",
+                  "Fecha de finalización": "Дата завершения",
+                  "Podrá ser editada desde el apartado de Configuración": "Можно будет редактировать в разделе Настройки",
+                  "Crear Proyecto": "Создать проект",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "Дата завершения должна быть позже текущей даты",
+                  "Ya tienes un proyecto con ese nombre": "У вас уже есть проект с таким названием",
+                  "Proyecto creado con éxito": "Проект успешно создан",
+                  "Sin Suscripción válida": "Без действующей подписки",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "Приобретите план 360 для создания и управления проектами"
+                },
+              
+                "detail-proyect": {
+                  "Creado por": "Создано",
+                  "Carpetas": "Папки",
+                  "participantes": "участники",
+                  "Ver todas": "Просмотреть все",
+                  "Chats": "Чаты",
+                  "Ver todos": "Просмотреть все",
+                  "No se obtuvo las carpetas del proyecto": "Не удалось получить папки проекта",
+                  "Sin Suscripción": "Без подписки",
+                  "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "Оформите подписку, чтобы взаимодействовать с проектами, в которых участвуете"
+                },
+              
+                "new-folder": {
+                  "NUEVA CARPETA": "НОВАЯ ПАПКА",
+                  "Añadir imagen de portada": "Добавить обложку",
+                  "Nombre de la carpeta": "Название папки",
+                  "Nombre Carpeta": "Название папки",
+                  "Aceptar y continuar": "Принять и продолжить",
+                  "Carpeta creada con éxito": "Папка успешно создана",
+                  "Se alcanzó el máximo de subidas permitidas": "Достигнуто максимальное количество загрузок",
+                  "Conetenido multimedia eliminado": "Мультимедийный контент удален",
+                  "No se pudo eliminar el contenido": "Не удалось удалить контент",
+                  "Nuevo contenido subido correctamente": "Новый контент успешно загружен",
+                  "Máximo alcanzado": "Достигнут максимум",
+                  "Hazte con el plan 360 para subir contenido de forma ilimitada": "Приобретите план 360 для неограниченной загрузки контента"
+                },
+              
+                "edit-project": {
+                  "EDITAR PROYECTO": "РЕДАКТИРОВАТЬ ПРОЕКТ",
+                  "Añadir imagen": "Добавить изображение",
+                  "Nombre": "Имя",
+                  "Nombre Proyecto": "Название проекта",
+                  "Descripción del proyecto": "Описание проекта",
+                  "Escribe aquí...": "Напишите здесь...",
+                  "Key Code": "Ключевой код",
+                  "Introduzca clave": "Введите ключ",
+                  "Fecha de finalización": "Дата завершения",
+                  "Podrá ser editada desde el apartado de Configuración": "Можно будет редактировать в разделе Настройки",
+                  "Actualizar": "Обновить",
+                  "Editar usuarios": "Редактировать пользователей",
+                  "No se obtuvieron las carpetas del proyecto": "Не удалось получить папки проекта",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "Дата завершения должна быть позже текущей даты",
+                  "Proyecto actualizado": "Проект обновлен",
+                  "Proyecto indicado ya no existe": "Указанный проект больше не существует",
+                  "Solo el creador del proyecto puede borrarlo": "Только создатель проекта может его удалить",
+                  "Proyecto eliminado": "Проект удален",
+                  "Eliminar proyecto": "Удалить проект",
+                  "¿Estás seguro de querer eliminar el proyecto?": "Вы уверены, что хотите удалить проект?",
+                  "Cancelar": "Отмена",
+                  "Aceptar": "Принять",
+                  "Sin Suscripción válida": "Без действующей подписки",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "Приобретите план 360 для создания и управления проектами"
+                },
+              
+                "edit-participants": {
+                  "MODIFICAR PARTICIPANTES": "ИЗМЕНИТЬ УЧАСТНИКОВ",
+                  "Participantes del proyecto": "Участники проекта",
+                  "Creador": "Создатель",
+                  "Pendiente": "В ожидании",
+                  "Aceptar y continuar": "Принять и продолжить",
+                  "Buscar": "Поиск",
+                  "No se obtuvieron los paticipantes": "Не удалось получить участников",
+                  "No se pudo obtener más usuarios": "Не удалось получить больше пользователей",
+                  "El usuario seleccionado ya está añadido al listado de participantes": "Выбранный пользователь уже добавлен в список участников",
+                  "Sin Categorías": "Без категорий",
+                  "Usuarios asociados al proyecto": "Пользователи, связанные с проектом",
+                  "El proyecto indicado ya no existe": "Указанный проект больше не существует",
+                  "No se puedieron asignar los participantes": "Не удалось назначить участников",
+                  "Sin Suscripción válida": "Без действующей подписки",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "Приобретите план 360 для создания и управления проектами"
+                },
+              
+                "add-participants": {
+                  "AGREGAR PARTICIPANTES": "ДОБАВИТЬ УЧАСТНИКОВ",
+                  "Participantes del proyecto": "Участники проекта",
+                  "Administrador": "Администратор",
+                  "Pendiente": "В ожидании",
+                  "Buscar": "Поиск",
+                  "Aceptar y continuar": "Принять и продолжить",
+                  "Tú": "Вы",
+                  "No se pudo obtener más usuarios": "Не удалось получить больше пользователей",
+                  "El usuario seleccionado ya está añadido al listado de participantes": "Выбранный пользователь уже добавлен в список участников",
+                  "Sin Categorías": "Без категорий",
+                  "Usuarios asociados al proyecto": "Пользователи, связанные с проектом",
+                  "El proyecto indicado ya no existe": "Указанный проект больше не существует",
+                  "No se pudieron asignar los participantes": "Не удалось назначить участников"
+                },
+              
+                "grant-permissions": {
+                  "PERMISOS DEL PROYECTO": "РАЗРЕШЕНИЯ ПРОЕКТА",
+                  "Administradores actuales": "Текущие администраторы",
+                  "Tú": "Вы",
+                  "Administrador": "Администратор",
+                  "Pendiente": "В ожидании",
+                  "Selecciona al usuario al que desees otorgar el rol de administrador": "Выберите пользователя, которому хотите назначить роль администратора",
+                  "Aceptar y continuar": "Принять и продолжить",
+                  "No se obtuvieron los participantes": "Не удалось получить участников",
+                  "Sin Categorías": "Без категорий",
+                  "El usuario seleccionado ya está añadido al listado": "Выбранный пользователь уже добавлен в список",
+                  "Permisos asociados": "Связанные разрешения",
+                  "El proyecto indicado ya no existe": "Указанный проект больше не существует",
+                  "No se puedieron asignar los permisos": "Не удалось назначить разрешения",
+                  "Sin Suscripción válida": "Без действующей подписки",
+                  "Hazte con el plan 360 para gestionar permisos a los usuarios": "Приобретите план 360 для управления разрешениями пользователей"
+                },
+                
+                    "add-proyect": {
+                      "quiere añadirte al proyecto": "{{name}} хочет добавить вас в проект",
+                      "¿Deseas unirte al Workspace?": "Вы хотите присоединиться к Workspace?",
+                      "Aceptar": "Принять",
+                      "Rechazar": "Отклонить",
+                      "Proyecto rechazado con éxito": "Проект успешно отклонен",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "Проект больше не связан с вашей учетной записью",
+                      "No se pudo rechazar el proyecto": "Не удалось отклонить проект",
+                      "Sin proyecto": "Без проекта",
+                      "Sin Categorías": "Без категорий",
+                      "¡Proyecto aceptado!": "Проект принят!",
+                      "El proyecto ya no existe": "Проект больше не существует",
+                      "'El KeyCode introducido no es correcto'": "Введенный ключевой код неверен",
+                      "No se pudo verificar el usuario en el proyecto": "Не удалось подтвердить пользователя в проекте",
+                      "Sin Suscripción": "Без подписки",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Оформите подписку, чтобы принимать и отклонять проекты"
+                    },
+                  
+                    "modal-keycode": {
+                      "Key code": "Ключевой код",
+                      "Añade el código de acceso proporcionado por el administrador": "Введите код доступа, предоставленный администратором",
+                      "Continuar": "Продолжить",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Оформите подписку, чтобы принимать и отклонять проекты",
+                      "¡Proyecto aceptado!": "Проект принят!",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "Проект больше не связан с вашей учетной записью",
+                      "El proyecto ya no existe": "Проект больше не существует",
+                      "El KeyCode introducino no es correcto": "Введенный ключевой код неверен",
+                      "No se pudo verificar usuario en el proyecto": "Не удалось подтвердить пользователя в проекте",
+                      "Introduzca una clave para continuar": "Введите ключ для продолжения"
+                    },
+                  
+                    "folders": {
+                      "CARPETAS": "ПАПКИ",
+                      "No se obtuvieron las carpetas del proyecto": "Не удалось получить папки проекта"
+                    },
+                  
+                    "folder-content": {
+                      "No se obtuvo las carpetas del proyecto": "Не удалось получить папки проекта",
+                      "Nuevo contenido subido correctamente": "Новый контент успешно загружен",
+                      "No se pudo obtener las carpetas del proyecto": "Не удалось получить папки проекта",
+                      "Máximo alcanzado": "Достигнут максимум",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": "Приобретите план 360 для неограниченной загрузки контента"
+                    },
+                  
+                    "modal-multimedia": {
+                      "Volver a contenido multimedia": "Вернуться к мультимедийному контенту"
+                    },
+                  
+                    "my-suscription": {
+                      "Mi suscripción": "Моя подписка",
+                      "Ver características": "Просмотреть характеристики",
+                      "Planes": "Планы",
+                      "Pago mensual": "Ежемесячная оплата",
+                      "Pago anual (Descuento del 15%)": "Годовая оплата (Скидка 15%)",
+                      "al mes": "в месяц",
+                      "al año": "в год",
+                      "Free": "Бесплатно",
+                      "Buscador avanzado": "Расширенный поиск",
+                      "Complete Workspace": "Полный Workspace",
+                      "Tu plan actual": "Ваш текущий план",
+                      "¡Suscripción cambiada!": "Подписка изменена!",
+                      "Suscripción cambiada correctamente": "Подписка успешно изменена",
+                      "Continuar a la app": "Продолжить в приложение",
+                      "Comprar un proyecto": "Купить проект",
+                      "No se obtuvieron suscripciones": "Не удалось получить подписки",
+                      "Obtener plan ": "Получить план ",
+                      "Cambiar a plan ": "Переключиться на план ",
+                      "Cargando...": "Загрузка...",
+                      "Hubo un problema para cambiar": "Возникла проблема с изменением"
+                    },
+                  
+                    "project-checkout": {
+                      "CHECKOUT": "ОФОРМЛЕНИЕ",
+                      "Compra de": "Покупка",
+                      "1 proyecto": "1 проект",
+                      "Crédito o débito": "Кредитная или дебетовая карта",
+                      "Paypal": "Paypal",
+                      "Apple Pay": "Apple Pay",
+                      "He leído y acepto ": "Я прочитал и принимаю ",
+                      "los Términos y Condiciones de Venta": "Условия и положения продажи",
+                      "¡Pago realizado!": "Оплата выполнена!",
+                      "La compra de un proyecto se ha realizado correctamente": "Покупка проекта успешно завершена",
+                      "Continuar a la app": "Продолжить в приложение",
+                      "Total": "Итого",
+                      "Continuar": "Продолжить",
+                      "Cargando...": "Загрузка...",
+                      "Pago cancelado por el usuario.": "Оплата отменена пользователем.",
+                      "Ocurrió un error durante la transacción de pago": "Произошла ошибка во время платежной транзакции",
+                      "No se pudo realizar el pago.": "Не удалось выполнить платеж.",
+                      "Pago cancelado.": "Оплата отменена.",
+                      "Pago completado.": "Оплата завершена."
+                    },
+                  
+                    "suscription-checkout": {
+                      "CHECKOUT": "ОФОРМЛЕНИЕ",
+                      "Pago del ": "Оплата ",
+                      "Crédito o débito": "Кредитная или дебетовая карта",
+                      "Paypal": "Paypal",
+                      "Apple Pay": "Apple Pay",
+                      "He leído y acepto ": "Я прочитал и принимаю ",
+                      "los Términos y Condiciones de Venta": "Условия и положения продажи",
+                      "¡Pago realizado!": "Оплата выполнена!",
+                      "El pago de la suscripción se ha realizado correctamente": "Оплата подписки успешно выполнена",
+                      "Continuar a la app": "Продолжить в приложение",
+                      "Total": "Итого",
+                      "Continuar": "Продолжить",
+                      "Cargando...": "Загрузка...",
+                      "Método de pago agregado correctamente.": "Способ оплаты успешно добавлен.",
+                      "Ingreso de método de pago cancelado.": "Добавление способа оплаты отменено.",
+                      "Pago completado correctamente.": "Оплата успешно завершена.",
+                      "Pago cancelado por el usuario.": "Оплата отменена пользователем.",
+                      "Error durante el proceso de pago.": "Ошибка во время процесса оплаты.",
+                      "Ocurrió un error durante el proceso de suscripción.": "Произошла ошибка во время оформления подписки.",
+                      "Error al procesar la suscripción.": "Ошибка при обработке подписки.",
+                      "Error al configurar el pago con Apple Pay.": "Ошибка при настройке Apple Pay.",
+                      "No se pudo realizar el pago con Apple Pay.": "Не удалось выполнить оплату через Apple Pay.",
+                      "Ocurrió un error durante el proceso de pago con Apple Pay.": "Произошла ошибка во время платежа через Apple Pay."
+                    },
+                  
+                    "conectar": {
+                      "Conecta con": "Связаться с",
+                      "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "Вы запросили подключение к этому пользователю. Напишите сообщение, объясняющее, почему вы хотели бы работать вместе над проектом.",
+                      "Escribe aquí...": "Напишите здесь...",
+                      "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición.": "Пользователь, с которым вы связались, имеет до 24 часов для ответа на ваш запрос.",
+                      "política de privacidad": "политика конфиденциальности",
+                      "Conectar": "Подключиться",
+                      "Ya hay una solicitud para ese usuario": "Для этого пользователя уже есть запрос",
+                      "Solicitud creada con éxito": "Запрос успешно создан",
+                      "Resultado desconocido": "Неизвестный результат",
+                      "Hubo un problema al enviar la solicitud": "Возникла проблема при отправке запроса",
+                      "El mensaje no puede estar vacio": "Сообщение не может быть пустым"
+                    },
+                    
+                        "user-search": {
+                          "Buscar": "Поиск",
+                          "Ordenar": "Сортировать",
+                          "No hay resultados": "Нет результатов",
+                          "conectar": "подключиться",
+                          "Sin oficio": "Без профессии",
+                          "Sin opiniones": "Без отзывов",
+                          "opiniones": "отзывы",
+                          "Sin ubicación actual": "Без текущего местоположения",
+                          "FOTOGRAFÍA": "ФОТОГРАФИЯ",
+                          "CINE / VIDEO": "КИНО / ВИДЕО",
+                          "MÚSICA": "МУЗЫКА",
+                          "TEATRO": "ТЕАТР",
+                          "EVENTOS": "СОБЫТИЯ",
+                          "TV": "ТЕЛЕВИДЕНИЕ",
+                          "OTROS": "ДРУГОЕ",
+                          "FILTROS": "ФИЛЬТРЫ",
+                          "Restablecer": "Сбросить",
+                          "Tu ubicación": "Ваше местоположение",
+                          "Buscar dirección": "Поиск адреса",
+                          "Categorías": "Категории",
+                          "EVENTOS Y FIESTAS": "СОБЫТИЯ И ВЕЧЕРИНКИ",
+                          "SIN CATEGORÍA": "БЕЗ КАТЕГОРИИ",
+                          "Etiquetas": "Теги",
+                          "Escribe palabras clave para filtrar resultados": "Введите ключевые слова для фильтрации результатов",
+                          "Escribe aquí...": "Введите здесь...",
+                          "Rango de precio": "Диапазон цен",
+                          "Selecciona un rango de precio para filtrar resultados": "Выберите диапазон цен для фильтрации результатов",
+                          "Rango": "Диапазон",
+                          "Mínimo": "Минимум",
+                          "día": "день",
+                          "Máximo": "Максимум",
+                          "Mejor valorados": "Лучше оцененные",
+                          "Más valorados": "Наиболее оцененные",
+                          "Precio ascendente": "Цена по возрастанию",
+                          "Precio descendente": "Цена по убыванию",
+                          "No se pudo obtener listado de usuarios": "Не удалось получить список пользователей",
+                          "No se pudo obtener el contador de categorías": "Не удалось получить счетчик категорий",
+                          "Sin tags": "Без тегов",
+                          "Ya hay una solicitud enviada pendiente de aceptar": "Запрос уже отправлен и ожидает принятия",
+                          "Resultado desconocido": "Неизвестный результат",
+                          "No se pudo comprobar la existencia de la solicitud": "Не удалось проверить наличие запроса",
+                          "Ya hay un Tag con ese valor": "Тег с таким значением уже существует",
+                          "El campo está vacío, no se puede crear un Tag": "Поле пустое, нельзя создать тег",
+                          "Sin Suscripción válida": "Нет действующей подписки",
+                          "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Оформите подписку Inicial или 360 для доступа и связи с пользователями"
+                        },
+                      
+                        
+                      
+                        "Usuario o contraseña incorrectos": "Неверное имя пользователя или пароль",
+                        "El usuario ya se encuentra registrado": "Пользователь уже зарегистрирован",
+                        "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Эта учетная запись временно заблокирована, обратитесь к администраторам для получения дополнительной информации.",
+                        "Error del servidor, inténtelo más tarde": "Ошибка сервера, попробуйте позже",
+                        "Error desconocido, inténtelo más tarde": "Неизвестная ошибка, попробуйте позже",
+                      
+                        "codeErrors": {
+                          "Usuario o contraseña incorrectos": "Неверное имя пользователя или пароль",
+                          "El usuario ya se encuentra registrado": "Пользователь уже зарегистрирован",
+                          "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Эта учетная запись временно заблокирована, обратитесь к администраторам для получения дополнительной информации.",
+                          "Error del servidor, inténtelo más tarde": "Ошибка сервера, попробуйте позже",
+                          "Error desconocido, inténtelo más tarde": "Неизвестная ошибка, попробуйте позже"
+                        },
+                      
+                        "buscador": {
+                          "BUSCADOR": "ПОИСК",
+                          "Buscar": "Поиск",
+                          "Conectar": "Подключиться",
+                          "No hay resultados": "Нет результатов",
+                          "Descubre nuestro top": "Откройте наш топ",
+                          "Los mejores profesionales muestran sus anuncios": "Лучшие профессионалы показывают свои объявления",
+                          "Contacta con el éxito": "Свяжитесь с успехом",
+                          "Descubre los usuarios que haran realidad tu proyecto": "Откройте для себя пользователей, которые воплотят ваш проект в жизнь",
+                          "Ordenar": "Сортировать",
+                          "conectar": "подключиться",
+                          "Sin oficio": "Без профессии",
+                          "Sin opiniones": "Без отзывов",
+                          "opiniones": "отзывы",
+                          "Sin ubicación actual": "Без текущего местоположения",
+                          "FOTOGRAFÍA": "ФОТОГРАФИЯ",
+                          "CINE / VIDEO": "КИНО / ВИДЕО",
+                          "FILM / VÍDEO": "ФИЛЬМ / ВИДЕО",
+                          "MÚSICA": "МУЗЫКА",
+                          "TEATRO": "ТЕАТР",
+                          "EVENTOS": "СОБЫТИЯ",
+                          "TV": "ТЕЛЕВИДЕНИЕ",
+                          "OTROS": "ДРУГОЕ",
+                          "FILTROS": "ФИЛЬТРЫ",
+                          "Restablecer": "Сбросить",
+                          "Tu ubicación": "Ваше местоположение",
+                          "Buscar dirección": "Поиск адреса",
+                          "Categorías": "Категории",
+                          "EVENTOS Y FIESTAS": "СОБЫТИЯ И ВЕЧЕРИНКИ",
+                          "SIN CATEGORÍA": "БЕЗ КАТЕГОРИИ",
+                          "Etiquetas": "Теги",
+                          "Escribe palabras clave para filtrar resultados": "Введите ключевые слова для фильтрации результатов",
+                          "Escribe aquí...": "Введите здесь...",
+                          "Rango de precio": "Диапазон цен",
+                          "Selecciona un rango de precio para filtrar resultados": "Выберите диапазон цен для фильтрации результатов",
+                          "Texto descriptivo del anuncio especial": "Описание специального объявления",
+                          "Rango": "Диапазон",
+                            "Mínimo": "Минимум",
+                            "día": "день",
+                            "Máximo": "Максимум",
+                            "Mejor valorados": "Лучше оцененные",
+                            "Más valorados": "Наиболее оцененные",
+                            "Precio ascendente": "Цена по возрастанию",
+                            "Precio descendente": "Цена по убыванию",
+                            "No se pudo obtener listado de usuarios": "Не удалось получить список пользователей",
+                            "No se pudo obtener el contador de categorías": "Не удалось получить счетчик категорий",
+                            "Sin tags": "Без тегов",
+                            "Ya hay una solicitud enviada pendiente de aceptar": "Запрос уже отправлен и ожидает принятия",
+                            "Resultado desconocido": "Неизвестный результат",
+                            "No se pudo comprobar la existencia de la solicitud": "Не удалось проверить наличие запроса",
+                            "Ya hay un Tag con ese valor": "Тег с таким значением уже существует",
+                            "El campo está vacío, no se puede crear un Tag": "Поле пустое, нельзя создать тег",
+                            "Sin Suscripción válida": "Нет действующей подписки",
+                            "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Оформите подписку Inicial или 360 для доступа и связи с пользователями"
+                        },
+                        
+                            "buscador2": {
+                              "BUSCADOR": "ПОИСК",
+                              "Buscar": "Поиск",
+                              "Conectar": "Подключиться",
+                              "No hay resultados": "Нет результатов",
+                              "Descubre nuestro top": "Откройте наш топ",
+                              "Los mejores profesionales muestran sus anuncios": "Лучшие профессионалы показывают свои объявления",
+                              "Contacta con el éxito": "Свяжитесь с успехом",
+                              "Descubre los usuarios que haran realidad tu proyecto": "Откройте для себя пользователей, которые воплотят ваш проект в жизнь",
+                              "Ordenar": "Сортировать",
+                              "conectar": "подключиться",
+                              "Sin oficio": "Без профессии",
+                              "Sin opiniones": "Без отзывов",
+                              "opiniones": "отзывы",
+                              "Sin ubicación actual": "Без текущего местоположения",
+                              "FOTOGRAFÍA": "ФОТОГРАФИЯ",
+                              "CINE / VIDEO": "КИНО / ВИДЕО",
+                              "FILM / VÍDEO": "ФИЛЬМ / ВИДЕО",
+                              "MÚSICA": "МУЗЫКА",
+                              "TEATRO": "ТЕАТР",
+                              "EVENTOS": "СОБЫТИЯ",
+                              "TV": "ТЕЛЕВИДЕНИЕ",
+                              "OTROS": "ДРУГОЕ",
+                              "FILTROS": "ФИЛЬТРЫ",
+                              "Restablecer": "Сбросить",
+                              "Tu ubicación": "Ваше местоположение",
+                              "Buscar dirección": "Поиск адреса",
+                              "Categorías": "Категории",
+                              "EVENTOS Y FIESTAS": "СОБЫТИЯ И ВЕЧЕРИНКИ",
+                              "SIN CATEGORÍA": "БЕЗ КАТЕГОРИИ",
+                              "Etiquetas": "Теги",
+                              "Escribe palabras clave para filtrar resultados": "Введите ключевые слова для фильтрации результатов",
+                              "Escribe aquí...": "Введите здесь...",
+                              "Rango de precio": "Диапазон цен",
+                              "Selecciona un rango de precio para filtrar resultados": "Выберите диапазон цен для фильтрации результатов",
+                              "Rango": "Диапазон",
+                              "Mínimo": "Минимум",
+                              "día": "день",
+                              "Máximo": "Максимум",
+                              "Mejor valorados": "Лучше оцененные",
+                              "Más valorados": "Наиболее оцененные",
+                              "Precio ascendente": "Цена по возрастанию",
+                              "Precio descendente": "Цена по убыванию",
+                              "No se pudo obtener listado de usuarios": "Не удалось получить список пользователей",
+                              "No se pudo obtener el contador de categorías": "Не удалось получить счетчик категорий",
+                              "Sin tags": "Без тегов",
+                              "Ya hay una solicitud enviada pendiente de aceptar": "Запрос уже отправлен и ожидает принятия",
+                              "Resultado desconocido": "Неизвестный результат",
+                              "No se pudo comprobar la existencia de la solicitud": "Не удалось проверить наличие запроса",
+                              "Ya hay un Tag con ese valor": "Тег с таким значением уже существует",
+                              "El campo está vacío, no se puede crear un Tag": "Поле пустое, нельзя создать тег",
+                              "Sin Suscripción válida": "Нет действующей подписки",
+                              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Оформите подписку Inicial или 360 для доступа и связи с пользователями",
+                              "Texto descriptivo del anuncio especial": "Описание специального объявления"
+                            },
+                          
+                            "chats": {
+                              "Cargando chats...": "Загрузка чатов...",
+                              "Buscar": "Поиск",
+                              "Chats": "Чаты",
+                              "Solicitudes": "Запросы",
+                              "Aceptar": "Принять",
+                              "Rechazar": "Отклонить",
+                              ": ha enviado un PDF": ": отправил PDF",
+                              "Tú: has enviado un PDF": "Вы: отправили PDF",
+                              ": ha enviado un AUDIO": ": отправил АУДИО",
+                              "Tú: has enviado un AUDIO": "Вы: отправили АУДИО",
+                              ": ha enviado una imagen": ": отправил изображение",
+                              "Tú: has enviado una imagen": "Вы: отправили изображение",
+                              "Sin mensajes aún": "Сообщений пока нет",
+                              "No se pueden obtener los chats": "Не удалось получить чаты",
+                              "Borrar chat": "Удалить чат",
+                              "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Хотите удалить чат ' + chat.nombre + ' ?",
+                              "Cancelar": "Отмена",
+                              "Borrando chat": "Удаление чата",
+                              "No se ha podido borrar el chat": "Не удалось удалить чат",
+                              "No se pudieron obtener las solicitudes": "Не удалось получить запросы",
+                              "Solicitud eliminada exitósamente": "Запрос успешно удален",
+                              "Resultado desconocido": "Неизвестный результат",
+                              "No se pudo eliminar la solicitud": "Не удалось удалить запрос",
+                              "Solicitud aceptada exitósamente": "Запрос успешно принят",
+                              "La solicitud ya no es valida": "Запрос больше не действителен",
+                              "No se pudo aceptar la solicitud": "Не удалось принять запрос",
+                              "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: отправил PDF",
+                              "ha enviado un AUDIO": "{{name}}: отправил АУДИО",
+                              "ha enviado una imagen": "{{name}}: отправил изображение",
+                              "Tú: {{mensaje}}": "Вы: {{mensaje}}",
+                              "No se pueden obtener los mensajes": "Не удалось получить сообщения",
+                              "No se ha podido enviar el mensaje": "Не удалось отправить сообщение",
+                              "Cargando mensajes...": "Загрузка сообщений...",
+                              "Grabación finalizada": "Запись завершена",
+                              "Pulse aquí para enviar": "Нажмите здесь, чтобы отправить",
+                              "No se puede obtener el archivo": "Не удалось получить файл"
+                            },
+                          
+                            "FOTOGRAFÍA": "ФОТОГРАФИЯ",
+                            "FILM / VÍDEO": "ФИЛЬМ / ВИДЕО",
+                            "CINE / VIDEO": "КИНО / ВИДЕО",
+                            "TV": "ТЕЛЕВИДЕНИЕ",
+                            "MÚSICA": "МУЗЫКА",
+                            "EVENTOS Y FIESTAS": "СОБЫТИЯ И ВЕЧЕРИНКИ",
+                            "TEATRO": "ТЕАТР",
+                            "OTROS": "ДРУГОЕ",
+                            "SIN CATEGORÍA": "БЕЗ КАТЕГОРИИ",
+                          
+                            "add-participants-to-group": {
+                              "AGREGAR MIEMBROS AL GRUPO DE CHAT": "ДОБАВИТЬ УЧАСТНИКОВ В ГРУППОВОЙ ЧАТ",
+                              "Nombre del grupo": "Название группы",
+                              "Escribe aquí...": "Введите здесь...",
+                              "Miembros del grupo": "Члены группы",
+                              "Tú": "Вы",
+                              "Crear grupo": "Создать группу",
+                              "No se obtuvieron los participantes": "Не удалось получить участников",
+                              "El usuario seleccionado ya está añadido al listado de participantes": "Выбранный пользователь уже добавлен в список участников",
+                              "Sin Categorías": "Без категорий",
+                              "Introduzca un nombre para el grupo de chat": "Введите название группы чата",
+                              "¡Grupo de chat creado!": "Групповой чат создан!",
+                              "No se pudo crear el grupo": "Не удалось создать группу",
+                              "Debe añadir al menos un miembro al grupo de chat": "Необходимо добавить хотя бы одного участника в групповой чат",
+                              "Sin Suscripción válida": "Нет действующей подписки",
+                              "Hazte con el plan 360 para crear y administrar proyectos": "Оформите подписку 360 для создания и управления проектами"
+                            },
+                            
+                                "app-chat-header": {
+                                  "Conectado": "Подключен",
+                                  "¿Desea bloquear a este usuario?": "Вы хотите заблокировать этого пользователя?",
+                                  "Cancelar": "Отмена",
+                                  "Bloquear": "Заблокировать",
+                                  "Usuario bloqueado": "Пользователь заблокирован",
+                                  "El usuario ya se encuentra bloqueado": "Пользователь уже заблокирован",
+                                  "Respuesta desconocida": "Неизвестный ответ"
+                                },
+                              
+                                "app-chat-footer": {
+                                  "Escribe aquí...": "Напишите здесь...",
+                                  "Grabación finalizada": "Запись завершена",
+                                  "Pulse aquí para enviar": "Нажмите здесь, чтобы отправить",
+                                  "Se está realizando una grabación de audio": "Идет запись аудио",
+                                  "Hay un archivo de audio pendiente para enviar": "Есть аудиофайл, ожидающий отправки",
+                                  "Solo se permiten archivos .pdf": "Разрешены только файлы .pdf",
+                                  "Ya hay una grabación en proceso": "Запись уже выполняется"
+                                },
+                              
+                                "app-pgchat-footer": {
+                                  "Grabación finalizada": "Запись завершена",
+                                  "Pulse aquí para enviar": "Нажмите здесь, чтобы отправить",
+                                  "Se está realizando una grabación de audio": "Идет запись аудио",
+                                  "Hay un archivo de audio pendiente para enviar": "Есть аудиофайл, ожидающий отправки",
+                                  "Solo se permiten archivos .pdf": "Разрешены только файлы .pdf",
+                                  "Ya hay una grabación en proceso": "Запись уже выполняется"
+                                },
+                              
+                                "app-pnchat-footer": {
+                                  "Grabación finalizada": "Запись завершена",
+                                  "Pulse aquí para enviar": "Нажмите здесь, чтобы отправить",
+                                  "Se está realizando una grabación de audio": "Идет запись аудио",
+                                  "Hay un archivo de audio pendiente para enviar": "Есть аудиофайл, ожидающий отправки",
+                                  "Solo se permiten archivos .pdf": "Разрешены только файлы .pdf",
+                                  "Ya hay una grabación en proceso": "Запись уже выполняется"
+                                },
+                              
+                                "app-chat-group": {
+                                  "mensajes nuevos": "новые сообщения"
+                                },
+                              
+                                "app-pnchat-header": {
+                                  "Conectado": "Подключен"
+                                },
+                              
+                                "pnchats": {
+                                  "CHATS": "ЧАТЫ",
+                                  "TODOS": "ВСЕ",
+                                  "Grupos": "Группы",
+                                  "Solicitudes": "Запросы",
+                                  "Aceptar": "Принять",
+                                  "Rechazar": "Отклонить",
+                                  ": ha enviado un PDF": ": отправил PDF",
+                                  "Tú: has enviado un PDF": "Вы: отправили PDF",
+                                  ": ha enviado un AUDIO": ": отправил АУДИО",
+                                  "Tú: has enviado un AUDIO": "Вы: отправили АУДИО",
+                                  ": ha enviado una imagen": ": отправил изображение",
+                                  "Tú: has enviado una imagen": "Вы: отправили изображение",
+                                  "Sin mensajes aún": "Сообщений пока нет",
+                                  "No se pueden obtener los chats": "Не удается загрузить чаты",
+                                  "Borrar chat": "Удалить чат",
+                                  "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Вы хотите удалить чат ' + chat.nombre + ' ?",
+                                  "Cancelar": "Отмена",
+                                  "Borrando chat": "Удаление чата",
+                                  "No se ha podido borrar el chat": "Не удалось удалить чат",
+                                  "No se pudieron obtener las solicitudes": "Не удалось получить запросы",
+                                  "Solicitud eliminada exitósamente": "Запрос успешно удален",
+                                  "Resultado desconocido": "Неизвестный результат",
+                                  "No se pudo eliminar la solicitud": "Не удалось удалить запрос",
+                                  "Solicitud aceptada exitósamente": "Запрос успешно принят",
+                                  "La solicitud ya no es valida": "Запрос больше не действителен",
+                                  "No se pudo aceptar la solicitud": "Не удалось принять запрос",
+                                  "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: отправил PDF",
+                                  "ha enviado un AUDIO": "{{name}}: отправил АУДИО",
+                                  "ha enviado una imagen": "{{name}}: отправил изображение",
+                                  "Tú: {{mensaje}}": "Вы: {{mensaje}}",
+                                  "No se pueden obtener los mensajes": "Не удается загрузить сообщения",
+                                  "No se ha podido enviar el mensaje": "Не удалось отправить сообщение",
+                                  "Cargando mensajes...": "Загрузка сообщений...",
+                                  "Grabación finalizada": "Запись завершена",
+                                  "Pulse aquí para enviar": "Нажмите здесь, чтобы отправить",
+                                  "No se puede obtener el archivo": "Не удается получить файл"
+                                },
+                              
+                                "interior-chat": {
+                                  "Cargando mensajes...": "Загрузка сообщений...",
+                                  "No se pueden obtener los mensajes": "Не удается загрузить сообщения",
+                                  "No se ha podido enviar el mensaje": "Не удалось отправить сообщение"
+                                },
+                              
+                                "interior-pgchat": {
+                                  "No se ha podido enviar el mensaje": "Не удалось отправить сообщение",
+                                  "No se pueden obtener los mensajes": "Не удается загрузить сообщения",
+                                  "Cargando mensajes...": "Загрузка сообщений..."
+                                },
+                              
+                                "interior-pnchat": {
+                                  "No se ha podido enviar el mensaje": "Не удалось отправить сообщение",
+                                  "No se pueden obtener los mensajes": "Не удается загрузить сообщения",
+                                  "Cargando mensajes...": "Загрузка сообщений..."
+                                },
+                              
+                                "select-useroptions-modal": {
+                                  "Bloquear usuario": "Заблокировать пользователя",
+                                  "Reportar usuario": "Пожаловаться на пользователя"
+                                },
+
+                                
+                                  "add-remove-users-modal": {
+                                    "Listado actualizado": "Список обновлён",
+                                    "No se pudo actualizar el listado": "Не удалось обновить список",
+                                    "Añadir al grupo": "Добавить в группу",
+                                    "Quitar del grupo": "Удалить из группы",
+                                    "SACAR USUARIOS DEL GRUPO": "УДАЛИТЬ ПОЛЬЗОВАТЕЛЕЙ ИЗ ГРУППЫ",
+                                    "METER USUARIOS EN GRUPO": "ДОБАВИТЬ ПОЛЬЗОВАТЕЛЕЙ В ГРУППУ",
+                                    "Usuarios para sacar": "Пользователи для удаления",
+                                    "Usuarios para meter": "Пользователи для добавления"
+                                  },
+                                
+                                  "detail-project": {
+                                    "DETALLES DEL PROYECTO": "ДЕТАЛИ ПРОЕКТА",
+                                    "Creador/a del proyecto": "Создатель проекта",
+                                    "Fecha de finalización": "Дата завершения",
+                                    "Participantes": "Участники",
+                                    "No se obtuvo las carpetas del proyecto": "Не удалось получить папки проекта"
+                                  },
+                                
+                                  "social-networks": {
+                                    "Nombre": "Имя",
+                                    "Añade un link": "Добавить ссылку",
+                                    "Guardar cambios": "Сохранить изменения",
+                                    "REDES SOCIALES": "СОЦИАЛЬНЫЕ СЕТИ"
+                                  },
+                                
+                                  "Ver planes": "Просмотреть планы",
+
+                                  "other-user": {
+                                    "Sin opiniones": "Нет отзывов",
+                                    "opiniones": "отзывы",
+                                    "Chatear": "Чат",
+                                    "Conectar": "Подключиться",
+                                    "Trabajos": "Работы",
+                                    "Ubicaciones": "Местоположения",
+                                    "Idiomas": "Языки",
+                                    "Redes sociales": "Социальные сети",
+                                    "Ubicación de este usuario": "Местоположение этого пользователя",
+                                    "Sin ubicación actual": "Нет текущего местоположения",
+                                    "Ubicaciones donde puede trabajar": "Места, где он может работать",
+                                    "Trabajos de": "Работы",
+                                    "Guardar": "Сохранить",
+                                    "Añadir a Favoritos": "Добавить в избранное",
+                                    "Usuario Favorito": "Избранный пользователь",
+                                    "En Favorito": "В избранном",
+                                    "En favoritos": "В избранном",
+                                    "Quitar Favorito": "Удалить из избранного",
+                                    "No se pudo obtener los datos del usuario": "Не удалось получить данные пользователя",
+                                    "Ya hay una solicitud enviada pendiente de aceptar": "Уже отправлен запрос, ожидающий подтверждения",
+                                    "Resultado desconocido": "Неизвестный результат",
+                                    "No se pudo comprobar la existencia de la solicitud": "Не удалось проверить наличие запроса",
+                                    "No se pudieron obtener los trabajos": "Не удалось получить работы",
+                                    "No se pudieron obtener las ubicaciones": "Не удалось получить местоположения",
+                                    "No se pudieron obtener los idiomas": "Не удалось получить языки",
+                                    "No se pudieron obtener las redes": "Не удалось получить сети",
+                                    "¿Desea bloquear a este usuario?": "Хотите заблокировать этого пользователя?",
+                                    "cancelar": "отмена",
+                                    "bloquear": "заблокировать",
+                                    "Usuario bloqueado": "Пользователь заблокирован",
+                                    "El usuario ya se encuentra bloqueado": "Пользователь уже заблокирован",
+                                    "Respuesta desconocida": "Неизвестный ответ"
+                                  },
+                                
+                                  "add-rating": {
+                                    "AÑADE UNA VALORACIÓN": "ДОБАВЬТЕ ОЦЕНКУ",
+                                    "¿Cómo valorarías a ": "Как бы вы оценили ",
+                                    "Tu valoración ayuda a otros usuarios": "Ваш отзыв помогает другим пользователям",
+                                    "¿Quieres añadir aglún comentario?": "Хотите добавить комментарий?",
+                                    "Escribe aquí...": "Напишите здесь...",
+                                    "No se pudo obtener los datos del usuario": "Не удалось получить данные пользователя",
+                                    "Introduzca un comentario en la valoración": "Введите комментарий в оценку",
+                                    "¡Valoracion enviada!": "Оценка отправлена!",
+                                    "Publica": "Опубликовать",
+                                    "Gracias por poner tu comentario a ": "Спасибо за ваш комментарий для "
+                                  },
+                                
+                                  "user-ratings": {
+                                    "VALORACIONES A ": "ОЦЕНКИ ",
+                                    "Más recientes": "Недавние",
+                                    "Menos recientes": "Старые",
+                                    "Puntuación": "Оценка",
+                                    "Perfil verificado": "Проверенный профиль",
+                                    "Reportar comentario": "Пожаловаться на комментарий",
+                                    "Añadir valoración": "Добавить оценку",
+                                    "Sin oficio": "Без профессии",
+                                    "Sin Suscripción": "Без подписки",
+                                    "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+                                    "Оформите подписку, чтобы видеть свои и чужие оценки",
+                                    "Más altas": "Самые высокие",
+                                    "Más bajas": "Самые низкие"
+                                  },
+                                
+                                  "select-chatoptions-modal": {
+                                    "Añadir usuarios": "Добавить пользователей",
+                                    "Quitar usuarios": "Удалить пользователей",
+                                    "Pronombres": "Местоимения"
+                                  },
+                                
+                                  "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "В ближайшее время мы активируем этот раздел, чтобы вы могли наслаждаться его содержанием",
+                                  
+                                    "Fotografía": "Фотография",
+                                    "Film/vídeo": "Фильм/видео",
+                                    "Cine/vídeo": "Кино/видео",
+                                    "Música": "Музыка",
+                                    "Eventos": "Мероприятия",
+                                    "Teatro": "Театр",
+                                    "Otros": "Другое",
+                                    "Sin categoría": "Без категории",
+                                  
+                                    "El idioma ya se encuentra en el listado": "Язык уже находится в списке",
+                                    "Relación": "Отношение",
+                                    "precio": "цена",
+                                    "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "Чтобы получить доступ ко всей информации о пользователе и связаться с ним, оформите подписку на План S или План 360.",
+                                  
+                                    "my-ads": {
+                                      "Mis anuncios": "Мои объявления",
+                                      "Tipo de anuncio": "Тип объявления",
+                                      "Duración": "Длительность",
+                                      "mes": "месяц",
+                                      "meses": "месяцы",
+                                      "día": "день",
+                                      "dias": "дни",
+                                      "Anuncio borrado con éxito": "Объявление успешно удалено",
+                                      "Vídeo": "Видео",
+                                      "Imagen": "Изображение",
+                                      "Ver anuncio": "Просмотреть объявление",
+                                      "Ver perfil del creador": "Посмотреть профиль автора",
+                                      " y ": " и "
+                                    },
+                                  
+                                    "upload-advertisement": {
+                                      "SUBIR ANUNCIO": "ЗАГРУЗИТЬ ОБЪЯВЛЕНИЕ",
+                                      "Quiero publicitar mi perfil": "Я хочу прорекламировать свой профиль",
+                                      "Público objetivo": "Целевая аудитория",
+                                      "Rango de edad": "Возрастной диапазон",
+                                      "Rango seleccionado": "Выбранный диапазон",
+                                      "años": "лет",
+                                      "Género": "Пол",
+                                      "Hombre": "Мужчина",
+                                      "Mujer": "Женщина",
+                                      "Otro": "Другое",
+                                      "Localización": "Местоположение",
+                                      "Buscar dirección": "Поиск адреса",
+                                      "Rango por kilómetros": "Радиус в километрах",
+                                      "Rango seleccionado: hasta": "Выбранный радиус: до",
+                                      "Kilómetros": "Километры",
+                                      "Intereses": "Интересы",
+                                      "Pago del anuncio": "Оплата объявления",
+                                      "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "Выберите цену, которую вы хотите платить за показы или клики. В зависимости от установленной цены мы покажем, как долго будет отображаться ваше объявление",
+                                      "Precio por clics": "Цена за клик",
+                                      "Impresiones": "Показы",
+                                      "Cantidad seleccionada:": "Выбранное количество:",
+                                      "impresiones": "показы",
+                                      "Duración": "Продолжительность",
+                                      "días": "дней",
+                                      "Confirmar y proceder al pago": "Подтвердить и перейти к оплате",
+                                      "Seleccionar imagen": "Выбрать изображение",
+                                      "Selecciona video": "Выбрать видео"
+                                    },
+                                  
+                                    "El proyecto ha finalizado, no puede realizar modificaciones": "Проект завершён, изменения невозможны",
+                                    "USUARIOS FAVORITOS": "ИЗБРАННЫЕ ПОЛЬЗОВАТЕЛИ",
+                                    "CHAT": "ЧАТ",
+                                    "No tiene permiso para acceder al contenido de esta carpeta": "У вас нет доступа к содержимому этой папки",
+                                    "Chat creado con éxito": "Чат успешно создан",
+                                    "Crear chat": "Создать чат",
+                                    "Nuevo Chat": "Новый чат",
+                                  
+                                    "Permisos de carpeta": "Права доступа к папке",
+                                    "Sin permisos": "Без доступа",
+                                    "Solo lectura": "Только чтение",
+                                    "Modificar contenido": "Изменить содержимое",
+                                    "No se pudo obtener más usuarios": "Не удалось получить больше пользователей",
+                                    "Introduzca el nuevo lenguaje": "Введите новый язык",
+
+                                    "modal-message": {
+                                      "te ha escrito": "написал тебе"
+                                    }
+                                  }
+                                  
+
+                              
+                              
+                          
+                          
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+    
+  
+  

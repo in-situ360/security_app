@@ -1,0 +1,65 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'USUARIOS FAVORITOS' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div (click)="selectEmp(user)" *ngFor="let user of follows" id="divContainerRating">
+    <div id="rating">
+      <div id="left">
+        <img id="image" [src]="user?.avatar" alt="Imagen redondeada">
+      </div>
+      <div id="right">
+        <div id="top-texts">
+          <p id="text1">{{ user?.name }} {{ user?.surname1 }} </p><!--{{ user?.representativeName }}-->
+         <!-- <ion-button (click)="conectUser(user); $event.stopPropagation()" id="text2">{{ 'buscador2.Conectar' | translate }}</ion-button>-->
+          <ion-icon id="iconHeart" [src]="user?.hasFollow ? 'assets/icons/fullHeart.svg' : 'assets/icons/emptyHeart.svg'"  (click)="follow(user); $event.stopPropagation()"></ion-icon><!---->
+        </div>
+        <div id="bottom-text">
+          <p id="text3">{{ user?.proffesion ? user.proffesion : ('buscador2.Sin oficio' | translate) }}</p>
+        </div>
+        <div style="width:100%; height:20px; display: flex; align-items: center;">
+          <ion-icon  id="iconValue"
+            *ngFor="let star of stars; let i = index" 
+            [src]="getStarColor(i,user?.averageRating)" 
+            
+            class="star-icon">
+          </ion-icon><!--[ngStyle]="{ 'filter': isActive(i,user?.averageRating) ? 'none' : 'grayscale(100%)' }" -->
+          <span id="txtVal">{{ user?.countRatings === 0 
+            ? ('Sin opiniones' | translate) 
+            : (user?.countRatings + ' ' + (user?.countRatings === 1 
+                ? ('opinión' | translate) 
+                : ('opiniones' | translate))) }}
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <p id="pDescript">{{ user?.description }}</p>
+
+    <div id="iconTextContainer">
+      <ion-icon src="assets/icons/location-point.svg" id="infoIcon"></ion-icon>
+      <p id="infoText" *ngIf="user?.transActualLoc==null">{{ user?.actuallocation?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+         <p id="infoText" *ngIf="user?.transActualLoc!=null">{{ user?.transActualLoc?.value || ('buscador2.Sin ubicación actual' | translate) }}</p>
+
+    </div>
+    <div id="iconTextContainer">
+      <ion-icon name="information-circle-outline" id="infoIcon"></ion-icon>
+      <p id="infoText">{{ getUserLabels(user) }}</p>
+    </div>
+    <p id="pReport" *ngIf="user?.price != null">
+      <span style="margin-left:2px;" id="spanEur">€</span>
+      <span *ngIf="user?.price >= 400" id="spanEur">€</span>
+      <span *ngIf="user?.price >= 800" id="spanEur">€</span>
+      <span *ngIf="user?.price > 1500" id="spanEur">€</span>
+    </p>
+  </div>
+  <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+  <ion-icon id="iconGoBuscador" src="assets/icons/nuevo-proyecto.svg" (click)="goBuscador2()"></ion-icon>
+
+</ion-content>

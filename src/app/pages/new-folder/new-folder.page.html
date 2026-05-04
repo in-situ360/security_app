@@ -1,0 +1,67 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'new-folder.NUEVA CARPETA' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+
+  <div *ngFor="let file of uploadProgressList" class="upload-container">
+    <div class="progress-label">{{ file.name }}</div>
+    <ion-progress-bar
+      [value]="file.progress / 100"
+      class="custom-progress"
+      [color]="file.completed ? 'success' : 'primary'">
+    </ion-progress-bar>
+    <div class="progress-text">
+      {{ file.completed ? ('✅ ' + ('Completado' | translate)) : (file.progress + '%') }}
+    </div>
+  </div>
+  
+
+  <ion-avatar (click)="openAllImageCropper()">
+    <img [src]="rutaImagen">
+  </ion-avatar>
+
+  <ion-button (click)="adjuntarImagen()" id="buttonImage">{{ 'new-folder.Añadir imagen de portada' | translate }}</ion-button>
+
+  <form id="form" *ngIf="form" [formGroup]="form" ><!--(ngSubmit)="submitForm()"-->
+    <ion-label>{{ 'new-folder.Nombre de la carpeta' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input formControlName="name" clearInput type="text" placeholder="{{ 'new-folder.Nombre Carpeta' | translate }}"></ion-input>
+      <ion-icon class="iconItem" src="assets/icons/nombre-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <div class="slider-container">
+      <ion-slides class="slider">
+        <ion-slide  style="display: flex;
+      justify-content: center;align-items: center; width:66px !important; background-color:white; margin-right:0px !important;"  (click)="uploadMediaVehicle()" ><!--class="slider__item slider__item--add"-->
+          <div>
+            <ion-icon style="margin-top: 16px;height: 80px; width:80px;" src='assets/icons/nuevo-proyecto.svg'></ion-icon>
+          </div>
+        </ion-slide>
+
+        <ion-slide (click)="openImageCropper(m)" *ngFor="let m of multimedia" class="slider__item" style="height: 106px; width: 129px;">
+          <ion-icon id="iconDeleteMultimedia" (click)="deleteMultimedia(m?.id); $event.stopPropagation()" name="trash-outline"></ion-icon>
+          <div style="display:flex; overflow: hidden; height: 106px; width: 129px; border-radius: 10px;">
+            <video *ngIf="m?.thevalue && m?.thetype=='video'" id="videoTrailer" width="100%" height="100%" controls controlsList="nodownload">
+              <source [src]="m?.thevalue">Your browser does not support the video tag.
+            </video>
+
+            <img *ngIf="m?.thevalue && m?.thetype=='imagen'" id="thiImgCont" [src]="m?.thevalue">
+            <img *ngIf="m?.thevalue && m?.thetype=='PDF'" id="thiImgCont" src="assets/imgs/pdf_imagen3.png">
+          </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+    
+  </form>
+
+  <div id="divFooter">
+    <ion-button [disabled]="!form.valid" id="buttonFooter" expand="block" (click)="submitForm()">{{ 'new-folder.Aceptar y continuar' | translate }}</ion-button>
+  </div>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

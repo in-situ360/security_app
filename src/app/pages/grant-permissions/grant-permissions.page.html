@@ -1,0 +1,42 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon *ngIf="!fromNewProject" (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'grant-permissions.PERMISOS DEL PROYECTO' | translate }}</h5>
+  </div>
+
+  <div *ngIf="allowed==true" id="divHeader">
+    <p id="pPartici">{{ 'grant-permissions.Administradores actuales' | translate }}</p>
+    <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+      <ion-slide class="boxes" aria-hidden="true">
+        <img id="image" [src]="newProject?.creator?.avatar" alt="image" />
+        <p class="description">{{ 'grant-permissions.Tú' | translate }}</p>
+        <p style="color:#F42EB2" class="subDescription">{{ 'grant-permissions.Administrador' | translate }}</p>
+      </ion-slide>
+      <ion-slide *ngFor="let useSelect of adminsSelected" class="boxes" aria-hidden="true">
+        <img id="image" [src]="useSelect?.avatar" alt="image" />
+        <ion-icon (click)="removeUserSelected(useSelect)" class="iconDelete" src="assets/icons/eliminar-usuario.svg"></ion-icon>
+        <p class="description">{{ useSelect?.name }} {{ useSelect?.surname1 }}</p>
+        <p class="subDescription">{{ 'grant-permissions.Pendiente' | translate }}</p>
+      </ion-slide>
+    </ion-slides>
+
+    <p id="pBottomHeader">{{ 'grant-permissions.Selecciona al usuario al que desees otorgar el rol de administrador' | translate }}</p>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!allowed" class="overlay"></div>
+  <div *ngFor="let participant of participants" id="mainDiv" (click)="selectParticipant(participant)" onclick="changeBorderColor()">
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle">{{ getUserLabels(participant) }}</p>
+    </div>
+    <ion-icon class="rightIcon" *ngIf="!isUserSelected(participant)" src="assets/icons/add-usuario.svg"></ion-icon>
+    <ion-icon class="rightIcon" *ngIf="isUserSelected(participant)" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-button [disabled]="!allowed" (click)="submit()" id="buttonFooter">{{ 'grant-permissions.Aceptar y continuar' | translate }}</ion-button>
+</ion-footer>

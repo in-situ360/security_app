@@ -1,0 +1,26 @@
+
+<app-loading [text]="'...'" *ngIf="isLoading"></app-loading>
+
+<ion-content padding *ngIf="!isLoading">
+  <ion-avatar>
+    <img [src]="user?.avatar" (click)="adjuntarImagen()">
+  </ion-avatar>
+
+  <form *ngIf="form" [formGroup]="form" (ngSubmit)="submitForm()">
+    <ion-item>
+      <ion-label>
+        <ion-icon name="person"></ion-icon>
+      </ion-label>
+      <ion-input clearInput type="text" placeholder="{{ 'Nombre de usuario' | translate }}" formControlName="name" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="mail"></ion-icon>
+      </ion-label>
+      <ion-input clearInput type="email" placeholder="{{ 'Email' | translate }}" formControlName="email" required></ion-input>
+    </ion-item>
+    <ion-button expand="block" type="submit" [disabled]="!form.valid">{{ 'Guardar cambios' | translate }}</ion-button>
+    <ion-button expand="block" type="button" (click)="auth.logout()">{{ 'Cerrar sesión' | translate }}</ion-button>
+  </form>
+
+</ion-content>

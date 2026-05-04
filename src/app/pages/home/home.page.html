@@ -1,0 +1,68 @@
+<!--<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon id="iconLeft" src="assets/icons/logotipo-3.svg"></ion-icon>
+  
+  <ion-icon (click)="goNotifications()" id="iconRight" src="assets/icons/bell.svg"></ion-icon><span class="red-dot"></span>
+  <ion-icon (click)="goChats()" id="iconChat" src="assets/icons/chatHome.svg"></ion-icon>
+</ion-header>-->
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon id="iconLeft" src="assets/icons/logotipo-3.svg"></ion-icon>
+
+  <div class="icon-container" [ngClass]="{'ios-style-icons': isIOS}">
+    
+
+    <ion-icon (click)="goChats()" id="iconChat" src="assets/icons/chatHome.svg"></ion-icon>
+    <div class="notification-icon" >
+      <ion-icon (click)="goNotifications()" id="iconRight" src="assets/icons/bell.svg"></ion-icon>
+      <div class="notification-badge" *ngIf="notsCount > 0">
+        {{ notsCount }}
+      </div>
+    </div>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="isInvited" class="overlay"></div>
+  <div id="divAnuncio" style="width: 100%;">
+    <p id="titulo">{{ 'home.Descubre nuestro top' | translate }}</p>
+    <p id="subTitulo">{{ 'home.Los mejores profesionales muestran sus anuncios' | translate }}</p>
+
+    <div id="divImagenesContenedor">
+      <div id="div1">
+        <img id="img1" [src]="advertisedUsers[0]?.advertisedimage || 'assets/imgs/portada-carpeta.png'" alt="Image 1" (click)="irAPerfilPublico(advertisedUsers[0]?.user_id)">
+        <img id="img2" [src]="advertisedUsers[1]?.advertisedimage || 'assets/imgs/portada-carpeta.png'" alt="Image 2" (click)="irAPerfilPublico(advertisedUsers[1]?.user_id)">
+      </div>
+      <div id="div2">
+        <img id="img3" [src]="advertisedUsers[2]?.advertisedimage || 'assets/imgs/portada-carpeta.png'" alt="Image 3" (click)="irAPerfilPublico(advertisedUsers[2]?.user_id)">
+      </div>
+    </div>
+
+    <div (click)="clickBanner(banner?.url)" *ngIf="banner" id="divAnuncioContenedor">
+      <div id="imgContainer">
+        <a id="enlaceBanner" *ngIf="banner?.urlImage" ><!--[href]="banner?.url" target="_blank"-->
+          <img id="img4" [src]="banner?.urlImage" alt="Image 4">
+        </a>
+      </div>
+      <div id="divTituloAnuncio">
+        <p id="textoDescriptivoAnuncio">{{ banner?.slogan }}</p>
+      </div>
+    </div>
+
+    <p id="titulo">{{ 'home.Contacta con el éxito' | translate }}</p>
+    <p id="subTitulo">{{ 'home.Descubre los usuarios que harán realidad tu proyecto' | translate }}</p>
+
+    
+
+
+    <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+      <ion-slide *ngFor="let user of usersList" class="boxes" aria-hidden="true" (click)="irAPerfilPublico(user?.id)">
+        <img id="image" [src]="user?.avatar" alt="image" />
+        <p class="description">{{ user?.name }} {{ user?.surname1 }} {{ user?.surname2 }} </p><!--{{ user?.representativeName }}-->
+        <!--<p class="subDescription">{{ user?.proffesion }}</p>-->
+      </ion-slide>
+    </ion-slides>
+  </div>
+  
+
+</ion-content>
+
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

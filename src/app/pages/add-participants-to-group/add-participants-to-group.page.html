@@ -1,0 +1,63 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'add-participants-to-group.AGREGAR MIEMBROS AL GRUPO DE CHAT' | translate }}</h5>
+  </div>
+
+  <div *ngIf="allowed==true" id="divSearchBar">
+
+    <ion-label id="pTitle">{{ 'add-participants-to-group.Nombre del grupo' | translate }}</ion-label>
+    <ion-list class="global__list">
+      <ion-input style="color:#2E2D2E;" [(ngModel)]="searchText" (ionChange)="onSearchChange($event)" clearInput type="text" placeholder="{{ 'add-participants-to-group.Escribe aquí...' | translate }}"></ion-input>
+      <ion-icon id="icon2" class="iconItem" src="assets/icons/nombre-proyecto.svg"></ion-icon>
+    </ion-list>
+
+    <!--<p id="titleName">{{ 'Introduzca el nombre del grupo' | translate }}</p>
+
+    <ion-searchbar id="nombreGrupo" mode="md" placeholder="{{ 'Nombre de grupo' | translate }}" [(ngModel)]="searchText" (ionChange)="onSearchChange($event)"></ion-searchbar>-->
+
+  </div>
+
+  <div *ngIf="allowed==true" id="divHeader">
+    <p id="pPartici">{{ 'add-participants-to-group.Miembros del grupo' | translate }} ({{participantsSelected.length + 1}})</p>
+    <ion-slides #mySlider [options]="slideOptions" (ionSlideReachEnd)="onSlideReachEnd()">
+      <ion-slide class="boxes" aria-hidden="true">
+        <img id="image" [src]="me?.avatar" alt="image" />
+        <p class="description">{{ 'add-participants-to-group.Tú' | translate }}</p>
+      </ion-slide>
+      <ion-slide *ngFor="let useSelect of participantsSelected" class="boxes" aria-hidden="true">
+        <img id="image" [src]="useSelect?.avatar" alt="image" />
+        <ion-icon (click)="removeUserSelected(useSelect)" class="iconDelete" src="assets/icons/eliminar-usuario.svg"></ion-icon>
+        <p class="description">{{ useSelect?.name }} {{ useSelect?.surname1 }}</p>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!allowed" class="overlay"></div>
+  <div *ngFor="let participant of participants" id="mainDiv" (click)="selectParticipant(participant)" onclick="changeBorderColor()">
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+      <p class="pSubTitle">{{ getUserLabels(participant) }}</p>
+    </div>
+    <ion-icon *ngIf="isUserSelected(participant)" class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+    <ion-icon *ngIf="!isUserSelected(participant)" class="rightIcon" src="assets/icons/add-usuario.svg"></ion-icon>
+  </div>
+  
+
+  <div style="width: 100%; height:64px;"></div>
+
+  <div class="custom-footer">
+   
+    <ion-button class="custom-button" [disabled]="!allowed || !searchText || !searchText.trim().length" (click)="submit()" id="buttonFooter">{{ 'add-participants-to-group.Crear grupo' | translate }}</ion-button>
+
+  </div>
+
+</ion-content>
+<!--
+<ion-footer>
+  <ion-button [disabled]="!allowed" (click)="submit()" id="buttonFooter">{{ 'add-participants-to-group.Crear grupo' | translate }}</ion-button>
+</ion-footer>-->
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

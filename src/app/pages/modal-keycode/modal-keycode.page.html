@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-icon id="iconLogo" src="assets/icons/estrella-valoracion-blanca.svg"></ion-icon>
+</ion-header>
+
+<ion-content>
+
+  <p id="pTitle">{{ 'modal-keycode.Key code' | translate }}</p>
+  <p id="pDesc">{{ 'modal-keycode.Añade el código de acceso proporcionado por el administrador' | translate }}</p>
+
+  <ion-input [(ngModel)]="keyCode" id="input" placeholder="{{ '1234!' | translate }}"></ion-input>
+
+  <ion-button (click)="acceptProject()" id="buttonContinue">{{ 'modal-keycode.Continuar' | translate }}</ion-button>
+
+</ion-content>

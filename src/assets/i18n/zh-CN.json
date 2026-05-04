@@ -1,0 +1,1258 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "选择语言",
+      "Seleccionar idioma": "选择语言",
+      "Selecciona el idioma que quieres que se muestre en la app": "请选择应用程序中显示的语言",
+      "Aceptar y continuar": "接受并继续",
+      "Selecciona un idioma": "选择语言",
+      "Inglés": "英语",
+      "Español": "西班牙语",
+      "Francés": "法语",
+      "Alemán": "德语",
+      "Italiano": "意大利语",
+      "Portugués": "葡萄牙语",
+      "Ruso": "俄语",
+      "Chino(Simplificado)": "简体中文",
+      "Chino(Tradicional)": "繁体中文",
+      "Japonés": "日语",
+      "Coreano": "韩语",
+      "Árabe": "阿拉伯语",
+      "Hindi": "印地语",
+      "Bengalí": "孟加拉语",
+      "Holandés": "荷兰语",
+      "Sueco": "瑞典语",
+      "Noruego": "挪威语",
+      "Finlandés": "芬兰语",
+      "Danés": "丹麦语",
+      "Polaco": "波兰语",
+      "Turco": "土耳其语",
+      "Griego": "希腊语",
+      "Checo": "捷克语",
+      "Hebreo": "希伯来语",
+      "Húngaro": "匈牙利语",
+      "Vietnamita": "越南语",
+      "Indonesio": "印度尼西亚语",
+      "Tailandés": "泰语",
+      "Catalán": "加泰罗尼亚语",
+      "Romanés": "罗马尼亚语",
+      "Ucraniano": "乌克兰语",
+      "Serbio": "塞尔维亚语",
+      "Croata": "克罗地亚语",
+      "Eslovaco": "斯洛伐克语",
+      "Letón": "拉脱维亚语",
+      "Estonio": "爱沙尼亚语"
+    },
+  
+    "cover-page": {
+      "Registro": "注册",
+      "Iniciar sesión": "登录"
+    },
+  
+    "login": {
+      "Iniciar sesión": "登录",
+      "Usuario": "用户",
+      "Contraseña": "密码",
+      "He olvidado mi contraseña": "忘记密码",
+      "Entrar": "进入",
+      "Entrar como invitado": "以游客身份进入",
+      "¿Aún no tienes una cuenta?": "还没有账户？",
+      "Regístrate": "注册",
+      "Entrando": "正在登录...",
+      "Usuario o contraseña incorrectos": "用户名或密码错误",
+      "El usuario ya se encuentra registrado": "用户已注册",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "该账户暂时被锁定，请联系管理员获取更多信息",
+      "Error del servidor, inténtelo más tarde": "服务器错误，请稍后再试",
+      "Error desconocido, inténtelo más tarde": "未知错误，请稍后再试"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "找回密码",
+      "¿Has olvidado tu contraseña?": "忘记密码了吗？",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "请输入您的电子邮件，我们将发送一个新的访问密钥",
+      "Email": "电子邮件",
+      "Enviar": "发送",
+      "¡Se ha enviado el email correctamente!": "电子邮件已成功发送！",
+      "Error al enviar el email": "发送电子邮件时出错"
+    },
+  
+    "register": {
+      "Registro": "注册",
+      "¿Cómo deseas acceder a la app?": "您希望如何访问该应用？",
+      "Personal": "个人",
+      "Empresa": "企业",
+      "Nombre": "名字",
+      "Nombre de representante": "代表姓名",
+      "Apellido 1": "姓氏 1",
+      "Apellido 2": "姓氏 2",
+      "Email": "电子邮件",
+      "Contraseña": "密码",
+      "Repetir Contraseña": "重复密码",
+      "He leído y acepto": "我已阅读并接受",
+      "la Política de Privacidad": "隐私政策",
+      "los Términos y Condiciones de Venta": "销售条款和条件",
+      "Registrarme": "注册",
+      "¿Ya estás registrado?": "已经注册？",
+      "Accede aquí": "点击登录",
+      "El email es obligatorio": "电子邮件是必填项",
+      "El email no es válido": "无效的电子邮件",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "电子邮件必须具有有效的扩展名（.com、.org、.net、.edu）",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "域名不被允许或包含无效的连续字符",
+      "La contraseña es obligatoria": "密码是必填项",
+      "La contraseña debe tener al menos 8 caracteres": "密码必须至少包含8个字符",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "密码必须包含一个大写字母、一个数字和一个特殊字符",
+      "Las contraseñas no coinciden": "密码不匹配",
+      "Registrando usuario": "正在注册用户...",
+      "Nombre Empresa": "公司名称",
+      "Por favor, revisa los campos con errores antes de continuar": "请检查错误字段后再继续",
+      "El nombre es obligatorio": "姓名是必填项",
+      "El nombre debe tener al menos 3 caracteres": "姓名必须至少包含 3 个字符"    },
+
+
+
+    
+      
+    
+      "¡Pago realizado!": "支付成功！",
+      "El pago de la suscripción se ha realizado correctamente": "订阅支付已成功完成",
+    
+      "Sin opiniones": "暂无评论",
+      "opinión": "评论",
+      "opiniones": "评论",
+      "Eliminar chat": "删除聊天",
+    
+      "Cancelar": "取消",
+      "Advertencia": "警告",
+      "¿Estás seguro de eliminar el chat?": "您确定要删除聊天吗？",
+      "Aceptar": "确认",
+      "Chat borrado con éxito": "聊天已成功删除",
+      "No se pudo borrar el chat": "无法删除聊天",
+      "Contenido de": "内容",
+      "Sin seleccionar": "未选择",
+      "1 archivo seleccionado": "已选择 1 个文件",
+      " archivos seleccionados": " 个文件已选择",
+      "Archivos eliminados": "文件已删除",
+      "No se pudieron borrar los archivos": "无法删除文件",
+      "Suscripción necesaria": "需要订阅",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "升级至高于 Plan I 的订阅以查看其他用户的评价",
+      "Activos": "进行中",
+      "Finalizados": "已完成",
+      "Mis proyectos": "我的项目",
+      "Colaboraciones": "合作",
+      "Subir sin editar": "直接上传",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "文件超出最大允许大小 (2.5MB)。",
+    
+    
+  
+    "finish-profile": {
+      "Seleccione al menos una categoría": "请选择至少一个类别",
+      "La profesión es obligatoria": "职业是必填项",
+      "La ubicación es obligatoria": "位置是必填项",
+      "COMPLETAR PERFIL": "完成个人资料",
+      "No mostrar mi perfil en el buscador": "不要在搜索中显示我的个人资料",
+      "Nombre": "名字",
+      "Apellido 1": "姓氏 1",
+      "Apellido 2": "姓氏 2",
+      "Nombre de representante": "代表姓名",
+      "Fecha de nacimiento": "出生日期",
+      "Este detalle no se mostrará de forma pública": "此信息不会公开显示",
+      "Género": "性别",
+      "Seleccione una opción": "选择一个选项",
+      "Hombre": "男",
+      "Mujer": "女",
+      "Otro": "其他",
+      "Profesión": "职业",
+      "Escribe aquí…": "在这里输入…",
+      "Categoría de trabajo": "工作类别",
+      "Salario": "薪资",
+      "Selecciona un rango de salario": "选择薪资范围",
+      "Precio seleccionado:": "所选价格：",
+      "Se mostrará como:": "将显示为：",
+      "Tags": "标签",
+      "Escribe las palabras clave para describir tu empleo": "输入描述您工作的关键词",
+      "Descripción": "描述",
+      "Guardar cambios": "保存更改",
+      "Escribe aquí": "在这里输入",
+      "día": "天",
+      "Él": "他",
+      "Ella": "她",
+      "Elle": "他们",
+      "Añade tus pronombres": "添加您的代词",
+      "Introduzca el pronombre con el que se identifique": "输入您认同的代词",
+      "El nombre es obligatorio": "名字是必填项",
+      "El apellido 1 es obligatorio": "姓氏 1 是必填项",
+      "Introduzca una fecha válida": "输入有效日期",
+      "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "如果选择添加您的代词，则必须输入至少一个代词",
+      "Debes seleccionar un género": "您必须选择一个性别",
+      "Error obteniendo el usuario": "获取用户信息时出错",
+      "Usuario actualizado correctamente": "用户已成功更新",
+      "Ya hay un Tag con ese valor": "已经存在具有相同值的标签",
+      "El campo está vacío, no se puede crear un Tag": "字段为空，无法创建标签",
+      "Por favor, revisa los campos con errores antes de continuar": "请检查错误字段后再继续",
+      "Ya hay un Pronombre con ese valor": "已存在相同值的代词",
+      "El campo está vacío, no se puede crear un Pronombre": "该字段为空，无法创建代词"
+    },
+    
+        "settings": {
+          "CONFIGURACIÓN": "设置",
+          "Configurar mi cuenta": "配置我的账户",
+          "Mis métodos de pago": "我的支付方式",
+          "Destacar mi perfil": "突出我的个人资料",
+          "Mi suscripción": "我的订阅",
+          "Mis anuncios": "我的广告",
+          "Estadísticas": "统计数据",
+          "Usuarios bloqueados": "被屏蔽用户",
+          "Idioma de la app": "应用语言",
+          "Contacta con nosotros": "联系我们",
+          "FAQ": "常见问题",
+          "Política de Privacidad": "隐私政策",
+          "Términos y Condiciones de venta": "销售条款和条件",
+          "Cerrar sesión": "退出登录",
+          "Eliminar cuenta": "删除账户",
+          "¿Estás seguro de querer cerrar sesión?": "您确定要退出登录吗？",
+          "Aceptar": "接受",
+          "Cancelar": "取消",
+          "Advertencia": "警告",
+          "¿Estás seguro de querer eliminar tu cuenta?": "您确定要删除您的账户吗？",
+          "Cuenta eliminada satisfactoriamente": "账户已成功删除",
+          "Hubo problemas para borrar la cuenta de usuario": "删除用户账户时出现问题"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "配置我的账户",
+          "Nombre de usuario": "用户名",
+          "Email": "电子邮件",
+          "Contraseña": "密码",
+          "Repetir contraseña": "重复密码",
+          "Guardar cambios": "保存更改",
+          "Error obteniendo el usuario": "获取用户信息出错",
+          "Cuenta de usuario actualizada": "用户账户已更新",
+          "El nombre es obligatorio": "姓名为必填项",
+          "El nombre debe tener al menos 3 caracteres": "姓名至少需要3个字符",
+          "El email es obligatorio": "电子邮件为必填项",
+          "El email no es válido": "电子邮件无效",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "电子邮件必须使用有效的扩展名 (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "该域名不被允许或包含连续的无效字符",
+          "La contraseña es obligatoria": "密码为必填项",
+          "La contraseña debe tener al menos 8 caracteres": "密码必须至少包含8个字符",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "密码必须包含一个大写字母、一个数字和一个特殊字符",
+          "Las contraseñas no coinciden": "密码不匹配"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "销售条款和条件"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "隐私政策"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "联系我们",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "您有任何疑问或建议吗？",
+          "¡Estamos deseando escucharte!": "我们期待您的反馈！",
+          "Nombre": "姓名",
+          "Apellidos": "姓氏",
+          "Email": "电子邮件",
+          "Categoría": "类别",
+          "Atención al cliente": "客户服务",
+          "Soporte": "支持",
+          "Solicitud": "请求",
+          "Enviar solicitud": "提交请求",
+          "Solicitud de contacto creada con éxito": "联系请求已成功创建",
+          "Hubo un problema al enviar la solicitud de contacto": "提交联系请求时出现问题",
+          "Rellene todos los campos para enviar la solicitud de contacto": "请填写所有字段以提交联系请求",
+          "Escribe aquí...": "在这里输入...",
+          "Adquiera plan válido": "获取有效计划",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "获取PlanS或Plan360，以便与Insitu团队联系"
+        },
+      
+        "faq": {
+          "FAQ": "常见问题",
+          "Ir a la página ": "前往页面 "
+        },
+      
+        "ban-users": {
+          "USUARIOS BLOQUEADOS": "被屏蔽用户",
+          "No se pudo obtener el listado de usuarios bloqueados": "无法获取被屏蔽用户列表",
+          "¿Desea desbloquear a este usuario?": "您想解除对该用户的屏蔽吗？",
+          "Cancelar": "取消",
+          "Desbloquear": "解除屏蔽",
+          "Usuario desbloqueado": "用户已解除屏蔽",
+          "El usuario ya no se encuentra bloqueado": "该用户已不在屏蔽列表中",
+          "Respuesta desconocida": "未知的响应"
+        },
+      
+        "suscription-detail": {
+          "Características": "特点",
+          "Plan I": "I计划",
+          "al mes": "每月",
+          "Plan S": "S计划",
+          "Plan 360": "360计划",
+          "Búsqueda ilimitada": "无限搜索",
+          "Completa tu perfil": "完善您的个人资料",
+          "Obtén reseñas verificadas": "获取经过验证的评价",
+          "Forma parte de proyecto": "参与项目",
+          "Incluido lo relativo al plan I": "包括I计划的所有内容",
+          "Contacta con profesionales": "与专业人士联系",
+          "Filtros de búsqueda Premium": "高级搜索筛选",
+          "Visualiza todos los perfiles": "查看所有个人资料",
+          "Aumenta tu visibilidad": "提高您的可见度",
+          "Métricas avanzadas": "高级数据分析",
+          "Incluido lo relativo al plan S": "包括S计划的所有内容",
+          "Crear y administrar proyectos": "创建和管理项目",
+          "Gestiona poderes a tu equipo": "管理您的团队权限",
+          "Almacenamiento ilimitado de proyectos": "无限项目存储",
+          "Creación de chat grupales": "创建群聊",
+          "Calendario compartido": "共享日历"
+        },
+        
+            "my-jobs": {
+              "TRABAJOS": "工作",
+              "No se pudo obtener los trabajos": "无法获取工作",
+              "¿Desea eliminar la imagen?": "您想删除这张图片吗？",
+              "No": "否",
+              "Sí": "是",
+              "Hubo un problema al borrar": "删除时出现问题",
+              "¿Desea ajustar la imagen antes de que sea subida?": "上传前是否调整图片？",
+              "Subir imagen": "上传图片",
+              "No se pudo crear el trabajo": "无法创建工作",
+              "Ajustar imagen": "调整图片",
+              "Cancelar Subida": "取消上传"
+            },
+          
+            "languages": {
+              "IDIOMAS": "语言",
+              "Idiomas": "语言",
+              "Añadir otro idioma": "添加另一种语言",
+              "Añadir otro lenguaje": "添加另一种语言",
+              "Guardar cambios": "保存更改",
+              "No se pudo obtener los idiomas": "无法获取语言"
+            },
+          
+            "locations": {
+              "UBICACIONES": "位置",
+              "Tu ubicación": "您的位置",
+              "Buscar dirección": "搜索地址",
+              "Ubicaciones donde puedes trabajar": "您可以工作的地点",
+              "Ubicación": "位置",
+              "Añadir otra ubicación": "添加另一个位置",
+              "Guardar cambios": "保存更改",
+              "No se pudo obtener las ubicaciones": "无法获取位置"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "无法获取标签",
+              "TAGS": "标签"
+            },
+          
+            "my-profile": {
+              "Trabajos": "工作",
+              "Ubicaciones": "位置",
+              "Idiomas": "语言",
+              "Redes sociales": "社交网络",
+              "Editar": "编辑",
+              "Tu ubicación": "您的位置",
+              "Sin ubicación actual": "没有当前位置",
+              "Ubicaciones donde puede trabajar": "可以工作的地点",
+              "Trabajos de": "工作",
+              "Sin opiniones": "没有评价",
+              "opiniones": "评价",
+              "Sin Suscripción": "没有订阅",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "订阅以充分利用应用程序",
+              "Error obteniendo el usuario": "获取用户信息错误",
+              "No se pudieron obtener los trabajos": "无法获取工作",
+              "No se pudieron obtener las ubicaciones": "无法获取位置",
+              "No se pudieron obtener los idiomas": "无法获取语言",
+              "No se pudieron obtener las etiquetas": "无法获取标签",
+              "No se pudieron obtener las redes": "无法获取社交网络"
+            },
+          
+            "home": {
+              "Descubre nuestro top": "探索我们的精选",
+              "Los mejores profesionales muestran sus anuncios": "顶级专业人士展示他们的广告",
+              "Logan descriptivo de anuncio especial": "特色广告描述口号",
+              "Contacta con el éxito": "与成功人士联系",
+              "Descubre los usuarios que harán realidad tu proyecto": "发现能实现您项目的用户"
+            },
+          
+            "notifications": {
+              "Notificaciones": "通知",
+              "Pulsa aquí para conocer más": "点击这里了解更多",
+              "No se pudo obtener las notificaciones": "无法获取通知",
+              "No se pudo obtener los datos del usuario": "无法获取用户数据",
+              "No se pudo obtener las carpetas del proyecto": "无法获取项目文件夹"
+            },
+          
+            "notifications-settings": {
+              "CONFIGURACIÓN DE NOTIFICACIONES": "通知设置",
+              "Valoraciones recibidas": "收到的评价",
+              "Solicitudes de chat": "聊天请求",
+              "Solicitud de chat aceptada": "聊天请求已接受",
+              "Solicitudes de proyecto": "项目请求",
+              "Nuevas carpetas en el proyecto": "项目中新文件夹",
+              "Chats de proyecto": "项目聊天",
+              "Fecha previa al fin del proyecto": "项目结束前的日期",
+              "Fecha de fin del proyecto": "项目结束日期",
+              "No se pudo obtener los datos del usuario": "无法获取用户数据",
+              "No se pudo actualizar los permisos del usuario": "无法更新用户权限"
+            },
+          
+            
+            
+                "select-report-modal": {
+                  "Indica que quieres reportar": "请选择您要举报的内容",
+                  "Reportar mensajes": "举报消息",
+                  "Desnudos o actividad sexual": "裸露或性行为",
+                  "Lenguaje o símbolos que incitan al odio": "煽动仇恨的语言或符号",
+                  "Estafa o fraude": "诈骗或欺诈",
+                  "Violencia u organizaciones peligrosas": "暴力或危险组织",
+                  "Venta de bienes ilegales o regulados": "非法或受管制商品销售",
+                  "Bullying o acoso": "欺凌或骚扰",
+                  "Infracción de la propiedad intelectual": "侵犯知识产权",
+                  "Suicidio o autolesiones": "自杀或自残",
+                  "Spam": "垃圾信息",
+                  "El problema no aparece en la lista": "问题未在列表中",
+                  "Usuario o contraseña incorrectos": "用户名或密码错误",
+                  "El usuario ya se encuentra registrado": "用户已注册",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "此账户已被暂时封锁，请联系管理员获取更多信息",
+                  "Error del servidor, inténtelo más tarde": "服务器错误，请稍后再试",
+                  "Error desconocido, inténtelo más tarde": "未知错误，请稍后再试",
+                  "Enviar reporte": "提交举报",
+                  "No se pudo reportar al usuario": "无法举报用户",
+                  "Usuario reportado": "用户已举报",
+                  "Debe seleccionar un motivo de reporte": "请选择举报原因"
+                },
+              
+                
+              
+                "workspace": {
+                  "Colaboraciones": "合作",
+                  "Mis proyectos": "我的项目",
+                  "Estado del proyecto": "项目状态",
+                  "Seleccione": "请选择",
+                  "Todos": "全部",
+                  "Activos": "进行中",
+                  "Finalizados": "已完成",
+                  "participantes": "参与者",
+                  "No se pudo obtener las colaboraciones de proyecto": "无法获取项目合作",
+                  "No se pudo obtener el listado de proyectos": "无法获取项目列表"
+                },
+              
+                "modal-filt-text": {
+                  "Filtro de nombre": "名称筛选",
+                  "Introduzca el nombre del proyecto": "请输入项目名称",
+                  "Nombre de proyecto": "项目名称",
+                  "Continuar": "继续"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "创建新项目",
+                  "Añadir imagen": "添加图片",
+                  "Nombre": "名称",
+                  "Nombre Proyecto": "项目名称",
+                  "Descripción del proyecto": "项目描述",
+                  "Escribe aquí...": "在这里输入...",
+                  "Key Code": "密钥代码",
+                  "Introduzca clave": "输入密钥",
+                  "Fecha de finalización": "结束日期",
+                  "Podrá ser editada desde el apartado de Configuración": "可在设置中编辑",
+                  "Crear Proyecto": "创建项目",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "结束日期必须晚于当前日期",
+                  "Ya tienes un proyecto con ese nombre": "您已经有一个同名项目",
+                  "Proyecto creado con éxito": "项目创建成功",
+                  "Sin Suscripción válida": "无有效订阅",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "订阅 360 计划以创建和管理项目"
+                },
+              
+                "detail-proyect": {
+                  "Creado por": "创建者",
+                  "Carpetas": "文件夹",
+                  "participantes": "参与者",
+                  "Ver todas": "查看全部",
+                  "Chats": "聊天",
+                  "Ver todos": "查看所有",
+                  "No se obtuvo las carpetas del proyecto": "无法获取项目文件夹",
+                  "Sin Suscripción": "无订阅",
+                  "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "订阅后可与合作项目互动"
+                },
+                
+                    "new-folder": {
+                      "NUEVA CARPETA": "新文件夹",
+                      "Añadir imagen de portada": "添加封面图片",
+                      "Nombre de la carpeta": "文件夹名称",
+                      "Nombre Carpeta": "文件夹名称",
+                      "Aceptar y continuar": "接受并继续",
+                      "Carpeta creada con éxito": "文件夹创建成功",
+                      "Se alcanzó el máximo de subidas permitidas": "已达到允许上传的最大数量",
+                      "Conetenido multimedia eliminado": "多媒体内容已删除",
+                      "No se pudo eliminar el contenido": "无法删除内容",
+                      "Nuevo contenido subido correctamente": "新内容上传成功",
+                      "Máximo alcanzado": "已达到最大限制",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": "订阅360计划以无限制上传内容"
+                    },
+                  
+                    "edit-project": {
+                      "EDITAR PROYECTO": "编辑项目",
+                      "Añadir imagen": "添加图片",
+                      "Nombre": "名称",
+                      "Nombre Proyecto": "项目名称",
+                      "Descripción del proyecto": "项目描述",
+                      "Escribe aquí...": "在这里输入...",
+                      "Key Code": "密钥代码",
+                      "Introduzca clave": "输入密钥",
+                      "Fecha de finalización": "结束日期",
+                      "Podrá ser editada desde el apartado de Configuración": "可在设置中编辑",
+                      "Actualizar": "更新",
+                      "Editar usuarios": "编辑用户",
+                      "No se obtuvieron las carpetas del proyecto": "无法获取项目文件夹",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "结束日期必须晚于当前日期",
+                      "Proyecto actualizado": "项目已更新",
+                      "Proyecto indicado ya no existe": "指定的项目已不存在",
+                      "Solo el creador del proyecto puede borrarlo": "只有项目创建者才能删除",
+                      "Proyecto eliminado": "项目已删除",
+                      "Eliminar proyecto": "删除项目",
+                      "¿Estás seguro de querer eliminar el proyecto?": "您确定要删除该项目吗？",
+                      "Cancelar": "取消",
+                      "Aceptar": "接受",
+                      "Sin Suscripción válida": "无有效订阅",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "订阅360计划以创建和管理项目"
+                    },
+                  
+                    "edit-participants": {
+                      "MODIFICAR PARTICIPANTES": "修改参与者",
+                      "Participantes del proyecto": "项目参与者",
+                      "Creador": "创建者",
+                      "Pendiente": "待定",
+                      "Aceptar y continuar": "接受并继续",
+                      "Buscar": "搜索",
+                      "No se obtuvieron los paticipantes": "无法获取参与者",
+                      "No se pudo obtener más usuarios": "无法获取更多用户",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "所选用户已添加到参与者列表",
+                      "Sin Categorías": "无类别",
+                      "Usuarios asociados al proyecto": "与项目相关的用户",
+                      "El proyecto indicado ya no existe": "指定的项目已不存在",
+                      "No se puedieron asignar los participantes": "无法分配参与者",
+                      "Sin Suscripción válida": "无有效订阅",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "订阅360计划以创建和管理项目"
+                    },
+                  
+                    "add-participants": {
+                      "AGREGAR PARTICIPANTES": "添加参与者",
+                      "Participantes del proyecto": "项目参与者",
+                      "Administrador": "管理员",
+                      "Pendiente": "待定",
+                      "Buscar": "搜索",
+                      "Aceptar y continuar": "接受并继续",
+                      "Tú": "你",
+                      "No se pudo obtener más usuarios": "无法获取更多用户",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "所选用户已添加到参与者列表",
+                      "Sin Categorías": "无类别",
+                      "Usuarios asociados al proyecto": "与项目相关的用户",
+                      "El proyecto indicado ya no existe": "指定的项目已不存在",
+                      "No se pudieron asignar los participantes": "无法分配参与者"
+                    },
+                  
+                    "grant-permissions": {
+                      "PERMISOS DEL PROYECTO": "项目权限",
+                      "Administradores actuales": "当前管理员",
+                      "Tú": "你",
+                      "Administrador": "管理员",
+                      "Pendiente": "待定",
+                      "Selecciona al usuario al que desees otorgar el rol de administrador": "选择要授予管理员角色的用户",
+                      "Aceptar y continuar": "接受并继续",
+                      "No se obtuvieron los participantes": "无法获取参与者",
+                      "Sin Categorías": "无类别",
+                      "El usuario seleccionado ya está añadido al listado": "所选用户已添加到列表",
+                      "Permisos asociados": "相关权限",
+                      "El proyecto indicado ya no existe": "指定的项目已不存在",
+                      "No se puedieron asignar los permisos": "无法分配权限",
+                      "Sin Suscripción válida": "无有效订阅",
+                      "Hazte con el plan 360 para gestionar permisos a los usuarios": "订阅360计划以管理用户权限"
+                    },
+                  
+                    "add-proyect": {
+                      "quiere añadirte al proyecto": "{{name}} 想邀请您加入项目",
+                      "¿Deseas unirte al Workspace?": "您想加入Workspace吗？",
+                      "Aceptar": "接受",
+                      "Rechazar": "拒绝",
+                      "Proyecto rechazado con éxito": "项目已成功拒绝",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "该项目已不再与您的账户关联",
+                      "No se pudo rechazar el proyecto": "无法拒绝项目",
+                      "Sin proyecto": "无项目",
+                      "Sin Categorías": "无类别",
+                      "¡Proyecto aceptado!": "项目已接受！",
+                      "El proyecto ya no existe": "该项目已不存在",
+                      "'El KeyCode introducido no es correcto'": "输入的KeyCode不正确",
+                      "No se pudo verificar el usuario en el proyecto": "无法验证项目中的用户",
+                      "Sin Suscripción": "无订阅",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "购买订阅以接受或拒绝项目"
+                    },
+                    
+                        "modal-keycode": {
+                          "Key code": "密钥代码",
+                          "Añade el código de acceso proporcionado por el administrador": "输入管理员提供的访问代码",
+                          "Continuar": "继续",
+                          "Adquiera una suscripción para poder aceptar y rechazar proyectos": "订阅以接受或拒绝项目",
+                          "¡Proyecto aceptado!": "项目已接受！",
+                          "El proyecto ya no se encuentra asociado a su cuenta": "该项目已不再与您的账户关联",
+                          "El proyecto ya no existe": "该项目已不存在",
+                          "El KeyCode introducino no es correcto": "输入的KeyCode不正确",
+                          "No se pudo verificar usuario en el proyecto": "无法验证项目中的用户",
+                          "Introduzca una clave para continuar": "请输入密钥以继续"
+                        },
+                      
+                        "folders": {
+                          "CARPETAS": "文件夹",
+                          "No se obtuvieron las carpetas del proyecto": "无法获取项目文件夹"
+                        },
+                      
+                        "folder-content": {
+                          "No se obtuvo las carpetas del proyecto": "无法获取项目文件夹",
+                          "Nuevo contenido subido correctamente": "新内容上传成功",
+                          "No se pudo obtener las carpetas del proyecto": "无法获取项目文件夹",
+                          "Máximo alcanzado": "已达到最大限制",
+                          "Hazte con el plan 360 para subir contenido de forma ilimitada": "订阅360计划以无限制上传内容"
+                        },
+                      
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "返回多媒体内容"
+                        },
+                      
+                        "my-suscription": {
+                          "Mi suscripción": "我的订阅",
+                          "Ver características": "查看功能",
+                          "Planes": "订阅计划",
+                          "Pago mensual": "月付",
+                          "Pago anual (Descuento del 15%)": "年付（15%折扣）",
+                          "al mes": "每月",
+                          "al año": "每年",
+                          "Free": "免费",
+                          "Buscador avanzado": "高级搜索",
+                          "Complete Workspace": "完整的工作空间",
+                          "Tu plan actual": "您的当前计划",
+                          "¡Suscripción cambiada!": "订阅已更改！",
+                          "Suscripción cambiada correctamente": "订阅更改成功",
+                          "Continuar a la app": "继续使用应用",
+                          "Comprar un proyecto": "购买一个项目",
+                          "No se obtuvieron suscripciones": "无法获取订阅",
+                          "Obtener plan ": "获取计划 ",
+                          "Cambiar a plan ": "切换到计划 ",
+                          "Cargando...": "加载中...",
+                          "Hubo un problema para cambiar": "更改时出现问题"
+                        },
+                      
+                        "project-checkout": {
+                          "CHECKOUT": "结账",
+                          "Compra de": "购买",
+                          "1 proyecto": "1个项目",
+                          "Crédito o débito": "信用卡或借记卡",
+                          "Paypal": "Paypal",
+                          "Apple Pay": "Apple Pay",
+                          "He leído y acepto ": "我已阅读并接受 ",
+                          "los Términos y Condiciones de Venta": "销售条款和条件",
+                          "¡Pago realizado!": "付款成功！",
+                          "La compra de un proyecto se ha realizado correctamente": "项目购买成功",
+                          "Continuar a la app": "继续使用应用",
+                          "Total": "总计",
+                          "Continuar": "继续",
+                          "Cargando...": "加载中...",
+                          "Pago cancelado por el usuario.": "用户取消付款。",
+                          "Ocurrió un error durante la transacción de pago": "支付交易过程中发生错误",
+                          "No se pudo realizar el pago.": "无法完成付款。",
+                          "Pago cancelado.": "付款已取消。",
+                          "Pago completado.": "付款完成。"
+                        },
+                      
+                        "suscription-checkout": {
+                          "CHECKOUT": "结账",
+                          "Pago del ": "支付 ",
+                          "Crédito o débito": "信用卡或借记卡",
+                          "Paypal": "Paypal",
+                          "Apple Pay": "Apple Pay",
+                          "He leído y acepto ": "我已阅读并接受 ",
+                          "los Términos y Condiciones de Venta": "销售条款和条件",
+                          "¡Pago realizado!": "付款成功！",
+                          "El pago de la suscripción se ha realizado correctamente": "订阅付款成功",
+                          "Continuar a la app": "继续使用应用",
+                          "Total": "总计",
+                          "Continuar": "继续",
+                          "Cargando...": "加载中...",
+                          "Método de pago agregado correctamente.": "支付方式添加成功。",
+                          "Ingreso de método de pago cancelado.": "支付方式输入已取消。",
+                          "Pago completado correctamente.": "付款成功。",
+                          "Pago cancelado por el usuario.": "用户取消付款。",
+                          "Error durante el proceso de pago.": "支付过程中发生错误。",
+                          "Ocurrió un error durante el proceso de suscripción.": "订阅过程中发生错误。",
+                          "Error al procesar la suscripción.": "处理订阅时出错。",
+                          "Error al configurar el pago con Apple Pay.": "设置Apple Pay付款时出错。",
+                          "No se pudo realizar el pago con Apple Pay.": "无法使用Apple Pay付款。",
+                          "Ocurrió un error durante el proceso de pago con Apple Pay.": "Apple Pay支付过程中发生错误。"
+                        },
+                        
+                            "conectar": {
+                              "Conecta con": "连接",
+                              "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "您已请求与该用户连接。请写一条消息，说明您为什么希望一起合作项目。",
+                              "Escribe aquí...": "在此输入...",
+                              "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "您联系的用户有24小时的时间来回应您的请求。24小时后，申请将自动被拒绝。提交此请求即表示您同意我们按照我们的",
+                              "política de privacidad": "隐私政策共享您的公开信息",
+                              "Conectar": "连接",
+                              "Ya hay una solicitud para ese usuario": "已向该用户发送请求",
+                              "Solicitud creada con éxito": "请求创建成功",
+                              "Resultado desconocido": "未知结果",
+                              "Hubo un problema al enviar la solicitud": "发送请求时出现问题",
+                              "El mensaje no puede estar vacio": "消息不能为空"
+                            },
+                          
+                            "user-search": {
+                              "Buscar": "搜索",
+                              "Ordenar": "排序",
+                              "No hay resultados": "没有结果",
+                              "conectar": "连接",
+                              "Sin oficio": "无职业",
+                              "Sin opiniones": "无评价",
+                              "opiniones": "评价",
+                              "Sin ubicación actual": "无当前位置",
+                              "FOTOGRAFÍA": "摄影",
+                              "CINE / VIDEO": "电影 / 视频",
+                              "MÚSICA": "音乐",
+                              "TEATRO": "戏剧",
+                              "EVENTOS": "活动",
+                              "TV": "电视",
+                              "OTROS": "其他",
+                              "FILTROS": "筛选器",
+                              "Restablecer": "重置",
+                              "Tu ubicación": "您的位置",
+                              "Buscar dirección": "搜索地址",
+                              "Categorías": "类别",
+                              "EVENTOS Y FIESTAS": "活动与派对",
+                              "SIN CATEGORÍA": "无类别",
+                              "Etiquetas": "标签",
+                              "Escribe palabras clave para filtrar resultados": "输入关键词筛选结果",
+                              "Escribe aquí...": "在此输入...",
+                              "Rango de precio": "价格范围",
+                              "Selecciona un rango de precio para filtrar resultados": "选择价格范围以筛选结果",
+                              "Rango": "范围",
+                              "Mínimo": "最低",
+                              "día": "天",
+                              "Máximo": "最高",
+                              "Mejor valorados": "最高评分",
+                              "Más valorados": "最多评价",
+                              "Precio ascendente": "价格升序",
+                              "Precio descendente": "价格降序",
+                              "No se pudo obtener listado de usuarios": "无法获取用户列表",
+                              "No se pudo obtener el contador de categorías": "无法获取类别计数",
+                              "Sin tags": "无标签",
+                              "Ya hay una solicitud enviada pendiente de aceptar": "已发送请求，待接受",
+                              "Resultado desconocido": "未知结果",
+                              "No se pudo comprobar la existencia de la solicitud": "无法验证请求是否存在",
+                              "Ya hay un Tag con ese valor": "该标签已存在",
+                              "El campo está vacío, no se puede crear un Tag": "字段为空，无法创建标签",
+                              "Sin Suscripción válida": "无有效订阅",
+                              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "订阅基础计划或360计划以访问和联系用户"
+                            },
+                          
+                            
+                          
+                            "Usuario o contraseña incorrectos": "用户名或密码错误",
+                            "El usuario ya se encuentra registrado": "该用户已注册",
+                            "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "此账户暂时被锁定，请联系管理员了解更多信息。",
+                            "Error del servidor, inténtelo más tarde": "服务器错误，请稍后再试",
+                            "Error desconocido, inténtelo más tarde": "未知错误，请稍后再试",
+                          
+                            "codeErrors": {
+                              "Usuario o contraseña incorrectos": "用户名或密码错误",
+                              "El usuario ya se encuentra registrado": "该用户已注册",
+                              "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "此账户暂时被锁定，请联系管理员了解更多信息。",
+                              "Error del servidor, inténtelo más tarde": "服务器错误，请稍后再试",
+                              "Error desconocido, inténtelo más tarde": "未知错误，请稍后再试"
+                            },
+                          
+                            "buscador": {
+                              "BUSCADOR": "搜索",
+                              "Buscar": "搜索",
+                              "Conectar": "连接",
+                              "No hay resultados": "没有结果",
+                              "Descubre nuestro top": "探索我们的精选",
+                              "Los mejores profesionales muestran sus anuncios": "顶级专业人士展示他们的广告",
+                              "Contacta con el éxito": "与成功联系",
+                              "Descubre los usuarios que harán realidad tu proyecto": "发现能让您的项目成为现实的用户",
+                              "Ordenar": "排序",
+                              "conectar": "连接",
+                              "Sin oficio": "无职业",
+                              "Sin opiniones": "无评价",
+                              "opiniones": "评价",
+                              "Sin ubicación actual": "无当前位置",
+                              "FOTOGRAFÍA": "摄影",
+                              "CINE / VIDEO": "电影 / 视频",
+                              "FILM / VÍDEO": "影视 / 视频",
+                              "MÚSICA": "音乐",
+                              "TEATRO": "戏剧",
+                              "EVENTOS": "活动",
+                              "TV": "电视",
+                              "OTROS": "其他",
+                              "FILTROS": "筛选",
+                              "Restablecer": "重置",
+                              "Tu ubicación": "您的位置",
+                              "Buscar dirección": "搜索地址",
+                              "Categorías": "类别",
+                              "EVENTOS Y FIESTAS": "活动与派对",
+                              "SIN CATEGORÍA": "无类别",
+                              "Etiquetas": "标签",
+                              "Escribe palabras clave para filtrar resultados": "输入关键词筛选结果",
+                              "Escribe aquí...": "在此输入...",
+                              "Rango de precio": "价格范围",
+                              "Selecciona un rango de precio para filtrar resultados": "选择价格范围以筛选结果",
+                              "Rango": "范围",
+    "Mínimo": "最小",
+    "día": "天",
+    "Máximo": "最大",
+    "Mejor valorados": "最高评分",
+    "Más valorados": "最多评价",
+    "Precio ascendente": "价格升序",
+    "Precio descendente": "价格降序",
+    "No se pudo obtener listado de usuarios": "无法获取用户列表",
+    "No se pudo obtener el contador de categorías": "无法获取类别计数",
+    "Sin tags": "无标签",
+    "Ya hay una solicitud enviada pendiente de aceptar": "已发送请求，待接受",
+    "Resultado desconocido": "未知结果",
+    "No se pudo comprobar la existencia de la solicitud": "无法验证请求是否存在",
+    "Ya hay un Tag con ese valor": "该标签已存在",
+    "El campo está vacío, no se puede crear un Tag": "字段为空，无法创建标签",
+    "Sin Suscripción válida": "无有效订阅",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "订阅基础计划或360计划以访问和联系用户",
+    "Texto descriptivo del anuncio especial": "广告的描述性文本"
+                            },
+                            
+                                "buscador2": {
+                                  "BUSCADOR": "搜索",
+                                  "Buscar": "搜索",
+                                  "Conectar": "连接",
+                                  "No hay resultados": "没有结果",
+                                  "Descubre nuestro top": "探索我们的精选",
+                                  "Los mejores profesionales muestran sus anuncios": "顶级专业人士展示他们的广告",
+                                  "Contacta con el éxito": "联系成功人士",
+                                  "Descubre los usuarios que haran realidad tu proyecto": "发现能实现你项目的用户",
+                                  "Ordenar": "排序",
+                                  "conectar": "连接",
+                                  "Sin oficio": "无职业",
+                                  "Sin opiniones": "无评价",
+                                  "opiniones": "评价",
+                                  "Sin ubicación actual": "无当前位置",
+                                  "FOTOGRAFÍA": "摄影",
+                                  "CINE / VIDEO": "电影 / 视频",
+                                  "FILM / VÍDEO": "电影 / 视频",
+                                  "MÚSICA": "音乐",
+                                  "TEATRO": "戏剧",
+                                  "EVENTOS": "活动",
+                                  "TV": "电视",
+                                  "OTROS": "其他",
+                                  "FILTROS": "筛选",
+                                  "Restablecer": "重置",
+                                  "Tu ubicación": "你的位置",
+                                  "Buscar dirección": "搜索地址",
+                                  "Categorías": "类别",
+                                  "EVENTOS Y FIESTAS": "活动和派对",
+                                  "SIN CATEGORÍA": "无类别",
+                                  "Etiquetas": "标签",
+                                  "Escribe palabras clave para filtrar resultados": "输入关键词以筛选结果",
+                                  "Escribe aquí...": "在这里输入...",
+                                  "Rango de precio": "价格范围",
+                                  "Selecciona un rango de precio para filtrar resultados": "选择价格范围筛选结果",
+                                  "Rango": "范围",
+                                  "Mínimo": "最低",
+                                  "día": "天",
+                                  "Máximo": "最高",
+                                  "Mejor valorados": "最高评分",
+                                  "Más valorados": "最多评价",
+                                  "Precio ascendente": "价格升序",
+                                  "Precio descendente": "价格降序",
+                                  "No se pudo obtener listado de usuarios": "无法获取用户列表",
+                                  "No se pudo obtener el contador de categorías": "无法获取类别计数",
+                                  "Sin tags": "无标签",
+                                  "Ya hay una solicitud enviada pendiente de aceptar": "已发送请求，待接受",
+                                  "Resultado desconocido": "未知结果",
+                                  "No se pudo comprobar la existencia de la solicitud": "无法验证请求是否存在",
+                                  "Ya hay un Tag con ese valor": "该标签已存在",
+                                  "El campo está vacío, no se puede crear un Tag": "字段为空，无法创建标签",
+                                  "Sin Suscripción válida": "无有效订阅",
+                                  "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "订阅基础计划或360计划以访问和联系用户",
+                                  "Texto descriptivo del anuncio especial": "广告的描述性文本"
+                                },
+                              
+                                "chats": {
+                                  "Cargando chats...": "加载聊天中...",
+                                  "Buscar": "搜索",
+                                  "Chats": "聊天",
+                                  "Solicitudes": "请求",
+                                  "Aceptar": "接受",
+                                  "Rechazar": "拒绝",
+                                  ": ha enviado un PDF": ": 发送了一个 PDF",
+                                  "Tú: has enviado un PDF": "你: 发送了一个 PDF",
+                                  ": ha enviado un AUDIO": ": 发送了一个音频",
+                                  "Tú: has enviado un AUDIO": "你: 发送了一个音频",
+                                  ": ha enviado una imagen": ": 发送了一张图片",
+                                  "Tú: has enviado una imagen": "你: 发送了一张图片",
+                                  "Sin mensajes aún": "暂无消息",
+                                  "No se pueden obtener los chats": "无法获取聊天",
+                                  "Borrar chat": "删除聊天",
+                                  "¿Quieres borrar el chat ' + chat.nombre + ' ?": "你确定要删除聊天 ' + chat.nombre + ' 吗？",
+                                  "Cancelar": "取消",
+                                  "Borrando chat": "正在删除聊天",
+                                  "No se ha podido borrar el chat": "无法删除聊天",
+                                  "No se pudieron obtener las solicitudes": "无法获取请求",
+                                  "Solicitud eliminada exitósamente": "请求已成功删除",
+                                  "Resultado desconocido": "未知结果",
+                                  "No se pudo eliminar la solicitud": "无法删除请求",
+                                  "Solicitud aceptada exitósamente": "请求已成功接受",
+                                  "La solicitud ya no es valida": "请求已失效",
+                                  "No se pudo aceptar la solicitud": "无法接受请求",
+                                  "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: 发送了一个 PDF",
+                                  "ha enviado un AUDIO": "{{name}}: 发送了一个音频",
+                                  "ha enviado una imagen": "{{name}}: 发送了一张图片",
+                                  "Tú: {{mensaje}}": "你: {{mensaje}}",
+                                  "No se pueden obtener los mensajes": "无法获取消息",
+                                  "No se ha podido enviar el mensaje": "无法发送消息",
+                                  "Cargando mensajes...": "加载消息中...",
+                                  "Grabación finalizada": "录音完成",
+                                  "Pulse aquí para enviar": "点击此处发送",
+                                  "No se puede obtener el archivo": "无法获取文件"
+                                },
+                              
+                                "FOTOGRAFÍA": "摄影",
+                                "FILM / VÍDEO": "电影 / 视频",
+                                "CINE / VIDEO": "电影 / 视频",
+                                "TV": "电视",
+                                "MÚSICA": "音乐",
+                                "EVENTOS Y FIESTAS": "活动和派对",
+                                "TEATRO": "戏剧",
+                                "OTROS": "其他",
+                                "SIN CATEGORÍA": "无类别",
+                              
+                                "add-participants-to-group": {
+                                  "AGREGAR MIEMBROS AL GRUPO DE CHAT": "添加成员到聊天群",
+                                  "Nombre del grupo": "群组名称",
+                                  "Escribe aquí...": "在这里输入...",
+                                  "Miembros del grupo": "群组成员",
+                                  "Tú": "你",
+                                  "Crear grupo": "创建群组",
+                                  "No se obtuvieron los participantes": "无法获取成员",
+                                  "El usuario seleccionado ya está añadido al listado de participantes": "所选用户已添加到成员列表",
+                                  "Sin Categorías": "无类别",
+                                  "Introduzca un nombre para el grupo de chat": "请输入群组名称",
+                                  "¡Grupo de chat creado!": "聊天群创建成功！",
+                                  "No se pudo crear el grupo": "无法创建群组",
+                                  "Debe añadir al menos un miembro al grupo de chat": "至少添加一名成员到聊天群",
+                                  "Sin Suscripción válida": "无有效订阅",
+                                  "Hazte con el plan 360 para crear y administrar proyectos": "订阅360计划以创建和管理项目"
+                                },
+                                
+                                    "app-chat-header": {
+                                      "Conectado": "已连接",
+                                      "¿Desea bloquear a este usuario?": "您想屏蔽此用户吗？",
+                                      "Cancelar": "取消",
+                                      "Bloquear": "屏蔽",
+                                      "Usuario bloqueado": "用户已被屏蔽",
+                                      "El usuario ya se encuentra bloqueado": "用户已被屏蔽",
+                                      "Respuesta desconocida": "未知响应"
+                                    },
+                                  
+                                    "app-chat-footer": {
+                                      "Escribe aquí...": "在这里输入...",
+                                      "Grabación finalizada": "录音完成",
+                                      "Pulse aquí para enviar": "点击此处发送",
+                                      "Se está realizando una grabación de audio": "正在录制音频",
+                                      "Hay un archivo de audio pendiente para enviar": "有一个待发送的音频文件",
+                                      "Solo se permiten archivos .pdf": "仅允许 .pdf 文件",
+                                      "Ya hay una grabación en proceso": "已经有一个录音正在进行"
+                                    },
+                                  
+                                    "app-pgchat-footer": {
+                                      "Grabación finalizada": "录音完成",
+                                      "Pulse aquí para enviar": "点击此处发送",
+                                      "Se está realizando una grabación de audio": "正在录制音频",
+                                      "Hay un archivo de audio pendiente para enviar": "有一个待发送的音频文件",
+                                      "Solo se permiten archivos .pdf": "仅允许 .pdf 文件",
+                                      "Ya hay una grabación en proceso": "已经有一个录音正在进行"
+                                    },
+                                  
+                                    "app-pnchat-footer": {
+                                      "Grabación finalizada": "录音完成",
+                                      "Pulse aquí para enviar": "点击此处发送",
+                                      "Se está realizando una grabación de audio": "正在录制音频",
+                                      "Hay un archivo de audio pendiente para enviar": "有一个待发送的音频文件",
+                                      "Solo se permiten archivos .pdf": "仅允许 .pdf 文件",
+                                      "Ya hay una grabación en proceso": "已经有一个录音正在进行"
+                                    },
+                                  
+                                    "app-chat-group": {
+                                      "mensajes nuevos": "新消息"
+                                    },
+                                  
+                                    "app-pnchat-header": {
+                                      "Conectado": "已连接"
+                                    },
+                                  
+                                    "pnchats": {
+                                      "CHATS": "聊天",
+                                      "TODOS": "全部",
+                                      "Grupos": "群组",
+                                      "Solicitudes": "请求",
+                                      "Aceptar": "接受",
+                                      "Rechazar": "拒绝",
+                                      ": ha enviado un PDF": "：发送了一个 PDF",
+                                      "Tú: has enviado un PDF": "你：发送了一个 PDF",
+                                      ": ha enviado un AUDIO": "：发送了一段音频",
+                                      "Tú: has enviado un AUDIO": "你：发送了一段音频",
+                                      ": ha enviado una imagen": "：发送了一张图片",
+                                      "Tú: has enviado una imagen": "你：发送了一张图片",
+                                      "Sin mensajes aún": "暂无消息",
+                                      "No se pueden obtener los chats": "无法获取聊天",
+                                      "Borrar chat": "删除聊天",
+                                      "¿Quieres borrar el chat ' + chat.nombre + ' ?": "你确定要删除聊天 ' + chat.nombre + ' 吗？",
+                                      "Cancelar": "取消",
+                                      "Borrando chat": "正在删除聊天",
+                                      "No se ha podido borrar el chat": "无法删除聊天",
+                                      "No se pudieron obtener las solicitudes": "无法获取请求",
+                                      "Solicitud eliminada exitósamente": "请求已成功删除",
+                                      "Resultado desconocido": "未知结果",
+                                      "No se pudo eliminar la solicitud": "无法删除请求",
+                                      "Solicitud aceptada exitósamente": "请求已成功接受",
+                                      "La solicitud ya no es valida": "请求已失效",
+                                      "No se pudo aceptar la solicitud": "无法接受请求",
+                                      "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}：发送了一个 PDF",
+                                      "ha enviado un AUDIO": "{{name}}：发送了一段音频",
+                                      "ha enviado una imagen": "{{name}}：发送了一张图片",
+                                      "Tú: {{mensaje}}": "你：{{mensaje}}",
+                                      "No se pueden obtener los mensajes": "无法获取消息",
+                                      "No se ha podido enviar el mensaje": "无法发送消息",
+                                      "Cargando mensajes...": "加载消息中...",
+                                      "Grabación finalizada": "录音完成",
+                                      "Pulse aquí para enviar": "点击此处发送",
+                                      "No se puede obtener el archivo": "无法获取文件"
+                                    },
+                                  
+                                    "interior-chat": {
+                                      "Cargando mensajes...": "加载消息中...",
+                                      "No se pueden obtener los mensajes": "无法获取消息",
+                                      "No se ha podido enviar el mensaje": "无法发送消息"
+                                    },
+                                  
+                                    "interior-pgchat": {
+                                      "No se ha podido enviar el mensaje": "无法发送消息",
+                                      "No se pueden obtener los mensajes": "无法获取消息",
+                                      "Cargando mensajes...": "加载消息中..."
+                                    },
+                                  
+                                    "interior-pnchat": {
+                                      "No se ha podido enviar el mensaje": "无法发送消息",
+                                      "No se pueden obtener los mensajes": "无法获取消息",
+                                      "Cargando mensajes...": "加载消息中..."
+                                    },
+                                  
+                                    "select-useroptions-modal": {
+                                      "Bloquear usuario": "屏蔽用户",
+                                      "Reportar usuario": "举报用户"
+                                    },
+
+
+                                    
+                                      "add-remove-users-modal": {
+                                        "Listado actualizado": "列表已更新",
+                                        "No se pudo actualizar el listado": "无法更新列表",
+                                        "Añadir al grupo": "添加到群组",
+                                        "Quitar del grupo": "从群组中移除",
+                                        "SACAR USUARIOS DEL GRUPO": "从群组中移除用户",
+                                        "METER USUARIOS EN GRUPO": "将用户添加到群组",
+                                        "Usuarios para sacar": "要移除的用户",
+                                        "Usuarios para meter": "要添加的用户"
+                                      },
+                                    
+                                      "detail-project": {
+                                        "DETALLES DEL PROYECTO": "项目详情",
+                                        "Creador/a del proyecto": "项目创建者",
+                                        "Fecha de finalización": "完成日期",
+                                        "Participantes": "参与者",
+                                        "No se obtuvo las carpetas del proyecto": "无法获取项目文件夹"
+                                      },
+                                    
+                                      "social-networks": {
+                                        "Nombre": "名称",
+                                        "Añade un link": "添加链接",
+                                        "Guardar cambios": "保存更改",
+                                        "REDES SOCIALES": "社交网络"
+                                      },
+
+                                      "Ver planes": "查看计划",
+                                    
+                                      "other-user": {
+                                        "Sin opiniones": "没有评价",
+                                        "opiniones": "评价",
+                                        "Chatear": "聊天",
+                                        "Conectar": "连接",
+                                        "Trabajos": "工作",
+                                        "Ubicaciones": "位置",
+                                        "Idiomas": "语言",
+                                        "Redes sociales": "社交网络",
+                                        "Ubicación de este usuario": "该用户的位置",
+                                        "Sin ubicación actual": "无当前位置信息",
+                                        "Ubicaciones donde puede trabajar": "可工作的地点",
+                                        "Trabajos de": "工作的详细信息",
+                                        "Guardar": "保存",
+                                        "Añadir a Favoritos": "添加到收藏夹",
+                                        "Usuario Favorito": "收藏的用户",
+                                        "En Favorito": "已收藏",
+                                        "En favoritos": "已收藏",
+                                        "Quitar Favorito": "移除收藏",
+                                        "No se pudo obtener los datos del usuario": "无法获取用户数据",
+                                        "Ya hay una solicitud enviada pendiente de aceptar": "已发送请求，等待接受",
+                                        "Resultado desconocido": "未知结果",
+                                        "No se pudo comprobar la existencia de la solicitud": "无法验证请求的存在",
+                                        "No se pudieron obtener los trabajos": "无法获取工作信息",
+                                        "No se pudieron obtener las ubicaciones": "无法获取位置信息",
+                                        "No se pudieron obtener los idiomas": "无法获取语言信息",
+                                        "No se pudieron obtener las redes": "无法获取社交网络信息",
+                                        "¿Desea bloquear a este usuario?": "您想要屏蔽该用户吗？",
+                                        "cancelar": "取消",
+                                        "bloquear": "屏蔽",
+                                        "Usuario bloqueado": "用户已被屏蔽",
+                                        "El usuario ya se encuentra bloqueado": "用户已被屏蔽",
+                                        "Respuesta desconocida": "未知回应"
+                                      },
+                                    
+                                      "add-rating": {
+                                        "AÑADE UNA VALORACIÓN": "添加评价",
+                                        "¿Cómo valorarías a ": "你如何评价 ",
+                                        "Tu valoración ayuda a otros usuarios": "您的评价可以帮助其他用户",
+                                        "¿Quieres añadir aglún comentario?": "您想添加评论吗？",
+                                        "Escribe aquí...": "在这里输入...",
+                                        "No se pudo obtener los datos del usuario": "无法获取用户数据",
+                                        "Introduzca un comentario en la valoración": "请在评价中输入评论",
+                                        "¡Valoracion enviada!": "评价已提交！",
+                                        "Publica": "发布",
+                                        "Gracias por poner tu comentario a ": "感谢您对 "
+                                      },
+                                    
+                                      "user-ratings": {
+                                        "VALORACIONES A ": "对 的评价",
+                                        "Más recientes": "最新",
+                                        "Menos recientes": "最旧",
+                                        "Puntuación": "评分",
+                                        "Perfil verificado": "已验证的资料",
+                                        "Reportar comentario": "举报评论",
+                                        "Añadir valoración": "添加评价",
+                                        "Sin oficio": "无职业",
+                                        "Sin Suscripción": "无订阅",
+                                        "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+                                        "订阅后，您可以查看自己的评价以及其他用户的评价",
+                                        "Más altas": "最高分",
+                                        "Más bajas": "最低分"
+                                      },
+                                    
+                                      "select-chatoptions-modal": {
+                                        "Añadir usuarios": "添加用户",
+                                        "Quitar usuarios": "移除用户",
+                                        "Pronombres": "代词"
+                                      },
+                                    
+                                      "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "我们将很快启用此部分，以便您享受其内容",
+                                      
+                                        "Fotografía": "摄影",
+                                        "Film/vídeo": "电影/视频",
+                                        "Cine/vídeo": "影院/视频",
+                                        "Música": "音乐",
+                                        "Eventos": "活动",
+                                        "Teatro": "戏剧",
+                                        "Otros": "其他",
+                                        "Sin categoría": "未分类",
+                                      
+                                        "El idioma ya se encuentra en el listado": "该语言已在列表中",
+                                        "Relación": "关系",
+                                        "precio": "价格",
+                                        "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "要访问用户的全部信息并联系他们，请订阅 Plan S 或 Plan 360。",
+                                      
+                                        "my-ads": {
+                                          "Mis anuncios": "我的广告",
+                                          "Tipo de anuncio": "广告类型",
+                                          "Duración": "持续时间",
+                                          "mes": "月",
+                                          "meses": "个月",
+                                          "día": "天",
+                                          "dias": "天数",
+                                          "Anuncio borrado con éxito": "广告删除成功",
+                                          "Vídeo": "视频",
+                                          "Imagen": "图片",
+                                          "Ver anuncio": "查看广告",
+                                          "Ver perfil del creador": "查看创作者的资料",
+                                          " y ": " 和 "
+                                        },
+                                      
+                                        "upload-advertisement": {
+                                          "SUBIR ANUNCIO": "上传广告",
+                                          "Quiero publicitar mi perfil": "我想推广我的个人资料",
+                                          "Público objetivo": "目标受众",
+                                          "Rango de edad": "年龄范围",
+                                          "Rango seleccionado": "选定范围",
+                                          "años": "岁",
+                                          "Género": "性别",
+                                          "Hombre": "男",
+                                          "Mujer": "女",
+                                          "Otro": "其他",
+                                          "Localización": "位置",
+                                          "Buscar dirección": "搜索地址",
+                                          "Rango por kilómetros": "公里范围",
+                                          "Rango seleccionado: hasta": "选定范围：最多",
+                                          "Kilómetros": "公里",
+                                          "Intereses": "兴趣",
+                                          "Pago del anuncio": "广告付款",
+                                          "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "选择你愿意为展示或点击支付的价格。根据你设置的价格，我们将告诉你广告显示的时间。",
+                                          "Precio por clics": "每次点击价格",
+                                          "Impresiones": "展示次数",
+                                          "Cantidad seleccionada:": "选择的数量：",
+                                          "impresiones": "展示",
+                                          "Duración": "时长",
+                                          "días": "天",
+                                          "Confirmar y proceder al pago": "确认并继续付款",
+                                          "Seleccionar imagen": "选择图片",
+                                          "Selecciona video": "选择视频"
+                                        },
+                                      
+                                        "El proyecto ha finalizado, no puede realizar modificaciones": "项目已结束，无法进行修改",
+                                        "USUARIOS FAVORITOS": "收藏的用户",
+                                        "CHAT": "聊天",
+                                        "No tiene permiso para acceder al contenido de esta carpeta": "你没有权限访问此文件夹的内容",
+                                        "Chat creado con éxito": "聊天创建成功",
+                                        "Crear chat": "创建聊天",
+                                        "Nuevo Chat": "新聊天",
+                                      
+                                        "Permisos de carpeta": "文件夹权限",
+                                        "Sin permisos": "无权限",
+                                        "Solo lectura": "只读",
+                                        "Modificar contenido": "修改内容",
+                                        "No se pudo obtener más usuarios": "无法获取更多用户",
+                                        "Introduzca el nuevo lenguaje": "请输入新语言"
+
+                                      }
+                                      
+                                    
+                                  
+                                  
+                              
+                              
+
+                          
+                          
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+
+
+
+  
+  

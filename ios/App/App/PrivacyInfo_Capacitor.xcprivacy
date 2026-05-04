@@ -1,0 +1,14 @@
+{
+  "privacyManifestVersion": 1,
+  "thirdPartySdk": {
+    "name": "Capacitor",
+    "identifier": "com.ionicframework.capacitor",
+    "purposeStringKeys": [
+      "NSCameraUsageDescription",
+      "NSPhotoLibraryUsageDescription",
+      "NSLocationWhenInUseUsageDescription",
+      "NSMicrophoneUsageDescription",
+      "NSBluetoothPeripheralUsageDescription"
+    ]
+  }
+}

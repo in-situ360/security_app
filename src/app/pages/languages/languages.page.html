@@ -1,0 +1,88 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'languages.IDIOMAS' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div class="locations">
+    <form>
+     <!-- <p>{{ 'languages.Idiomas' | translate }}</p>-->
+      <ion-item  *ngFor="let lan of otherslangs; let i = index;">
+        <ion-label>
+          <ion-icon src="assets/icon/language.svg"></ion-icon>
+        </ion-label>
+        <ion-input 
+          [value]="otherslangs[i]"
+          [readonly]="true"
+          (ionChange)="updateLocation(i, $event)"
+          placeholder="{{ 'Idioma' | translate }} {{i + 1}}">
+        </ion-input>
+        <!--<ion-label  style="z-index:999999" >
+          <ion-icon (click)="removeLanguage(i)" class="iconDelete" src="assets/icons/x2.svg" ></ion-icon>
+        </ion-label>-->
+        <ion-icon class="iconDelete" src="assets/icons/x2.svg" (click)="removeLanguage($event, i)" style="cursor: pointer;"></ion-icon>
+      </ion-item>
+
+      <ion-select #languageSelect *ngIf="showSelect" (ionChange)="languageSelected($event)" placeholder="{{ 'languaje-select.Selecciona un idioma' | translate }}"><!--(ionChange)="Language($event)" [value]="selectedLanguage"-->
+        <ion-select-option value="{{ 'languaje-select.Español' | translate }}">{{ 'languaje-select.Español' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Inglés' | translate }}">{{ 'languaje-select.Inglés' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Francés' | translate }}">{{ 'languaje-select.Francés' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Alemán' | translate }}">{{ 'languaje-select.Alemán' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Japonés' | translate }}">{{ 'languaje-select.Japonés' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Coreano' | translate }}">{{ 'languaje-select.Coreano' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Italiano' | translate }}">{{ 'languaje-select.Italiano' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Portugués' | translate }}">{{ 'languaje-select.Portugués' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Ruso' | translate }}">{{ 'languaje-select.Ruso' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Chino(Simplificado)' | translate }}">{{ 'languaje-select.Chino(Simplificado)' | translate }}</ion-select-option>
+         <ion-select-option value="{{ 'languaje-select.Chino(Tradicional)' | translate }}">{{ 'languaje-select.Chino(Tradicional)' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Árabe' | translate }}">{{ 'languaje-select.Árabe' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Hindi' | translate }}">{{ 'languaje-select.Hindi' | translate }}</ion-select-option>
+       <ion-select-option value="{{ 'languaje-select.Bengalí' | translate }}">{{ 'languaje-select.Bengalí' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Holandés' | translate }}">{{ 'languaje-select.Holandés' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Sueco' | translate }}">{{ 'languaje-select.Sueco' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Noruego' | translate }}">{{ 'languaje-select.Noruego' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Finlandés' | translate }}">{{ 'languaje-select.Finlandés' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Danés' | translate }}">{{ 'languaje-select.Danés' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Polaco' | translate }}">{{ 'languaje-select.Polaco' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Turco' | translate }}">{{ 'languaje-select.Turco' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Griego' | translate }}">{{ 'languaje-select.Griego' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Checo' | translate }}">{{ 'languaje-select.Checo' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Hebreo' | translate }}">{{ 'languaje-select.Hebreo' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Húngaro' | translate }}">{{ 'languaje-select.Húngaro' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Vietnamita' | translate }}">{{ 'languaje-select.Vietnamita' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Indonesio' | translate }}">{{ 'languaje-select.Indonesio' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Tailandés' | translate }}">{{ 'languaje-select.Tailandés' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Catalán' | translate }}">{{ 'languaje-select.Catalán' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Romanés' | translate }}">{{ 'languaje-select.Romanés' | translate }}</ion-select-option>
+       
+        <ion-select-option value="{{ 'languaje-select.Ucraniano' | translate }}">{{ 'languaje-select.Ucraniano' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Serbio' | translate }}">{{ 'languaje-select.Serbio' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Croata' | translate }}">{{ 'languaje-select.Croata' | translate }}</ion-select-option>
+        
+        <ion-select-option value="{{ 'languaje-select.Eslovaco' | translate }}">{{ 'languaje-select.Eslovaco' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Letón' | translate }}">{{ 'languaje-select.Letón' | translate }}</ion-select-option>
+        <ion-select-option value="{{ 'languaje-select.Estonio' | translate }}">{{ 'languaje-select.Estonio' | translate }}</ion-select-option>
+        <ion-select-option value="otherModal">{{ 'languages.Añadir otro lenguaje' | translate }}</ion-select-option>
+    </ion-select>
+      
+      <ion-button (click)="addLocation()" class="addlocation" mode="md">
+        <ion-icon name="add-outline" slot="start"></ion-icon>
+        {{ 'languages.Añadir otro idioma' | translate }}
+      </ion-button>
+    </form>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-button (click)="getLanguajes()" mode="md">{{ 'languages.Guardar cambios' | translate }}</ion-button>
+</ion-footer>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

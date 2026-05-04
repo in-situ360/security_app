@@ -1,0 +1,31 @@
+<ion-content>
+  <p id="title-modal-profile">
+  <span id="textoIzquierda">
+    <ion-icon (click)="closeModal()" id="iconFilter" src="assets/icons/arrowBack.svg"></ion-icon><span style="margin-left:5px;"> {{ 'AÑADIR' | translate }}</span>
+  </span>
+    <!--<a (click)="closeModal()" id="textoDerecha">{{ 'Cerrar' | translate }}</a>-->
+  </p>
+  <ion-list lines="full">
+    <ion-item (click)="selectOption(1)"> <!--routerLink="/languaje-select"-->
+      <ion-icon class="main-icon" src="assets/icons/addDoc.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'Documentos' | translate }}</ion-label>
+      <ion-icon class="iconItem" src="assets/icons/nuevo-proyecto.svg" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-item (click)="selectOption(2)"> <!--routerLink="/languaje-select"-->
+      <ion-icon  id="linkIcon" class="main-icon" src="assets/icons/link-tabs2.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'Links' | translate }}</ion-label>
+      <ion-icon class="iconItem" src="assets/icons/nuevo-proyecto.svg" slot="end"></ion-icon>
+    </ion-item>
+
+    <ion-item (click)="selectOption(3)"> <!--routerLink="/languaje-select"-->
+      <ion-icon class="main-icon" src="assets/icons/addFolder.svg" slot="start"></ion-icon>
+      <ion-label>{{ 'Nueva carpeta' | translate }}</ion-label>
+      <ion-icon class="iconItem" src="assets/icons/nuevo-proyecto.svg" slot="end"></ion-icon>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>
+

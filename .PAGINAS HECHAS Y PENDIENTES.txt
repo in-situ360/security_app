@@ -1,0 +1,73 @@
+HECHAS	
+2	cover-page
+3	login
+4	register
+5	finish-profile
+6	suscription
+7	suscription-detail
+8	suscription-checkout
+9	suscription-checkout (modal)
+11	notifications
+12	notifications-settings
+13	forgot-password
+14	project-checkout
+15	project-checkout (modal)
+49	locations
+50	languages
+51	social-networks
+52	edit-profile
+54	settings
+55	profile-settings
+56	highlight-profile
+57	my-suscription
+58	project-checkout
+59	project-checkout (modal)
+60	my-ads
+64	faq
+67	rgpd
+68	tyc
+62	stats
+63	ban-users
+65  virtual-assistant
+43  detail-chat
+40  individual-chat-detail
+41  group-chat-detail
+66  contact-us
+-------------------
+Pendientes
+10//---
+16//---
+17
+18
+19
+20//----
+21//---
+22//----
+23//-----
+24//----
+25//----
+26//------
+27//------
+28//-------
+29//-----
+30//-----
+31//------
+32//---
+33//----
+34//----
+35//-----
+36//----
+37
+38
+39
+42//---
+43//---
+44//--
+45//---
+46//---
+47//----
+
+48//-----
+53//----
+61
+

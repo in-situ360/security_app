@@ -1,0 +1,26 @@
+{
+  "appId": "com.xerintel.insitu3601",
+  "appName": "Insitu360",
+  "companyName": "Insitu360",
+  "description": "The production and event platform.",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true
+  },
+  "server": {
+    "cleartext": true,
+    "androidScheme": "http"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "GoogleAuth": {
+      "scopes": ["profile", "email"],
+      "androidClientId": "690561641551-s6d61q3orbup7hoi4v50bc83qk476mje.apps.googleusercontent.com",
+      "iosClientId": "690561641551-l7oef7nu4i97q02mguqssq63q2bd6fim.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    }
+  }
+}

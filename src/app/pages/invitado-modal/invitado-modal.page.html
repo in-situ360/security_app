@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-icon id="iconLogo" src="assets/icons/estrella-valoracion-blanca.svg"></ion-icon>
+  <ion-icon (click)="dismiss()"id="iconCancelar" src="assets/icons/Cancelar-modal.svg"></ion-icon>
+
+</ion-header>
+
+<ion-content>
+
+  <p id="pTitle">{{ title }}</p><!-- (click)="dismiss()"-->
+  <p id="pDesc">{{ info }}</p>
+  <ion-button *ngIf="showButton" id="buttonSub" (click)="goToPlans()">{{ 'Ver planes' | translate }}</ion-button>
+
+  
+
+  
+</ion-content>

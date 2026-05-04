@@ -1,0 +1,1255 @@
+{
+    "languaje-select": {
+      "SELECCIÓN DE IDIOMA": "KIELEN VALINTA",
+      "Seleccionar idioma": "Valitse kieli",
+      "Selecciona el idioma que quieres que se muestre en la app": "Valitse sovelluksessa näytettävä kieli",
+      "Aceptar y continuar": "Hyväksy ja jatka",
+      "Selecciona un idioma": "Valitse kieli",
+      "Inglés": "Englanti",
+      "Español": "Espanja",
+      "Francés": "Ranska",
+      "Alemán": "Saksa",
+      "Italiano": "Italia",
+      "Portugués": "Portugali",
+      "Ruso": "Venäjä",
+      "Chino(Simplificado)": "Kiina (yksinkertaistettu)",
+      "Chino(Tradicional)": "Kiina (perinteinen)",
+      "Japonés": "Japani",
+      "Coreano": "Korea",
+      "Árabe": "Arabia",
+      "Hindi": "Hindi",
+      "Bengalí": "Bengali",
+      "Holandés": "Hollanti",
+      "Sueco": "Ruotsi",
+      "Noruego": "Norja",
+      "Finlandés": "Suomi",
+      "Danés": "Tanska",
+      "Polaco": "Puola",
+      "Turco": "Turkki",
+      "Griego": "Kreikka",
+      "Checo": "Tšekki",
+      "Hebreo": "Heprea",
+      "Húngaro": "Unkari",
+      "Vietnamita": "Vietnam",
+      "Indonesio": "Indonesia",
+      "Tailandés": "Thai",
+      "Catalán": "Katalaani",
+      "Romanés": "Romania",
+      "Ucraniano": "Ukraina",
+      "Serbio": "Serbia",
+      "Croata": "Kroatia",
+      "Eslovaco": "Slovakki",
+      "Letón": "Latvia",
+      "Estonio": "Viro"
+    },
+  
+    "cover-page": {
+      "Registro": "Rekisteröityminen",
+      "Iniciar sesión": "Kirjaudu sisään"
+    },
+  
+    "login": {
+      "Iniciar sesión": "Kirjaudu sisään",
+      "Usuario": "Käyttäjä",
+      "Contraseña": "Salasana",
+      "He olvidado mi contraseña": "Unohdin salasanani",
+      "Entrar": "Kirjaudu",
+      "Entrar como invitado": "Kirjaudu vieraana",
+      "¿Aún no tienes una cuenta?": "Eikö sinulla ole vielä tiliä?",
+      "Regístrate": "Rekisteröidy",
+      "Entrando": "Kirjaudutaan...",
+      "Usuario o contraseña incorrectos": "Virheellinen käyttäjätunnus tai salasana",
+      "El usuario ya se encuentra registrado": "Käyttäjä on jo rekisteröity",
+      "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Tili on tilapäisesti estetty, ota yhteyttä ylläpitoon saadaksesi lisätietoja",
+      "Error del servidor, inténtelo más tarde": "Palvelinvirhe, yritä myöhemmin uudelleen",
+      "Error desconocido, inténtelo más tarde": "Tuntematon virhe, yritä myöhemmin uudelleen"
+    },
+  
+    "forgot-password": {
+      "RECUPERAR CONTRASEÑA": "PALAUTA SALASANA",
+      "¿Has olvidado tu contraseña?": "Unohtuiko salasanasi?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "Syötä sähköpostiosoitteesi, niin lähetämme sinulle uuden salasanan.",
+      "Email": "Sähköposti",
+      "Enviar": "Lähetä",
+      "¡Se ha enviado el email correctamente!": "Sähköposti on lähetetty onnistuneesti!",
+      "Error al enviar el email": "Virhe sähköpostin lähettämisessä"
+    },
+  
+    "register": {
+      "Registro": "Rekisteröityminen",
+      "¿Cómo deseas acceder a la app?": "Miten haluat käyttää sovellusta?",
+      "Personal": "Henkilökohtainen",
+      "Empresa": "Yritys",
+      "Nombre": "Nimi",
+      "Nombre de representante": "Edustajan nimi",
+      "Apellido 1": "Sukunimi 1",
+      "Apellido 2": "Sukunimi 2",
+      "Email": "Sähköposti",
+      "Contraseña": "Salasana",
+      "Repetir Contraseña": "Toista salasana",
+      "He leído y acepto": "Olen lukenut ja hyväksyn",
+      "la Política de Privacidad": "Tietosuojakäytännön",
+      "los Términos y Condiciones de Venta": "Myyntiehdot",
+      "Registrarme": "Rekisteröidy",
+      "¿Ya estás registrado?": "Oletko jo rekisteröitynyt?",
+      "Accede aquí": "Kirjaudu sisään tästä",
+      "El email es obligatorio": "Sähköposti on pakollinen",
+      "El email no es válido": "Sähköposti ei ole kelvollinen",
+      "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Sähköpostiosoitteen on oltava kelvollinen (.com, .org, .net, .edu)",
+      "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Verkkotunnus ei ole sallittu tai sisältää virheellisiä merkkejä",
+      "La contraseña es obligatoria": "Salasana on pakollinen",
+      "La contraseña debe tener al menos 8 caracteres": "Salasanan on oltava vähintään 8 merkkiä pitkä",
+      "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Salasanan on sisällettävä iso kirjain, numero ja erikoismerkki",
+      "Las contraseñas no coinciden": "Salasanat eivät täsmää",
+      "Registrando usuario": "Rekisteröidään käyttäjää...",
+      "Nombre Empresa": "Yrityksen nimi",
+"Por favor, revisa los campos con errores antes de continuar": "Tarkista virheelliset kentät ennen jatkamista",
+      "El nombre es obligatorio": "Nimi on pakollinen",
+      "El nombre debe tener al menos 3 caracteres": "Nimen on oltava vähintään 3 merkkiä pitkä"
+        },
+
+
+    
+      
+      "¡Pago realizado!": "Maksu suoritettu!",
+      "El pago de la suscripción se ha realizado correctamente": "Tilauksen maksu on suoritettu onnistuneesti",
+    
+      "Sin opiniones": "Ei arvosteluja",
+      "opinión": "arvostelu",
+      "opiniones": "arvostelut",
+      "Eliminar chat": "Poista keskustelu",
+    
+      "Cancelar": "Peruuta",
+      "Advertencia": "Varoitus",
+      "¿Estás seguro de eliminar el chat?": "Oletko varma, että haluat poistaa keskustelun?",
+      "Aceptar": "Hyväksy",
+      "Chat borrado con éxito": "Keskustelu poistettu onnistuneesti",
+      "No se pudo borrar el chat": "Keskustelua ei voitu poistaa",
+      "Contenido de": "Sisältö kohteesta",
+      "Sin seleccionar": "Ei valittu",
+      "1 archivo seleccionado": "1 tiedosto valittu",
+      " archivos seleccionados": " tiedostoa valittu",
+      "Archivos eliminados": "Tiedostot poistettu",
+      "No se pudieron borrar los archivos": "Tiedostoja ei voitu poistaa",
+      "Suscripción necesaria": "Tilauksesi vaaditaan",
+      "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios": "Hanki korkeampi tilaus kuin Plan I nähdäksesi muiden käyttäjien arvostelut",
+      "Activos": "Aktiiviset",
+      "Finalizados": "Päättyneet",
+      "Mis proyectos": "Omat projektit",
+      "Colaboraciones": "Yhteistyöt",
+      "Subir sin editar": "Lataa ilman muokkausta",
+      "El archivo supera el tamaño máximo permitido (2.5MB).": "Tiedosto ylittää sallitun maksimikoon (2,5 MB).",
+    
+    
+    
+        "finish-profile": {
+          "Seleccione al menos una categoría": "Valitse vähintään yksi kategoria",
+"La profesión es obligatoria": "Ammatti on pakollinen",
+"La ubicación es obligatoria": "Sijainti on pakollinen",
+          "COMPLETAR PERFIL": "TÄYDENNÄ PROFIILI",
+          "No mostrar mi perfil en el buscador": "Älä näytä profiiliani hakutuloksissa",
+          "Nombre": "Nimi",
+          "Apellido 1": "Sukunimi 1",
+          "Apellido 2": "Sukunimi 2",
+          "Nombre de representante": "Edustajan nimi",
+          "Fecha de nacimiento": "Syntymäaika",
+          "Este detalle no se mostrará de forma pública": "Tätä tietoa ei näytetä julkisesti",
+          "Género": "Sukupuoli",
+          "Seleccione una opción": "Valitse vaihtoehto",
+          "Hombre": "Mies",
+          "Mujer": "Nainen",
+          "Otro": "Muu",
+          "Profesión": "Ammatti",
+          "Escribe aquí…": "Kirjoita tähän...",
+          "Categoría de trabajo": "Työkategoria",
+          "Salario": "Palkka",
+          "Selecciona un rango de salario": "Valitse palkkahaarukka",
+          "Precio seleccionado:": "Valittu hinta:",
+          "Se mostrará como:": "Näytetään muodossa:",
+          "Tags": "Tunnisteet",
+          "Escribe las palabras clave para describir tu empleo": "Kirjoita avainsanat työsi kuvaamiseksi",
+          "Descripción": "Kuvaus",
+          "Guardar cambios": "Tallenna muutokset",
+          "Escribe aquí": "Kirjoita tähän",
+          "Escribe aquí...": "Kirjoita tähän...",
+          "día": "päivä",
+          "Él": "Hän (mies)",
+          "Ella": "Hän (nainen)",
+          "Elle": "Hän (neutraali)",
+          "Añade tus pronombres": "Lisää pronommisi",
+          "Introduzca el pronombre con el que se identifique": "Kirjoita pronommi, johon samaistut",
+          "El nombre es obligatorio": "Nimi on pakollinen",
+          "El apellido 1 es obligatorio": "Sukunimi 1 on pakollinen",
+          "Introduzca una fecha válida": "Anna kelvollinen päivämäärä",
+          "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre": "Jos valitset Lisää pronommit, sinun on lisättävä vähintään yksi pronommi",
+          "Debes seleccionar un género": "Sinun on valittava sukupuoli",
+          "Error obteniendo el usuario": "Virhe käyttäjätietojen hakemisessa",
+          "Usuario actualizado correctamente": "Käyttäjä päivitetty onnistuneesti",
+          "Ya hay un Tag con ese valor": "Tunniste tällä arvolla on jo olemassa",
+          "El campo está vacío, no se puede crear un Tag": "Kenttä on tyhjä, tunnistetta ei voi luoda",
+          "Por favor, revisa los campos con errores antes de continuar": "Tarkista virheelliset kentät ennen jatkamista",
+          "Ya hay un Pronombre con ese valor": "Pronommi tällä arvolla on jo olemassa",
+          "El campo está vacío, no se puede crear un Pronombre": "Kenttä on tyhjä, pronommia ei voi luoda"
+        },
+      
+        "settings": {
+          "CONFIGURACIÓN": "ASETUKSET",
+          "Configurar mi cuenta": "Tilini asetukset",
+          "Mis métodos de pago": "Maksutapani",
+          "Destacar mi perfil": "Korosta profiiliani",
+          "Mi suscripción": "Tilaukseni",
+          "Mis anuncios": "Omat ilmoitukset",
+          "Estadísticas": "Tilastot",
+          "Usuarios bloqueados": "Estetyt käyttäjät",
+          "Idioma de la app": "Sovelluksen kieli",
+          "Contacta con nosotros": "Ota yhteyttä",
+          "FAQ": "Usein kysytyt kysymykset",
+          "Política de Privacidad": "Tietosuojakäytäntö",
+          "Términos y Condiciones de venta": "Myyntiehdot",
+          "Cerrar sesión": "Kirjaudu ulos",
+          "Eliminar cuenta": "Poista tili",
+          "¿Estás seguro de querer cerrar sesión?": "Haluatko varmasti kirjautua ulos?",
+          "Aceptar": "Hyväksy",
+          "Cancelar": "Peruuta",
+          "Advertencia": "Varoitus",
+          "¿Estás seguro de querer eliminar tu cuenta?": "Haluatko varmasti poistaa tilisi?",
+          "Cuenta eliminada satisfactoriamente": "Tili poistettu onnistuneesti",
+          "Hubo problemas para borrar la cuenta de usuario": "Käyttäjätilin poistamisessa ilmeni ongelmia"
+        },
+      
+        "profile-settings": {
+          "CONFIGURAR MI CUENTA": "MUKAUTA TILIÄNI",
+          "Nombre de usuario": "Käyttäjänimi",
+          "Email": "Sähköposti",
+          "Contraseña": "Salasana",
+          "Repetir contraseña": "Toista salasana",
+          "Guardar cambios": "Tallenna muutokset",
+          "Error obteniendo el usuario": "Virhe käyttäjätietojen hakemisessa",
+          "Cuenta de usuario actualizada": "Käyttäjätili päivitetty",
+          "El nombre es obligatorio": "Nimi on pakollinen",
+          "El nombre debe tener al menos 3 caracteres": "Nimen on oltava vähintään 3 merkkiä pitkä",
+          "El email es obligatorio": "Sähköposti on pakollinen",
+          "El email no es válido": "Sähköposti ei ole kelvollinen",
+          "El email debe tener una extensión válida (.com, .org, .net, .edu)": "Sähköpostin on oltava kelvollisella päätteellä (.com, .org, .net, .edu)",
+          "El dominio no está permitido o contiene caracteres consecutivos no válidos": "Verkkotunnus ei ole sallittu tai sisältää virheellisiä merkkejä",
+          "La contraseña es obligatoria": "Salasana on pakollinen",
+          "La contraseña debe tener al menos 8 caracteres": "Salasanan on oltava vähintään 8 merkkiä pitkä",
+          "La contraseña debe incluir una mayúscula, un número y un carácter especial": "Salasanan on sisällettävä iso kirjain, numero ja erikoismerkki",
+          "Las contraseñas no coinciden": "Salasanat eivät täsmää"
+        },
+      
+        "tyc": {
+          "TÉRMINOS Y CONDICIONES DE VENTA": "MYYNTIEHDOT"
+        },
+      
+        "rgpd": {
+          "POLÍTICA DE PRIVACIDAD": "TIETOSUOJAKÄYTÄNTÖ"
+        },
+      
+        "contact-us": {
+          "CONTACTA CON NOSOTROS": "OTA YHTEYTTÄ MEIHIN",
+          "¿Tienes alguna duda? ¿Alguna propuesta?": "Onko sinulla kysyttävää? Ehdotuksia?",
+          "¡Estamos deseando escucharte!": "Odotamme innolla yhteydenottoasi!",
+          "Nombre": "Nimi",
+          "Apellidos": "Sukunimi",
+          "Email": "Sähköposti",
+          "Categoría": "Kategoria",
+          "Atención al cliente": "Asiakaspalvelu",
+          "Soporte": "Tuki",
+          "Solicitud": "Pyyntö",
+          "Enviar solicitud": "Lähetä pyyntö",
+          "Solicitud de contacto creada con éxito": "Yhteydenottopyyntö luotu onnistuneesti",
+          "Hubo un problema al enviar la solicitud de contacto": "Ongelma yhteydenottopyynnön lähettämisessä",
+          "Rellene todos los campos para enviar la solicitud de contacto": "Täytä kaikki kentät lähettääksesi yhteydenottopyynnön",
+          "Escribe aquí...": "Kirjoita tähän...",
+          "Adquiera plan válido": "Hanki voimassa oleva tilaus",
+          "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu": "Hanki PlanS tai Plan360 ottaaksesi yhteyttä Insitu-tiimiin"
+        },
+        
+            "faq": {
+              "FAQ": "FAQ",
+              "Ir a la página ": "Siirry sivulle "
+            },
+          
+            "ban-users": {
+              "USUARIOS BLOQUEADOS": "ESTETYT KÄYTTÄJÄT",
+              "No se pudo obtener el listado de usuarios bloqueados": "Estettyjen käyttäjien luetteloa ei voitu hakea",
+              "¿Desea desbloquear a este usuario?": "Haluatko poistaa eston tältä käyttäjältä?",
+              "Cancelar": "Peruuta",
+              "Desbloquear": "Poista esto",
+              "Usuario desbloqueado": "Käyttäjä vapautettu estosta",
+              "El usuario ya no se encuentra bloqueado": "Käyttäjä ei ole enää estetty",
+              "Respuesta desconocida": "Tuntematon vastaus"
+            },
+          
+            "suscription-detail": {
+              "Características": "Ominaisuudet",
+              "Plan I": "Suunnitelma I",
+              "al mes": "kuukaudessa",
+              "Plan S": "Suunnitelma S",
+              "Plan 360": "Suunnitelma 360",
+              "Búsqueda ilimitada": "Rajoittamaton haku",
+              "Completa tu perfil": "Täydennä profiilisi",
+              "Obtén reseñas verificadas": "Hanki vahvistettuja arvosteluja",
+              "Forma parte de proyecto": "Osallistu projektiin",
+              "Incluido lo relativo al plan I": "Sisältää kaiken Plan I:n",
+              "Contacta con profesionales": "Ota yhteyttä ammattilaisiin",
+              "Filtros de búsqueda Premium": "Premium-hakusuodattimet",
+              "Visualiza todos los perfiles": "Näytä kaikki profiilit",
+              "Aumenta tu visibilidad": "Lisää näkyvyyttäsi",
+              "Métricas avanzadas": "Edistyneet tilastot",
+              "Incluido lo relativo al plan S": "Sisältää kaiken Plan S:n",
+              "Crear y administrar proyectos": "Luo ja hallitse projekteja",
+              "Gestiona poderes a tu equipo": "Hallitse tiimin käyttöoikeuksia",
+              "Almacenamiento ilimitado de proyectos": "Rajoittamaton projektitallennus",
+              "Creación de chat grupales": "Luo ryhmäkeskusteluja",
+              "Calendario compartido": "Jaettu kalenteri"
+            },
+          
+            "my-jobs": {
+              "TRABAJOS": "TYÖT",
+              "No se pudo obtener los trabajos": "Töitä ei voitu hakea",
+              "¿Desea eliminar la imagen?": "Haluatko poistaa kuvan?",
+              "No": "Ei",
+              "Sí": "Kyllä",
+              "Hubo un problema al borrar": "Poistossa tapahtui virhe",
+              "¿Desea ajustar la imagen antes de que sea subida?": "Haluatko säätää kuvaa ennen lataamista?",
+              "Subir imagen": "Lataa kuva",
+              "No se pudo crear el trabajo": "Työtä ei voitu luoda",
+              "Ajustar imagen": "Säädä kuvaa",
+              "Cancelar Subida": "Peru lataus"
+            },
+          
+            "languages": {
+              "IDIOMAS": "KIELET",
+              "Idiomas": "Kielet",
+              "Añadir otro idioma": "Lisää toinen kieli",
+              "Añadir otro lenguaje": "Lisää toinen kieli",
+              "Guardar cambios": "Tallenna muutokset",
+              "No se pudo obtener los idiomas": "Kieliä ei voitu hakea"
+            },
+          
+            "locations": {
+              "UBICACIONES": "SIJAINNIT",
+              "Tu ubicación": "Sijaintisi",
+              "Buscar dirección": "Etsi osoite",
+              "Ubicaciones donde puedes trabajar": "Sijainnit, joissa voit työskennellä",
+              "Ubicación": "Sijainti",
+              "Añadir otra ubicación": "Lisää toinen sijainti",
+              "Guardar cambios": "Tallenna muutokset",
+              "No se pudo obtener las ubicaciones": "Sijainteja ei voitu hakea"
+            },
+          
+            "usersetags": {
+              "No se pudo obtener los tags": "Tunnisteita ei voitu hakea",
+              "TAGS": "TUNNISTEET"
+            },
+          
+            "my-profile": {
+              "Trabajos": "Työt",
+              "Ubicaciones": "Sijainnit",
+              "Idiomas": "Kielet",
+              "Redes sociales": "Sosiaalinen media",
+              "Editar": "Muokkaa",
+              "Tu ubicación": "Sijaintisi",
+              "Sin ubicación actual": "Ei nykyistä sijaintia",
+              "Ubicaciones donde puede trabajar": "Sijainnit, joissa voi työskennellä",
+              "Trabajos de": "Työt kohteelle",
+              "Sin opiniones": "Ei arvosteluja",
+              "opiniones": "arvostelua",
+              "Sin Suscripción": "Ei tilausta",
+              "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido": "Hanki tilaus käyttääksesi sovellusta täysimääräisesti",
+              "Error obteniendo el usuario": "Virhe käyttäjätietojen hakemisessa",
+              "No se pudieron obtener los trabajos": "Töitä ei voitu hakea",
+              "No se pudieron obtener las ubicaciones": "Sijainteja ei voitu hakea",
+              "No se pudieron obtener los idiomas": "Kieliä ei voitu hakea",
+              "No se pudieron obtener las etiquetas": "Tunnisteita ei voitu hakea",
+              "No se pudieron obtener las redes": "Sosiaalisia verkostoja ei voitu hakea"
+            },
+          
+            "home": {
+              "Descubre nuestro top": "Tutustu parhaisiimme",
+              "Los mejores profesionales muestran sus anuncios": "Parhaat ammattilaiset esittelevät ilmoituksiaan",
+              "Logan descriptivo de anuncio especial": "Erikoisilmoituksen kuvaus",
+              "Contacta con el éxito": "Ota yhteyttä menestykseen",
+              "Descubre los usuarios que harán realidad tu proyecto": "Löydä käyttäjät, jotka tekevät projektistasi totta"
+            },
+          
+            "notifications": {
+              "Notificaciones": "Ilmoitukset",
+              "Pulsa aquí para conocer más": "Paina tästä saadaksesi lisätietoja",
+              "No se pudo obtener las notificaciones": "Ilmoituksia ei voitu hakea",
+              "No se pudo obtener los datos del usuario": "Käyttäjätietoja ei voitu hakea",
+              "No se pudo obtener las carpetas del proyecto": "Projektin kansioita ei voitu hakea"
+            },
+          
+            "notifications-settings": {
+              "CONFIGURACIÓN DE NOTIFICACIONES": "ILMOITUSASETUKSET",
+              "Valoraciones recibidas": "Saadut arvostelut",
+              "Solicitudes de chat": "Keskustelupyynnöt",
+              "Solicitud de chat aceptada": "Keskustelupyyntö hyväksytty",
+              "Solicitudes de proyecto": "Projektipyynnöt",
+              "Nuevas carpetas en el proyecto": "Uudet kansiot projektissa",
+              "Chats de proyecto": "Projektikeskustelut",
+              "Fecha previa al fin del proyecto": "Projektin päättymispäivän ennakkoilmoitus",
+              "Fecha de fin del proyecto": "Projektin päättymispäivä",
+              "No se pudo obtener los datos del usuario": "Käyttäjätietoja ei voitu hakea",
+              "No se pudo actualizar los permisos del usuario": "Käyttöoikeuksia ei voitu päivittää"
+            },
+            
+                
+              
+                "select-report-modal": {
+                  "Indica que quieres reportar": "Ilmoita, mitä haluat raportoida",
+                  "Reportar mensajes": "Raportoi viestit",
+                  "Desnudos o actividad sexual": "Alastomuus tai seksuaalinen toiminta",
+                  "Lenguaje o símbolos que incitan al odio": "Vihapuhe tai vihasymbolit",
+                  "Estafa o fraude": "Huijaus tai petos",
+                  "Violencia u organizaciones peligrosas": "Väkivalta tai vaaralliset järjestöt",
+                  "Venta de bienes ilegales o regulados": "Laittomien tai säänneltyjen tuotteiden myynti",
+                  "Bullying o acoso": "Kiusaaminen tai häirintä",
+                  "Infracción de la propiedad intelectual": "Immateriaalioikeuksien rikkominen",
+                  "Suicidio o autolesiones": "Itsemurha tai itsensä vahingoittaminen",
+                  "Spam": "Roskaposti",
+                  "El problema no aparece en la lista": "Ongelmaa ei ole listassa",
+                  "Usuario o contraseña incorrectos": "Väärä käyttäjätunnus tai salasana",
+                  "El usuario ya se encuentra registrado": "Käyttäjä on jo rekisteröity",
+                  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Tämä tili on väliaikaisesti estetty, ota yhteyttä ylläpitäjiin saadaksesi lisätietoja",
+                  "Error del servidor, inténtelo más tarde": "Palvelinvirhe, yritä myöhemmin uudelleen",
+                  "Error desconocido, inténtelo más tarde": "Tuntematon virhe, yritä myöhemmin uudelleen",
+                  "Enviar reporte": "Lähetä ilmoitus",
+                  "No se pudo reportar al usuario": "Käyttäjää ei voitu raportoida",
+                  "Usuario reportado": "Käyttäjä raportoitu",
+                  "Debe seleccionar un motivo de reporte": "Sinun on valittava ilmoituksen syy"
+                },
+              
+                
+              
+                "workspace": {
+                  "Colaboraciones": "Yhteistyöt",
+                  "Mis proyectos": "Projektini",
+                  "Estado del proyecto": "Projektin tila",
+                  "Seleccione": "Valitse",
+                  "Todos": "Kaikki",
+                  "Activos": "Aktiiviset",
+                  "Finalizados": "Päättyneet",
+                  "participantes": "osallistujat",
+                  "No se pudo obtener las colaboraciones de proyecto": "Projektin yhteistyötietoja ei voitu hakea",
+                  "No se pudo obtener el listado de proyectos": "Projektien luetteloa ei voitu hakea"
+                },
+              
+                "modal-filt-text": {
+                  "Filtro de nombre": "Nimisuodatin",
+                  "Introduzca el nombre del proyecto": "Kirjoita projektin nimi",
+                  "Nombre de proyecto": "Projektin nimi",
+                  "Continuar": "Jatka"
+                },
+              
+                "new-project": {
+                  "CREAR NUEVO PROYECTO": "LUO UUSI PROJEKTI",
+                  "Añadir imagen": "Lisää kuva",
+                  "Nombre": "Nimi",
+                  "Nombre Proyecto": "Projektin nimi",
+                  "Descripción del proyecto": "Projektin kuvaus",
+                  "Escribe aquí...": "Kirjoita tähän...",
+                  "Key Code": "Avainkoodi",
+                  "Introduzca clave": "Syötä avainkoodi",
+                  "Fecha de finalización": "Päättymispäivä",
+                  "Podrá ser editada desde el apartado de Configuración": "Voidaan muokata asetuksista",
+                  "Crear Proyecto": "Luo projekti",
+                  "La fecha de finalización debe ser posterior a la fecha actual": "Päättymispäivän tulee olla tulevaisuudessa",
+                  "Ya tienes un proyecto con ese nombre": "Sinulla on jo projekti tällä nimellä",
+                  "Proyecto creado con éxito": "Projekti luotu onnistuneesti",
+                  "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+                  "Hazte con el plan 360 para crear y administrar proyectos": "Hanki Plan 360 luodaksesi ja hallitaksesi projekteja"
+                },
+              
+                "detail-proyect": {
+                  "Creado por": "Luonut",
+                  "Carpetas": "Kansiot",
+                  "participantes": "osallistujat",
+                  "Ver todas": "Näytä kaikki",
+                  "Chats": "Keskustelut",
+                  "Ver todos": "Näytä kaikki",
+                  "No se obtuvo las carpetas del proyecto": "Projektin kansioita ei voitu hakea",
+                  "Sin Suscripción": "Ei tilausta",
+                  "Adquiere una suscripción para interactuar con los proyectos en los que colaboras": "Hanki tilaus osallistuaksesi projekteihin"
+                },
+              
+                "new-folder": {
+                  "NUEVA CARPETA": "UUSI KANSIO",
+                  "Añadir imagen de portada": "Lisää kansikuvaksi",
+                  "Nombre de la carpeta": "Kansion nimi",
+                  "Nombre Carpeta": "Kansion nimi",
+                  "Aceptar y continuar": "Hyväksy ja jatka",
+                  "Carpeta creada con éxito": "Kansio luotu onnistuneesti",
+                  "Se alcanzó el máximo de subidas permitidas": "Latausten enimmäismäärä saavutettu",
+                  "Conetenido multimedia eliminado": "Multimediasisältö poistettu",
+                  "No se pudo eliminar el contenido": "Sisältöä ei voitu poistaa",
+                  "Nuevo contenido subido correctamente": "Uusi sisältö ladattu onnistuneesti",
+                  "Máximo alcanzado": "Maksimi saavutettu",
+                  "Hazte con el plan 360 para subir contenido de forma ilimitada": "Hanki Plan 360 ladataksesi rajattomasti sisältöä"
+                },
+                
+                    "edit-project": {
+                      "EDITAR PROYECTO": "MUOKKAA PROJEKTIA",
+                      "Añadir imagen": "Lisää kuva",
+                      "Nombre": "Nimi",
+                      "Nombre Proyecto": "Projektin nimi",
+                      "Descripción del proyecto": "Projektin kuvaus",
+                      "Escribe aquí...": "Kirjoita tähän...",
+                      "Key Code": "Avainkoodi",
+                      "Introduzca clave": "Syötä avainkoodi",
+                      "Fecha de finalización": "Päättymispäivä",
+                      "Podrá ser editada desde el apartado de Configuración": "Voidaan muokata asetuksista",
+                      "Actualizar": "Päivitä",
+                      "Editar usuarios": "Muokkaa käyttäjiä",
+                      "No se obtuvieron las carpetas del proyecto": "Projektin kansioita ei saatu",
+                      "La fecha de finalización debe ser posterior a la fecha actual": "Päättymispäivän tulee olla tulevaisuudessa",
+                      "Proyecto actualizado": "Projekti päivitetty",
+                      "Proyecto indicado ya no existe": "Projektia ei ole enää olemassa",
+                      "Solo el creador del proyecto puede borrarlo": "Vain projektin luoja voi poistaa sen",
+                      "Proyecto eliminado": "Projekti poistettu",
+                      "Eliminar proyecto": "Poista projekti",
+                      "¿Estás seguro de querer eliminar el proyecto?": "Haluatko varmasti poistaa projektin?",
+                      "Cancelar": "Peruuta",
+                      "Aceptar": "Hyväksy",
+                      "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "Hanki Plan 360 luodaksesi ja hallitaksesi projekteja"
+                    },
+                  
+                    "edit-participants": {
+                      "MODIFICAR PARTICIPANTES": "MUOKKAA OSALLISTUJIA",
+                      "Participantes del proyecto": "Projektin osallistujat",
+                      "Creador": "Luoja",
+                      "Pendiente": "Odottaa",
+                      "Aceptar y continuar": "Hyväksy ja jatka",
+                      "Buscar": "Etsi",
+                      "No se obtuvieron los paticipantes": "Osallistujia ei saatu",
+                      "No se pudo obtener más usuarios": "Enemmän käyttäjiä ei voitu hakea",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "Valittu käyttäjä on jo lisätty osallistujaluetteloon",
+                      "Sin Categorías": "Ei kategorioita",
+                      "Usuarios asociados al proyecto": "Projektin käyttäjät",
+                      "El proyecto indicado ya no existe": "Projektia ei ole enää olemassa",
+                      "No se puedieron asignar los participantes": "Osallistujia ei voitu lisätä",
+                      "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+                      "Hazte con el plan 360 para crear y administrar proyectos": "Hanki Plan 360 luodaksesi ja hallitaksesi projekteja"
+                    },
+                  
+                    "add-participants": {
+                      "AGREGAR PARTICIPANTES": "LISÄÄ OSALLISTUJIA",
+                      "Participantes del proyecto": "Projektin osallistujat",
+                      "Administrador": "Ylläpitäjä",
+                      "Pendiente": "Odottaa",
+                      "Buscar": "Etsi",
+                      "Aceptar y continuar": "Hyväksy ja jatka",
+                      "Tú": "Sinä",
+                      "No se pudo obtener más usuarios": "Enemmän käyttäjiä ei voitu hakea",
+                      "El usuario seleccionado ya está añadido al listado de participantes": "Valittu käyttäjä on jo lisätty osallistujaluetteloon",
+                      "Sin Categorías": "Ei kategorioita",
+                      "Usuarios asociados al proyecto": "Projektin käyttäjät",
+                      "El proyecto indicado ya no existe": "Projektia ei ole enää olemassa",
+                      "No se pudieron asignar los participantes": "Osallistujia ei voitu lisätä"
+                    },
+                  
+                    "grant-permissions": {
+                      "PERMISOS DEL PROYECTO": "PROJEKTIN OIKEUDET",
+                      "Administradores actuales": "Nykyiset ylläpitäjät",
+                      "Tú": "Sinä",
+                      "Administrador": "Ylläpitäjä",
+                      "Pendiente": "Odottaa",
+                      "Selecciona al usuario al que desees otorgar el rol de administrador": "Valitse käyttäjä, jolle haluat antaa ylläpitäjän oikeudet",
+                      "Aceptar y continuar": "Hyväksy ja jatka",
+                      "No se obtuvieron los participantes": "Osallistujia ei saatu",
+                      "Sin Categorías": "Ei kategorioita",
+                      "El usuario seleccionado ya está añadido al listado": "Valittu käyttäjä on jo lisätty luetteloon",
+                      "Permisos asociados": "Liitetyt oikeudet",
+                      "El proyecto indicado ya no existe": "Projektia ei ole enää olemassa",
+                      "No se puedieron asignar los permisos": "Oikeuksia ei voitu myöntää",
+                      "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+                      "Hazte con el plan 360 para gestionar permisos a los usuarios": "Hanki Plan 360 hallitaksesi käyttäjien oikeuksia"
+                    },
+                  
+                    "add-project": {
+                      "quiere añadirte al proyecto": "{{name}} haluaa lisätä sinut projektiin",
+                      "¿Deseas unirte al Workspace?": "Haluatko liittyä työtilaan?",
+                      "Aceptar": "Hyväksy",
+                      "Rechazar": "Hylkää",
+                      "Proyecto rechazado con éxito": "Projekti hylätty onnistuneesti",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "Projekti ei ole enää liitetty tiliisi",
+                      "No se pudo rechazar el proyecto": "Projektia ei voitu hylätä",
+                      "Sin proyecto": "Ei projektia",
+                      "Sin Categorías": "Ei kategorioita",
+                      "¡Proyecto aceptado!": "Projekti hyväksytty!",
+                      "El proyecto ya no existe": "Projektia ei ole enää olemassa",
+                      "El KeyCode introducido no es correcto": "Syötetty avainkoodi ei ole oikea",
+                      "No se pudo verificar el usuario en el proyecto": "Käyttäjää ei voitu vahvistaa projektissa",
+                      "Sin Suscripción": "Ei tilausta",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Hanki tilaus hyväksyäksesi ja hylätäksesi projekteja"
+                    },
+                  
+                    "modal-keycode": {
+                      "Key code": "Avainkoodi",
+                      "Añade el código de acceso proporcionado por el administrador": "Syötä ylläpitäjän antama pääsykoodi",
+                      "Continuar": "Jatka",
+                      "Adquiera una suscripción para poder aceptar y rechazar proyectos": "Hanki tilaus hyväksyäksesi ja hylätäksesi projekteja",
+                      "¡Proyecto aceptado!": "Projekti hyväksytty!",
+                      "El proyecto ya no se encuentra asociado a su cuenta": "Projekti ei ole enää liitetty tiliisi",
+                      "El proyecto ya no existe": "Projektia ei ole enää olemassa",
+                      "El KeyCode introducido no es correcto": "Syötetty avainkoodi ei ole oikea",
+                      "No se pudo verificar usuario en el proyecto": "Käyttäjää ei voitu vahvistaa projektissa",
+                      "Introduzca una clave para continuar": "Syötä koodi jatkaaksesi"
+                    },
+                  
+                    "folders": {
+                      "CARPETAS": "KANSIOT",
+                      "No se obtuvieron las carpetas del proyecto": "Projektin kansioita ei saatu"
+                    },
+                  
+                    "folder-content": {
+                      "No se obtuvo las carpetas del proyecto": "Projektin kansioita ei saatu",
+                      "Nuevo contenido subido correctamente": "Uusi sisältö ladattu onnistuneesti",
+                      "No se pudo obtener las carpetas del proyecto": "Projektin kansioita ei saatu",
+                      "Máximo alcanzado": "Maksimi saavutettu",
+                      "Hazte con el plan 360 para subir contenido de forma ilimitada": "Hanki Plan 360 ladataksesi sisältöä rajoituksetta"
+                    },
+                    
+                        "modal-multimedia": {
+                          "Volver a contenido multimedia": "Palaa multimediaan"
+                        },
+                      
+                        "my-suscription": {
+                          "Mi suscripción": "Tilaukseni",
+                          "Ver características": "Katso ominaisuudet",
+                          "Planes": "Suunnitelmat",
+                          "Pago mensual": "Kuukausimaksu",
+                          "Pago anual (Descuento del 15%)": "Vuosimaksu (15 % alennus)",
+                          "al mes": "kuukaudessa",
+                          "al año": "vuodessa",
+                          "Free": "Ilmainen",
+                          "Buscador avanzado": "Edistynyt haku",
+                          "Complete Workspace": "Täydellinen työtila",
+                          "Tu plan actual": "Nykyinen tilauksesi",
+                          "¡Suscripción cambiada!": "Tilaus vaihdettu!",
+                          "Suscripción cambiada correctamente": "Tilaus vaihdettu onnistuneesti",
+                          "Continuar a la app": "Jatka sovellukseen",
+                          "Comprar un proyecto": "Osta projekti",
+                          "No se obtuvieron suscripciones": "Tilauksia ei saatu",
+                          "Obtener plan ": "Hanki suunnitelma ",
+                          "Cambiar a plan ": "Vaihda suunnitelmaan ",
+                          "Cargando...": "Ladataan...",
+                          "Hubo un problema para cambiar": "Ongelma tilausta vaihtaessa"
+                        },
+                      
+                        "project-checkout": {
+                          "CHECKOUT": "MAKSU",
+                          "Compra de": "Osto:",
+                          "1 proyecto": "1 projekti",
+                          "Crédito o débito": "Luotto tai pankkikortti",
+                          "Paypal": "Paypal",
+                          "Apple Pay": "Apple Pay",
+                          "He leído y acepto ": "Olen lukenut ja hyväksyn ",
+                          "los Términos y Condiciones de Venta": "myyntiehdot",
+                          "¡Pago realizado!": "Maksu suoritettu!",
+                          "La compra de un proyecto se ha realizado correctamente": "Projektin osto on suoritettu onnistuneesti",
+                          "Continuar a la app": "Jatka sovellukseen",
+                          "Total": "Yhteensä",
+                          "Continuar": "Jatka",
+                          "Cargando...": "Ladataan...",
+                          "Pago cancelado por el usuario.": "Käyttäjä peruutti maksun.",
+                          "Ocurrió un error durante la transacción de pago": "Tapahtui virhe maksutapahtuman aikana",
+                          "No se pudo realizar el pago.": "Maksua ei voitu suorittaa.",
+                          "Pago cancelado.": "Maksu peruutettu.",
+                          "Pago completado.": "Maksu suoritettu."
+                        },
+                      
+                        "suscription-checkout": {
+                          "CHECKOUT": "MAKSU",
+                          "Pago del ": "Maksu: ",
+                          "Crédito o débito": "Luotto tai pankkikortti",
+                          "Paypal": "Paypal",
+                          "Apple Pay": "Apple Pay",
+                          "He leído y acepto ": "Olen lukenut ja hyväksyn ",
+                          "los Términos y Condiciones de Venta": "myyntiehdot",
+                          "¡Pago realizado!": "Maksu suoritettu!",
+                          "El pago de la suscripción se ha realizado correctamente": "Tilausmaksu on suoritettu onnistuneesti",
+                          "Continuar a la app": "Jatka sovellukseen",
+                          "Total": "Yhteensä",
+                          "Continuar": "Jatka",
+                          "Cargando...": "Ladataan...",
+                          "Método de pago agregado correctamente.": "Maksutapa lisätty onnistuneesti.",
+                          "Ingreso de método de pago cancelado.": "Maksutavan lisäys peruutettu.",
+                          "Pago completado correctamente.": "Maksu suoritettu onnistuneesti.",
+                          "Pago cancelado por el usuario.": "Käyttäjä peruutti maksun.",
+                          "Error durante el proceso de pago.": "Virhe maksun käsittelyssä.",
+                          "Ocurrió un error durante el proceso de suscripción.": "Virhe tilausta käsiteltäessä.",
+                          "Error al procesar la suscripción.": "Virhe tilausta käsiteltäessä.",
+                          "Error al configurar el pago con Apple Pay.": "Virhe Apple Pay -maksua asetettaessa.",
+                          "No se pudo realizar el pago con Apple Pay.": "Apple Pay -maksua ei voitu suorittaa.",
+                          "Ocurrió un error durante el proceso de pago con Apple Pay.": "Virhe Apple Pay -maksun käsittelyssä."
+                        },
+                      
+                        "conectar": {
+                          "Conecta con": "Yhdistä käyttäjän kanssa",
+                          "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.": "Olet pyytänyt yhteydenottoa tähän käyttäjään. Kirjoita viesti, jossa selität, miksi haluaisit työskennellä yhdessä projektissa.",
+                          "Escribe aquí...": "Kirjoita tähän...",
+                          "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra": "Käyttäjällä, johon olet ottanut yhteyttä, on 24 tuntia aikaa vastata pyyntöösi. Kun 24 tuntia on kulunut, pyyntö hylätään automaattisesti. Lähettämällä tämän pyynnön hyväksyt, että jaamme julkiset tietosi meidän",
+                          "política de privacidad": "tietosuojakäytännön mukaisesti",
+                          "Conectar": "Yhdistä",
+                          "Ya hay una solicitud para ese usuario": "Tälle käyttäjälle on jo lähetetty pyyntö",
+                          "Solicitud creada con éxito": "Pyyntö luotu onnistuneesti",
+                          "Resultado desconocido": "Tuntematon tulos",
+                          "Hubo un problema al enviar la solicitud": "Pyyntöä lähetettäessä tapahtui virhe",
+                          "El mensaje no puede estar vacio": "Viesti ei voi olla tyhjä"
+                        },
+                        
+                            "user-search": {
+                              "Buscar": "Hae",
+                              "Ordenar": "Järjestä",
+                              "No hay resultados": "Ei tuloksia",
+                              "conectar": "yhdistä",
+                              "Sin oficio": "Ei ammattia",
+                              "Sin opiniones": "Ei arvosteluja",
+                              "opiniones": "arvostelut",
+                              "Sin ubicación actual": "Ei nykyistä sijaintia",
+                              "FOTOGRAFÍA": "VALOKUVAUS",
+                              "CINE / VIDEO": "ELOKUVA / VIDEO",
+                              "MÚSICA": "MUSIIKKI",
+                              "TEATRO": "TEATTERI",
+                              "EVENTOS": "TAPAHTUMAT",
+                              "TV": "TV",
+                              "OTROS": "MUUT",
+                              "FILTROS": "SUODATTIMET",
+                              "Restablecer": "Nollaa",
+                              "Tu ubicación": "Sijaintisi",
+                              "Buscar dirección": "Etsi osoite",
+                              "Categorías": "Kategoriat",
+                              "EVENTOS Y FIESTAS": "TAPAHTUMAT JA JUHLAT",
+                              "SIN CATEGORÍA": "EI KATEGORIAA",
+                              "Etiquetas": "Tunnisteet",
+                              "Escribe palabras clave para filtrar resultados": "Kirjoita avainsanat tulosten suodattamiseksi",
+                              "Escribe aquí...": "Kirjoita tähän...",
+                              "Rango de precio": "Hintahaarukka",
+                              "Selecciona un rango de precio para filtrar resultados": "Valitse hintahaarukka suodattaaksesi tuloksia",
+                              "Rango": "Haarukka",
+                              "Mínimo": "Minimi",
+                              "día": "päivä",
+                              "Máximo": "Maksimi",
+                              "Mejor valorados": "Parhaiten arvioidut",
+                              "Más valorados": "Eniten arvostellut",
+                              "Precio ascendente": "Hinta nouseva",
+                              "Precio descendente": "Hinta laskeva",
+                              "No se pudo obtener listado de usuarios": "Käyttäjäluetteloa ei voitu noutaa",
+                              "No se pudo obtener el contador de categorías": "Kategorioiden laskuria ei voitu noutaa",
+                              "Sin tags": "Ei tunnisteita",
+                              "Ya hay una solicitud enviada pendiente de aceptar": "Pyyntö on jo lähetetty ja odottaa hyväksyntää",
+                              "Resultado desconocido": "Tuntematon tulos",
+                              "No se pudo comprobar la existencia de la solicitud": "Pyyntöä ei voitu vahvistaa",
+                              "Ya hay un Tag con ese valor": "Tunniste on jo olemassa",
+                              "El campo está vacío, no se puede crear un Tag": "Kenttä on tyhjä, tunnistetta ei voi luoda",
+                              "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+                              "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Hanki Initial- tai 360-suunnitelma käyttääksesi ja ottaaksesi yhteyttä käyttäjiin"
+                            },
+                          
+                            
+                          
+                            "Usuario o contraseña incorrectos": "Väärä käyttäjätunnus tai salasana",
+                            "El usuario ya se encuentra registrado": "Käyttäjä on jo rekisteröitynyt",
+                            "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Tämä tili on tilapäisesti estetty, ota yhteyttä ylläpitäjiin saadaksesi lisätietoja.",
+                            "Error del servidor, inténtelo más tarde": "Palvelinvirhe, yritä myöhemmin uudelleen",
+                            "Error desconocido, inténtelo más tarde": "Tuntematon virhe, yritä myöhemmin uudelleen",
+                          
+                            "codeErrors": {
+                              "Usuario o contraseña incorrectos": "Väärä käyttäjätunnus tai salasana",
+                              "El usuario ya se encuentra registrado": "Käyttäjä on jo rekisteröitynyt",
+                              "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información.": "Tämä tili on tilapäisesti estetty, ota yhteyttä ylläpitäjiin saadaksesi lisätietoja.",
+                              "Error del servidor, inténtelo más tarde": "Palvelinvirhe, yritä myöhemmin uudelleen",
+                              "Error desconocido, inténtelo más tarde": "Tuntematon virhe, yritä myöhemmin uudelleen"
+                            },
+                            "buscador": {
+    "BUSCADOR": "HAKU",
+    "Buscar": "Hae",
+    "Conectar": "Yhdistä",
+    "No hay resultados": "Ei tuloksia",
+    "Descubre nuestro top": "Tutustu huippuihimme",
+    "Los mejores profesionales muestran sus anuncios": "Parhaat ammattilaiset esittelevät ilmoituksiaan",
+    "Contacta con el éxito": "Ota yhteyttä menestykseen",
+    "Descubre los usuarios que haran realidad tu proyecto": "Löydä käyttäjät, jotka toteuttavat projektisi",
+    "Ordenar": "Järjestä",
+    "conectar": "yhdistä",
+    "Sin oficio": "Ei ammattia",
+    "Sin opiniones": "Ei arvosteluja",
+    "opiniones": "arvostelut",
+    "Sin ubicación actual": "Ei nykyistä sijaintia",
+    "FOTOGRAFÍA": "VALOKUVAUS",
+    "CINE / VIDEO": "ELOKUVA / VIDEO",
+    "FILM / VÍDEO": "FILMI / VIDEO",
+    "MÚSICA": "MUSIIKKI",
+    "TEATRO": "TEATTERI",
+    "EVENTOS": "TAPAHTUMAT",
+    "TV": "TV",
+    "OTROS": "MUUT",
+    "FILTROS": "SUODATTIMET",
+    "Restablecer": "Palauta",
+    "Tu ubicación": "Sijaintisi",
+    "Buscar dirección": "Etsi osoite",
+    "Categorías": "Kategoriat",
+    "EVENTOS Y FIESTAS": "TAPAHTUMAT JA JUHLAT",
+    "SIN CATEGORÍA": "EI KATEGORIAA",
+    "Etiquetas": "Tunnisteet",
+    "Escribe palabras clave para filtrar resultados": "Kirjoita avainsanat suodattaaksesi tuloksia",
+    "Escribe aquí...": "Kirjoita tähän...",
+    "Rango de precio": "Hintahaarukka",
+    "Selecciona un rango de precio para filtrar resultados": "Valitse hintahaarukka suodattaaksesi tuloksia",
+    "Rango": "Haarukka",
+    "Mínimo": "Minimi",
+    "día": "päivä",
+    "Máximo": "Maksimi",
+    "Mejor valorados": "Parhaiten arvioidut",
+    "Más valorados": "Eniten arvioidut",
+    "Precio ascendente": "Hinta nouseva",
+    "Precio descendente": "Hinta laskeva",
+    "No se pudo obtener listado de usuarios": "Ei voitu hakea käyttäjälistaa",
+    "No se pudo obtener el contador de categorías": "Ei voitu hakea kategorioiden laskuria",
+    "Sin tags": "Ei tunnisteita",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Pyyntö on jo lähetetty ja odottaa hyväksyntää",
+    "Resultado desconocido": "Tuntematon tulos",
+    "No se pudo comprobar la existencia de la solicitud": "Pyyntöä ei voitu vahvistaa",
+    "Ya hay un Tag con ese valor": "Tunniste on jo olemassa",
+    "El campo está vacío, no se puede crear un Tag": "Kenttä on tyhjä, tunnistetta ei voi luoda",
+    "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Hanki Alkuperäinen tai 360-suunnitelma käyttääksesi ja ottaaksesi yhteyttä käyttäjiin",
+    "Texto descriptivo del anuncio especial": "Erikoisilmoituksen kuvaava teksti"
+},
+
+"buscador2": {
+    "BUSCADOR": "HAKU",
+    "Buscar": "Hae",
+    "Conectar": "Yhdistä",
+    "No hay resultados": "Ei tuloksia",
+    "Descubre nuestro top": "Tutustu huippuihimme",
+    "Los mejores profesionales muestran sus anuncios": "Parhaat ammattilaiset esittelevät ilmoituksiaan",
+    "Contacta con el éxito": "Ota yhteyttä menestykseen",
+    "Descubre los usuarios que haran realidad tu proyecto": "Löydä käyttäjät, jotka toteuttavat projektisi",
+    "Ordenar": "Järjestä",
+    "conectar": "yhdistä",
+    "Sin oficio": "Ei ammattia",
+    "Sin opiniones": "Ei arvosteluja",
+    "opiniones": "arvostelut",
+    "Sin ubicación actual": "Ei nykyistä sijaintia",
+    "FOTOGRAFÍA": "VALOKUVAUS",
+    "CINE / VIDEO": "ELOKUVA / VIDEO",
+    "FILM / VÍDEO": "FILMI / VIDEO",
+    "MÚSICA": "MUSIIKKI",
+    "TEATRO": "TEATTERI",
+    "EVENTOS": "TAPAHTUMAT",
+    "TV": "TV",
+    "OTROS": "MUUT",
+    "FILTROS": "SUODATTIMET",
+    "Restablecer": "Palauta",
+    "Tu ubicación": "Sijaintisi",
+    "Buscar dirección": "Etsi osoite",
+    "Categorías": "Kategoriat",
+    "EVENTOS Y FIESTAS": "TAPAHTUMAT JA JUHLAT",
+    "SIN CATEGORÍA": "EI KATEGORIAA",
+    "Etiquetas": "Tunnisteet",
+    "Escribe palabras clave para filtrar resultados": "Kirjoita avainsanat suodattaaksesi tuloksia",
+    "Escribe aquí...": "Kirjoita tähän...",
+    "Rango de precio": "Hintahaarukka",
+    "Selecciona un rango de precio para filtrar resultados": "Valitse hintahaarukka suodattaaksesi tuloksia",
+    "Rango": "Haarukka",
+    "Mínimo": "Minimi",
+    "día": "päivä",
+    "Máximo": "Maksimi",
+    "Mejor valorados": "Parhaiten arvioidut",
+    "Más valorados": "Eniten arvioidut",
+    "Precio ascendente": "Hinta nouseva",
+    "Precio descendente": "Hinta laskeva",
+    "No se pudo obtener listado de usuarios": "Ei voitu hakea käyttäjälistaa",
+    "No se pudo obtener el contador de categorías": "Ei voitu hakea kategorioiden laskuria",
+    "Sin tags": "Ei tunnisteita",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Pyyntö on jo lähetetty ja odottaa hyväksyntää",
+    "Resultado desconocido": "Tuntematon tulos",
+    "No se pudo comprobar la existencia de la solicitud": "Pyyntöä ei voitu vahvistaa",
+    "Ya hay un Tag con ese valor": "Tunniste on jo olemassa",
+    "El campo está vacío, no se puede crear un Tag": "Kenttä on tyhjä, tunnistetta ei voi luoda",
+    "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios": "Hanki Alkuperäinen tai 360-suunnitelma käyttääksesi ja ottaaksesi yhteyttä käyttäjiin",
+    "Texto descriptivo del anuncio especial": "Erikoisilmoituksen kuvaava teksti"
+},
+"chats": {
+    "Cargando chats...": "Ladataan keskusteluja...",
+    "Buscar": "Hae",
+    "Chats": "Keskustelut",
+    "Solicitudes": "Pyynnöt",
+    "Aceptar": "Hyväksy",
+    "Rechazar": "Hylkää",
+    ": ha enviado un PDF": ": lähetti PDF-tiedoston",
+    "Tú: has enviado un PDF": "Sinä: lähetit PDF-tiedoston",
+    ": ha enviado un AUDIO": ": lähetti ÄÄNItiedoston",
+    "Tú: has enviado un AUDIO": "Sinä: lähetit ÄÄNItiedoston",
+    ": ha enviado una imagen": ": lähetti kuvan",
+    "Tú: has enviado una imagen": "Sinä: lähetit kuvan",
+    "Sin mensajes aún": "Ei vielä viestejä",
+    "No se pueden obtener los chats": "Keskusteluja ei voida hakea",
+    "Borrar chat": "Poista keskustelu",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Haluatko poistaa keskustelun ' + chat.nombre + ' ?",
+    "Cancelar": "Peruuta",
+    "Borrando chat": "Poistetaan keskustelua",
+    "No se ha podido borrar el chat": "Keskustelua ei voitu poistaa",
+    "No se pudieron obtener las solicitudes": "Pyyntöjä ei voitu hakea",
+    "Solicitud eliminada exitósamente": "Pyyntö poistettu onnistuneesti",
+    "Resultado desconocido": "Tuntematon tulos",
+    "No se pudo eliminar la solicitud": "Pyyntöä ei voitu poistaa",
+    "Solicitud aceptada exitósamente": "Pyyntö hyväksytty onnistuneesti",
+    "La solicitud ya no es valida": "Pyyntö ei ole enää voimassa",
+    "No se pudo aceptar la solicitud": "Pyyntöä ei voitu hyväksyä",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: lähetti PDF-tiedoston",
+    "ha enviado un AUDIO": "{{name}}: lähetti ÄÄNItiedoston",
+    "ha enviado una imagen": "{{name}}: lähetti kuvan",
+    "Tú: {{mensaje}}": "Sinä: {{mensaje}}",
+    "No se pueden obtener los mensajes": "Viestejä ei voida hakea",
+    "No se ha podido enviar el mensaje": "Viestiä ei voitu lähettää",
+    "Cargando mensajes...": "Ladataan viestejä...",
+    "Grabación finalizada": "Tallennus päättynyt",
+    "Pulse aquí para enviar": "Paina tästä lähettääksesi",
+    "No se puede obtener el archivo": "Tiedostoa ei voida hakea"
+},
+
+"FOTOGRAFÍA": "VALOKUVAUS",
+"FILM / VÍDEO": "ELOKUVA / VIDEO",
+"CINE / VIDEO": "ELOKUVA / VIDEO",
+"TV": "TV",
+"MÚSICA": "MUSIIKKI",
+"EVENTOS Y FIESTAS": "TAPAHTUMAT JA JUHLAT",
+"TEATRO": "TEATTERI",
+"OTROS": "MUUT",
+"SIN CATEGORÍA": "EI KATEGORIAA",
+
+"add-participants-to-group": {
+    "AGREGAR MIEMBROS AL GRUPO DE CHAT": "LISÄÄ JÄSENIÄ KESKUSTELURYHMÄÄN",
+    "Nombre del grupo": "Ryhmän nimi",
+    "Escribe aquí...": "Kirjoita tähän...",
+    "Miembros del grupo": "Ryhmän jäsenet",
+    "Tú": "Sinä",
+    "Crear grupo": "Luo ryhmä",
+    "No se obtuvieron los participantes": "Osallistujia ei voitu hakea",
+    "El usuario seleccionado ya está añadido al listado de participantes": "Valittu käyttäjä on jo lisätty osallistujien listalle",
+    "Sin Categorías": "Ei kategorioita",
+    "Introduzca un nombre para el grupo de chat": "Anna ryhmälle nimi",
+    "¡Grupo de chat creado!": "Keskusteluryhmä luotu!",
+    "No se pudo crear el grupo": "Ryhmä ei voitu luoda",
+    "Debe añadir al menos un miembro al grupo de chat": "Sinun on lisättävä vähintään yksi jäsen keskusteluryhmään",
+    "Sin Suscripción válida": "Ei voimassa olevaa tilausta",
+    "Hazte con el plan 360 para crear y administrar proyectos": "Hanki 360-suunnitelma luodaksesi ja hallitaksesi projekteja"
+},
+
+"app-chat-header": {
+    "Conectado": "Yhdistetty",
+    "¿Desea bloquear a este usuario?": "Haluatko estää tämän käyttäjän?",
+    "Cancelar": "Peruuta",
+    "Bloquear": "Estä",
+    "Usuario bloqueado": "Käyttäjä estetty",
+    "El usuario ya se encuentra bloqueado": "Käyttäjä on jo estetty",
+    "Respuesta desconocida": "Tuntematon vastaus"
+},
+
+"app-chat-footer": {
+    "Escribe aquí...": "Kirjoita tähän...",
+    "Grabación finalizada": "Tallennus päättynyt",
+    "Pulse aquí para enviar": "Paina tästä lähettääksesi",
+    "Se está realizando una grabación de audio": "Äänitallennus on käynnissä",
+    "Hay un archivo de audio pendiente para enviar": "Äänitiedosto odottaa lähetystä",
+    "Solo se permiten archivos .pdf": "Vain .pdf-tiedostot ovat sallittuja",
+    "Ya hay una grabación en proceso": "Tallennus on jo käynnissä"
+},
+"app-pgchat-footer":{
+    "Grabación finalizada":"Tallennus päättynyt",
+    "Pulse aquí para enviar":"Paina tästä lähettääksesi",
+    "Se está realizando una grabación de audio":"Äänitallennus on käynnissä",
+    "Hay un archivo de audio pendiente para enviar":"Äänitiedosto odottaa lähetystä",
+    "Solo se permiten archivos .pdf":"Vain .pdf-tiedostot ovat sallittuja",
+    "Ya hay una grabación en proceso":"Tallennus on jo käynnissä"
+},
+
+"app-pnchat-footer":{
+    "Grabación finalizada":"Tallennus päättynyt",
+    "Pulse aquí para enviar":"Paina tästä lähettääksesi",
+    "Se está realizando una grabación de audio":"Äänitallennus on käynnissä",
+    "Hay un archivo de audio pendiente para enviar":"Äänitiedosto odottaa lähetystä",
+    "Solo se permiten archivos .pdf":"Vain .pdf-tiedostot ovat sallittuja",
+    "Ya hay una grabación en proceso":"Tallennus on jo käynnissä"
+},
+
+"app-chat-group":{
+    "mensajes nuevos":"uusia viestejä"
+},
+
+"app-pnchat-header":{
+    "Conectado":"Yhdistetty"
+},
+
+"pnchats":{
+    "CHATS":"KESKUSTELUT",
+    "TODOS":"KAIKKI",
+    "Grupos":"Ryhmät",
+    "Solicitudes":"Pyynnöt",
+    "Aceptar":"Hyväksy",
+    "Rechazar":"Hylkää",
+    ": ha enviado un PDF": ": lähetti PDF-tiedoston",
+    "Tú: has enviado un PDF": "Sinä: lähetit PDF-tiedoston",
+    ": ha enviado un AUDIO": ": lähetti ÄÄNItiedoston",
+    "Tú: has enviado un AUDIO": "Sinä: lähetit ÄÄNItiedoston",
+    ": ha enviado una imagen": ": lähetti kuvan",
+    "Tú: has enviado una imagen": "Sinä: lähetit kuvan",
+    "Sin mensajes aún": "Ei vielä viestejä",
+    "No se pueden obtener los chats": "Keskusteluja ei voida hakea",
+    "Borrar chat": "Poista keskustelu",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "Haluatko poistaa keskustelun ' + chat.nombre + ' ?",
+    "Cancelar": "Peruuta",
+    "Borrando chat": "Poistetaan keskustelua",
+    "No se ha podido borrar el chat": "Keskustelua ei voitu poistaa",
+    "No se pudieron obtener las solicitudes": "Pyyntöjä ei voitu hakea",
+    "Solicitud eliminada exitósamente": "Pyyntö poistettu onnistuneesti",
+    "Resultado desconocido": "Tuntematon tulos",
+    "No se pudo eliminar la solicitud": "Pyyntöä ei voitu poistaa",
+    "Solicitud aceptada exitósamente": "Pyyntö hyväksytty onnistuneesti",
+    "La solicitud ya no es valida": "Pyyntö ei ole enää voimassa",
+    "No se pudo aceptar la solicitud": "Pyyntöä ei voitu hyväksyä",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: lähetti PDF-tiedoston",
+    "ha enviado un AUDIO": "{{name}}: lähetti ÄÄNItiedoston",
+    "ha enviado una imagen": "{{name}}: lähetti kuvan",
+    "Tú: {{mensaje}}": "Sinä: {{mensaje}}",
+    "No se pueden obtener los mensajes": "Viestejä ei voida hakea",
+    "No se ha podido enviar el mensaje": "Viestiä ei voitu lähettää",
+    "Cargando mensajes...": "Ladataan viestejä...",
+    "Grabación finalizada": "Tallennus päättynyt",
+    "Pulse aquí para enviar": "Paina tästä lähettääksesi",
+    "No se puede obtener el archivo": "Tiedostoa ei voida hakea"
+},
+
+"interior-chat":{
+    "Cargando mensajes...":"Ladataan viestejä...",
+    "No se pueden obtener los mensajes":"Viestejä ei voida hakea",
+    "No se ha podido enviar el mensaje":"Viestiä ei voitu lähettää"
+},
+
+"interior-pgchat":{
+    "No se ha podido enviar el mensaje":"Viestiä ei voitu lähettää",
+    "No se pueden obtener los mensajes":"Viestejä ei voida hakea",
+    "Cargando mensajes...":"Ladataan viestejä..."
+},
+
+"interior-pnchat":{
+    "No se ha podido enviar el mensaje":"Viestiä ei voitu lähettää",
+    "No se pueden obtener los mensajes":"Viestejä ei voida hakea",
+    "Cargando mensajes...":"Ladataan viestejä..."
+},
+
+"select-useroptions-modal":{
+    "Bloquear usuario":"Estä käyttäjä",
+    "Reportar usuario":"Ilmoita käyttäjä"
+},
+
+
+  "add-remove-users-modal": {
+    "Listado actualizado": "Lista päivitetty",
+    "No se pudo actualizar el listado": "Listaa ei voitu päivittää",
+    "Añadir al grupo": "Lisää ryhmään",
+    "Quitar del grupo": "Poista ryhmästä",
+    "SACAR USUARIOS DEL GRUPO": "POISTA KÄYTTÄJÄT RYHMÄSTÄ",
+    "METER USUARIOS EN GRUPO": "LISÄÄ KÄYTTÄJÄT RYHMÄÄN",
+    "Usuarios para sacar": "Käyttäjät poistettavaksi",
+    "Usuarios para meter": "Käyttäjät lisättäväksi"
+  },
+
+  "detail-project": {
+    "DETALLES DEL PROYECTO": "PROJEKTIN YKSITYISKOHDAT",
+    "Creador/a del proyecto": "Projektin luoja",
+    "Fecha de finalización": "Päättymispäivä",
+    "Participantes": "Osallistujat",
+    "No se obtuvo las carpetas del proyecto": "Projektikansioita ei voitu hakea"
+  },
+
+  "social-networks": {
+    "Nombre": "Nimi",
+    "Añade un link": "Lisää linkki",
+    "Guardar cambios": "Tallenna muutokset",
+    "REDES SOCIALES": "SOSIAALISET VERKOSTOT"
+  },
+
+  "Ver planes": "Näytä suunnitelmat",
+
+  "other-user": {
+    "Sin opiniones": "Ei arvosteluja",
+    "opiniones": "arvostelut",
+    "Chatear": "Chattaa",
+    "Quitar Favorito": "Poista suosikeista",
+    "Conectar": "Yhdistä",
+    "Trabajos": "Työt",
+    "Ubicaciones": "Sijainnit",
+    "Idiomas": "Kielet",
+    "Redes sociales": "Sosiaaliset verkostot",
+    "Ubicación de este usuario": "Tämän käyttäjän sijainti",
+    "Sin ubicación actual": "Ei nykyistä sijaintia",
+    "Ubicaciones donde puede trabajar": "Sijainnit, joissa hän voi työskennellä",
+    "Trabajos de": "Työt",
+    "Guardar": "Tallenna",
+    "Añadir a Favoritos": "Lisää suosikkeihin",
+    "Usuario Favorito": "Suosikkikäyttäjä",
+    "En Favorito": "Suosikeissa",
+    "En favoritos": "Suosikeissa",
+    "No se pudo obtener los datos del usuario": "Käyttäjätietoja ei voitu hakea",
+    "Ya hay una solicitud enviada pendiente de aceptar": "Pyyntö on jo lähetetty ja odottaa hyväksyntää",
+    "Resultado desconocido": "Tuntematon tulos",
+    "No se pudo comprobar la existencia de la solicitud": "Pyynnön olemassaoloa ei voitu vahvistaa",
+    "No se pudieron obtener los trabajos": "Töitä ei voitu hakea",
+    "No se pudieron obtener las ubicaciones": "Sijainteja ei voitu hakea",
+    "No se pudieron obtener los idiomas": "Kieliä ei voitu hakea",
+    "No se pudieron obtener las redes": "Verkostoja ei voitu hakea",
+    "¿Desea bloquear a este usuario?": "Haluatko estää tämän käyttäjän?",
+    "cancelar": "peruuta",
+    "bloquear": "estä",
+    "Usuario bloqueado": "Käyttäjä estetty",
+    "El usuario ya se encuentra bloqueado": "Käyttäjä on jo estetty",
+    "Respuesta desconocida": "Tuntematon vastaus"
+  },
+
+  "add-rating": {
+    "AÑADE UNA VALORACIÓN": "LISÄÄ ARVOSTELU",
+    "¿Cómo valorarías a ": "Miten arvostelisit ",
+    "Tu valoración ayuda a otros usuarios": "Arvostelusi auttaa muita käyttäjiä",
+    "¿Quieres añadir aglún comentario?": "Haluatko lisätä kommentin?",
+    "Escribe aquí...": "Kirjoita tähän...",
+    "No se pudo obtener los datos del usuario": "Käyttäjätietoja ei voitu hakea",
+    "Introduzca un comentario en la valoración": "Kirjoita arvosteluun kommentti",
+    "¡Valoracion enviada!": "Arvostelu lähetetty!",
+    "Publica": "Julkaise",
+    "Gracias por poner tu comentario a ": "Kiitos kommenttisi jättämisestä "
+  },
+
+  "user-ratings": {
+    "VALORACIONES A ": "ARVOSTELUT KÄYTTÄJÄLLE ",
+    "Más recientes": "Uusimmat",
+    "Menos recientes": "Vanhimmat",
+    "Puntuación": "Pisteet",
+    "Perfil verificado": "Vahvistettu profiili",
+    "Reportar comentario": "Ilmoita kommentista",
+    "Añadir valoración": "Lisää arvostelu",
+    "Sin oficio": "Ei ammattia",
+    "Sin Suscripción": "Ei tilausta",
+    "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios": 
+    "Hanki tilaus nähdäksesi omat ja muiden käyttäjien arvostelut",
+    "Más altas": "Korkeimmat",
+    "Más bajas": "Matalimmat"
+  },
+
+  "select-chatoptions-modal": {
+    "Añadir usuarios": "Lisää käyttäjiä",
+    "Quitar usuarios": "Poista käyttäjiä",
+    "Pronombres": "Pronominit"
+  },
+
+  "En breves habilitaremos esta sección para que puedas disfrutar de su contenido": "Aktivoimme pian tämän osion, jotta voit nauttia sen sisällöstä",
+  
+    "Fotografía": "Valokuvaus",
+    "Film/vídeo": "Elokuva/video",
+    "Cine/vídeo": "Elokuvateatteri/video",
+    "Música": "Musiikki",
+    "Eventos": "Tapahtumat",
+    "Teatro": "Teatteri",
+    "Otros": "Muut",
+    "Sin categoría": "Ei kategoriaa",
+  
+    "El idioma ya se encuentra en el listado": "Kieli on jo luettelossa",
+    "Relación": "Suhde",
+    "precio": "hinta",
+    "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.": "Päästäksesi käsiksi kaikkiin käyttäjän tietoihin ja ottaaksesi yhteyttä, tilaa Plan S tai Plan 360.",
+  
+    "my-ads": {
+      "Mis anuncios": "Omat ilmoitukset",
+      "Tipo de anuncio": "Ilmoitustyyppi",
+      "Duración": "Kesto",
+      "mes": "kuukausi",
+      "meses": "kuukautta",
+      "día": "päivä",
+      "dias": "päivää",
+      "Anuncio borrado con éxito": "Ilmoitus poistettu onnistuneesti",
+      "Vídeo": "Video",
+      "Imagen": "Kuva",
+      "Ver anuncio": "Näytä ilmoitus",
+      "Ver perfil del creador": "Näytä luojan profiili",
+      " y ": " ja "
+    },
+  
+    "upload-advertisement": {
+      "SUBIR ANUNCIO": "LÄHETÄ ILMOITUS",
+      "Quiero publicitar mi perfil": "Haluan mainostaa profiiliani",
+      "Público objetivo": "Kohdeyleisö",
+      "Rango de edad": "Ikäryhmä",
+      "Rango seleccionado": "Valittu alue",
+      "años": "vuotta",
+      "Género": "Sukupuoli",
+      "Hombre": "Mies",
+      "Mujer": "Nainen",
+      "Otro": "Muu",
+      "Localización": "Sijainti",
+      "Buscar dirección": "Hae osoite",
+      "Rango por kilómetros": "Etäisyys kilometreinä",
+      "Rango seleccionado: hasta": "Valittu etäisyys: enintään",
+      "Kilómetros": "Kilometriä",
+      "Intereses": "Kiinnostuksen kohteet",
+      "Pago del anuncio": "Ilmoituksen maksu",
+      "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio": "Valitse hinta, jonka haluat maksaa näyttökerroista tai klikeistä. Määrittämäsi hinnan perusteella näytämme kuinka kauan ilmoituksesi näkyy.",
+      "Precio por clics": "Hinta per klikkaus",
+      "Impresiones": "Näyttökerrat",
+      "Cantidad seleccionada:": "Valittu määrä:",
+      "impresiones": "näyttökertaa",
+      "Duración": "Kesto",
+      "días": "päivää",
+      "Confirmar y proceder al pago": "Vahvista ja siirry maksuun",
+      "Seleccionar imagen": "Valitse kuva",
+      "Selecciona video": "Valitse video"
+    },
+  
+    "El proyecto ha finalizado, no puede realizar modificaciones": "Projekti on päättynyt, muutoksia ei voi tehdä",
+    "USUARIOS FAVORITOS": "SUOSIKKIKÄYTTÄJÄT",
+    "CHAT": "Keskustelu",
+    "No tiene permiso para acceder al contenido de esta carpeta": "Sinulla ei ole oikeuksia tämän kansion sisältöön",
+    "Chat creado con éxito": "Keskustelu luotu onnistuneesti",
+    "Crear chat": "Luo keskustelu",
+    "Nuevo Chat": "Uusi keskustelu",
+  
+    "Permisos de carpeta": "Kansion käyttöoikeudet",
+    "Sin permisos": "Ei käyttöoikeuksia",
+    "Solo lectura": "Vain luku",
+    "Modificar contenido": "Muokkaa sisältöä",
+    "No se pudo obtener más usuarios": "Lisää käyttäjiä ei voitu hakea",
+    "Introduzca el nuevo lenguaje": "Syötä uusi kieli" 
+  }
+  
+
+
+
+
+
+
+
+
+                          
+                            
+                          
+                          
+
+                      
+                      
+                  
+                  
+              
+              
+          
+          
+      
+      
+  
+  

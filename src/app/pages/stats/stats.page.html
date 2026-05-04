@@ -1,0 +1,39 @@
+<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'estadísticas' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="contenido">
+    <div class="selector">
+      <ion-list>
+        <ion-item>
+          <ion-icon src="assets/icon/calendario-estadisticas.svg" slot="start"></ion-icon>
+          <ion-select placeholder="{{ 'Últimos 30 días' | translate }}">
+            <ion-select-option value="last30">{{ 'Últimos 30 días' | translate }}</ion-select-option>
+          </ion-select>
+        </ion-item>
+      </ion-list>
+      <p>30 mar - 30 abr</p>
+    </div>
+    <div class="options">
+      <ion-label class="optionclick">Visualizar en clics</ion-label>
+      <ion-toggle color="primary" [checked]="false" slot="end" mode="ios"></ion-toggle>
+    </div>
+    <div class="views">
+      <ion-label class="title">10.000</ion-label>
+      <ion-label class="title2">impresiones</ion-label>
+    </div>
+    <ion-label class="graficos">{{ 'Detalles demográficos' | translate }}</ion-label>
+    <div class="genero"></div>
+    <ion-label class="locations">{{ 'Por localización' | translate }}</ion-label>
+    <div class="locations-bar"></div>
+    <ion-label class="interest">Por intereses</ion-label>
+    <div class="interest-bar"></div>
+  </div>
+
+</ion-content>

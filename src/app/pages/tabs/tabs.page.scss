@@ -1,0 +1,109 @@
+ion-tab-bar{
+    --background: #26262C;
+    height:80px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+/*ion-tab-button{
+    ion-icon{
+        transform: scale(0.8);
+        //min-width:60px;
+        //min-height:60px;
+    }
+    ion-label{
+        font-size: 10px;
+    }
+}
+
+ion-tab-button.tab-selected{
+    ion-icon{
+        color: white;
+    }
+    ion-label{
+        color: white;
+    }
+}
+
+
+ion-icon.large-icon {
+    min-width: calc(var(--ion-icon-width, 24px) + 10px);
+    margin-left: 8px;
+    //min-height: calc(var(--ion-icon-height, 24px) + 50px);
+  }
+*/
+
+ion-tab-button {
+    position: relative; /* Necesario para posicionar correctamente el punto rojo */
+
+    ion-icon {
+        transform: scale(0.8);
+    }
+
+    ion-label {
+        font-size: 10px;
+    }
+
+    &.tab-selected {
+        ion-icon {
+            color: white;
+        }
+
+        ion-label {
+            color: white;
+        }
+    }
+}
+
+/* Estilos para el icono especial con notificación */
+ion-icon.large-icon {
+   min-width: calc(var(--ion-icon-width, 5px) + 10px);
+    //margin-left: 8px;
+    position: relative; /* Asegura que el pseudo-elemento se posicione relativo a este icono */
+}
+
+/* Punto rojo de notificación */
+ion-icon.large-icon::after {
+    content: ''; /* Requerido para mostrar el pseudo-elemento */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 10px; /* Tamaño del punto rojo */
+    height: 10px;
+    background-color: #F42EB2; /* Color del punto */
+    border-radius: 50%; /* Hace que sea circular */
+    //border: 2px solid white; /* Opcional: borde blanco para mejor visibilidad */
+}
+
+// Media Queries - Solo para Web (ancho > 768px)
+@media (min-width: 769px) {
+  ion-tab-bar {
+    height: 100px;
+    padding-bottom: 30px;
+  }
+
+  ion-tab-button {
+    ion-icon {
+      transform: scale(1.2);
+    }
+
+    ion-label {
+      font-size: 14px;
+      font-family: 'Poppins Medium';
+    }
+
+    &.tab-selected {
+      ion-icon {
+        color: white;
+      }
+
+      ion-label {
+        color: white;
+        font-family: 'Poppins Medium';
+      }
+    }
+  }
+
+  ion-icon.large-icon {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{ 'Nuevo Chat' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngFor="let participant of participants" id="mainDiv" (click)="selectParticipant(participant)" >
+    <img class="roundedImage" [src]="participant?.avatar" alt="Profile Image">
+    <div class="middleContent">
+      <p id="pTitle">{{ participant?.name }} {{ participant?.surname1 }}</p>
+     
+    </div>
+    <ion-icon *ngIf="isUserSelected(participant)" class="rightIcon" src="assets/icons/proyecto-finalizado.svg"></ion-icon>
+    <ion-icon *ngIf="!isUserSelected(participant)" class="rightIcon" src="assets/icons/add-usuario.svg"></ion-icon>
+  </div>
+
+  <div class="custom-footer" >
+    <ion-button [disabled]="!participantSelected" (click)="createNewPnChat()" class="custom-button">{{ 'Crear chat' | translate }}</ion-button>
+  </div>
+
+</ion-content>
+<!--<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>-->

@@ -1,0 +1,120 @@
+#textoIzquierda {
+      float: left;
+    text-align: left;
+    margin-left: 15px;
+    padding-right: 10px;
+    width: 200px;
+   color:#2A2A32;
+    font-family: "Poppins Medium";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+      }
+      
+      #textoDerecha {
+      //text-decoration: underline;
+      color:#F42EB2;
+      float: right;
+      margin-right: 16px;
+      //padding-right: 10px;
+      width: 115px;
+      text-align: right;
+      font-size:15px;
+      font-family: 'Poppins Medium';
+      }
+
+
+      
+
+
+
+#form{
+    margin-top: 59px;
+    margin-left: 19px;
+    margin-right: 19px;
+}
+
+ion-label{
+     color:#F42EB2;
+}
+
+.global {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .global__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    padding-top: 0px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  ion-label {
+    font-size: 14px;
+    font-family: 'Poppins Regular';
+    color: #313a51;
+    --margin-start:4px;
+  }
+  
+  ion-input {
+    border: solid 1px #F42EB2;
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+    font-family: 'Poppins Regular' !important;
+    --padding-top: 8px;
+    --padding-bottom: 8px;
+    --padding-start: 34px;
+    border-radius: 9px;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  
+  
+  
+  
+  .iconItem {
+    position: absolute;
+    left: 10px;
+    top: 49%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+    color: #F42EB2;
+  }
+
+  #icon1{
+    top: 31px !important;
+  }
+
+  #icon2{
+    top: 32px !important;
+  }
+
+
+  .parent-class {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    }
+
+  #pDelete{
+    color:#25252C;
+    font-family: 'Poppins Medium';
+    margin:0 auto;
+  }
+  

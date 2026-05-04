@@ -1,0 +1,80 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+    color: #2E2D2E;
+     text-transform: uppercase;
+    width: 100%;
+    //margin-left: -37px !important;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+    ion-content {
+    // --background: #FFFFFF40; 
+     --padding-start: 15px;
+     --padding-end: 15px;
+    }
+
+    #divEtiquetas{
+
+        padding-left:15px; 
+        padding-right:15px;
+        width:100%; 
+        height:90px; 
+        //background-color:red;
+      }
+    
+      .etiqueta{
+    
+        display: inline-block;
+        color:white; 
+        background-color: #8A8A9A; 
+        font-family: 'Poppins Regular'; 
+        font-size:10pt;
+        border-radius:15px; 
+        margin-top:10px; 
+        padding-top:6px; 
+        padding-bottom:6px; 
+        padding-left:15px; 
+        padding-right:15px;
+        margin-right:6px;
+      }
+
+      

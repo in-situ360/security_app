@@ -1,0 +1,94 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" routerLink="/detail-proyect" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 [ngClass]="{'header-title-shorter':seleccionando }" class="header-title">{{ 'Archivos' | translate }}</h5>
+    <p *ngIf="seleccionando" class="cancel-text" (click)="mostrarSeleccionBorrado()">{{ 'Cancelar' | translate }}</p>
+    <ion-icon *ngIf="seleccionando" id="iconRight2" (click)="eliminarSeleccionados()" src="assets/icon/trash-alt.svg"></ion-icon>
+  </div>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="showOverlay" class="overlay"></div>
+
+   <div *ngFor="let file of uploadProgressList" class="upload-container">
+    <div class="progress-label">{{ file.name }}</div>
+    <ion-progress-bar [value]="file.progress / 100" class="custom-progress" [color]="file.completed ? 'success' : 'primary'"></ion-progress-bar>
+    <div class="progress-text">
+      {{ file.completed ? ('✅ ' + ('Completado' | translate)) : (file.progress + '%') }}
+    </div>
+  </div>
+
+  <div class="image-grid">
+    <!-- Mostrar carpetas -->
+    <div class="media-item" *ngFor="let folder of folders" 
+         (click)="seleccionando ? toggleSeleccion(folder.id) : selectItem(folder)"
+         (mousedown)="startPress(folder)" 
+         (mouseup)="cancelPress()" 
+         (mouseleave)="cancelPress()"
+         (touchstart)="startPress(folder)" 
+         (touchend)="cancelPress()">
+      <div class="media-square">
+        <!-- Div para prevenir selección de contenido -->
+        <div class="no-select-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; pointer-events: none;"></div>
+        
+        <!-- Icono de selección -->
+        <ion-icon *ngIf="seleccionando"
+                  class="check-icon"
+                  [src]="carpetasSeleccionadas.has(folder.id) ? 'assets/icons/checked-icon.svg' : 'assets/icons/no-checked-icon.svg'"
+                  style="z-index: 2;">
+        </ion-icon>
+
+        <!-- Contenido carpeta -->
+        <img [src]="folder?.folderimage || 'assets/imgs/CARPETABEST.png'" style="user-select: none; -webkit-user-select: none; pointer-events: none;">
+      </div>
+
+      <!-- Nombre debajo -->
+      <p class="media-caption">{{ folder?.name }}</p>
+      <p class="media-caption2">{{ folder?.created_at | date:'dd/MM/yyyy' }}</p>
+    </div>
+
+    <!-- Mostrar multimedia -->
+    <div class="media-item" *ngFor="let multimedia of multimedias" 
+         (click)="seleccionando ? toggleSeleccion(multimedia.id) : selectItem(multimedia)"
+         (mousedown)="startPress(multimedia)" 
+         (mouseup)="cancelPress()" 
+         (mouseleave)="cancelPress()"
+         (touchstart)="startPress(multimedia)" 
+         (touchend)="cancelPress()">
+      <div class="media-square">
+        <!-- Div para prevenir selección de contenido -->
+        <div class="no-select-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; pointer-events: none;"></div>
+        
+        <!-- Icono de selección -->
+        <ion-icon *ngIf="seleccionando"
+                  class="check-icon"
+                  [src]="multimediaSeleccionados.has(multimedia.id) ? 'assets/icons/checked-icon.svg' : 'assets/icons/no-checked-icon.svg'"
+                  style="z-index: 2;">
+        </ion-icon>
+
+        <!-- Contenido multimedia -->
+        <img *ngIf="multimedia.thetype === 'link'" class="link-img" src="assets/imgs/linkimg.png" style="user-select: none; -webkit-user-select: none; pointer-events: none; pointer-events: none;">
+        <img *ngIf="multimedia.thetype === 'imagen'" [src]="multimedia.thevalue" style="user-select: none; -webkit-user-select: none; pointer-events: none;" >
+        <img *ngIf="multimedia.thetype === 'PDF'" class="pdf-img" src="assets/icons/file.svg" style="user-select: none; -webkit-user-select: none;  pointer-events: none;">
+        <div class="video-container" *ngIf="multimedia.thetype === 'video'" style="user-select: none; -webkit-user-select: none; pointer-events: none;">
+          <video [src]="multimedia.thevalue" muted style="pointer-events: none;"></video>
+          <div class="video-overlay"></div>
+        </div>
+      </div>
+
+      <!-- Nombre debajo -->
+      <p *ngIf="multimedia.thetype != 'link'" class="media-caption">{{ extractOriginalName(multimedia) }}</p>
+      <p *ngIf="multimedia.thetype == 'link'" class="media-caption">{{ multimedia?.link_name }}</p>
+      <p class="media-caption2">{{ formatCreateDate(multimedia?.created_at) }}</p>
+    </div>
+
+    <ion-infinite-scroll (ionInfinite)="onIonInfinite($event)">
+      <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </div> 
+
+  <!--<ion-icon *ngIf="!isDateEnd" id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="goNewFolder()"></ion-icon>-->
+  <ion-icon *ngIf="!isDateEnd && !seleccionando" id="iconAddProject" src="assets/icons/nuevo-proyecto.svg" (click)="abrirModalMenuProject()"></ion-icon>
+
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

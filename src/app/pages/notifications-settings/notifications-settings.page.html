@@ -1,0 +1,64 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <!-- Título con traducción -->
+    <h5 (click)="goBack()" class="header-title">{{ 'notifications-settings.CONFIGURACIÓN DE NOTIFICACIONES' | translate }}</h5>
+  </div>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full">
+    <form *ngIf="form" [formGroup]="form">
+
+      <ion-item>
+        <!-- Traducción de Valoraciones recibidas -->
+        <ion-label>{{ 'notifications-settings.Valoraciones recibidas' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_ratings" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Solicitudes de chat -->
+        <ion-label>{{ 'notifications-settings.Solicitudes de chat' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_chat_requests" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Solicitud de chat aceptada -->
+        <ion-label>{{ 'notifications-settings.Solicitud de chat aceptada' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_chat_requests_accepted" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Solicitudes de proyecto -->
+        <ion-label>{{ 'notifications-settings.Solicitudes de proyecto' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_project_requests" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Nuevas carpetas en proyecto -->
+        <ion-label>{{ 'notifications-settings.Nuevas carpetas en el proyecto' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_new_folders" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Chat de proyectos -->
+        <ion-label>{{ 'notifications-settings.Chats de proyecto' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_project_chats" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Fecha previa a fin de proyecto -->
+        <ion-label>{{ 'notifications-settings.Fecha previa al fin del proyecto' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_project_end_date" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+      <ion-item>
+        <!-- Traducción de Fecha de fin de proyecto -->
+        <ion-label>{{ 'notifications-settings.Fecha de fin del proyecto' | translate }}</ion-label>
+        <ion-toggle color="primary" formControlName="has_previous_project_end_date" slot="end" mode="ios"></ion-toggle>
+      </ion-item>
+
+    </form>
+  </ion-list>
+</ion-content>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

@@ -1,0 +1,25 @@
+<ion-content [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+
+  <ion-icon id="iconLogo" src="assets/icons/logotipo-3.svg"></ion-icon>
+
+  <p id="pDescr">
+    {{ 'add-proyect.quiere añadirte al proyecto' | translate: {name: projectSelected?.creator?.name} }}
+  </p>
+
+  <div class="container">
+    <div class="image-container">
+      <img id="imgProfile" [src]="projectSelected?.creator?.avatar" alt="Imagen usuario">
+    </div>
+    <div class="text-container">
+      <p id="pName">{{projectSelected?.creator?.name}} {{projectSelected?.creator?.surname1}} </p><!--{{projectSelected?.creator?.representativeName}}-->
+      <p id="p1">{{userLabels}}</p><!--{{ getUserLabels(projectSelected?.creator) }}-->
+    </div>
+  </div>
+
+  <p id="pQuestion">{{ 'add-proyect.¿Deseas unirte al Workspace?' | translate }}</p>
+
+  <ion-button id="btnAceptar" (click)="acceptProject()">{{ 'add-proyect.Aceptar' | translate }}</ion-button>
+  <ion-button id="btnRechazar" (click)="declineUserProject()">{{ 'add-proyect.Rechazar' | translate }}</ion-button>
+
+</ion-content>

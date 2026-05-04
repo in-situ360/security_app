@@ -1,0 +1,137 @@
+.ios-style {
+    padding-top: 75px !important;
+  }
+  
+  .android-style {
+    padding-top: 20px !important;
+  }
+
+  #header {
+    display: flex;
+    flex-direction: column; /* Ensures the second div is below the first */
+    align-items: flex-start; /* Aligns items to the start of the container */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:20px;
+    background-color: #E5E5E5; /* Adjust as necessary */
+
+  }
+
+  #iconLeft {
+    height: 12px;
+    width: 10px;
+    margin-left: 19px;
+    margin-right: 7px;
+  }
+
+  .header-title {
+    font-family: 'Poppins Medium';
+    color: #2E2D2E;
+     text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    //margin-left: -25px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+ion-item::part(native) {
+    --border-radius: 10pt;
+}
+.locations {
+    width: 100%;
+    justify-items: center;
+    display: inline-grid;
+    margin-top: 5%;
+    p {
+        font-family: "Poppins Regular";
+        font-size: 12px;
+        margin-bottom: 2%;
+        color: #62646E;
+    }
+}
+
+form {
+    width: 90%;
+}
+ion-item {
+    --min-height: 40px;
+    margin-bottom: 3%;
+}
+
+.locationwork{
+    display: flex;
+    margin-top: -2%;
+}
+ion-input {
+    font-family: "Poppins Regular";
+    font-size: 14px;
+}
+.addlocation {
+    --background:#F42EB2;
+    font-family: "Poppins Regular";
+    font-size: 12px;
+    --border-radius: 10pt;
+    height: 40px;
+    margin-top: 0%;
+}
+
+ion-footer {
+    z-index: -1;
+    height: 15%;
+    ion-button{
+        width: 90%;
+        --background: #26262C;
+        margin-left:5%;
+    }
+}
+
+
+
+/*#searchTextField{
+ // width:100%;
+ // padding-top: 16px;
+ // padding-bottom: 16px;
+ // font-size: 17px;
+ // color: #313a51;
+ // border: solid 1px #9da6b6;
+ // background-color: white;
+ // margin-bottom: 20px;
+ // border-radius: 5px;
+ // --padding-start: 20px;
+ // font-family: 'DMSans-Medium';
+  //width: 343px;
+  &:focus-within {
+    border: 0px;;
+  }
+}*/
+
+#searchTextField {
+  margin-top:-1px;
+  font-size: 16px;
+  width: 90%;
+  border: 0px; /* Sin borde */
+  outline: none; /* Elimina el contorno predeterminado */
+}
+
+
+.otherLocations{
+  margin-top:-1px;
+  font-size: 16px;
+  width: 70%;
+  border: 0px; /* Sin borde */
+  outline: none; /* Elimina el contorno predeterminado */
+  background-color:white;
+}

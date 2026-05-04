@@ -1,0 +1,181 @@
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 10px !important;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #E5E5E5;
+
+    padding-bottom: 44px;
+}
+
+#iconLeft {
+  height: 15px;
+  width: 13px;
+  z-index: 9999;
+}
+
+#iconRight {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 3px;
+  z-index: 9999;
+  color: black;
+}
+
+.header-title {
+  font-family: 'Poppins SemiBold';
+   text-transform: uppercase;
+  flex: 1;
+  color: #2E2D2E;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+}
+
+ion-title {
+  margin-left: 0% !important;
+  text-align: center;
+}
+
+ion-button {
+  font-size: 20px;
+}
+
+ion-content {
+  --background: url(../../../assets/imgs/BACKGROUND-MI-PERFIL.png) no-repeat center center / cover;
+  --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-bottom:16px;
+}
+
+/* Notificaciones */
+.newnotification,
+.readnotification {
+  background: white;
+  //border-radius: 15pt;
+  padding: 10px 15px 25px 15px;
+  //margin: 5% 5% 0 5%;
+  //box-shadow: 0px 0px 10px #0000005e;
+  //border: 1px solid #F42EB2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.newnotification p {
+
+  font-size: 12px;
+  font-family: "Poppins Medium";
+  margin: 0;
+}
+
+.readnotification p {
+  font-size: 12px;
+  font-family: "Poppins Medium";
+  margin: 0;
+  color:grey;
+}
+
+.notification-date {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  font-size: 10px;
+  font-family: "Poppins Medium";
+  color: #888;
+}
+
+
+.item-wrapper {
+  //--background: transparent;
+  padding: 0;
+  background: transparent !important;
+}
+
+
+
+ion-item-sliding {
+  --max-option-width: 60px; /* No documentado oficialmente, pero funciona en muchos casos */
+}
+
+
+.sliding-read {
+  border: 1px solid #A0A0A0 !important;
+}
+
+/* Para notificaciones NO leídas: borde gris */
+.sliding-unread {
+  border: 1px solid #F42EB2 !important;
+}
+
+
+
+
+
+//-------------------------------------------
+
+
+
+.notif-bottom-bar {
+  position: absolute;    /* o usa ion-footer si prefieres */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 39px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  border-top: 1px solid #eaeaea;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.06);
+  z-index: 10;
+}
+
+.mark-all-btn {
+  background: transparent;
+  border: none;
+  color: #F42EB2;          /* rosa de tu app */
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0;
+}
+
+.right-group {
+  display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    justify-content: right;
+}
+
+.only-unread-label {
+  color: #3a3a3a;
+  font-size: 14px;
+}
+
+ion-toggle {
+    scale: 60%;
+    width: 61px;
+    margin-right: -8%;
+    --background:#7A7B88;
+}
+
+/* Evita que el contenido quede oculto tras la barra */
+ion-content {
+  --padding-bottom: 48px; /* algo mayor que 39px */
+}

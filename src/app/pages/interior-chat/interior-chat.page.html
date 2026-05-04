@@ -1,0 +1,59 @@
+<ion-header [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <app-chat-header 
+  [chatName]="chatName" 
+  [lastMessage]="lastMessage"
+  [avatar]="avatar"
+  [chat_id]="chat_id"
+  [telNumber]="telNumber"
+  [user_id]="user_id">
+  <ion-back-button></ion-back-button>
+
+</app-chat-header>
+<div *ngIf="pdfUploadProgress.name" class="upload-container">
+  <div class="progress-label">{{ pdfUploadProgress.name }}</div>
+  <ion-progress-bar
+    [value]="pdfUploadProgress.progress / 100"
+    class="custom-progress"
+    [color]="pdfUploadProgress.completed ? 'success' : 'primary'">
+  </ion-progress-bar>
+  <div class="progress-text">
+    {{ pdfUploadProgress.completed ? '✅ Completado' : (pdfUploadProgress.progress + '%') }}
+  </div>
+</div>
+</ion-header>
+
+
+<ion-content #content  scrollEvents="true" (ionScroll)="onScroll($event)">
+  
+  <app-loading [text]="loadingMessage" [color]="'dark'" *ngIf="isLoading"></app-loading>
+
+  <ng-container *ngFor="let item of getGroupedMessages()">
+    <!-- Separador de fecha -->
+    <div *ngIf="item.isDateSeparator" class="date-separator">
+      <span class="date-label">{{ item.dateLabel }}</span>
+    </div>
+
+    <!-- Mensaje -->
+    <app-chat-item *ngIf="!item.isDateSeparator"
+      [icon]="item.message?.avatar" 
+      [text]="item.message?.texto"
+      [image]="item.message?.imagen" 
+      [archive]="item.message?.urlarchive" 
+      [pdfbase64]="item.message?.pdfbase64"  
+      [pdfdata]="item.message?.pdfdata" 
+      [date]="item.message?.created_at"
+      [urlarchiveaudio]="item.message?.urlarchiveaudio"
+      [audiobase64]="item.message?.audiobase64"
+      [id]="item.message?.id"
+      (longPress)="onLongPress($event)"
+     >
+    </app-chat-item>
+  </ng-container>
+  
+</ion-content>
+
+<app-chat-footer id="componentFooter" 
+  [placeholder]="'Escribe tu mensaje...'"
+  (sendText)="sendMessage($event)">
+</app-chat-footer>
+<app-insitu-loading *ngIf="isChargeLoading"></app-insitu-loading>

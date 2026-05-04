@@ -1,0 +1,6 @@
+<ion-content [ngClass]="{'android-style-content': isAndroid}">
+  <div [ngClass]="{'android-style-buttons': isAndroid}" class="cover">
+    <ion-button class="Registro" mode="md" expand="block" routerLink="/register">{{ 'cover-page.Registro' | translate }}</ion-button>
+    <ion-button class="Login" mode="md" expand="block" routerLink="/login">{{ 'cover-page.Iniciar sesión' | translate }}</ion-button>
+  </div>
+</ion-content>

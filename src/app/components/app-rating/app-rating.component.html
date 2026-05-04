@@ -1,0 +1,3 @@
+<ion-icon [ngClass]="size" *ngFor="let item of [0,1,2,3,4]; let i = index"
+    [name]="i + 1 <= rating? 'star' : (rating % 1 !==0 && round(rating) == (i + 1)) ? 'star-half':'star-outline'"
+    [color]="color"></ion-icon>

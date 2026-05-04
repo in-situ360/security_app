@@ -1,0 +1,74 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'project-checkout.CHECKOUT' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="tittle">
+    <p>{{ 'project-checkout.Compra de' | translate }}</p>
+    <p class="product">{{ 'project-checkout.1 proyecto' | translate }}</p>
+  </div>
+  <ion-radio-group (ionChange)="onRadioGroupChange($event)">
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="credit"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{ 'project-checkout.Crédito o débito' | translate }}</ion-label>
+      <ion-icon src="assets/icon/visa.svg"></ion-icon>
+      <ion-icon src="assets/icon/mastercard.svg"></ion-icon>
+    </ion-item>
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="paypal"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{ 'project-checkout.Paypal' | translate }}</ion-label>
+      <ion-icon src="assets/icon/paypal.svg"></ion-icon>
+    </ion-item>
+    <ion-item class="paymethod">
+      <ion-radio slot="start" value="apple"></ion-radio>
+      <ion-label style="font-family: 'Poppins Regular'; font-size: 12px; color:#2E2D2E">{{ 'project-checkout.Apple Pay' | translate }}</ion-label>
+      <ion-icon src="assets/icon/apple-pay.svg" style="color:#000000"></ion-icon>
+    </ion-item>
+  </ion-radio-group>
+  
+  <div class="checkbox">
+    <div class="check">
+      <ion-checkbox [(ngModel)]="isTermsAccepted"></ion-checkbox>
+    </div>
+    <div class="label">
+      <ion-label>
+        {{ 'project-checkout.He leído y acepto ' | translate }}<a [routerLink]="['/tyc']" (click)="$event.stopPropagation()" style="color:#2E2D2E">{{ 'project-checkout.los Términos y Condiciones de Venta' | translate }}</a>
+      </ion-label>
+    </div>
+  </div>
+
+  <div class="totalpay">
+    <p style="font-family: 'Poppins Regular'; font-size: 18px; color:#0A162E;text-align: center; ">{{ 'project-checkout.Total' | translate }}:</p>
+    <p style="font-family: 'Poppins SemiBold'; font-size: 27px; color:#0A162E; margin-top:-23px; text-align: center;">{{this.thePrice}}€</p>
+  </div>
+
+  <ion-modal id="payment-confirmation" #modal [isOpen]="isModalOpen" (willDismiss)="activame(modal)"><!--trigger="confirm-payment"-->
+    <ng-template>
+      <div class="wrapper">
+        <ion-icon src="assets/icon/comprobar.svg"></ion-icon>
+        <h1>{{ 'project-checkout.¡Pago realizado!' | translate }}</h1>
+        <ion-label>{{ 'project-checkout.La compra de un proyecto se ha realizado correctamente' | translate }}</ion-label>
+        <ion-button mode="md" (click)="setOpen(false)">{{ 'project-checkout.Continuar a la app' | translate }}</ion-button>
+      </div>
+    </ng-template>
+  </ion-modal>
+
+
+
+  <div class="custom-footer" >
+    <ion-button class="custom-button" (click)="pagar()" [disabled]="!selectedPaymentMethod || !isTermsAccepted" mode="md" id="confirm-payment" expand="block">{{'Continuar' | translate }}</ion-button>
+  </div>
+
+
+</ion-content>
+
+<!--<ion-footer>
+  <div class="finishpayment">
+    <div class="totalpay">
+      <p style="font-family: 'Poppins Regular'; font-size: 13px; color:#0A162E;">{{ 'project-checkout.Total' | translate }}</p>
+      <p style="font-family: 'Poppins SemiBold'; font-size: 16px; color:#0A162E; margin-top:-15px;">12,99€</p>
+    </div>
+    <ion-button (click)="pagar()" [disabled]="!selectedPaymentMethod || !isTermsAccepted" mode="md" id="confirm-payment" expand="block">{{ 'project-checkout.Continuar' | translate }}</ion-button>
+  </div>
+</ion-footer>-->

@@ -1,0 +1,112 @@
+<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Editar perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="contenido">
+    <div class="avatar">
+      <ion-avatar>
+        <img alt="" src="assets/imgs/foto-perfil-usuario.png" />
+      </ion-avatar>
+      <ion-fab>
+        <ion-fab-button>
+          <ion-icon name="camera-outline"></ion-icon>
+        </ion-fab-button>
+      </ion-fab>
+    </div>
+    <div class="checkbox">
+      <div class="check">
+        <ion-checkbox></ion-checkbox>
+      </div>
+      <div class="label">
+        <ion-label>
+          No mostrar mi perfil en el buscador
+        </ion-label>
+      </div>
+    </div>
+    <form>
+      <p style="color:#F42EB2">Nombre</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/user-rosa.svg"></ion-icon>
+        </ion-label>
+        <ion-input placeholder="Marta"></ion-input>
+      </ion-item>
+      <p>Apellidos</p>
+      <div class="apellidos">
+        <ion-item>
+          <ion-label>
+            <ion-icon src="assets/icon/user-rosa.svg"></ion-icon>
+          </ion-label>
+          <ion-input type="text" placeholder="Arias"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <ion-icon src="assets/icon/user-rosa.svg"></ion-icon>
+          </ion-label>
+          <ion-input type="text" placeholder="Gálvez"></ion-input>
+        </ion-item>
+      </div>
+      <p>Fecha de nacimiento</p>
+      <p class="p2">Este detalle no se mostrará de forma pública</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/birthday-cake.svg"></ion-icon>
+        </ion-label>
+        <ion-input placeholder="17/04/1992"></ion-input>
+      </ion-item>
+      <p>Profesión</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/profesion.svg"></ion-icon>
+        </ion-label>
+        <ion-input placeholder="Escribe aquí…"></ion-input>
+      </ion-item>
+      <p>Categoría de trabajo</p>
+      <div class="cloudtags">
+        <ion-chip class="selected"><label>Fotografía</label></ion-chip>
+        <ion-chip class="selected"><label>Film / Video</label></ion-chip>
+        <ion-chip [outline]="true"><label>TV</label></ion-chip>
+        <ion-chip [outline]="true"><label>Música</label></ion-chip>
+        <ion-chip [outline]="true"><label>Eventos</label></ion-chip>
+        <ion-chip [outline]="true"><label>Teatro</label></ion-chip>
+        <ion-chip class="selected"><label>Otros</label></ion-chip>
+        <ion-chip [outline]="true"><label>Sin categoría</label></ion-chip>
+      </div>
+      <p>Salario</p>
+      <p class="p2">Selecciona un rango de salario</p>
+      <ion-range [dualKnobs]="true" [value]="rangeValue" min="400" max="1000" (ionChange)="onIonChange($event)"></ion-range>
+      <p>Rango seleccionado: <b>{{ rangeValue.lower }}-{{ rangeValue.upper }} €/día</b></p>
+
+      <p>Se mostrará como: <b>€€</b> <ion-icon src="assets/icon/interrogacion.svg"></ion-icon></p>
+      <p>Tags</p>
+      <p class="p2">Escribe las palabras clave para describir tu empleo</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/tag-alt.svg"></ion-icon>
+        </ion-label>
+        <ion-input placeholder="Escribe aquí…"></ion-input>
+      </ion-item>
+      <div class="cloudtags">
+        <ion-chip class="tagged"><label>fotografia experimental</label> <ion-icon name="trash-outline"></ion-icon> </ion-chip>
+        <ion-chip class="tagged"><label>photography</label> <ion-icon name="trash-outline"></ion-icon> </ion-chip>
+        <ion-chip class="tagged"><label>freelancer</label> <ion-icon name="trash-outline"></ion-icon> </ion-chip>
+      </div>
+      <p>Descripción</p>
+      <ion-item>
+        <ion-label>
+          <ion-icon src="assets/icon/comment-alt-message.svg"></ion-icon>
+        </ion-label>
+        <ion-textarea placeholder="Escribe aquí…" [autoGrow]="true"></ion-textarea>
+      </ion-item>
+    </form>
+  </div>
+</ion-content>
+<ion-footer>
+  <ion-button type="submit">Guardar cambios</ion-button>
+</ion-footer>

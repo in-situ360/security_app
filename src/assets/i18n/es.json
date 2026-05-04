@@ -1,0 +1,1536 @@
+{
+
+  "languaje-select":{
+
+    "SELECCIÓN DE IDIOMA": "SELECCIÓN DE IDIOMA",
+    "Seleccionar idioma": "Seleccionar idioma",
+    "Selecciona el idioma que quieres que se muestre en la app": "Selecciona el idioma que quieres que se muestre en la app",
+    "Aceptar y continuar": "Aceptar y continuar",
+    "CREAR CARPETA": "CREAR CARPETA",
+    "Nombre de nueva la carpeta": "Nombre de nueva la carpeta",
+    "AÑADIR": "AÑADIR",
+    "Documentos": "Documentos",
+    "Links": "Links",
+    "Nueva carpeta": "Nueva carpeta",
+    "AÑADIR LINK": "AÑADIR LINK",
+    "Título": "Título",
+    "Título de link": "Título de link",
+    "URL": "URL",
+    "URL de link": "URL de link",
+    "Link creado": "Link creado",
+    "Carpeta Eliminada": "Carpeta Eliminada",
+    "EDITAR CARPETA": "EDITAR CARPETA",
+    "Eliminar carpeta": "Eliminar carpeta",
+    "Carpeta actualizada": "Carpeta actualizada",
+    "Eliminar": "Eliminar",
+    "¿Desea eliminar el proyecto?": "¿Desea eliminar el proyecto?",
+    "Cancelar": "Cancelar",
+    "Aceptar": "Aceptar",
+    "Marcar todo como leído": "Marcar todo como leído",
+    "Mostrar sólo no leídas": "Mostrar sólo no leídas",
+    "Chat": "Chat",
+    "Selecciona un idioma": "Selecciona un idioma",
+    "Inglés": "Inglés",
+    "Español": "Español",
+    "Francés": "Francés",
+    "Alemán": "Alemán",
+    "Italiano": "Italiano",
+    "Portugués": "Portugués",
+    "Ruso": "Ruso",
+    "Chino(Simplificado)": "Chino (Simplificado)",
+    "Chino(Tradicional)": "Chino (Tradicional)",
+    "Japonés": "Japonés",
+    "Coreano": "Coreano",
+    "Árabe": "Árabe",
+    "Hindi": "Hindi",
+    "Bengalí": "Bengalí",
+    "Holandés": "Holandés",
+    "Sueco": "Sueco",
+    "Noruego": "Noruego",
+    "Finlandés": "Finlandés",
+    "Danés": "Danés",
+    "Polaco": "Polaco",
+    "Turco": "Turco",
+    "Griego": "Griego",
+    "Checo": "Checo",
+    "Hebreo": "Hebreo",
+    "Húngaro": "Húngaro",
+    "Vietnamita": "Vietnamita",
+    "Indonesio": "Indonesio",
+    "Tailandés": "Tailandés",
+    "Catalán": "Catalán",
+    "Romanés": "Romanés",
+    "Ucraniano": "Ucraniano",
+    "Serbio": "Serbio",
+    "Croata": "Croata",
+    "Eslovaco": "Eslovaco",
+    "Letón": "Letón",
+    "Estonio": "Estonio",
+    "Otro":"Otro"
+
+  },
+
+  "cover-page":{
+    "Registro": "Registro", 
+    "Iniciar sesión":"Iniciar sesión"
+  },
+
+  "login":{
+    "Iniciar sesión":"Iniciar sesión",
+    "Usuario": "Usuario",
+    "Contraseña": "Contraseña",
+    "He olvidado mi contraseña": "He olvidado mi contraseña",
+    "Entrar": "Entrar",
+    "Entrar como invitado": "Entrar como invitado",
+    "¿Aún no tienes una cuenta?": "¿Aún no tienes una cuenta?",
+    "Regístrate": "Regístrate",
+    "Entrando": "Entrando...",
+    "Usuario o contraseña incorrectos": "Usuario o contraseña incorrectos",
+    "El usuario ya se encuentra registrado": "El usuario ya se encuentra registrado",
+    "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información",
+    "Error del servidor, inténtelo más tarde": "Error del servidor, inténtelo más tarde",
+    "Error desconocido, inténtelo más tarde": "Error desconocido, inténtelo más tarde"
+  },
+
+
+  "forgot-password":{
+      "RECUPERAR CONTRASEÑA": "RECUPERAR CONTRASEÑA",
+      "¿Has olvidado tu contraseña?": "¿Has olvidado tu contraseña?",
+      "Añade tu email y te enviaremos una nueva clave de acceso": "Añade tu email y te enviaremos una nueva clave de acceso.",
+      "Email": "Email",
+      "Enviar": "Enviar",
+      "¡Se ha enviado el email correctamente!":"¡Se ha enviado el email correctamente!",
+      "Error al enviar el email":"Error al enviar el email"
+  },
+
+  "register":{
+    "Registro": "Registro",
+    "¿Cómo deseas acceder a la app?": "¿Cómo deseas acceder a la app?",
+    "Personal": "Personal",
+    "Empresa": "Empresa",
+    "Nombre": "Nombre",
+    "Nombre de representante": "Nombre del representante",
+    "Apellido 1": "Apellido 1",
+    "Apellido 2": "Apellido 2",
+    "Email": "Email",
+    "Contraseña": "Contraseña",
+    "Repetir Contraseña": "Repetir Contraseña",
+    "He leído y acepto": "He leído y acepto",
+    "la Política de Privacidad": "la Política de Privacidad",
+    "los Términos y Condiciones de Venta": "los Términos y Condiciones de Venta",
+    "Registrarme": "Registrarme",
+    "¿Ya estás registrado?": "¿Ya estás registrado?",
+    "Accede aquí": "Accede aquí",
+    "El email es obligatorio":"El email es obligatorio",
+    "El email no es válido":"El email no es válido",
+    "El email debe tener una extensión válida (.com, .org, .net, .edu)":"El email debe tener una extensión válida (.com, .org, .net, .edu)",
+    "El dominio no está permitido o contiene caracteres consecutivos no válidos":"El dominio no está permitido o contiene caracteres consecutivos no válidos",
+    "La contraseña es obligatoria":"La contraseña es obligatoria",
+    "La contraseña debe tener al menos 8 caracteres":"La contraseña debe tener al menos 8 caracteres",
+    "La contraseña debe incluir una mayúscula, un número y un carácter especial":"La contraseña debe incluir una mayúscula, un número y un carácter especial",
+    "Las contraseñas no coinciden":"Las contraseñas no coinciden",
+    "Registrando usuario":"Registrando usuario...",
+    "Nombre Empresa":"Nombre Empresa",
+    "Por favor, revisa los campos con errores antes de continuar":"Por favor, revisa los campos con errores antes de continuar",
+    "El nombre es obligatorio":"El nombre es obligatorio",
+    "El nombre debe tener al menos 3 caracteres":"El nombre debe tener al menos 3 caracteres"
+  },
+
+  "¡Pago realizado!":"¡Pago realizado!",
+  "El pago de la suscripción se ha realizado correctamente":"El pago de la suscripción se ha realizado correctamente",
+
+  "Sin opiniones":"Sin opiniones",
+  "opinión":"opinión",
+  "opiniones":"opiniones",
+  "Eliminar chat":"Eliminar chat",
+
+
+  "Cancelar":"Cancelar",
+  "Advertencia":"Advertencia",
+  "¿Estás seguro de eliminar el chat?":"¿Estás seguro de eliminar el chat?",
+  "Aceptar":"Aceptar",
+  "Chat borrado con éxito":"Chat borrado con éxito",
+  "No se pudo borrar el chat":"No se pudo borrar el chat",
+  "Contenido de":"Contenido de",
+  "Sin seleccionar":"Sin seleccionar",
+  "1 archivo seleccionado":"1 archivo seleccionado",
+  " archivos seleccionados":" archivos seleccionados",
+  "Archivos eliminados":"Archivos eliminados",
+  "No se pudieron borrar los archivos":"No se pudieron borrar los archivos",
+  "Suscripción necesaria":"Suscripción necesaria",
+  "Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios":"Hazte con una suscripción superior al Plan I para poder las valoraciones de otros usuarios",
+  "Activos":"Activos",
+  "Finalizados":"Finalizados",
+  "Mis proyectos":"Mis proyectos",
+  "Colaboraciones":"Colaboraciones",
+  "Subir sin editar":"Subir sin editar",
+  "El archivo supera el tamaño máximo permitido (2.5MB).":"El archivo supera el tamaño máximo permitido (2.5MB).",
+  
+
+  "settings":{
+    "CONFIGURACIÓN": "CONFIGURACIÓN",
+    "Configurar mi cuenta": "Configurar mi cuenta",
+    "Mis métodos de pago": "Mis métodos de pago",
+    "Destacar mi perfil": "Destacar mi perfil",
+    "Mi suscripción": "Mi suscripción",
+    "Mis anuncios": "Mis anuncios",
+    "Estadísticas": "Estadísticas",
+    "Usuarios bloqueados": "Usuarios bloqueados",
+    "Idioma de la app":"Idioma de la app",
+    "Contacta con nosotros": "Contacta con nosotros",
+    "FAQ": "FAQ",
+    "Política de Privacidad": "Política de Privacidad",
+    "Términos y Condiciones de venta": "Términos y Condiciones de venta",
+    "Cerrar sesión": "Cerrar sesión",
+    "Eliminar cuenta": "Eliminar cuenta",
+    "¿Estás seguro de querer cerrar sesión?":"¿Estás seguro de querer cerrar sesión?",
+    "Aceptar":"Aceptar",
+    "Cancelar":"Cancelar",
+    "Advertencia":"Advertencia",
+    "¿Estás seguro de querer eliminar tu cuenta?":"¿Estás seguro de querer eliminar tu cuenta?",
+    "Cuenta eliminada satisfactoriamente":"Cuenta eliminada satisfactoriamente",
+    "Hubo problemas para borrar la cuenta de usuario":"Hubo problemas para borrar la cuenta de usuario",
+    "":""
+
+  },
+
+  "profile-settings":{
+    "CONFIGURAR MI CUENTA": "CONFIGURAR MI CUENTA",
+    "Nombre de usuario": "Nombre de usuario",
+    "Email": "Email",
+    "Contraseña": "Contraseña",
+    "Repetir contraseña": "Repetir contraseña",
+    "Guardar cambios": "Guardar cambios",
+    "Error obteniendo el usuario":"Error obteniendo el usuario",
+    "Cuenta de usuario actualizada":"Cuenta de usuario actualizada",
+    "El nombre es obligatorio":"El nombre es obligatorio",
+    "El nombre debe tener al menos 3 caracteres":"El nombre debe tener al menos 3 caracteres",
+    "El email es obligatorio":"El email es obligatorio",
+    "El email no es válido":"El email no es válido",
+    "El email debe tener una extensión válida (.com, .org, .net, .edu)":"El email debe tener una extensión válida (.com, .org, .net, .edu)",
+    "El dominio no está permitido o contiene caracteres consecutivos no válidos":"El dominio no está permitido o contiene caracteres consecutivos no válidos",
+    "La contraseña es obligatoria":"La contraseña es obligatoria",
+    "La contraseña debe tener al menos 8 caracteres":"La contraseña debe tener al menos 8 caracteres",
+    "La contraseña debe incluir una mayúscula, un número y un carácter especial":"La contraseña debe incluir una mayúscula, un número y un carácter especial",
+    "Las contraseñas no coinciden":"Las contraseñas no coinciden",
+    "":""
+  },
+
+  "tyc":{
+    "TÉRMINOS Y CONDICIONES DE VENTA":"TÉRMINOS Y CONDICIONES DE VENTA"
+  },
+
+  "rgpd":{
+    "POLÍTICA DE PRIVACIDAD":"POLÍTICA DE PRIVACIDAD"
+  },
+
+
+  "contact-us":{
+    "CONTACTA CON NOSOTROS": "CONTACTA CON NOSOTROS",
+    "¿Tienes alguna duda? ¿Alguna propuesta?": "¿Tienes alguna duda? ¿Alguna propuesta?",
+    "¡Estamos deseando escucharte!": "¡Estamos deseando escucharte!",
+    "Nombre":"Nombre",
+    "Apellidos": "Apellidos",
+    "Email": "Email",
+    "Categoría":"Categoría",
+    "Atención al cliente": "Atención al cliente",
+    "Soporte": "Soporte",
+    "Solicitud": "Solicitud",
+    "Enviar solicitud": "Enviar solicitud",
+    "Solicitud de contacto creada con éxito": "Solicitud de contacto creada con éxito",
+    "Hubo un problema al enviar la solicitud de contacto": "Hubo un problema al enviar la solicitud de contacto",
+    "Rellene todos los campos para enviar la solicitud de contacto": "Rellene todos los campos para enviar la solicitud de contacto",
+    "Escribe aquí...":"Escribe aquí...",
+    "Adquiera plan válido":"Adquiera plan válido",
+    "Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu":"Adquiera el PlanS ó el Plan360 para poder ponerse en contacto con el equipo de Insitu"
+  },
+
+  "faq":{
+    "FAQ":"FAQ",
+    "Ir a la página ":"Ir a la página "
+  },
+
+  "ban-users":{
+    "USUARIOS BLOQUEADOS":"USUARIOS BLOQUEADOS",
+    "No se pudo obtener el listado de usuarios bloqueados":"No se pudo obtener el listado de usuarios bloqueados",
+    "¿Desea desbloquear a este usuario?":"¿Desea desbloquear a este usuario?",
+    "Cancelar":"Cancelar",
+    "Desbloquear":"Desbloquear",
+    "Usuario desbloqueado":"Usuario desbloqueado",
+    "El usuario ya no se encuentra bloqueado":"El usuario ya no se encuentra bloqueado",
+    "Respuesta desconocida":"Respuesta desconocida"
+
+  },
+
+  "suscription-detail":{
+    "Características":"Características",
+    "Plan I":"Plan I",
+    "al mes":"al mes",
+    "Plan S":"Plan S",
+    "Plan 360":"Plan 360",
+    "Búsqueda ilimitada":"Búsqueda ilimitada",
+    "Completa tu perfil":"Completa tu perfil",
+    "Obtén reseñas verificadas":"Obtén reseñas verificadas",
+    "Forma parte de proyecto":"Forma parte de proyecto",
+    "Incluido lo relativo al plan I":"Incluido lo relativo al plan I",
+    "Contacta con profesionales":"Contacta con profesionales",
+    "Filtros de búsqueda Premium":"Filtros de búsqueda Premium",
+    "Visualiza todos los perfiles":"Visualiza todos los perfiles",
+    "Aumenta tu visibilidad":"Aumenta tu visibilidad",
+    "Métricas avanzadas":"Métricas avanzadas",
+    "Incluido lo relativo al plan S":"Incluido lo relativo al plan S",
+    "Crear y administrar proyectos":"Crear y administrar proyectos",
+    "Gestiona poderes a tu equipo":"Gestiona poderes a tu equipo",
+    "Almacenamiento ilimitado de proyectos":"Almacenamiento ilimitado de proyectos",
+    "Creación de chat grupales":"Creación de chat grupales",
+    "Calendario compartido":"Calendario compartido"
+
+  },
+
+
+  "my-jobs":{
+
+    "TRABAJOS":"TRABAJOS",
+    "No se pudo obtener los trabajos":"No se pudo obtener los trabajos",
+    "¿Desea eliminar la imagen?":"¿Desea eliminar la imagen?",
+    "No":"No",
+    "Sí":"Sí",
+    "Hubo un problema al borrar":"Hubo un problema al borrar",
+    "¿Desea ajustar la imagen antes de que sea subida?":"¿Desea ajustar la imagen antes de que sea subida?",
+    "Subir imagen":"Subir imagen",
+    "No se pudo crear el trabajo":"No se pudo crear el trabajo",
+    "Ajustar imagen":"Ajustar imagen",
+    "Cancelar Subida":"Cancelar Subida"
+
+  },
+
+  "languages":{
+    "IDIOMAS":"IDIOMAS",
+    "Idiomas":"Idiomas",
+    "Añadir otro idioma":"Añadir otro idioma",
+    "Añadir otro lenguaje":"Añadir otro lenguaje",
+    "Guardar cambios":"Guardar cambios",
+    "No se pudo obtener los idiomas":"No se pudo obtener los idiomas"
+  },
+
+  "locations":{
+    "UBICACIONES":"UBICACIONES",
+    "Tu ubicación":"Tu ubicación",
+    "Buscar dirección":"Buscar dirección",
+    "Ubicaciones donde puedes trabajar":"Ubicaciones donde puedes trabajar",
+    "Ubicación":"Ubicación",
+    "Añadir otra ubicación":"Añadir otra ubicación",
+    "Guardar cambios":"Guardar cambios",
+    "No se pudo obtener las ubicaciones":"No se pudo obtener las ubicaciones"
+  },
+
+  "usersetags":{
+    "No se pudo obtener los tags":"No se pudo obtener los tags",
+    "TAGS":"TAGS"
+    
+  },
+
+  
+
+  "my-profile":{
+    "Trabajos":"Trabajos",
+    "Ubicaciones":"Ubicaciones",
+    "Idiomas":"Idiomas",
+    "Redes sociales":"Redes sociales",
+    "Editar":"Editar",
+    "Tu ubicación":"Tu ubicación",
+    "Sin ubicación actual":"Sin ubicación actual",
+    "Ubicaciones donde puede trabajar":"Ubicaciones donde puede trabajar",
+    "Trabajos de":"Trabajos de",
+    "Sin opiniones":"Sin opiniones",
+    "opiniones":" opiniones",
+    "Sin Suscripción":"Sin Suscripción",
+    "Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido":"Hazte con una suscripción para utilizar la aplicación al completo y sacarle mejor partido",
+    "Error obteniendo el usuario":"Error obteniendo el usuario",
+    "No se pudieron obtener los trabajos":"No se pudieron obtener los trabajos",
+    "No se pudieron obtener las ubicaciones":"No se pudieron obtener las ubicaciones",
+    "No se pudieron obtener los idiomas":"No se pudieron obtener los idiomas",
+    "No se pudieron obtener las etiquetas":"No se pudieron obtener las etiquetas",
+    "No se pudieron obtener las redes":"No se pudieron obtener las redes"
+
+
+  },
+
+  "home":{
+      "Descubre nuestro top": "Descubre nuestro top",
+      "Los mejores profesionales muestran sus anuncios": "Los mejores profesionales muestran sus anuncios",
+      "Logan descriptivo de anuncio especial": "Lema descriptivo de anuncio especial",
+      "Contacta con el éxito": "Contacta con el éxito",
+      "Descubre los usuarios que harán realidad tu proyecto": "Descubre los usuarios que harán realidad tu proyecto"
+  },
+
+  "notifications":{
+    "Notificaciones":"Notificaciones",
+    "Pulsa aquí para conocer más":"Pulsa aquí para conocer más",
+    "No se pudo obtener las notificaciones":"No se pudo obtener las notificaciones",
+    "No se pudo obtener los datos del usuario":"No se pudo obtener los datos del usuario",
+    "No se pudo obtener las carpetas del proyecto":"No se pudo obtener las carpetas del proyecto",
+    "Borrar Notificación":"Borrar Notificación",
+    "¿Desea eliminar la notificacion actual?":"¿Desea eliminar la notificacion actual?"
+    
+
+  },
+
+
+  "notifications-settings":{
+    "CONFIGURACIÓN DE NOTIFICACIONES":"CONFIGURACIÓN DE NOTIFICACIONES",
+    "Valoraciones recibidas":"Valoraciones recibidas",
+    "Solicitudes de chat":"Solicitudes de chat",
+    "Solicitud de chat aceptada":"Solicitud de chat aceptada",
+    "Solicitudes de proyecto":"Solicitudes de proyecto",
+    "Nuevas carpetas en el proyecto":"Nuevas carpetas en el proyecto",
+    "Chats de proyecto":"Chats de proyecto",
+    "Fecha previa al fin del proyecto":"Fecha previa al fin del proyecto",
+    "Fecha de fin del proyecto":"Fecha de fin del proyecto",
+    "No se pudo obtener los datos del usuario":"No se pudo obtener los datos del usuario",
+    "No se pudo actualizar los permisos del usuario":"No se pudo actualizar los permisos del usuario"
+  },
+
+
+  
+
+
+  "select-report-modal":{
+    "Indica que quieres reportar": "Indica que quieres reportar",
+    "Reportar mensajes": "Reportar mensajes",
+    "Desnudos o actividad sexual": "Desnudos o actividad sexual",
+    "Lenguaje o símbolos que incitan al odio": "Lenguaje o símbolos que incitan al odio",
+    "Estafa o fraude": "Estafa o fraude",
+    "Violencia u organizaciones peligrosas": "Violencia u organizaciones peligrosas",
+    "Venta de bienes ilegales o regulados": "Venta de bienes ilegales o regulados",
+    "Bullying o acoso": "Bullying o acoso",
+    "Infracción de la propiedad intelectual": "Infracción de la propiedad intelectual",
+    "Suicidio o autolesiones": "Suicidio o autolesiones",
+    "Spam": "Spam",
+    "El problema no aparece en la lista": "El problema no aparece en la lista",
+    "Usuario o contraseña incorrectos": "Usuario o contraseña incorrectos",
+    "El usuario ya se encuentra registrado": "El usuario ya se encuentra registrado",
+    "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información": "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más información",
+    "Error del servidor, inténtelo más tarde": "Error del servidor, inténtelo más tarde",
+    "Error desconocido, inténtelo más tarde": "Error desconocido, inténtelo más tarde",
+    "Enviar reporte":"Enviar reporte",
+    "No se pudo reportar al usuario":"No se pudo reportar al usuario",
+    "Usuario reportado":"Usuario reportado",
+    "Debe seleccionar un motivo de reporte":"Debe seleccionar un motivo de reporte"
+  },
+
+  
+  
+
+  "workspace":{
+    "Colaboraciones":"Colaboraciones",
+    "Mis proyectos":"Mis proyectos",
+    "Estado del proyecto":"Estado del proyecto",
+    "Seleccione":"Seleccione",
+    "Todos":"Todos",
+    "Activos":"Activos",
+    "Finalizados":"Finalizados",
+    "participantes":"participantes",
+    "No se pudo obtener las colaboraciones de proyecto":"No se pudo obtener las colaboraciones de proyecto",
+    "No se pudo obtener el listado de proyectos":"No se pudo obtener el listado de proyectos"
+
+  },
+
+  "modal-filt-text":{
+    "Filtro de nombre":"Filtro de nombre",
+    "Introduzca el nombre del proyecto":"Introduzca el nombre del proyecto",
+    "Nombre de proyecto":"Nombre de proyecto",
+    "Continuar":"Continuar"
+  },
+
+
+  "new-project":{
+    "CREAR NUEVO PROYECTO":"CREAR NUEVO PROYECTO",
+    "Añadir imagen":"Añadir imagen",
+    "Nombre":"Nombre",
+    "Nombre Proyecto":"Nombre Proyecto",
+    "Descripción del proyecto":"Descripción del proyecto",
+    "Escribe aquí...":"Escribe aquí...",
+    "Key Code":"Key Code",
+    "Introduzca clave":"Introduzca clave",
+    "Fecha de finalización":"Fecha de finalización",
+    "Podrá ser editada desde el apartado de Configuración":"Podrá ser editada desde el apartado de Configuración",
+    "Crear Proyecto":"Crear Proyecto",
+    "La fecha de finalización debe ser posterior a la fecha actual":"La fecha de finalización debe ser posterior a la fecha actual",
+    "Ya tienes un proyecto con ese nombre":"Ya tienes un proyecto con ese nombre",
+    "Proyecto creado con éxito":"Proyecto creado con éxito",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan 360 para crear y administrar proyectos":"Hazte con el plan 360 para crear y administrar proyectos"
+
+  },
+
+  "detail-proyect":{
+    "Creado por":"Creado por",
+    "Carpetas":"Carpetas",
+    "participantes":"participantes",
+    "Ver todas":"Ver todas",
+    "Chats":"Chats",
+    "Ver todos":"Ver todos",
+    "No se obtuvo las carpetas del proyecto":"No se obtuvo las carpetas del proyecto",
+    "Sin Suscripción":"Sin Suscripción",
+    "Adquiere una suscripción para interactuar con los proyectos en los que colaboras":"Adquiere una suscripción para interactuar con los proyectos en los que colaboras"
+  },
+
+  "new-folder":{
+    "NUEVA CARPETA":"NUEVA CARPETA",
+    "Añadir imagen de portada":"Añadir imagen de portada",
+    "Nombre de la carpeta":"Nombre de la carpeta",
+    "Nombre Carpeta":"Nombre Carpeta",
+    "Aceptar y continuar":"Aceptar y continuar",
+    "Carpeta creada con éxito":"Carpeta creada con éxito",
+    "Se alcanzó el máximo de subidas permitidas":"Se alcanzó el máximo de subidas permitidas",
+    "Conetenido multimedia eliminado":"Conetenido multimedia eliminado",
+    "No se pudo eliminar el contenido":"No se pudo eliminar el contenido",
+    "Nuevo contenido subido correctamente":"Nuevo contenido subido correctamente",
+    "Máximo alcanzado":"Máximo alcanzado",
+    "Hazte con el plan 360 para subir contenido de forma ilimitada":"Hazte con el plan 360 para subir contenido de forma ilimitada"
+
+  },
+
+  "edit-project":{
+    "EDITAR PROYECTO":"EDITAR PROYECTO",
+    "Añadir imagen":"Añadir imagen",
+    "Nombre":"Nombre",
+    "Nombre Proyecto":"Nombre Proyecto",
+    "Descripción del proyecto":"Descripción del proyecto",
+    "Escribe aquí...":"Escribe aquí...",
+    "Key Code":"Key Code",
+    "Introduzca clave":"Introduzca clave",
+    "Fecha de finalización":"Fecha de finalización",
+    "Podrá ser editada desde el apartado de Configuración":"Podrá ser editada desde el apartado de Configuración",
+    "Actualizar":"Actualizar",
+    "Editar usuarios":"Editar usuarios",
+    "No se obtuvieron las carpetas del proyecto":"No se obtuvieron las carpetas del proyecto",
+    "La fecha de finalización debe ser posterior a la fecha actual":"La fecha de finalización debe ser posterior a la fecha actual",
+    "Proyecto actualizado":"Proyecto actualizado",
+    "Proyecto indicado ya no existe":"Proyecto indicado ya no existe",
+    "Solo el creador del proyecto puede borrarlo":"Solo el creador del proyecto puede borrarlo",
+    "Proyecto eliminado":"Proyecto eliminado",
+    "Eliminar proyecto":"Eliminar proyecto",
+    "¿Estás seguro de querer eliminar el proyecto?":"¿Estás seguro de querer eliminar el proyecto?",
+    "Cancelar":"Cancelar",
+    "Aceptar":"Aceptar",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan 360 para crear y administrar proyectos":"Hazte con el plan 360 para crear y administrar proyectos"
+
+
+  },
+
+  "edit-participants":{
+    "MODIFICAR PARTICIPANTES":"MODIFICAR PARTICIPANTES",
+    "AÑADIR USUARIOS":"AÑADIR PARTICIPANTES",
+    "AÑADIR PARTICIPANTES":"AÑADIR PARTICIPANTES",
+    "Participantes del proyecto":"Participantes del proyecto",
+    "Creador":"Creador",
+    "Pendiente":"Pendiente",
+    "Aceptar y continuar":"Aceptar y continuar",
+    "Buscar":"Buscar",
+    "No se obtuvieron los paticipantes":"No se obtuvieron los paticipantes",
+    "No se pudo obtener más usuarios":"No se pudo obtener más usuarios",
+    "El usuario seleccionado ya está añadido al listado de participantes":"El usuario seleccionado ya está añadido al listado de participantes",
+    "Sin Categorías":"Sin Categorías",
+    "Usuarios asociados al proyecto":"Usuarios asociados al proyecto",
+    "El proyecto indicado ya no existe":"El proyecto indicado ya no existe",
+    "No se puedieron asignar los participantes":"No se puedieron asignar los participantes",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan 360 para crear y administrar proyectos":"Hazte con el plan 360 para crear y administrar proyectos"
+  },
+
+  "participants-list":{
+    "confirmRemoveUserTitle":"Eliminar participante",
+    "confirmRemoveUser":"¿Está seguro de que desea eliminar a este participante del proyecto?",
+    "cancel":"Cancelar",
+    "remove":"Eliminar",
+    "userRemoved":"Participante eliminado correctamente",
+    "errorRemovingUser":"Error al eliminar el participante"
+  },
+
+  "add-participants":{
+    "AGREGAR PARTICIPANTES":"AGREGAR PARTICIPANTES",
+    "Participantes del proyecto":"Participantes del proyecto",
+    "Administrador":"Administrador",
+    "Pendiente":"Pendiente",
+    "Buscar":"Buscar",
+    "Aceptar y continuar":"Aceptar y continuar",
+    "Tú":"Tú",
+    "No se pudo obtener más usuarios":"No se pudo obtener más usuarios",
+    "El usuario seleccionado ya está añadido al listado de participantes":"El usuario seleccionado ya está añadido al listado de participantes",
+    "Sin Categorías":"Sin Categorías",
+    "Usuarios asociados al proyecto":"Usuarios asociados al proyecto",
+    "El proyecto indicado ya no existe":"El proyecto indicado ya no existe",
+    "No se pudieron asignar los participantes":"No se pudieron asignar los participantes",
+    "":""
+
+  },
+
+  "grant-permissions":{
+    "PERMISOS DEL PROYECTO":"PERMISOS DEL PROYECTO",
+    "Administradores actuales":"Administradores actuales",
+    "Tú":"Tú",
+    "Administrador":"Administrador",
+    "Pendiente":"Pendiente",
+    "Selecciona al usuario al que desees otorgar el rol de administrador":"Selecciona al usuario al que desees otorgar el rol de administrador",
+    "Aceptar y continuar":"Aceptar y continuar",
+    "No se obtuvieron los participantes":"No se obtuvieron los participantes",
+    "Sin Categorías":"Sin Categorías",
+    "El usuario seleccionado ya está añadido al listado":"El usuario seleccionado ya está añadido al listado",
+    "Permisos asociados":"Permisos asociados",
+    "El proyecto indicado ya no existe":"El proyecto indicado ya no existe",
+    "No se puedieron asignar los permisos":"No se puedieron asignar los permisos",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan 360 para gestionar permisos a los usuarios":"Hazte con el plan 360 para gestionar permisos a los usuarios"
+
+  },
+
+
+  "add-proyect":{
+    "quiere añadirte al proyecto":"{{name}} quiere añadirte al proyecto",
+    "¿Deseas unirte al Workspace?":"¿Deseas unirte al Workspace?",
+    "Aceptar":"Aceptar",
+    "Rechazar":"Rechazar",
+    "Proyecto rechazado con éxito":"Proyecto rechazado con éxito",
+    "El proyecto ya no se encuentra asociado a su cuenta":"El proyecto ya no se encuentra asociado a su cuenta",
+    "No se pudo rechazar el proyecto":"No se pudo rechazar el proyecto",
+    "Sin proyecto":"Sin proyecto",
+    "Sin Categorías":"Sin Categorías",
+    "¡Proyecto aceptado!":"¡Proyecto aceptado!",
+    "El proyecto ya no existe":"El proyecto ya no existe",
+    "'El KeyCode introducido no es correcto":"'El KeyCode introducido no es correcto",
+    "No se pudo verificar el usuario en el proyecto":"No se pudo verificar el usuario en el proyecto",
+    "Sin Suscripción":"Sin Suscripción",
+    "Adquiera una suscripción para poder aceptar y rechazar proyectos":"Adquiera una suscripción para poder aceptar y rechazar proyectos"
+  },
+
+  "modal-keycode":{
+    "Key code":"Key code",
+    "Añade el código de acceso proporcionado por el administrador":"Añade el código de acceso proporcionado por el administrador",
+    "Continuar":"Continuar",
+    "Adquiera una suscripción para poder aceptar y rechazar proyectos":"Adquiera una suscripción para poder aceptar y rechazar proyectos",
+    "¡Proyecto aceptado!":"¡Proyecto aceptado!",
+    "El proyecto ya no se encuentra asociado a su cuenta":"El proyecto ya no se encuentra asociado a su cuenta",
+    "El proyecto ya no existe":"El proyecto ya no existe",
+    "El KeyCode introducino no es correcto":"El KeyCode introducino no es correcto",
+    "No se pudo verificar usuario en el proyecto":"No se pudo verificar usuario en el proyecto",
+    "Introduzca una clave para continuar":"Introduzca una clave para continuar",
+    "":""
+  },
+
+  "folders":{
+    "CARPETAS":"CARPETAS",
+    "No se obtuvieron las carpetas del proyecto":"No se obtuvieron las carpetas del proyecto"
+
+
+  },
+
+  "folder-content":{
+    "No se obtuvo las carpetas del proyecto":"No se obtuvo las carpetas del proyecto",
+    "Nuevo contenido subido correctamente":"Nuevo contenido subido correctamente",
+    "No se pudo obtener las carpetas del proyecto":"No se pudo obtener las carpetas del proyecto",
+    "Máximo alcanzado":"Máximo alcanzado",
+    "Hazte con el plan 360 para subir contenido de forma ilimitada":"Hazte con el plan 360 para subir contenido de forma ilimitada",
+    "":""
+
+  },
+
+  "modal-multimedia":{
+    "Volver a contenido multimedia":"Volver a contenido multimedia"
+  },
+
+
+  "my-suscription":{
+    "Mi suscripción":"Mi suscripción",
+    "Ver características":"Ver características",
+    "Planes":"Planes",
+    "Pago mensual":"Pago mensual",
+    "Pago anual (Descuento del 15%)":"Pago anual (Descuento del 15%)",
+    "al mes":"al mes",
+    "al año":"al año",
+    "Free":"Free",
+    "Buscador avanzado":"Buscador avanzado",
+    "Complete Workspace":"Complete Workspace",
+    "Tu plan actual":"Tu plan actual",
+    "¡Suscripción cambiada!":"¡Suscripción cambiada!",
+    "Suscripción cambiada correctamente":"Suscripción cambiada correctamente",
+    "Continuar a la app":"Continuar a la app",
+    "Comprar un proyecto":"Comprar un proyecto",
+    "No se obtuvieron suscripciones":"No se obtuvieron suscripciones",
+    "Obtener plan ":"Obtener plan ",
+    "Cambiar a plan ":"Cambiar a plan ",
+    "Cargando...":"Cargando...",
+    "Hubo un problema para cambiar":"Hubo un problema para cambiar",
+   
+    "":""
+
+  },
+
+
+  "project-checkout":{
+    "CHECKOUT":"CHECKOUT",
+    "Compra de":"Compra de",
+    "1 proyecto":"1 proyecto",
+    "Crédito o débito":"Crédito o débito",
+    "Paypal":"Paypal",
+    "Apple Pay":"Apple Pay",
+    "He leído y acepto ":"He leído y acepto ",
+    "los Términos y Condiciones de Venta":"los Términos y Condiciones de Venta",
+    "¡Pago realizado!":"¡Pago realizado!",
+    "La compra de un proyecto se ha realizado correctamente":"La compra de un proyecto se ha realizado correctamente",
+    "Continuar a la app":"Continuar a la app",
+    "Total":"Total",
+    "Continuar":"Continuar",
+    "Cargando...":"Cargando...",
+    "Pago cancelado por el usuario.":"Pago cancelado por el usuario.",
+    "Ocurrió un error durante la transacción de pago":"Ocurrió un error durante la transacción de pago",
+    "No se pudo realizar el pago.":"No se pudo realizar el pago.",
+    "Pago cancelado.":"Pago cancelado.",
+    "Pago completado.":"Pago completado."
+
+
+  },
+
+  "suscription-checkout":{
+    "CHECKOUT":"CHECKOUT",
+    "Pago del ":"Pago del ",
+    "Crédito o débito":"Crédito o débito",
+    "Paypal":"Paypal",
+    "Apple Pay":"Apple Pay",
+    "He leído y acepto ":"He leído y acepto ",
+    "los Términos y Condiciones de Venta":"los Términos y Condiciones de Venta",
+    "¡Pago realizado!":"¡Pago realizado!",
+    "El pago de la suscripción se ha realizado correctamente":"El pago de la suscripción se ha realizado correctamente",
+    "Continuar a la app":"Continuar a la app",
+    "Total":"Total",
+    "Continuar":"Continuar",
+    "Cargando...":"Cargando...",
+    "Método de pago agregado correctamente.":"Método de pago agregado correctamente.",
+    "Ingreso de método de pago cancelado.":"Ingreso de método de pago cancelado.",
+    "Pago completado correctamente.":"Pago completado correctamente.",
+    "Pago cancelado por el usuario.":"Pago cancelado por el usuario.",
+    "Error durante el proceso de pago.":"Error durante el proceso de pago.",
+    "Ocurrió un error durante el proceso de suscripción.":"Ocurrió un error durante el proceso de suscripción.",
+    "Error al procesar la suscripción.":"Error al procesar la suscripción.",
+    "Error al configurar el pago con Apple Pay.":"Error al configurar el pago con Apple Pay.",
+    "No se pudo realizar el pago con Apple Pay.":"No se pudo realizar el pago con Apple Pay.",
+    "Ocurrió un error durante el proceso de pago con Apple Pay.":"Ocurrió un error durante el proceso de pago con Apple Pay.",
+    "Suscripción de prueba activa. Finalizará el ":"Suscripción de prueba activa. Finalizará el ",
+    "Suscripción de prueba activa. Finalizará después del ":"Suscripción de prueba activa. Finalizará después del "
+
+  },
+
+  "conectar":{
+    "Conecta con":"Conecta con",
+    "Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.":"Has solicitado conectar con este usuario. Escribe un mensaje explicando por qué te gustaría trabajar juntos en un proyecto.",
+    "Escribe aquí...":"Escribe aquí...",
+    "El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra":"El usuario con el que has contactado tendrá hasta 24 horas para responder a tu petición. Una vez que hayan pasado esas 24 horas, la solicitud será rechazada automáticamente. Al enviar esta solicitud, aceptas que compartamos tu información pública de acuerdo con nuestra",
+    "política de privacidad":"política de privacidad",
+    "Conectar":"Conectar",
+    "Ya hay una solicitud para ese usuario":"Ya hay una solicitud para ese usuario",
+    "Solicitud creada con éxito":"Solicitud creada con éxito",
+    "Resultado desconocido":"Resultado desconocido",
+    "Hubo un problema al enviar la solicitud":"Hubo un problema al enviar la solicitud",
+    "El mensaje no puede estar vacio":"El mensaje no puede estar vacio"
+  },
+
+
+  "user-search":{
+    "Buscar":"Buscar",
+    "Ordenar":"Ordenar",
+    "No hay resultados":"No hay resultados",
+    "conectar":"conectar",
+    "Sin oficio":"Sin oficio",
+    "Sin opiniones":"Sin opiniones",
+    "opiniones":"opiniones",
+    "Sin ubicación actual":"Sin ubicación actual",
+    "FOTOGRAFÍA":"FOTOGRAFÍA",
+    "CINE / VIDEO":"CINE / VIDEO",
+    "MÚSICA":"MÚSICA",
+    "TEATRO":"TEATRO",
+    "EVENTOS":"EVENTOS",
+    "TV":"TV",
+    "OTROS":"OTROS",
+    "FILTROS": "FILTROS",
+    "Restablecer":"Restablecer",
+    "Tu ubicación":"Tu ubicación",
+    "Buscar dirección":"Buscar dirección",
+    "Categorías":"Categorías",
+    "EVENTOS Y FIESTAS":"EVENTOS Y FIESTAS",
+    "SIN CATEGORÍA":"SIN CATEGORÍA",
+    "Etiquetas":"Etiquetas",
+    "Escribe palabras clave para filtrar resultados":"Escribe palabras clave para filtrar resultados",
+    "Escribe aquí...":"Escribe aquí...",
+    "Rango de precio":"Rango de precio",
+    "Selecciona un rango de precio para filtrar resultados":"Selecciona un rango de precio para filtrar resultados",
+    "Rango":"Rango",
+    "Mínimo":"Mínimo",
+    "día":"día",
+    "Máximo":"Máximo",
+    "Mejor valorados":"Mejor valorados",
+    "Más valorados":"Más valorados",
+    "Precio ascendente":"Precio ascendente",
+    "Precio descendente":"Precio descendente",
+    "No se pudo obtener listado de usuarios":"No se pudo obtener listado de usuarios",
+    "No se pudo obtener el contador de categorías":"No se pudo obtener el contador de categorías",
+    "Sin tags":"Sin tags",
+    "Ya hay una solicitud enviada pendiente de aceptar":"Ya hay una solicitud enviada pendiente de aceptar",
+    "Resultado desconocido":"Resultado desconocido",
+    "No se pudo comprobar la existencia de la solicitud":"No se pudo comprobar la existencia de la solicitud",
+    "Ya hay un Tag con ese valor":"Ya hay un Tag con ese valor",
+    "El campo está vacío, no se puede crear un Tag":"El campo está vacío, no se puede crear un Tag",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios":"Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios"
+
+  },
+
+  
+  
+
+  "Usuario o contraseña incorrectos":"Usuario o contraseña incorrectos",
+  "El usuario ya se encuentra registrado":"El usuario ya se encuentra registrado",
+  "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.":"Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.",
+  "Error del servidor, inténtelo más tarde":"Error del servidor, inténtelo más tarde",
+  "Error desconocido, inténtelo más tarde":"Error desconocido, inténtelo más tarde",
+
+  "codeErrors":{
+    "Usuario o contraseña incorrectos":"Usuario o contraseña incorrectos",
+    "El usuario ya se encuentra registrado":"El usuario ya se encuentra registrado",
+    "Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.":"Esta cuenta se encuentra temporalmente bloqueada, consulte con los administradores para más informacion.",
+    "Error del servidor, inténtelo más tarde":"Error del servidor, inténtelo más tarde",
+    "Error desconocido, inténtelo más tarde":"Error desconocido, inténtelo más tarde"
+  },
+
+
+
+  "buscador":{
+    "BUSCADOR":"BUSCADOR",
+    "Buscar":"Buscar",
+    "Conectar":"Conectar",
+    "No hay resultados":"No hay resultados",
+    "Descubre nuestro top":"Descubre nuestro top",
+    "Los mejores profesionales muestran sus anuncios":"Los mejores profesionales muestran sus anuncios",
+    "Contacta con el éxito":"Contacta con el éxito",
+    "Descubre los usuarios que haran realidad tu proyecto":"Descubre los usuarios que haran realidad tu proyecto",
+    "Ordenar":"Ordenar",
+    "conectar":"conectar",
+    "Sin oficio":"Sin oficio",
+    "Sin opiniones":"Sin opiniones",
+    "opiniones":"opiniones",
+    "Sin ubicación actual":"Sin ubicación actual",
+    "FOTOGRAFÍA":"FOTOGRAFÍA",
+    "CINE / VIDEO":"CINE / VIDEO",
+    "FILM / VÍDEO":"FILM / VÍDEO",
+    "MÚSICA":"MÚSICA",
+    "TEATRO":"TEATRO",
+    "EVENTOS":"EVENTOS",
+    "TV":"TV",
+    "OTROS":"OTROS",
+    "FILTROS": "FILTROS",
+    "Restablecer":"Restablecer",
+    "Tu ubicación":"Tu ubicación",
+    "Buscar dirección":"Buscar dirección",
+    "Categorías":"Categorías",
+    "EVENTOS Y FIESTAS":"EVENTOS Y FIESTAS",
+    "SIN CATEGORÍA":"SIN CATEGORÍA",
+    "Etiquetas":"Etiquetas",
+    "Escribe palabras clave para filtrar resultados":"Escribe palabras clave para filtrar resultados",
+    "Escribe aquí...":"Escribe aquí...",
+    "Rango de precio":"Rango de precio",
+    "Selecciona un rango de precio para filtrar resultados":"Selecciona un rango de precio para filtrar resultados",
+    "Rango":"Rango",
+    "Mínimo":"Mínimo",
+    "día":"día",
+    "Máximo":"Máximo",
+    "Mejor valorados":"Mejor valorados",
+    "Más valorados":"Más valorados",
+    "Precio ascendente":"Precio ascendente",
+    "Precio descendente":"Precio descendente",
+    "No se pudo obtener listado de usuarios":"No se pudo obtener listado de usuarios",
+    "No se pudo obtener el contador de categorías":"No se pudo obtener el contador de categorías",
+    "Sin tags":"Sin tags",
+    "Ya hay una solicitud enviada pendiente de aceptar":"Ya hay una solicitud enviada pendiente de aceptar",
+    "Resultado desconocido":"Resultado desconocido",
+    "No se pudo comprobar la existencia de la solicitud":"No se pudo comprobar la existencia de la solicitud",
+    "Ya hay un Tag con ese valor":"Ya hay un Tag con ese valor",
+    "El campo está vacío, no se puede crear un Tag":"El campo está vacío, no se puede crear un Tag",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios":"Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios",
+    "Texto descriptivo del anuncio especial":"Texto descriptivo del anuncio especial"
+
+
+  },
+
+  "buscador2":{
+    "BUSCADOR":"BUSCADOR",
+    "Buscar":"Buscar",
+    "Conectar":"Conectar",
+    "No hay resultados":"No hay resultados",
+    "Descubre nuestro top":"Descubre nuestro top",
+    "Los mejores profesionales muestran sus anuncios":"Los mejores profesionales muestran sus anuncios",
+    "Contacta con el éxito":"Contacta con el éxito",
+    "Descubre los usuarios que haran realidad tu proyecto":"Descubre los usuarios que haran realidad tu proyecto",
+    "Ordenar":"Ordenar",
+    "conectar":"conectar",
+    "Sin oficio":"Sin oficio",
+    "Sin opiniones":"Sin opiniones",
+    "opiniones":"opiniones",
+    "Sin ubicación actual":"Sin ubicación actual",
+    "FOTOGRAFÍA":"FOTOGRAFÍA",
+    "CINE / VIDEO":"CINE / VIDEO",
+    "FILM / VÍDEO":"FILM / VÍDEO",
+    "MÚSICA":"MÚSICA",
+    "TEATRO":"TEATRO",
+    "EVENTOS":"EVENTOS",
+    "TV":"TV",
+    "OTROS":"OTROS",
+    "FILTROS": "FILTROS",
+    "Restablecer":"Restablecer",
+    "Tu ubicación":"Tu ubicación",
+    "Buscar dirección":"Buscar dirección",
+    "Categorías":"Categorías",
+    "EVENTOS Y FIESTAS":"EVENTOS Y FIESTAS",
+    "SIN CATEGORÍA":"SIN CATEGORÍA",
+    "Etiquetas":"Etiquetas",
+    "Escribe palabras clave para filtrar resultados":"Escribe palabras clave para filtrar resultados",
+    "Escribe aquí...":"Escribe aquí...",
+    "Rango de precio":"Rango de precio",
+    "Selecciona un rango de precio para filtrar resultados":"Selecciona un rango de precio para filtrar resultados",
+    "Rango":"Rango",
+    "Mínimo":"Mínimo",
+    "día":"día",
+    "Máximo":"Máximo",
+    "Mejor valorados":"Mejor valorados",
+    "Más valorados":"Más valorados",
+    "Precio ascendente":"Precio ascendente",
+    "Precio descendente":"Precio descendente",
+    "No se pudo obtener listado de usuarios":"No se pudo obtener listado de usuarios",
+    "No se pudo obtener el contador de categorías":"No se pudo obtener el contador de categorías",
+    "Sin tags":"Sin tags",
+    "Ya hay una solicitud enviada pendiente de aceptar":"Ya hay una solicitud enviada pendiente de aceptar",
+    "Resultado desconocido":"Resultado desconocido",
+    "No se pudo comprobar la existencia de la solicitud":"No se pudo comprobar la existencia de la solicitud",
+    "Ya hay un Tag con ese valor":"Ya hay un Tag con ese valor",
+    "El campo está vacío, no se puede crear un Tag":"El campo está vacío, no se puede crear un Tag",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios":"Hazte con el plan Inicial o plan 360 para acceder y contactar con usuarios",
+    "Texto descriptivo del anuncio especial":"Texto descriptivo del anuncio especial"
+
+
+  },
+
+  "chats":{
+    "Cargando chats...":"Cargando chats...",
+    "Buscar":"Buscar", 
+    "Chats":"Chats",
+    "Solicitudes":"Solicitudes",
+    "Aceptar":"Aceptar",
+    "Rechazar":"Rechazar",
+    "Espera": "En espera",
+    ": ha enviado un PDF": ": ha enviado un PDF",
+    "Tú: has enviado un PDF": "Tú: has enviado un PDF",
+    ": ha enviado un AUDIO": ": ha enviado un AUDIO",
+    "Tú: has enviado un AUDIO": "Tú: has enviado un AUDIO",
+    ": ha enviado una imagen": ": ha enviado una imagen",
+    "Tú: has enviado una imagen": "Tú: has enviado una imagen",
+    "Sin mensajes aún": "Sin mensajes aún",
+    "No se pueden obtener los chats": "No se pueden obtener los chats",
+    "Borrar chat": "Borrar chat",
+    "¿Quieres borrar el chat ": "¿Quieres borrar el chat ",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "¿Quieres borrar el chat ' + chat.nombre + ' ?",
+    "Cancelar": "Cancelar",
+    "Borrando chat": "Borrando chat",
+    "No se ha podido borrar el chat": "No se ha podido borrar el chat",
+    "No se pudieron obtener las solicitudes": "No se pudieron obtener las solicitudes",
+    "Solicitud eliminada exitósamente": "Solicitud eliminada exitosamente",
+    "Resultado desconocido": "Resultado desconocido",
+    "No se pudo eliminar la solicitud": "No se pudo eliminar la solicitud",
+    "Solicitud aceptada exitósamente": "Solicitud aceptada exitosamente",
+    "La solicitud ya no es valida": "La solicitud ya no es válida",
+    "No se pudo aceptar la solicitud": "No se pudo aceptar la solicitud",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: ha enviado un PDF",
+    "ha enviado un AUDIO": "{{name}}: ha enviado un AUDIO",
+    "ha enviado una imagen": "{{name}}: ha enviado una imagen",
+    "Tú: {{mensaje}}": "Tú: {{mensaje}}",
+    "No se pueden obtener los mensajes": "No se pueden obtener los mensajes",
+    "No se ha podido enviar el mensaje": "No se ha podido enviar el mensaje",
+    "Cargando mensajes...": "Cargando mensajes...",
+    "Grabación finalizada": "Grabación finalizada",
+    "Pulse aquí para enviar": "Pulse aquí para enviar",
+    "No se puede obtener el archivo": "No se puede obtener el archivo",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "sunday": "Domingo",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "january": "enero",
+    "february": "febrero",
+    "march": "marzo",
+    "april": "abril",
+    "may": "mayo",
+    "june": "junio",
+    "july": "julio",
+    "august": "agosto",
+    "september": "septiembre",
+    "october": "octubre",
+    "november": "noviembre",
+    "december": "diciembre",
+    "of": "de"
+
+  },
+
+
+  "FOTOGRAFÍA": "FOTOGRAFÍA",
+  "FILM / VÍDEO": "FILM / VÍDEO",
+  "CINE / VIDEO": "CINE / VIDEO",
+  "TV": "TV",
+  "MÚSICA": "MÚSICA",
+  "EVENTOS Y FIESTAS": "EVENTOS Y FIESTAS",
+  "TEATRO": "TEATRO",
+  "OTROS": "OTROS",
+  "SIN CATEGORÍA": "SIN CATEGORÍA",
+
+  "add-participants-to-group":{
+    "AGREGAR MIEMBROS AL GRUPO DE CHAT":"AGREGAR MIEMBROS AL GRUPO DE CHAT",
+    "Nombre del grupo":"Nombre del grupo",
+    "Escribe aquí...":"Escribe aquí...",
+    "Miembros del grupo":"Miembros del grupo",
+    "Tú":"Tú",
+    "Crear grupo":"Crear grupo",
+    "No se obtuvieron los participantes":"No se obtuvieron los participantes",
+    "El usuario seleccionado ya está añadido al listado de participantes":"El usuario seleccionado ya está añadido al listado de participantes",
+    "Sin Categorías":"Sin Categorías",
+    "Introduzca un nombre para el grupo de chat":"Introduzca un nombre para el grupo de chat",
+    "¡Grupo de chat creado!":"¡Grupo de chat creado!",
+    "No se pudo crear el grupo":"No se pudo crear el grupo",
+    "Debe añadir al menos un miembro al grupo de chat":"Debe añadir al menos un miembro al grupo de chat",
+    "Sin Suscripción válida":"Sin Suscripción válida",
+    "Hazte con el plan 360 para crear y administrar proyectos":"Hazte con el plan 360 para crear y administrar proyectos"
+
+
+  },
+
+  "app-chat-header":{
+
+    "Conectado":"Conectado",
+    "¿Desea bloquear a este usuario?":"¿Desea bloquear a este usuario?",
+    "Cancelar":"Cancelar",
+    "Bloquear":"Bloquear",
+    "Usuario bloqueado":"Usuario bloqueado",
+    "El usuario ya se encuentra bloqueado":"El usuario ya se encuentra bloqueado",
+    "Respuesta desconocida":"Respuesta desconocida"
+  },
+
+  "app-chat-footer":{
+    "Escribe aquí...":"Escribe aquí...",
+    "Grabación finalizada":"Grabación finalizada",
+    "Pulse aquí para enviar":"Pulse aquí para enviar",
+    "Se está realizando una grabación de audio":"Se está realizando una grabación de audio",
+    "Hay un archivo de audio pendiente para enviar":"Hay un archivo de audio pendiente para enviar",
+    "Solo se permiten archivos .pdf":"Solo se permiten archivos .pdf",
+    "Solo se permiten archivos de imagen":"Solo se permiten archivos de imagen",
+    "Ya hay una grabación en proceso":"Ya hay una grabación en proceso"
+
+  },
+
+  "app-pgchat-footer":{
+    "Grabación finalizada":"Grabación finalizada",
+    "Pulse aquí para enviar":"Pulse aquí para enviar",
+    "Se está realizando una grabación de audio":"Se está realizando una grabación de audio",
+    "Hay un archivo de audio pendiente para enviar":"Hay un archivo de audio pendiente para enviar",
+    "Solo se permiten archivos .pdf":"Solo se permiten archivos .pdf",
+    "Ya hay una grabación en proceso":"Ya hay una grabación en proceso"
+
+  },
+
+  "app-pnchat-footer":{
+    "Grabación finalizada":"Grabación finalizada",
+    "Pulse aquí para enviar":"Pulse aquí para enviar",
+    "Se está realizando una grabación de audio":"Se está realizando una grabación de audio",
+    "Hay un archivo de audio pendiente para enviar":"Hay un archivo de audio pendiente para enviar",
+    "Solo se permiten archivos .pdf":"Solo se permiten archivos .pdf",
+    "Ya hay una grabación en proceso":"Ya hay una grabación en proceso"
+
+  },
+
+
+  "app-chat-group":{
+
+    "mensajes nuevos":"mensajes nuevos"
+  },
+
+  "app-pnchat-header":{
+    "Conectado":"Conectado"
+  },
+
+  "pnchats":{
+    "CHATS":"CHATS",
+    "TODOS":"TODOS",
+    "Grupos":"Grupos",
+    "Solicitudes":"Solicitudes",
+    "Aceptar":"Aceptar",
+    "Rechazar":"Rechazar",
+    ": ha enviado un PDF": ": ha enviado un PDF",
+    "Tú: has enviado un PDF": "Tú: has enviado un PDF",
+    ": ha enviado un AUDIO": ": ha enviado un AUDIO",
+    "Tú: has enviado un AUDIO": "Tú: has enviado un AUDIO",
+    ": ha enviado una imagen": ": ha enviado una imagen",
+    "Tú: has enviado una imagen": "Tú: has enviado una imagen",
+    "Sin mensajes aún": "Sin mensajes aún",
+    "No se pueden obtener los chats": "No se pueden obtener los chats",
+    "Borrar chat": "Borrar chat",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "¿Quieres borrar el chat ' + chat.nombre + ' ?",
+    "Cancelar": "Cancelar",
+    "Borrando chat": "Borrando chat",
+    "No se ha podido borrar el chat": "No se ha podido borrar el chat",
+    "No se pudieron obtener las solicitudes": "No se pudieron obtener las solicitudes",
+    "Solicitud eliminada exitósamente": "Solicitud eliminada exitosamente",
+    "Resultado desconocido": "Resultado desconocido",
+    "No se pudo eliminar la solicitud": "No se pudo eliminar la solicitud",
+    "Solicitud aceptada exitósamente": "Solicitud aceptada exitosamente",
+    "La solicitud ya no es valida": "La solicitud ya no es válida",
+    "No se pudo aceptar la solicitud": "No se pudo aceptar la solicitud",
+    "{{nombreUsuario}}: ha enviado un PDF": "{{nombreUsuario}}: ha enviado un PDF",
+    "ha enviado un AUDIO": "{{name}}: ha enviado un AUDIO",
+    "ha enviado una imagen": "{{name}}: ha enviado una imagen",
+    "Tú: {{mensaje}}": "Tú: {{mensaje}}",
+    "No se pueden obtener los mensajes": "No se pueden obtener los mensajes",
+    "No se ha podido enviar el mensaje": "No se ha podido enviar el mensaje",
+    "Cargando mensajes...": "Cargando mensajes...",
+    "Grabación finalizada": "Grabación finalizada",
+    "Pulse aquí para enviar": "Pulse aquí para enviar",
+    "No se puede obtener el archivo": "No se puede obtener el archivo"
+
+  },
+
+  "interior-chat":{
+    "Cargando mensajes...":"Cargando mensajes...",
+    "No se pueden obtener los mensajes":"No se pueden obtener los mensajes",
+    "No se ha podido enviar el mensaje":"No se ha podido enviar el mensaje"
+  },
+
+
+  "interior-pgchat":{
+    "No se ha podido enviar el mensaje":"No se ha podido enviar el mensaje",
+    "No se pueden obtener los mensajes":"No se pueden obtener los mensajes",
+    "Cargando mensajes...":"Cargando mensajes..."
+  },
+
+  "interior-pnchat":{
+    "No se ha podido enviar el mensaje":"No se ha podido enviar el mensaje",
+    "No se pueden obtener los mensajes":"No se pueden obtener los mensajes",
+    "Cargando mensajes...":"Cargando mensajes..."
+  },
+
+  "select-useroptions-modal":{
+    "Bloquear usuario":"Bloquear usuario",
+    "Reportar usuario":"Reportar usuario"
+  },
+
+
+  "finish-profile":{
+
+    "Seleccione al menos una categoría":"Seleccione al menos una categoría",
+    "La profesión es obligatoria":"La profesión es obligatoria",
+    "La ubicación es obligatoria":"La ubicación es obligatoria",
+    "El nombre del representante es obligatorio":"El nombre del representante es obligatorio",
+    "Imagen":"Imagen",
+    "COMPLETAR PERFIL": "COMPLETAR PERFIL",
+    "No mostrar mi perfil en el buscador": "No mostrar mi perfil en el buscador",
+    "Nombre": "Nombre",
+    "Apellido 1": "Apellido 1",
+    "Apellido 2": "Apellido 2",
+    "Nombre de representante": "Nombre de representante",
+    "Fecha de nacimiento": "Fecha de nacimiento",
+    "Este detalle no se mostrará de forma pública": "Este detalle no se mostrará de forma pública",
+      "Género": "Género",
+      "Seleccione una opción": "Seleccione una opción",
+      "Hombre": "Hombre",
+      "Mujer": "Mujer",
+      "Otro": "Otro",
+      "Profesión": "Profesión",
+      "Escribe aquí…": "Escribe aquí…",
+      "Categoría de trabajo": "Categoría de trabajo",
+      "Salario": "Salario",
+      "Selecciona un rango de salario": "Selecciona un rango de salario",
+      "Precio seleccionado:": "Precio seleccionado:",
+      "Se mostrará como:": "Se mostrará como:",
+      "Tags": "Etiquetas",
+      "Escribe las palabras clave para describir tu empleo": "Escribe las palabras clave para describir tu empleo",
+      "Descripción": "Descripción",
+      "Guardar cambios": "Guardar cambios",
+      "Escribe aquí":"Escribe aquí",
+      "Escribe aquí...":"Escribe aquí...",
+      "día":"día",
+      "Él":"Él",
+      "Ella":"Ella",
+      "Elle":"Elle",
+      "Añade tus pronombres":"Añade tus pronombres",
+      "Introduzca el pronombre con el que se identifique":"Introduzca el pronombre con el que se identifique",
+      "El nombre es obligatorio":"El nombre es obligatorio",
+      "El apellido 1 es obligatorio":"El apellido 1 es obligatorio",
+      "Introduzca una fecha válida":"Introduzca una fecha válida",
+      "Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre":"Si seleccionas Añade tus pronombres, debes introducir al menos un pronombre",
+      "Debes seleccionar un género":"Debes seleccionar un género",
+      "Error obteniendo el usuario":"Error obteniendo el usuario",
+      "Usuario actualizado correctamente":"Usuario actualizado correctamente",
+      "Ya hay un Tag con ese valor":"Ya hay un Tag con ese valor",
+      "El campo está vacío, no se puede crear un Tag":"El campo está vacío, no se puede crear un Tag",
+      "Por favor, revisa los campos con errores antes de continuar":"Por favor, revisa los campos con errores antes de continuar",
+      "Ya hay un Pronombre con ese valor":"Ya hay un Pronombre con ese valor",
+      "El campo está vacío, no se puede crear un Pronombre":"El campo está vacío, no se puede crear un Pronombre"
+      
+      
+
+  },
+
+
+  "":{},
+
+  "add-remove-users-modal":{
+    "Listado actualizado":"Listado actualizado",
+    "No se pudo actualizar el listado":"No se pudo actualizar el listado",
+    "Añadir al grupo":"Añadir al grupo",
+    "Quitar del grupo":"Quitar del grupo",
+    "SACAR USUARIOS DEL GRUPO":"SACAR USUARIOS DEL GRUPO",
+    "METER USUARIOS EN GRUPO":"METER USUARIOS EN GRUPO",
+    "Usuarios para sacar":"Usuarios para sacar",
+    "Usuarios para meter":"Usuarios para meter"
+  },
+
+  "detail-project":{
+    "DETALLES DEL PROYECTO":"DETALLES DEL PROYECTO",
+    "Creador/a del proyecto":"Creador/a del proyecto",
+    "Fecha de finalización":"Fecha de finalización",
+    "Participantes":"Participantes",
+    "No se obtuvo las carpetas del proyecto":"No se obtuvo las carpetas del proyecto"
+  },
+
+  "social-networks":{
+    "Nombre":"Nombre",
+    "Añade un link":"Añade un link",
+    "Guardar cambios":"Guardar cambios",
+    "REDES SOCIALES":"REDES SOCIALES",
+    "Por favor selecciona un icono para cada red social con un link.":"Por favor selecciona un icono para cada red social con un link.",
+    "Por favor introduce un enlace.":"Por favor introduce un enlace.",
+    "Por favor introduce un nombre.":"Por favor introduce un nombre.",
+    "Por favor selecciona un icono para esta red social.":"Por favor selecciona un icono para esta red social."
+
+  },
+
+  "Ver planes":"Ver planes",
+
+  "other-user":{
+    "Sin opiniones":"Sin opiniones",
+    "opiniones":"opiniones",
+    "Chatear":"Chatear",
+    "Conectar":"Conectar",
+    "Trabajos":"Trabajos",
+    "Ubicaciones":"Ubicaciones",
+    "Idiomas":"Idiomas",
+    "Redes sociales":"Redes sociales",
+    "Ubicación de este usuario":"Ubicación de este usuario",
+    "Sin ubicación actual":"Sin ubicación actual",
+    "Ubicaciones donde puede trabajar":"Ubicaciones donde puede trabajar",
+    "Trabajos de":"Trabajos de",
+    "Guardar":"Guardar",
+    "Añadir a Favoritos":"Añadir a Favoritos",
+    "Usuario Favorito":"Usuario Favorito",
+    "Quitar Favorito":"Quitar Favorito",
+    "En Favorito":"En Favorito",
+    "En favoritos":"En favoritos",
+    "No se pudo obtener los datos del usuario":"No se pudo obtener los datos del usuario",
+    "Ya hay una solicitud enviada pendiente de aceptar":"Ya hay una solicitud enviada pendiente de aceptar",
+    "Resultado desconocido":"Resultado desconocido",
+    "No se pudo comprobar la existencia de la solicitud":"No se pudo comprobar la existencia de la solicitud",
+    "No se pudieron obtener los trabajos":"No se pudieron obtener los trabajos",
+    "No se pudieron obtener las ubicaciones":"No se pudieron obtener las ubicaciones",
+    "No se pudieron obtener los idiomas":"No se pudieron obtener los idiomas",
+    "No se pudieron obtener las redes":"No se pudieron obtener las redes",
+    "¿Desea bloquear a este usuario?":"¿Desea bloquear a este usuario?",
+    "cancelar":"cancelar",
+    "bloquear":"bloquear",
+    "Usuario bloqueado":"Usuario bloqueado",
+    "El usuario ya se encuentra bloqueado":"El usuario ya se encuentra bloqueado",
+    "Respuesta desconocida":"Respuesta desconocida"
+
+
+  },
+
+  "add-rating":{
+    "AÑADE UNA VALORACIÓN":"AÑADE UNA VALORACIÓN",
+    "¿Cómo valorarías a ":"¿Cómo valorarías a ",
+    "Tu valoración ayuda a otros usuarios":"Tu valoración ayuda a otros usuarios",
+    "¿Quieres añadir aglún comentario?":"¿Quieres añadir algún comentario?",
+    "Escribe aquí...":"Escribe aquí...",
+    "No se pudo obtener los datos del usuario":"No se pudo obtener los datos del usuario",
+    "Introduzca un comentario en la valoración":"Introduzca un comentario en la valoración",
+    "¡Valoracion enviada!":"¡Valoracion enviada!",
+    "Publica":"Publica",
+    "Gracias por poner tu comentario a ":"Gracias por poner tu comentario a "
+  },
+
+  "user-ratings":{
+    "VALORACIONES A ":"VALORACIONES A ",
+    "Más recientes":"Más recientes",
+    "Menos recientes":"Menos recientes",
+    "Puntuación":"Puntuación",
+    "Perfil verificado":" Perfil verificado",
+    "Reportar comentario":"Reportar comentario",
+    "Añadir valoración":"Añadir valoración",
+    "Sin oficio":"Sin oficio",
+    "Sin Suscripción":"Sin Suscripción",
+    "Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios":"Hazte con una suscripción para poder ver tus valoraciones y la de otros usuarios",
+    "Más altas":"Más altas",
+    "Más bajas":"Más bajas"
+  },
+
+  "select-chatoptions-modal":{
+    "Añadir usuarios":"Añadir usuarios",
+    "Quitar usuarios":"Quitar usuarios",
+    "Pronombres":"Pronombres"
+  },
+
+  "En breves habilitaremos esta sección para que puedas disfrutar de su contenido":"En breves habilitaremos esta sección para que puedas disfrutar de su contenido",
+
+
+  "Fotografía": "Fotografía",
+  "Film/vídeo": "Film/vídeo",
+  "Cine/vídeo": "Cine/vídeo",
+  "Música": "Música",
+  "Eventos": "Eventos",
+  "Teatro": "Teatro",
+  "Otros": "Otros",
+  "Sin categoría": "Sin categoría",
+  
+
+
+  "El idioma ya se encuentra en el listado":"El idioma ya se encuentra en el listado",
+  "Relación":"Relación",
+  "precio":"precio",
+  "Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.":"Para acceder a toda la información del usuario y contactarlo, suscríbete al Plan S o al Plan 360.",
+
+
+  "my-ads":{
+    "Mis anuncios":"Mis anuncios",
+    "Tipo de anuncio":"Tipo de anuncio",
+    "Duración":"Duración",
+    "mes":"mes",
+    "meses":"meses",
+    "día":"día",
+    "dias":"dias",
+    "Anuncio borrado con éxito":"Anuncio borrado con éxito",
+    "Vídeo":"Vídeo",
+    "Imagen":"Imagen",
+    "Ver anuncio":"Ver anuncio",
+    "Ver perfil del creador":"Ver perfil del creador",
+    " y ":" y "
+    
+
+  },
+
+  "upload-advertisement":{
+    "SUBIR ANUNCIO":"SUBIR ANUNCIO",
+    "Quiero publicitar mi perfil":"Quiero publicitar mi perfil",
+    "Público objetivo":"Público objetivo",
+    "Rango de edad":"Rango de edad",
+    "Rango seleccionado":"Rango seleccionado",
+    "años":"años",
+    "Género":"Género",
+    "Hombre":"Hombre",
+    "Mujer":"Mujer",
+    "Otro":"Otro",
+    "Localización":"Localización",
+    "Buscar dirección":"Buscar dirección",
+    "Rango por kilómetros":"Rango por kilómetros",
+    "Rango seleccionado: hasta":"Rango seleccionado: hasta",
+    "Kilómetros":"Kilómetros",
+    "Intereses":"Intereses",
+    "Pago del anuncio":"Pago del anuncio",
+    "Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio":"Selecciona el precio que deseas pagar por impresiones o clics. Según el precio que establezcas, te mostraremos durante cuánto tiempo se visualizará tu anuncio",
+    "Precio por clics":"Precio por clics",
+    "Impresiones":"Impresiones",
+    "Cantidad seleccionada:":"Cantidad seleccionada:",
+    "impresiones":"impresiones",
+    "Duración":"Duración",
+    "días":"días",
+    "Confirmar y proceder al pago":"Confirmar y proceder al pago",
+    "Seleccionar imagen":"Seleccionar imagen",
+    "Selecciona video":"Selecciona video"
+
+  },
+
+  "El proyecto ha finalizado, no puede realizar modificaciones":"El proyecto ha finalizado, no puede realizar modificaciones",
+  "USUARIOS FAVORITOS":"USUARIOS FAVORITOS",
+  "CHAT":"CHAT",
+  "No tiene permiso para acceder al contenido de esta carpeta":"No tiene permiso para acceder al contenido de esta carpeta",
+  "Chat creado con éxito":"Chat creado con éxito",
+  "Crear chat":"Crear chat",
+  "Nuevo Chat":"Nuevo Chat",
+
+  "Permisos de carpeta":"Permisos de carpeta",
+  "Sin permisos":"Sin permisos",
+  "Solo lectura":"Solo lectura",
+  "Modificar contenido":"Modificar contenido",
+  "No se pudo obtener más usuarios":"No se pudo obtener más usuarios",
+
+  "Permisos requeridos":"Permisos requeridos",
+  "Se requieren permisos de cámara, localización, notificaciones y audio para el uso de la aplicación":"Se requieren permisos de cámara, localización, notificaciones y audio para el uso de la aplicación",
+  "Aceptar permisos":"Aceptar permisos",
+
+  "Introduzca el nuevo lenguaje":"Introduzca el nuevo lenguaje",
+  "FAVORITE USERS":"USUARIOS FAVORITOS",
+  "Debe seleccionar una valoración.":"Debe seleccionar una valoración.",
+  "Enlaces web":"Enlaces web",
+  "¿Desea eliminar el trabajo?":"¿Desea eliminar el trabajo?",
+  "Mis facturas":"Mis facturas",
+  "Mis datos de facturación":"Mis datos de facturación",
+  "Enlaces":"Enlaces",
+  "ARCHIVOS":"ARCHIVOS",
+  "Archivos":"Archivos",
+  "¿Desea eliminar la carpeta?":"¿Desea eliminar la carpeta?",
+  "Se perderá todo su contenido":"Se perderá todo su contenido",
+
+
+
+  "Nombre de Compañía":"Nombre de Compañía",
+  "Fecha de nacimiento de representante":"Fecha de nacimiento de representante",
+  "Nombre":"Nombre",
+
+  "Notificación marcada como vista":"Notificación marcada como vista",
+  "Notificación eliminada correctamente":"Notificación eliminada correctamente",
+  "El mensaje ya está en la lista del grupo":"El mensaje ya está en la lista del grupo",
+  "El mensaje ya está en la lista del chat, no se añadirá":"El mensaje ya está en la lista del chat, no se añadirá",
+  "No se pueden obtener los chats":"No se pueden obtener los chats",
+  "Hubo un problema al obtener los vehiculos":"Hubo un problema al obtener los vehículos",
+  "Se alcanzó el máximo de archivos permitidos (20)":"Se alcanzó el máximo de archivos permitidos (20)",
+  "Imagen subida correctamente":"Imagen subida correctamente",
+  "Hubo un problema para subir el vehículo":"Hubo un problema para subir el vehículo",
+  "Ocurrió un error durante la transacción de pago":"Ocurrió un error durante la transacción de pago",
+  "Añadir Usuarios":"Añadir Usuarios",
+  "estadísticas":"Estadísticas",
+  "Últimos 30 días":"Últimos 30 días",
+  "Detalles demográficos":"Detalles demográficos",
+  "Por localización":"Por localización",
+  "¡Has recibido una valoración de un usuario! Pulsa aquí para conocer más.":"¡Has recibido una valoración de un usuario! Pulsa aquí para conocer más.",
+  "Te recordamos que faltan 2 días para que finalice el proyecto":"Te recordamos que faltan 2 días para que finalice el proyecto",
+  "suscripción":"Suscripción",
+  "Ver características":"Ver características",
+  "Búsqueda ilimitada":"Búsqueda ilimitada",
+  "Obtén reseñas verificadas":"Obtén reseñas verificadas",
+  "Filtros de Búsqueda Premium":"Filtros de Búsqueda Premium",
+  "Métricas avanzadas":"Métricas avanzadas",
+  "Creación de chats grupales y videollamadas":"Creación de chats grupales y videollamadas",
+  "Fotógrafa · Perfil verificado":"Fotógrafa · Perfil verificado",
+  "Título de link":"Título de link",
+  "Completado":"Completado",
+  "Tipo de archivo no permitido":"Tipo de archivo no permitido",
+  "se excluirá del listado":"se excluirá del listado",
+      "¿Quieres borrar el chat ": "¿Quieres borrar el chat ",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "¿Quieres borrar el chat ' + chat.nombre + ' ?",
+     "REDES SOCIALES":"REDES SOCIALES",
+    "Por favor selecciona un icono para cada red social con un link.":"Por favor selecciona un icono para cada red social con un link.",
+    "Por favor introduce un enlace.":"Por favor introduce un enlace.",
+    "Por favor introduce un nombre.":"Por favor introduce un nombre.",
+    "Por favor selecciona un icono para esta red social.":"Por favor selecciona un icono para esta red social.",
+    "Borrar chat": "Borrar chat",
+    "¿Quieres borrar el chat ": "¿Quieres borrar el chat ",
+    "¿Quieres borrar el chat ' + chat.nombre + ' ?": "¿Quieres borrar el chat ' + chat.nombre + ' ?",
+     "CREAR CARPETA": "CREAR CARPETA",
+    "Nombre de nueva la carpeta": "Nombre de nueva la carpeta",
+    "AÑADIR": "AÑADIR",
+    "Documentos": "Documentos",
+    "Links": "Links",
+    "Nueva carpeta": "Nueva carpeta",
+    "AÑADIR LINK": "AÑADIR LINK",
+    "Título": "Título",
+    "Título de link": "Título de link",
+    "URL": "URL",
+    "URL de link": "URL de link",
+    "Link creado": "Link creado",
+    "Carpeta Eliminada": "Carpeta Eliminada",
+    "EDITAR CARPETA": "EDITAR CARPETA",
+    "Eliminar carpeta": "Eliminar carpeta",
+    "Carpeta actualizada": "Carpeta actualizada",
+    "Eliminar": "Eliminar",
+    "¿Desea eliminar el proyecto?": "¿Desea eliminar el proyecto?",
+    "Cancelar": "Cancelar",
+    "Aceptar": "Aceptar",
+    "Marcar todo como leído": "Marcar todo como leído",
+    "Mostrar sólo no leídas": "Mostrar sólo no leídas",
+    "Chat": "Chat",
+    "Eliminar proyecto":"Eliminar proyecto",
+     "Borrar Notificación":"Borrar Notificación",
+    "¿Desea eliminar la notificación actual?":"¿Desea eliminar la notificación actual?",
+    "PROYECTO":"PROYECTO",
+    "Archivos":"Archivos",
+    "¿Desea eliminar el chat grupal?":"¿Desea eliminar el chat grupal?",
+   "¿Desea eliminar el chat?":"¿Desea eliminar el chat?",
+   "El creador del proyecto no cuenta con la suscripción necesaria":"El creador del proyecto no cuenta con la suscripción necesaria",
+   "No se encontró la ubicación para poder crear la nueva carpeta": "No se encontró la ubicación para poder crear la nueva carpeta",
+   "Modificar permisos de carpeta": "Modificar permisos de carpeta",
+   "Editar carpeta": "Editar carpeta",
+   "1 elemento seleccionado":"1 elemento seleccionado",
+  " elementos seleccionados":" elementos seleccionados",
+  "¿Está seguro de eliminar?":"¿Está seguro de eliminar?",
+  "Editar imagen de chat": "Editar imagen de chat",
+  "Imagen cambiada correctamente": "Imagen cambiada correctamente",
+  "Ese grupo ya no existe": "Ese grupo ya no existe",
+  "Añade un link":"Añade un link",
+  "Guardar cambios":"Guardar cambios",
+
+    "Mis datos de facturación":"Mis datos de facturación",
+    "Mis facturas":"Mis facturas",
+    "FACTURAS":"FACTURAS",
+    "Factura Nº":"Factura Nº",
+    "MIS DATOS DE FACTURACIÓN":"MIS DATOS DE FACTURACIÓN",
+    "NOMBRE COMPLETO":"NOMBRE COMPLETO",
+    "El nombre es obligatorio":"El nombre es obligatorio",
+
+    "El nombre debe tener al menos 3 caracteres":"El nombre debe tener al menos 3 caracteres",
+    "El email es obligatorio":"El email es obligatorio",
+    "El email no es válido":"El email no es válido",
+    "El email debe tener una extensión válida (.com, .org, .net, .edu)":"El email debe tener una extensión válida (.com, .org, .net, .edu)",
+    "El dominio no está permitido o contiene caracteres consecutivos no válidos":"El dominio no está permitido o contiene caracteres consecutivos no válidos",
+    "DNI/NIF/VAT":"DNI/NIF/VAT",
+    "DIRECCIÓN DE FACTURACIÓN":"DIRECCIÓN DE FACTURACIÓN",
+    "Dirección":"Dirección",
+    "La dirección es obligatoria":"La dirección es obligatoria",
+    "Ciudad":"Ciudad",
+    "La ciudad es obligatoria":"La ciudad es obligatoria",
+    "Provincia":"Provincia",
+    "La provincia es obligatoria":"La provincia es obligatoria",
+    "Código Postal":"Código Postal",
+    "El código postal es obligatorio":"El código postal es obligatorio",
+    "Planes":"Planes",
+    "Datos de facturación actualizados":"Datos de facturación actualizados",
+    "CHECKOUT":"CHECKOUT",
+    "Pago del ":"Pago del ",
+    "Crédito o débito":"Crédito o débito",
+    "Paypal":"Paypal",
+    "Apple Pay":"Apple Pay",
+    "He leído y acepto ":"He leído y acepto ",
+    "los Términos y Condiciones de Venta":"los Términos y Condiciones de Venta",
+    "Total":"Total",
+    "Continuar":"Continuar",
+    "¡Pago realizado!":"¡Pago realizado!",
+    "El pago de la suscripción se ha realizado correctamente":"El pago de la suscripción se ha realizado correctamente",
+    "Continuar a la app":"Continuar a la app",
+    "Es requerido introducir una foto": "Es requerido introducir una foto",
+    "No hay elementos seleccionados para eliminar":"No hay elementos seleccionados para eliminar",
+    "":"",
+
+    "modal-message": {
+      "te ha escrito": "te ha escrito"
+    }
+}
+
+  
+    
+  

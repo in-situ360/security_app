@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899053808670",
+    "project_id": "insitu360-dev",
+    "storage_bucket": "insitu360-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899053808670:android:dd69b88e428f939a96520f",
+        "android_client_info": {
+          "package_name": "com.xerintel.insitu3601"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtccF2XGEYXmzYTJQja3uNce5QWqcBZog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

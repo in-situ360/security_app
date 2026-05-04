@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.xerintel.insitu3601",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 46,
+      "versionName": "46.0",
+      "outputFile": "app-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

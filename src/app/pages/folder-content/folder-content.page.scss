@@ -1,0 +1,432 @@
+.ios-style {
+  padding-top: 75px !important;
+}
+
+.android-style {
+  padding-top: 10px !important;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 0 20px;
+  padding-top: 40px;
+  background-color: #E5E5E5;
+}
+
+#iconLeft {
+  height: 12px;
+  width: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  z-index:999999;
+}
+
+.header-title {
+  font-family: 'Poppins Medium';
+   text-transform: uppercase;
+  color: #2E2D2E;
+  font-size: 14px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 240px;
+  text-overflow: ellipsis;
+  
+}
+
+.header-title-shorter{
+  max-width: 173px !important;
+   text-transform: uppercase;
+  margin-left:30px !important;
+}
+
+#iconRight2 {
+  color:#F42EB2;;
+  height: 29px;
+  width: 29px;
+  margin-top:-4px;
+  z-index:999999;
+  //padding: 6px;
+  //margin-right: 15px; /* Ajusta la distancia del icono respecto al borde derecho */
+  right: 60px;
+  position: absolute;
+}
+
+#iconRight3 {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  padding: 6px;
+ // margin-right: 15px; /* Ajusta la distancia del icono respecto al borde derecho */
+  position: absolute;
+  right: 8px;
+  margin-top: 0px;
+}
+
+.cancel-text {
+  position: absolute;
+  right: 55px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-family: "Poppins Medium";
+  color: #F42EB2;
+  cursor: pointer;
+  background: transparent;
+  padding: 4px;
+  line-height: 1;
+}
+
+.header-top {
+  
+
+  display: flex;
+  align-items: center;
+ // justify-content: space-between; /* 🔥 Separa el icono izquierdo y derecho */
+  width: 100%;
+  
+}
+
+ion-content{
+  --background: #eeeeee;
+}
+
+
+//-------------------------------------------------------------------------------
+
+  /* GRID MULTIMEDIA */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding: 12px;
+  }
+
+  @media (max-width: 600px) {
+    .image-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* Cada ítem en el grid */
+  .media-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Parte cuadrada del ítem */
+  .media-square {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e6e2;
+  }
+
+  /* Multimedia interna */
+  .media-square img,
+  .media-square video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .media-square .link-img {
+    width: 50px;
+    height: 50px;
+}
+
+.media-square .pdf-img {
+    width: 30px;
+    height: 30px;
+}
+
+  /* Icono de check (selección múltiple) */
+  .check-icon {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 24px;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 4px;
+    z-index: 10;
+  }
+
+  /* VIDEO */
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+  }
+
+  video::-webkit-media-controls-enclosure {
+    overflow: hidden !important;
+  }
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+
+  /* TEXTO debajo del ítem (ej: nombre de archivo) */
+  .media-caption {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+    color: #25252C;
+    font-family: "Poppins Medium";
+    word-break: break-word;
+    padding: 0 4px;
+    max-width: 100%;
+  }
+
+  .media-caption2 {
+    font-size: 11px;
+    text-align: center;
+    margin-top: -4px;
+    color: #4242424d;
+    font-family: "Poppins Medium";
+    word-break: break-word;
+    padding: 0 4px;
+    max-width: 100%;
+  }
+
+
+
+//-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#videoTrailer {
+  
+  vertical-align: baseline;
+  object-fit: cover;
+}
+
+
+  /* Evita que el video sea ampliado */
+  video::-webkit-media-controls-enclosure {
+    overflow: hidden !important;
+  }
+  
+  /* Oculta los controles */
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+  
+
+
+  #iconAddArchive{
+
+    position: fixed;
+    bottom: 6pt;
+    right: 6pt;
+    width: 85px;
+    height: 85px;
+
+  }
+
+
+
+  .multimedia-container {
+    position: relative; /* Para que el icono se posicione dentro del div */
+    display: flex;
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  
+  /* Estilo del icono de check */
+  .check-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    border-radius: 50%;
+    padding: 3px;
+    z-index: 10; /* Asegura que esté encima de todo */
+  }
+
+
+
+  .footer-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins Regular";
+  }
+  
+  .delete-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    color: #F42EB2; /* Color rosa del diseño */
+    margin-top: -5px;
+  }
+
+
+
+
+
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-overlay {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent; /* Puede ser un color semitransparente si lo deseas */
+    z-index: 2;
+  }
+
+
+
+
+
+  //------------------------
+
+  ion-modal#example-modal {
+    
+    --height: 36%;
+    
+    //--background: #3B3B3B;
+    --box-shadow: 0 28px 48px rgba(0, 0, 0, 0.4);
+    }
+    
+    ion-modal{
+
+      #spanEur{
+        margin-right:3px;
+      }
+
+      ion-chip{
+        font-family: "Poppins Medium";
+        justify-content: center;
+        label {
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+      }
+    }
+
+
+  .swiper-slide-active{
+    transform:scale(1.05, 1.05);
+    ion-card{
+      img{
+        transform:scale(1, 1);
+      }
+    }
+  }
+  
+  .swiper-slide{
+    transition:400ms all ease-in-out;
+  }
+  
+  
+  .modcard{
+    width:100%; height:160px; box-shadow:none; border-radius:12px;
+  }
+  .modalImage{
+    object-fit:cover; width:100%; height: 197px; transform:scale(1.1, 1.1) rotate(1deg); transition: 600ms all ease-in-out;
+  }
+  
+  #title-modal-profile {
+    color: #7A7B88;
+    font-size: 12pt;
+    font-family: "Poppins SemiBold";
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 29px;
+    //padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  .overlay {
+    position: fixed; /* Fija la posición en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ocupa todo el ancho de la pantalla */
+    height: 100vh; /* Ocupa todo el alto de la pantalla */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo gris con transparencia */
+    z-index: 99999999999; /* Asegura que esté por encima de otros elementos */
+    pointer-events: auto; /* Bloquea la interacción con elementos detrás */ /* Permite bloquear la interacción con elementos detrás */
+  }
+
+  .upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0;
+  
+    .custom-progress {
+      --progress-bar-height: 16px; // Grosor de la barra
+      width: 90%; // Puedes ajustar el ancho según quieras
+    }
+  
+    .progress-text {
+      margin-top: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+    }
+
+
+
+
+
+    
+  }

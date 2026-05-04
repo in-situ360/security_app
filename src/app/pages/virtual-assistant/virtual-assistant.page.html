@@ -1,0 +1,54 @@
+<ion-header class="mainheader">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button mode="md" defaultHref="/" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    <ion-icon class="asistente-icono" src="assets/icon/asistente-icono.svg"></ion-icon>
+    <div class="asistente-header">
+      <ion-title class="virtual-assist">Asistente Virtual</ion-title>
+      <p class="state">conectado</p>
+    </div>
+    <ion-buttons slot="end">
+      <ion-button class="chatbutton" slot="icononly" routerLink="/contact-us">
+        <ion-icon name="mail-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="chat">
+    <div class="chat-bubble">
+      <ion-label>Hola, ¡buenos días!</ion-label>
+    </div>
+    <div class="chat-bubble">
+      <ion-label>¿En qué puedo ayudarte?</ion-label>
+    </div>
+    <p class="hour">10:04</p>
+    <div class="chat2">
+      <div class="chat-bubble2">
+        <ion-label>Hola, ¡buenos días!</ion-label>
+      </div>
+      <div class="chat-bubble2">
+        <ion-label>¿Cómo puedo contactar con el Equipo de IN SITU?</ion-label>
+      </div>
+    </div>
+    <p class="hour2">10:04</p>
+    <div class="chat-bubble">
+      <ion-label>Un segundo, porfavor</ion-label>
+    </div>
+    <div class="chat-bubble">
+      <ion-label>Puedes contactar <u>pulsando aquí</u></ion-label>
+    </div>
+    <p class="hour">10:04</p>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-item>
+    <ion-label>
+      <ion-icon name="camera-outline"></ion-icon>
+    </ion-label>
+    <ion-input placeholder="Escribe un mensaje…"></ion-input>
+  </ion-item>
+</ion-footer>

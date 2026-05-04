@@ -1,0 +1,14 @@
+{
+  "privacyManifestVersion": 1,
+  "thirdPartySdk": {
+    "name": "Cordova",
+    "identifier": "org.apache.cordova",
+    "purposeStringKeys": [
+      "NSCameraUsageDescription",
+      "NSPhotoLibraryUsageDescription",
+      "NSLocationWhenInUseUsageDescription",
+      "NSMicrophoneUsageDescription",
+      "NSBluetoothPeripheralUsageDescription"
+    ]
+  }
+}

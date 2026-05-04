@@ -1,0 +1,16 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'FACTURAS' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="billings" *ngFor="let billing of billings">
+    <ion-icon (click)="showBillingPDF(billing.id)" class="roundedImage" src="assets/icons/billingDoc.svg"></ion-icon>
+    <div class="billing-info">
+      <ion-label class="name">{{ 'Factura Nº' | translate }} {{formatId(billing.id)}} </ion-label>
+      <ion-label class="rol">{{billing?.create_at}}</ion-label>
+    </div>
+    <img (click)="downloadPdf(billing.id)" src="assets/icons/billingDownload.svg" class="dotmenu">
+  </div>
+
+</ion-content>

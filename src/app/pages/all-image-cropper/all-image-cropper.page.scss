@@ -1,0 +1,39 @@
+.image-cropper-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+  #iconLeft {
+    height: 15px;
+    width: 13px;
+  }
+
+// Media Queries - Solo para Web (ancho > 768px)
+@media (min-width: 769px) {
+  .image-cropper-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: calc(100vh - 200px);
+  }
+
+  ion-header {
+    ion-toolbar {
+      ion-title {
+        font-size: 18px;
+      }
+      
+      ion-button {
+        font-size: 14px;
+      }
+    }
+  }
+
+  #iconLeft {
+    height: 20px;
+    width: 18px;
+  }
+}

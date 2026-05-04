@@ -1,0 +1,34 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <div class="header-top">
+    <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+    <h5 (click)="goBack()" class="header-title">{{ 'ban-users.USUARIOS BLOQUEADOS' | translate }}</h5>
+  </div>
+</ion-header>
+<ion-content>
+
+<ion-content>
+  <div class="users" *ngFor="let user of users">
+    <img class="roundedImage" [src]="user?.avatar">
+    <div class="user-info">
+      <ion-label class="name">{{user?.name}} {{user?.surname1}} </ion-label><!--{{user?.representativeName}}-->
+      <ion-label class="rol">{{user?.proffesion}}</ion-label>
+    </div>
+    <img (click)="showAlert(user)" src="assets/imgs/menu-puntos.png" class="dotmenu">
+  </div>
+ <!-- <div class="users">
+    <img src="assets/imgs/user2.png">
+    <div class="user-info">
+      <ion-label class="name">Marta Arias</ion-label>
+      <ion-label class="rol">Fotógrafa · Perfil verificado</ion-label>
+    </div>
+    <img src="assets/imgs/menu-puntos.png" class="dotmenu">
+  </div>
+  <div class="users">
+    <img src="assets/imgs/user3.png">
+    <div class="user-info">
+      <ion-label class="name">Marcos Cala</ion-label>
+      <ion-label class="rol">Actor · Perfil verificado</ion-label>
+    </div>
+    <img src="assets/imgs/menu-puntos.png" class="dotmenu">
+  </div>-->
+</ion-content>

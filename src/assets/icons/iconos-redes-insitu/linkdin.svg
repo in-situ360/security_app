@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="152" height="152" viewBox="0 0 152 152">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_37640" data-name="Trazado 37640" d="M76,0A76,76,0,1,1,0,76,76,76,0,0,1,76,0Z" transform="translate(784 728)" fill="#0a66c2"/>
+    </clipPath>
+  </defs>
+  <g id="linkdin" transform="translate(-784 -728)">
+    <g id="Grupo_11066" data-name="Grupo 11066">
+      <circle id="Elipse_530" data-name="Elipse 530" cx="76" cy="76" r="76" transform="translate(784 728)" fill="#0a66c2"/>
+      <path id="Trazado_37649" data-name="Trazado 37649" d="M0,0H86.98V91H0Z" transform="translate(817 759)" fill="#fff"/>
+      <g id="Enmascarar_grupo_4" data-name="Enmascarar grupo 4" clip-path="url(#clip-path)">
+        <g id="_77dac496b3224fc" data-name="77dac496b3224fc" transform="translate(804.741 748.544)">
+          <path id="Path_2525" data-name="Path 2525" d="M2310.223,543.783a2.04,2.04,0,0,0,2.057-2.157c0-1.53-.923-2.261-2.817-2.261h-3.06v8.01h1.151v-3.492h1.414l.032.042,2.195,3.449h1.231l-2.361-3.57Zm-1.331-.8h-1.334v-2.708h1.691c.874,0,1.87.143,1.87,1.287,0,1.316-1.008,1.421-2.234,1.421" transform="translate(-2186.363 -439.905)" fill="#0a66c2"/>
+          <path id="Path_2520" data-name="Path 2520" d="M1886.544,207.608h-16.319V182.052c0-6.094-.109-13.939-8.488-13.939-8.5,0-9.8,6.64-9.8,13.5v26h-16.319V155.053h15.666v7.182h.219a17.169,17.169,0,0,1,15.457-8.489c16.54,0,19.59,10.879,19.59,25.033Zm-69.338-59.739a9.47,9.47,0,1,1,9.468-9.47,9.47,9.47,0,0,1-9.468,9.47m8.159,59.739H1809.03V155.053h16.336Zm69.315-93.834h-93.851a8.037,8.037,0,0,0-8.127,7.938v94.24a8.042,8.042,0,0,0,8.127,7.947h93.851a8.059,8.059,0,0,0,8.159-7.947V121.706a8.054,8.054,0,0,0-8.16-7.938" transform="translate(-1792.704 -113.768)" fill="#0a66c2"/>
+          <path id="Path_2526" data-name="Path 2526" d="M2292.819,524.1a7.51,7.51,0,1,0,.145,0h-.145m0,14.16a6.585,6.585,0,1,1,6.475-6.694c0,.037,0,.073,0,.11a6.444,6.444,0,0,1-6.3,6.58h-.17" transform="translate(-2170.142 -428.207)" fill="#0a66c2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

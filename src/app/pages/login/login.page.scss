@@ -1,0 +1,152 @@
+.ios-style{
+    bottom: 70px !important;
+}
+  
+.android-style{
+    bottom: 26px !important;
+}
+
+
+
+ion-header{
+    background-color: #201F24;
+    .logo{
+        //margin-top: 20%;
+        //margin-bottom: 5%;
+        margin-top: 95px;
+        margin-bottom: 17px;
+        img{
+            width: 137px;
+        }
+    }
+}
+
+
+ion-content{
+    --overflow: hidden;
+    z-index: 99;
+    //--background: #201F24;
+    .form-wrapper{
+        position: absolute;
+        z-index: 9999;
+        width: 100%;
+        background: white;
+        border-radius: 25px 25px 0 0;
+        height: 100%;
+        justify-items: center;
+        display: inline-grid;
+        .title{
+            color:#2E2D2E;
+            margin-bottom: 30px;
+            font-family: 'LeagueSpartan SemiBold';
+            font-size: 34px;
+        }
+        .forgetpsw {
+            color:#2E2D2E;
+            font-family: 'Poppins Medium';
+            font-size: 14px;
+            margin-top:20px;
+            margin-bottom: 30px;
+            text-decoration: underline;
+        }
+    }
+    ion-button{
+        text-transform: none;
+    }
+    form {
+        width: 90%;
+    }
+    
+    ion-item::part(native) {
+        --border-radius: 50pt;
+    }
+
+    @media (min-width: 769px) {
+        --overflow: visible;
+        .form-wrapper{
+            position: relative;
+            min-height: 100vh;
+            height: auto;
+        }
+    }    
+}
+ion-input{
+    font-family: "Poppins Regular" !important;
+   // --padding-top: 7px;
+}
+
+#iconMail{
+    margin-top: 5px;
+}
+
+#iconPass{
+    margin-top: 5px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+#pFooter{
+    font-size: 13px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    font-family: "Poppins Regular";
+    width: 100%;
+    z-index: 9999;
+    background-color: #FFFFFF;
+}
+
+.newaccountlink {
+    font-family: 'Poppins Medium';
+    color: #F42EB2;
+    margin-left: 5px;
+}
+
+.footer-kit-image {
+    display: none;
+    width: 100%;
+    height: auto;
+    
+}
+
+@media (min-width: 769px) {
+    .footer-kit-image {
+        display: block;
+    }
+}
+/*ion-footer {
+    font-size: 13px;
+    justify-content: center;
+    display: flex;
+    font-family: 'Poppins Regular';
+    margin-bottom: 0px;
+    
+    background-color: #FFFFFF;
+    
+}*/
+
+#divBackgroundBlack{
+
+    width:100%;
+    height:60px; 
+    background-color:#201F24; 
+    position:absolute;
+    top:0px;
+}
+
+#buttonLoginInvited{
+    margin-top:10px;
+
+}
+
+
+
+  
+
+
+

@@ -1,0 +1,77 @@
+<ion-header id="header" [ngClass]="{'android-style': isAndroid, 'ios-style': isIOS}">
+  <ion-icon (click)="goBack()" id="iconLeft" src="assets/icons/arrowBack.svg"></ion-icon>
+  <h5 (click)="goBack()" class="header-title">{{ 'suscription-detail.Características' | translate }}</h5>
+</ion-header>
+
+<ion-content>
+  <div class="planes">
+    <div 
+      class="planI" 
+      [ngClass]="{'selected-plan': selectedPlan === 'Plan I'}"
+      (click)="selectPlan('Plan I')"
+    >
+      <ion-label class="planname">{{'suscription-detail.Plan I' | translate }}</ion-label>
+      <div class="planprice">
+        <label class="currency">€</label><label class="price"> 0 </label><label class="price2">/{{'suscription-detail.al mes' | translate }}</label>
+      </div>
+    </div>
+    <div 
+      class="planS" 
+      [ngClass]="{'selected-plan': selectedPlan === 'Plan S'}"
+      (click)="selectPlan('Plan S')"
+    >
+      <ion-label class="planname">{{'suscription-detail.Plan S' | translate }}</ion-label>
+      <div class="planprice">
+        <label class="currency">€</label><label class="price"> 9.99 </label><label class="price2">/{{'suscription-detail.al mes' | translate }}</label>
+      </div>
+    </div>
+    <div 
+      class="planI" 
+      [ngClass]="{'selected-plan': selectedPlan === 'Plan 360'}"
+      (click)="selectPlan('Plan 360')"
+    >
+      <ion-label class="planname">{{'suscription-detail.Plan 360' | translate }}</ion-label>
+      <div class="planprice">
+        <label class="currency">€</label><label class="price"> 79.99 </label><label class="price2">/{{'suscription-detail.al mes' | translate }}</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="beneficios">
+    <div class="options" *ngFor="let beneficio of currentBenefits">
+      <label>{{ beneficio | translate }}</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+  </div>
+  
+  <!--<div class="beneficios">
+    <div class="options">
+      <label>Se encuentra incluido todo lo mencionado anteriormente en el Plan I</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Contacta con los profesionales de tu agrado</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Filtros de Búsqueda Premium</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Visualiza toda la información completa de los Perfiles</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Perfil destacado en la Plataforma</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Aumenta tu visibilidad</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+    <div class="options">
+      <label>Métricas Avanzadas del rendimiento de tu perfil</label>
+      <ion-icon name="checkmark-outline"></ion-icon>
+    </div>
+  </div>-->
+</ion-content>
