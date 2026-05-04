@@ -1,6 +1,8 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -16,10 +18,10 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
-    "strictNullChecks": false,
+    "strictNullChecks":false,
     "noImplicitAny": false,
     "lib": [
-      "es2018",
+      "es2018", 
       "dom"
     ],
     "useDefineForClassFields": false
